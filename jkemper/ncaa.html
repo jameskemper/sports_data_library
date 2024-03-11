@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NCAA Tournament Odds</title>
+    <script src="https://cdn.jsdelivr.net/npm/justgage"></script> <!-- JustGage library for the gauge -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script> <!-- Required for JustGage -->
+    <style>
+        select, #gauge {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Select a Conference and Team</h2>
+
+<select id="confSelect" onchange="updateTeamSelect()">
+    <option>Select Conference</option>
+    <!-- Conference options will be populated here -->
+</select>
+
+<select id="teamSelect" onchange="showOdds()">
+    <option>Select Team</option>
+    <!-- Team options will be populated based on conference selection -->
+</select>
+
+<div id="gauge" style="width:400px; height:320px;"></div>
+
+<script>
+// Function to fetch and parse CSV data
+async function fetchCSVData(url) {
+    const response = await fetch(url);
+    const csvText = await response.text();
+    const data = csvText.split('\n').slice(1).map(row => {
+        const [team, conf, , , , , , , , , , , , , odds] = row.split(',');
+        return { team, conf, odds: parseFloat(odds) };
+    });
+    return data.filter(item => item.team && item.conf && !isNaN(item.odds));
+}
+
+// Populate selectors and create gauge based on fetched data
+async function initialize() {
+    const data = await fetchCSVData('MBracketOddsRank.csv'); // Adjust path if necessary
+
+    const confSelect = document.getElementById('confSelect');
+    const confs = [...new Set(data.map(item => item.conf))];
+    confs.forEach(conf => {
+        const option = document.createElement('option');
+        option.value = conf;
+        option.innerText = conf;
+        confSelect.appendChild(option);
+    });
+
+    window.updateTeamSelect = () => {
+        const selectedConf = confSelect.value;
+        const teamSelect = document.getElementById('teamSelect');
+        teamSelect.innerHTML = '<option>Select Team</option>'; // Reset team select
+        
+        const teams = data.filter(item => item.conf === selectedConf);
+        teams.forEach(team => {
+            const option = document.createElement('option');
+            option.value = team.team;
+            option.innerText = team.team;
+            teamSelect.appendChild(option);
+        });
+    };
+
+    window.showOdds = () => {
+        const selectedTeam = document.getElementById('teamSelect').value;
+        const teamData = data.find(item => item.team === selectedTeam);
+        if (teamData) {
+            createGauge(teamData.odds);
+        }
+    };
+
+    function createGauge(odds) {
+        document.getElementById('gauge').innerHTML = ""; // Clear previous gauge
+        new JustGage({
+            id: "gauge",
+            value: odds,
+            min: 0,
+            max: 100,
+            title: "Odds of Making the 2024 NCAA Tournament",
+            label: "%",
+        });
+    }
+}
+
+initialize();
+</script>
+
+</body>
+</html>
