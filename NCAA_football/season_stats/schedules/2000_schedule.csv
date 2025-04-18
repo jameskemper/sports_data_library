@@ -1,0 +1,1293 @@
+game_id,season,week,season_type,start_date,home_team,away_team,home_points,away_points,venue,neutral_site,conference_game,attendance,team
+63081,2000,2,regular,2000-09-02T00:00:00.000Z,Air Force,Cal State Northridge,55,6,,False,,,Air Force
+63133,2000,3,regular,2000-09-09T00:00:00.000Z,Air Force,BYU,31,23,,False,True,,Air Force
+63245,2000,5,regular,2000-09-23T00:00:00.000Z,Utah,Air Force,14,23,,False,True,,Air Force
+63325,2000,6,regular,2000-09-30T00:00:00.000Z,UNLV,Air Force,34,13,,False,True,,Air Force
+63356,2000,7,regular,2000-10-07T00:00:00.000Z,Air Force,Navy,27,13,,False,,,Air Force
+63407,2000,8,regular,2000-10-14T00:00:00.000Z,Wyoming,Air Force,34,51,,False,True,,Air Force
+63483,2000,9,regular,2000-10-21T00:00:00.000Z,Air Force,New Mexico,23,29,,False,True,,Air Force
+63536,2000,10,regular,2000-10-28T00:00:00.000Z,Notre Dame,Air Force,34,31,,False,,,Air Force
+63560,2000,11,regular,2000-11-04T00:00:00.000Z,Army,Air Force,27,41,,False,,,Air Force
+63612,2000,12,regular,2000-11-11T00:00:00.000Z,Air Force,Colorado State,44,40,,False,True,,Air Force
+63668,2000,13,regular,2000-11-18T00:00:00.000Z,Air Force,San Diego State,45,24,,False,True,,Air Force
+63127,2000,2,regular,2000-09-02T00:00:00.000Z,Virginia Tech,Akron,52,23,,False,,,Akron
+63140,2000,3,regular,2000-09-09T00:00:00.000Z,Central Michigan,Akron,17,7,,False,True,,Akron
+63190,2000,4,regular,2000-09-16T00:00:00.000Z,Akron,UCF,35,24,,False,,,Akron
+63246,2000,5,regular,2000-09-23T00:00:00.000Z,Ohio,Akron,20,23,,False,True,,Akron
+63300,2000,6,regular,2000-09-30T00:00:00.000Z,Akron,Miami (OH),37,20,,False,True,,Akron
+63357,2000,7,regular,2000-10-07T00:00:00.000Z,Bowling Green,Akron,21,27,,False,True,,Akron
+63439,2000,8,regular,2000-10-14T00:00:00.000Z,Akron,Northern Illinois,35,52,,False,True,,Akron
+63468,2000,9,regular,2000-10-21T00:00:00.000Z,Akron,UConn,35,38,,False,,,Akron
+63526,2000,10,regular,2000-10-28T00:00:00.000Z,Akron,Marshall,28,31,,False,True,,Akron
+63613,2000,12,regular,2000-11-11T00:00:00.000Z,Akron,Buffalo,49,14,,False,True,,Akron
+63669,2000,13,regular,2000-11-18T00:00:00.000Z,Kent State,Akron,6,34,,False,True,,Akron
+63126,2000,2,regular,2000-09-02T00:00:00.000Z,UCLA,Alabama,35,24,,False,,,Alabama
+63134,2000,3,regular,2000-09-09T00:00:00.000Z,Alabama,Vanderbilt,28,10,,False,True,,Alabama
+63225,2000,4,regular,2000-09-16T00:00:00.000Z,Alabama,Southern Miss,0,21,,False,,,Alabama
+63249,2000,5,regular,2000-09-23T00:00:00.000Z,Arkansas,Alabama,28,21,,False,True,,Alabama
+63301,2000,6,regular,2000-09-30T00:00:00.000Z,Alabama,South Carolina,27,17,,False,True,,Alabama
+63408,2000,8,regular,2000-10-14T00:00:00.000Z,Alabama,Ole Miss,45,7,,False,True,,Alabama
+63500,2000,9,regular,2000-10-21T00:00:00.000Z,Tennessee,Alabama,20,10,,False,True,,Alabama
+63516,2000,10,regular,2000-10-28T00:00:00.000Z,Alabama,UCF,38,40,,False,,,Alabama
+63576,2000,11,regular,2000-11-04T00:00:00.000Z,LSU,Alabama,30,28,,False,True,,Alabama
+63637,2000,12,regular,2000-11-11T00:00:00.000Z,Mississippi State,Alabama,29,7,,False,True,,Alabama
+63672,2000,13,regular,2000-11-18T00:00:00.000Z,Alabama,Auburn,0,9,,False,True,,Alabama
+63073,2000,2,regular,2000-08-31T00:00:00.000Z,Wake Forest,App State,16,20,,False,,,App State
+63082,2000,2,regular,2000-09-02T00:00:00.000Z,Utah,Arizona,3,17,,False,,,Arizona
+63164,2000,3,regular,2000-09-09T00:00:00.000Z,Arizona,Ohio State,17,27,,False,,,Arizona
+63191,2000,4,regular,2000-09-16T00:00:00.000Z,Arizona,San Diego State,17,3,,False,,,Arizona
+63303,2000,6,regular,2000-09-30T00:00:00.000Z,Stanford,Arizona,3,27,,False,True,,Arizona
+63358,2000,7,regular,2000-10-07T00:00:00.000Z,USC,Arizona,15,31,,False,True,,Arizona
+63410,2000,8,regular,2000-10-14T00:00:00.000Z,Arizona,Washington State,53,47,,False,True,,Arizona
+63488,2000,9,regular,2000-10-21T00:00:00.000Z,Oregon,Arizona,14,10,,False,True,,Arizona
+63552,2000,10,regular,2000-10-28T00:00:00.000Z,Arizona,UCLA,24,27,,False,True,,Arizona
+63608,2000,11,regular,2000-11-04T00:00:00.000Z,Washington,Arizona,35,32,,False,True,,Arizona
+63647,2000,12,regular,2000-11-11T00:00:00.000Z,Arizona,Oregon State,9,33,,False,True,,Arizona
+63720,2000,14,regular,2000-11-24T00:00:00.000Z,Arizona,Arizona State,17,30,,False,True,,Arizona
+63074,2000,2,regular,2000-08-31T00:00:00.000Z,San Diego State,Arizona State,7,10,,False,,,Arizona State
+63192,2000,4,regular,2000-09-16T00:00:00.000Z,Arizona State,Colorado State,13,10,,False,,,Arizona State
+63248,2000,5,regular,2000-09-23T00:00:00.000Z,Arizona State,Utah State,44,20,,False,,,Arizona State
+63346,2000,6,regular,2000-09-30T00:00:00.000Z,UCLA,Arizona State,38,31,,False,True,,Arizona State
+63359,2000,7,regular,2000-10-07T00:00:00.000Z,Arizona State,California,30,10,,False,True,,Arizona State
+63455,2000,8,regular,2000-10-14T00:00:00.000Z,Arizona State,Washington,15,21,,False,True,,Arizona State
+63459,2000,9,regular,2000-10-21T00:00:00.000Z,Washington State,Arizona State,20,23,,False,True,,Arizona State
+63538,2000,10,regular,2000-10-28T00:00:00.000Z,Arizona State,Oregon,55,56,,False,True,,Arizona State
+63596,2000,11,regular,2000-11-04T00:00:00.000Z,Arizona State,USC,38,44,,False,True,,Arizona State
+63651,2000,12,regular,2000-11-11T00:00:00.000Z,Stanford,Arizona State,29,7,,False,True,,Arizona State
+63720,2000,14,regular,2000-11-24T00:00:00.000Z,Arizona,Arizona State,17,30,,False,True,,Arizona State
+63083,2000,2,regular,2000-09-02T00:00:00.000Z,Arkansas,Missouri State,38,0,,False,,,Arkansas
+63193,2000,4,regular,2000-09-16T00:00:00.000Z,Arkansas,Boise State,38,31,,False,,,Arkansas
+63249,2000,5,regular,2000-09-23T00:00:00.000Z,Arkansas,Alabama,28,21,,False,True,,Arkansas
+63309,2000,6,regular,2000-09-30T00:00:00.000Z,Arkansas,Georgia,7,38,,False,True,,Arkansas
+63360,2000,7,regular,2000-10-07T00:00:00.000Z,Arkansas,UL Monroe,52,6,,False,,,Arkansas
+63446,2000,8,regular,2000-10-14T00:00:00.000Z,South Carolina,Arkansas,27,7,,False,True,,Arkansas
+63511,2000,10,regular,2000-10-28T00:00:00.000Z,Auburn,Arkansas,21,19,,False,True,,Arkansas
+63583,2000,11,regular,2000-11-04T00:00:00.000Z,Arkansas,Ole Miss,24,38,,False,True,,Arkansas
+63653,2000,12,regular,2000-11-11T00:00:00.000Z,Tennessee,Arkansas,63,20,,False,True,,Arkansas
+63671,2000,13,regular,2000-11-18T00:00:00.000Z,Mississippi State,Arkansas,10,17,,False,True,,Arkansas
+63721,2000,14,regular,2000-11-24T00:00:00.000Z,Arkansas,LSU,14,3,,False,True,,Arkansas
+63106,2000,2,regular,2000-09-02T00:00:00.000Z,NC State,Arkansas State,38,31,,False,,,Arkansas State
+63165,2000,3,regular,2000-09-09T00:00:00.000Z,Oklahoma,Arkansas State,45,7,,False,,,Arkansas State
+63208,2000,4,regular,2000-09-16T00:00:00.000Z,Arkansas State,Memphis,17,19,,False,,,Arkansas State
+63292,2000,5,regular,2000-09-23T00:00:00.000Z,TCU,Arkansas State,52,3,,False,,,Arkansas State
+63333,2000,6,regular,2000-09-30T00:00:00.000Z,Arkansas State,Richmond,27,30,,False,,,Arkansas State
+63377,2000,7,regular,2000-10-07T00:00:00.000Z,Ole Miss,Arkansas State,35,10,,False,,,Arkansas State
+63425,2000,8,regular,2000-10-14T00:00:00.000Z,Idaho,Arkansas State,42,25,,False,True,,Arkansas State
+63484,2000,9,regular,2000-10-21T00:00:00.000Z,Arkansas State,New Mexico State,29,35,,False,True,,Arkansas State
+63553,2000,10,regular,2000-10-28T00:00:00.000Z,Utah State,Arkansas State,44,31,,False,True,,Arkansas State
+63561,2000,11,regular,2000-11-04T00:00:00.000Z,Arkansas State,Boise State,14,42,,False,True,,Arkansas State
+63614,2000,12,regular,2000-11-11T00:00:00.000Z,Arkansas State,North Texas,53,28,,False,True,,Arkansas State
+63130,2000,2,regular,2000-09-04T00:00:00.000Z,Cincinnati,Army,23,17,,False,True,,Army
+63137,2000,3,regular,2000-09-09T00:00:00.000Z,Army,Boston College,17,55,,False,,,Army
+63201,2000,4,regular,2000-09-16T00:00:00.000Z,Houston,Army,31,30,,False,True,,Army
+63268,2000,5,regular,2000-09-23T00:00:00.000Z,Army,Memphis,16,26,,False,True,,Army
+63382,2000,7,regular,2000-10-07T00:00:00.000Z,New Mexico State,Army,42,23,,False,,,Army
+63418,2000,8,regular,2000-10-14T00:00:00.000Z,East Carolina,Army,42,21,,False,True,,Army
+63460,2000,9,regular,2000-10-21T00:00:00.000Z,Army,Tulane,21,17,,False,True,,Army
+63560,2000,11,regular,2000-11-04T00:00:00.000Z,Army,Air Force,27,41,,False,,,Army
+63631,2000,12,regular,2000-11-11T00:00:00.000Z,Louisville,Army,38,17,,False,True,,Army
+63670,2000,13,regular,2000-11-18T00:00:00.000Z,Army,UAB,7,27,,False,True,,Army
+63742,2000,15,regular,2000-12-02T00:00:00.000Z,Navy,Army,30,28,,False,,,Army
+63075,2000,2,regular,2000-08-31T00:00:00.000Z,Auburn,Wyoming,35,21,,False,,,Auburn
+63135,2000,3,regular,2000-09-09T00:00:00.000Z,Ole Miss,Auburn,27,35,,False,True,,Auburn
+63194,2000,4,regular,2000-09-16T00:00:00.000Z,Auburn,LSU,34,17,,False,True,,Auburn
+63250,2000,5,regular,2000-09-23T00:00:00.000Z,Auburn,Northern Illinois,31,14,,False,,,Auburn
+63304,2000,6,regular,2000-09-30T00:00:00.000Z,Auburn,Vanderbilt,33,0,,False,True,,Auburn
+63378,2000,7,regular,2000-10-07T00:00:00.000Z,Mississippi State,Auburn,17,10,,False,True,,Auburn
+63419,2000,8,regular,2000-10-14T00:00:00.000Z,Florida,Auburn,38,7,,False,True,,Auburn
+63461,2000,9,regular,2000-10-21T00:00:00.000Z,Auburn,Louisiana Tech,38,28,,False,,,Auburn
+63511,2000,10,regular,2000-10-28T00:00:00.000Z,Auburn,Arkansas,21,19,,False,True,,Auburn
+63615,2000,12,regular,2000-11-11T00:00:00.000Z,Auburn,Georgia,29,26,,False,True,,Auburn
+63672,2000,13,regular,2000-11-18T00:00:00.000Z,Alabama,Auburn,0,9,,False,True,,Auburn
+63090,2000,2,regular,2000-09-02T00:00:00.000Z,Florida,Ball State,40,19,,False,,,Ball State
+63186,2000,3,regular,2000-09-09T00:00:00.000Z,Ball State,Western Illinois,14,24,,False,,,Ball State
+63205,2000,4,regular,2000-09-16T00:00:00.000Z,Kansas State,Ball State,76,0,,False,,,Ball State
+63327,2000,6,regular,2000-09-30T00:00:00.000Z,Ball State,Northern Illinois,14,43,,False,True,,Ball State
+63361,2000,7,regular,2000-10-07T00:00:00.000Z,Miami (OH),Ball State,10,15,,False,True,,Ball State
+63411,2000,8,regular,2000-10-14T00:00:00.000Z,Ball State,Eastern Michigan,33,14,,False,True,,Ball State
+63462,2000,9,regular,2000-10-21T00:00:00.000Z,Buffalo,Ball State,35,44,,False,True,,Ball State
+63512,2000,10,regular,2000-10-28T00:00:00.000Z,Central Michigan,Ball State,34,38,,False,True,,Ball State
+63609,2000,11,regular,2000-11-04T00:00:00.000Z,Ball State,Western Michigan,3,42,,False,True,,Ball State
+63658,2000,12,regular,2000-11-11T00:00:00.000Z,Toledo,Ball State,31,3,,False,True,,Ball State
+63673,2000,13,regular,2000-11-18T00:00:00.000Z,Ball State,UConn,29,0,,False,,,Ball State
+63076,2000,2,regular,2000-08-31T00:00:00.000Z,North Texas,Baylor,7,20,,False,,,Baylor
+63211,2000,4,regular,2000-09-16T00:00:00.000Z,Baylor,Minnesota,9,34,,False,,,Baylor
+63251,2000,5,regular,2000-09-23T00:00:00.000Z,Baylor,South Florida,28,13,,False,,,Baylor
+63314,2000,6,regular,2000-09-30T00:00:00.000Z,Baylor,Iowa State,17,31,,False,True,,Baylor
+63396,2000,7,regular,2000-10-07T00:00:00.000Z,Texas Tech,Baylor,28,0,,False,True,,Baylor
+63450,2000,8,regular,2000-10-14T00:00:00.000Z,Baylor,Texas A&M,0,24,,False,True,,Baylor
+63481,2000,9,regular,2000-10-21T00:00:00.000Z,Nebraska,Baylor,59,0,,False,True,,Baylor
+63547,2000,10,regular,2000-10-28T00:00:00.000Z,Texas,Baylor,48,14,,False,True,,Baylor
+63589,2000,11,regular,2000-11-04T00:00:00.000Z,Baylor,Oklahoma,7,56,,False,True,,Baylor
+63638,2000,12,regular,2000-11-11T00:00:00.000Z,Baylor,Missouri,22,47,,False,True,,Baylor
+63700,2000,13,regular,2000-11-18T00:00:00.000Z,Oklahoma State,Baylor,50,22,,False,True,,Baylor
+63084,2000,2,regular,2000-09-02T00:00:00.000Z,New Mexico,Boise State,14,31,,False,,,Boise State
+63136,2000,3,regular,2000-09-09T00:00:00.000Z,Boise State,Northern Iowa,42,17,,False,,,Boise State
+63193,2000,4,regular,2000-09-16T00:00:00.000Z,Arkansas,Boise State,38,31,,False,,,Boise State
+63252,2000,5,regular,2000-09-23T00:00:00.000Z,Central Michigan,Boise State,10,47,,False,,,Boise State
+63404,2000,7,regular,2000-10-07T00:00:00.000Z,Washington State,Boise State,42,35,,False,,,Boise State
+63412,2000,8,regular,2000-10-14T00:00:00.000Z,Boise State,Eastern Washington,41,23,,False,,,Boise State
+63463,2000,9,regular,2000-10-21T00:00:00.000Z,Boise State,North Texas,59,0,,False,True,,Boise State
+63513,2000,10,regular,2000-10-28T00:00:00.000Z,New Mexico State,Boise State,31,34,,False,True,,Boise State
+63561,2000,11,regular,2000-11-04T00:00:00.000Z,Arkansas State,Boise State,14,42,,False,True,,Boise State
+63616,2000,12,regular,2000-11-11T00:00:00.000Z,Boise State,Utah State,66,38,,False,True,,Boise State
+63674,2000,13,regular,2000-11-18T00:00:00.000Z,Boise State,Idaho,66,24,,False,True,,Boise State
+63129,2000,2,regular,2000-09-02T00:00:00.000Z,West Virginia,Boston College,34,14,,False,True,,Boston College
+63137,2000,3,regular,2000-09-09T00:00:00.000Z,Army,Boston College,17,55,,False,,,Boston College
+63253,2000,5,regular,2000-09-23T00:00:00.000Z,Boston College,Navy,48,7,,False,,,Boston College
+63349,2000,6,regular,2000-09-30T00:00:00.000Z,Boston College,Virginia Tech,34,48,,False,True,,Boston College
+63362,2000,7,regular,2000-10-07T00:00:00.000Z,Boston College,UConn,55,3,,False,,,Boston College
+63413,2000,8,regular,2000-10-14T00:00:00.000Z,Boston College,Syracuse,20,13,,False,True,,Boston College
+63491,2000,9,regular,2000-10-21T00:00:00.000Z,Pittsburgh,Boston College,42,26,,False,True,,Boston College
+63514,2000,10,regular,2000-10-28T00:00:00.000Z,Boston College,Rutgers,42,13,,False,True,,Boston College
+63562,2000,11,regular,2000-11-04T00:00:00.000Z,Boston College,Temple,31,3,,False,True,,Boston College
+63642,2000,12,regular,2000-11-11T00:00:00.000Z,Notre Dame,Boston College,28,16,,False,,,Boston College
+63730,2000,14,regular,2000-11-25T00:00:00.000Z,Miami,Boston College,52,6,,False,True,,Boston College
+63099,2000,2,regular,2000-09-02T00:00:00.000Z,Michigan,Bowling Green,42,7,,False,,,Bowling Green
+63169,2000,3,regular,2000-09-09T00:00:00.000Z,Bowling Green,Pittsburgh,16,34,,False,,,Bowling Green
+63228,2000,4,regular,2000-09-16T00:00:00.000Z,Temple,Bowling Green,31,14,,False,,,Bowling Green
+63255,2000,5,regular,2000-09-23T00:00:00.000Z,Buffalo,Bowling Green,20,17,,False,True,,Bowling Green
+63305,2000,6,regular,2000-09-30T00:00:00.000Z,Kent State,Bowling Green,11,18,,False,True,,Bowling Green
+63357,2000,7,regular,2000-10-07T00:00:00.000Z,Bowling Green,Akron,21,27,,False,True,,Bowling Green
+63432,2000,8,regular,2000-10-14T00:00:00.000Z,Miami (OH),Bowling Green,24,10,,False,True,,Bowling Green
+63464,2000,9,regular,2000-10-21T00:00:00.000Z,Bowling Green,Eastern Michigan,20,6,,False,True,,Bowling Green
+63578,2000,11,regular,2000-11-04T00:00:00.000Z,Bowling Green,Marshall,13,20,,False,True,,Bowling Green
+63643,2000,12,regular,2000-11-11T00:00:00.000Z,Bowling Green,Ohio,21,23,,False,True,,Bowling Green
+63718,2000,14,regular,2000-11-22T00:00:00.000Z,Toledo,Bowling Green,51,17,,False,True,,Bowling Green
+63121,2000,2,regular,2000-09-02T00:00:00.000Z,Syracuse,Buffalo,63,7,,False,,,Buffalo
+63172,2000,3,regular,2000-09-09T00:00:00.000Z,Rutgers,Buffalo,59,0,,False,,,Buffalo
+63196,2000,4,regular,2000-09-16T00:00:00.000Z,Buffalo,UConn,21,24,,False,,,Buffalo
+63255,2000,5,regular,2000-09-23T00:00:00.000Z,Buffalo,Bowling Green,20,17,,False,True,,Buffalo
+63318,2000,6,regular,2000-09-30T00:00:00.000Z,Marshall,Buffalo,47,14,,False,True,,Buffalo
+63386,2000,7,regular,2000-10-07T00:00:00.000Z,Ohio,Buffalo,42,20,,False,True,,Buffalo
+63462,2000,9,regular,2000-10-21T00:00:00.000Z,Buffalo,Ball State,35,44,,False,True,,Buffalo
+63534,2000,10,regular,2000-10-28T00:00:00.000Z,Northern Illinois,Buffalo,73,10,,False,True,,Buffalo
+63563,2000,11,regular,2000-11-04T00:00:00.000Z,Buffalo,Kent State,20,17,,False,True,,Buffalo
+63613,2000,12,regular,2000-11-11T00:00:00.000Z,Akron,Buffalo,49,14,,False,True,,Buffalo
+63688,2000,13,regular,2000-11-18T00:00:00.000Z,Buffalo,Miami (OH),16,17,,False,True,,Buffalo
+63068,2000,1,regular,2000-08-26T00:00:00.000Z,Florida State,BYU,29,3,,False,,,BYU
+63085,2000,2,regular,2000-09-02T00:00:00.000Z,Virginia,BYU,35,38,,False,,,BYU
+63133,2000,3,regular,2000-09-09T00:00:00.000Z,Air Force,BYU,31,23,,False,True,,BYU
+63189,2000,4,regular,2000-09-14T00:00:00.000Z,BYU,Mississippi State,28,44,,False,,,BYU
+63254,2000,5,regular,2000-09-23T00:00:00.000Z,BYU,UNLV,10,7,,False,True,,BYU
+63337,2000,6,regular,2000-09-30T00:00:00.000Z,Syracuse,BYU,42,14,,False,,,BYU
+63355,2000,7,regular,2000-10-06T00:00:00.000Z,BYU,Utah State,38,14,,False,,,BYU
+63495,2000,9,regular,2000-10-21T00:00:00.000Z,BYU,San Diego State,15,16,,False,True,,BYU
+63509,2000,10,regular,2000-10-26T00:00:00.000Z,BYU,Wyoming,19,7,,False,True,,BYU
+63559,2000,11,regular,2000-11-02T00:00:00.000Z,Colorado State,BYU,45,21,,False,True,,BYU
+63675,2000,13,regular,2000-11-18T00:00:00.000Z,BYU,New Mexico,37,13,,False,True,,BYU
+63722,2000,14,regular,2000-11-24T00:00:00.000Z,Utah,BYU,27,34,,False,True,,BYU
+63138,2000,3,regular,2000-09-09T00:00:00.000Z,California,Utah,24,21,,False,,,California
+63202,2000,4,regular,2000-09-16T00:00:00.000Z,Illinois,California,17,15,,False,,,California
+63261,2000,5,regular,2000-09-23T00:00:00.000Z,Fresno State,California,17,3,,False,,,California
+63350,2000,6,regular,2000-09-30T00:00:00.000Z,California,Washington State,17,21,,False,True,,California
+63359,2000,7,regular,2000-10-07T00:00:00.000Z,Arizona State,California,30,10,,False,True,,California
+63414,2000,8,regular,2000-10-14T00:00:00.000Z,California,UCLA,46,38,,False,True,,California
+63507,2000,9,regular,2000-10-21T00:00:00.000Z,Washington,California,36,24,,False,True,,California
+63515,2000,10,regular,2000-10-28T00:00:00.000Z,USC,California,16,28,,False,True,,California
+63591,2000,11,regular,2000-11-04T00:00:00.000Z,California,Oregon State,32,38,,False,True,,California
+63646,2000,12,regular,2000-11-11T00:00:00.000Z,Oregon,California,25,17,,False,True,,California
+63707,2000,13,regular,2000-11-18T00:00:00.000Z,California,Stanford,30,36,,False,True,,California
+63113,2000,2,regular,2000-09-02T00:00:00.000Z,Purdue,Central Michigan,48,0,,False,,,Central Michigan
+63140,2000,3,regular,2000-09-09T00:00:00.000Z,Central Michigan,Akron,17,7,,False,True,,Central Michigan
+63242,2000,4,regular,2000-09-16T00:00:00.000Z,Wyoming,Central Michigan,31,10,,False,,,Central Michigan
+63252,2000,5,regular,2000-09-23T00:00:00.000Z,Central Michigan,Boise State,10,47,,False,,,Central Michigan
+63343,2000,6,regular,2000-09-30T00:00:00.000Z,Toledo,Central Michigan,41,0,,False,True,,Central Michigan
+63371,2000,7,regular,2000-10-07T00:00:00.000Z,Central Michigan,Kent State,21,24,,False,True,,Central Michigan
+63486,2000,9,regular,2000-10-21T00:00:00.000Z,Ohio,Central Michigan,52,3,,False,True,,Central Michigan
+63512,2000,10,regular,2000-10-28T00:00:00.000Z,Central Michigan,Ball State,34,38,,False,True,,Central Michigan
+63567,2000,11,regular,2000-11-04T00:00:00.000Z,Eastern Michigan,Central Michigan,31,15,,False,True,,Central Michigan
+63617,2000,12,regular,2000-11-11T00:00:00.000Z,Central Michigan,Western Michigan,21,17,,False,True,,Central Michigan
+63695,2000,13,regular,2000-11-18T00:00:00.000Z,Northern Illinois,Central Michigan,40,6,,False,True,,Central Michigan
+63130,2000,2,regular,2000-09-04T00:00:00.000Z,Cincinnati,Army,23,17,,False,True,,Cincinnati
+63141,2000,3,regular,2000-09-09T00:00:00.000Z,Cincinnati,Syracuse,12,10,,False,,,Cincinnati
+63241,2000,4,regular,2000-09-16T00:00:00.000Z,Wisconsin,Cincinnati,28,25,,False,,,Cincinnati
+63264,2000,5,regular,2000-09-23T00:00:00.000Z,Indiana,Cincinnati,42,6,,False,,,Cincinnati
+63344,2000,6,regular,2000-09-30T00:00:00.000Z,Tulane,Cincinnati,24,19,,False,True,,Cincinnati
+63363,2000,7,regular,2000-10-07T00:00:00.000Z,Cincinnati,Houston,48,31,,False,True,,Cincinnati
+63431,2000,8,regular,2000-10-14T00:00:00.000Z,Louisville,Cincinnati,38,24,,False,True,,Cincinnati
+63517,2000,10,regular,2000-10-28T00:00:00.000Z,Cincinnati,Miami (OH),45,15,,False,,,Cincinnati
+63565,2000,11,regular,2000-11-04T00:00:00.000Z,Cincinnati,UAB,33,21,,False,True,,Cincinnati
+63618,2000,12,regular,2000-11-11T00:00:00.000Z,Memphis,Cincinnati,10,13,,False,True,,Cincinnati
+63676,2000,13,regular,2000-11-18T00:00:00.000Z,Cincinnati,Southern Miss,27,24,,False,True,,Cincinnati
+63086,2000,2,regular,2000-09-02T00:00:00.000Z,Clemson,The Citadel,38,0,,False,,,Clemson
+63142,2000,3,regular,2000-09-09T00:00:00.000Z,Clemson,Missouri,62,9,,False,,,Clemson
+63195,2000,4,regular,2000-09-16T00:00:00.000Z,Clemson,Wake Forest,55,7,,False,True,,Clemson
+63257,2000,5,regular,2000-09-23T00:00:00.000Z,Virginia,Clemson,10,31,,False,True,,Clemson
+63307,2000,6,regular,2000-09-30T00:00:00.000Z,Duke,Clemson,22,52,,False,True,,Clemson
+63364,2000,7,regular,2000-10-07T00:00:00.000Z,Clemson,NC State,34,27,,False,True,,Clemson
+63416,2000,8,regular,2000-10-14T00:00:00.000Z,Clemson,Maryland,35,14,,False,True,,Clemson
+63466,2000,9,regular,2000-10-21T00:00:00.000Z,North Carolina,Clemson,24,38,,False,True,,Clemson
+63523,2000,10,regular,2000-10-28T00:00:00.000Z,Clemson,Georgia Tech,28,31,,False,True,,Clemson
+63569,2000,11,regular,2000-11-04T00:00:00.000Z,Florida State,Clemson,54,7,,False,True,,Clemson
+63677,2000,13,regular,2000-11-18T00:00:00.000Z,Clemson,South Carolina,16,14,,False,,,Clemson
+63087,2000,2,regular,2000-09-02T00:00:00.000Z,Colorado State,Colorado,28,24,,False,,,Colorado
+63175,2000,3,regular,2000-09-09T00:00:00.000Z,USC,Colorado,17,14,,False,,,Colorado
+63237,2000,4,regular,2000-09-16T00:00:00.000Z,Colorado,Washington,14,17,,False,,,Colorado
+63315,2000,6,regular,2000-09-30T00:00:00.000Z,Colorado,Kansas State,21,44,,False,True,,Colorado
+63365,2000,7,regular,2000-10-07T00:00:00.000Z,Texas A&M,Colorado,19,26,,False,True,,Colorado
+63449,2000,8,regular,2000-10-14T00:00:00.000Z,Colorado,Texas,14,28,,False,True,,Colorado
+63474,2000,9,regular,2000-10-21T00:00:00.000Z,Kansas,Colorado,23,15,,False,True,,Colorado
+63518,2000,10,regular,2000-10-28T00:00:00.000Z,Colorado,Oklahoma State,37,21,,False,True,,Colorado
+63566,2000,11,regular,2000-11-04T00:00:00.000Z,Missouri,Colorado,18,28,,False,True,,Colorado
+63626,2000,12,regular,2000-11-11T00:00:00.000Z,Colorado,Iowa State,27,35,,False,True,,Colorado
+63724,2000,14,regular,2000-11-24T00:00:00.000Z,Nebraska,Colorado,34,32,,False,True,,Colorado
+63087,2000,2,regular,2000-09-02T00:00:00.000Z,Colorado State,Colorado,28,24,,False,,,Colorado State
+63143,2000,3,regular,2000-09-09T00:00:00.000Z,Colorado State,East Tennessee State,41,7,,False,,,Colorado State
+63192,2000,4,regular,2000-09-16T00:00:00.000Z,Arizona State,Colorado State,13,10,,False,,,Colorado State
+63308,2000,6,regular,2000-09-30T00:00:00.000Z,Nevada,Colorado State,14,45,,False,,,Colorado State
+63366,2000,7,regular,2000-10-07T00:00:00.000Z,Colorado State,New Mexico,17,14,,False,True,,Colorado State
+63417,2000,8,regular,2000-10-14T00:00:00.000Z,Colorado State,UNLV,20,19,,False,True,,Colorado State
+63467,2000,9,regular,2000-10-21T00:00:00.000Z,Utah,Colorado State,17,24,,False,True,,Colorado State
+63519,2000,10,regular,2000-10-28T00:00:00.000Z,San Diego State,Colorado State,22,34,,False,True,,Colorado State
+63559,2000,11,regular,2000-11-02T00:00:00.000Z,Colorado State,BYU,45,21,,False,True,,Colorado State
+63612,2000,12,regular,2000-11-11T00:00:00.000Z,Air Force,Colorado State,44,40,,False,True,,Colorado State
+63667,2000,13,regular,2000-11-16T00:00:00.000Z,Colorado State,Wyoming,37,13,,False,True,,Colorado State
+63088,2000,2,regular,2000-09-02T00:00:00.000Z,Duke,East Carolina,0,38,,False,,,Duke
+63162,2000,3,regular,2000-09-09T00:00:00.000Z,Northwestern,Duke,38,5,,False,,,Duke
+63235,2000,4,regular,2000-09-16T00:00:00.000Z,Duke,Virginia,10,26,,False,True,,Duke
+63296,2000,5,regular,2000-09-23T00:00:00.000Z,Vanderbilt,Duke,26,7,,False,,,Duke
+63307,2000,6,regular,2000-09-30T00:00:00.000Z,Duke,Clemson,22,52,,False,True,,Duke
+63420,2000,8,regular,2000-10-14T00:00:00.000Z,Florida State,Duke,63,14,,False,True,,Duke
+63471,2000,9,regular,2000-10-21T00:00:00.000Z,Georgia Tech,Duke,45,10,,False,True,,Duke
+63527,2000,10,regular,2000-10-28T00:00:00.000Z,Duke,Maryland,9,20,,False,True,,Duke
+63607,2000,11,regular,2000-11-04T00:00:00.000Z,Wake Forest,Duke,28,26,,False,True,,Duke
+63641,2000,12,regular,2000-11-11T00:00:00.000Z,NC State,Duke,35,31,,False,True,,Duke
+63693,2000,13,regular,2000-11-18T00:00:00.000Z,Duke,North Carolina,21,59,,False,True,,Duke
+63088,2000,2,regular,2000-09-02T00:00:00.000Z,Duke,East Carolina,0,38,,False,,,East Carolina
+63132,2000,3,regular,2000-09-07T00:00:00.000Z,East Carolina,Virginia Tech,28,45,,False,,,East Carolina
+63197,2000,4,regular,2000-09-16T00:00:00.000Z,East Carolina,Tulane,37,17,,False,True,,East Carolina
+63258,2000,5,regular,2000-09-23T00:00:00.000Z,East Carolina,Syracuse,34,17,,False,,,East Carolina
+63373,2000,7,regular,2000-10-07T00:00:00.000Z,Memphis,East Carolina,17,10,,False,True,,East Carolina
+63418,2000,8,regular,2000-10-14T00:00:00.000Z,East Carolina,Army,42,21,,False,True,,East Carolina
+63457,2000,9,regular,2000-10-19T00:00:00.000Z,Louisville,East Carolina,25,28,,False,True,,East Carolina
+63510,2000,10,regular,2000-10-28T00:00:00.000Z,East Carolina,UAB,13,16,,False,True,,East Carolina
+63619,2000,12,regular,2000-11-11T00:00:00.000Z,East Carolina,Houston,62,20,,False,True,,East Carolina
+63715,2000,13,regular,2000-11-18T00:00:00.000Z,West Virginia,East Carolina,42,24,,False,,,East Carolina
+63723,2000,14,regular,2000-11-24T00:00:00.000Z,Southern Miss,East Carolina,9,14,,False,True,,East Carolina
+63089,2000,2,regular,2000-09-02T00:00:00.000Z,Eastern Michigan,UConn,32,25,,False,,,Eastern Michigan
+63154,2000,3,regular,2000-09-09T00:00:00.000Z,Eastern Michigan,Miami (OH),17,34,,False,True,,Eastern Michigan
+63223,2000,4,regular,2000-09-16T00:00:00.000Z,South Carolina,Eastern Michigan,41,6,,False,,,Eastern Michigan
+63289,2000,5,regular,2000-09-23T00:00:00.000Z,Temple,Eastern Michigan,49,40,,False,,,Eastern Michigan
+63306,2000,6,regular,2000-09-30T00:00:00.000Z,Eastern Michigan,UCF,10,31,,False,,,Eastern Michigan
+63398,2000,7,regular,2000-10-07T00:00:00.000Z,Eastern Michigan,Toledo,14,42,,False,True,,Eastern Michigan
+63411,2000,8,regular,2000-10-14T00:00:00.000Z,Ball State,Eastern Michigan,33,14,,False,True,,Eastern Michigan
+63464,2000,9,regular,2000-10-21T00:00:00.000Z,Bowling Green,Eastern Michigan,20,6,,False,True,,Eastern Michigan
+63567,2000,11,regular,2000-11-04T00:00:00.000Z,Eastern Michigan,Central Michigan,31,15,,False,True,,Eastern Michigan
+63620,2000,12,regular,2000-11-11T00:00:00.000Z,Eastern Michigan,Northern Illinois,39,32,,False,True,,Eastern Michigan
+63716,2000,13,regular,2000-11-18T00:00:00.000Z,Western Michigan,Eastern Michigan,28,0,,False,True,,Eastern Michigan
+63090,2000,2,regular,2000-09-02T00:00:00.000Z,Florida,Ball State,40,19,,False,,,Florida
+63145,2000,3,regular,2000-09-09T00:00:00.000Z,Florida,Middle Tennessee,55,0,,False,,,Florida
+63198,2000,4,regular,2000-09-16T00:00:00.000Z,Tennessee,Florida,23,27,,False,True,,Florida
+63259,2000,5,regular,2000-09-23T00:00:00.000Z,Florida,Kentucky,59,31,,False,True,,Florida
+63323,2000,6,regular,2000-09-30T00:00:00.000Z,Mississippi State,Florida,47,35,,False,True,,Florida
+63367,2000,7,regular,2000-10-07T00:00:00.000Z,Florida,LSU,41,9,,False,True,,Florida
+63419,2000,8,regular,2000-10-14T00:00:00.000Z,Florida,Auburn,38,7,,False,True,,Florida
+63520,2000,10,regular,2000-10-28T00:00:00.000Z,Florida,Georgia,34,23,,False,True,,Florida
+63568,2000,11,regular,2000-11-04T00:00:00.000Z,Vanderbilt,Florida,20,43,,False,True,,Florida
+63621,2000,12,regular,2000-11-11T00:00:00.000Z,Florida,South Carolina,41,21,,False,True,,Florida
+63678,2000,13,regular,2000-11-18T00:00:00.000Z,Florida State,Florida,30,7,,False,,,Florida
+63068,2000,1,regular,2000-08-26T00:00:00.000Z,Florida State,BYU,29,3,,False,,,Florida State
+63146,2000,3,regular,2000-09-09T00:00:00.000Z,Georgia Tech,Florida State,21,26,,False,True,,Florida State
+63199,2000,4,regular,2000-09-16T00:00:00.000Z,Florida State,North Carolina,63,14,,False,True,,Florida State
+63260,2000,5,regular,2000-09-23T00:00:00.000Z,Florida State,Louisville,31,0,,False,,,Florida State
+63298,2000,6,regular,2000-09-28T00:00:00.000Z,Maryland,Florida State,7,59,,False,True,,Florida State
+63374,2000,7,regular,2000-10-07T00:00:00.000Z,Miami,Florida State,27,24,,False,,,Florida State
+63420,2000,8,regular,2000-10-14T00:00:00.000Z,Florida State,Duke,63,14,,False,True,,Florida State
+63469,2000,9,regular,2000-10-21T00:00:00.000Z,Florida State,Virginia,37,3,,False,True,,Florida State
+63521,2000,10,regular,2000-10-28T00:00:00.000Z,NC State,Florida State,14,58,,False,True,,Florida State
+63569,2000,11,regular,2000-11-04T00:00:00.000Z,Florida State,Clemson,54,7,,False,True,,Florida State
+63622,2000,12,regular,2000-11-11T00:00:00.000Z,Wake Forest,Florida State,6,35,,False,True,,Florida State
+63678,2000,13,regular,2000-11-18T00:00:00.000Z,Florida State,Florida,30,7,,False,,,Florida State
+63108,2000,2,regular,2000-09-02T00:00:00.000Z,Ohio State,Fresno State,43,10,,False,,,Fresno State
+63182,2000,3,regular,2000-09-09T00:00:00.000Z,UCLA,Fresno State,24,21,,False,,,Fresno State
+63261,2000,5,regular,2000-09-23T00:00:00.000Z,Fresno State,California,17,3,,False,,,Fresno State
+63352,2000,7,regular,2000-10-05T00:00:00.000Z,Rice,Fresno State,24,27,,False,True,,Fresno State
+63421,2000,8,regular,2000-10-14T00:00:00.000Z,Fresno State,Nevada,58,21,,False,True,,Fresno State
+63504,2000,9,regular,2000-10-21T00:00:00.000Z,UTEP,Fresno State,23,13,,False,True,,Fresno State
+63522,2000,10,regular,2000-10-28T00:00:00.000Z,Fresno State,Tulsa,34,12,,False,True,,Fresno State
+63570,2000,11,regular,2000-11-04T00:00:00.000Z,Fresno State,Hawai'i,45,27,,False,True,,Fresno State
+63655,2000,12,regular,2000-11-11T00:00:00.000Z,TCU,Fresno State,24,7,,False,True,,Fresno State
+63679,2000,13,regular,2000-11-18T00:00:00.000Z,Fresno State,SMU,14,7,,False,True,,Fresno State
+63728,2000,14,regular,2000-11-25T00:00:00.000Z,San José State,Fresno State,6,37,,False,True,,Fresno State
+63091,2000,2,regular,2000-09-02T00:00:00.000Z,Georgia,Georgia Southern,29,7,,False,,,Georgia
+63174,2000,3,regular,2000-09-09T00:00:00.000Z,South Carolina,Georgia,21,10,,False,True,,Georgia
+63262,2000,5,regular,2000-09-23T00:00:00.000Z,Georgia,New Mexico State,37,0,,False,,,Georgia
+63309,2000,6,regular,2000-09-30T00:00:00.000Z,Arkansas,Georgia,7,38,,False,True,,Georgia
+63368,2000,7,regular,2000-10-07T00:00:00.000Z,Georgia,Tennessee,21,10,,False,True,,Georgia
+63422,2000,8,regular,2000-10-14T00:00:00.000Z,Georgia,Vanderbilt,29,19,,False,True,,Georgia
+63470,2000,9,regular,2000-10-21T00:00:00.000Z,Kentucky,Georgia,30,34,,False,True,,Georgia
+63520,2000,10,regular,2000-10-28T00:00:00.000Z,Florida,Georgia,34,23,,False,True,,Georgia
+63615,2000,12,regular,2000-11-11T00:00:00.000Z,Auburn,Georgia,29,26,,False,True,,Georgia
+63680,2000,13,regular,2000-11-18T00:00:00.000Z,Georgia,Ole Miss,32,14,,False,True,,Georgia
+63729,2000,14,regular,2000-11-25T00:00:00.000Z,Georgia,Georgia Tech,15,27,,False,,,Georgia
+63091,2000,2,regular,2000-09-02T00:00:00.000Z,Georgia,Georgia Southern,29,7,,False,,,Georgia Southern
+63092,2000,2,regular,2000-09-02T00:00:00.000Z,Georgia Tech,UCF,21,17,,False,,,Georgia Tech
+63146,2000,3,regular,2000-09-09T00:00:00.000Z,Georgia Tech,Florida State,21,26,,False,True,,Georgia Tech
+63200,2000,4,regular,2000-09-16T00:00:00.000Z,Georgia Tech,Navy,40,13,,False,,,Georgia Tech
+63244,2000,5,regular,2000-09-21T00:00:00.000Z,NC State,Georgia Tech,30,23,,False,True,,Georgia Tech
+63310,2000,6,regular,2000-09-30T00:00:00.000Z,North Carolina,Georgia Tech,28,42,,False,True,,Georgia Tech
+63423,2000,8,regular,2000-10-14T00:00:00.000Z,Georgia Tech,Wake Forest,52,20,,False,True,,Georgia Tech
+63471,2000,9,regular,2000-10-21T00:00:00.000Z,Georgia Tech,Duke,45,10,,False,True,,Georgia Tech
+63523,2000,10,regular,2000-10-28T00:00:00.000Z,Clemson,Georgia Tech,28,31,,False,True,,Georgia Tech
+63611,2000,12,regular,2000-11-09T00:00:00.000Z,Georgia Tech,Virginia,35,0,,False,True,,Georgia Tech
+63681,2000,13,regular,2000-11-18T00:00:00.000Z,Maryland,Georgia Tech,22,35,,False,True,,Georgia Tech
+63729,2000,14,regular,2000-11-25T00:00:00.000Z,Georgia,Georgia Tech,15,27,,False,,,Georgia Tech
+63170,2000,3,regular,2000-09-09T00:00:00.000Z,Hawai'i,Portland State,20,45,,False,,,Hawai'i
+63293,2000,5,regular,2000-09-23T00:00:00.000Z,UTEP,Hawai'i,39,7,,False,True,,Hawai'i
+63345,2000,6,regular,2000-09-30T00:00:00.000Z,Hawai'i,Tulsa,14,24,,False,True,,Hawai'i
+63395,2000,7,regular,2000-10-07T00:00:00.000Z,TCU,Hawai'i,41,21,,False,True,,Hawai'i
+63424,2000,8,regular,2000-10-14T00:00:00.000Z,Hawai'i,SMU,30,15,,False,True,,Hawai'i
+63493,2000,9,regular,2000-10-21T00:00:00.000Z,Rice,Hawai'i,38,13,,False,True,,Hawai'i
+63542,2000,10,regular,2000-10-28T00:00:00.000Z,Hawai'i,San José State,48,57,,False,True,,Hawai'i
+63570,2000,11,regular,2000-11-04T00:00:00.000Z,Fresno State,Hawai'i,45,27,,False,True,,Hawai'i
+63623,2000,12,regular,2000-11-11T00:00:00.000Z,Hawai'i,Nevada,37,17,,False,True,,Hawai'i
+63682,2000,13,regular,2000-11-18T00:00:00.000Z,Hawai'i,Louisiana Tech,27,10,,False,,,Hawai'i
+63739,2000,14,regular,2000-11-25T00:00:00.000Z,Hawai'i,Wisconsin,18,34,,False,,,Hawai'i
+63743,2000,15,regular,2000-12-02T00:00:00.000Z,Hawai'i,UNLV,32,34,,False,,,Hawai'i
+63114,2000,2,regular,2000-09-02T00:00:00.000Z,Rice,Houston,30,27,,False,,,Houston
+63150,2000,3,regular,2000-09-09T00:00:00.000Z,LSU,Houston,28,13,,False,,,Houston
+63201,2000,4,regular,2000-09-16T00:00:00.000Z,Houston,Army,31,30,,False,True,,Houston
+63291,2000,5,regular,2000-09-23T00:00:00.000Z,Texas,Houston,48,0,,False,,,Houston
+63311,2000,6,regular,2000-09-30T00:00:00.000Z,Houston,SMU,17,15,,False,,,Houston
+63363,2000,7,regular,2000-10-07T00:00:00.000Z,Cincinnati,Houston,48,31,,False,True,,Houston
+63472,2000,9,regular,2000-10-21T00:00:00.000Z,Memphis,Houston,30,33,,False,True,,Houston
+63545,2000,10,regular,2000-10-28T00:00:00.000Z,Houston,Southern Miss,3,6,,False,True,,Houston
+63603,2000,11,regular,2000-11-04T00:00:00.000Z,Tulane,Houston,41,23,,False,True,,Houston
+63619,2000,12,regular,2000-11-11T00:00:00.000Z,East Carolina,Houston,62,20,,False,True,,Houston
+63686,2000,13,regular,2000-11-18T00:00:00.000Z,Houston,Louisville,13,32,,False,True,,Houston
+63093,2000,2,regular,2000-09-02T00:00:00.000Z,Illinois,Middle Tennessee,35,6,,False,,,Illinois
+63147,2000,3,regular,2000-09-09T00:00:00.000Z,San Diego State,Illinois,13,49,,False,,,Illinois
+63202,2000,4,regular,2000-09-16T00:00:00.000Z,Illinois,California,17,15,,False,,,Illinois
+63271,2000,5,regular,2000-09-23T00:00:00.000Z,Illinois,Michigan,31,35,,False,True,,Illinois
+63321,2000,6,regular,2000-09-30T00:00:00.000Z,Minnesota,Illinois,44,10,,False,True,,Illinois
+63426,2000,8,regular,2000-10-14T00:00:00.000Z,Illinois,Iowa,31,0,,False,True,,Illinois
+63490,2000,9,regular,2000-10-21T00:00:00.000Z,Penn State,Illinois,39,25,,False,True,,Illinois
+63529,2000,10,regular,2000-10-28T00:00:00.000Z,Michigan State,Illinois,14,10,,False,True,,Illinois
+63572,2000,11,regular,2000-11-04T00:00:00.000Z,Illinois,Indiana,42,35,,False,True,,Illinois
+63644,2000,12,regular,2000-11-11T00:00:00.000Z,Illinois,Ohio State,21,24,,False,True,,Illinois
+63696,2000,13,regular,2000-11-18T00:00:00.000Z,Northwestern,Illinois,61,23,,False,True,,Illinois
+63160,2000,3,regular,2000-09-09T00:00:00.000Z,Indiana,NC State,38,41,,False,,,Indiana
+63206,2000,4,regular,2000-09-16T00:00:00.000Z,Kentucky,Indiana,41,34,,False,,,Indiana
+63264,2000,5,regular,2000-09-23T00:00:00.000Z,Indiana,Cincinnati,42,6,,False,,,Indiana
+63313,2000,6,regular,2000-09-30T00:00:00.000Z,Indiana,Iowa,45,33,,False,True,,Indiana
+63384,2000,7,regular,2000-10-07T00:00:00.000Z,Northwestern,Indiana,52,33,,False,True,,Indiana
+63433,2000,8,regular,2000-10-14T00:00:00.000Z,Michigan,Indiana,58,0,,False,True,,Indiana
+63473,2000,9,regular,2000-10-21T00:00:00.000Z,Indiana,Minnesota,51,43,,False,True,,Indiana
+63540,2000,10,regular,2000-10-28T00:00:00.000Z,Indiana,Penn State,24,27,,False,True,,Indiana
+63572,2000,11,regular,2000-11-04T00:00:00.000Z,Illinois,Indiana,42,35,,False,True,,Indiana
+63666,2000,12,regular,2000-11-11T00:00:00.000Z,Indiana,Wisconsin,22,43,,False,True,,Indiana
+63704,2000,13,regular,2000-11-18T00:00:00.000Z,Purdue,Indiana,41,13,,False,True,,Indiana
+63069,2000,1,regular,2000-08-26T00:00:00.000Z,Kansas State,Iowa,27,7,,False,,,Iowa
+63187,2000,3,regular,2000-09-09T00:00:00.000Z,Iowa,Western Michigan,21,27,,False,,,Iowa
+63203,2000,4,regular,2000-09-16T00:00:00.000Z,Iowa,Iowa State,14,24,,False,,,Iowa
+63273,2000,5,regular,2000-09-23T00:00:00.000Z,Nebraska,Iowa,42,13,,False,,,Iowa
+63313,2000,6,regular,2000-09-30T00:00:00.000Z,Indiana,Iowa,45,33,,False,True,,Iowa
+63369,2000,7,regular,2000-10-07T00:00:00.000Z,Iowa,Michigan State,21,16,,False,True,,Iowa
+63426,2000,8,regular,2000-10-14T00:00:00.000Z,Illinois,Iowa,31,0,,False,True,,Iowa
+63487,2000,9,regular,2000-10-21T00:00:00.000Z,Iowa,Ohio State,10,38,,False,True,,Iowa
+63558,2000,10,regular,2000-10-28T00:00:00.000Z,Iowa,Wisconsin,7,13,,False,True,,Iowa
+63573,2000,11,regular,2000-11-04T00:00:00.000Z,Penn State,Iowa,23,26,,False,True,,Iowa
+63625,2000,12,regular,2000-11-11T00:00:00.000Z,Iowa,Northwestern,27,17,,False,True,,Iowa
+63691,2000,13,regular,2000-11-18T00:00:00.000Z,Minnesota,Iowa,27,24,,False,True,,Iowa
+63094,2000,2,regular,2000-09-02T00:00:00.000Z,Iowa State,Ohio,25,15,,False,,,Iowa State
+63148,2000,3,regular,2000-09-09T00:00:00.000Z,Iowa State,UNLV,37,22,,False,,,Iowa State
+63203,2000,4,regular,2000-09-16T00:00:00.000Z,Iowa,Iowa State,14,24,,False,,,Iowa State
+63314,2000,6,regular,2000-09-30T00:00:00.000Z,Baylor,Iowa State,17,31,,False,True,,Iowa State
+63380,2000,7,regular,2000-10-07T00:00:00.000Z,Iowa State,Nebraska,27,49,,False,True,,Iowa State
+63427,2000,8,regular,2000-10-14T00:00:00.000Z,Oklahoma State,Iowa State,26,33,,False,True,,Iowa State
+63502,2000,9,regular,2000-10-21T00:00:00.000Z,Iowa State,Texas A&M,7,30,,False,True,,Iowa State
+63524,2000,10,regular,2000-10-28T00:00:00.000Z,Iowa State,Missouri,39,20,,False,True,,Iowa State
+63574,2000,11,regular,2000-11-04T00:00:00.000Z,Kansas State,Iowa State,56,10,,False,True,,Iowa State
+63626,2000,12,regular,2000-11-11T00:00:00.000Z,Colorado,Iowa State,27,35,,False,True,,Iowa State
+63684,2000,13,regular,2000-11-18T00:00:00.000Z,Iowa State,Kansas,38,17,,False,True,,Iowa State
+63118,2000,2,regular,2000-09-02T00:00:00.000Z,South Florida,Jacksonville State,40,0,,False,,,Jacksonville State
+63627,2000,12,regular,2000-11-11T00:00:00.000Z,Louisiana,Jacksonville State,14,28,,False,,,Jacksonville State
+63224,2000,4,regular,2000-09-16T00:00:00.000Z,South Florida,James Madison,26,7,,False,,,James Madison
+63119,2000,2,regular,2000-09-02T00:00:00.000Z,SMU,Kansas,31,17,,False,,,Kansas
+63204,2000,4,regular,2000-09-16T00:00:00.000Z,Kansas,UAB,23,20,,False,,,Kansas
+63265,2000,5,regular,2000-09-23T00:00:00.000Z,Kansas,Southern Illinois,42,0,,False,,,Kansas
+63329,2000,6,regular,2000-09-30T00:00:00.000Z,Oklahoma,Kansas,34,16,,False,True,,Kansas
+63370,2000,7,regular,2000-10-07T00:00:00.000Z,Kansas,Kansas State,13,52,,False,True,,Kansas
+63428,2000,8,regular,2000-10-14T00:00:00.000Z,Missouri,Kansas,17,38,,False,True,,Kansas
+63474,2000,9,regular,2000-10-21T00:00:00.000Z,Kansas,Colorado,23,15,,False,True,,Kansas
+63550,2000,10,regular,2000-10-28T00:00:00.000Z,Kansas,Texas Tech,39,45,,False,True,,Kansas
+63585,2000,11,regular,2000-11-04T00:00:00.000Z,Nebraska,Kansas,56,17,,False,True,,Kansas
+63654,2000,12,regular,2000-11-11T00:00:00.000Z,Kansas,Texas,16,51,,False,True,,Kansas
+63684,2000,13,regular,2000-11-18T00:00:00.000Z,Iowa State,Kansas,38,17,,False,True,,Kansas
+63069,2000,1,regular,2000-08-26T00:00:00.000Z,Kansas State,Iowa,27,7,,False,,,Kansas State
+63095,2000,2,regular,2000-09-02T00:00:00.000Z,Kansas State,Louisiana Tech,54,10,,False,,,Kansas State
+63205,2000,4,regular,2000-09-16T00:00:00.000Z,Kansas State,Ball State,76,0,,False,,,Kansas State
+63266,2000,5,regular,2000-09-23T00:00:00.000Z,Kansas State,North Texas,55,10,,False,,,Kansas State
+63315,2000,6,regular,2000-09-30T00:00:00.000Z,Colorado,Kansas State,21,44,,False,True,,Kansas State
+63370,2000,7,regular,2000-10-07T00:00:00.000Z,Kansas,Kansas State,13,52,,False,True,,Kansas State
+63442,2000,8,regular,2000-10-14T00:00:00.000Z,Kansas State,Oklahoma,31,41,,False,True,,Kansas State
+63475,2000,9,regular,2000-10-21T00:00:00.000Z,Kansas State,Texas Tech,28,23,,False,True,,Kansas State
+63548,2000,10,regular,2000-10-28T00:00:00.000Z,Texas A&M,Kansas State,26,10,,False,True,,Kansas State
+63574,2000,11,regular,2000-11-04T00:00:00.000Z,Kansas State,Iowa State,56,10,,False,True,,Kansas State
+63628,2000,12,regular,2000-11-11T00:00:00.000Z,Kansas State,Nebraska,29,28,,False,True,,Kansas State
+63685,2000,13,regular,2000-11-18T00:00:00.000Z,Missouri,Kansas State,24,28,,False,True,,Kansas State
+63112,2000,2,regular,2000-09-02T00:00:00.000Z,Pittsburgh,Kent State,30,7,,False,,,Kent State
+63171,2000,3,regular,2000-09-09T00:00:00.000Z,Purdue,Kent State,45,10,,False,,,Kent State
+63243,2000,4,regular,2000-09-16T00:00:00.000Z,Kent State,Youngstown State,20,26,,False,,,Kent State
+63270,2000,5,regular,2000-09-23T00:00:00.000Z,Miami (OH),Kent State,45,14,,False,True,,Kent State
+63305,2000,6,regular,2000-09-30T00:00:00.000Z,Kent State,Bowling Green,11,18,,False,True,,Kent State
+63371,2000,7,regular,2000-10-07T00:00:00.000Z,Central Michigan,Kent State,21,24,,False,True,,Kent State
+63441,2000,8,regular,2000-10-14T00:00:00.000Z,Kent State,Ohio,7,44,,False,True,,Kent State
+63477,2000,9,regular,2000-10-21T00:00:00.000Z,Marshall,Kent State,34,12,,False,True,,Kent State
+63557,2000,10,regular,2000-10-28T00:00:00.000Z,Kent State,Western Michigan,0,42,,False,True,,Kent State
+63563,2000,11,regular,2000-11-04T00:00:00.000Z,Buffalo,Kent State,20,17,,False,True,,Kent State
+63669,2000,13,regular,2000-11-18T00:00:00.000Z,Kent State,Akron,6,34,,False,True,,Kent State
+63097,2000,2,regular,2000-09-02T00:00:00.000Z,Louisville,Kentucky,40,34,,False,,,Kentucky
+63149,2000,3,regular,2000-09-09T00:00:00.000Z,Kentucky,South Florida,27,9,,False,,,Kentucky
+63206,2000,4,regular,2000-09-16T00:00:00.000Z,Kentucky,Indiana,41,34,,False,,,Kentucky
+63259,2000,5,regular,2000-09-23T00:00:00.000Z,Florida,Kentucky,59,31,,False,True,,Kentucky
+63322,2000,6,regular,2000-09-30T00:00:00.000Z,Ole Miss,Kentucky,35,17,,False,True,,Kentucky
+63392,2000,7,regular,2000-10-07T00:00:00.000Z,Kentucky,South Carolina,17,20,,False,True,,Kentucky
+63429,2000,8,regular,2000-10-14T00:00:00.000Z,LSU,Kentucky,34,0,,False,True,,Kentucky
+63470,2000,9,regular,2000-10-21T00:00:00.000Z,Kentucky,Georgia,30,34,,False,True,,Kentucky
+63584,2000,11,regular,2000-11-04T00:00:00.000Z,Kentucky,Mississippi State,17,35,,False,True,,Kentucky
+63661,2000,12,regular,2000-11-11T00:00:00.000Z,Kentucky,Vanderbilt,20,24,,False,True,,Kentucky
+63708,2000,13,regular,2000-11-18T00:00:00.000Z,Tennessee,Kentucky,59,20,,False,True,,Kentucky
+63498,2000,9,regular,2000-10-21T00:00:00.000Z,South Florida,Liberty,44,6,,False,,,Liberty
+63116,2000,2,regular,2000-09-02T00:00:00.000Z,Louisiana,Sam Houston,14,21,,False,,,Louisiana
+63176,2000,3,regular,2000-09-09T00:00:00.000Z,Texas,Louisiana,52,10,,False,,,Louisiana
+63231,2000,4,regular,2000-09-16T00:00:00.000Z,Texas Tech,Louisiana,26,0,,False,,,Louisiana
+63279,2000,5,regular,2000-09-23T00:00:00.000Z,Louisiana,Northwestern State,21,23,,False,,,Louisiana
+63302,2000,6,regular,2000-09-30T00:00:00.000Z,UAB,Louisiana,47,2,,False,,,Louisiana
+63399,2000,7,regular,2000-10-07T00:00:00.000Z,Louisiana,Tulane,37,38,,False,,,Louisiana
+63430,2000,8,regular,2000-10-14T00:00:00.000Z,Louisiana Tech,Louisiana,48,14,,False,True,,Louisiana
+63533,2000,10,regular,2000-10-28T00:00:00.000Z,Louisiana,North Texas,0,13,,False,,,Louisiana
+63575,2000,11,regular,2000-11-04T00:00:00.000Z,UL Monroe,Louisiana,18,21,,False,True,,Louisiana
+63627,2000,12,regular,2000-11-11T00:00:00.000Z,Louisiana,Jacksonville State,14,28,,False,,,Louisiana
+63690,2000,13,regular,2000-11-18T00:00:00.000Z,Middle Tennessee,Louisiana,41,38,,False,True,,Louisiana
+63070,2000,1,regular,2000-08-26T00:00:00.000Z,Louisiana Tech,Mississippi Valley State,63,10,,False,,,Louisiana Tech
+63095,2000,2,regular,2000-09-02T00:00:00.000Z,Kansas State,Louisiana Tech,54,10,,False,,,Louisiana Tech
+63168,2000,3,regular,2000-09-09T00:00:00.000Z,Penn State,Louisiana Tech,67,7,,False,,,Louisiana Tech
+63227,2000,4,regular,2000-09-16T00:00:00.000Z,Louisiana Tech,Stephen F. Austin,31,34,,False,,,Louisiana Tech
+63295,2000,5,regular,2000-09-23T00:00:00.000Z,Tulsa,Louisiana Tech,22,10,,False,,,Louisiana Tech
+63375,2000,7,regular,2000-10-07T00:00:00.000Z,Middle Tennessee,Louisiana Tech,49,21,,False,True,,Louisiana Tech
+63430,2000,8,regular,2000-10-14T00:00:00.000Z,Louisiana Tech,Louisiana,48,14,,False,True,,Louisiana Tech
+63461,2000,9,regular,2000-10-21T00:00:00.000Z,Auburn,Louisiana Tech,38,28,,False,,,Louisiana Tech
+63528,2000,10,regular,2000-10-28T00:00:00.000Z,Miami,Louisiana Tech,42,31,,False,,,Louisiana Tech
+63564,2000,11,regular,2000-11-04T00:00:00.000Z,Louisiana Tech,UCF,16,20,,False,True,,Louisiana Tech
+63630,2000,12,regular,2000-11-11T00:00:00.000Z,UL Monroe,Louisiana Tech,19,42,,False,True,,Louisiana Tech
+63682,2000,13,regular,2000-11-18T00:00:00.000Z,Hawai'i,Louisiana Tech,27,10,,False,,,Louisiana Tech
+63097,2000,2,regular,2000-09-02T00:00:00.000Z,Louisville,Kentucky,40,34,,False,,,Louisville
+63151,2000,3,regular,2000-09-09T00:00:00.000Z,Louisville,Grambling,52,0,,False,,,Louisville
+63260,2000,5,regular,2000-09-23T00:00:00.000Z,Florida State,Louisville,31,0,,False,,,Louisville
+63317,2000,6,regular,2000-09-30T00:00:00.000Z,Louisville,UConn,41,22,,False,,,Louisville
+63372,2000,7,regular,2000-10-07T00:00:00.000Z,UAB,Louisville,17,38,,False,True,,Louisville
+63431,2000,8,regular,2000-10-14T00:00:00.000Z,Louisville,Cincinnati,38,24,,False,True,,Louisville
+63457,2000,9,regular,2000-10-19T00:00:00.000Z,Louisville,East Carolina,25,28,,False,True,,Louisville
+63525,2000,10,regular,2000-10-28T00:00:00.000Z,Louisville,Tulane,35,32,,False,True,,Louisville
+63577,2000,11,regular,2000-11-04T00:00:00.000Z,Southern Miss,Louisville,28,49,,False,True,,Louisville
+63631,2000,12,regular,2000-11-11T00:00:00.000Z,Louisville,Army,38,17,,False,True,,Louisville
+63686,2000,13,regular,2000-11-18T00:00:00.000Z,Houston,Louisville,13,32,,False,True,,Louisville
+63096,2000,2,regular,2000-09-02T00:00:00.000Z,LSU,Western Carolina,58,0,,False,,,LSU
+63150,2000,3,regular,2000-09-09T00:00:00.000Z,LSU,Houston,28,13,,False,,,LSU
+63194,2000,4,regular,2000-09-16T00:00:00.000Z,Auburn,LSU,34,17,,False,True,,LSU
+63247,2000,5,regular,2000-09-23T00:00:00.000Z,LSU,UAB,10,13,,False,,,LSU
+63316,2000,6,regular,2000-09-30T00:00:00.000Z,LSU,Tennessee,38,31,,False,True,,LSU
+63367,2000,7,regular,2000-10-07T00:00:00.000Z,Florida,LSU,41,9,,False,True,,LSU
+63429,2000,8,regular,2000-10-14T00:00:00.000Z,LSU,Kentucky,34,0,,False,True,,LSU
+63476,2000,9,regular,2000-10-21T00:00:00.000Z,LSU,Mississippi State,45,38,,False,True,,LSU
+63576,2000,11,regular,2000-11-04T00:00:00.000Z,LSU,Alabama,30,28,,False,True,,LSU
+63629,2000,12,regular,2000-11-11T00:00:00.000Z,Ole Miss,LSU,9,20,,False,True,,LSU
+63721,2000,14,regular,2000-11-24T00:00:00.000Z,Arkansas,LSU,14,3,,False,True,,LSU
+63077,2000,2,regular,2000-08-31T00:00:00.000Z,Marshall,Southeast Missouri State,63,7,,False,,,Marshall
+63156,2000,3,regular,2000-09-09T00:00:00.000Z,Michigan State,Marshall,34,24,,False,,,Marshall
+63276,2000,5,regular,2000-09-23T00:00:00.000Z,North Carolina,Marshall,20,15,,False,,,Marshall
+63318,2000,6,regular,2000-09-30T00:00:00.000Z,Marshall,Buffalo,47,14,,False,True,,Marshall
+63354,2000,7,regular,2000-10-05T00:00:00.000Z,Marshall,Western Michigan,10,30,,False,True,,Marshall
+63452,2000,8,regular,2000-10-14T00:00:00.000Z,Toledo,Marshall,42,0,,False,True,,Marshall
+63477,2000,9,regular,2000-10-21T00:00:00.000Z,Marshall,Kent State,34,12,,False,True,,Marshall
+63526,2000,10,regular,2000-10-28T00:00:00.000Z,Akron,Marshall,28,31,,False,True,,Marshall
+63578,2000,11,regular,2000-11-04T00:00:00.000Z,Bowling Green,Marshall,13,20,,False,True,,Marshall
+63632,2000,12,regular,2000-11-11T00:00:00.000Z,Marshall,Miami (OH),51,31,,False,True,,Marshall
+63698,2000,13,regular,2000-11-18T00:00:00.000Z,Ohio,Marshall,38,28,,False,True,,Marshall
+63152,2000,3,regular,2000-09-09T00:00:00.000Z,Maryland,Temple,17,10,,False,,,Maryland
+63239,2000,4,regular,2000-09-16T00:00:00.000Z,West Virginia,Maryland,30,17,,False,,,Maryland
+63267,2000,5,regular,2000-09-23T00:00:00.000Z,Maryland,Middle Tennessee,45,27,,False,,,Maryland
+63298,2000,6,regular,2000-09-28T00:00:00.000Z,Maryland,Florida State,7,59,,False,True,,Maryland
+63401,2000,7,regular,2000-10-07T00:00:00.000Z,Virginia,Maryland,31,23,,False,True,,Maryland
+63416,2000,8,regular,2000-10-14T00:00:00.000Z,Clemson,Maryland,35,14,,False,True,,Maryland
+63478,2000,9,regular,2000-10-21T00:00:00.000Z,Maryland,Wake Forest,37,7,,False,True,,Maryland
+63527,2000,10,regular,2000-10-28T00:00:00.000Z,Duke,Maryland,9,20,,False,True,,Maryland
+63579,2000,11,regular,2000-11-04T00:00:00.000Z,Maryland,NC State,35,28,,False,True,,Maryland
+63640,2000,12,regular,2000-11-11T00:00:00.000Z,North Carolina,Maryland,13,10,,False,True,,Maryland
+63681,2000,13,regular,2000-11-18T00:00:00.000Z,Maryland,Georgia Tech,22,35,,False,True,,Maryland
+63102,2000,2,regular,2000-09-02T00:00:00.000Z,Memphis,Mississippi State,3,17,,False,,,Memphis
+63153,2000,3,regular,2000-09-09T00:00:00.000Z,Memphis,UL Monroe,28,0,,False,,,Memphis
+63208,2000,4,regular,2000-09-16T00:00:00.000Z,Arkansas State,Memphis,17,19,,False,,,Memphis
+63268,2000,5,regular,2000-09-23T00:00:00.000Z,Army,Memphis,16,26,,False,True,,Memphis
+63336,2000,6,regular,2000-09-30T00:00:00.000Z,Southern Miss,Memphis,24,3,,False,True,,Memphis
+63373,2000,7,regular,2000-10-07T00:00:00.000Z,Memphis,East Carolina,17,10,,False,True,,Memphis
+63409,2000,8,regular,2000-10-14T00:00:00.000Z,UAB,Memphis,13,9,,False,True,,Memphis
+63472,2000,9,regular,2000-10-21T00:00:00.000Z,Memphis,Houston,30,33,,False,True,,Memphis
+63598,2000,11,regular,2000-11-04T00:00:00.000Z,Memphis,Tennessee,17,19,,False,,,Memphis
+63618,2000,12,regular,2000-11-11T00:00:00.000Z,Memphis,Cincinnati,10,13,,False,True,,Memphis
+63710,2000,13,regular,2000-11-18T00:00:00.000Z,Tulane,Memphis,37,14,,False,True,,Memphis
+63078,2000,2,regular,2000-08-31T00:00:00.000Z,Miami,McNeese,61,14,,False,,,Miami
+63185,2000,3,regular,2000-09-09T00:00:00.000Z,Washington,Miami,34,29,,False,,,Miami
+63269,2000,5,regular,2000-09-23T00:00:00.000Z,West Virginia,Miami,10,47,,False,True,,Miami
+63319,2000,6,regular,2000-09-30T00:00:00.000Z,Rutgers,Miami,6,64,,False,True,,Miami
+63374,2000,7,regular,2000-10-07T00:00:00.000Z,Miami,Florida State,27,24,,False,,,Miami
+63479,2000,9,regular,2000-10-21T00:00:00.000Z,Temple,Miami,17,45,,False,True,,Miami
+63528,2000,10,regular,2000-10-28T00:00:00.000Z,Miami,Louisiana Tech,42,31,,False,,,Miami
+63580,2000,11,regular,2000-11-04T00:00:00.000Z,Miami,Virginia Tech,41,21,,False,True,,Miami
+63633,2000,12,regular,2000-11-11T00:00:00.000Z,Miami,Pittsburgh,35,7,,False,True,,Miami
+63687,2000,13,regular,2000-11-18T00:00:00.000Z,Syracuse,Miami,0,26,,False,True,,Miami
+63730,2000,14,regular,2000-11-25T00:00:00.000Z,Miami,Boston College,52,6,,False,True,,Miami
+63098,2000,2,regular,2000-09-02T00:00:00.000Z,Vanderbilt,Miami (OH),30,33,,False,,,Miami (OH)
+63154,2000,3,regular,2000-09-09T00:00:00.000Z,Eastern Michigan,Miami (OH),17,34,,False,True,,Miami (OH)
+63218,2000,4,regular,2000-09-16T00:00:00.000Z,Ohio State,Miami (OH),27,16,,False,,,Miami (OH)
+63270,2000,5,regular,2000-09-23T00:00:00.000Z,Miami (OH),Kent State,45,14,,False,True,,Miami (OH)
+63300,2000,6,regular,2000-09-30T00:00:00.000Z,Akron,Miami (OH),37,20,,False,True,,Miami (OH)
+63361,2000,7,regular,2000-10-07T00:00:00.000Z,Miami (OH),Ball State,10,15,,False,True,,Miami (OH)
+63432,2000,8,regular,2000-10-14T00:00:00.000Z,Miami (OH),Bowling Green,24,10,,False,True,,Miami (OH)
+63517,2000,10,regular,2000-10-28T00:00:00.000Z,Cincinnati,Miami (OH),45,15,,False,,,Miami (OH)
+63581,2000,11,regular,2000-11-04T00:00:00.000Z,Miami (OH),Ohio,27,24,,False,True,,Miami (OH)
+63632,2000,12,regular,2000-11-11T00:00:00.000Z,Marshall,Miami (OH),51,31,,False,True,,Miami (OH)
+63688,2000,13,regular,2000-11-18T00:00:00.000Z,Buffalo,Miami (OH),16,17,,False,True,,Miami (OH)
+63099,2000,2,regular,2000-09-02T00:00:00.000Z,Michigan,Bowling Green,42,7,,False,,,Michigan
+63155,2000,3,regular,2000-09-09T00:00:00.000Z,Michigan,Rice,38,7,,False,,,Michigan
+63234,2000,4,regular,2000-09-16T00:00:00.000Z,UCLA,Michigan,23,20,,False,,,Michigan
+63271,2000,5,regular,2000-09-23T00:00:00.000Z,Illinois,Michigan,31,35,,False,True,,Michigan
+63320,2000,6,regular,2000-09-30T00:00:00.000Z,Michigan,Wisconsin,13,10,,False,True,,Michigan
+63389,2000,7,regular,2000-10-07T00:00:00.000Z,Purdue,Michigan,32,31,,False,True,,Michigan
+63433,2000,8,regular,2000-10-14T00:00:00.000Z,Michigan,Indiana,58,0,,False,True,,Michigan
+63480,2000,9,regular,2000-10-21T00:00:00.000Z,Michigan,Michigan State,14,0,,False,True,,Michigan
+63587,2000,11,regular,2000-11-04T00:00:00.000Z,Northwestern,Michigan,54,51,,False,True,,Michigan
+63634,2000,12,regular,2000-11-11T00:00:00.000Z,Michigan,Penn State,33,11,,False,True,,Michigan
+63689,2000,13,regular,2000-11-18T00:00:00.000Z,Ohio State,Michigan,26,38,,False,True,,Michigan
+63156,2000,3,regular,2000-09-09T00:00:00.000Z,Michigan State,Marshall,34,24,,False,,,Michigan State
+63209,2000,4,regular,2000-09-16T00:00:00.000Z,Missouri,Michigan State,10,13,,False,,,Michigan State
+63272,2000,5,regular,2000-09-23T00:00:00.000Z,Michigan State,Notre Dame,27,21,,False,,,Michigan State
+63328,2000,6,regular,2000-09-30T00:00:00.000Z,Michigan State,Northwestern,17,37,,False,True,,Michigan State
+63369,2000,7,regular,2000-10-07T00:00:00.000Z,Iowa,Michigan State,21,16,,False,True,,Michigan State
+63456,2000,8,regular,2000-10-14T00:00:00.000Z,Michigan State,Wisconsin,10,17,,False,True,,Michigan State
+63480,2000,9,regular,2000-10-21T00:00:00.000Z,Michigan,Michigan State,14,0,,False,True,,Michigan State
+63529,2000,10,regular,2000-10-28T00:00:00.000Z,Michigan State,Illinois,14,10,,False,True,,Michigan State
+63588,2000,11,regular,2000-11-04T00:00:00.000Z,Ohio State,Michigan State,27,13,,False,True,,Michigan State
+63635,2000,12,regular,2000-11-11T00:00:00.000Z,Michigan State,Purdue,30,10,,False,True,,Michigan State
+63702,2000,13,regular,2000-11-18T00:00:00.000Z,Penn State,Michigan State,42,23,,False,True,,Michigan State
+63093,2000,2,regular,2000-09-02T00:00:00.000Z,Illinois,Middle Tennessee,35,6,,False,,,Middle Tennessee
+63145,2000,3,regular,2000-09-09T00:00:00.000Z,Florida,Middle Tennessee,55,0,,False,,,Middle Tennessee
+63210,2000,4,regular,2000-09-16T00:00:00.000Z,Middle Tennessee,Murray State,44,28,,False,,,Middle Tennessee
+63267,2000,5,regular,2000-09-23T00:00:00.000Z,Maryland,Middle Tennessee,45,27,,False,,,Middle Tennessee
+63375,2000,7,regular,2000-10-07T00:00:00.000Z,Middle Tennessee,Louisiana Tech,49,21,,False,True,,Middle Tennessee
+63434,2000,8,regular,2000-10-14T00:00:00.000Z,Middle Tennessee,UL Monroe,28,0,,False,True,,Middle Tennessee
+63458,2000,9,regular,2000-10-21T00:00:00.000Z,UAB,Middle Tennessee,14,9,,False,,,Middle Tennessee
+63531,2000,10,regular,2000-10-28T00:00:00.000Z,Mississippi State,Middle Tennessee,61,35,,False,,,Middle Tennessee
+63582,2000,11,regular,2000-11-04T00:00:00.000Z,UConn,Middle Tennessee,10,66,,False,True,,Middle Tennessee
+63636,2000,12,regular,2000-11-11T00:00:00.000Z,Middle Tennessee,South Florida,45,9,,False,True,,Middle Tennessee
+63690,2000,13,regular,2000-11-18T00:00:00.000Z,Middle Tennessee,Louisiana,41,38,,False,True,,Middle Tennessee
+63100,2000,2,regular,2000-09-02T00:00:00.000Z,Minnesota,UL Monroe,47,10,,False,,,Minnesota
+63163,2000,3,regular,2000-09-09T00:00:00.000Z,Minnesota,Ohio,17,23,,False,,,Minnesota
+63211,2000,4,regular,2000-09-16T00:00:00.000Z,Baylor,Minnesota,9,34,,False,,,Minnesota
+63285,2000,5,regular,2000-09-23T00:00:00.000Z,Purdue,Minnesota,38,24,,False,True,,Minnesota
+63321,2000,6,regular,2000-09-30T00:00:00.000Z,Minnesota,Illinois,44,10,,False,True,,Minnesota
+63376,2000,7,regular,2000-10-07T00:00:00.000Z,Minnesota,Penn State,25,16,,False,True,,Minnesota
+63435,2000,8,regular,2000-10-14T00:00:00.000Z,Ohio State,Minnesota,17,29,,False,True,,Minnesota
+63473,2000,9,regular,2000-10-21T00:00:00.000Z,Indiana,Minnesota,51,43,,False,True,,Minnesota
+63535,2000,10,regular,2000-10-28T00:00:00.000Z,Minnesota,Northwestern,35,41,,False,True,,Minnesota
+63610,2000,11,regular,2000-11-04T00:00:00.000Z,Wisconsin,Minnesota,41,20,,False,True,,Minnesota
+63691,2000,13,regular,2000-11-18T00:00:00.000Z,Minnesota,Iowa,27,24,,False,True,,Minnesota
+63102,2000,2,regular,2000-09-02T00:00:00.000Z,Memphis,Mississippi State,3,17,,False,,,Mississippi State
+63189,2000,4,regular,2000-09-14T00:00:00.000Z,BYU,Mississippi State,28,44,,False,,,Mississippi State
+63286,2000,5,regular,2000-09-23T00:00:00.000Z,South Carolina,Mississippi State,23,19,,False,True,,Mississippi State
+63323,2000,6,regular,2000-09-30T00:00:00.000Z,Mississippi State,Florida,47,35,,False,True,,Mississippi State
+63378,2000,7,regular,2000-10-07T00:00:00.000Z,Mississippi State,Auburn,17,10,,False,True,,Mississippi State
+63476,2000,9,regular,2000-10-21T00:00:00.000Z,LSU,Mississippi State,45,38,,False,True,,Mississippi State
+63531,2000,10,regular,2000-10-28T00:00:00.000Z,Mississippi State,Middle Tennessee,61,35,,False,,,Mississippi State
+63584,2000,11,regular,2000-11-04T00:00:00.000Z,Kentucky,Mississippi State,17,35,,False,True,,Mississippi State
+63637,2000,12,regular,2000-11-11T00:00:00.000Z,Mississippi State,Alabama,29,7,,False,True,,Mississippi State
+63671,2000,13,regular,2000-11-18T00:00:00.000Z,Mississippi State,Arkansas,10,17,,False,True,,Mississippi State
+63719,2000,14,regular,2000-11-23T00:00:00.000Z,Ole Miss,Mississippi State,45,30,,False,True,,Mississippi State
+63103,2000,2,regular,2000-09-02T00:00:00.000Z,Missouri,Western Illinois,50,20,,False,,,Missouri
+63142,2000,3,regular,2000-09-09T00:00:00.000Z,Clemson,Missouri,62,9,,False,,,Missouri
+63209,2000,4,regular,2000-09-16T00:00:00.000Z,Missouri,Michigan State,10,13,,False,,,Missouri
+63324,2000,6,regular,2000-09-30T00:00:00.000Z,Nebraska,Missouri,42,24,,False,True,,Missouri
+63379,2000,7,regular,2000-10-07T00:00:00.000Z,Missouri,Oklahoma State,24,10,,False,True,,Missouri
+63428,2000,8,regular,2000-10-14T00:00:00.000Z,Missouri,Kansas,17,38,,False,True,,Missouri
+63501,2000,9,regular,2000-10-21T00:00:00.000Z,Texas,Missouri,46,12,,False,True,,Missouri
+63524,2000,10,regular,2000-10-28T00:00:00.000Z,Iowa State,Missouri,39,20,,False,True,,Missouri
+63566,2000,11,regular,2000-11-04T00:00:00.000Z,Missouri,Colorado,18,28,,False,True,,Missouri
+63638,2000,12,regular,2000-11-11T00:00:00.000Z,Baylor,Missouri,22,47,,False,True,,Missouri
+63685,2000,13,regular,2000-11-18T00:00:00.000Z,Missouri,Kansas State,24,28,,False,True,,Missouri
+63122,2000,2,regular,2000-09-02T00:00:00.000Z,Navy,Temple,6,17,,False,,,Navy
+63200,2000,4,regular,2000-09-16T00:00:00.000Z,Georgia Tech,Navy,40,13,,False,,,Navy
+63253,2000,5,regular,2000-09-23T00:00:00.000Z,Boston College,Navy,48,7,,False,,,Navy
+63340,2000,6,regular,2000-09-30T00:00:00.000Z,Navy,TCU,0,24,,False,,,Navy
+63356,2000,7,regular,2000-10-07T00:00:00.000Z,Air Force,Navy,27,13,,False,,,Navy
+63440,2000,8,regular,2000-10-14T00:00:00.000Z,Notre Dame,Navy,45,14,,False,True,,Navy
+63494,2000,9,regular,2000-10-21T00:00:00.000Z,Navy,Rutgers,21,28,,False,,,Navy
+63551,2000,10,regular,2000-10-28T00:00:00.000Z,Navy,Toledo,14,35,,False,,,Navy
+63659,2000,12,regular,2000-11-11T00:00:00.000Z,Tulane,Navy,50,38,,False,,,Navy
+63713,2000,13,regular,2000-11-18T00:00:00.000Z,Navy,Wake Forest,26,49,,False,,,Navy
+63742,2000,15,regular,2000-12-02T00:00:00.000Z,Navy,Army,30,28,,False,,,Navy
+63106,2000,2,regular,2000-09-02T00:00:00.000Z,NC State,Arkansas State,38,31,,False,,,NC State
+63160,2000,3,regular,2000-09-09T00:00:00.000Z,Indiana,NC State,38,41,,False,,,NC State
+63215,2000,4,regular,2000-09-16T00:00:00.000Z,NC State,SMU,41,0,,False,,,NC State
+63244,2000,5,regular,2000-09-21T00:00:00.000Z,NC State,Georgia Tech,30,23,,False,True,,NC State
+63364,2000,7,regular,2000-10-07T00:00:00.000Z,Clemson,NC State,34,27,,False,True,,NC State
+63438,2000,8,regular,2000-10-14T00:00:00.000Z,North Carolina,NC State,20,38,,False,True,,NC State
+63521,2000,10,regular,2000-10-28T00:00:00.000Z,NC State,Florida State,14,58,,False,True,,NC State
+63579,2000,11,regular,2000-11-04T00:00:00.000Z,Maryland,NC State,35,28,,False,True,,NC State
+63641,2000,12,regular,2000-11-11T00:00:00.000Z,NC State,Duke,35,31,,False,True,,NC State
+63712,2000,13,regular,2000-11-18T00:00:00.000Z,Virginia,NC State,24,17,,False,True,,NC State
+63732,2000,14,regular,2000-11-25T00:00:00.000Z,NC State,Wake Forest,32,14,,False,True,,NC State
+63104,2000,2,regular,2000-09-02T00:00:00.000Z,Nebraska,San José State,49,13,,False,,,Nebraska
+63158,2000,3,regular,2000-09-09T00:00:00.000Z,Notre Dame,Nebraska,24,27,,False,,,Nebraska
+63273,2000,5,regular,2000-09-23T00:00:00.000Z,Nebraska,Iowa,42,13,,False,,,Nebraska
+63324,2000,6,regular,2000-09-30T00:00:00.000Z,Nebraska,Missouri,42,24,,False,True,,Nebraska
+63380,2000,7,regular,2000-10-07T00:00:00.000Z,Iowa State,Nebraska,27,49,,False,True,,Nebraska
+63436,2000,8,regular,2000-10-14T00:00:00.000Z,Texas Tech,Nebraska,3,56,,False,True,,Nebraska
+63481,2000,9,regular,2000-10-21T00:00:00.000Z,Nebraska,Baylor,59,0,,False,True,,Nebraska
+63537,2000,10,regular,2000-10-28T00:00:00.000Z,Oklahoma,Nebraska,31,14,,False,True,,Nebraska
+63585,2000,11,regular,2000-11-04T00:00:00.000Z,Nebraska,Kansas,56,17,,False,True,,Nebraska
+63628,2000,12,regular,2000-11-11T00:00:00.000Z,Kansas State,Nebraska,29,28,,False,True,,Nebraska
+63724,2000,14,regular,2000-11-24T00:00:00.000Z,Nebraska,Colorado,34,32,,False,True,,Nebraska
+63110,2000,2,regular,2000-09-02T00:00:00.000Z,Oregon,Nevada,36,7,,False,,,Nevada
+63178,2000,3,regular,2000-09-09T00:00:00.000Z,Nevada,TCU,10,41,,False,True,,Nevada
+63274,2000,5,regular,2000-09-23T00:00:00.000Z,Wyoming,Nevada,28,35,,False,,,Nevada
+63308,2000,6,regular,2000-09-30T00:00:00.000Z,Nevada,Colorado State,14,45,,False,,,Nevada
+63381,2000,7,regular,2000-10-07T00:00:00.000Z,UNLV,Nevada,38,7,,False,,,Nevada
+63421,2000,8,regular,2000-10-14T00:00:00.000Z,Fresno State,Nevada,58,21,,False,True,,Nevada
+63496,2000,9,regular,2000-10-21T00:00:00.000Z,Nevada,San José State,30,49,,False,True,,Nevada
+63544,2000,10,regular,2000-10-28T00:00:00.000Z,SMU,Nevada,21,7,,False,True,,Nevada
+63601,2000,11,regular,2000-11-04T00:00:00.000Z,Nevada,UTEP,22,45,,False,True,,Nevada
+63623,2000,12,regular,2000-11-11T00:00:00.000Z,Hawai'i,Nevada,37,17,,False,True,,Nevada
+63692,2000,13,regular,2000-11-18T00:00:00.000Z,Nevada,Rice,34,28,,False,True,,Nevada
+63737,2000,14,regular,2000-11-25T00:00:00.000Z,Tulsa,Nevada,38,3,,False,True,,Nevada
+63071,2000,1,regular,2000-08-26T00:00:00.000Z,Texas Tech,New Mexico,24,3,,False,,,New Mexico
+63084,2000,2,regular,2000-09-02T00:00:00.000Z,New Mexico,Boise State,14,31,,False,,,New Mexico
+63167,2000,3,regular,2000-09-09T00:00:00.000Z,New Mexico,Oregon State,20,28,,False,,,New Mexico
+63214,2000,4,regular,2000-09-16T00:00:00.000Z,New Mexico State,New Mexico,13,16,,False,,,New Mexico
+63275,2000,5,regular,2000-09-23T00:00:00.000Z,New Mexico,Northern Arizona,35,28,,False,,,New Mexico
+63326,2000,6,regular,2000-09-30T00:00:00.000Z,New Mexico,Wyoming,45,10,,False,True,,New Mexico
+63366,2000,7,regular,2000-10-07T00:00:00.000Z,Colorado State,New Mexico,17,14,,False,True,,New Mexico
+63483,2000,9,regular,2000-10-21T00:00:00.000Z,Air Force,New Mexico,23,29,,False,True,,New Mexico
+63532,2000,10,regular,2000-10-28T00:00:00.000Z,New Mexico,Utah,10,3,,False,True,,New Mexico
+63593,2000,11,regular,2000-11-04T00:00:00.000Z,New Mexico,San Diego State,16,17,,False,True,,New Mexico
+63639,2000,12,regular,2000-11-11T00:00:00.000Z,UNLV,New Mexico,18,14,,False,True,,New Mexico
+63675,2000,13,regular,2000-11-18T00:00:00.000Z,BYU,New Mexico,37,13,,False,True,,New Mexico
+63117,2000,2,regular,2000-09-02T00:00:00.000Z,South Carolina,New Mexico State,31,0,,False,,,New Mexico State
+63214,2000,4,regular,2000-09-16T00:00:00.000Z,New Mexico State,New Mexico,13,16,,False,,,New Mexico State
+63262,2000,5,regular,2000-09-23T00:00:00.000Z,Georgia,New Mexico State,37,0,,False,,,New Mexico State
+63342,2000,6,regular,2000-09-30T00:00:00.000Z,UTEP,New Mexico State,41,31,,False,,,New Mexico State
+63382,2000,7,regular,2000-10-07T00:00:00.000Z,New Mexico State,Army,42,23,,False,,,New Mexico State
+63437,2000,8,regular,2000-10-14T00:00:00.000Z,New Mexico State,Tulsa,42,28,,False,,,New Mexico State
+63484,2000,9,regular,2000-10-21T00:00:00.000Z,Arkansas State,New Mexico State,29,35,,False,True,,New Mexico State
+63513,2000,10,regular,2000-10-28T00:00:00.000Z,New Mexico State,Boise State,31,34,,False,True,,New Mexico State
+63606,2000,11,regular,2000-11-04T00:00:00.000Z,New Mexico State,Utah State,37,44,,False,True,,New Mexico State
+63624,2000,12,regular,2000-11-11T00:00:00.000Z,Idaho,New Mexico State,44,41,,False,True,,New Mexico State
+63694,2000,13,regular,2000-11-18T00:00:00.000Z,North Texas,New Mexico State,30,23,,False,True,,New Mexico State
+63105,2000,2,regular,2000-09-02T00:00:00.000Z,North Carolina,Tulsa,30,9,,False,,,North Carolina
+63159,2000,3,regular,2000-09-09T00:00:00.000Z,Wake Forest,North Carolina,14,35,,False,True,,North Carolina
+63199,2000,4,regular,2000-09-16T00:00:00.000Z,Florida State,North Carolina,63,14,,False,True,,North Carolina
+63276,2000,5,regular,2000-09-23T00:00:00.000Z,North Carolina,Marshall,20,15,,False,,,North Carolina
+63310,2000,6,regular,2000-09-30T00:00:00.000Z,North Carolina,Georgia Tech,28,42,,False,True,,North Carolina
+63438,2000,8,regular,2000-10-14T00:00:00.000Z,North Carolina,NC State,20,38,,False,True,,North Carolina
+63466,2000,9,regular,2000-10-21T00:00:00.000Z,North Carolina,Clemson,24,38,,False,True,,North Carolina
+63554,2000,10,regular,2000-10-28T00:00:00.000Z,Virginia,North Carolina,17,6,,False,True,,North Carolina
+63586,2000,11,regular,2000-11-04T00:00:00.000Z,Pittsburgh,North Carolina,17,20,,False,,,North Carolina
+63640,2000,12,regular,2000-11-11T00:00:00.000Z,North Carolina,Maryland,13,10,,False,True,,North Carolina
+63693,2000,13,regular,2000-11-18T00:00:00.000Z,Duke,North Carolina,21,59,,False,True,,North Carolina
+63079,2000,2,regular,2000-08-31T00:00:00.000Z,Northwestern,Northern Illinois,35,17,,False,,,Northern Illinois
+63161,2000,3,regular,2000-09-09T00:00:00.000Z,Northern Illinois,Illinois State,52,0,,False,,,Northern Illinois
+63250,2000,5,regular,2000-09-23T00:00:00.000Z,Auburn,Northern Illinois,31,14,,False,,,Northern Illinois
+63327,2000,6,regular,2000-09-30T00:00:00.000Z,Ball State,Northern Illinois,14,43,,False,True,,Northern Illinois
+63383,2000,7,regular,2000-10-07T00:00:00.000Z,Northern Illinois,UCF,40,20,,False,,,Northern Illinois
+63439,2000,8,regular,2000-10-14T00:00:00.000Z,Akron,Northern Illinois,35,52,,False,True,,Northern Illinois
+63508,2000,9,regular,2000-10-21T00:00:00.000Z,Western Michigan,Northern Illinois,52,22,,False,True,,Northern Illinois
+63534,2000,10,regular,2000-10-28T00:00:00.000Z,Northern Illinois,Buffalo,73,10,,False,True,,Northern Illinois
+63602,2000,11,regular,2000-11-04T00:00:00.000Z,Northern Illinois,Toledo,24,38,,False,True,,Northern Illinois
+63620,2000,12,regular,2000-11-11T00:00:00.000Z,Eastern Michigan,Northern Illinois,39,32,,False,True,,Northern Illinois
+63695,2000,13,regular,2000-11-18T00:00:00.000Z,Northern Illinois,Central Michigan,40,6,,False,True,,Northern Illinois
+63076,2000,2,regular,2000-08-31T00:00:00.000Z,North Texas,Baylor,7,20,,False,,,North Texas
+63179,2000,3,regular,2000-09-09T00:00:00.000Z,Texas Tech,North Texas,13,7,,False,,,North Texas
+63213,2000,4,regular,2000-09-16T00:00:00.000Z,UNLV,North Texas,38,0,,False,,,North Texas
+63266,2000,5,regular,2000-09-23T00:00:00.000Z,Kansas State,North Texas,55,10,,False,,,North Texas
+63353,2000,7,regular,2000-10-05T00:00:00.000Z,North Texas,Samford,41,6,,False,,,North Texas
+63454,2000,8,regular,2000-10-14T00:00:00.000Z,North Texas,Utah State,12,17,,False,True,,North Texas
+63463,2000,9,regular,2000-10-21T00:00:00.000Z,Boise State,North Texas,59,0,,False,True,,North Texas
+63533,2000,10,regular,2000-10-28T00:00:00.000Z,Louisiana,North Texas,0,13,,False,,,North Texas
+63571,2000,11,regular,2000-11-04T00:00:00.000Z,North Texas,Idaho,14,16,,False,True,,North Texas
+63614,2000,12,regular,2000-11-11T00:00:00.000Z,Arkansas State,North Texas,53,28,,False,True,,North Texas
+63694,2000,13,regular,2000-11-18T00:00:00.000Z,North Texas,New Mexico State,30,23,,False,True,,North Texas
+63079,2000,2,regular,2000-08-31T00:00:00.000Z,Northwestern,Northern Illinois,35,17,,False,,,Northwestern
+63162,2000,3,regular,2000-09-09T00:00:00.000Z,Northwestern,Duke,38,5,,False,,,Northwestern
+63230,2000,4,regular,2000-09-16T00:00:00.000Z,TCU,Northwestern,41,14,,False,,,Northwestern
+63278,2000,5,regular,2000-09-23T00:00:00.000Z,Wisconsin,Northwestern,44,47,,False,True,,Northwestern
+63328,2000,6,regular,2000-09-30T00:00:00.000Z,Michigan State,Northwestern,17,37,,False,True,,Northwestern
+63384,2000,7,regular,2000-10-07T00:00:00.000Z,Northwestern,Indiana,52,33,,False,True,,Northwestern
+63445,2000,8,regular,2000-10-14T00:00:00.000Z,Northwestern,Purdue,28,41,,False,True,,Northwestern
+63535,2000,10,regular,2000-10-28T00:00:00.000Z,Minnesota,Northwestern,35,41,,False,True,,Northwestern
+63587,2000,11,regular,2000-11-04T00:00:00.000Z,Northwestern,Michigan,54,51,,False,True,,Northwestern
+63625,2000,12,regular,2000-11-11T00:00:00.000Z,Iowa,Northwestern,27,17,,False,True,,Northwestern
+63696,2000,13,regular,2000-11-18T00:00:00.000Z,Northwestern,Illinois,61,23,,False,True,,Northwestern
+63107,2000,2,regular,2000-09-02T00:00:00.000Z,Notre Dame,Texas A&M,24,10,,False,,,Notre Dame
+63158,2000,3,regular,2000-09-09T00:00:00.000Z,Notre Dame,Nebraska,24,27,,False,,,Notre Dame
+63216,2000,4,regular,2000-09-16T00:00:00.000Z,Notre Dame,Purdue,23,21,,False,,,Notre Dame
+63272,2000,5,regular,2000-09-23T00:00:00.000Z,Michigan State,Notre Dame,27,21,,False,,,Notre Dame
+63385,2000,7,regular,2000-10-07T00:00:00.000Z,Notre Dame,Stanford,20,14,,False,,,Notre Dame
+63440,2000,8,regular,2000-10-14T00:00:00.000Z,Notre Dame,Navy,45,14,,False,True,,Notre Dame
+63485,2000,9,regular,2000-10-21T00:00:00.000Z,West Virginia,Notre Dame,28,42,,False,,,Notre Dame
+63536,2000,10,regular,2000-10-28T00:00:00.000Z,Notre Dame,Air Force,34,31,,False,,,Notre Dame
+63642,2000,12,regular,2000-11-11T00:00:00.000Z,Notre Dame,Boston College,28,16,,False,,,Notre Dame
+63697,2000,13,regular,2000-11-18T00:00:00.000Z,Rutgers,Notre Dame,17,45,,False,,,Notre Dame
+63733,2000,14,regular,2000-11-25T00:00:00.000Z,USC,Notre Dame,21,38,,False,,,Notre Dame
+63094,2000,2,regular,2000-09-02T00:00:00.000Z,Iowa State,Ohio,25,15,,False,,,Ohio
+63163,2000,3,regular,2000-09-09T00:00:00.000Z,Minnesota,Ohio,17,23,,False,,,Ohio
+63217,2000,4,regular,2000-09-16T00:00:00.000Z,Ohio,Tennessee Tech,52,14,,False,,,Ohio
+63246,2000,5,regular,2000-09-23T00:00:00.000Z,Ohio,Akron,20,23,,False,True,,Ohio
+63351,2000,6,regular,2000-09-30T00:00:00.000Z,Western Michigan,Ohio,23,10,,False,True,,Ohio
+63386,2000,7,regular,2000-10-07T00:00:00.000Z,Ohio,Buffalo,42,20,,False,True,,Ohio
+63441,2000,8,regular,2000-10-14T00:00:00.000Z,Kent State,Ohio,7,44,,False,True,,Ohio
+63486,2000,9,regular,2000-10-21T00:00:00.000Z,Ohio,Central Michigan,52,3,,False,True,,Ohio
+63581,2000,11,regular,2000-11-04T00:00:00.000Z,Miami (OH),Ohio,27,24,,False,True,,Ohio
+63643,2000,12,regular,2000-11-11T00:00:00.000Z,Bowling Green,Ohio,21,23,,False,True,,Ohio
+63698,2000,13,regular,2000-11-18T00:00:00.000Z,Ohio,Marshall,38,28,,False,True,,Ohio
+63108,2000,2,regular,2000-09-02T00:00:00.000Z,Ohio State,Fresno State,43,10,,False,,,Ohio State
+63164,2000,3,regular,2000-09-09T00:00:00.000Z,Arizona,Ohio State,17,27,,False,,,Ohio State
+63218,2000,4,regular,2000-09-16T00:00:00.000Z,Ohio State,Miami (OH),27,16,,False,,,Ohio State
+63280,2000,5,regular,2000-09-23T00:00:00.000Z,Ohio State,Penn State,45,6,,False,True,,Ohio State
+63387,2000,7,regular,2000-10-07T00:00:00.000Z,Wisconsin,Ohio State,7,23,,False,True,,Ohio State
+63435,2000,8,regular,2000-10-14T00:00:00.000Z,Ohio State,Minnesota,17,29,,False,True,,Ohio State
+63487,2000,9,regular,2000-10-21T00:00:00.000Z,Iowa,Ohio State,10,38,,False,True,,Ohio State
+63541,2000,10,regular,2000-10-28T00:00:00.000Z,Purdue,Ohio State,31,27,,False,True,,Ohio State
+63588,2000,11,regular,2000-11-04T00:00:00.000Z,Ohio State,Michigan State,27,13,,False,True,,Ohio State
+63644,2000,12,regular,2000-11-11T00:00:00.000Z,Illinois,Ohio State,21,24,,False,True,,Ohio State
+63689,2000,13,regular,2000-11-18T00:00:00.000Z,Ohio State,Michigan,26,38,,False,True,,Ohio State
+63109,2000,2,regular,2000-09-02T00:00:00.000Z,Oklahoma,UTEP,55,14,,False,,,Oklahoma
+63165,2000,3,regular,2000-09-09T00:00:00.000Z,Oklahoma,Arkansas State,45,7,,False,,,Oklahoma
+63281,2000,5,regular,2000-09-23T00:00:00.000Z,Oklahoma,Rice,42,14,,False,,,Oklahoma
+63329,2000,6,regular,2000-09-30T00:00:00.000Z,Oklahoma,Kansas,34,16,,False,True,,Oklahoma
+63388,2000,7,regular,2000-10-07T00:00:00.000Z,Oklahoma,Texas,63,14,,False,True,,Oklahoma
+63442,2000,8,regular,2000-10-14T00:00:00.000Z,Kansas State,Oklahoma,31,41,,False,True,,Oklahoma
+63537,2000,10,regular,2000-10-28T00:00:00.000Z,Oklahoma,Nebraska,31,14,,False,True,,Oklahoma
+63589,2000,11,regular,2000-11-04T00:00:00.000Z,Baylor,Oklahoma,7,56,,False,True,,Oklahoma
+63645,2000,12,regular,2000-11-11T00:00:00.000Z,Texas A&M,Oklahoma,31,35,,False,True,,Oklahoma
+63699,2000,13,regular,2000-11-18T00:00:00.000Z,Oklahoma,Texas Tech,27,13,,False,True,,Oklahoma
+63734,2000,14,regular,2000-11-25T00:00:00.000Z,Oklahoma State,Oklahoma,7,12,,False,True,,Oklahoma
+63166,2000,3,regular,2000-09-09T00:00:00.000Z,Tulsa,Oklahoma State,26,36,,False,,,Oklahoma State
+63219,2000,4,regular,2000-09-16T00:00:00.000Z,Oklahoma State,Texas State,23,0,,False,,,Oklahoma State
+63288,2000,5,regular,2000-09-23T00:00:00.000Z,Oklahoma State,Southern Miss,6,28,,False,,,Oklahoma State
+63338,2000,6,regular,2000-09-30T00:00:00.000Z,Texas,Oklahoma State,42,7,,False,True,,Oklahoma State
+63379,2000,7,regular,2000-10-07T00:00:00.000Z,Missouri,Oklahoma State,24,10,,False,True,,Oklahoma State
+63427,2000,8,regular,2000-10-14T00:00:00.000Z,Oklahoma State,Iowa State,26,33,,False,True,,Oklahoma State
+63518,2000,10,regular,2000-10-28T00:00:00.000Z,Colorado,Oklahoma State,37,21,,False,True,,Oklahoma State
+63600,2000,11,regular,2000-11-04T00:00:00.000Z,Oklahoma State,Texas A&M,16,21,,False,True,,Oklahoma State
+63656,2000,12,regular,2000-11-11T00:00:00.000Z,Texas Tech,Oklahoma State,58,0,,False,True,,Oklahoma State
+63700,2000,13,regular,2000-11-18T00:00:00.000Z,Oklahoma State,Baylor,50,22,,False,True,,Oklahoma State
+63734,2000,14,regular,2000-11-25T00:00:00.000Z,Oklahoma State,Oklahoma,7,12,,False,True,,Oklahoma State
+63101,2000,2,regular,2000-09-02T00:00:00.000Z,Ole Miss,Tulane,49,20,,False,,,Ole Miss
+63135,2000,3,regular,2000-09-09T00:00:00.000Z,Ole Miss,Auburn,27,35,,False,True,,Ole Miss
+63212,2000,4,regular,2000-09-16T00:00:00.000Z,Vanderbilt,Ole Miss,7,12,,False,True,,Ole Miss
+63322,2000,6,regular,2000-09-30T00:00:00.000Z,Ole Miss,Kentucky,35,17,,False,True,,Ole Miss
+63377,2000,7,regular,2000-10-07T00:00:00.000Z,Ole Miss,Arkansas State,35,10,,False,,,Ole Miss
+63408,2000,8,regular,2000-10-14T00:00:00.000Z,Alabama,Ole Miss,45,7,,False,True,,Ole Miss
+63530,2000,10,regular,2000-10-28T00:00:00.000Z,Ole Miss,UNLV,43,40,,False,,,Ole Miss
+63583,2000,11,regular,2000-11-04T00:00:00.000Z,Arkansas,Ole Miss,24,38,,False,True,,Ole Miss
+63629,2000,12,regular,2000-11-11T00:00:00.000Z,Ole Miss,LSU,9,20,,False,True,,Ole Miss
+63680,2000,13,regular,2000-11-18T00:00:00.000Z,Georgia,Ole Miss,32,14,,False,True,,Ole Miss
+63719,2000,14,regular,2000-11-23T00:00:00.000Z,Ole Miss,Mississippi State,45,30,,False,True,,Ole Miss
+63110,2000,2,regular,2000-09-02T00:00:00.000Z,Oregon,Nevada,36,7,,False,,,Oregon
+63188,2000,3,regular,2000-09-09T00:00:00.000Z,Wisconsin,Oregon,27,23,,False,,,Oregon
+63220,2000,4,regular,2000-09-16T00:00:00.000Z,Oregon,Idaho,42,13,,False,,,Oregon
+63282,2000,5,regular,2000-09-23T00:00:00.000Z,Oregon,UCLA,29,10,,False,True,,Oregon
+63330,2000,6,regular,2000-09-30T00:00:00.000Z,Oregon,Washington,23,16,,False,True,,Oregon
+63443,2000,8,regular,2000-10-14T00:00:00.000Z,USC,Oregon,17,28,,False,True,,Oregon
+63488,2000,9,regular,2000-10-21T00:00:00.000Z,Oregon,Arizona,14,10,,False,True,,Oregon
+63538,2000,10,regular,2000-10-28T00:00:00.000Z,Arizona State,Oregon,55,56,,False,True,,Oregon
+63590,2000,11,regular,2000-11-04T00:00:00.000Z,Washington State,Oregon,24,27,,False,True,,Oregon
+63646,2000,12,regular,2000-11-11T00:00:00.000Z,Oregon,California,25,17,,False,True,,Oregon
+63701,2000,13,regular,2000-11-18T00:00:00.000Z,Oregon State,Oregon,23,13,,False,True,,Oregon
+63111,2000,2,regular,2000-09-02T00:00:00.000Z,Oregon State,Eastern Washington,21,19,,False,,,Oregon State
+63167,2000,3,regular,2000-09-09T00:00:00.000Z,New Mexico,Oregon State,20,28,,False,,,Oregon State
+63283,2000,5,regular,2000-09-23T00:00:00.000Z,Oregon State,San Diego State,35,3,,False,,,Oregon State
+63331,2000,6,regular,2000-09-30T00:00:00.000Z,Oregon State,USC,31,21,,False,True,,Oregon State
+63403,2000,7,regular,2000-10-07T00:00:00.000Z,Washington,Oregon State,33,30,,False,True,,Oregon State
+63444,2000,8,regular,2000-10-14T00:00:00.000Z,Oregon State,Stanford,38,6,,False,True,,Oregon State
+63489,2000,9,regular,2000-10-21T00:00:00.000Z,UCLA,Oregon State,38,44,,False,True,,Oregon State
+63539,2000,10,regular,2000-10-28T00:00:00.000Z,Oregon State,Washington State,38,9,,False,True,,Oregon State
+63591,2000,11,regular,2000-11-04T00:00:00.000Z,California,Oregon State,32,38,,False,True,,Oregon State
+63647,2000,12,regular,2000-11-11T00:00:00.000Z,Arizona,Oregon State,9,33,,False,True,,Oregon State
+63701,2000,13,regular,2000-11-18T00:00:00.000Z,Oregon State,Oregon,23,13,,False,True,,Oregon State
+63072,2000,1,regular,2000-08-27T00:00:00.000Z,USC,Penn State,29,5,,False,,,Penn State
+63125,2000,2,regular,2000-09-02T00:00:00.000Z,Penn State,Toledo,6,24,,False,,,Penn State
+63168,2000,3,regular,2000-09-09T00:00:00.000Z,Penn State,Louisiana Tech,67,7,,False,,,Penn State
+63221,2000,4,regular,2000-09-16T00:00:00.000Z,Pittsburgh,Penn State,12,0,,False,,,Penn State
+63280,2000,5,regular,2000-09-23T00:00:00.000Z,Ohio State,Penn State,45,6,,False,True,,Penn State
+63332,2000,6,regular,2000-09-30T00:00:00.000Z,Penn State,Purdue,22,20,,False,True,,Penn State
+63376,2000,7,regular,2000-10-07T00:00:00.000Z,Minnesota,Penn State,25,16,,False,True,,Penn State
+63490,2000,9,regular,2000-10-21T00:00:00.000Z,Penn State,Illinois,39,25,,False,True,,Penn State
+63540,2000,10,regular,2000-10-28T00:00:00.000Z,Indiana,Penn State,24,27,,False,True,,Penn State
+63573,2000,11,regular,2000-11-04T00:00:00.000Z,Penn State,Iowa,23,26,,False,True,,Penn State
+63634,2000,12,regular,2000-11-11T00:00:00.000Z,Michigan,Penn State,33,11,,False,True,,Penn State
+63702,2000,13,regular,2000-11-18T00:00:00.000Z,Penn State,Michigan State,42,23,,False,True,,Penn State
+63112,2000,2,regular,2000-09-02T00:00:00.000Z,Pittsburgh,Kent State,30,7,,False,,,Pittsburgh
+63169,2000,3,regular,2000-09-09T00:00:00.000Z,Bowling Green,Pittsburgh,16,34,,False,,,Pittsburgh
+63221,2000,4,regular,2000-09-16T00:00:00.000Z,Pittsburgh,Penn State,12,0,,False,,,Pittsburgh
+63284,2000,5,regular,2000-09-23T00:00:00.000Z,Pittsburgh,Rutgers,29,17,,False,True,,Pittsburgh
+63394,2000,7,regular,2000-10-07T00:00:00.000Z,Syracuse,Pittsburgh,24,17,,False,True,,Pittsburgh
+63491,2000,9,regular,2000-10-21T00:00:00.000Z,Pittsburgh,Boston College,42,26,,False,True,,Pittsburgh
+63555,2000,10,regular,2000-10-28T00:00:00.000Z,Virginia Tech,Pittsburgh,37,34,,False,True,,Pittsburgh
+63586,2000,11,regular,2000-11-04T00:00:00.000Z,Pittsburgh,North Carolina,17,20,,False,,,Pittsburgh
+63633,2000,12,regular,2000-11-11T00:00:00.000Z,Miami,Pittsburgh,35,7,,False,True,,Pittsburgh
+63703,2000,13,regular,2000-11-18T00:00:00.000Z,Temple,Pittsburgh,0,7,,False,True,,Pittsburgh
+63725,2000,14,regular,2000-11-24T00:00:00.000Z,Pittsburgh,West Virginia,38,28,,False,True,,Pittsburgh
+63113,2000,2,regular,2000-09-02T00:00:00.000Z,Purdue,Central Michigan,48,0,,False,,,Purdue
+63171,2000,3,regular,2000-09-09T00:00:00.000Z,Purdue,Kent State,45,10,,False,,,Purdue
+63216,2000,4,regular,2000-09-16T00:00:00.000Z,Notre Dame,Purdue,23,21,,False,,,Purdue
+63285,2000,5,regular,2000-09-23T00:00:00.000Z,Purdue,Minnesota,38,24,,False,True,,Purdue
+63332,2000,6,regular,2000-09-30T00:00:00.000Z,Penn State,Purdue,22,20,,False,True,,Purdue
+63389,2000,7,regular,2000-10-07T00:00:00.000Z,Purdue,Michigan,32,31,,False,True,,Purdue
+63445,2000,8,regular,2000-10-14T00:00:00.000Z,Northwestern,Purdue,28,41,,False,True,,Purdue
+63492,2000,9,regular,2000-10-21T00:00:00.000Z,Wisconsin,Purdue,24,30,,False,True,,Purdue
+63541,2000,10,regular,2000-10-28T00:00:00.000Z,Purdue,Ohio State,31,27,,False,True,,Purdue
+63635,2000,12,regular,2000-11-11T00:00:00.000Z,Michigan State,Purdue,30,10,,False,True,,Purdue
+63704,2000,13,regular,2000-11-18T00:00:00.000Z,Purdue,Indiana,41,13,,False,True,,Purdue
+63114,2000,2,regular,2000-09-02T00:00:00.000Z,Rice,Houston,30,27,,False,,,Rice
+63155,2000,3,regular,2000-09-09T00:00:00.000Z,Michigan,Rice,38,7,,False,,,Rice
+63233,2000,4,regular,2000-09-16T00:00:00.000Z,Rice,Tulsa,16,23,,False,True,,Rice
+63281,2000,5,regular,2000-09-23T00:00:00.000Z,Oklahoma,Rice,42,14,,False,,,Rice
+63334,2000,6,regular,2000-09-30T00:00:00.000Z,San José State,Rice,29,16,,False,True,,Rice
+63352,2000,7,regular,2000-10-05T00:00:00.000Z,Rice,Fresno State,24,27,,False,True,,Rice
+63493,2000,9,regular,2000-10-21T00:00:00.000Z,Rice,Hawai'i,38,13,,False,True,,Rice
+63549,2000,10,regular,2000-10-28T00:00:00.000Z,TCU,Rice,37,0,,False,True,,Rice
+63592,2000,11,regular,2000-11-04T00:00:00.000Z,Rice,SMU,43,14,,False,True,,Rice
+63657,2000,12,regular,2000-11-11T00:00:00.000Z,UTEP,Rice,38,21,,False,True,,Rice
+63692,2000,13,regular,2000-11-18T00:00:00.000Z,Nevada,Rice,34,28,,False,True,,Rice
+63115,2000,2,regular,2000-09-02T00:00:00.000Z,Rutgers,Villanova,34,21,,False,,,Rutgers
+63172,2000,3,regular,2000-09-09T00:00:00.000Z,Rutgers,Buffalo,59,0,,False,,,Rutgers
+63236,2000,4,regular,2000-09-16T00:00:00.000Z,Virginia Tech,Rutgers,49,0,,False,True,,Rutgers
+63284,2000,5,regular,2000-09-23T00:00:00.000Z,Pittsburgh,Rutgers,29,17,,False,True,,Rutgers
+63319,2000,6,regular,2000-09-30T00:00:00.000Z,Rutgers,Miami,6,64,,False,True,,Rutgers
+63448,2000,8,regular,2000-10-14T00:00:00.000Z,Rutgers,Temple,14,48,,False,True,,Rutgers
+63494,2000,9,regular,2000-10-21T00:00:00.000Z,Navy,Rutgers,21,28,,False,,,Rutgers
+63514,2000,10,regular,2000-10-28T00:00:00.000Z,Boston College,Rutgers,42,13,,False,True,,Rutgers
+63665,2000,12,regular,2000-11-11T00:00:00.000Z,Rutgers,West Virginia,24,31,,False,True,,Rutgers
+63697,2000,13,regular,2000-11-18T00:00:00.000Z,Rutgers,Notre Dame,17,45,,False,,,Rutgers
+63735,2000,14,regular,2000-11-25T00:00:00.000Z,Syracuse,Rutgers,49,21,,False,True,,Rutgers
+63116,2000,2,regular,2000-09-02T00:00:00.000Z,Louisiana,Sam Houston,14,21,,False,,,Sam Houston
+63074,2000,2,regular,2000-08-31T00:00:00.000Z,San Diego State,Arizona State,7,10,,False,,,San Diego State
+63147,2000,3,regular,2000-09-09T00:00:00.000Z,San Diego State,Illinois,13,49,,False,,,San Diego State
+63191,2000,4,regular,2000-09-16T00:00:00.000Z,Arizona,San Diego State,17,3,,False,,,San Diego State
+63283,2000,5,regular,2000-09-23T00:00:00.000Z,Oregon State,San Diego State,35,3,,False,,,San Diego State
+63390,2000,7,regular,2000-10-07T00:00:00.000Z,Wyoming,San Diego State,0,34,,False,True,,San Diego State
+63453,2000,8,regular,2000-10-14T00:00:00.000Z,San Diego State,Utah,7,21,,False,True,,San Diego State
+63495,2000,9,regular,2000-10-21T00:00:00.000Z,BYU,San Diego State,15,16,,False,True,,San Diego State
+63519,2000,10,regular,2000-10-28T00:00:00.000Z,San Diego State,Colorado State,22,34,,False,True,,San Diego State
+63593,2000,11,regular,2000-11-04T00:00:00.000Z,New Mexico,San Diego State,16,17,,False,True,,San Diego State
+63668,2000,13,regular,2000-11-18T00:00:00.000Z,Air Force,San Diego State,45,24,,False,True,,San Diego State
+63731,2000,14,regular,2000-11-25T00:00:00.000Z,San Diego State,UNLV,24,31,,False,True,,San Diego State
+63104,2000,2,regular,2000-09-02T00:00:00.000Z,Nebraska,San José State,49,13,,False,,,San José State
+63173,2000,3,regular,2000-09-09T00:00:00.000Z,Stanford,San José State,27,40,,False,,,San José State
+63222,2000,4,regular,2000-09-16T00:00:00.000Z,San José State,Southern Utah,47,7,,False,,,San José State
+63287,2000,5,regular,2000-09-23T00:00:00.000Z,USC,San José State,34,24,,False,,,San José State
+63334,2000,6,regular,2000-09-30T00:00:00.000Z,San José State,Rice,29,16,,False,True,,San José State
+63391,2000,7,regular,2000-10-07T00:00:00.000Z,SMU,San José State,10,35,,False,True,,San José State
+63451,2000,8,regular,2000-10-14T00:00:00.000Z,San José State,UTEP,30,47,,False,True,,San José State
+63496,2000,9,regular,2000-10-21T00:00:00.000Z,Nevada,San José State,30,49,,False,True,,San José State
+63542,2000,10,regular,2000-10-28T00:00:00.000Z,Hawai'i,San José State,48,57,,False,True,,San José State
+63594,2000,11,regular,2000-11-04T00:00:00.000Z,San José State,TCU,27,24,,False,True,,San José State
+63711,2000,13,regular,2000-11-18T00:00:00.000Z,Tulsa,San José State,28,17,,False,True,,San José State
+63728,2000,14,regular,2000-11-25T00:00:00.000Z,San José State,Fresno State,6,37,,False,True,,San José State
+63119,2000,2,regular,2000-09-02T00:00:00.000Z,SMU,Kansas,31,17,,False,,,SMU
+63180,2000,3,regular,2000-09-09T00:00:00.000Z,UTEP,SMU,37,20,,False,True,,SMU
+63215,2000,4,regular,2000-09-16T00:00:00.000Z,NC State,SMU,41,0,,False,,,SMU
+63294,2000,5,regular,2000-09-23T00:00:00.000Z,SMU,Tulane,17,29,,False,,,SMU
+63311,2000,6,regular,2000-09-30T00:00:00.000Z,Houston,SMU,17,15,,False,,,SMU
+63391,2000,7,regular,2000-10-07T00:00:00.000Z,SMU,San José State,10,35,,False,True,,SMU
+63424,2000,8,regular,2000-10-14T00:00:00.000Z,Hawai'i,SMU,30,15,,False,True,,SMU
+63544,2000,10,regular,2000-10-28T00:00:00.000Z,SMU,Nevada,21,7,,False,True,,SMU
+63592,2000,11,regular,2000-11-04T00:00:00.000Z,Rice,SMU,43,14,,False,True,,SMU
+63649,2000,12,regular,2000-11-11T00:00:00.000Z,SMU,Tulsa,24,20,,False,True,,SMU
+63679,2000,13,regular,2000-11-18T00:00:00.000Z,Fresno State,SMU,14,7,,False,True,,SMU
+63727,2000,14,regular,2000-11-24T00:00:00.000Z,SMU,TCU,7,62,,False,True,,SMU
+63117,2000,2,regular,2000-09-02T00:00:00.000Z,South Carolina,New Mexico State,31,0,,False,,,South Carolina
+63174,2000,3,regular,2000-09-09T00:00:00.000Z,South Carolina,Georgia,21,10,,False,True,,South Carolina
+63223,2000,4,regular,2000-09-16T00:00:00.000Z,South Carolina,Eastern Michigan,41,6,,False,,,South Carolina
+63286,2000,5,regular,2000-09-23T00:00:00.000Z,South Carolina,Mississippi State,23,19,,False,True,,South Carolina
+63301,2000,6,regular,2000-09-30T00:00:00.000Z,Alabama,South Carolina,27,17,,False,True,,South Carolina
+63392,2000,7,regular,2000-10-07T00:00:00.000Z,Kentucky,South Carolina,17,20,,False,True,,South Carolina
+63446,2000,8,regular,2000-10-14T00:00:00.000Z,South Carolina,Arkansas,27,7,,False,True,,South Carolina
+63497,2000,9,regular,2000-10-21T00:00:00.000Z,Vanderbilt,South Carolina,14,30,,False,True,,South Carolina
+63546,2000,10,regular,2000-10-28T00:00:00.000Z,South Carolina,Tennessee,14,17,,False,True,,South Carolina
+63621,2000,12,regular,2000-11-11T00:00:00.000Z,Florida,South Carolina,41,21,,False,True,,South Carolina
+63677,2000,13,regular,2000-11-18T00:00:00.000Z,Clemson,South Carolina,16,14,,False,,,South Carolina
+63123,2000,2,regular,2000-09-02T00:00:00.000Z,Tennessee,Southern Miss,19,16,,False,,,Southern Miss
+63225,2000,4,regular,2000-09-16T00:00:00.000Z,Alabama,Southern Miss,0,21,,False,,,Southern Miss
+63288,2000,5,regular,2000-09-23T00:00:00.000Z,Oklahoma State,Southern Miss,6,28,,False,,,Southern Miss
+63336,2000,6,regular,2000-09-30T00:00:00.000Z,Southern Miss,Memphis,24,3,,False,True,,Southern Miss
+63393,2000,7,regular,2000-10-07T00:00:00.000Z,Southern Miss,South Florida,41,7,,False,,,Southern Miss
+63447,2000,8,regular,2000-10-14T00:00:00.000Z,Tulane,Southern Miss,24,56,,False,True,,Southern Miss
+63545,2000,10,regular,2000-10-28T00:00:00.000Z,Houston,Southern Miss,3,6,,False,True,,Southern Miss
+63577,2000,11,regular,2000-11-04T00:00:00.000Z,Southern Miss,Louisville,28,49,,False,True,,Southern Miss
+63650,2000,12,regular,2000-11-11T00:00:00.000Z,UAB,Southern Miss,30,33,,False,True,,Southern Miss
+63676,2000,13,regular,2000-11-18T00:00:00.000Z,Cincinnati,Southern Miss,27,24,,False,True,,Southern Miss
+63723,2000,14,regular,2000-11-24T00:00:00.000Z,Southern Miss,East Carolina,9,14,,False,True,,Southern Miss
+63118,2000,2,regular,2000-09-02T00:00:00.000Z,South Florida,Jacksonville State,40,0,,False,,,South Florida
+63149,2000,3,regular,2000-09-09T00:00:00.000Z,Kentucky,South Florida,27,9,,False,,,South Florida
+63224,2000,4,regular,2000-09-16T00:00:00.000Z,South Florida,James Madison,26,7,,False,,,South Florida
+63251,2000,5,regular,2000-09-23T00:00:00.000Z,Baylor,South Florida,28,13,,False,,,South Florida
+63335,2000,6,regular,2000-09-30T00:00:00.000Z,South Florida,Troy,20,10,,False,,,South Florida
+63393,2000,7,regular,2000-10-07T00:00:00.000Z,Southern Miss,South Florida,41,7,,False,,,South Florida
+63498,2000,9,regular,2000-10-21T00:00:00.000Z,South Florida,Liberty,44,6,,False,,,South Florida
+63543,2000,10,regular,2000-10-28T00:00:00.000Z,UConn,South Florida,13,21,,False,True,,South Florida
+63595,2000,11,regular,2000-11-04T00:00:00.000Z,South Florida,Western Kentucky,30,24,,False,,,South Florida
+63636,2000,12,regular,2000-11-11T00:00:00.000Z,Middle Tennessee,South Florida,45,9,,False,True,,South Florida
+63705,2000,13,regular,2000-11-18T00:00:00.000Z,South Florida,Austin Peay,59,0,,False,,,South Florida
+63120,2000,2,regular,2000-09-02T00:00:00.000Z,Washington State,Stanford,10,24,,False,True,,Stanford
+63173,2000,3,regular,2000-09-09T00:00:00.000Z,Stanford,San José State,27,40,,False,,,Stanford
+63226,2000,4,regular,2000-09-16T00:00:00.000Z,Stanford,Texas,27,24,,False,,,Stanford
+63303,2000,6,regular,2000-09-30T00:00:00.000Z,Stanford,Arizona,3,27,,False,True,,Stanford
+63385,2000,7,regular,2000-10-07T00:00:00.000Z,Notre Dame,Stanford,20,14,,False,,,Stanford
+63444,2000,8,regular,2000-10-14T00:00:00.000Z,Oregon State,Stanford,38,6,,False,True,,Stanford
+63499,2000,9,regular,2000-10-21T00:00:00.000Z,Stanford,USC,32,30,,False,True,,Stanford
+63556,2000,10,regular,2000-10-28T00:00:00.000Z,Stanford,Washington,28,31,,False,True,,Stanford
+63604,2000,11,regular,2000-11-04T00:00:00.000Z,UCLA,Stanford,37,35,,False,True,,Stanford
+63651,2000,12,regular,2000-11-11T00:00:00.000Z,Stanford,Arizona State,29,7,,False,True,,Stanford
+63707,2000,13,regular,2000-11-18T00:00:00.000Z,California,Stanford,30,36,,False,True,,Stanford
+63121,2000,2,regular,2000-09-02T00:00:00.000Z,Syracuse,Buffalo,63,7,,False,,,Syracuse
+63141,2000,3,regular,2000-09-09T00:00:00.000Z,Cincinnati,Syracuse,12,10,,False,,,Syracuse
+63258,2000,5,regular,2000-09-23T00:00:00.000Z,East Carolina,Syracuse,34,17,,False,,,Syracuse
+63337,2000,6,regular,2000-09-30T00:00:00.000Z,Syracuse,BYU,42,14,,False,,,Syracuse
+63394,2000,7,regular,2000-10-07T00:00:00.000Z,Syracuse,Pittsburgh,24,17,,False,True,,Syracuse
+63413,2000,8,regular,2000-10-14T00:00:00.000Z,Boston College,Syracuse,20,13,,False,True,,Syracuse
+63506,2000,9,regular,2000-10-21T00:00:00.000Z,Syracuse,Virginia Tech,14,22,,False,True,,Syracuse
+63597,2000,11,regular,2000-11-04T00:00:00.000Z,West Virginia,Syracuse,27,31,,False,True,,Syracuse
+63652,2000,12,regular,2000-11-11T00:00:00.000Z,Temple,Syracuse,12,31,,False,True,,Syracuse
+63687,2000,13,regular,2000-11-18T00:00:00.000Z,Syracuse,Miami,0,26,,False,True,,Syracuse
+63735,2000,14,regular,2000-11-25T00:00:00.000Z,Syracuse,Rutgers,49,21,,False,True,,Syracuse
+63178,2000,3,regular,2000-09-09T00:00:00.000Z,Nevada,TCU,10,41,,False,True,,TCU
+63230,2000,4,regular,2000-09-16T00:00:00.000Z,TCU,Northwestern,41,14,,False,,,TCU
+63292,2000,5,regular,2000-09-23T00:00:00.000Z,TCU,Arkansas State,52,3,,False,,,TCU
+63340,2000,6,regular,2000-09-30T00:00:00.000Z,Navy,TCU,0,24,,False,,,TCU
+63395,2000,7,regular,2000-10-07T00:00:00.000Z,TCU,Hawai'i,41,21,,False,True,,TCU
+63503,2000,9,regular,2000-10-21T00:00:00.000Z,Tulsa,TCU,3,17,,False,True,,TCU
+63549,2000,10,regular,2000-10-28T00:00:00.000Z,TCU,Rice,37,0,,False,True,,TCU
+63594,2000,11,regular,2000-11-04T00:00:00.000Z,San José State,TCU,27,24,,False,True,,TCU
+63655,2000,12,regular,2000-11-11T00:00:00.000Z,TCU,Fresno State,24,7,,False,True,,TCU
+63709,2000,13,regular,2000-11-18T00:00:00.000Z,TCU,UTEP,47,14,,False,True,,TCU
+63727,2000,14,regular,2000-11-24T00:00:00.000Z,SMU,TCU,7,62,,False,True,,TCU
+63122,2000,2,regular,2000-09-02T00:00:00.000Z,Navy,Temple,6,17,,False,,,Temple
+63152,2000,3,regular,2000-09-09T00:00:00.000Z,Maryland,Temple,17,10,,False,,,Temple
+63228,2000,4,regular,2000-09-16T00:00:00.000Z,Temple,Bowling Green,31,14,,False,,,Temple
+63289,2000,5,regular,2000-09-23T00:00:00.000Z,Temple,Eastern Michigan,49,40,,False,,,Temple
+63299,2000,6,regular,2000-09-28T00:00:00.000Z,Temple,West Virginia,24,29,,False,True,,Temple
+63402,2000,7,regular,2000-10-07T00:00:00.000Z,Virginia Tech,Temple,35,13,,False,True,,Temple
+63448,2000,8,regular,2000-10-14T00:00:00.000Z,Rutgers,Temple,14,48,,False,True,,Temple
+63479,2000,9,regular,2000-10-21T00:00:00.000Z,Temple,Miami,17,45,,False,True,,Temple
+63562,2000,11,regular,2000-11-04T00:00:00.000Z,Boston College,Temple,31,3,,False,True,,Temple
+63652,2000,12,regular,2000-11-11T00:00:00.000Z,Temple,Syracuse,12,31,,False,True,,Temple
+63703,2000,13,regular,2000-11-18T00:00:00.000Z,Temple,Pittsburgh,0,7,,False,True,,Temple
+63123,2000,2,regular,2000-09-02T00:00:00.000Z,Tennessee,Southern Miss,19,16,,False,,,Tennessee
+63198,2000,4,regular,2000-09-16T00:00:00.000Z,Tennessee,Florida,23,27,,False,True,,Tennessee
+63290,2000,5,regular,2000-09-23T00:00:00.000Z,Tennessee,UL Monroe,70,3,,False,,,Tennessee
+63316,2000,6,regular,2000-09-30T00:00:00.000Z,LSU,Tennessee,38,31,,False,True,,Tennessee
+63368,2000,7,regular,2000-10-07T00:00:00.000Z,Georgia,Tennessee,21,10,,False,True,,Tennessee
+63500,2000,9,regular,2000-10-21T00:00:00.000Z,Tennessee,Alabama,20,10,,False,True,,Tennessee
+63546,2000,10,regular,2000-10-28T00:00:00.000Z,South Carolina,Tennessee,14,17,,False,True,,Tennessee
+63598,2000,11,regular,2000-11-04T00:00:00.000Z,Memphis,Tennessee,17,19,,False,,,Tennessee
+63653,2000,12,regular,2000-11-11T00:00:00.000Z,Tennessee,Arkansas,63,20,,False,True,,Tennessee
+63708,2000,13,regular,2000-11-18T00:00:00.000Z,Tennessee,Kentucky,59,20,,False,True,,Tennessee
+63736,2000,14,regular,2000-11-25T00:00:00.000Z,Vanderbilt,Tennessee,26,28,,False,True,,Tennessee
+63176,2000,3,regular,2000-09-09T00:00:00.000Z,Texas,Louisiana,52,10,,False,,,Texas
+63226,2000,4,regular,2000-09-16T00:00:00.000Z,Stanford,Texas,27,24,,False,,,Texas
+63291,2000,5,regular,2000-09-23T00:00:00.000Z,Texas,Houston,48,0,,False,,,Texas
+63338,2000,6,regular,2000-09-30T00:00:00.000Z,Texas,Oklahoma State,42,7,,False,True,,Texas
+63388,2000,7,regular,2000-10-07T00:00:00.000Z,Oklahoma,Texas,63,14,,False,True,,Texas
+63449,2000,8,regular,2000-10-14T00:00:00.000Z,Colorado,Texas,14,28,,False,True,,Texas
+63501,2000,9,regular,2000-10-21T00:00:00.000Z,Texas,Missouri,46,12,,False,True,,Texas
+63547,2000,10,regular,2000-10-28T00:00:00.000Z,Texas,Baylor,48,14,,False,True,,Texas
+63599,2000,11,regular,2000-11-04T00:00:00.000Z,Texas Tech,Texas,17,29,,False,True,,Texas
+63654,2000,12,regular,2000-11-11T00:00:00.000Z,Kansas,Texas,16,51,,False,True,,Texas
+63726,2000,14,regular,2000-11-24T00:00:00.000Z,Texas,Texas A&M,43,17,,False,True,,Texas
+63107,2000,2,regular,2000-09-02T00:00:00.000Z,Notre Dame,Texas A&M,24,10,,False,,,Texas A&M
+63177,2000,3,regular,2000-09-09T00:00:00.000Z,Texas A&M,Wyoming,51,3,,False,,,Texas A&M
+63229,2000,4,regular,2000-09-16T00:00:00.000Z,Texas A&M,UTEP,45,17,,False,,,Texas A&M
+63339,2000,6,regular,2000-09-30T00:00:00.000Z,Texas A&M,Texas Tech,33,15,,False,True,,Texas A&M
+63365,2000,7,regular,2000-10-07T00:00:00.000Z,Texas A&M,Colorado,19,26,,False,True,,Texas A&M
+63450,2000,8,regular,2000-10-14T00:00:00.000Z,Baylor,Texas A&M,0,24,,False,True,,Texas A&M
+63502,2000,9,regular,2000-10-21T00:00:00.000Z,Iowa State,Texas A&M,7,30,,False,True,,Texas A&M
+63548,2000,10,regular,2000-10-28T00:00:00.000Z,Texas A&M,Kansas State,26,10,,False,True,,Texas A&M
+63600,2000,11,regular,2000-11-04T00:00:00.000Z,Oklahoma State,Texas A&M,16,21,,False,True,,Texas A&M
+63645,2000,12,regular,2000-11-11T00:00:00.000Z,Texas A&M,Oklahoma,31,35,,False,True,,Texas A&M
+63726,2000,14,regular,2000-11-24T00:00:00.000Z,Texas,Texas A&M,43,17,,False,True,,Texas A&M
+63219,2000,4,regular,2000-09-16T00:00:00.000Z,Oklahoma State,Texas State,23,0,,False,,,Texas State
+63341,2000,6,regular,2000-09-30T00:00:00.000Z,UL Monroe,Texas State,7,27,,False,,,Texas State
+63071,2000,1,regular,2000-08-26T00:00:00.000Z,Texas Tech,New Mexico,24,3,,False,,,Texas Tech
+63124,2000,2,regular,2000-09-02T00:00:00.000Z,Texas Tech,Utah State,38,16,,False,,,Texas Tech
+63179,2000,3,regular,2000-09-09T00:00:00.000Z,Texas Tech,North Texas,13,7,,False,,,Texas Tech
+63231,2000,4,regular,2000-09-16T00:00:00.000Z,Texas Tech,Louisiana,26,0,,False,,,Texas Tech
+63339,2000,6,regular,2000-09-30T00:00:00.000Z,Texas A&M,Texas Tech,33,15,,False,True,,Texas Tech
+63396,2000,7,regular,2000-10-07T00:00:00.000Z,Texas Tech,Baylor,28,0,,False,True,,Texas Tech
+63436,2000,8,regular,2000-10-14T00:00:00.000Z,Texas Tech,Nebraska,3,56,,False,True,,Texas Tech
+63475,2000,9,regular,2000-10-21T00:00:00.000Z,Kansas State,Texas Tech,28,23,,False,True,,Texas Tech
+63550,2000,10,regular,2000-10-28T00:00:00.000Z,Kansas,Texas Tech,39,45,,False,True,,Texas Tech
+63599,2000,11,regular,2000-11-04T00:00:00.000Z,Texas Tech,Texas,17,29,,False,True,,Texas Tech
+63656,2000,12,regular,2000-11-11T00:00:00.000Z,Texas Tech,Oklahoma State,58,0,,False,True,,Texas Tech
+63699,2000,13,regular,2000-11-18T00:00:00.000Z,Oklahoma,Texas Tech,27,13,,False,True,,Texas Tech
+63125,2000,2,regular,2000-09-02T00:00:00.000Z,Penn State,Toledo,6,24,,False,,,Toledo
+63181,2000,3,regular,2000-09-09T00:00:00.000Z,Toledo,Weber State,51,0,,False,,,Toledo
+63232,2000,4,regular,2000-09-16T00:00:00.000Z,Toledo,Eastern Illinois,31,26,,False,,,Toledo
+63297,2000,5,regular,2000-09-23T00:00:00.000Z,Western Michigan,Toledo,21,14,,False,True,,Toledo
+63343,2000,6,regular,2000-09-30T00:00:00.000Z,Toledo,Central Michigan,41,0,,False,True,,Toledo
+63398,2000,7,regular,2000-10-07T00:00:00.000Z,Eastern Michigan,Toledo,14,42,,False,True,,Toledo
+63452,2000,8,regular,2000-10-14T00:00:00.000Z,Toledo,Marshall,42,0,,False,True,,Toledo
+63551,2000,10,regular,2000-10-28T00:00:00.000Z,Navy,Toledo,14,35,,False,,,Toledo
+63602,2000,11,regular,2000-11-04T00:00:00.000Z,Northern Illinois,Toledo,24,38,,False,True,,Toledo
+63658,2000,12,regular,2000-11-11T00:00:00.000Z,Toledo,Ball State,31,3,,False,True,,Toledo
+63718,2000,14,regular,2000-11-22T00:00:00.000Z,Toledo,Bowling Green,51,17,,False,True,,Toledo
+63335,2000,6,regular,2000-09-30T00:00:00.000Z,South Florida,Troy,20,10,,False,,,Troy
+63101,2000,2,regular,2000-09-02T00:00:00.000Z,Ole Miss,Tulane,49,20,,False,,,Tulane
+63197,2000,4,regular,2000-09-16T00:00:00.000Z,East Carolina,Tulane,37,17,,False,True,,Tulane
+63294,2000,5,regular,2000-09-23T00:00:00.000Z,SMU,Tulane,17,29,,False,,,Tulane
+63344,2000,6,regular,2000-09-30T00:00:00.000Z,Tulane,Cincinnati,24,19,,False,True,,Tulane
+63399,2000,7,regular,2000-10-07T00:00:00.000Z,Louisiana,Tulane,37,38,,False,,,Tulane
+63447,2000,8,regular,2000-10-14T00:00:00.000Z,Tulane,Southern Miss,24,56,,False,True,,Tulane
+63460,2000,9,regular,2000-10-21T00:00:00.000Z,Army,Tulane,21,17,,False,True,,Tulane
+63525,2000,10,regular,2000-10-28T00:00:00.000Z,Louisville,Tulane,35,32,,False,True,,Tulane
+63603,2000,11,regular,2000-11-04T00:00:00.000Z,Tulane,Houston,41,23,,False,True,,Tulane
+63659,2000,12,regular,2000-11-11T00:00:00.000Z,Tulane,Navy,50,38,,False,,,Tulane
+63710,2000,13,regular,2000-11-18T00:00:00.000Z,Tulane,Memphis,37,14,,False,True,,Tulane
+63105,2000,2,regular,2000-09-02T00:00:00.000Z,North Carolina,Tulsa,30,9,,False,,,Tulsa
+63166,2000,3,regular,2000-09-09T00:00:00.000Z,Tulsa,Oklahoma State,26,36,,False,,,Tulsa
+63233,2000,4,regular,2000-09-16T00:00:00.000Z,Rice,Tulsa,16,23,,False,True,,Tulsa
+63295,2000,5,regular,2000-09-23T00:00:00.000Z,Tulsa,Louisiana Tech,22,10,,False,,,Tulsa
+63345,2000,6,regular,2000-09-30T00:00:00.000Z,Hawai'i,Tulsa,14,24,,False,True,,Tulsa
+63397,2000,7,regular,2000-10-07T00:00:00.000Z,Tulsa,UTEP,7,40,,False,True,,Tulsa
+63437,2000,8,regular,2000-10-14T00:00:00.000Z,New Mexico State,Tulsa,42,28,,False,,,Tulsa
+63503,2000,9,regular,2000-10-21T00:00:00.000Z,Tulsa,TCU,3,17,,False,True,,Tulsa
+63522,2000,10,regular,2000-10-28T00:00:00.000Z,Fresno State,Tulsa,34,12,,False,True,,Tulsa
+63649,2000,12,regular,2000-11-11T00:00:00.000Z,SMU,Tulsa,24,20,,False,True,,Tulsa
+63711,2000,13,regular,2000-11-18T00:00:00.000Z,Tulsa,San José State,28,17,,False,True,,Tulsa
+63737,2000,14,regular,2000-11-25T00:00:00.000Z,Tulsa,Nevada,38,3,,False,True,,Tulsa
+63131,2000,3,regular,2000-09-07T00:00:00.000Z,UAB,Chattanooga,20,15,,False,,,UAB
+63204,2000,4,regular,2000-09-16T00:00:00.000Z,Kansas,UAB,23,20,,False,,,UAB
+63247,2000,5,regular,2000-09-23T00:00:00.000Z,LSU,UAB,10,13,,False,,,UAB
+63302,2000,6,regular,2000-09-30T00:00:00.000Z,UAB,Louisiana,47,2,,False,,,UAB
+63372,2000,7,regular,2000-10-07T00:00:00.000Z,UAB,Louisville,17,38,,False,True,,UAB
+63409,2000,8,regular,2000-10-14T00:00:00.000Z,UAB,Memphis,13,9,,False,True,,UAB
+63458,2000,9,regular,2000-10-21T00:00:00.000Z,UAB,Middle Tennessee,14,9,,False,,,UAB
+63510,2000,10,regular,2000-10-28T00:00:00.000Z,East Carolina,UAB,13,16,,False,True,,UAB
+63565,2000,11,regular,2000-11-04T00:00:00.000Z,Cincinnati,UAB,33,21,,False,True,,UAB
+63650,2000,12,regular,2000-11-11T00:00:00.000Z,UAB,Southern Miss,30,33,,False,True,,UAB
+63670,2000,13,regular,2000-11-18T00:00:00.000Z,Army,UAB,7,27,,False,True,,UAB
+63092,2000,2,regular,2000-09-02T00:00:00.000Z,Georgia Tech,UCF,21,17,,False,,,UCF
+63139,2000,3,regular,2000-09-09T00:00:00.000Z,UCF,Northwestern State,19,7,,False,,,UCF
+63190,2000,4,regular,2000-09-16T00:00:00.000Z,Akron,UCF,35,24,,False,,,UCF
+63256,2000,5,regular,2000-09-23T00:00:00.000Z,UCF,William & Mary,52,7,,False,,,UCF
+63306,2000,6,regular,2000-09-30T00:00:00.000Z,Eastern Michigan,UCF,10,31,,False,,,UCF
+63383,2000,7,regular,2000-10-07T00:00:00.000Z,Northern Illinois,UCF,40,20,,False,,,UCF
+63415,2000,8,regular,2000-10-14T00:00:00.000Z,UCF,Eastern Kentucky,34,3,,False,,,UCF
+63465,2000,9,regular,2000-10-21T00:00:00.000Z,UCF,UL Monroe,55,0,,False,True,,UCF
+63516,2000,10,regular,2000-10-28T00:00:00.000Z,Alabama,UCF,38,40,,False,,,UCF
+63564,2000,11,regular,2000-11-04T00:00:00.000Z,Louisiana Tech,UCF,16,20,,False,True,,UCF
+63662,2000,12,regular,2000-11-11T00:00:00.000Z,UCF,Virginia Tech,21,44,,False,,,UCF
+63126,2000,2,regular,2000-09-02T00:00:00.000Z,UCLA,Alabama,35,24,,False,,,UCLA
+63182,2000,3,regular,2000-09-09T00:00:00.000Z,UCLA,Fresno State,24,21,,False,,,UCLA
+63234,2000,4,regular,2000-09-16T00:00:00.000Z,UCLA,Michigan,23,20,,False,,,UCLA
+63282,2000,5,regular,2000-09-23T00:00:00.000Z,Oregon,UCLA,29,10,,False,True,,UCLA
+63346,2000,6,regular,2000-09-30T00:00:00.000Z,UCLA,Arizona State,38,31,,False,True,,UCLA
+63414,2000,8,regular,2000-10-14T00:00:00.000Z,California,UCLA,46,38,,False,True,,UCLA
+63489,2000,9,regular,2000-10-21T00:00:00.000Z,UCLA,Oregon State,38,44,,False,True,,UCLA
+63552,2000,10,regular,2000-10-28T00:00:00.000Z,Arizona,UCLA,24,27,,False,True,,UCLA
+63604,2000,11,regular,2000-11-04T00:00:00.000Z,UCLA,Stanford,37,35,,False,True,,UCLA
+63663,2000,12,regular,2000-11-11T00:00:00.000Z,Washington,UCLA,35,28,,False,True,,UCLA
+63706,2000,13,regular,2000-11-18T00:00:00.000Z,UCLA,USC,35,38,,False,True,,UCLA
+63089,2000,2,regular,2000-09-02T00:00:00.000Z,Eastern Michigan,UConn,32,25,,False,,,UConn
+63144,2000,3,regular,2000-09-09T00:00:00.000Z,UConn,Colgate,37,7,,False,,,UConn
+63196,2000,4,regular,2000-09-16T00:00:00.000Z,Buffalo,UConn,21,24,,False,,,UConn
+63277,2000,5,regular,2000-09-23T00:00:00.000Z,UConn,Northeastern,27,35,,False,,,UConn
+63317,2000,6,regular,2000-09-30T00:00:00.000Z,Louisville,UConn,41,22,,False,,,UConn
+63362,2000,7,regular,2000-10-07T00:00:00.000Z,Boston College,UConn,55,3,,False,,,UConn
+63468,2000,9,regular,2000-10-21T00:00:00.000Z,Akron,UConn,35,38,,False,,,UConn
+63543,2000,10,regular,2000-10-28T00:00:00.000Z,UConn,South Florida,13,21,,False,True,,UConn
+63582,2000,11,regular,2000-11-04T00:00:00.000Z,UConn,Middle Tennessee,10,66,,False,True,,UConn
+63648,2000,12,regular,2000-11-11T00:00:00.000Z,UConn,Rhode Island,21,26,,False,,,UConn
+63673,2000,13,regular,2000-11-18T00:00:00.000Z,Ball State,UConn,29,0,,False,,,UConn
+63100,2000,2,regular,2000-09-02T00:00:00.000Z,Minnesota,UL Monroe,47,10,,False,,,UL Monroe
+63153,2000,3,regular,2000-09-09T00:00:00.000Z,Memphis,UL Monroe,28,0,,False,,,UL Monroe
+63207,2000,4,regular,2000-09-16T00:00:00.000Z,UL Monroe,Nicholls,27,21,,False,,,UL Monroe
+63290,2000,5,regular,2000-09-23T00:00:00.000Z,Tennessee,UL Monroe,70,3,,False,,,UL Monroe
+63341,2000,6,regular,2000-09-30T00:00:00.000Z,UL Monroe,Texas State,7,27,,False,,,UL Monroe
+63360,2000,7,regular,2000-10-07T00:00:00.000Z,Arkansas,UL Monroe,52,6,,False,,,UL Monroe
+63434,2000,8,regular,2000-10-14T00:00:00.000Z,Middle Tennessee,UL Monroe,28,0,,False,True,,UL Monroe
+63465,2000,9,regular,2000-10-21T00:00:00.000Z,UCF,UL Monroe,55,0,,False,True,,UL Monroe
+63575,2000,11,regular,2000-11-04T00:00:00.000Z,UL Monroe,Louisiana,18,21,,False,True,,UL Monroe
+63630,2000,12,regular,2000-11-11T00:00:00.000Z,UL Monroe,Louisiana Tech,19,42,,False,True,,UL Monroe
+63717,2000,13,regular,2000-11-18T00:00:00.000Z,UL Monroe,Wofford,6,24,,False,,,UL Monroe
+63148,2000,3,regular,2000-09-09T00:00:00.000Z,Iowa State,UNLV,37,22,,False,,,UNLV
+63213,2000,4,regular,2000-09-16T00:00:00.000Z,UNLV,North Texas,38,0,,False,,,UNLV
+63254,2000,5,regular,2000-09-23T00:00:00.000Z,BYU,UNLV,10,7,,False,True,,UNLV
+63325,2000,6,regular,2000-09-30T00:00:00.000Z,UNLV,Air Force,34,13,,False,True,,UNLV
+63381,2000,7,regular,2000-10-07T00:00:00.000Z,UNLV,Nevada,38,7,,False,,,UNLV
+63417,2000,8,regular,2000-10-14T00:00:00.000Z,Colorado State,UNLV,20,19,,False,True,,UNLV
+63482,2000,9,regular,2000-10-21T00:00:00.000Z,UNLV,Wyoming,42,23,,False,True,,UNLV
+63530,2000,10,regular,2000-10-28T00:00:00.000Z,Ole Miss,UNLV,43,40,,False,,,UNLV
+63605,2000,11,regular,2000-11-04T00:00:00.000Z,Utah,UNLV,38,16,,False,True,,UNLV
+63639,2000,12,regular,2000-11-11T00:00:00.000Z,UNLV,New Mexico,18,14,,False,True,,UNLV
+63731,2000,14,regular,2000-11-25T00:00:00.000Z,San Diego State,UNLV,24,31,,False,True,,UNLV
+63743,2000,15,regular,2000-12-02T00:00:00.000Z,Hawai'i,UNLV,32,34,,False,,,UNLV
+63072,2000,1,regular,2000-08-27T00:00:00.000Z,USC,Penn State,29,5,,False,,,USC
+63175,2000,3,regular,2000-09-09T00:00:00.000Z,USC,Colorado,17,14,,False,,,USC
+63287,2000,5,regular,2000-09-23T00:00:00.000Z,USC,San José State,34,24,,False,,,USC
+63331,2000,6,regular,2000-09-30T00:00:00.000Z,Oregon State,USC,31,21,,False,True,,USC
+63358,2000,7,regular,2000-10-07T00:00:00.000Z,USC,Arizona,15,31,,False,True,,USC
+63443,2000,8,regular,2000-10-14T00:00:00.000Z,USC,Oregon,17,28,,False,True,,USC
+63499,2000,9,regular,2000-10-21T00:00:00.000Z,Stanford,USC,32,30,,False,True,,USC
+63515,2000,10,regular,2000-10-28T00:00:00.000Z,USC,California,16,28,,False,True,,USC
+63596,2000,11,regular,2000-11-04T00:00:00.000Z,Arizona State,USC,38,44,,False,True,,USC
+63664,2000,12,regular,2000-11-11T00:00:00.000Z,USC,Washington State,27,33,,False,True,,USC
+63706,2000,13,regular,2000-11-18T00:00:00.000Z,UCLA,USC,35,38,,False,True,,USC
+63733,2000,14,regular,2000-11-25T00:00:00.000Z,USC,Notre Dame,21,38,,False,,,USC
+63082,2000,2,regular,2000-09-02T00:00:00.000Z,Utah,Arizona,3,17,,False,,,Utah
+63138,2000,3,regular,2000-09-09T00:00:00.000Z,California,Utah,24,21,,False,,,Utah
+63238,2000,4,regular,2000-09-16T00:00:00.000Z,Utah,Washington State,21,38,,False,,,Utah
+63245,2000,5,regular,2000-09-23T00:00:00.000Z,Utah,Air Force,14,23,,False,True,,Utah
+63347,2000,6,regular,2000-09-30T00:00:00.000Z,Utah State,Utah,14,35,,False,,,Utah
+63453,2000,8,regular,2000-10-14T00:00:00.000Z,San Diego State,Utah,7,21,,False,True,,Utah
+63467,2000,9,regular,2000-10-21T00:00:00.000Z,Utah,Colorado State,17,24,,False,True,,Utah
+63532,2000,10,regular,2000-10-28T00:00:00.000Z,New Mexico,Utah,10,3,,False,True,,Utah
+63605,2000,11,regular,2000-11-04T00:00:00.000Z,Utah,UNLV,38,16,,False,True,,Utah
+63660,2000,12,regular,2000-11-11T00:00:00.000Z,Wyoming,Utah,0,34,,False,True,,Utah
+63722,2000,14,regular,2000-11-24T00:00:00.000Z,Utah,BYU,27,34,,False,True,,Utah
+63124,2000,2,regular,2000-09-02T00:00:00.000Z,Texas Tech,Utah State,38,16,,False,,,Utah State
+63183,2000,3,regular,2000-09-09T00:00:00.000Z,Utah State,Southern Utah,30,14,,False,,,Utah State
+63248,2000,5,regular,2000-09-23T00:00:00.000Z,Arizona State,Utah State,44,20,,False,,,Utah State
+63347,2000,6,regular,2000-09-30T00:00:00.000Z,Utah State,Utah,14,35,,False,,,Utah State
+63355,2000,7,regular,2000-10-06T00:00:00.000Z,BYU,Utah State,38,14,,False,,,Utah State
+63454,2000,8,regular,2000-10-14T00:00:00.000Z,North Texas,Utah State,12,17,,False,True,,Utah State
+63505,2000,9,regular,2000-10-21T00:00:00.000Z,Utah State,Idaho,31,14,,False,True,,Utah State
+63553,2000,10,regular,2000-10-28T00:00:00.000Z,Utah State,Arkansas State,44,31,,False,True,,Utah State
+63606,2000,11,regular,2000-11-04T00:00:00.000Z,New Mexico State,Utah State,37,44,,False,True,,Utah State
+63616,2000,12,regular,2000-11-11T00:00:00.000Z,Boise State,Utah State,66,38,,False,True,,Utah State
+63683,2000,13,regular,2000-11-18T00:00:00.000Z,Utah State,Idaho State,24,27,,False,,,Utah State
+63109,2000,2,regular,2000-09-02T00:00:00.000Z,Oklahoma,UTEP,55,14,,False,,,UTEP
+63180,2000,3,regular,2000-09-09T00:00:00.000Z,UTEP,SMU,37,20,,False,True,,UTEP
+63229,2000,4,regular,2000-09-16T00:00:00.000Z,Texas A&M,UTEP,45,17,,False,,,UTEP
+63293,2000,5,regular,2000-09-23T00:00:00.000Z,UTEP,Hawai'i,39,7,,False,True,,UTEP
+63342,2000,6,regular,2000-09-30T00:00:00.000Z,UTEP,New Mexico State,41,31,,False,,,UTEP
+63397,2000,7,regular,2000-10-07T00:00:00.000Z,Tulsa,UTEP,7,40,,False,True,,UTEP
+63451,2000,8,regular,2000-10-14T00:00:00.000Z,San José State,UTEP,30,47,,False,True,,UTEP
+63504,2000,9,regular,2000-10-21T00:00:00.000Z,UTEP,Fresno State,23,13,,False,True,,UTEP
+63601,2000,11,regular,2000-11-04T00:00:00.000Z,Nevada,UTEP,22,45,,False,True,,UTEP
+63657,2000,12,regular,2000-11-11T00:00:00.000Z,UTEP,Rice,38,21,,False,True,,UTEP
+63709,2000,13,regular,2000-11-18T00:00:00.000Z,TCU,UTEP,47,14,,False,True,,UTEP
+63098,2000,2,regular,2000-09-02T00:00:00.000Z,Vanderbilt,Miami (OH),30,33,,False,,,Vanderbilt
+63134,2000,3,regular,2000-09-09T00:00:00.000Z,Alabama,Vanderbilt,28,10,,False,True,,Vanderbilt
+63212,2000,4,regular,2000-09-16T00:00:00.000Z,Vanderbilt,Ole Miss,7,12,,False,True,,Vanderbilt
+63296,2000,5,regular,2000-09-23T00:00:00.000Z,Vanderbilt,Duke,26,7,,False,,,Vanderbilt
+63304,2000,6,regular,2000-09-30T00:00:00.000Z,Auburn,Vanderbilt,33,0,,False,True,,Vanderbilt
+63400,2000,7,regular,2000-10-07T00:00:00.000Z,Wake Forest,Vanderbilt,10,17,,False,,,Vanderbilt
+63422,2000,8,regular,2000-10-14T00:00:00.000Z,Georgia,Vanderbilt,29,19,,False,True,,Vanderbilt
+63497,2000,9,regular,2000-10-21T00:00:00.000Z,Vanderbilt,South Carolina,14,30,,False,True,,Vanderbilt
+63568,2000,11,regular,2000-11-04T00:00:00.000Z,Vanderbilt,Florida,20,43,,False,True,,Vanderbilt
+63661,2000,12,regular,2000-11-11T00:00:00.000Z,Kentucky,Vanderbilt,20,24,,False,True,,Vanderbilt
+63736,2000,14,regular,2000-11-25T00:00:00.000Z,Vanderbilt,Tennessee,26,28,,False,True,,Vanderbilt
+63085,2000,2,regular,2000-09-02T00:00:00.000Z,Virginia,BYU,35,38,,False,,,Virginia
+63184,2000,3,regular,2000-09-09T00:00:00.000Z,Virginia,Richmond,34,6,,False,,,Virginia
+63235,2000,4,regular,2000-09-16T00:00:00.000Z,Duke,Virginia,10,26,,False,True,,Virginia
+63257,2000,5,regular,2000-09-23T00:00:00.000Z,Virginia,Clemson,10,31,,False,True,,Virginia
+63348,2000,6,regular,2000-09-30T00:00:00.000Z,Wake Forest,Virginia,10,27,,False,True,,Virginia
+63401,2000,7,regular,2000-10-07T00:00:00.000Z,Virginia,Maryland,31,23,,False,True,,Virginia
+63469,2000,9,regular,2000-10-21T00:00:00.000Z,Florida State,Virginia,37,3,,False,True,,Virginia
+63554,2000,10,regular,2000-10-28T00:00:00.000Z,Virginia,North Carolina,17,6,,False,True,,Virginia
+63611,2000,12,regular,2000-11-09T00:00:00.000Z,Georgia Tech,Virginia,35,0,,False,True,,Virginia
+63712,2000,13,regular,2000-11-18T00:00:00.000Z,Virginia,NC State,24,17,,False,True,,Virginia
+63738,2000,14,regular,2000-11-25T00:00:00.000Z,Virginia Tech,Virginia,42,21,,False,,,Virginia
+63127,2000,2,regular,2000-09-02T00:00:00.000Z,Virginia Tech,Akron,52,23,,False,,,Virginia Tech
+63132,2000,3,regular,2000-09-07T00:00:00.000Z,East Carolina,Virginia Tech,28,45,,False,,,Virginia Tech
+63236,2000,4,regular,2000-09-16T00:00:00.000Z,Virginia Tech,Rutgers,49,0,,False,True,,Virginia Tech
+63349,2000,6,regular,2000-09-30T00:00:00.000Z,Boston College,Virginia Tech,34,48,,False,True,,Virginia Tech
+63402,2000,7,regular,2000-10-07T00:00:00.000Z,Virginia Tech,Temple,35,13,,False,True,,Virginia Tech
+63406,2000,8,regular,2000-10-12T00:00:00.000Z,Virginia Tech,West Virginia,48,20,,False,True,,Virginia Tech
+63506,2000,9,regular,2000-10-21T00:00:00.000Z,Syracuse,Virginia Tech,14,22,,False,True,,Virginia Tech
+63555,2000,10,regular,2000-10-28T00:00:00.000Z,Virginia Tech,Pittsburgh,37,34,,False,True,,Virginia Tech
+63580,2000,11,regular,2000-11-04T00:00:00.000Z,Miami,Virginia Tech,41,21,,False,True,,Virginia Tech
+63662,2000,12,regular,2000-11-11T00:00:00.000Z,UCF,Virginia Tech,21,44,,False,,,Virginia Tech
+63738,2000,14,regular,2000-11-25T00:00:00.000Z,Virginia Tech,Virginia,42,21,,False,,,Virginia Tech
+63073,2000,2,regular,2000-08-31T00:00:00.000Z,Wake Forest,App State,16,20,,False,,,Wake Forest
+63159,2000,3,regular,2000-09-09T00:00:00.000Z,Wake Forest,North Carolina,14,35,,False,True,,Wake Forest
+63195,2000,4,regular,2000-09-16T00:00:00.000Z,Clemson,Wake Forest,55,7,,False,True,,Wake Forest
+63348,2000,6,regular,2000-09-30T00:00:00.000Z,Wake Forest,Virginia,10,27,,False,True,,Wake Forest
+63400,2000,7,regular,2000-10-07T00:00:00.000Z,Wake Forest,Vanderbilt,10,17,,False,,,Wake Forest
+63423,2000,8,regular,2000-10-14T00:00:00.000Z,Georgia Tech,Wake Forest,52,20,,False,True,,Wake Forest
+63478,2000,9,regular,2000-10-21T00:00:00.000Z,Maryland,Wake Forest,37,7,,False,True,,Wake Forest
+63607,2000,11,regular,2000-11-04T00:00:00.000Z,Wake Forest,Duke,28,26,,False,True,,Wake Forest
+63622,2000,12,regular,2000-11-11T00:00:00.000Z,Wake Forest,Florida State,6,35,,False,True,,Wake Forest
+63713,2000,13,regular,2000-11-18T00:00:00.000Z,Navy,Wake Forest,26,49,,False,,,Wake Forest
+63732,2000,14,regular,2000-11-25T00:00:00.000Z,NC State,Wake Forest,32,14,,False,True,,Wake Forest
+63128,2000,2,regular,2000-09-02T00:00:00.000Z,Washington,Idaho,44,20,,False,,,Washington
+63185,2000,3,regular,2000-09-09T00:00:00.000Z,Washington,Miami,34,29,,False,,,Washington
+63237,2000,4,regular,2000-09-16T00:00:00.000Z,Colorado,Washington,14,17,,False,,,Washington
+63330,2000,6,regular,2000-09-30T00:00:00.000Z,Oregon,Washington,23,16,,False,True,,Washington
+63403,2000,7,regular,2000-10-07T00:00:00.000Z,Washington,Oregon State,33,30,,False,True,,Washington
+63455,2000,8,regular,2000-10-14T00:00:00.000Z,Arizona State,Washington,15,21,,False,True,,Washington
+63507,2000,9,regular,2000-10-21T00:00:00.000Z,Washington,California,36,24,,False,True,,Washington
+63556,2000,10,regular,2000-10-28T00:00:00.000Z,Stanford,Washington,28,31,,False,True,,Washington
+63608,2000,11,regular,2000-11-04T00:00:00.000Z,Washington,Arizona,35,32,,False,True,,Washington
+63663,2000,12,regular,2000-11-11T00:00:00.000Z,Washington,UCLA,35,28,,False,True,,Washington
+63714,2000,13,regular,2000-11-18T00:00:00.000Z,Washington State,Washington,3,51,,False,True,,Washington
+63120,2000,2,regular,2000-09-02T00:00:00.000Z,Washington State,Stanford,10,24,,False,True,,Washington State
+63238,2000,4,regular,2000-09-16T00:00:00.000Z,Utah,Washington State,21,38,,False,,,Washington State
+63263,2000,5,regular,2000-09-23T00:00:00.000Z,Washington State,Idaho,34,38,,False,,,Washington State
+63350,2000,6,regular,2000-09-30T00:00:00.000Z,California,Washington State,17,21,,False,True,,Washington State
+63404,2000,7,regular,2000-10-07T00:00:00.000Z,Washington State,Boise State,42,35,,False,,,Washington State
+63410,2000,8,regular,2000-10-14T00:00:00.000Z,Arizona,Washington State,53,47,,False,True,,Washington State
+63459,2000,9,regular,2000-10-21T00:00:00.000Z,Washington State,Arizona State,20,23,,False,True,,Washington State
+63539,2000,10,regular,2000-10-28T00:00:00.000Z,Oregon State,Washington State,38,9,,False,True,,Washington State
+63590,2000,11,regular,2000-11-04T00:00:00.000Z,Washington State,Oregon,24,27,,False,True,,Washington State
+63664,2000,12,regular,2000-11-11T00:00:00.000Z,USC,Washington State,27,33,,False,True,,Washington State
+63714,2000,13,regular,2000-11-18T00:00:00.000Z,Washington State,Washington,3,51,,False,True,,Washington State
+63595,2000,11,regular,2000-11-04T00:00:00.000Z,South Florida,Western Kentucky,30,24,,False,,,Western Kentucky
+63080,2000,2,regular,2000-08-31T00:00:00.000Z,Wisconsin,Western Michigan,19,7,,False,,,Western Michigan
+63187,2000,3,regular,2000-09-09T00:00:00.000Z,Iowa,Western Michigan,21,27,,False,,,Western Michigan
+63240,2000,4,regular,2000-09-16T00:00:00.000Z,Western Michigan,Indiana State,56,0,,False,,,Western Michigan
+63297,2000,5,regular,2000-09-23T00:00:00.000Z,Western Michigan,Toledo,21,14,,False,True,,Western Michigan
+63351,2000,6,regular,2000-09-30T00:00:00.000Z,Western Michigan,Ohio,23,10,,False,True,,Western Michigan
+63354,2000,7,regular,2000-10-05T00:00:00.000Z,Marshall,Western Michigan,10,30,,False,True,,Western Michigan
+63508,2000,9,regular,2000-10-21T00:00:00.000Z,Western Michigan,Northern Illinois,52,22,,False,True,,Western Michigan
+63557,2000,10,regular,2000-10-28T00:00:00.000Z,Kent State,Western Michigan,0,42,,False,True,,Western Michigan
+63609,2000,11,regular,2000-11-04T00:00:00.000Z,Ball State,Western Michigan,3,42,,False,True,,Western Michigan
+63617,2000,12,regular,2000-11-11T00:00:00.000Z,Central Michigan,Western Michigan,21,17,,False,True,,Western Michigan
+63716,2000,13,regular,2000-11-18T00:00:00.000Z,Western Michigan,Eastern Michigan,28,0,,False,True,,Western Michigan
+63129,2000,2,regular,2000-09-02T00:00:00.000Z,West Virginia,Boston College,34,14,,False,True,,West Virginia
+63239,2000,4,regular,2000-09-16T00:00:00.000Z,West Virginia,Maryland,30,17,,False,,,West Virginia
+63269,2000,5,regular,2000-09-23T00:00:00.000Z,West Virginia,Miami,10,47,,False,True,,West Virginia
+63299,2000,6,regular,2000-09-28T00:00:00.000Z,Temple,West Virginia,24,29,,False,True,,West Virginia
+63405,2000,7,regular,2000-10-07T00:00:00.000Z,West Virginia,Idaho,28,16,,False,,,West Virginia
+63406,2000,8,regular,2000-10-12T00:00:00.000Z,Virginia Tech,West Virginia,48,20,,False,True,,West Virginia
+63485,2000,9,regular,2000-10-21T00:00:00.000Z,West Virginia,Notre Dame,28,42,,False,,,West Virginia
+63597,2000,11,regular,2000-11-04T00:00:00.000Z,West Virginia,Syracuse,27,31,,False,True,,West Virginia
+63665,2000,12,regular,2000-11-11T00:00:00.000Z,Rutgers,West Virginia,24,31,,False,True,,West Virginia
+63715,2000,13,regular,2000-11-18T00:00:00.000Z,West Virginia,East Carolina,42,24,,False,,,West Virginia
+63725,2000,14,regular,2000-11-24T00:00:00.000Z,Pittsburgh,West Virginia,38,28,,False,True,,West Virginia
+63080,2000,2,regular,2000-08-31T00:00:00.000Z,Wisconsin,Western Michigan,19,7,,False,,,Wisconsin
+63188,2000,3,regular,2000-09-09T00:00:00.000Z,Wisconsin,Oregon,27,23,,False,,,Wisconsin
+63241,2000,4,regular,2000-09-16T00:00:00.000Z,Wisconsin,Cincinnati,28,25,,False,,,Wisconsin
+63278,2000,5,regular,2000-09-23T00:00:00.000Z,Wisconsin,Northwestern,44,47,,False,True,,Wisconsin
+63320,2000,6,regular,2000-09-30T00:00:00.000Z,Michigan,Wisconsin,13,10,,False,True,,Wisconsin
+63387,2000,7,regular,2000-10-07T00:00:00.000Z,Wisconsin,Ohio State,7,23,,False,True,,Wisconsin
+63456,2000,8,regular,2000-10-14T00:00:00.000Z,Michigan State,Wisconsin,10,17,,False,True,,Wisconsin
+63492,2000,9,regular,2000-10-21T00:00:00.000Z,Wisconsin,Purdue,24,30,,False,True,,Wisconsin
+63558,2000,10,regular,2000-10-28T00:00:00.000Z,Iowa,Wisconsin,7,13,,False,True,,Wisconsin
+63610,2000,11,regular,2000-11-04T00:00:00.000Z,Wisconsin,Minnesota,41,20,,False,True,,Wisconsin
+63666,2000,12,regular,2000-11-11T00:00:00.000Z,Indiana,Wisconsin,22,43,,False,True,,Wisconsin
+63739,2000,14,regular,2000-11-25T00:00:00.000Z,Hawai'i,Wisconsin,18,34,,False,,,Wisconsin
+63075,2000,2,regular,2000-08-31T00:00:00.000Z,Auburn,Wyoming,35,21,,False,,,Wyoming
+63177,2000,3,regular,2000-09-09T00:00:00.000Z,Texas A&M,Wyoming,51,3,,False,,,Wyoming
+63242,2000,4,regular,2000-09-16T00:00:00.000Z,Wyoming,Central Michigan,31,10,,False,,,Wyoming
+63274,2000,5,regular,2000-09-23T00:00:00.000Z,Wyoming,Nevada,28,35,,False,,,Wyoming
+63326,2000,6,regular,2000-09-30T00:00:00.000Z,New Mexico,Wyoming,45,10,,False,True,,Wyoming
+63390,2000,7,regular,2000-10-07T00:00:00.000Z,Wyoming,San Diego State,0,34,,False,True,,Wyoming
+63407,2000,8,regular,2000-10-14T00:00:00.000Z,Wyoming,Air Force,34,51,,False,True,,Wyoming
+63482,2000,9,regular,2000-10-21T00:00:00.000Z,UNLV,Wyoming,42,23,,False,True,,Wyoming
+63509,2000,10,regular,2000-10-26T00:00:00.000Z,BYU,Wyoming,19,7,,False,True,,Wyoming
+63660,2000,12,regular,2000-11-11T00:00:00.000Z,Wyoming,Utah,0,34,,False,True,,Wyoming
+63667,2000,13,regular,2000-11-16T00:00:00.000Z,Colorado State,Wyoming,37,13,,False,True,,Wyoming
