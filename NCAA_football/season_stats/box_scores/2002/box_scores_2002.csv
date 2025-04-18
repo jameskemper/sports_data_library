@@ -1,0 +1,745 @@
+game_id,season,week,neutral_site,conference_game,attendance,home_team,home_team_id,home_conference,home_points,away_team,away_team_id,away_conference,away_points
+222340258,2002,1,False,True,57120,Virginia,258,ACC,29,Colorado State,36,Mountain West,35
+222350275,2002,1,False,False,75136,Wisconsin,275,Big Ten,23,Fresno State,278,Western Athletic,21
+222360194,2002,1,False,False,100037,Ohio State,194,Big Ten,45,Texas Tech,2641,Big 12,21
+222360152,2002,1,False,True,47018,NC State,152,ACC,34,New Mexico,167,Mountain West,14
+222360158,2002,1,False,False,77779,Nebraska,158,Big 12,48,Arizona State,9,Pac-10,10
+222360066,2002,1,False,False,55132,Iowa State,66,Big 12,31,Florida State,52,ACC,38
+222370259,2002,1,False,False,54016,Virginia Tech,259,Big East,63,Arkansas State,2032,Sun Belt,7
+222970228,2002,10,False,True,74000,Clemson,228,ACC,6,NC State,152,ACC,38
+222970036,2002,10,False,True,29457,Colorado State,36,Mountain West,37,BYU,252,Mountain West,10
+222980278,2002,10,False,True,37615,Fresno State,278,Western Athletic,21,Hawai'i,62,Western Athletic,31
+222990052,2002,10,False,False,84106,Florida State,52,ACC,24,Notre Dame,87,FBS Independents,34
+222990154,2002,10,False,True,31476,Wake Forest,154,ACC,31,North Carolina,153,ACC,0
+222990077,2002,10,False,True,30158,Northwestern,77,Big Ten,13,Purdue,2509,Big Ten,42
+222990277,2002,10,False,True,56817,West Virginia,277,Big East,23,Miami,2390,Big East,40
+222990221,2002,10,False,True,45060,Pittsburgh,221,Big East,19,Boston College,103,Big East,16
+222990130,2002,10,False,True,111496,Michigan,130,Big Ten,9,Iowa,2294,Big Ten,34
+222990002,2002,10,False,True,85366,Auburn,2,SEC,31,LSU,99,SEC,7
+222992711,2002,10,False,True,15049,Western Michigan,2711,Mid-American,20,Northern Illinois,2459,Mid-American,24
+222990259,2002,10,False,True,64937,Virginia Tech,259,Big East,20,Temple,218,Big East,10
+222990150,2002,10,False,True,23521,Duke,150,ACC,12,Maryland,120,ACC,45
+222990349,2002,10,False,True,35804,Army,349,Conference USA,26,UAB,5,Conference USA,29
+222992117,2002,10,False,True,14564,Central Michigan,2117,Mid-American,18,Marshall,276,Mid-American,23
+222992084,2002,10,False,True,5102,Buffalo,2084,Mid-American,12,Kent State,2309,Mid-American,16
+222990183,2002,10,False,True,37158,Syracuse,183,Big East,45,Rutgers,164,Big East,14
+222990038,2002,10,False,True,50478,Colorado,38,Big 12,37,Texas Tech,2641,Big 12,13
+222990238,2002,10,False,False,21210,Vanderbilt,238,SEC,28,UConn,41,FBS Independents,24
+222990356,2002,10,False,True,50295,Illinois,356,Big Ten,45,Indiana,84,Big Ten,14
+222992132,2002,10,False,True,20747,Cincinnati,2132,Conference USA,48,Memphis,235,Conference USA,10
+222990142,2002,10,False,True,60287,Missouri,142,Big 12,36,Kansas,2305,Big 12,12
+222990008,2002,10,False,True,71723,Arkansas,8,SEC,48,Ole Miss,145,SEC,28
+222990097,2002,10,False,True,32428,Louisville,97,Conference USA,44,East Carolina,151,Conference USA,20
+222992751,2002,10,False,True,15022,Wyoming,2751,Mountain West,34,Air Force,2005,Mountain West,26
+222992653,2002,10,False,False,12465,Troy,2653,FBS Independents,21,Florida Atlantic,2226,,6
+222990242,2002,10,False,True,10845,Rice,242,Western Athletic,27,SMU,2567,Western Athletic,15
+222990202,2002,10,False,True,12317,Tulsa,202,Western Athletic,20,UTEP,2638,Western Athletic,0
+222990167,2002,10,False,True,27300,New Mexico,167,Mountain West,42,Utah,254,Mountain West,35
+222992348,2002,10,False,True,15315,Louisiana Tech,2348,Western Athletic,50,Nevada,2440,Western Athletic,47
+222990239,2002,10,False,True,20247,Baylor,239,Big 12,10,Kansas State,2306,Big 12,44
+222990070,2002,10,False,True,12434,Idaho,70,Sun Belt,21,Middle Tennessee,2393,Sun Belt,18
+222990096,2002,10,False,True,71017,Kentucky,96,SEC,24,Georgia,61,SEC,52
+222992655,2002,10,False,False,28123,Tulane,2655,Conference USA,51,Navy,2426,FBS Independents,30
+222990059,2002,10,False,True,42727,Georgia Tech,59,ACC,23,Virginia,258,ACC,15
+222992483,2002,10,False,True,56754,Oregon,2483,Pac-10,33,USC,30,Pac-10,44
+222990251,2002,10,False,True,83071,Texas,251,Big 12,21,Iowa State,66,Big 12,10
+222990194,2002,10,False,True,105103,Ohio State,194,Big Ten,13,Penn State,213,Big Ten,7
+222990204,2002,10,False,True,36603,Oregon State,204,Pac-10,24,California,25,Pac-10,13
+222990189,2002,10,False,True,21039,Bowling Green,189,Mid-American,38,Ball State,2050,Mid-American,20
+222992116,2002,10,False,True,18278,UCF,2116,Mid-American,28,Akron,2006,Mid-American,17
+222990023,2002,10,False,True,10497,San José State,23,Western Athletic,8,Boise State,68,Western Athletic,45
+222990309,2002,10,False,True,8413,Louisiana,309,Sun Belt,0,North Texas,249,Sun Belt,27
+222990026,2002,10,False,True,54116,UCLA,26,Pac-10,28,Stanford,24,Pac-10,18
+222992032,2002,10,False,True,11036,Arkansas State,2032,Sun Belt,21,New Mexico State,166,Sun Belt,26
+222992433,2002,10,False,True,6190,UL Monroe,2433,Sun Belt,51,Utah State,328,FBS Independents,48
+222992649,2002,10,False,True,24466,Toledo,2649,Mid-American,13,Miami (OH),193,Mid-American,27
+222990021,2002,10,False,True,21541,San Diego State,21,Mountain West,31,UNLV,2439,Mountain West,21
+222990245,2002,10,False,True,81054,Texas A&M,245,Big 12,31,Nebraska,158,Big 12,38
+222990127,2002,10,False,True,74507,Michigan State,127,Big Ten,24,Wisconsin,275,Big Ten,42
+222992633,2002,10,False,True,107722,Tennessee,2633,SEC,14,Alabama,333,SEC,34
+222990012,2002,10,False,True,46462,Arizona,12,Pac-10,13,Washington State,265,Pac-10,21
+222990009,2002,10,False,True,56101,Arizona State,9,Pac-10,27,Washington,264,Pac-10,16
+223032628,2002,11,False,True,26612,TCU,2628,Conference USA,37,Southern Miss,2572,Conference USA,7
+223042005,2002,11,False,True,39063,Air Force,2005,Mountain West,12,Colorado State,36,Mountain West,31
+223060041,2002,11,False,False,14287,UConn,41,FBS Independents,61,Florida Atlantic,2226,,14
+223060150,2002,11,False,True,16479,Duke,150,ACC,31,Clemson,228,ACC,34
+223060164,2002,11,False,True,0,Rutgers,164,Big East,17,Miami,2390,Big East,42
+223060218,2002,11,False,True,15042,Temple,218,Big East,20,West Virginia,277,Big East,46
+223062294,2002,11,False,True,70397,Iowa,2294,Big Ten,20,Wisconsin,275,Big Ten,3
+223060130,2002,11,False,True,111542,Michigan,130,Big Ten,49,Michigan State,127,Big Ten,3
+223060077,2002,11,False,True,25077,Northwestern,77,Big Ten,41,Indiana,84,Big Ten,37
+223060145,2002,11,False,True,60635,Ole Miss,145,SEC,24,Auburn,2,SEC,31
+223060197,2002,11,False,True,47607,Oklahoma State,197,Big 12,28,Texas A&M,245,Big 12,23
+223062199,2002,11,False,True,7370,Eastern Michigan,2199,Mid-American,21,Central Michigan,2117,Mid-American,47
+223060193,2002,11,False,True,27253,Miami (OH),193,Mid-American,38,Ohio,195,Mid-American,20
+223062050,2002,11,False,True,12892,Ball State,2050,Mid-American,17,Western Michigan,2711,Mid-American,7
+223060153,2002,11,False,True,44000,North Carolina,153,ACC,7,Maryland,120,ACC,59
+223060238,2002,11,False,True,36407,Vanderbilt,238,SEC,8,Alabama,333,SEC,30
+223062641,2002,11,False,True,43243,Texas Tech,2641,Big 12,62,Baylor,239,Big 12,11
+223060235,2002,11,False,True,20532,Memphis,235,Conference USA,21,Houston,248,Conference USA,26
+223060008,2002,11,False,False,42814,Arkansas,8,SEC,23,Troy,2653,FBS Independents,0
+223060066,2002,11,False,True,44339,Iowa State,66,Big 12,42,Missouri,142,Big 12,35
+223062309,2002,11,False,True,7165,Kent State,2309,Mid-American,14,Bowling Green,189,Mid-American,45
+223062305,2002,11,False,True,43000,Kansas,2305,Big 12,0,Kansas State,2306,Big 12,64
+223060344,2002,11,False,True,45248,Mississippi State,344,SEC,24,Kentucky,96,SEC,45
+223060087,2002,11,False,False,80935,Notre Dame,87,FBS Independents,7,Boston College,103,Big East,14
+223062032,2002,11,False,False,9107,Arkansas State,2032,Sun Belt,38,Southern Utah,253,,16
+223062567,2002,11,False,True,11832,SMU,2567,Western Athletic,6,Nevada,2440,Western Athletic,24
+223060252,2002,11,False,True,59362,BYU,252,Mountain West,34,San Diego State,21,Mountain West,10
+223060202,2002,11,False,True,12587,Tulsa,202,Western Athletic,18,Rice,242,Western Athletic,33
+223060265,2002,11,False,True,37444,Washington State,265,Pac-10,44,Arizona State,9,Pac-10,22
+223062579,2002,11,False,True,83918,South Carolina,2579,SEC,10,Tennessee,2633,SEC,18
+223062006,2002,11,False,True,13762,Akron,2006,Mid-American,34,Marshall,276,Mid-American,20
+223060201,2002,11,False,True,75403,Oklahoma,201,Big 12,27,Colorado,38,Big 12,11
+223060152,2002,11,False,True,51500,NC State,152,ACC,17,Georgia Tech,59,ACC,24
+223060194,2002,11,False,True,104897,Ohio State,194,Big Ten,34,Minnesota,135,Big Ten,3
+223060213,2002,11,False,True,105589,Penn State,213,Big Ten,18,Illinois,356,Big Ten,7
+223062483,2002,11,False,True,56436,Oregon,2483,Pac-10,41,Stanford,24,Pac-10,14
+223060154,2002,11,False,True,24710,Wake Forest,154,ACC,21,Florida State,52,ACC,34
+223060204,2002,11,False,True,36644,Oregon State,204,Pac-10,38,Arizona,12,Pac-10,3
+223060249,2002,11,False,True,16212,North Texas,249,Sun Belt,41,UL Monroe,2433,Sun Belt,2
+223060309,2002,11,False,True,12621,Louisiana,309,Sun Belt,31,Idaho,70,Sun Belt,28
+223060166,2002,11,False,True,19562,New Mexico State,166,Sun Belt,24,Middle Tennessee,2393,Sun Belt,21
+223060158,2002,11,False,True,78268,Nebraska,158,Big 12,24,Texas,251,Big 12,27
+223060264,2002,11,False,True,72017,Washington,264,Pac-10,24,UCLA,26,Pac-10,34
+223060058,2002,11,False,False,23144,South Florida,58,FBS Independents,56,Charleston Southern,2127,,6
+223062116,2002,11,False,False,24043,UCF,2116,Mid-American,35,Syracuse,183,Big East,38
+223062439,2002,11,False,True,23346,UNLV,2439,Mountain West,49,Wyoming,2751,Mountain West,48
+223060259,2002,11,False,True,64971,Virginia Tech,259,Big East,21,Pittsburgh,221,Big East,28
+223060061,2002,11,False,True,84433,Georgia,61,SEC,13,Florida,57,SEC,20
+223062638,2002,11,False,True,21689,UTEP,2638,Western Athletic,3,Boise State,68,Western Athletic,58
+223060062,2002,11,False,True,36784,Hawai'i,62,Western Athletic,40,San José State,23,Western Athletic,31
+223110097,2002,12,False,True,36253,Louisville,97,Conference USA,14,Cincinnati,2132,Conference USA,24
+223132509,2002,12,False,True,65250,Purdue,2509,Big Ten,6,Ohio State,194,Big Ten,10
+223130153,2002,12,False,True,42000,North Carolina,153,ACC,12,Clemson,228,ACC,42
+223130277,2002,12,False,True,48474,West Virginia,277,Big East,24,Boston College,103,Big East,14
+223132426,2002,12,False,False,70260,Navy,2426,FBS Independents,23,Notre Dame,87,FBS Independents,30
+223130120,2002,12,False,True,52915,Maryland,120,ACC,24,NC State,152,ACC,21
+223130221,2002,12,False,True,39880,Pittsburgh,221,Big East,29,Temple,218,Big East,22
+223130041,2002,12,False,False,15332,UConn,41,FBS Independents,63,Kent State,2309,Mid-American,21
+223132294,2002,12,False,True,68728,Iowa,2294,Big Ten,62,Northwestern,77,Big Ten,10
+223130275,2002,12,False,True,78709,Wisconsin,275,Big Ten,20,Illinois,356,Big Ten,37
+223130251,2002,12,False,True,83016,Texas,251,Big 12,41,Baylor,239,Big 12,0
+223130142,2002,12,False,True,48465,Missouri,142,Big 12,35,Colorado,38,Big 12,42
+223132579,2002,12,False,True,79307,South Carolina,2579,SEC,0,Arkansas,8,SEC,23
+223130096,2002,12,False,True,66262,Kentucky,96,SEC,30,LSU,99,SEC,33
+223132711,2002,12,False,True,11381,Western Michigan,2711,Mid-American,33,Eastern Michigan,2199,Mid-American,31
+223130084,2002,12,False,True,29253,Indiana,84,Big Ten,21,Michigan State,127,Big Ten,56
+223132084,2002,12,False,True,6923,Buffalo,2084,Mid-American,21,UCF,2116,Mid-American,45
+223130158,2002,12,False,True,77351,Nebraska,158,Big 12,45,Kansas,2305,Big 12,7
+223130002,2002,12,False,False,84618,Auburn,2,SEC,52,UL Monroe,2433,Sun Belt,14
+223130238,2002,12,False,True,28881,Vanderbilt,238,SEC,17,Florida,57,SEC,21
+223132641,2002,12,False,True,44595,Texas Tech,2641,Big 12,49,Oklahoma State,197,Big 12,24
+223130195,2002,12,False,True,17788,Ohio,195,Mid-American,27,Akron,2006,Mid-American,10
+223130333,2002,12,False,True,83818,Alabama,333,SEC,28,Mississippi State,344,SEC,14
+223132459,2002,12,False,True,25822,Northern Illinois,2459,Mid-American,26,Bowling Green,189,Mid-American,17
+223130349,2002,12,False,True,39288,Army,349,Conference USA,30,Air Force,2005,Mountain West,49
+223130005,2002,12,False,True,0,UAB,5,Conference USA,13,Southern Miss,2572,Conference USA,20
+223130248,2002,12,False,True,13669,Houston,248,Conference USA,48,East Carolina,151,Conference USA,54
+223132628,2002,12,False,True,27694,TCU,2628,Conference USA,17,Tulane,2655,Conference USA,10
+223132440,2002,12,False,True,13721,Nevada,2440,Western Athletic,23,UTEP,2638,Western Athletic,17
+223130328,2002,12,False,True,12291,Utah State,328,FBS Independents,32,New Mexico State,166,Sun Belt,30
+223130068,2002,12,False,True,23962,Boise State,68,Western Athletic,49,Rice,242,Western Athletic,7
+223130059,2002,12,False,True,43719,Georgia Tech,59,ACC,13,Florida State,52,ACC,21
+223130264,2002,12,False,True,72557,Washington,264,Pac-10,41,Oregon State,204,Pac-10,29
+223130213,2002,12,False,True,108698,Penn State,213,Big Ten,35,Virginia,258,ACC,14
+223130183,2002,12,False,True,48239,Syracuse,183,Big East,50,Virginia Tech,259,Big East,42
+223130265,2002,12,False,True,37600,Washington State,265,Pac-10,32,Oregon,2483,Pac-10,21
+223132633,2002,12,False,False,107745,Tennessee,2633,SEC,3,Miami,2390,Big East,26
+223130245,2002,12,False,True,84036,Texas A&M,245,Big 12,30,Oklahoma,201,Big 12,26
+223132653,2002,12,False,False,13894,Troy,2653,FBS Independents,24,Florida A&M,50,,7
+223130309,2002,12,False,True,14117,Louisiana,309,Sun Belt,13,Arkansas State,2032,Sun Belt,10
+223130023,2002,12,False,True,6391,San José State,23,Western Athletic,42,Louisiana Tech,2348,Western Athletic,30
+223130252,2002,12,False,True,61689,BYU,252,Mountain West,35,Wyoming,2751,Mountain West,31
+223130167,2002,12,False,True,28770,New Mexico,167,Mountain West,15,San Diego State,21,Mountain West,8
+223130009,2002,12,False,True,40769,Arizona State,9,Pac-10,38,California,25,Pac-10,55
+223132649,2002,12,False,True,18944,Toledo,2649,Mid-American,44,Central Michigan,2117,Mid-American,17
+223130061,2002,12,False,True,86520,Georgia,61,SEC,31,Ole Miss,145,SEC,17
+223130278,2002,12,False,True,37841,Fresno State,278,Western Athletic,31,Tulsa,202,Western Athletic,12
+223132306,2002,12,False,True,49504,Kansas State,2306,Big 12,58,Iowa State,66,Big 12,7
+223130024,2002,12,False,True,44950,Stanford,24,Pac-10,17,USC,30,Pac-10,49
+223130254,2002,12,False,True,28528,Utah,254,Mountain West,28,UNLV,2439,Mountain West,17
+223130058,2002,12,False,True,32770,South Florida,58,FBS Independents,31,Memphis,235,Conference USA,28
+223130249,2002,12,False,True,11698,North Texas,249,Sun Belt,10,Idaho,70,Sun Belt,0
+223130135,2002,12,False,True,53773,Minnesota,135,Big Ten,24,Michigan,130,Big Ten,41
+223130012,2002,12,False,True,43613,Arizona,12,Pac-10,7,UCLA,26,Pac-10,37
+223160276,2002,13,False,True,26851,Marshall,276,Mid-American,36,Miami (OH),193,Mid-American,34
+223182572,2002,13,False,True,28076,Southern Miss,2572,Conference USA,17,Louisville,97,Conference USA,20
+223202751,2002,13,False,True,10611,Wyoming,2751,Mountain West,18,Utah,254,Mountain West,23
+223202426,2002,13,False,False,25664,Navy,2426,FBS Independents,0,UConn,41,FBS Independents,38
+223200258,2002,13,False,True,53371,Virginia,258,ACC,14,NC State,152,ACC,9
+223200103,2002,13,False,True,36221,Boston College,103,Big East,41,Syracuse,183,Big East,20
+223202653,2002,13,False,False,0,Troy,2653,FBS Independents,16,Utah State,328,FBS Independents,19
+223200135,2002,13,False,True,65184,Minnesota,135,Big Ten,21,Iowa,2294,Big Ten,45
+223200130,2002,13,False,True,110412,Michigan,130,Big Ten,21,Wisconsin,275,Big Ten,14
+223200127,2002,13,False,True,72828,Michigan State,127,Big Ten,42,Purdue,2509,Big Ten,45
+223202306,2002,13,False,True,52221,Kansas State,2306,Big 12,49,Nebraska,158,Big 12,13
+223200344,2002,13,False,True,54807,Mississippi State,344,SEC,17,Tennessee,2633,SEC,35
+223202006,2002,13,False,True,4178,Akron,2006,Mid-American,21,Buffalo,2084,Mid-American,10
+223202117,2002,13,False,True,8235,Central Michigan,2117,Mid-American,21,Ball State,2050,Mid-American,38
+223200059,2002,13,False,True,41335,Georgia Tech,59,ACC,17,Duke,150,ACC,2
+223202132,2002,13,False,True,14023,Cincinnati,2132,Conference USA,47,Houston,248,Conference USA,14
+223202199,2002,13,False,True,5569,Eastern Michigan,2199,Mid-American,21,Northern Illinois,2459,Mid-American,49
+223200096,2002,13,False,True,51114,Kentucky,96,SEC,41,Vanderbilt,238,SEC,21
+223200239,2002,13,False,True,28375,Baylor,239,Big 12,9,Oklahoma,201,Big 12,49
+223202305,2002,13,False,True,27500,Kansas,2305,Big 12,20,Oklahoma State,197,Big 12,55
+223200245,2002,13,False,True,78186,Texas A&M,245,Big 12,27,Missouri,142,Big 12,33
+223200008,2002,13,False,False,54843,Arkansas,8,SEC,24,Louisiana,309,Sun Belt,17
+223202439,2002,13,False,True,25417,UNLV,2439,Mountain West,32,Air Force,2005,Mountain West,49
+223200005,2002,13,False,True,13678,UAB,5,Conference USA,36,East Carolina,151,Conference USA,29
+223200202,2002,13,False,True,15653,Tulsa,202,Western Athletic,38,San José State,23,Western Athletic,49
+223200242,2002,13,False,True,19714,Rice,242,Western Athletic,28,Hawai'i,62,Western Athletic,33
+223200068,2002,13,False,True,28413,Boise State,68,Western Athletic,36,Louisiana Tech,2348,Western Athletic,10
+223202641,2002,13,False,True,52047,Texas Tech,2641,Big 12,42,Texas,251,Big 12,38
+223200002,2002,13,False,True,86063,Auburn,2,SEC,21,Georgia,61,SEC,24
+223200356,2002,13,False,True,58810,Illinois,356,Big Ten,16,Ohio State,194,Big Ten,23
+223202711,2002,13,False,True,9844,Western Michigan,2711,Mid-American,21,Toledo,2649,Mid-American,42
+223202655,2002,13,False,True,19421,Tulane,2655,Conference USA,10,Army,349,Conference USA,14
+223202393,2002,13,False,True,8326,Middle Tennessee,2393,Sun Belt,44,UL Monroe,2433,Sun Belt,28
+223200164,2002,13,False,True,10225,Rutgers,164,Big East,17,Temple,218,Big East,20
+223200025,2002,13,False,True,0,California,25,Pac-10,41,Arizona,12,Pac-10,52
+223200052,2002,13,False,True,81910,Florida State,52,ACC,40,North Carolina,153,ACC,14
+223200084,2002,13,False,True,0,Indiana,84,Big Ten,25,Penn State,213,Big Ten,58
+223202483,2002,13,False,True,57112,Oregon,2483,Pac-10,14,Washington,264,Pac-10,42
+223200249,2002,13,False,True,20064,North Texas,249,Sun Belt,38,New Mexico State,166,Sun Belt,27
+223200024,2002,13,False,True,29850,Stanford,24,Pac-10,21,Oregon State,204,Pac-10,31
+223200070,2002,13,False,True,7825,Idaho,70,Sun Belt,29,Arkansas State,2032,Sun Belt,38
+223202638,2002,13,False,True,21765,UTEP,2638,Western Athletic,35,SMU,2567,Western Athletic,42
+223200057,2002,13,False,True,85222,Florida,57,SEC,28,South Carolina,2579,SEC,7
+223200252,2002,13,False,True,60764,BYU,252,Mountain West,16,New Mexico,167,Mountain West,20
+223202116,2002,13,False,True,7354,UCF,2116,Mid-American,32,Kent State,2309,Mid-American,6
+223200278,2002,13,False,True,40866,Fresno State,278,Western Athletic,38,Nevada,2440,Western Athletic,30
+223200058,2002,13,False,False,28098,South Florida,58,FBS Independents,29,Bowling Green,189,Mid-American,7
+223200021,2002,13,False,True,21714,San Diego State,21,Mountain West,21,Colorado State,36,Mountain West,49
+223200038,2002,13,False,True,48728,Colorado,38,Big 12,41,Iowa State,66,Big 12,27
+223200030,2002,13,False,True,73923,USC,30,Pac-10,34,Arizona State,9,Pac-10,13
+223200228,2002,13,False,True,72000,Clemson,228,ACC,12,Maryland,120,ACC,30
+223200099,2002,13,False,True,92012,LSU,99,SEC,0,Alabama,333,SEC,31
+223240259,2002,14,False,True,62723,Virginia Tech,259,Big East,18,West Virginia,277,Big East,21
+223252390,2002,14,False,True,64897,Miami,2390,Big East,28,Pittsburgh,221,Big East,21
+223270218,2002,14,False,True,14278,Temple,218,Big East,14,Boston College,103,Big East,36
+223272005,2002,14,False,True,31023,Air Force,2005,Mountain West,34,San Diego State,21,Mountain West,38
+223270077,2002,14,False,True,25134,Northwestern,77,Big Ten,24,Illinois,356,Big Ten,31
+223270150,2002,14,False,True,33002,Duke,150,ACC,21,North Carolina,153,ACC,23
+223270275,2002,14,False,True,78843,Wisconsin,275,Big Ten,49,Minnesota,135,Big Ten,31
+223272459,2002,14,False,True,20154,Northern Illinois,2459,Mid-American,30,Toledo,2649,Mid-American,33
+223270194,2002,14,False,True,105539,Ohio State,194,Big Ten,14,Michigan,130,Big Ten,9
+223270238,2002,14,False,True,47210,Vanderbilt,238,SEC,0,Tennessee,2633,SEC,24
+223270087,2002,14,False,False,80795,Notre Dame,87,FBS Independents,42,Rutgers,164,Big East,0
+223272117,2002,14,False,True,19862,Central Michigan,2117,Mid-American,10,Western Michigan,2711,Mid-American,35
+223272050,2002,14,False,True,7957,Ball State,2050,Mid-American,41,Buffalo,2084,Mid-American,21
+223270097,2002,14,False,True,35261,Louisville,97,Conference USA,41,UAB,5,Conference USA,21
+223270193,2002,14,False,True,7962,Miami (OH),193,Mid-American,31,UCF,2116,Mid-American,48
+223272309,2002,14,False,True,3278,Kent State,2309,Mid-American,10,Akron,2006,Mid-American,48
+223270151,2002,14,False,True,23189,East Carolina,151,Conference USA,31,TCU,2628,Conference USA,28
+223270197,2002,14,False,True,37250,Oklahoma State,197,Big 12,63,Baylor,239,Big 12,28
+223270066,2002,14,False,False,34582,Iowa State,66,Big 12,20,UConn,41,FBS Independents,37
+223270235,2002,14,False,True,20906,Memphis,235,Conference USA,38,Army,349,Conference USA,10
+223270344,2002,14,False,True,40108,Mississippi State,344,SEC,19,Arkansas,8,SEC,26
+223272567,2002,14,False,True,12324,SMU,2567,Western Athletic,24,Tulsa,202,Western Athletic,21
+223272348,2002,14,False,True,9267,Louisiana Tech,2348,Western Athletic,38,UTEP,2638,Western Athletic,24
+223270254,2002,14,False,True,45167,Utah,254,Mountain West,13,BYU,252,Mountain West,6
+223270248,2002,14,False,True,12856,Houston,248,Conference USA,14,South Florida,58,FBS Independents,32
+223272440,2002,14,False,True,20247,Nevada,2440,Western Athletic,7,Boise State,68,Western Athletic,44
+223270026,2002,14,False,True,91084,UCLA,26,Pac-10,21,USC,30,Pac-10,52
+223270204,2002,14,False,True,37154,Oregon State,204,Pac-10,45,Oregon,2483,Pac-10,24
+223270195,2002,14,False,True,21110,Ohio,195,Mid-American,21,Marshall,276,Mid-American,24
+223270025,2002,14,False,True,71224,California,25,Pac-10,30,Stanford,24,Pac-10,7
+223270154,2002,14,False,False,22811,Wake Forest,154,ACC,30,Navy,2426,FBS Independents,27
+223270333,2002,14,False,True,84818,Alabama,333,SEC,7,Auburn,2,SEC,17
+223270213,2002,14,False,True,0,Penn State,213,Big Ten,61,Michigan State,127,Big Ten,7
+223270152,2002,14,False,True,51500,NC State,152,ACC,17,Florida State,52,ACC,7
+223270142,2002,14,False,True,47507,Missouri,142,Big 12,0,Kansas State,2306,Big 12,38
+223272393,2002,14,False,True,6827,Middle Tennessee,2393,Sun Belt,20,North Texas,249,Sun Belt,30
+223272655,2002,14,False,True,21832,Tulane,2655,Conference USA,31,Southern Miss,2572,Conference USA,10
+223272509,2002,14,False,True,59114,Purdue,2509,Big Ten,34,Indiana,84,Big Ten,10
+223270023,2002,14,False,True,14134,San José State,23,Western Athletic,16,Fresno State,278,Western Athletic,19
+223270070,2002,14,False,True,5462,Idaho,70,Sun Belt,31,New Mexico State,166,Sun Belt,35
+223272433,2002,14,False,True,7012,UL Monroe,2433,Sun Belt,34,Louisiana,309,Sun Belt,10
+223270258,2002,14,False,True,58358,Virginia,258,ACC,48,Maryland,120,ACC,13
+223270189,2002,14,False,True,12974,Bowling Green,189,Mid-American,63,Eastern Michigan,2199,Mid-American,21
+223270036,2002,14,False,True,30215,Colorado State,36,Mountain West,22,New Mexico,167,Mountain West,14
+223270265,2002,14,False,True,37600,Washington State,265,Pac-10,26,Washington,264,Pac-10,29
+223270201,2002,14,False,True,75553,Oklahoma,201,Big 12,60,Texas Tech,2641,Big 12,15
+223270228,2002,14,False,False,84000,Clemson,228,ACC,27,South Carolina,2579,SEC,20
+223270099,2002,14,False,True,91613,LSU,99,SEC,14,Ole Miss,145,SEC,13
+223270062,2002,14,False,False,36851,Hawai'i,62,Western Athletic,20,Cincinnati,2132,Conference USA,19
+223320145,2002,15,False,True,60245,Ole Miss,145,SEC,24,Mississippi State,344,SEC,12
+223330251,2002,15,False,True,83711,Texas,251,Big 12,50,Texas A&M,245,Big 12,20
+223330008,2002,15,False,True,55553,Arkansas,8,SEC,21,LSU,99,SEC,20
+223330012,2002,15,False,True,47005,Arizona,12,Pac-10,20,Arizona State,9,Pac-10,34
+223330158,2002,15,False,True,77804,Nebraska,158,Big 12,13,Colorado,38,Big 12,28
+223340103,2002,15,False,True,33786,Boston College,103,Big East,44,Rutgers,164,Big East,14
+223340120,2002,15,False,True,39066,Maryland,120,ACC,32,Wake Forest,154,ACC,14
+223342633,2002,15,False,True,105462,Tennessee,2633,SEC,24,Kentucky,96,SEC,0
+223340221,2002,15,False,True,66731,Pittsburgh,221,Big East,17,West Virginia,277,Big East,24
+223342132,2002,15,False,True,9606,Cincinnati,2132,Conference USA,31,UAB,5,Conference USA,23
+223342116,2002,15,False,True,12462,UCF,2116,Mid-American,42,Ohio,195,Mid-American,32
+223340183,2002,15,False,True,45679,Syracuse,183,Big East,7,Miami,2390,Big East,49
+223340167,2002,15,False,True,26115,New Mexico,167,Mountain West,49,Wyoming,2751,Mountain West,20
+223340197,2002,15,False,True,48500,Oklahoma State,197,Big 12,38,Oklahoma,201,Big 12,28
+223342572,2002,15,False,True,19888,Southern Miss,2572,Conference USA,24,East Carolina,151,Conference USA,7
+223340248,2002,15,False,True,11048,Houston,248,Conference USA,27,Louisville,97,Conference USA,10
+223342628,2002,15,False,True,24583,TCU,2628,Conference USA,27,Memphis,235,Conference USA,20
+223342393,2002,15,False,True,3418,Middle Tennessee,2393,Sun Belt,45,Utah State,328,FBS Independents,28
+223340036,2002,15,False,True,28877,Colorado State,36,Mountain West,33,UNLV,2439,Mountain West,36
+223340259,2002,15,False,False,65097,Virginia Tech,259,Big East,21,Virginia,258,ACC,9
+223340061,2002,15,False,False,86520,Georgia,61,SEC,51,Georgia Tech,59,ACC,7
+223340276,2002,15,False,True,23824,Marshall,276,Mid-American,38,Ball State,2050,Mid-American,14
+223342649,2002,15,False,True,25331,Toledo,2649,Mid-American,42,Bowling Green,189,Mid-American,24
+223340062,2002,15,False,False,50000,Hawai'i,62,Western Athletic,16,Alabama,333,SEC,21
+223340030,2002,15,False,False,91432,USC,30,Pac-10,44,Notre Dame,87,FBS Independents,13
+223340052,2002,15,False,False,83938,Florida State,52,ACC,31,Florida,57,SEC,14
+223392348,2002,16,False,True,17810,Louisiana Tech,2348,Western Athletic,13,Fresno State,278,Western Athletic,45
+223400151,2002,16,False,True,18125,East Carolina,151,Conference USA,26,Cincinnati,2132,Conference USA,42
+223412426,2002,16,False,False,78672,Navy,2426,FBS Independents,58,Army,349,Conference USA,12
+223412390,2002,16,False,True,76108,Miami,2390,Big East,56,Virginia Tech,259,Big East,45
+223410276,2002,16,False,True,24582,Marshall,276,Mid-American,49,Toledo,2649,Mid-American,45
+223410026,2002,16,False,True,56335,UCLA,26,Pac-10,27,Washington State,265,Pac-10,48
+223410008,2002,16,False,True,74835,Arkansas,8,SEC,3,Georgia,61,SEC,30
+223410038,2002,16,False,True,63332,Colorado,38,Big 12,7,Oklahoma,201,Big 12,29
+223410062,2002,16,False,False,36671,Hawai'i,62,Western Athletic,41,San Diego State,21,Mountain West,40
+222412649,2002,2,False,False,23074,Toledo,2649,Mid-American,44,Cal Poly,13,,16
+222410189,2002,2,False,False,15696,Bowling Green,189,Mid-American,41,Tennessee Tech,2635,,7
+222412309,2002,2,False,False,16073,Kent State,2309,Mid-American,34,New Hampshire,160,,7
+222410218,2002,2,False,False,15329,Temple,218,Big East,34,Richmond,257,,7
+222410058,2002,2,False,False,22074,South Florida,58,FBS Independents,51,Florida Atlantic,2226,,10
+222412117,2002,2,False,False,18826,Central Michigan,2117,Mid-American,34,Sam Houston,2534,,10
+222412711,2002,2,False,False,28268,Western Michigan,2711,Mid-American,48,Indiana State,282,,17
+222410252,2002,2,False,False,65612,BYU,252,Mountain West,42,Syracuse,183,Big East,21
+222412084,2002,2,False,False,21103,Buffalo,2084,Mid-American,26,Lehigh,2329,,37
+222412459,2002,2,False,False,19653,Northern Illinois,2459,Mid-American,42,Wake Forest,154,ACC,41
+222410278,2002,2,False,False,39111,Fresno State,278,Western Athletic,16,San Diego State,21,Mountain West,14
+222410204,2002,2,False,False,0,Oregon State,204,Pac-10,49,Eastern Kentucky,2198,,10
+222420202,2002,2,False,False,40385,Tulsa,202,Western Athletic,0,Oklahoma,201,Big 12,37
+222430130,2002,2,False,True,111491,Michigan,130,Big Ten,31,Washington,264,Pac-10,29
+222432294,2002,2,False,False,51495,Iowa,2294,Big Ten,57,Akron,2006,Mid-American,21
+222432005,2002,2,False,True,45114,Air Force,2005,Mountain West,52,Northwestern,77,Big Ten,3
+222430103,2002,2,False,False,40066,Boston College,103,Big East,24,UConn,41,FBS Independents,16
+222430213,2002,2,False,False,0,Penn State,213,Big Ten,27,UCF,2116,Mid-American,24
+222430333,2002,2,False,False,80091,Alabama,333,SEC,39,Middle Tennessee,2393,Sun Belt,34
+222430066,2002,2,False,True,40026,Iowa State,66,Big 12,45,Kansas,2305,Big 12,3
+222430038,2002,2,False,False,75531,Colorado,38,Big 12,14,Colorado State,36,Mountain West,19
+222430153,2002,2,False,False,38000,North Carolina,153,ACC,21,Miami (OH),193,Mid-American,27
+222432509,2002,2,False,False,47701,Purdue,2509,Big Ten,51,Illinois State,2287,,10
+222430265,2002,2,False,False,63588,Washington State,265,Pac-10,31,Nevada,2440,Western Athletic,7
+222430356,2002,2,False,False,61876,Illinois,356,Big Ten,20,Missouri,142,Big 12,33
+222432655,2002,2,False,False,0,Tulane,2655,Conference USA,37,Southern,2582,,19
+222430025,2002,2,False,False,27185,California,25,Pac-10,70,Baylor,239,Big 12,22
+222430127,2002,2,False,False,73927,Michigan State,127,Big Ten,56,Eastern Michigan,2199,Mid-American,7
+222430052,2002,2,False,True,79406,Florida State,52,ACC,40,Virginia,258,ACC,19
+222430084,2002,2,False,True,33427,Indiana,84,Big Ten,25,William & Mary,2729,,17
+222432633,2002,2,False,False,67221,Tennessee,2633,SEC,47,Wyoming,2751,Mountain West,7
+222430277,2002,2,False,False,54455,West Virginia,277,Big East,56,Chattanooga,236,,7
+222430059,2002,2,False,False,43719,Georgia Tech,59,ACC,45,Vanderbilt,238,SEC,3
+222430150,2002,2,False,True,23276,Duke,150,ACC,23,East Carolina,151,Conference USA,16
+222432483,2002,2,False,False,56386,Oregon,2483,Pac-10,36,Mississippi State,344,SEC,13
+222430057,2002,2,False,False,85575,Florida,57,SEC,51,UAB,5,Conference USA,3
+222430221,2002,2,False,False,41579,Pittsburgh,221,Big East,27,Ohio,195,Mid-American,14
+222430164,2002,2,False,False,20911,Rutgers,164,Big East,19,Villanova,222,,37
+222432572,2002,2,False,False,35169,Southern Miss,2572,Conference USA,55,Jackson State,2296,,7
+222430158,2002,2,False,False,77831,Nebraska,158,Big 12,31,Troy,2653,FBS Independents,16
+222430276,2002,2,False,False,31042,Marshall,276,Mid-American,50,App State,2026,,17
+222432390,2002,2,False,False,68548,Miami,2390,Big East,63,Florida A&M,50,,17
+222432579,2002,2,False,False,83717,South Carolina,2579,SEC,34,New Mexico State,166,Sun Belt,24
+222430245,2002,2,False,False,75087,Texas A&M,245,Big 12,31,Louisiana,309,Sun Belt,7
+222430152,2002,2,False,False,42507,NC State,152,ACC,34,East Tennessee State,2193,,0
+222432032,2002,2,False,False,0,Arkansas State,2032,Sun Belt,14,San José State,23,Western Athletic,33
+222430135,2002,2,False,False,32209,Minnesota,135,Big Ten,42,Texas State,326,,0
+222430145,2002,2,False,False,58151,Ole Miss,145,SEC,31,UL Monroe,2433,Sun Belt,3
+222432306,2002,2,False,False,45844,Kansas State,2306,Big 12,48,Western Kentucky,98,,3
+222430061,2002,2,False,False,86520,Georgia,61,SEC,31,Clemson,228,ACC,28
+222430251,2002,2,False,False,83051,Texas,251,Big 12,27,North Texas,249,Sun Belt,0
+222430120,2002,2,False,False,72903,Maryland,120,ACC,0,Notre Dame,87,FBS Independents,22
+222432567,2002,2,False,False,0,SMU,2567,Western Athletic,7,Navy,2426,FBS Independents,38
+222432348,2002,2,False,False,31391,Louisiana Tech,2348,Western Athletic,39,Oklahoma State,197,Big 12,36
+222430242,2002,2,False,False,30747,Rice,242,Western Athletic,10,Houston,248,Conference USA,24
+222430235,2002,2,False,False,29694,Memphis,235,Conference USA,52,Murray State,93,,6
+222430167,2002,2,False,False,35765,New Mexico,167,Mountain West,38,Weber State,2692,,24
+222430068,2002,2,False,False,30878,Boise State,68,Western Athletic,38,Idaho,70,Sun Belt,21
+222432439,2002,2,False,True,42075,UNLV,2439,Mountain West,7,Wisconsin,275,Big Ten,27
+222432638,2002,2,False,False,35036,UTEP,2638,Western Athletic,42,Sacramento State,16,,12
+222430328,2002,2,False,False,30757,Utah State,328,FBS Independents,3,Utah,254,Mountain West,23
+222430009,2002,2,False,False,39581,Arizona State,9,Pac-10,38,Eastern Washington,331,,2
+222430012,2002,2,False,False,48446,Arizona,12,Pac-10,37,Northern Arizona,2464,,3
+222430062,2002,2,False,False,39958,Hawai'i,62,Western Athletic,61,Eastern Illinois,2197,,36
+222440259,2002,2,False,False,65049,Virginia Tech,259,Big East,26,LSU,99,SEC,8
+222440097,2002,2,False,False,42660,Louisville,97,Conference USA,17,Kentucky,96,SEC,22
+222452132,2002,2,False,True,25518,Cincinnati,2132,Conference USA,36,TCU,2628,Conference USA,29
+222450030,2002,2,False,False,63269,USC,30,Pac-10,24,Auburn,2,SEC,17
+222480218,2002,3,False,False,20162,Temple,218,Big East,3,Oregon State,204,Pac-10,35
+222490252,2002,3,False,False,63085,BYU,252,Mountain West,35,Hawai'i,62,Western Athletic,32
+222502572,2002,3,False,True,22183,Southern Miss,2572,Conference USA,23,Illinois,356,Big Ten,20
+222500221,2002,3,False,False,45489,Pittsburgh,221,Big East,12,Texas A&M,245,Big 12,14
+222502426,2002,3,False,False,29613,Navy,2426,FBS Independents,19,NC State,152,ACC,65
+222500041,2002,3,False,False,16751,UConn,41,FBS Independents,14,Georgia Tech,59,ACC,31
+222500193,2002,3,False,False,25934,Miami (OH),193,Mid-American,24,Iowa,2294,Big Ten,29
+222500275,2002,3,False,False,76320,Wisconsin,275,Big Ten,34,West Virginia,277,Big East,17
+222500130,2002,3,False,False,107856,Michigan,130,Big Ten,35,Western Michigan,2711,Mid-American,12
+222500194,2002,3,False,False,98689,Ohio State,194,Big Ten,51,Kent State,2309,Mid-American,17
+222500145,2002,3,False,False,54718,Ole Miss,145,SEC,38,Memphis,235,Conference USA,16
+222500349,2002,3,False,False,28063,Army,349,Conference USA,21,Holy Cross,107,,30
+222500087,2002,3,False,False,80795,Notre Dame,87,FBS Independents,24,Purdue,2509,Big Ten,17
+222502117,2002,3,False,False,18251,Central Michigan,2117,Mid-American,32,Wyoming,2751,Mountain West,20
+222500228,2002,3,False,False,71000,Clemson,228,ACC,33,Louisiana Tech,2348,Western Athletic,13
+222500077,2002,3,False,True,21422,Northwestern,77,Big Ten,24,TCU,2628,Conference USA,48
+222500127,2002,3,False,False,74014,Michigan State,127,Big Ten,27,Rice,242,Western Athletic,10
+222500096,2002,3,False,False,59213,Kentucky,96,SEC,77,UTEP,2638,Western Athletic,17
+222502005,2002,3,False,True,36620,Air Force,2005,Mountain West,38,New Mexico,167,Mountain West,31
+222500264,2002,3,False,False,70147,Washington,264,Pac-10,34,San José State,23,Western Athletic,10
+222500103,2002,3,False,False,41065,Boston College,103,Big East,34,Stanford,24,Pac-10,27
+222502483,2002,3,False,False,56357,Oregon,2483,Pac-10,28,Fresno State,278,Western Athletic,24
+222500201,2002,3,False,False,75564,Oklahoma,201,Big 12,37,Alabama,333,SEC,27
+222500265,2002,3,False,False,0,Washington State,265,Pac-10,49,Idaho,70,Sun Belt,14
+222500002,2002,3,False,False,80067,Auburn,2,SEC,56,Western Carolina,2717,,0
+222500057,2002,3,False,False,85777,Florida,57,SEC,16,Miami,2390,Big East,41
+222502199,2002,3,False,True,0,Eastern Michigan,2199,Mid-American,13,Toledo,2649,Mid-American,65
+222500120,2002,3,False,False,48057,Maryland,120,ACC,44,Akron,2006,Mid-American,14
+222500154,2002,3,False,True,28486,Wake Forest,154,ACC,27,East Carolina,151,Conference USA,22
+222500025,2002,3,False,False,24692,California,25,Pac-10,34,New Mexico State,166,Sun Belt,13
+222500066,2002,3,False,False,40155,Iowa State,66,Big 12,58,Tennessee Tech,2635,,6
+222500005,2002,3,False,False,0,UAB,5,Conference USA,27,Troy,2653,FBS Independents,26
+222500008,2002,3,False,False,70142,Arkansas,8,SEC,41,Boise State,68,Western Athletic,14
+222502032,2002,3,False,False,15363,Arkansas State,2032,Sun Belt,21,Tulsa,202,Western Athletic,19
+222500038,2002,3,False,False,0,Colorado,38,Big 12,34,San Diego State,21,Mountain West,14
+222500164,2002,3,False,False,19101,Rutgers,164,Big East,11,Buffalo,2084,Mid-American,34
+222500142,2002,3,False,False,49282,Missouri,142,Big 12,41,Ball State,2050,Mid-American,6
+222500238,2002,3,False,False,28568,Vanderbilt,238,SEC,49,Furman,231,,18
+222500239,2002,3,False,False,28375,Baylor,239,Big 12,50,Samford,2535,,12
+222500150,2002,3,False,True,0,Duke,150,ACC,3,Louisville,97,Conference USA,40
+222500058,2002,3,False,False,23559,South Florida,58,FBS Independents,37,Northern Illinois,2459,Mid-American,6
+222500158,2002,3,False,False,78176,Nebraska,158,Big 12,44,Utah State,328,FBS Independents,13
+222502633,2002,3,False,False,107672,Tennessee,2633,SEC,26,Middle Tennessee,2393,Sun Belt,3
+222500197,2002,3,False,False,40085,Oklahoma State,197,Big 12,45,Northern Iowa,2460,,10
+222502306,2002,3,False,False,43104,Kansas State,2306,Big 12,68,UL Monroe,2433,Sun Belt,0
+222500258,2002,3,False,False,60171,Virginia,258,ACC,34,South Carolina,2579,SEC,21
+222500309,2002,3,False,False,20512,Louisiana,309,Sun Belt,11,Minnesota,135,Big Ten,35
+222500183,2002,3,False,False,39444,Syracuse,183,Big East,22,North Carolina,153,ACC,30
+222502567,2002,3,False,False,32000,SMU,2567,Western Athletic,14,Texas Tech,2641,Big 12,24
+222500195,2002,3,False,False,21002,Ohio,195,Mid-American,0,Northeastern,111,,31
+222500248,2002,3,False,True,16307,Houston,248,Conference USA,13,Tulane,2655,Conference USA,34
+222500099,2002,3,False,False,85022,LSU,99,SEC,35,The Citadel,2643,,10
+222500254,2002,3,False,True,33419,Utah,254,Mountain West,40,Indiana,84,Big Ten,13
+222500249,2002,3,False,False,12816,North Texas,249,Sun Belt,23,Nicholls,2447,,0
+222502439,2002,3,False,False,25109,UNLV,2439,Mountain West,31,Kansas,2305,Big 12,20
+222500009,2002,3,False,False,43401,Arizona State,9,Pac-10,46,UCF,2116,Mid-American,13
+222500026,2002,3,False,True,58078,UCLA,26,Pac-10,30,Colorado State,36,Mountain West,19
+222550259,2002,4,False,False,65049,Virginia Tech,259,Big East,47,Marshall,276,Mid-American,21
+222570228,2002,4,False,True,0,Clemson,228,ACC,24,Georgia Tech,59,ACC,19
+222570356,2002,4,False,False,46258,Illinois,356,Big Ten,59,Arkansas State,2032,Sun Belt,7
+222570218,2002,4,False,True,33169,Temple,218,Big East,21,Miami,2390,Big East,44
+222570127,2002,4,False,True,72634,Michigan State,127,Big Ten,22,California,25,Pac-10,46
+222570275,2002,4,False,False,77460,Wisconsin,275,Big Ten,24,Northern Illinois,2459,Mid-American,21
+222570002,2002,4,False,True,76127,Auburn,2,SEC,31,Vanderbilt,238,SEC,6
+222570077,2002,4,False,True,22910,Northwestern,77,Big Ten,26,Duke,150,ACC,21
+222572309,2002,4,False,False,8410,Kent State,2309,Mid-American,37,Cal Poly,13,,34
+222572509,2002,4,False,False,55140,Purdue,2509,Big Ten,28,Western Michigan,2711,Mid-American,24
+222572050,2002,4,False,False,12924,Ball State,2050,Mid-American,23,Indiana State,282,,21
+222572348,2002,4,False,True,18600,Louisiana Tech,2348,Western Athletic,53,Tulsa,202,Western Athletic,9
+222572306,2002,4,False,False,45642,Kansas State,2306,Big 12,63,Eastern Illinois,2197,,13
+222570087,2002,4,False,False,80795,Notre Dame,87,FBS Independents,25,Michigan,130,Big Ten,23
+222570135,2002,4,False,False,36640,Minnesota,135,Big Ten,31,Toledo,2649,Mid-American,21
+222570183,2002,4,False,False,43089,Syracuse,183,Big East,63,Rhode Island,227,,17
+222572641,2002,4,False,False,40228,Texas Tech,2641,Big 12,42,Ole Miss,145,SEC,28
+222570038,2002,4,False,False,53119,Colorado,38,Big 12,3,USC,30,Pac-10,40
+222572483,2002,4,False,False,55187,Oregon,2483,Pac-10,58,Idaho,70,Sun Belt,21
+222572579,2002,4,False,True,84227,South Carolina,2579,SEC,7,Georgia,61,SEC,13
+222570194,2002,4,False,True,104553,Ohio State,194,Big Ten,25,Washington State,265,Pac-10,7
+222572751,2002,4,False,False,16256,Wyoming,2751,Mountain West,13,Boise State,68,Western Athletic,35
+222572440,2002,4,False,False,23109,Nevada,2440,Western Athletic,31,BYU,252,Mountain West,28
+222572199,2002,4,False,False,9581,Eastern Michigan,2199,Mid-American,35,Southeast Missouri State,2546,,32
+222572006,2002,4,False,True,15629,Akron,2006,Mid-American,17,Central Michigan,2117,Mid-American,24
+222570189,2002,4,False,False,21969,Bowling Green,189,Mid-American,51,Missouri,142,Big 12,28
+222570057,2002,4,False,False,84002,Florida,57,SEC,34,Ohio,195,Mid-American,6
+222572294,2002,4,False,False,70397,Iowa,2294,Big Ten,31,Iowa State,66,Big 12,36
+222570152,2002,4,False,True,51094,NC State,152,ACC,32,Wake Forest,154,ACC,13
+222572653,2002,4,False,False,15288,Troy,2653,FBS Independents,40,Southern Utah,253,,15
+222572628,2002,4,False,False,30621,TCU,2628,Conference USA,17,SMU,2567,Western Athletic,6
+222570151,2002,4,False,True,35300,East Carolina,151,Conference USA,24,Tulane,2655,Conference USA,20
+222570344,2002,4,False,False,47456,Mississippi State,344,SEC,51,Jacksonville State,55,,13
+222570164,2002,4,False,False,28514,Rutgers,164,Big East,44,Army,349,Conference USA,0
+222570204,2002,4,False,True,36121,Oregon State,204,Pac-10,47,UNLV,2439,Mountain West,17
+222572305,2002,4,False,False,40500,Kansas,2305,Big 12,44,Missouri State,2623,,24
+222572433,2002,4,False,False,10091,UL Monroe,2433,Sun Belt,19,McNeese,2377,,24
+222572132,2002,4,False,False,28806,Cincinnati,2132,Conference USA,32,West Virginia,277,Big East,35
+222572572,2002,4,False,True,28419,Southern Miss,2572,Conference USA,33,Memphis,235,Conference USA,14
+222570197,2002,4,False,False,43020,Oklahoma State,197,Big 12,24,UCLA,26,Pac-10,38
+222570201,2002,4,False,False,74468,Oklahoma,201,Big 12,68,UTEP,2638,Western Athletic,0
+222570333,2002,4,False,False,79818,Alabama,333,SEC,33,North Texas,249,Sun Belt,7
+222570008,2002,4,False,False,55817,Arkansas,8,SEC,42,South Florida,58,FBS Independents,3
+222570005,2002,4,False,False,15027,UAB,5,Conference USA,20,Pittsburgh,221,Big East,26
+222570096,2002,4,False,False,70347,Kentucky,96,SEC,27,Indiana,84,Big Ten,17
+222572084,2002,4,False,False,17012,Buffalo,2084,Mid-American,3,UConn,41,FBS Independents,24
+222570120,2002,4,False,True,51758,Maryland,120,ACC,10,Florida State,52,ACC,37
+222570153,2002,4,False,False,60500,North Carolina,153,ACC,21,Texas,251,Big 12,52
+222570213,2002,4,False,False,110753,Penn State,213,Big Ten,40,Nebraska,158,Big 12,7
+222570099,2002,4,False,False,90010,LSU,99,SEC,33,Miami (OH),193,Mid-American,7
+222570248,2002,4,False,False,0,Houston,248,Conference USA,36,Louisiana,309,Sun Belt,17
+222570167,2002,4,False,False,30013,New Mexico,167,Mountain West,23,Baylor,239,Big 12,0
+222570328,2002,4,False,False,16231,Utah State,328,FBS Independents,38,Idaho State,304,,33
+222570036,2002,4,False,True,31607,Colorado State,36,Mountain West,36,Louisville,97,Conference USA,33
+222570012,2002,4,False,True,44243,Arizona,12,Pac-10,23,Utah,254,Mountain West,17
+222570024,2002,4,False,False,54500,Stanford,24,Pac-10,63,San José State,23,Western Athletic,26
+222570021,2002,4,False,True,29041,San Diego State,21,Mountain West,28,Arizona State,9,Pac-10,39
+222620344,2002,5,False,True,52583,Mississippi State,344,SEC,14,Auburn,2,SEC,42
+222630276,2002,5,False,True,32900,Marshall,276,Mid-American,26,UCF,2116,Mid-American,21
+222640041,2002,5,False,False,15901,UConn,41,FBS Independents,37,Ohio,195,Mid-American,19
+222640221,2002,5,False,True,32519,Pittsburgh,221,Big East,23,Rutgers,164,Big East,3
+222642426,2002,5,False,False,27012,Navy,2426,FBS Independents,40,Northwestern,77,Big Ten,49
+222640213,2002,5,False,False,103987,Penn State,213,Big Ten,49,Louisiana Tech,2348,Western Athletic,17
+222640275,2002,5,False,True,78582,Wisconsin,275,Big Ten,31,Arizona,12,Pac-10,10
+222640130,2002,5,False,True,109734,Michigan,130,Big Ten,10,Utah,254,Mountain West,7
+222642641,2002,5,False,False,35864,Texas Tech,2641,Big 12,48,NC State,152,ACC,51
+222640145,2002,5,False,True,50427,Ole Miss,145,SEC,45,Vanderbilt,238,SEC,38
+222640349,2002,5,False,True,28625,Army,349,Conference USA,14,Louisville,97,Conference USA,45
+222640061,2002,5,False,False,86520,Georgia,61,SEC,45,Northwestern State,2466,,7
+222640228,2002,5,False,False,70000,Clemson,228,ACC,30,Ball State,2050,Mid-American,7
+222640096,2002,5,False,False,60584,Kentucky,96,SEC,44,Middle Tennessee,2393,Sun Belt,22
+222640193,2002,5,False,True,15042,Miami (OH),193,Mid-American,27,Kent State,2309,Mid-American,20
+222640356,2002,5,False,False,50990,Illinois,356,Big Ten,35,San José State,23,Western Athletic,38
+222642509,2002,5,False,True,48550,Purdue,2509,Big Ten,21,Wake Forest,154,ACC,24
+222640135,2002,5,False,False,34294,Minnesota,135,Big Ten,41,Buffalo,2084,Mid-American,17
+222640258,2002,5,False,False,56216,Virginia,258,ACC,48,Akron,2006,Mid-American,29
+222642132,2002,5,False,True,66319,Cincinnati,2132,Conference USA,19,Ohio State,194,Big Ten,23
+222640059,2002,5,False,True,43719,Georgia Tech,59,ACC,28,BYU,252,Mountain West,19
+222642294,2002,5,False,False,54211,Iowa,2294,Big Ten,48,Utah State,328,FBS Independents,7
+222640026,2002,5,False,False,63880,UCLA,26,Pac-10,17,Colorado,38,Big 12,31
+222640127,2002,5,False,False,75182,Michigan State,127,Big Ten,17,Notre Dame,87,FBS Independents,21
+222642483,2002,5,False,False,56066,Oregon,2483,Pac-10,41,Portland State,2502,,0
+222640245,2002,5,False,False,83746,Texas A&M,245,Big 12,3,Virginia Tech,259,Big East,13
+222642633,2002,5,False,True,108722,Tennessee,2633,SEC,13,Florida,57,SEC,30
+222642440,2002,5,False,True,17201,Nevada,2440,Western Athletic,31,Rice,242,Western Athletic,21
+222640025,2002,5,False,True,0,California,25,Pac-10,21,Air Force,2005,Mountain West,23
+222640084,2002,5,False,False,32740,Indiana,84,Big Ten,39,Central Michigan,2117,Mid-American,29
+222640265,2002,5,False,False,23713,Washington State,265,Pac-10,45,Montana State,147,,28
+222640070,2002,5,False,False,14887,Idaho,70,Sun Belt,48,San Diego State,21,Mountain West,38
+222640120,2002,5,False,False,46098,Maryland,120,ACC,45,Eastern Michigan,2199,Mid-American,3
+222640204,2002,5,False,False,36457,Oregon State,204,Pac-10,59,Fresno State,278,Western Athletic,19
+222642579,2002,5,False,False,81409,South Carolina,2579,SEC,42,Temple,218,Big East,21
+222642628,2002,5,False,False,33281,TCU,2628,Conference USA,16,North Texas,249,Sun Belt,10
+222642649,2002,5,False,False,26050,Toledo,2649,Mid-American,38,UNLV,2439,Mountain West,21
+222642306,2002,5,False,False,49276,Kansas State,2306,Big 12,27,USC,30,Pac-10,20
+222640197,2002,5,False,False,41190,Oklahoma State,197,Big 12,52,SMU,2567,Western Athletic,16
+222640239,2002,5,False,False,30337,Baylor,239,Big 12,37,Tulsa,202,Western Athletic,25
+222642305,2002,5,False,False,37000,Kansas,2305,Big 12,16,Bowling Green,189,Mid-American,39
+222640309,2002,5,False,False,19616,Louisiana,309,Sun Belt,34,UAB,5,Conference USA,0
+222640333,2002,5,False,False,83818,Alabama,333,SEC,20,Southern Miss,2572,Conference USA,7
+222642433,2002,5,False,True,0,UL Monroe,2433,Sun Belt,21,Arkansas State,2032,Sun Belt,33
+222640066,2002,5,False,False,44896,Iowa State,66,Big 12,42,Troy,2653,FBS Independents,12
+222640052,2002,5,False,True,82397,Florida State,52,ACC,48,Duke,150,ACC,17
+222642459,2002,5,False,False,23598,Northern Illinois,2459,Mid-American,26,Western Illinois,2710,,29
+222642390,2002,5,False,True,73622,Miami,2390,Big East,38,Boston College,103,Big East,6
+222640166,2002,5,False,False,28587,New Mexico State,166,Sun Belt,24,New Mexico,167,Mountain West,13
+222640251,2002,5,False,False,82936,Texas,251,Big 12,41,Houston,248,Conference USA,11
+222640235,2002,5,False,True,32120,Memphis,235,Conference USA,38,Tulane,2655,Conference USA,10
+222642638,2002,5,False,True,35170,UTEP,2638,Western Athletic,6,Hawai'i,62,Western Athletic,31
+222640264,2002,5,False,True,72898,Washington,264,Pac-10,38,Wyoming,2751,Mountain West,7
+222690097,2002,6,False,True,38109,Louisville,97,Conference USA,26,Florida State,52,ACC,20
+222700167,2002,6,False,False,35111,New Mexico,167,Mountain West,0,Texas Tech,2641,Big 12,49
+222710218,2002,6,False,False,18336,Temple,218,Big East,22,Cincinnati,2132,Conference USA,35
+222710277,2002,6,False,False,54497,West Virginia,277,Big East,37,East Carolina,151,Conference USA,17
+222712426,2002,6,False,False,31647,Navy,2426,FBS Independents,17,Duke,150,ACC,43
+222712711,2002,6,False,False,27218,Western Michigan,2711,Mid-American,0,Virginia Tech,259,Big East,30
+222710103,2002,6,False,False,41826,Boston College,103,Big East,43,Central Michigan,2117,Mid-American,0
+222710213,2002,6,False,True,0,Penn State,213,Big Ten,35,Iowa,2294,Big Ten,42
+222710194,2002,6,False,True,104194,Ohio State,194,Big Ten,45,Indiana,84,Big Ten,17
+222710099,2002,6,False,True,90793,LSU,99,SEC,31,Mississippi State,344,SEC,13
+222710041,2002,6,False,False,16849,UConn,41,FBS Independents,21,Ball State,2050,Mid-American,24
+222710061,2002,6,False,False,86520,Georgia,61,SEC,41,New Mexico State,166,Sun Belt,10
+222710152,2002,6,False,True,51221,NC State,152,ACC,56,Massachusetts,113,,24
+222710349,2002,6,False,True,31402,Army,349,Conference USA,6,Southern Miss,2572,Conference USA,27
+222710127,2002,6,False,True,74215,Michigan State,127,Big Ten,39,Northwestern,77,Big Ten,24
+222710221,2002,6,False,False,39713,Pittsburgh,221,Big East,37,Toledo,2649,Mid-American,19
+222710142,2002,6,False,False,50220,Missouri,142,Big 12,44,Troy,2653,FBS Independents,7
+222710021,2002,6,False,True,33610,San Diego State,21,Mountain West,7,UCLA,26,Pac-10,43
+222712459,2002,6,False,True,16302,Northern Illinois,2459,Mid-American,13,Kent State,2309,Mid-American,6
+222710254,2002,6,False,True,35659,Utah,254,Mountain West,26,Air Force,2005,Mountain West,30
+222710057,2002,6,False,True,85333,Florida,57,SEC,41,Kentucky,96,SEC,34
+222710153,2002,6,False,True,57000,North Carolina,153,ACC,13,Georgia Tech,59,ACC,21
+222710009,2002,6,False,True,51443,Arizona State,9,Pac-10,65,Stanford,24,Pac-10,24
+222710066,2002,6,False,True,51888,Iowa State,66,Big 12,36,Nebraska,158,Big 12,14
+222710356,2002,6,False,True,69249,Illinois,356,Big Ten,28,Michigan,130,Big Ten,45
+222710264,2002,6,False,False,70070,Washington,264,Pac-10,41,Idaho,70,Sun Belt,27
+222712655,2002,6,False,False,46678,Tulane,2655,Conference USA,0,Texas,251,Big 12,49
+222712440,2002,6,False,False,19292,Nevada,2440,Western Athletic,28,Colorado State,36,Mountain West,32
+222710025,2002,6,False,True,29297,California,25,Pac-10,38,Washington State,265,Pac-10,48
+222712116,2002,6,False,False,20416,UCF,2116,Mid-American,48,Liberty,2335,,17
+222710120,2002,6,False,False,44098,Maryland,120,ACC,37,Wofford,2747,,8
+222712509,2002,6,False,True,56839,Purdue,2509,Big Ten,28,Minnesota,135,Big Ten,15
+222712006,2002,6,False,True,17298,Akron,2006,Mid-American,31,Miami (OH),193,Mid-American,48
+222712199,2002,6,False,False,15221,Eastern Michigan,2199,Mid-American,48,Southern Illinois,79,,45
+222710030,2002,6,False,True,56417,USC,30,Pac-10,22,Oregon State,204,Pac-10,0
+222710154,2002,6,False,True,25883,Wake Forest,154,ACC,34,Virginia,258,ACC,38
+222712032,2002,6,False,False,14826,Arkansas State,2032,Sun Belt,30,UT Martin,2630,,10
+222710005,2002,6,False,True,14179,UAB,5,Conference USA,31,Memphis,235,Conference USA,17
+222712393,2002,6,False,False,27519,Middle Tennessee,2393,Sun Belt,14,Southeast Missouri State,2546,,24
+222710201,2002,6,False,False,74432,Oklahoma,201,Big 12,31,South Florida,58,FBS Independents,14
+222712633,2002,6,False,False,103925,Tennessee,2633,SEC,35,Rutgers,164,Big East,14
+222710238,2002,6,False,True,34406,Vanderbilt,238,SEC,14,South Carolina,2579,SEC,20
+222710195,2002,6,False,True,12512,Ohio,195,Mid-American,34,Buffalo,2084,Mid-American,32
+222710202,2002,6,False,False,17893,Tulsa,202,Western Athletic,33,Kansas,2305,Big 12,43
+222710245,2002,6,False,False,72802,Texas A&M,245,Big 12,31,Louisiana Tech,2348,Western Athletic,3
+222710008,2002,6,False,True,73551,Arkansas,8,SEC,12,Alabama,333,SEC,30
+222710242,2002,6,False,True,18143,Rice,242,Western Athletic,28,Fresno State,278,Western Athletic,31
+222710068,2002,6,False,False,25161,Boise State,68,Western Athletic,63,Utah State,328,FBS Independents,38
+222710012,2002,6,False,False,37917,Arizona,12,Pac-10,14,North Texas,249,Sun Belt,9
+222710002,2002,6,False,False,83667,Auburn,2,SEC,37,Syracuse,183,Big East,34
+222710023,2002,6,False,True,10416,San José State,23,Western Athletic,58,UTEP,2638,Western Athletic,24
+222710062,2002,6,False,True,36096,Hawai'i,62,Western Athletic,42,SMU,2567,Western Athletic,10
+222760052,2002,7,False,True,78841,Florida State,52,ACC,48,Clemson,228,ACC,31
+222760135,2002,7,False,True,32663,Minnesota,135,Big Ten,31,Illinois,356,Big Ten,10
+222770278,2002,7,False,False,38336,Fresno State,278,Western Athletic,32,Colorado State,36,Mountain West,30
+222770328,2002,7,False,False,30341,Utah State,328,FBS Independents,34,BYU,252,Mountain West,35
+222780277,2002,7,False,False,55146,West Virginia,277,Big East,17,Maryland,120,ACC,48
+222780150,2002,7,False,True,17638,Duke,150,ACC,22,Virginia,258,ACC,27
+222782294,2002,7,False,True,68249,Iowa,2294,Big Ten,31,Purdue,2509,Big Ten,28
+222780183,2002,7,False,True,39947,Syracuse,183,Big East,24,Pittsburgh,221,Big East,48
+222780145,2002,7,False,True,61140,Ole Miss,145,SEC,17,Florida,57,SEC,14
+222780158,2002,7,False,False,77192,Nebraska,158,Big 12,38,McNeese,2377,,14
+222780251,2002,7,False,True,83116,Texas,251,Big 12,17,Oklahoma State,197,Big 12,15
+222782579,2002,7,False,True,80250,South Carolina,2579,SEC,34,Mississippi State,344,SEC,10
+222782084,2002,7,False,True,8112,Buffalo,2084,Mid-American,17,Western Michigan,2711,Mid-American,31
+222782132,2002,7,False,False,31478,Cincinnati,2132,Conference USA,26,Miami (OH),193,Mid-American,31
+222780239,2002,7,False,True,22103,Baylor,239,Big 12,35,Kansas,2305,Big 12,32
+222782309,2002,7,False,True,15337,Kent State,2309,Mid-American,21,Marshall,276,Mid-American,42
+222780245,2002,7,False,True,86478,Texas A&M,245,Big 12,47,Texas Tech,2641,Big 12,48
+222782050,2002,7,False,True,14499,Ball State,2050,Mid-American,29,Northern Illinois,2459,Mid-American,41
+222780151,2002,7,False,True,38111,East Carolina,151,Conference USA,59,Army,349,Conference USA,24
+222780087,2002,7,False,False,80795,Notre Dame,87,FBS Independents,31,Stanford,24,Pac-10,7
+222782005,2002,7,False,False,48550,Air Force,2005,Mountain West,48,Navy,2426,FBS Independents,7
+222782751,2002,7,False,False,12787,Wyoming,2751,Mountain West,34,The Citadel,2643,,30
+222782567,2002,7,False,True,13016,SMU,2567,Western Athletic,23,San José State,23,Western Athletic,34
+222782628,2002,7,False,True,24088,TCU,2628,Conference USA,34,Houston,248,Conference USA,17
+222780070,2002,7,False,False,14047,Idaho,70,Sun Belt,31,Montana,149,,38
+222780059,2002,7,False,True,43719,Georgia Tech,59,ACC,21,Wake Forest,154,ACC,24
+222780204,2002,7,False,True,36529,Oregon State,204,Pac-10,35,UCLA,26,Pac-10,43
+222780038,2002,7,False,True,52584,Colorado,38,Big 12,35,Kansas State,2306,Big 12,31
+222780333,2002,7,False,True,83818,Alabama,333,SEC,25,Georgia,61,SEC,27
+222780275,2002,7,False,True,79403,Wisconsin,275,Big Ten,31,Penn State,213,Big Ten,34
+222780264,2002,7,False,True,71337,Washington,264,Pac-10,27,California,25,Pac-10,34
+222780189,2002,7,False,True,20069,Bowling Green,189,Mid-American,72,Ohio,195,Mid-American,21
+222782032,2002,7,False,True,16191,Arkansas State,2032,Sun Belt,13,Middle Tennessee,2393,Sun Belt,7
+222782199,2002,7,False,True,10075,Eastern Michigan,2199,Mid-American,42,Akron,2006,Mid-American,34
+222780142,2002,7,False,True,60578,Missouri,142,Big 12,24,Oklahoma,201,Big 12,31
+222782433,2002,7,False,False,0,UL Monroe,2433,Sun Belt,9,Tulane,2655,Conference USA,52
+222782653,2002,7,False,False,13510,Troy,2653,FBS Independents,41,Austin Peay,2046,,3
+222780265,2002,7,False,True,36861,Washington State,265,Pac-10,30,USC,30,Pac-10,27
+222780077,2002,7,False,True,43489,Northwestern,77,Big Ten,16,Ohio State,194,Big Ten,27
+222782390,2002,7,False,False,52131,Miami,2390,Big East,48,UConn,41,FBS Independents,14
+222782633,2002,7,False,True,105688,Tennessee,2633,SEC,41,Arkansas,8,SEC,38
+222780099,2002,7,False,False,91357,LSU,99,SEC,48,Louisiana,309,Sun Belt,0
+222780166,2002,7,False,False,30605,New Mexico State,166,Sun Belt,49,UTEP,2638,Western Athletic,14
+222780242,2002,7,False,True,20895,Rice,242,Western Athletic,37,Louisiana Tech,2348,Western Athletic,20
+222780068,2002,7,False,True,25857,Boise State,68,Western Athletic,58,Hawai'i,62,Western Athletic,31
+222780249,2002,7,False,False,15512,North Texas,249,Sun Belt,17,South Florida,58,FBS Independents,24
+222780009,2002,7,False,True,42128,Arizona State,9,Pac-10,35,North Carolina,153,ACC,38
+222782439,2002,7,False,False,28341,UNLV,2439,Mountain West,21,Nevada,2440,Western Athletic,17
+222780012,2002,7,False,True,47356,Arizona,12,Pac-10,14,Oregon,2483,Pac-10,31
+222810235,2002,8,False,True,44081,Memphis,235,Conference USA,32,Louisville,97,Conference USA,38
+222830103,2002,8,False,True,42826,Boston College,103,Big East,23,Virginia Tech,259,Big East,28
+222830135,2002,8,False,True,37729,Minnesota,135,Big Ten,45,Northwestern,77,Big Ten,42
+222850153,2002,8,False,True,60250,North Carolina,153,ACC,17,NC State,152,ACC,34
+222852390,2002,8,False,False,81927,Miami,2390,Big East,28,Florida State,52,ACC,27
+222852426,2002,8,False,False,25104,Navy,2426,FBS Independents,10,Rice,242,Western Athletic,17
+222850258,2002,8,False,True,54114,Virginia,258,ACC,22,Clemson,228,ACC,17
+222850218,2002,8,False,True,17220,Temple,218,Big East,17,Syracuse,183,Big East,16
+222852294,2002,8,False,True,69021,Iowa,2294,Big Ten,44,Michigan State,127,Big Ten,16
+222850084,2002,8,False,True,31156,Indiana,84,Big Ten,32,Wisconsin,275,Big Ten,29
+222850194,2002,8,False,False,104892,Ohio State,194,Big Ten,50,San José State,23,Western Athletic,7
+222850158,2002,8,False,True,78014,Nebraska,158,Big 12,24,Missouri,142,Big 12,13
+222850002,2002,8,False,True,84692,Auburn,2,SEC,17,Arkansas,8,SEC,38
+222850239,2002,8,False,True,38673,Baylor,239,Big 12,0,Texas A&M,245,Big 12,41
+222852117,2002,8,False,True,24127,Central Michigan,2117,Mid-American,35,Bowling Green,189,Mid-American,45
+222850356,2002,8,False,True,55590,Illinois,356,Big Ten,38,Purdue,2509,Big Ten,31
+222850349,2002,8,False,True,32454,Army,349,Conference USA,27,TCU,2628,Conference USA,46
+222850193,2002,8,False,True,15234,Miami (OH),193,Mid-American,41,Northern Illinois,2459,Mid-American,48
+222852305,2002,8,False,True,0,Kansas,2305,Big 12,29,Colorado,38,Big 12,53
+222850145,2002,8,False,False,55204,Ole Miss,145,SEC,52,Arkansas State,2032,Sun Belt,17
+222852006,2002,8,False,False,7132,Akron,2006,Mid-American,49,Liberty,2335,,21
+222850195,2002,8,False,True,19155,Ohio,195,Mid-American,55,Eastern Michigan,2199,Mid-American,27
+222852306,2002,8,False,True,48404,Kansas State,2306,Big 12,44,Oklahoma State,197,Big 12,9
+222850087,2002,8,False,False,80795,Notre Dame,87,FBS Independents,14,Pittsburgh,221,Big East,6
+222850344,2002,8,False,False,49546,Mississippi State,344,SEC,11,Troy,2653,FBS Independents,8
+222850036,2002,8,False,True,32151,Colorado State,36,Mountain West,44,Wyoming,2751,Mountain West,36
+222850005,2002,8,False,True,13897,UAB,5,Conference USA,51,Houston,248,Conference USA,34
+222850026,2002,8,False,True,68882,UCLA,26,Pac-10,30,Oregon,2483,Pac-10,31
+222850264,2002,8,False,True,71016,Washington,264,Pac-10,32,Arizona,12,Pac-10,28
+222850130,2002,8,False,True,111502,Michigan,130,Big Ten,27,Penn State,213,Big Ten,24
+222850061,2002,8,False,True,86520,Georgia,61,SEC,18,Tennessee,2633,SEC,13
+222850201,2002,8,False,True,75587,Oklahoma,201,Big 12,35,Texas,251,Big 12,24
+222852711,2002,8,False,True,21505,Western Michigan,2711,Mid-American,27,UCF,2116,Mid-American,31
+222852655,2002,8,False,True,19575,Tulane,2655,Conference USA,35,Cincinnati,2132,Conference USA,17
+222850164,2002,8,False,True,0,Rutgers,164,Big East,0,West Virginia,277,Big East,40
+222850154,2002,8,False,True,25856,Wake Forest,154,ACC,36,Duke,150,ACC,10
+222850276,2002,8,False,True,28200,Marshall,276,Mid-American,66,Buffalo,2084,Mid-American,21
+222850024,2002,8,False,True,30750,Stanford,24,Pac-10,11,Washington State,265,Pac-10,36
+222850030,2002,8,False,True,63113,USC,30,Pac-10,30,California,25,Pac-10,28
+222850096,2002,8,False,True,70547,Kentucky,96,SEC,12,South Carolina,2579,SEC,16
+222850202,2002,8,False,True,15079,Tulsa,202,Western Athletic,24,Boise State,68,Western Athletic,52
+222850238,2002,8,False,False,28660,Vanderbilt,238,SEC,20,Middle Tennessee,2393,Sun Belt,21
+222850058,2002,8,False,True,28181,South Florida,58,FBS Independents,16,Southern Miss,2572,Conference USA,13
+222850021,2002,8,False,True,20410,San Diego State,21,Mountain West,36,Utah,254,Mountain West,17
+222852649,2002,8,False,True,25926,Toledo,2649,Mid-American,37,Ball State,2050,Mid-American,17
+222852439,2002,8,False,True,21205,UNLV,2439,Mountain West,16,New Mexico,167,Mountain West,25
+222852433,2002,8,False,True,6509,UL Monroe,2433,Sun Belt,34,Idaho,70,Sun Belt,14
+222850066,2002,8,False,True,51842,Iowa State,66,Big 12,31,Texas Tech,2641,Big 12,17
+222850057,2002,8,False,True,85252,Florida,57,SEC,7,LSU,99,SEC,36
+222850166,2002,8,False,True,19876,New Mexico State,166,Sun Belt,31,Louisiana,309,Sun Belt,28
+222852005,2002,8,False,True,42214,Air Force,2005,Mountain West,52,BYU,252,Mountain West,9
+222850009,2002,8,False,True,47434,Arizona State,9,Pac-10,13,Oregon State,204,Pac-10,9
+222850278,2002,8,False,True,41031,Fresno State,278,Western Athletic,30,SMU,2567,Western Athletic,7
+222850062,2002,8,False,True,39616,Hawai'i,62,Western Athletic,59,Nevada,2440,Western Athletic,34
+222900120,2002,9,False,True,41766,Maryland,120,ACC,34,Georgia Tech,59,ACC,10
+222910068,2002,9,False,True,30924,Boise State,68,Western Athletic,67,Fresno State,278,Western Athletic,21
+222920258,2002,9,False,True,55648,Virginia,258,ACC,37,North Carolina,153,ACC,27
+222922393,2002,9,False,True,9726,Middle Tennessee,2393,Sun Belt,48,Louisiana,309,Sun Belt,35
+222920152,2002,9,False,True,51500,NC State,152,ACC,24,Duke,150,ACC,22
+222920041,2002,9,False,False,15723,UConn,41,FBS Independents,24,Temple,218,Big East,38
+222920103,2002,9,False,False,41322,Boston College,103,Big East,46,Navy,2426,FBS Independents,21
+222920277,2002,9,False,True,45088,West Virginia,277,Big East,34,Syracuse,183,Big East,7
+222922509,2002,9,False,True,62414,Purdue,2509,Big Ten,21,Michigan,130,Big Ten,23
+222920213,2002,9,False,True,108853,Penn State,213,Big Ten,49,Northwestern,77,Big Ten,0
+222920127,2002,9,False,True,74232,Michigan State,127,Big Ten,7,Minnesota,135,Big Ten,28
+222920084,2002,9,False,True,33458,Indiana,84,Big Ten,8,Iowa,2294,Big Ten,24
+222920197,2002,9,False,True,45017,Oklahoma State,197,Big 12,24,Nebraska,158,Big 12,21
+222920061,2002,9,False,True,86520,Georgia,61,SEC,48,Vanderbilt,238,SEC,17
+222920259,2002,9,False,True,64907,Virginia Tech,259,Big East,35,Rutgers,164,Big East,14
+222922084,2002,9,False,True,9213,Buffalo,2084,Mid-American,0,Miami (OH),193,Mid-American,49
+222922305,2002,9,False,True,34000,Kansas,2305,Big 12,22,Texas A&M,245,Big 12,47
+222920008,2002,9,False,True,61573,Arkansas,8,SEC,17,Kentucky,96,SEC,29
+222920151,2002,9,False,True,33419,East Carolina,151,Conference USA,30,South Florida,58,FBS Independents,46
+222920097,2002,9,False,True,34127,Louisville,97,Conference USA,31,TCU,2628,Conference USA,45
+222922572,2002,9,False,True,28031,Southern Miss,2572,Conference USA,23,Cincinnati,2132,Conference USA,14
+222922309,2002,9,False,True,10250,Kent State,2309,Mid-American,0,Ohio,195,Mid-American,50
+222922459,2002,9,False,True,20186,Northern Illinois,2459,Mid-American,49,Central Michigan,2117,Mid-American,0
+222922050,2002,9,False,True,15975,Ball State,2050,Mid-American,42,Eastern Michigan,2199,Mid-American,17
+222920248,2002,9,False,True,0,Houston,248,Conference USA,56,Army,349,Conference USA,42
+222920038,2002,9,False,True,46281,Colorado,38,Big 12,34,Baylor,239,Big 12,0
+222922567,2002,9,False,True,14836,SMU,2567,Western Athletic,37,Louisiana Tech,2348,Western Athletic,34
+222922751,2002,9,False,True,13757,Wyoming,2751,Mountain West,20,San Diego State,21,Mountain West,24
+222920254,2002,9,False,True,34374,Utah,254,Mountain West,20,Colorado State,36,Mountain West,28
+222920333,2002,9,False,True,83818,Alabama,333,SEC,42,Ole Miss,145,SEC,7
+222920201,2002,9,False,True,75201,Oklahoma,201,Big 12,49,Iowa State,66,Big 12,3
+222920228,2002,9,False,True,81000,Clemson,228,ACC,31,Wake Forest,154,ACC,23
+222922655,2002,9,False,True,19343,Tulane,2655,Conference USA,35,UAB,5,Conference USA,14
+222920275,2002,9,False,True,79729,Wisconsin,275,Big Ten,14,Ohio State,194,Big Ten,19
+222920030,2002,9,False,True,52961,USC,30,Pac-10,41,Washington,264,Pac-10,21
+222922483,2002,9,False,True,56432,Oregon,2483,Pac-10,42,Arizona State,9,Pac-10,45
+222920166,2002,9,False,True,12183,New Mexico State,166,Sun Belt,34,UL Monroe,2433,Sun Belt,21
+222922440,2002,9,False,True,19481,Nevada,2440,Western Athletic,52,San José State,23,Western Athletic,24
+222920276,2002,9,False,False,27121,Marshall,276,Mid-American,24,Troy,2653,FBS Independents,7
+222920024,2002,9,False,True,33800,Stanford,24,Pac-10,16,Arizona,12,Pac-10,6
+222920328,2002,9,False,False,15942,Utah State,328,FBS Independents,45,New Mexico,167,Mountain West,44
+222920189,2002,9,False,True,15169,Bowling Green,189,Mid-American,48,Western Michigan,2711,Mid-American,45
+222922116,2002,9,False,True,17119,UCF,2116,Mid-American,24,Toledo,2649,Mid-American,27
+222920057,2002,9,False,True,85135,Florida,57,SEC,30,Auburn,2,SEC,23
+222920252,2002,9,False,True,62543,BYU,252,Mountain West,3,UNLV,2439,Mountain West,24
+222922306,2002,9,False,True,50659,Kansas State,2306,Big 12,14,Texas,251,Big 12,17
+222922641,2002,9,False,True,42781,Texas Tech,2641,Big 12,52,Missouri,142,Big 12,38
+222922032,2002,9,False,True,12671,Arkansas State,2032,Sun Belt,10,North Texas,249,Sun Belt,13
+222920025,2002,9,False,True,0,California,25,Pac-10,17,UCLA,26,Pac-10,12
+222920099,2002,9,False,True,91340,LSU,99,SEC,38,South Carolina,2579,SEC,14
+222920235,2002,9,False,False,28209,Memphis,235,Conference USA,17,Mississippi State,344,SEC,29
+222922005,2002,9,False,False,56409,Air Force,2005,Mountain West,14,Notre Dame,87,FBS Independents,21
+222922638,2002,9,False,True,32392,UTEP,2638,Western Athletic,38,Rice,242,Western Athletic,35
+222920062,2002,9,False,True,34098,Hawai'i,62,Western Athletic,37,Tulsa,202,Western Athletic,14
