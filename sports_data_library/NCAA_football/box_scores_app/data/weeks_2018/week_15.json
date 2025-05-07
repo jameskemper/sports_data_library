@@ -1,0 +1,47 @@
+[
+  {
+    "id": 401013376,
+    "season": 2018,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2018-12-08T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 66729,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 17,
+    "homeLineScores": [
+      7,
+      0,
+      3,
+      7
+    ],
+    "homePostgameWinProbability": 0.9915791915134445,
+    "homePregameElo": 1696,
+    "homePostgameElo": 1690,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "American Athletic",
+    "awayPoints": 10,
+    "awayLineScores": [
+      0,
+      0,
+      0,
+      10
+    ],
+    "awayPostgameWinProbability": 0.008420808486555464,
+    "awayPregameElo": 1353,
+    "awayPostgameElo": 1359,
+    "excitementIndex": 3.8055075711,
+    "highlights": "https://www.youtube.com/watch?v=ICA2Cslqs1k",
+    "notes": null
+  }
+]

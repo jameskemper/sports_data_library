@@ -1,0 +1,47 @@
+name: Weekly Box Score Scraper (2025)
+
+on:
+  schedule:
+    - cron: '0 12 * 8-1 MON'  # Every Monday at noon from August through January
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape_and_compile:
+    runs-on: ubuntu-latest
+    env:
+      CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Run scraper
+        run: python box_scores_app/box_scores_scraper.py  # updated to match your filename
+
+      - name: Commit weekly data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add box_scores_app/data/weeks_2025/
+          git commit -m "Add week box score JSON for 2025" || echo "No changes"
+          git push
+
+      - name: Run compiler
+        run: python box_scores_app/compile_box_scores_season.py
+
+      - name: Commit compiled season file
+        run: |
+          git add box_scores_app/data/boxscores_2025.csv
+          git commit -m "Update boxscores_2025.csv" || echo "No changes"
+          git push

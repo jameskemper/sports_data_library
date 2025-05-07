@@ -1,0 +1,47 @@
+[
+  {
+    "id": 303450349,
+    "season": 2010,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2010-12-11T19:30:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 0,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 17,
+    "homeLineScores": [
+      0,
+      7,
+      3,
+      7
+    ],
+    "homePostgameWinProbability": 0.6223078516070368,
+    "homePregameElo": 1374,
+    "homePostgameElo": 1379,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "FBS Independents",
+    "awayPoints": 31,
+    "awayLineScores": [
+      10,
+      14,
+      0,
+      7
+    ],
+    "awayPostgameWinProbability": 0.37769214839296317,
+    "awayPregameElo": 1729,
+    "awayPostgameElo": 1724,
+    "excitementIndex": null,
+    "highlights": "",
+    "notes": null
+  }
+]

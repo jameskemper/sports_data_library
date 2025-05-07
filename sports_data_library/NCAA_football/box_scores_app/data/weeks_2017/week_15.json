@@ -1,0 +1,47 @@
+[
+  {
+    "id": 400934572,
+    "season": 2017,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2017-12-09T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 68625,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 2426,
+    "homeTeam": "Navy",
+    "homeClassification": "fbs",
+    "homeConference": "American Athletic",
+    "homePoints": 13,
+    "homeLineScores": [
+      3,
+      7,
+      3,
+      0
+    ],
+    "homePostgameWinProbability": 0.2443874934359046,
+    "homePregameElo": 1605,
+    "homePostgameElo": 1604,
+    "awayId": 349,
+    "awayTeam": "Army",
+    "awayClassification": "fbs",
+    "awayConference": "FBS Independents",
+    "awayPoints": 14,
+    "awayLineScores": [
+      7,
+      0,
+      0,
+      7
+    ],
+    "awayPostgameWinProbability": 0.7556125065640954,
+    "awayPregameElo": 1505,
+    "awayPostgameElo": 1506,
+    "excitementIndex": 5.74907904819999,
+    "highlights": "https://www.youtube.com/watch?v=cGrKq0R4VwM",
+    "notes": null
+  }
+]

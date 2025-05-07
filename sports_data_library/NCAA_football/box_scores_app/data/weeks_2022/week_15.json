@@ -1,0 +1,51 @@
+[
+  {
+    "id": 401404145,
+    "season": 2022,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2022-12-10T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 69117,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 20,
+    "homeLineScores": [
+      0,
+      7,
+      0,
+      3,
+      7,
+      3
+    ],
+    "homePostgameWinProbability": 0.03523926261374963,
+    "homePregameElo": 1494,
+    "homePostgameElo": 1499,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "American Athletic",
+    "awayPoints": 17,
+    "awayLineScores": [
+      0,
+      3,
+      7,
+      0,
+      7,
+      0
+    ],
+    "awayPostgameWinProbability": 0.9647607373862503,
+    "awayPregameElo": 1462,
+    "awayPostgameElo": 1457,
+    "excitementIndex": 7.9335168303,
+    "highlights": "",
+    "notes": null
+  }
+]

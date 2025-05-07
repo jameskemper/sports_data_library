@@ -1,0 +1,308 @@
+season,week,home_team,home_id,home_conference,home_points,home_pregame_elo,home_postgame_elo,away_team,away_id,away_conference,away_points,away_pregame_elo,away_postgame_elo,conference_game,margin
+2022,11,Akron,2006,Mid-American,28,973.0,985.0,Eastern Michigan,2199,Mid-American,34,1311.0,1299.0,1,-6
+2022,11,Miami (OH),193,Mid-American,21,1412.0,1374.0,Ohio,195,Mid-American,37,1413.0,1451.0,1,-16
+2022,11,Toledo,2649,Mid-American,28,1553.0,1549.0,Ball State,2050,Mid-American,21,1302.0,1306.0,1,7
+2022,11,Central Michigan,2117,Mid-American,31,1356.0,1361.0,Buffalo,2084,Mid-American,27,1421.0,1416.0,1,4
+2022,11,Western Michigan,2711,Mid-American,21,1274.0,1275.0,Northern Illinois,2459,Mid-American,24,1361.0,1360.0,1,-3
+2022,11,Bowling Green,189,Mid-American,6,1183.0,1096.0,Kent State,2309,Mid-American,40,1268.0,1355.0,1,-34
+2022,11,Memphis,235,American Athletic,26,1491.0,1514.0,Tulsa,202,American Athletic,10,1366.0,1343.0,1,16
+2022,11,Louisiana,309,Sun Belt,36,1561.0,1590.0,Georgia Southern,290,Sun Belt,17,1419.0,1390.0,1,19
+2022,11,College Of New Jersey,2442,New Jersey,10,,,Kean,2871,New Jersey,17,,,1,-7
+2022,11,Rowan,2827,New Jersey,38,,,Biddeford,111675,Commonwealth Coast,20,,,0,18
+2022,11,Cincinnati,2132,American Athletic,27,1764.0,1762.0,East Carolina,151,American Athletic,25,1585.0,1587.0,1,2
+2022,11,Portland State,2502,Big Sky,17,,,Sacramento State,16,Big Sky,45,,,1,-28
+2022,11,USC,30,Pac-12,55,1720.0,1753.0,Colorado,38,Pac-12,17,1105.0,1072.0,1,38
+2022,11,UNLV,2439,Mountain West,30,1278.0,1288.0,Fresno State,278,Mountain West,37,1593.0,1583.0,1,-7
+2022,11,Catholic,2108,NEWMAC,21,,,Springfield,81,NEWMAC,35,,,1,-14
+2022,11,North Carolina A&T,2448,Big South,20,,,Charleston Southern,2127,Big South,10,,,1,10
+2022,11,Lebanon Valley,388,Mid Atlantic,41,,,Albright,2015,Mid Atlantic,24,,,1,17
+2022,11,Yale,43,Ivy,24,,,Princeton,163,Ivy,20,,,1,4
+2022,11,Rensselaer,2528,Liberty League,23,,,Union (NY),237,Liberty League,13,,,1,10
+2022,11,Brown,225,Ivy,24,,,Columbia,171,Ivy,31,,,1,-7
+2022,11,Salve Regina,2776,Commonwealth Coast,24,,,Husson,2280,Commonwealth Coast,10,,,1,14
+2022,11,Arkansas,8,SEC,10,1662.0,1660.0,LSU,99,SEC,13,1708.0,1710.0,1,-3
+2022,11,Greensboro College,2256,USA South,14,,,North Carolina Wesleyan,286,USA South,35,,,1,-21
+2022,11,Mercyhurst,2385,Pennsylvania State Athletic,13,,,Shepherd,2974,Pennsylvania State Athletic,16,,,1,-3
+2022,11,UAlbany,399,CAA,23,,,Maine,311,CAA,21,,,1,2
+2022,11,Moravian,323,Centennial,10,,,Muhlenberg,2422,Centennial,37,,,1,-27
+2022,11,SUNY Maritime,2951,ECFC,21,,,Alfred State,3162,ECFC,48,,,1,-27
+2022,11,South Florida,58,American Athletic,23,1094.0,1100.0,SMU,2567,American Athletic,41,1616.0,1610.0,1,-18
+2022,11,Tiffin,2838,Great Midwest Athletic,25,,,Findlay,2224,Great Midwest Athletic,27,,,1,-2
+2022,11,Lake Erie,437,Great Midwest Athletic,11,,,Northern Michigan,128,GLIAC,33,,,0,-22
+2022,11,Ithaca College,175,Liberty League,34,,,Cortland,2782,Empire 8,17,,,0,17
+2022,11,Holy Cross,107,Patriot,36,,,Bryant,2803,Big South,29,,,0,7
+2022,11,Lehigh,2329,Patriot,36,,,Colgate,2142,Patriot,33,,,1,3
+2022,11,Navy,2426,American Athletic,32,1424.0,1441.0,Notre Dame,87,FBS Independents,35,1848.0,1831.0,0,-3
+2022,11,Kentucky,96,SEC,21,1610.0,1583.0,Vanderbilt,238,SEC,24,1271.0,1298.0,1,-3
+2022,11,Wilkes,398,Mid Atlantic,58,,,Kings College (PA),247,Mid Atlantic,42,,,1,16
+2022,11,Limestone,2336,South Atlantic,45,,,Emory & Henry College,2213,South Atlantic,27,,,0,18
+2022,11,John Carroll University,2302,Ohio,62,,,Otterbein,359,Ohio,7,,,1,55
+2022,11,Southern Connecticut State,2583,Northeast 10,14,,,New Haven,2441,Northeast 10,54,,,1,-40
+2022,11,Dean College,110438,ECFC,44,,,Keystone,122774,ECFC,45,,,1,-1
+2022,11,Nichols College,2884,Commonwealth Coast,49,,,Curry College,40,Commonwealth Coast,28,,,1,21
+2022,11,UConn,41,FBS Independents,36,1128.0,1137.0,Liberty,2335,FBS Independents,33,1640.0,1631.0,0,3
+2022,11,Davenport,110254,GLIAC,7,,,Grand Valley State University,125,GLIAC,49,,,1,-42
+2022,11,Westfield State,2909,MSCAC,50,,,Fitchburg State,114,MSCAC,0,,,1,50
+2022,11,Plymouth State,2972,MSCAC,21,,,UMass Dartmouth,379,MSCAC,46,,,1,-25
+2022,11,Williams,2731,NESCAC,20,,,Amherst,7,NESCAC,10,,,1,10
+2022,11,Framingham State,2967,MSCAC,21,,,Worcester St,402,MSCAC,16,,,1,5
+2022,11,Bridgewater State,18,MSCAC,10,,,Mass Maritime,110,MSCAC,0,,,1,10
+2022,11,Wagner,2681,NEC,28,,,Sacred Heart,2529,NEC,38,,,1,-10
+2022,11,St. Francis (PA),2598,NEC,51,,,Duquesne,2184,NEC,14,,,1,37
+2022,11,Virginia,258,ACC,7,1399.0,1340.0,Pittsburgh,221,ACC,37,1596.0,1655.0,1,-30
+2022,11,Duke,150,ACC,24,1433.0,1460.0,Virginia Tech,259,ACC,7,1326.0,1299.0,1,17
+2022,11,Central Connecticut,2115,NEC,14,,,Merrimack,2771,NEC,20,,,1,-6
+2022,11,Gannon,367,Pennsylvania State Athletic,28,,,Shippensburg,2559,Pennsylvania State Athletic,35,,,1,-7
+2022,11,Marist,2368,Pioneer,24,,,Valparaiso,2674,Pioneer,45,,,1,-21
+2022,11,Seton Hill,611,Pennsylvania State Athletic,10,,,Millersville,210,Pennsylvania State Athletic,14,,,1,-4
+2022,11,Clarion,2134,Pennsylvania State Athletic,27,,,West Chester,223,Pennsylvania State Athletic,36,,,1,-9
+2022,11,Edinboro University,2205,Pennsylvania State Athletic,26,,,Lock Haven University,209,Pennsylvania State Athletic,13,,,1,13
+2022,11,Pace,2487,Northeast 10,10,,,Bentley,2060,Northeast 10,18,,,1,-8
+2022,11,American International,2022,Northeast 10,20,,,St. Anselm,2830,Northeast 10,27,,,1,-7
+2022,11,PennWest California,2858,Pennsylvania State Athletic,31,,,East Stroudsburg University,2188,Pennsylvania State Athletic,7,,,1,24
+2022,11,Illinois,356,Big Ten,24,1725.0,1702.0,Purdue,2509,Big Ten,31,1599.0,1622.0,1,-7
+2022,11,Tennessee,2633,SEC,66,1957.0,2018.0,Missouri,142,SEC,24,1485.0,1424.0,1,42
+2022,11,University Of Charleston (WV),2128,Mountain East,35,,,West Virginia State,2707,Mountain East,42,,,1,-7
+2022,11,Merchant Marine Academy,2383,NEWMAC,41,,,Coast Guard,2557,NEWMAC,33,,,1,8
+2022,11,Worcester Polytechnic Institute,2749,NEWMAC,14,,,MIT,109,NEWMAC,21,,,1,-7
+2022,11,West Virginia,277,Big 12,23,1374.0,1379.0,Oklahoma,201,Big 12,20,1640.0,1635.0,1,3
+2022,11,Misericordia,2969,Mid Atlantic,21,,,Lycoming,2354,Mid Atlantic,14,,,1,7
+2022,11,Michigan State,127,Big Ten,27,1605.0,1598.0,Rutgers,164,Big Ten,21,1290.0,1297.0,1,6
+2022,11,Trinity (CT),2977,NESCAC,31,,,Wesleyan University (CT),336,NESCAC,14,,,1,17
+2022,11,Hamilton,348,NESCAC,14,,,Bates,121,NESCAC,19,,,1,-5
+2022,11,Johns Hopkins University,118,Centennial,44,,,McDaniel College,2700,Centennial,7,,,1,37
+2022,11,Ohio State,194,Big Ten,56,2184.0,2201.0,Indiana,84,Big Ten,14,1312.0,1295.0,1,42
+2022,11,Georgetown,46,Patriot,21,,,Bucknell,2083,Patriot,24,,,1,-3
+2022,11,Tufts,112,NESCAC,65,,,Middlebury,2394,NESCAC,34,,,1,31
+2022,11,North Greenville,2822,Gulf South,36,,,West Georgia,2698,Gulf South,43,,,1,-7
+2022,11,Howard,47,MEAC,28,,,South Carolina State,2569,MEAC,14,,,1,14
+2022,11,North Dakota,155,MVFC,28,,,South Dakota,233,MVFC,19,,,1,9
+2022,11,Hampden-Sydney,297,Old Dominion,17,,,Randolph-Macon,2516,Old Dominion,38,,,1,-21
+2022,11,Guilford College,2258,Old Dominion,22,,,Bridgewater (VA),2079,Old Dominion,64,,,1,-42
+2022,11,Hampton,2261,CAA,24,,,Elon,2210,CAA,38,,,1,-14
+2022,11,Northwood (MI),2886,Great Midwest Athletic,34,,,Walsh,2682,Great Midwest Athletic,14,,,0,20
+2022,11,Kennesaw State,338,Atlantic Sun,14,,,Austin Peay,2046,Atlantic Sun,31,,,1,-17
+2022,11,Wittenberg,2746,North Coast,56,,,Hilbert College,125974,North Coast,8,,,0,48
+2022,11,Ohio Wesleyan,2980,North Coast,47,,,Hiram College,2274,North Coast,21,,,1,26
+2022,11,Oberlin,391,North Coast,13,,,Wooster,2748,North Coast,56,,,1,-43
+2022,11,Denison University,2171,North Coast,49,,,Kenyon,352,North Coast,12,,,1,37
+2022,11,Depauw,83,North Coast,49,,,Wabash College,89,North Coast,14,,,1,35
+2022,11,Montclair State,2818,New Jersey,14,,,William Paterson,2970,New Jersey,17,,,1,-3
+2022,11,West Virginia Wesleyan,455,Mountain East,14,,,Glenville State,2249,Mountain East,27,,,1,-13
+2022,11,Old Dominion,295,Sun Belt,3,1408.0,1315.0,James Madison,256,Sun Belt,37,1446.0,1539.0,1,-34
+2022,11,West Liberty,2699,Mountain East,23,,,Frostburg State,341,Mountain East,28,,,1,-5
+2022,11,Georgia State,2247,Sun Belt,28,1521.0,1488.0,UL Monroe,2433,Sun Belt,31,1101.0,1134.0,1,-3
+2022,11,Widener,2725,Mid Atlantic,7,,,Delaware Valley,2808,Mid Atlantic,34,,,1,-27
+2022,11,St. Lawrence,2779,Liberty League,31,,,Buffalo State,2085,Liberty League,7,,,1,24
+2022,11,Hobart College,174,Liberty League,27,,,University of Rochester (NY),184,Liberty League,7,,,1,20
+2022,11,Minnesota State Mankato,2364,Northern Sun,40,,,Winona State,2851,Northern Sun,13,,,1,27
+2022,11,Upper Iowa University,389,Northern Sun,6,,,Sioux Falls,2894,Northern Sun,50,,,1,-44
+2022,11,Fordham,2230,Patriot,45,,,Lafayette,322,Patriot,10,,,1,35
+2022,11,St. Thomas (MN),2900,Pioneer,23,,,Stetson,56,Pioneer,0,,,1,23
+2022,11,Susquehanna,216,Centennial,66,,,Juniata College,246,Centennial,15,,,1,51
+2022,11,Wayne State (MI),131,GLIAC,14,,,Ferris State,2222,GLIAC,40,,,1,-26
+2022,11,Saginaw Valley State,129,GLIAC,35,,,Michigan Tech,2392,GLIAC,30,,,1,5
+2022,11,St John Fisher University,374,Empire 8,21,,,Utica,390,Empire 8,35,,,1,-14
+2022,11,Alfred University,365,Empire 8,7,,,Brockport,2781,Empire 8,16,,,1,-9
+2022,11,Western New England,2702,Commonwealth Coast,21,,,Endicott College,452,Commonwealth Coast,26,,,1,-5
+2022,11,Ohio Dominican,2477,Great Midwest Athletic,20,,,Hillsdale,2273,Great Midwest Athletic,10,,,1,10
+2022,11,Ursinus,2667,Centennial,38,,,Dickinson (PA),2175,Centennial,14,,,1,24
+2022,11,Dayton,2168,Pioneer,49,,,Morehead State,2413,Pioneer,27,,,1,22
+2022,11,Gettysburg,2248,Centennial,14,,,Franklin & Marshall,2234,Centennial,31,,,1,-17
+2022,11,Catawba,2107,South Atlantic,23,,,Carson-Newman College,2105,South Atlantic,61,,,1,-38
+2022,11,Slippery Rock,215,Pennsylvania State Athletic,21,,,Kutztown University,2315,Pennsylvania State Athletic,23,,,1,-2
+2022,11,Waynesburg,2845,Presidents',0,,,Washington & Jefferson,2686,Presidents',56,,,1,-56
+2022,11,Wayne State (NE),2844,Northern Sun,10,,,Minnesota State Moorhead,2817,Northern Sun,7,,,1,3
+2022,11,Saint Vincent,2614,Presidents',36,,,Bethany (WV),2062,Presidents',7,,,1,29
+2022,11,Reading,111674,Mid Atlantic,7,,,FDU-Florham,2221,Mid Atlantic,31,,,1,-24
+2022,11,Grove City College,146,Presidents',66,,,Thiel,2644,Presidents',6,,,1,60
+2022,11,Geneva,2242,Presidents',0,,,Westminster (PA),2849,Presidents',49,,,1,-49
+2022,11,Concordia University St Paul,3066,Northern Sun,19,,,Minot State,568,Northern Sun,11,,,1,8
+2022,11,Carroll University (WI),32,Midwest,7,,,Washington University (St. Louis),143,CCIW,37,,,0,-30
+2022,11,Campbell,2097,Big South,35,,,Gardner-Webb,2241,Big South,42,,,1,-7
+2022,11,Pennsylvania,219,Ivy,14,,,Harvard,108,Ivy,37,,,1,-23
+2022,11,Cornell,172,Ivy,17,,,Dartmouth,159,Ivy,13,,,1,4
+2022,11,Washington and Lee,2688,Old Dominion,14,,,Shenandoah,2828,Old Dominion,16,,,1,-2
+2022,11,Westminster College (MO),433,Upper Midwest,22,,,Crown College,509,Upper Midwest,26,,,1,-4
+2022,11,Minnesota Morris,2399,Upper Midwest,25,,,Greenville,2257,Upper Midwest,43,,,1,-18
+2022,11,Centre College Kentucky,2121,Southern Athletic,57,,,Millsaps,2398,Southern Athletic,3,,,1,54
+2022,11,Delaware,48,CAA,13,,,Richmond,257,CAA,21,,,1,-8
+2022,11,New Hampshire,160,CAA,31,,,Rhode Island,227,CAA,28,,,1,3
+2022,11,Stony Brook,2619,CAA,17,,,Towson,119,CAA,21,,,1,-4
+2022,11,William & Mary,2729,CAA,45,,,Villanova,222,CAA,12,,,1,33
+2022,11,Ashland,308,Great Midwest Athletic,41,,,Kentucky Wesleyan,2316,Great Midwest Athletic,10,,,1,31
+2022,11,SUNY Morrisville,3110,Empire 8,38,,,Hartwick,173,Empire 8,12,,,1,26
+2022,11,Newberry,2444,South Atlantic,27,,,Mars Hill,2369,South Atlantic,24,,,1,3
+2022,11,Lenoir-Rhyne,2331,South Atlantic,34,,,Greeneville,2839,South Atlantic,14,,,1,20
+2022,11,East Tennessee State,2193,Southern,17,,,Western Carolina,2717,Southern,20,,,1,-3
+2022,11,Trinity University TX,386,Southern Athletic,38,,,Sewanee,2553,Southern Athletic,0,,,1,38
+2022,11,Southern Virginia,2896,USA South,27,,,Brevard College,2913,USA South,41,,,1,-14
+2022,11,Luther,67,American Rivers,35,,,Nebraska Wesleyan,6845,American Rivers,28,,,1,7
+2022,11,Simpson College (IA),2564,American Rivers,21,,,Buena Vista,63,American Rivers,26,,,1,-5
+2022,11,Belhaven,2056,USA South,22,,,Maryville College (TN),2373,USA South,25,,,0,-3
+2022,11,Sam Houston,2534,Western Athletic,28,,,Abilene Christian,2000,Western Athletic,45,,,1,-17
+2022,11,Kalamazoo,126,Michigan,19,,,Trine University,2651,Michigan,42,,,1,-23
+2022,11,Alma,2800,Michigan,34,,,Albion,2790,Michigan,31,,,1,3
+2022,11,Adrian,2003,Michigan,28,,,Olivet College,354,Michigan,0,,,1,28
+2022,11,Long Island University,2341,NEC,34,,,Stonehill,284,NEC,28,,,1,6
+2022,11,Ripon,2891,Midwest,82,,,Lawrence University,268,Midwest,0,,,1,82
+2022,11,Knox College,255,Midwest,0,,,Monmouth (IL),2919,Midwest,56,,,1,-56
+2022,11,Illinois College,2286,Midwest,65,,,Beloit,266,Midwest,13,,,1,52
+2022,11,Cornell College (IA),2155,Midwest,45,,,Grinnell,65,Midwest,6,,,1,39
+2022,11,St. Norbert,2832,NACC,54,,,Concordia University Chicago,2151,NACC,0,,,1,54
+2022,11,Ferrum,366,Old Dominion,20,,,Averett,2047,Old Dominion,24,,,0,-4
+2022,11,Alderson-Broaddus,2017,Mountain East,3,,,Notre Dame College,587,Mountain East,27,,,1,-24
+2022,11,Chattanooga,236,Southern,24,,,Samford,2535,Southern,35,,,1,-11
+2022,11,Wofford,2747,Southern,34,,,VMI,2678,Southern,16,,,1,18
+2022,11,Wingate,351,South Atlantic,45,,,UVA Wise,2842,South Atlantic,7,,,1,38
+2022,11,Anderson (IN),2023,Heartland,19,,,Manchester,2362,Heartland,12,,,1,7
+2022,11,Bluffton,2074,Heartland,14,,,Defiance College,190,Heartland,17,,,1,-3
+2022,11,Franklin,2233,Heartland,3,,,Hanover College,2262,Heartland,24,,,1,-21
+2022,11,Mount St. Joseph,2419,Heartland,40,,,Rose-Hulman,86,Heartland,31,,,1,9
+2022,11,Baldwin Wallace,188,Ohio,21,,,University of Mount Union,426,Ohio,23,,,1,-2
+2022,11,Capital,424,Ohio,30,,,Heidelberg,191,Ohio,44,,,1,-14
+2022,11,Muskingum University,332,Ohio,23,,,Marietta,317,Ohio,38,,,1,-15
+2022,11,South Dakota Mines,613,Rocky Mountain,28,,,Chadron St,2123,Rocky Mountain,7,,,1,21
+2022,11,Benedict College,490,SIAC,58,,,Tuskegee,2657,SIAC,21,,,1,37
+2022,11,Wilson,122666,South Atlantic,51,,,ERSKINE,101784,South Atlantic,22,,,1,29
+2022,11,Midwestern State,2395,Lone Star,19,,,Angelo State,2025,Lone Star,37,,,1,-18
+2022,11,Black Hills State,2069,Rocky Mountain,0,,,CSU Pueblo,2570,Rocky Mountain,38,,,1,-38
+2022,11,Aurora,2044,NACC,42,,,Concordia-Wisconsin,409,NACC,0,,,1,42
+2022,11,Colorado School Of Mines,2146,Rocky Mountain,80,,,Fort Lewis,2237,Rocky Mountain,0,,,1,80
+2022,11,New Mexico State,166,FBS Independents,51,1100.0,1100.0,Lamar,2320,Southland,14,,,0,37
+2022,11,Anna Maria College,15,ECFC,27,,,Castleton,293,ECFC,26,,,1,1
+2022,11,Wheeling,112335,Mountain East,31,,,Fairmont State,2986,Mountain East,28,,,1,3
+2022,11,Drake,2181,Pioneer,27,,,Butler,2086,Pioneer,24,,,1,3
+2022,11,Southwest Minnesota State,2587,Northern Sun,0,,,Augustana University (SD),2043,Northern Sun,49,,,1,-49
+2022,11,Wheaton,396,CCIW,54,,,North Park,75,CCIW,14,,,1,40
+2022,11,North Central College,3071,CCIW,63,,,Augustana (IL),2042,CCIW,3,,,1,60
+2022,11,Elmhurst,72,CCIW,17,,,Illinois Wesleyan,306,CCIW,21,,,1,-4
+2022,11,Carthage,2106,CCIW,6,,,Millikin,74,CCIW,17,,,1,-11
+2022,11,Mary Hardin-Baylor,2371,American Southwest,62,,,McMurry,241,American Southwest,3,,,1,59
+2022,11,Lindenwood,2815,OVC,63,,,McKendree,2816,Great Lakes,35,,,0,28
+2022,11,Benedictine University,2283,NACC,49,,,Wisconsin-Lutheran,2741,NACC,35,,,1,14
+2022,11,Murray State,93,OVC,27,,,Robert Morris,2523,Big South,9,,,0,18
+2022,11,East Texas Baptist University,2194,American Southwest,43,,,North American University,123086,,6,,,0,37
+2022,11,Dubuque,49,American Rivers,21,,,Central College,2964,American Rivers,24,,,1,-3
+2022,11,Coe College,2141,American Rivers,14,,,Wartburg,2685,American Rivers,19,,,1,-5
+2022,11,Missouri Western,137,Mid America,41,,,Lincoln (MO),2876,Mid America,0,,,1,41
+2022,11,Western Kentucky,98,Conference USA,45,1742.0,1767.0,Rice,242,Conference USA,10,1124.0,1099.0,1,35
+2022,11,Emporia State University,2214,Mid America,21,,,Northwest Missouri St,138,Mid America,27,,,1,-6
+2022,11,Jacksonville State,55,Atlantic Sun,42,,,Eastern Kentucky,2198,Atlantic Sun,17,,,1,25
+2022,11,Northern State,425,Northern Sun,7,,,Minnesota Duluth,134,Northern Sun,28,,,1,-21
+2022,11,Western Illinois,2710,MVFC,0,,,Indiana State,282,MVFC,21,,,1,-21
+2022,11,The Citadel,2643,Southern,66,,,Virginia University Of Lynchburg,2355,,0,,,0,66
+2022,11,Norfolk State,2450,MEAC,14,,,North Carolina Central,2428,MEAC,48,,,1,-34
+2022,11,Southern Illinois,79,MVFC,18,,,North Dakota State,2449,MVFC,21,,,1,-3
+2022,11,Northern Colorado,2458,Big Sky,21,,,Northern Arizona,2464,Big Sky,20,,,1,1
+2022,11,Delaware State,2169,MEAC,7,,,Morgan State,2415,MEAC,37,,,1,-30
+2022,11,Lakeland,6353,NACC,70,,,Rockford,2524,NACC,21,,,1,49
+2022,11,Berry College,2757,Southern Athletic,55,,,Hendrix College,418,Southern Athletic,8,,,1,47
+2022,11,Quincy,2825,Great Lakes,7,,,William Jewell,2911,Great Lakes,17,,,1,-10
+2022,11,Rhodes College,2519,Southern Athletic,20,,,Birmingham-Southern,3,Southern Athletic,3,,,1,17
+2022,11,Missouri S&T,2402,Great Lakes,17,,,Southwest Baptist,2586,Great Lakes,24,,,1,-7
+2022,11,Huntingdon College (AL),2938,USA South,55,,,Lagrange College,548,USA South,7,,,1,48
+2022,11,Austin,2045,American Southwest,20,,,Howard Payne,2758,American Southwest,23,,,1,-3
+2022,11,Northwestern (MN),583,Upper Midwest,31,,,Martin Luther,446,Upper Midwest,9,,,1,22
+2022,11,Texas Lutheran,2639,American Southwest,16,,,Hardin-Simmons,2810,American Southwest,45,,,1,-29
+2022,11,Wisconsin-Eau Claire,2738,Wisconsin,0,,,Wisconsin-Oshkosh,271,Wisconsin,61,,,1,-61
+2022,11,Wisconsin-Lacrosse,2740,Wisconsin,31,,,Wisconsin-Platteville,272,Wisconsin,10,,,1,21
+2022,11,Wisconsin-River Falls,2723,Wisconsin,35,,,Wisconsin-Stout,2744,Wisconsin,34,,,1,1
+2022,11,Wisconsin-Whitewater,2745,Wisconsin,79,,,Wisconsin-Stevens Pt,2743,Wisconsin,10,,,1,69
+2022,11,Sul Ross State,2834,American Southwest,44,,,Southwestern University,2588,American Southwest,41,,,1,3
+2022,11,Indianapolis,2292,Great Lakes,28,,,Truman State,2654,Great Lakes,14,,,1,14
+2022,11,Ohio Northern,427,Ohio,21,,,Wilmington (OH),2733,Ohio,13,,,1,8
+2022,11,Arkansas-Pine Bluff,2029,SWAC,24,,,Prairie View A&M,2504,SWAC,55,,,1,-31
+2022,11,Houston,248,American Athletic,43,1529.0,1517.0,Temple,218,American Athletic,36,1105.0,1117.0,1,7
+2022,11,Eastern Illinois,2197,OVC,7,,,Southeast Missouri State,2546,OVC,31,,,1,-24
+2022,11,Southern Utah,253,Western Athletic,55,,,Lincoln (CA),124179,,0,,,0,55
+2022,11,Utah Tech,3101,Western Athletic,34,,,Tarleton State,2627,Western Athletic,28,,,1,6
+2022,11,Weber State,2692,Big Sky,45,,,Idaho State,304,Big Sky,7,,,1,38
+2022,11,Montana,149,Big Sky,63,,,Eastern Washington,331,Big Sky,7,,,1,56
+2022,11,Mercer,2382,Southern,13,,,Furman,231,Southern,23,,,1,-10
+2022,11,Houston Christian,2277,Southland,10,,,McNeese,2377,Southland,21,,,1,-11
+2022,11,Indiana-Pennsylvania,2291,Pennsylvania State Athletic,24,,,Bloomsburg,2071,Pennsylvania State Athletic,21,,,1,3
+2022,11,Colorado Mesa,11,Rocky Mountain,56,,,New Mexico Highlands,2424,Rocky Mountain,36,,,1,20
+2022,11,Western Colorado,2714,Rocky Mountain,52,,,Adams State,2001,Rocky Mountain,10,,,1,42
+2022,11,South Dakota State,2571,MVFC,31,,,Illinois State,2287,MVFC,7,,,1,24
+2022,11,Southern,2582,SWAC,27,,,Mississippi Valley State,2400,SWAC,7,,,1,20
+2022,11,Alcorn State,2016,SWAC,17,,,Bethune-Cookman,2065,SWAC,14,,,1,3
+2022,11,Missouri State,2623,MVFC,25,,,Youngstown State,2754,MVFC,22,,,1,3
+2022,11,Alabama State,2011,SWAC,14,,,Florida A&M,50,SWAC,21,,,1,-7
+2022,11,Arkansas-Monticello,2028,Great American,7,,,Southern Arkansas,2568,Great American,20,,,1,-13
+2022,11,East Central (OK),2191,Great American,31,,,Southeastern Oklahoma State,199,Great American,10,,,1,21
+2022,11,Harding University,2264,Great American,55,,,Arkansas Tech,2033,Great American,10,,,1,45
+2022,11,Henderson State,2271,Great American,37,,,Ouachita Baptist,2888,Great American,40,,,1,-3
+2022,11,Delta State,2170,Gulf South,17,,,West Alabama,2695,Gulf South,7,,,1,10
+2022,11,University of Mary,559,Northern Sun,14,,,Bemidji State,132,Northern Sun,51,,,1,-37
+2022,11,Mississippi College,2401,Gulf South,21,,,West Florida,110242,Gulf South,56,,,1,-35
+2022,11,Valdosta State,2673,Gulf South,30,,,Shorter,2560,Gulf South,28,,,1,2
+2022,11,Northeastern State,196,Mid America,0,,,Nebraska-Kearney,2438,Mid America,42,,,1,-42
+2022,11,Central Oklahoma,2122,Mid America,13,,,Central Missouri,2118,Mid America,10,,,1,3
+2022,11,Missouri Southern State,2403,Mid America,20,,,Washburn,2687,Mid America,37,,,1,-17
+2022,11,Pittsburg St,90,Mid America,35,,,Fort Hays State,2231,Mid America,14,,,1,21
+2022,11,Arkansas State,2032,Sun Belt,35,1181.0,1177.0,Massachusetts,113,FBS Independents,33,873.0,877.0,0,2
+2022,11,Iowa,2294,Big Ten,24,1702.0,1736.0,Wisconsin,275,Big Ten,10,1765.0,1731.0,1,14
+2022,11,Troy,2653,Sun Belt,10,1477.0,1477.0,Army,349,FBS Independents,9,1447.0,1447.0,0,1
+2022,11,Air Force,2005,Mountain West,35,1731.0,1746.0,New Mexico,167,Mountain West,3,1087.0,1072.0,1,32
+2022,11,Oklahoma State,197,Big 12,20,1574.0,1589.0,Iowa State,66,Big 12,14,1731.0,1716.0,1,6
+2022,11,Minnesota,135,Big Ten,31,1724.0,1755.0,Northwestern,77,Big Ten,3,1343.0,1312.0,1,28
+2022,11,Whitworth,2721,Northwest,14,,,NEWBERG,415,Northwest,28,,,1,-14
+2022,11,Clemson,228,ACC,31,1773.0,1802.0,Louisville,97,ACC,16,1749.0,1720.0,1,15
+2022,11,Tulane,2655,American Athletic,31,1563.0,1560.0,UCF,2116,American Athletic,38,1691.0,1694.0,1,-7
+2022,11,Ole Miss,145,SEC,24,1694.0,1715.0,Alabama,333,SEC,30,2172.0,2151.0,1,-6
+2022,11,NC State,152,ACC,20,1621.0,1600.0,Boston College,103,ACC,21,1258.0,1279.0,1,-1
+2022,11,Penn State,213,Big Ten,30,1871.0,1920.0,Maryland,120,Big Ten,0,1610.0,1561.0,1,30
+2022,11,UTSA,2636,Conference USA,51,1526.0,1613.0,Louisiana Tech,2348,Conference USA,7,1209.0,1122.0,1,44
+2022,11,Middle Tennessee,2393,Conference USA,24,1298.0,1300.0,Charlotte,2429,Conference USA,14,1076.0,1074.0,1,10
+2022,11,Georgia Tech,59,ACC,14,1250.0,1206.0,Miami,2390,ACC,35,1339.0,1383.0,1,-21
+2022,11,Washington State,265,Pac-12,28,1690.0,1693.0,Arizona State,9,Pac-12,18,1492.0,1489.0,1,10
+2022,11,Michigan,130,Big Ten,34,2058.0,2080.0,Nebraska,158,Big Ten,3,1511.0,1489.0,1,31
+2022,11,UAB,5,Conference USA,41,1548.0,1594.0,North Texas,249,Conference USA,21,1542.0,1496.0,1,20
+2022,11,Marshall,276,Sun Belt,28,1548.0,1561.0,App State,2026,Sun Belt,21,1607.0,1594.0,1,7
+2022,11,Central Washington,2120,Lone Star,49,,,UT Permian Basin,110243,Lone Star,14,,,0,35
+2022,11,Redlands,29,So. Cal.,58,,,Whittier,2850,So. Cal.,14,,,1,44
+2022,11,Nicholls,2447,Southland,12,,,East Texas A&M,2837,Southland,10,,,1,2
+2022,11,Pomona Pitzer,2923,So. Cal.,28,,,Claremont-Mudd-Scripps College,17,So. Cal.,14,,,1,14
+2022,11,Willamette,2930,Northwest,20,,,Puget Sound,2508,Northwest,26,,,1,-6
+2022,11,Florida,57,SEC,38,1604.0,1683.0,South Carolina,2579,SEC,6,1539.0,1460.0,1,32
+2022,11,La Verne,2318,So. Cal.,14,,,Chapman,411,So. Cal.,42,,,1,-28
+2022,11,Pacific Lutheran,2486,Northwest,7,,,Pacific (OR),205,Northwest,18,,,1,-11
+2022,11,Lewis & Clark College,2333,Northwest,7,,,Linfield College,203,Northwest,70,,,1,-63
+2022,11,Southwestern Oklahoma State,2927,Great American,41,,,Northwestern Oklahoma State,2823,Great American,28,,,1,13
+2022,11,UNC Pembroke,2882,Mountain East,56,,,Concord University,2148,Mountain East,58,,,1,-2
+2022,11,Eastern New Mexico,2201,Lone Star,24,,,Western New Mexico,2703,Lone Star,38,,,1,-14
+2022,11,Stephen F. Austin,2617,Western Athletic,7,,,Central Arkansas,2110,Atlantic Sun,34,,,0,-27
+2022,11,Salisbury,2532,New Jersey,36,,,Christopher Newport,3112,New Jersey,33,,,1,3
+2022,11,SE Louisiana,2545,Southland,23,,,Northwestern State,2466,Southland,7,,,1,16
+2022,11,San Diego,301,Pioneer,31,,,Davidson,2166,Pioneer,14,,,1,17
+2022,11,Jackson State,2296,SWAC,27,,,Alabama A&M,2010,SWAC,13,,,1,14
+2022,11,North Alabama,2453,Atlantic Sun,27,,,Tennessee Tech,2635,OVC,35,,,0,-8
+2022,11,Tennessee State,2634,OVC,3,,,UT Martin,2630,OVC,20,,,1,-17
+2022,11,South Alabama,6,Sun Belt,38,1508.0,1522.0,Texas State,326,Sun Belt,21,1247.0,1233.0,1,17
+2022,11,Bowdoin,340,NESCAC,21,,,Colby College,33,NESCAC,14,,,1,7
+2022,11,Edward Waters,2206,SIAC,38,,,Allen,2019,SIAC,12,,,1,26
+2022,11,Florida International,2229,Conference USA,7,960.0,882.0,Florida Atlantic,2226,Conference USA,52,1392.0,1470.0,1,-45
+2022,11,Mississippi State,344,SEC,19,1688.0,1672.0,Georgia,61,SEC,45,2168.0,2184.0,1,-26
+2022,11,Baylor,239,Big 12,3,1785.0,1714.0,Kansas State,2306,Big 12,31,1831.0,1902.0,1,-28
+2022,11,Texas Tech,2641,Big 12,43,1551.0,1573.0,Kansas,2305,Big 12,28,1451.0,1429.0,1,15
+2022,11,Oklahoma Baptist,319,Great American,21,,,Southern Nazarene,200,Great American,56,,,1,-35
+2022,11,Texas Southern,2640,SWAC,41,,,Grambling,2755,SWAC,7,,,1,34
+2022,11,Case Western Reserve,2963,Presidents',7,,,Carnegie Mellon,2102,Presidents',20,,,1,-13
+2022,11,Oregon,2483,Pac-12,34,1742.0,1729.0,Washington,264,Pac-12,37,1603.0,1616.0,1,-3
+2022,11,Idaho,70,Big Sky,26,,,UC Davis,302,Big Sky,44,,,1,-18
+2022,11,Colorado State,36,Mountain West,13,1208.0,1216.0,Wyoming,2751,Mountain West,14,1408.0,1400.0,1,-1
+2022,11,Wake Forest,154,ACC,34,1667.0,1663.0,North Carolina,153,ACC,36,1640.0,1644.0,1,-2
+2022,11,Auburn,2,SEC,13,1502.0,1504.0,Texas A&M,245,SEC,10,1603.0,1601.0,1,3
+2022,11,Coastal Carolina,324,Sun Belt,26,1566.0,1563.0,Southern Miss,2572,Sun Belt,23,1273.0,1276.0,1,3
+2022,11,Texas,251,Big 12,10,1893.0,1862.0,TCU,2628,Big 12,17,1677.0,1708.0,1,-7
+2022,11,Syracuse,183,ACC,3,1547.0,1467.0,Florida State,52,ACC,38,1708.0,1788.0,1,-35
+2022,11,Cal Poly,13,Big Sky,28,,,Montana State,147,Big Sky,72,,,1,-44
+2022,11,Texas A&M-Kingsville,2658,Lone Star,37,,,Western Oregon,2848,Lone Star,48,,,0,-11
+2022,11,Simon Fraser,2829,Lone Star,46,,,West Texas A&M,2704,Lone Star,14,,,0,32
+2022,11,Oregon State,204,Pac-12,38,1627.0,1680.0,California,25,Pac-12,10,1450.0,1397.0,1,28
+2022,11,Utah,254,Pac-12,42,1854.0,1881.0,Stanford,24,Pac-12,7,1260.0,1233.0,1,35
+2022,11,Nevada,2440,Mountain West,3,1344.0,1277.0,Boise State,68,Mountain West,41,1685.0,1752.0,1,-38
+2022,11,San Diego State,21,Mountain West,43,1422.0,1467.0,San José State,23,Mountain West,27,1534.0,1489.0,1,16
+2022,11,UCLA,26,Pac-12,28,1738.0,1692.0,Arizona,12,Pac-12,34,1322.0,1368.0,1,-6
+2022,11,Hawai'i,62,Mountain West,34,1090.0,1100.0,Utah State,328,Mountain West,41,1415.0,1405.0,1,-7

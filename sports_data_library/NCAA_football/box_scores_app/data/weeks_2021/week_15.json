@@ -1,0 +1,47 @@
+[
+  {
+    "id": 401301056,
+    "season": 2021,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2021-12-11T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": false,
+    "conferenceGame": false,
+    "attendance": 82282,
+    "venueId": 3839,
+    "venue": "MetLife Stadium",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 13,
+    "homeLineScores": [
+      10,
+      3,
+      0,
+      0
+    ],
+    "homePostgameWinProbability": 0.0048364757378505045,
+    "homePregameElo": 1596,
+    "homePostgameElo": 1571,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "American Athletic",
+    "awayPoints": 17,
+    "awayLineScores": [
+      7,
+      0,
+      7,
+      3
+    ],
+    "awayPostgameWinProbability": 0.9951635242621495,
+    "awayPregameElo": 1330,
+    "awayPostgameElo": 1355,
+    "excitementIndex": 6.7996656896,
+    "highlights": "",
+    "notes": null
+  }
+]

@@ -1,0 +1,549 @@
+[
+  {
+    "season": 2024,
+    "seasonType": "regular",
+    "week": 2,
+    "polls": [
+      {
+        "poll": "Coaches Poll",
+        "ranks": [
+          {
+            "rank": 1,
+            "school": "Georgia",
+            "conference": "SEC",
+            "firstPlaceVotes": 51,
+            "points": 1371
+          },
+          {
+            "rank": 2,
+            "school": "Ohio State",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 3,
+            "points": 1316
+          },
+          {
+            "rank": 3,
+            "school": "Texas",
+            "conference": "SEC",
+            "firstPlaceVotes": 1,
+            "points": 1245
+          },
+          {
+            "rank": 4,
+            "school": "Alabama",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 1172
+          },
+          {
+            "rank": 5,
+            "school": "Ole Miss",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 1081
+          },
+          {
+            "rank": 6,
+            "school": "Oregon",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 1080
+          },
+          {
+            "rank": 7,
+            "school": "Notre Dame",
+            "conference": "FBS Independents",
+            "firstPlaceVotes": 0,
+            "points": 1079
+          },
+          {
+            "rank": 8,
+            "school": "Penn State",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 987
+          },
+          {
+            "rank": 9,
+            "school": "Michigan",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 919
+          },
+          {
+            "rank": 10,
+            "school": "Missouri",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 848
+          },
+          {
+            "rank": 11,
+            "school": "Utah",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 779
+          },
+          {
+            "rank": 12,
+            "school": "Tennessee",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 753
+          },
+          {
+            "rank": 13,
+            "school": "Oklahoma",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 705
+          },
+          {
+            "rank": 14,
+            "school": "USC",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 655
+          },
+          {
+            "rank": 15,
+            "school": "Miami",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 650
+          },
+          {
+            "rank": 16,
+            "school": "Kansas State",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 537
+          },
+          {
+            "rank": 17,
+            "school": "Oklahoma State",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 499
+          },
+          {
+            "rank": 18,
+            "school": "Arizona",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 348
+          },
+          {
+            "rank": 19,
+            "school": "LSU",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 341
+          },
+          {
+            "rank": 20,
+            "school": "Kansas",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 295
+          },
+          {
+            "rank": 21,
+            "school": "Iowa",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 260
+          },
+          {
+            "rank": 22,
+            "school": "Clemson",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 223
+          },
+          {
+            "rank": 23,
+            "school": "NC State",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 154
+          },
+          {
+            "rank": 24,
+            "school": "Louisville",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 101
+          },
+          {
+            "rank": 25,
+            "school": "Washington",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 95
+          }
+        ]
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "ranks": [
+          {
+            "rank": 1,
+            "school": "South Dakota State",
+            "conference": "MVFC",
+            "firstPlaceVotes": 17,
+            "points": 630
+          },
+          {
+            "rank": 2,
+            "school": "North Dakota State",
+            "conference": "MVFC",
+            "firstPlaceVotes": 5,
+            "points": 624
+          },
+          {
+            "rank": 3,
+            "school": "Montana State",
+            "conference": "Big Sky",
+            "firstPlaceVotes": 4,
+            "points": 589
+          },
+          {
+            "rank": 4,
+            "school": "Montana",
+            "conference": "Big Sky",
+            "firstPlaceVotes": 0,
+            "points": 572
+          },
+          {
+            "rank": 5,
+            "school": "Villanova",
+            "conference": "CAA",
+            "firstPlaceVotes": 0,
+            "points": 527
+          },
+          {
+            "rank": 6,
+            "school": "South Dakota",
+            "conference": "MVFC",
+            "firstPlaceVotes": 0,
+            "points": 493
+          },
+          {
+            "rank": 7,
+            "school": "Idaho",
+            "conference": "Big Sky",
+            "firstPlaceVotes": 0,
+            "points": 489
+          },
+          {
+            "rank": 8,
+            "school": "Sacramento State",
+            "conference": "Big Sky",
+            "firstPlaceVotes": 0,
+            "points": 397
+          },
+          {
+            "rank": 9,
+            "school": "Central Arkansas",
+            "conference": "UAC",
+            "firstPlaceVotes": 0,
+            "points": 359
+          },
+          {
+            "rank": 10,
+            "school": "Chattanooga",
+            "conference": "Southern",
+            "firstPlaceVotes": 0,
+            "points": 342
+          },
+          {
+            "rank": 11,
+            "school": "Incarnate Word",
+            "conference": "Southland",
+            "firstPlaceVotes": 0,
+            "points": 340
+          },
+          {
+            "rank": 12,
+            "school": "Southern Illinois",
+            "conference": "MVFC",
+            "firstPlaceVotes": 0,
+            "points": 331
+          },
+          {
+            "rank": 13,
+            "school": "UAlbany",
+            "conference": "CAA",
+            "firstPlaceVotes": 0,
+            "points": 302
+          },
+          {
+            "rank": 14,
+            "school": "William & Mary",
+            "conference": "CAA",
+            "firstPlaceVotes": 0,
+            "points": 300
+          },
+          {
+            "rank": 15,
+            "school": "Richmond",
+            "conference": "CAA",
+            "firstPlaceVotes": 0,
+            "points": 289
+          },
+          {
+            "rank": 16,
+            "school": "Furman",
+            "conference": "Southern",
+            "firstPlaceVotes": 0,
+            "points": 270
+          },
+          {
+            "rank": 17,
+            "school": "Western Carolina",
+            "conference": "Southern",
+            "firstPlaceVotes": 0,
+            "points": 221
+          },
+          {
+            "rank": 18,
+            "school": "UC Davis",
+            "conference": "Big Sky",
+            "firstPlaceVotes": 0,
+            "points": 197
+          },
+          {
+            "rank": 19,
+            "school": "Lafayette",
+            "conference": "Patriot",
+            "firstPlaceVotes": 0,
+            "points": 156
+          },
+          {
+            "rank": 20,
+            "school": "North Dakota",
+            "conference": "MVFC",
+            "firstPlaceVotes": 0,
+            "points": 152
+          },
+          {
+            "rank": 21,
+            "school": "Tarleton State",
+            "conference": "UAC",
+            "firstPlaceVotes": 0,
+            "points": 109
+          },
+          {
+            "rank": 22,
+            "school": "Illinois State",
+            "conference": "MVFC",
+            "firstPlaceVotes": 0,
+            "points": 95
+          },
+          {
+            "rank": 23,
+            "school": "Youngstown State",
+            "conference": "MVFC",
+            "firstPlaceVotes": 0,
+            "points": 88
+          },
+          {
+            "rank": 24,
+            "school": "Florida A&M",
+            "conference": "SWAC",
+            "firstPlaceVotes": 0,
+            "points": 82
+          },
+          {
+            "rank": 25,
+            "school": "Nicholls",
+            "conference": "Southland",
+            "firstPlaceVotes": 0,
+            "points": 74
+          }
+        ]
+      },
+      {
+        "poll": "AP Top 25",
+        "ranks": [
+          {
+            "rank": 1,
+            "school": "Georgia",
+            "conference": "SEC",
+            "firstPlaceVotes": 57,
+            "points": 1545
+          },
+          {
+            "rank": 2,
+            "school": "Ohio State",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 5,
+            "points": 1478
+          },
+          {
+            "rank": 3,
+            "school": "Texas",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 1418
+          },
+          {
+            "rank": 4,
+            "school": "Alabama",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 1309
+          },
+          {
+            "rank": 5,
+            "school": "Notre Dame",
+            "conference": "FBS Independents",
+            "firstPlaceVotes": 0,
+            "points": 1240
+          },
+          {
+            "rank": 6,
+            "school": "Ole Miss",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 1212
+          },
+          {
+            "rank": 7,
+            "school": "Oregon",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 1197
+          },
+          {
+            "rank": 8,
+            "school": "Penn State",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 1146
+          },
+          {
+            "rank": 9,
+            "school": "Missouri",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 968
+          },
+          {
+            "rank": 10,
+            "school": "Michigan",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 935
+          },
+          {
+            "rank": 11,
+            "school": "Utah",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 897
+          },
+          {
+            "rank": 12,
+            "school": "Miami",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 893
+          },
+          {
+            "rank": 13,
+            "school": "USC",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 811
+          },
+          {
+            "rank": 14,
+            "school": "Tennessee",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 784
+          },
+          {
+            "rank": 15,
+            "school": "Oklahoma",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 703
+          },
+          {
+            "rank": 16,
+            "school": "Oklahoma State",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 610
+          },
+          {
+            "rank": 17,
+            "school": "Kansas State",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 607
+          },
+          {
+            "rank": 18,
+            "school": "LSU",
+            "conference": "SEC",
+            "firstPlaceVotes": 0,
+            "points": 410
+          },
+          {
+            "rank": 19,
+            "school": "Kansas",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 349
+          },
+          {
+            "rank": 20,
+            "school": "Arizona",
+            "conference": "Big 12",
+            "firstPlaceVotes": 0,
+            "points": 339
+          },
+          {
+            "rank": 21,
+            "school": "Iowa",
+            "conference": "Big Ten",
+            "firstPlaceVotes": 0,
+            "points": 294
+          },
+          {
+            "rank": 22,
+            "school": "Louisville",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 188
+          },
+          {
+            "rank": 23,
+            "school": "Georgia Tech",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 161
+          },
+          {
+            "rank": 24,
+            "school": "NC State",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 142
+          },
+          {
+            "rank": 25,
+            "school": "Clemson",
+            "conference": "ACC",
+            "firstPlaceVotes": 0,
+            "points": 134
+          }
+        ]
+      }
+    ]
+  }
+]

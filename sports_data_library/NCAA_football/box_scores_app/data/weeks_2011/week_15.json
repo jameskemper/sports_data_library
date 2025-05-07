@@ -1,0 +1,47 @@
+[
+  {
+    "id": 313442426,
+    "season": 2011,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2011-12-10T19:30:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 0,
+    "venueId": null,
+    "venue": null,
+    "homeId": 2426,
+    "homeTeam": "Navy",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 27,
+    "homeLineScores": [
+      7,
+      7,
+      7,
+      6
+    ],
+    "homePostgameWinProbability": 0.5404497088326355,
+    "homePregameElo": 1489,
+    "homePostgameElo": 1491,
+    "awayId": 349,
+    "awayTeam": "Army",
+    "awayClassification": "fbs",
+    "awayConference": "FBS Independents",
+    "awayPoints": 21,
+    "awayLineScores": [
+      0,
+      14,
+      7,
+      0
+    ],
+    "awayPostgameWinProbability": 0.45955029116736446,
+    "awayPregameElo": 1304,
+    "awayPostgameElo": 1302,
+    "excitementIndex": null,
+    "highlights": "",
+    "notes": null
+  }
+]

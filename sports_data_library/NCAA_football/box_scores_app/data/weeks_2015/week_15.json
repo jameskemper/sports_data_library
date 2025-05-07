@@ -1,0 +1,47 @@
+[
+  {
+    "id": 400760500,
+    "season": 2015,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2015-12-12T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 69722,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 2426,
+    "homeTeam": "Navy",
+    "homeClassification": "fbs",
+    "homeConference": "American Athletic",
+    "homePoints": 21,
+    "homeLineScores": [
+      7,
+      7,
+      7,
+      0
+    ],
+    "homePostgameWinProbability": 0.14136217091695794,
+    "homePregameElo": 1723,
+    "homePostgameElo": 1707,
+    "awayId": 349,
+    "awayTeam": "Army",
+    "awayClassification": "fbs",
+    "awayConference": "FBS Independents",
+    "awayPoints": 17,
+    "awayLineScores": [
+      10,
+      7,
+      0,
+      0
+    ],
+    "awayPostgameWinProbability": 0.8586378290830421,
+    "awayPregameElo": 1206,
+    "awayPostgameElo": 1222,
+    "excitementIndex": 4.7145613064,
+    "highlights": "",
+    "notes": null
+  }
+]

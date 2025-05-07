@@ -1,0 +1,64 @@
+name: Weekly Team Stats Update
+
+on:
+  schedule:
+    # Every Monday at 12:00 UTC, but only in August–December and January
+    - cron: '0 12 * 8-12,1 MON'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  YEAR: '2025'
+
+jobs:
+  team-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Run weekly team stats scraper
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          cd NCAA_football/team_stats_app
+          python weekly_team_stats_scraper.py
+
+      - name: Compile team stats into CSV
+        run: |
+          cd NCAA_football/team_stats_app
+          python compile_team_stats.py
+
+      - name: Commit & push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cd NCAA_football/team_stats_app
+          git pull origin main
+
+          if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
+            git add data/weeks_${{ env.YEAR }}/*.csv
+          fi
+
+          if [ -f "data/weekly_advanced_stats_${{ env.YEAR }}.csv" ]; then
+            git add data/weekly_advanced_stats_${{ env.YEAR }}.csv
+          fi
+
+          git diff --cached --quiet || \
+            (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push origin main)

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 400868921,
+    "season": 2016,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2016-12-10T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 71600,
+    "venueId": 3814,
+    "venue": "M&T Bank Stadium",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 21,
+    "homeLineScores": [
+      7,
+      7,
+      0,
+      7
+    ],
+    "homePostgameWinProbability": 0.9942603065587637,
+    "homePregameElo": 1330,
+    "homePostgameElo": 1362,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "American Athletic",
+    "awayPoints": 17,
+    "awayLineScores": [
+      0,
+      0,
+      10,
+      7
+    ],
+    "awayPostgameWinProbability": 0.00573969344123626,
+    "awayPregameElo": 1733,
+    "awayPostgameElo": 1701,
+    "excitementIndex": 6.330887556,
+    "highlights": "https://www.youtube.com/watch?v=n2WOCl5qpVk",
+    "notes": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 323430349,
+    "season": 2012,
+    "week": 15,
+    "seasonType": "regular",
+    "startDate": "2012-12-08T20:00:00.000Z",
+    "startTimeTBD": false,
+    "completed": true,
+    "neutralSite": true,
+    "conferenceGame": false,
+    "attendance": 69607,
+    "venueId": 3806,
+    "venue": "Lincoln Financial Field",
+    "homeId": 349,
+    "homeTeam": "Army",
+    "homeClassification": "fbs",
+    "homeConference": "FBS Independents",
+    "homePoints": 13,
+    "homeLineScores": [
+      0,
+      10,
+      3,
+      0
+    ],
+    "homePostgameWinProbability": 0.924770196502729,
+    "homePregameElo": 1214,
+    "homePostgameElo": 1223,
+    "awayId": 2426,
+    "awayTeam": "Navy",
+    "awayClassification": "fbs",
+    "awayConference": "FBS Independents",
+    "awayPoints": 17,
+    "awayLineScores": [
+      0,
+      10,
+      0,
+      7
+    ],
+    "awayPostgameWinProbability": 0.07522980349727104,
+    "awayPregameElo": 1443,
+    "awayPostgameElo": 1434,
+    "excitementIndex": null,
+    "highlights": "",
+    "notes": null
+  }
+]
