@@ -1,6 +1,6 @@
 ## Sports Data Library
 
-Welcome to MY Sports Data Library — a centralized, organized collection of datasets compiled for research in Sports Economics. This repository contains structured data for various professional and collegiate sports, intended for use in academic, analytical, and modeling projects.
+Welcome to my Sports Data Library — a centralized, organized collection of datasets compiled for research in Sports Economics. This repository contains structured data for various professional and collegiate sports, intended for use in academic, analytical, and modeling projects.
 
 The datasets here are compiled and cleaned to facilitate reproducible research, especially in areas such as player performance, team dynamics, financial outcomes, and policy analysis across leagues and organizations.
 
