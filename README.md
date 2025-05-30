@@ -7,7 +7,7 @@ The datasets here are compiled and cleaned to facilitate reproducible research, 
 ## Current Data Collections
 
 - [NFL](https://github.com/jameskemper/sports_data_library/tree/main/NFL)
-- [NCAA_football](https://github.com/jameskemper/sports_data_library/tree/main/NCAA_football)
+- [NCAA_football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)
 - [MNCAA_bball](https://github.com/jameskemper/sports_data_library/tree/main/MNCAA_bball)
 - [NBA](https://github.com/jameskemper/sports_data_library/tree/main/NBA)
 
