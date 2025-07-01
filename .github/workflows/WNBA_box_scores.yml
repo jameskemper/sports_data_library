@@ -24,7 +24,7 @@ jobs:
 
     - name: Run daily box score scraper
       run: |
-        python WNBA/team_stats_app/wnba_boxscores_scraper.py
+        python WNBA/team_stats_app/boxscores_scraper.py
 
     - name: Build master dataset
       run: |
