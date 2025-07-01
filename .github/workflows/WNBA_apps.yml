@@ -34,6 +34,6 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add WNBA/team_stats_app/data/2025
+        git add WNBA/box_scores_app/data/2025
         git commit -m "Auto update: WNBA box scores $(date +'%Y-%m-%d')" || echo "Nothing to commit"
         git push
