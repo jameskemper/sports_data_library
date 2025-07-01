@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import os
 from datetime import datetime, timedelta
+from pytz import timezone  # ✅ NEW
 
 # -------------------------------
 # Setup paths
@@ -11,10 +12,12 @@ save_path = os.path.join(script_dir, "data", "2025")
 os.makedirs(save_path, exist_ok=True)
 
 # -------------------------------
-# Yesterday's date
+# Yesterday's date in US Central
 # -------------------------------
-yesterday = datetime.now() - timedelta(days=1)
-date_str = yesterday.strftime("%Y%m%d")       # ESPN format
+central = timezone('US/Central')                # ✅ NEW
+now_central = datetime.now(central)             # ✅ NEW
+yesterday = now_central - timedelta(days=1)     # ✅ MODIFIED
+date_str = yesterday.strftime("%Y%m%d")         # ESPN format
 filename_date = yesterday.strftime("%m_%d_%Y")
 
 print(f"📅 Collecting ESPN WNBA box scores for games on {date_str}...")
