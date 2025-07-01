@@ -1,8 +1,8 @@
-name: WNBA apps
+name: Daily WNBA Apps
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs at 12:00 UTC = 7AM CDT daily
+    - cron: '0 12 * * *'  # Runs daily at 7 AM CDT
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
       run: |
         python WNBA/box_scores_app/box_scores_scraper.py
 
-    - name: Build master dataset
+    - name: Build master season dataset
       run: |
         python WNBA/box_scores_app/compile_box_scores_season.py
 
