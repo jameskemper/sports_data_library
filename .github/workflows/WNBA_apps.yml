@@ -3,7 +3,7 @@ name: Daily WNBA Box Scores
 on:
   schedule:
     - cron: '0 12 * * *'  # Runs at 12:00 UTC = 7AM CDT daily
-  workflow_dispatch:       # Allows manual trigger too
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,18 +25,15 @@ jobs:
     - name: Run daily box score scraper
       run: |
         python WNBA/box_scores_app/box_scores_scraper.py
-        
+
     - name: Build master dataset
       run: |
         python WNBA/box_scores_app/compile_box_scores_season.py
 
-        - name: Commit and push data
+    - name: Commit and push data
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add WNBA/box_scores_app/data
-        git commit -m "Auto update: WNBA box scores $(date +'%Y-%m-%d')" || echo "Nothing to commit"
-        git push
-
         git commit -m "Auto update: WNBA box scores $(date +'%Y-%m-%d')" || echo "Nothing to commit"
         git push
