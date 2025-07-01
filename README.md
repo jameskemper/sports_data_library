@@ -1,20 +1,30 @@
-## Sports Data Library
+# Sports Data Library
 
-Welcome to my Sports Data Library — a centralized, organized collection of datasets compiled for research in Sports Economics. This repository contains structured data for various professional and collegiate sports, intended for use in academic, analytical, and modeling projects.
-
-The datasets here are compiled and cleaned to facilitate reproducible research, especially in areas such as player performance, team dynamics, financial outcomes, and policy analysis across leagues and organizations.
+Welcome to my **Sports Data Library** — a centralized, organized collection of datasets compiled for research in Sports Economics. This repository provides structured data for various professional and collegiate sports, designed to support academic work, quantitative modeling, and policy analysis.
 
 ## Current Data Collections
 
-- [NFL](https://github.com/jameskemper/sports_data_library/tree/main/NFL)
-- [NCAA_football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)
-- [MNCAA_bball](https://github.com/jameskemper/sports_data_library/tree/main/MNCAA_bball)
-- [NBA](https://github.com/jameskemper/sports_data_library/tree/main/NBA)
+- [NCAA Football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)  
+  Data for NCAA football games, box scores, team performance, and player statistics.  
+  **Source:** [CollegeFootballData](https://collegefootballdata.com)
 
-## Notes
+- [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA)  
+  Includes game box scores, player stats, and season aggregates compiled from ESPN.
 
-- More folders and datasets will be added as research evolves.
-- Data sources are a mix of public APIs, scraped records, and manually collected historical records.
-- Each folder may contain its own README to explain file structure, variable definitions, and data provenance.
+## Data Notes
 
-Feel free to fork, cite, or use for your own analysis — and stay tuned for updates as more sports and questions are added to the library.
+- More datasets and sports will be added over time as research evolves.
+- Data is compiled from a mix of public APIs, carefully scraped records, and manual historical curation.
+- Each subfolder may include its own README detailing:
+  - file structures
+  - variable definitions
+  - data provenance and collection methods
+
+## Citation and Use
+
+This repository is open for academic and personal research use.  
+If you use this data in a publication, presentation, or project, please consider citing the relevant data sources.
+
+---
+
+Stay tuned as this library continues to grow with new data.
