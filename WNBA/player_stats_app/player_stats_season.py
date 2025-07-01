@@ -1,44 +1,53 @@
+import requests
 import pandas as pd
 import os
 
-# -------------------------------
-# Paths
-# -------------------------------
-script_dir = os.path.dirname(os.path.abspath(__file__))
-save_path = os.path.join(script_dir, "data")
-os.makedirs(save_path, exist_ok=True)
-file_path = os.path.join(save_path, "player_stats_season_2025.csv")
+# ---------------------------------------
+# Constants
+# ---------------------------------------
+season = 2025
+save_dir = os.path.join("WNBA", "player_stats_app", "data")
+os.makedirs(save_dir, exist_ok=True)
+output_file = os.path.join(save_dir, f"player_stats_season_{season}.csv")
 
-# -------------------------------
-# URL for 2025 season stats (update if ESPN changes structure)
-# -------------------------------
-url = "https://www.espn.com/wnba/stats/player/_/season/2025/seasontype/2"
-
+# ---------------------------------------
+# Download season stats table with headers
+# ---------------------------------------
+url = f"https://www.espn.com/wnba/stats/player/_/season/{season}/seasontype/2"
 print(f"📈 Downloading WNBA season stats from {url}")
 
-# -------------------------------
-# Use pandas to read HTML tables
-# -------------------------------
-tables = pd.read_html(url)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+}
 
-# Try to find the main player stats table
-season_stats_df = None
-for table in tables:
-    # Typically will have columns like "PLAYER", "TEAM", "GP", "MIN", "PTS"
-    if "PLAYER" in table.columns and "PTS" in table.columns:
-        season_stats_df = table
-        break
+resp = requests.get(url, headers=headers, timeout=30)
+resp.raise_for_status()
 
-if season_stats_df is None:
-    print("⚠️ Could not find a valid player stats table on the page.")
-else:
-    # -------------------------------
-    # Clean up
-    # -------------------------------
-    # ESPN often repeats header rows inside the table — drop them
-    season_stats_df = season_stats_df[season_stats_df["PLAYER"] != "PLAYER"]
-    season_stats_df.reset_index(drop=True, inplace=True)
+# ---------------------------------------
+# Parse tables
+# ---------------------------------------
+tables = pd.read_html(resp.text)
+print(f"✅ Found {len(tables)} tables on the page.")
 
-    # Save CSV
-    season_stats_df.to_csv(file_path, index=False)
-    print(f"✅ Saved season player stats to {file_path} with {len(season_stats_df)} rows.")
+# Assign explicitly
+players_df = tables[0]  # has 'RK' and 'Name'
+stats_df = tables[1]    # has 'POS', 'GP', ...
+
+print(f"➡️ Players table columns: {players_df.columns.tolist()}")
+print(f"➡️ Stats table columns: {stats_df.columns.tolist()}")
+
+# ---------------------------------------
+# Merge side-by-side
+# ---------------------------------------
+# Drop duplicate RK in stats_df if exists
+if 'RK' in stats_df.columns:
+    stats_df = stats_df.drop(columns='RK')
+
+combined_df = pd.concat([players_df, stats_df], axis=1)
+
+# Remove repeated header rows (common on ESPN pages)
+combined_df = combined_df[combined_df['RK'] != 'RK']
+
+# Save to CSV
+combined_df.to_csv(output_file, index=False)
+print(f"✅ Saved combined season stats to {output_file} with {len(combined_df)} rows.")
