@@ -11,7 +11,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(script_dir, "data", "2025")
 
 # Master file will be saved here
-output_file = os.path.join(script_dir, "data", "2025.csv")
+output_file = os.path.join(script_dir, "data", "boxscores_2025.csv")
 
 # -------------------------------
 # Load all CSV files
