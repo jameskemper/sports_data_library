@@ -2,7 +2,7 @@ name: WNBA apps
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 12 * * *'  # daily at 12:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
       with:
-        persist-credentials: false  # important to turn off the ephemeral bot creds
+        persist-credentials: false  # disable ephemeral token
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -38,8 +38,17 @@ jobs:
       run: |
         python WNBA/box_scores_app/compile_box_scores_season.py
 
-    - name: Commit and push data
+    - name: Run daily game results scraper
+      run: |
+        python WNBA/game_results_app/game_results_scraper.py
+
+    - name: Run daily schedule scraper
+      run: |
+        python WNBA/game_results_app/schedule_scraper.py
+
+    - name: Commit and push all data
       run: |
         git add WNBA/box_scores_app/data
-        git commit -m "Auto update: WNBA box scores $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+        git add WNBA/game_results_app/data
+        git commit -m "Auto update: WNBA data $(date +'%Y-%m-%d')" || echo "Nothing to commit"
         git push origin HEAD:master
