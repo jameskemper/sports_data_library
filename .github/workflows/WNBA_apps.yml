@@ -28,7 +28,7 @@ jobs:
 
     - name: Build master dataset
       run: |
-        python WNBA/box_scores_app/compile_box_scores_season.py
+        python WNBA/box_scores_app/build_master_boxscores.py
 
     - name: Commit and push data
       run: |
