@@ -37,3 +37,4 @@ jobs:
         git add WNBA/box_scores_app/data
         git commit -m "Auto update: WNBA box scores $(date +'%Y-%m-%d')" || echo "Nothing to commit"
         git push https://x-access-token:${{ secrets.GH_SDL_PAT }}@github.com/jameskemper/sports_data_library.git HEAD:master
+
