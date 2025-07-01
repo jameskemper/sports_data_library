@@ -1,44 +1,58 @@
-import pandas as pd
-import os
+name: WNBA apps
 
-# -------------------------------
-# Paths
-# -------------------------------
-script_dir = os.path.dirname(os.path.abspath(__file__))
-save_path = os.path.join(script_dir, "data")
-os.makedirs(save_path, exist_ok=True)
-file_path = os.path.join(save_path, "player_stats_season_2025.csv")
+on:
+  schedule:
+    - cron: '0 12 * * *'  # every day at 12:00 UTC (7AM CDT)
+  workflow_dispatch:
 
-# -------------------------------
-# URL for 2025 season stats (update if ESPN changes structure)
-# -------------------------------
-url = "https://www.espn.com/wnba/stats/player/_/season/2025/seasontype/2"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-print(f"📈 Downloading WNBA season stats from {url}")
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false  # so we can set our own PAT securely
 
-# -------------------------------
-# Use pandas to read HTML tables
-# -------------------------------
-tables = pd.read_html(url)
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
 
-# Try to find the main player stats table
-season_stats_df = None
-for table in tables:
-    # Typically will have columns like "PLAYER", "TEAM", "GP", "MIN", "PTS"
-    if "PLAYER" in table.columns and "PTS" in table.columns:
-        season_stats_df = table
-        break
+    - name: Install dependencies
+      run: |
+        pip install pandas requests lxml
 
-if season_stats_df is None:
-    print("⚠️ Could not find a valid player stats table on the page.")
-else:
-    # -------------------------------
-    # Clean up
-    # -------------------------------
-    # ESPN often repeats header rows inside the table — drop them
-    season_stats_df = season_stats_df[season_stats_df["PLAYER"] != "PLAYER"]
-    season_stats_df.reset_index(drop=True, inplace=True)
+    - name: Set PAT git credentials
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GH_SDL_PAT }}@github.com/jameskemper/sports_data_library.git
 
-    # Save CSV
-    season_stats_df.to_csv(file_path, index=False)
-    print(f"✅ Saved season player stats to {file_path} with {len(season_stats_df)} rows.")
+    - name: Run daily box score scraper
+      run: |
+        python WNBA/box_scores_app/box_scores_scraper.py
+
+    - name: Build master season box score dataset
+      run: |
+        python WNBA/box_scores_app/compile_box_scores_season.py
+
+    - name: Run daily player stats scraper
+      run: |
+        python WNBA/player_stats_app/player_stats_scraper.py
+
+    - name: Build master season player stats dataset
+      run: |
+        python WNBA/player_stats_app/compile_player_stats_season.py
+
+    - name: Run season summary scraper
+      run: |
+        python WNBA/player_stats_app/player_stats_season.py
+
+    - name: Commit and push data
+      run: |
+        git add WNBA/box_scores_app/data
+        git add WNBA/player_stats_app/data
+        git commit -m "Auto update: WNBA data $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+        git push origin HEAD:master
