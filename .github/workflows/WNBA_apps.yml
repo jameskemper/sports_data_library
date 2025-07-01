@@ -2,7 +2,7 @@ name: WNBA apps
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 12 * * *'  # runs daily at 12:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
       with:
-        persist-credentials: false
+        persist-credentials: false  # so we can use PAT explicitly
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -22,7 +22,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install pandas requests
+        pip install pandas requests lxml
 
     - name: Set PAT git credentials
       run: |
@@ -34,7 +34,7 @@ jobs:
       run: |
         python WNBA/box_scores_app/box_scores_scraper.py
 
-    - name: Build master season dataset
+    - name: Build master season box scores
       run: |
         python WNBA/box_scores_app/compile_box_scores_season.py
 
@@ -42,15 +42,15 @@ jobs:
       run: |
         python WNBA/player_stats_app/player_stats_scraper.py
 
-    - name: Build player master dataset
+    - name: Build master daily player stats
       run: |
         python WNBA/player_stats_app/compile_player_stats_season.py
 
-    - name: Run player season stats scraper
+    - name: Run season summary player stats scraper
       run: |
         python WNBA/player_stats_app/player_stats_season.py
 
-    - name: Commit and push all data
+    - name: Commit and push data
       run: |
         git add WNBA/box_scores_app/data
         git add WNBA/player_stats_app/data
