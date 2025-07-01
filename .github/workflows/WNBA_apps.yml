@@ -2,7 +2,7 @@ name: WNBA apps
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs daily at 12:00 UTC = 7AM CDT
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -30,32 +30,27 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git remote set-url origin https://x-access-token:${{ secrets.GH_SDL_PAT }}@github.com/jameskemper/sports_data_library.git
 
-    # -----------------------
-    # Box scores
-    # -----------------------
     - name: Run daily box score scraper
       run: |
         python WNBA/box_scores_app/box_scores_scraper.py
 
-    - name: Build master box scores dataset
+    - name: Build master season dataset
       run: |
         python WNBA/box_scores_app/compile_box_scores_season.py
 
-    # -----------------------
-    # Player stats
-    # -----------------------
     - name: Run daily player stats scraper
       run: |
         python WNBA/player_stats_app/player_stats_scraper.py
 
-    - name: Build master player stats dataset
+    - name: Build player master dataset
       run: |
         python WNBA/player_stats_app/compile_player_stats_season.py
 
-    # -----------------------
-    # Commit all new data
-    # -----------------------
-    - name: Commit and push data
+    - name: Run player season stats scraper
+      run: |
+        python WNBA/player_stats_app/player_stats_season.py
+
+    - name: Commit and push all data
       run: |
         git add WNBA/box_scores_app/data
         git add WNBA/player_stats_app/data
