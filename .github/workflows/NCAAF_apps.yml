@@ -48,25 +48,44 @@ jobs:
         working-directory: NCAA_football/box_scores_app
         run: python box_scores_scraper.py
 
+      # Preseason-safe: ensure directory exists and show what's there
+      - name: Inspect outputs
+        working-directory: NCAA_football/box_scores_app
+        run: |
+          mkdir -p "data/weeks_${{ env.YEAR }}"
+          ls -lah data || true
+          ls -lah "data/weeks_${{ env.YEAR }}" || true
+
+      # Commit week JSON only if any files exist
       - name: Commit weekly data
         working-directory: NCAA_football/box_scores_app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/weeks_${{ env.YEAR }}/
-          git commit -m "Add week box score JSON for ${{ env.YEAR }}" || echo "No changes"
-          git push
+
+          if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
+            git add "data/weeks_${{ env.YEAR }}"/*.json
+            git commit -m "Add week box score JSON for ${{ env.YEAR }}" || echo "No changes"
+            git push
+          else
+            echo "No box score JSON found; skipping commit."
+          fi
 
       - name: Run compiler
         working-directory: NCAA_football/box_scores_app
         run: python compile_box_scores_season.py
 
+      # Commit compiled CSV only if it exists
       - name: Commit compiled season file
         working-directory: NCAA_football/box_scores_app
         run: |
-          git add data/boxscores_${{ env.YEAR }}.csv
-          git commit -m "Update boxscores_${{ env.YEAR }}.csv" || echo "No changes"
-          git push
+          if [ -f "data/boxscores_${{ env.YEAR }}.csv" ]; then
+            git add "data/boxscores_${{ env.YEAR }}.csv"
+            git commit -m "Update boxscores_${{ env.YEAR }}.csv" || echo "No changes"
+            git push
+          else
+            echo "No compiled season file yet; skipping commit."
+          fi
 
   daily-elo-update:
     name: ELO update (daily)
@@ -147,12 +166,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
-            git add data/weeks_${{ env.YEAR }}/*.json
+            git add "data/weeks_${{ env.YEAR }}"/*.json
           fi
           if [ -f "data/weekly_rankings_${{ env.YEAR }}.csv" ]; then
-            git add data/weekly_rankings_${{ env.YEAR }}.csv
+            git add "data/weekly_rankings_${{ env.YEAR }}.csv"
           fi
+
           git diff --cached --quiet || (git commit -m "Automated update: weekly_rankings for ${{ env.YEAR }} [skip ci]" && git push)
 
   team-stats:
@@ -198,10 +219,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
-            git add data/weeks_${{ env.YEAR }}/*.csv
+            git add "data/weeks_${{ env.YEAR }}"/*.csv
           fi
           if [ -f "data/weekly_advanced_stats_${{ env.YEAR }}.csv" ]; then
-            git add data/weekly_advanced_stats_${{ env.YEAR }}.csv
+            git add "data/weekly_advanced_stats_${{ env.YEAR }}.csv"
           fi
+
           git diff --cached --quiet || (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push)
