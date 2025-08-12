@@ -1,0 +1,163 @@
+name: NCAAF_apps
+'on': {}
+jobs:
+  scrape_and_compile:
+    runs-on: ubuntu-latest
+    env:
+      CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: pip install pandas requests
+    - name: Run scraper
+      run: python box_scores_app/box_scores_scraper.py
+    - name: Commit weekly data
+      run: 'git config --global user.name "github-actions"
+
+        git config --global user.email "github-actions@github.com"
+
+        git add box_scores_app/data/weeks_2025/
+
+        git commit -m "Add week box score JSON for 2025" || echo "No changes"
+
+        git push
+
+        '
+    - name: Run compiler
+      run: python box_scores_app/compile_box_scores_season.py
+    - name: Commit compiled season file
+      run: 'git add box_scores_app/data/boxscores_2025.csv
+
+        git commit -m "Update boxscores_2025.csv" || echo "No changes"
+
+        git push
+
+        '
+  weekly-elo-update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Check if current month is in season (Aug\u2013Jan)"
+      run: "month=$(date +%m)\nif [ \"$month\" -lt 8 ] && [ \"$month\" -ne 1 ]; then\n\
+        \  echo \"Out of season (Feb\u2013Jul). Skipping run.\"\n  exit 0\nfi\n"
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: 'python -m pip install --upgrade pip
+
+        pip install cfbd pandas
+
+        '
+    - name: Run Weekly ELO Scraper
+      run: 'python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
+
+        '
+    - name: Compile ELO Season Data
+      run: 'python NCAA_football/elo_ratings_app/compile_elo_season.py
+
+        '
+    - name: Commit and Push Changes
+      run: 'git config --global user.name ''github-actions''
+
+        git config --global user.email ''github-actions@github.com''
+
+        git add .
+
+        git commit -m ''Update 2025 ELO ratings'' || echo "No changes to commit"
+
+        git push
+
+        '
+  update-weekly-rankings:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: 'python -m pip install --upgrade pip
+
+        pip install requests pandas
+
+        '
+    - name: Run weekly scraper
+      env:
+        CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+      run: 'cd NCAA_football/rankings_app
+
+        python weekly_polls_scraper.py
+
+        '
+    - name: Compile polls into CSV
+      run: 'cd NCAA_football/rankings_app
+
+        python compile_polls.py
+
+        '
+    - name: Commit & push updated data
+      run: "git config user.name \"github-actions[bot]\"\ngit config user.email \"\
+        github-actions[bot]@users.noreply.github.com\"\ncd NCAA_football/rankings_app\n\
+        \ngit pull origin main\n\nif compgen -G \"data/weeks_${{ env.YEAR }}/*.json\"\
+        \ > /dev/null; then\n  git add data/weeks_${{ env.YEAR }}/*.json\nfi\n\nif\
+        \ [ -f \"data/weekly_rankings_${{ env.YEAR }}.csv\" ]; then\n  git add data/weekly_rankings_${{\
+        \ env.YEAR }}.csv\nfi\n\ngit diff --cached --quiet || \\\n  (git commit -m\
+        \ \"Automated update: weekly_rankings for ${{ env.YEAR }} [skip ci]\" && git\
+        \ push origin main)\n"
+  team-stats:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+        fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: 'python -m pip install --upgrade pip
+
+        pip install requests pandas
+
+        '
+    - name: Run weekly team stats scraper
+      env:
+        CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+      run: 'cd NCAA_football/team_stats_app
+
+        python weekly_team_stats_scraper.py
+
+        '
+    - name: Compile team stats into CSV
+      run: 'cd NCAA_football/team_stats_app
+
+        python compile_team_stats.py
+
+        '
+    - name: Commit & push updated data
+      run: "git config user.name \"github-actions[bot]\"\ngit config user.email \"\
+        github-actions[bot]@users.noreply.github.com\"\ncd NCAA_football/team_stats_app\n\
+        git pull origin main\n\nif compgen -G \"data/weeks_${{ env.YEAR }}/*.csv\"\
+        \ > /dev/null; then\n  git add data/weeks_${{ env.YEAR }}/*.csv\nfi\n\nif\
+        \ [ -f \"data/weekly_advanced_stats_${{ env.YEAR }}.csv\" ]; then\n  git add\
+        \ data/weekly_advanced_stats_${{ env.YEAR }}.csv\nfi\n\ngit diff --cached\
+        \ --quiet || \\\n  (git commit -m \"Automated update: team stats for ${{ env.YEAR\
+        \ }} [skip ci]\" && git push origin main)\n"
