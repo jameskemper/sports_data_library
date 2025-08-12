@@ -8,9 +8,9 @@ on:
         required: false
         default: 'manual run'
   schedule:
-    # Daily at 12:00 UTC (07:00 CT) during Aug–Dec
+    # Daily at 12:00 UTC (07:00 CT in Aug–Dec)
     - cron: '0 12 * 8-12 *'
-    # Daily at 12:00 UTC (06:00 CT during standard time) in January
+    # Daily at 12:00 UTC (06:00 CT in January)
     - cron: '0 12 * 1 *'
 
 permissions:
@@ -26,16 +26,18 @@ env:
 
 jobs:
   scrape_and_compile:
-    name: Box scores: scrape + compile (daily)
+    name: "Box scores: scrape + compile (daily)"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: '3.x' }
+        with:
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -72,11 +74,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: '3.x' }
+        with:
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -106,12 +110,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: '3.x' }
+        with:
+          python-version: '3.x'
 
+      # Secret check (fail fast if missing)
       - name: Verify CFBD_API_KEY is set
         run: |
           if [ -z "${CFBD_API_KEY}" ]; then
@@ -154,12 +161,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: '3.x' }
+        with:
+          python-version: '3.x'
 
+      # Secret check (fail fast if missing)
       - name: Verify CFBD_API_KEY is set
         run: |
           if [ -z "${CFBD_API_KEY}" ]; then
