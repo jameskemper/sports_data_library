@@ -8,10 +8,10 @@ on:
         required: false
         default: 'manual run'
   schedule:
-    # Mondays at 12:00 UTC during Aug–Dec
-    - cron: '0 12 * 8-12 MON'
-    # Mondays at 12:00 UTC during January
-    - cron: '0 12 * 1 MON'
+    # Daily at 12:00 UTC (07:00 CT) during Aug–Dec
+    - cron: '0 12 * 8-12 *'
+    # Daily at 12:00 UTC (06:00 CT during standard time) in January
+    - cron: '0 12 * 1 *'
 
 permissions:
   contents: write
@@ -26,18 +26,16 @@ env:
 
 jobs:
   scrape_and_compile:
-    name: Box scores: scrape + compile
+    name: Box scores: scrape + compile (daily)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+        with: { python-version: '3.x' }
 
       - name: Install dependencies
         run: |
@@ -68,34 +66,32 @@ jobs:
           git commit -m "Update boxscores_${{ env.YEAR }}.csv" || echo "No changes"
           git push
 
-  weekly-elo-update:
-    name: Weekly ELO update
+  daily-elo-update:
+    name: ELO update (daily)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+        with: { python-version: '3.x' }
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install cfbd pandas
 
-      - name: Run Weekly ELO Scraper
+      - name: Run ELO scraper
         working-directory: NCAA_football/elo_ratings_app
         run: python weekly_elo_scraper.py
 
-      - name: Compile ELO Season Data
+      - name: Compile ELO season data
         working-directory: NCAA_football/elo_ratings_app
         run: python compile_elo_season.py
 
-      - name: Commit and Push Changes
+      - name: Commit and push changes
         working-directory: NCAA_football/elo_ratings_app
         run: |
           git config user.name "github-actions[bot]"
@@ -104,19 +100,25 @@ jobs:
           git commit -m "Update ${{ env.YEAR }} ELO ratings" || echo "No changes to commit"
           git push
 
-  update-weekly-rankings:
-    name: Weekly rankings
+  update-rankings:
+    name: Rankings (daily)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+        with: { python-version: '3.x' }
+
+      - name: Verify CFBD_API_KEY is set
+        run: |
+          if [ -z "${CFBD_API_KEY}" ]; then
+            echo "CFBD_API_KEY is not set. Add it in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          echo "CFBD_API_KEY present (masked)."
 
       - name: Install dependencies
         run: |
@@ -138,29 +140,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
             git add data/weeks_${{ env.YEAR }}/*.json
           fi
           if [ -f "data/weekly_rankings_${{ env.YEAR }}.csv" ]; then
             git add data/weekly_rankings_${{ env.YEAR }}.csv
           fi
-
           git diff --cached --quiet || (git commit -m "Automated update: weekly_rankings for ${{ env.YEAR }} [skip ci]" && git push)
 
   team-stats:
-    name: Team stats weekly
+    name: Team stats (daily)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: { fetch-depth: 0 }
 
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+        with: { python-version: '3.x' }
+
+      - name: Verify CFBD_API_KEY is set
+        run: |
+          if [ -z "${CFBD_API_KEY}" ]; then
+            echo "CFBD_API_KEY is not set. Add it in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          echo "CFBD_API_KEY present (masked)."
 
       - name: Install dependencies
         run: |
@@ -182,12 +188,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
             git add data/weeks_${{ env.YEAR }}/*.csv
           fi
           if [ -f "data/weekly_advanced_stats_${{ env.YEAR }}.csv" ]; then
             git add data/weekly_advanced_stats_${{ env.YEAR }}.csv
           fi
-
           git diff --cached --quiet || (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push)
