@@ -106,22 +106,47 @@ jobs:
           python -m pip install --upgrade pip
           pip install cfbd pandas
 
+      # Run scraper (may or may not produce files before season starts)
       - name: Run ELO scraper
         working-directory: NCAA_football/elo_ratings_app
         run: python weekly_elo_scraper.py
 
-      - name: Compile ELO season data
+      # Preseason-safe: ensure dir exists and show what's there
+      - name: Inspect ELO outputs
         working-directory: NCAA_football/elo_ratings_app
-        run: python compile_elo_season.py
+        run: |
+          mkdir -p "data/weeks_${{ env.YEAR }}"
+          ls -lah data || true
+          ls -lah "data/weeks_${{ env.YEAR }}" || true
 
-      - name: Commit and push changes
+      # Only compile if weekly CSVs exist
+      - name: Compile ELO season data (if weekly files exist)
+        working-directory: NCAA_football/elo_ratings_app
+        run: |
+          if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
+            python compile_elo_season.py
+          else
+            echo "No weekly ELO CSVs yet; skipping compile."
+          fi
+
+      # Only commit if anything changed (weekly or compiled)
+      - name: Commit and push ELO changes (if any)
         working-directory: NCAA_football/elo_ratings_app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update ${{ env.YEAR }} ELO ratings" || echo "No changes to commit"
-          git push
+
+          # Stage weekly files if present
+          if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
+            git add "data/weeks_${{ env.YEAR }}"/*.csv
+          fi
+
+          # Stage compiled season file if present (adjust if your output name differs)
+          if [ -f "data/elo_ratings_${{ env.YEAR }}.csv" ]; then
+            git add "data/elo_ratings_${{ env.YEAR }}.csv"
+          fi
+
+          git diff --cached --quiet || (git commit -m "Update ELO for ${{ env.YEAR }}" && git push) || echo "No ELO changes to commit"
 
   update-rankings:
     name: Rankings (daily)
