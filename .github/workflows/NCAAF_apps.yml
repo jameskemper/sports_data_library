@@ -8,10 +8,8 @@ on:
         required: false
         default: 'manual run'
   schedule:
-    # Daily at 12:00 UTC (07:00 CT in Aug–Dec)
-    - cron: '0 12 * 8-12 *'
-    # Daily at 12:00 UTC (06:00 CT in January)
-    - cron: '0 12 * 1 *'
+    # Mondays at 12:00 UTC
+    - cron: '0 12 * * 1'
 
 permissions:
   contents: write
@@ -25,8 +23,39 @@ env:
   CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
 jobs:
+  gate:
+    # Blocks scheduled runs before 2025-09-01; allows Mondays-only thereafter.
+    # Manual runs are still allowed any time by downstream job "if" conditions.
+    runs-on: ubuntu-latest
+    outputs:
+      ok: ${{ steps.chk.outputs.ok }}
+    steps:
+      - id: chk
+        shell: bash
+        run: |
+          CUTOFF="2025-09-01"
+          TODAY=$(date -u +%F)
+          # Default to false
+          echo "ok=false" >> "$GITHUB_OUTPUT"
+
+          if [[ "$TODAY" < "$CUTOFF" ]]; then
+            echo "Before cutoff ($TODAY < $CUTOFF); scheduled run blocked."
+            exit 0
+          fi
+
+          # Extra safety (cron already limits to Mondays)
+          DOW=$(date -u +%u) # 1=Mon ... 7=Sun
+          if [[ "$DOW" -eq 1 ]]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+            echo "On/after cutoff and it's Monday. Proceed."
+          else
+            echo "Not Monday; scheduled run blocked."
+          fi
+
   scrape_and_compile:
     name: "Box scores: scrape + compile (daily)"
+    needs: gate
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -48,7 +77,6 @@ jobs:
         working-directory: NCAA_football/box_scores_app
         run: python box_scores_scraper.py
 
-      # Preseason-safe: ensure directory exists and show what's there
       - name: Inspect outputs
         working-directory: NCAA_football/box_scores_app
         run: |
@@ -56,7 +84,6 @@ jobs:
           ls -lah data || true
           ls -lah "data/weeks_${{ env.YEAR }}" || true
 
-      # Commit week JSON only if any files exist
       - name: Commit weekly data
         working-directory: NCAA_football/box_scores_app
         run: |
@@ -75,7 +102,6 @@ jobs:
         working-directory: NCAA_football/box_scores_app
         run: python compile_box_scores_season.py
 
-      # Commit compiled CSV only if it exists
       - name: Commit compiled season file
         working-directory: NCAA_football/box_scores_app
         run: |
@@ -89,6 +115,8 @@ jobs:
 
   daily-elo-update:
     name: ELO update (daily)
+    needs: gate
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -106,12 +134,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install cfbd pandas
 
-      # Run scraper (may or may not produce files before season starts)
       - name: Run ELO scraper
         working-directory: NCAA_football/elo_ratings_app
         run: python weekly_elo_scraper.py
 
-      # Preseason-safe: ensure dir exists and show what's there
       - name: Inspect ELO outputs
         working-directory: NCAA_football/elo_ratings_app
         run: |
@@ -119,7 +145,6 @@ jobs:
           ls -lah data || true
           ls -lah "data/weeks_${{ env.YEAR }}" || true
 
-      # Only compile if weekly CSVs exist
       - name: Compile ELO season data (if weekly files exist)
         working-directory: NCAA_football/elo_ratings_app
         run: |
@@ -129,19 +154,15 @@ jobs:
             echo "No weekly ELO CSVs yet; skipping compile."
           fi
 
-      # Only commit if anything changed (weekly or compiled)
       - name: Commit and push ELO changes (if any)
         working-directory: NCAA_football/elo_ratings_app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage weekly files if present
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
             git add "data/weeks_${{ env.YEAR }}"/*.csv
           fi
-
-          # Stage compiled season file if present (adjust if your output name differs)
           if [ -f "data/elo_ratings_${{ env.YEAR }}.csv" ]; then
             git add "data/elo_ratings_${{ env.YEAR }}.csv"
           fi
@@ -150,6 +171,8 @@ jobs:
 
   update-rankings:
     name: Rankings (daily)
+    needs: gate
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -162,7 +185,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Secret check (fail fast if missing)
       - name: Verify CFBD_API_KEY is set
         run: |
           if [ -z "${CFBD_API_KEY}" ]; then
@@ -203,6 +225,8 @@ jobs:
 
   team-stats:
     name: Team stats (daily)
+    needs: gate
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -215,7 +239,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Secret check (fail fast if missing)
       - name: Verify CFBD_API_KEY is set
         run: |
           if [ -z "${CFBD_API_KEY}" ]; then
