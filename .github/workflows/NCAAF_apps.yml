@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: ncaaf-apps-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
   YEAR: '2025'
@@ -25,7 +25,7 @@ env:
 jobs:
   gate:
     # Blocks scheduled runs before 2025-09-01; allows Mondays-only thereafter.
-    # Manual runs are still allowed any time by downstream job "if" conditions.
+    # Manual runs remain allowed (jobs check event_name to proceed).
     runs-on: ubuntu-latest
     outputs:
       ok: ${{ steps.chk.outputs.ok }}
@@ -35,7 +35,6 @@ jobs:
         run: |
           CUTOFF="2025-09-01"
           TODAY=$(date -u +%F)
-          # Default to false
           echo "ok=false" >> "$GITHUB_OUTPUT"
 
           if [[ "$TODAY" < "$CUTOFF" ]]; then
@@ -43,7 +42,6 @@ jobs:
             exit 0
           fi
 
-          # Extra safety (cron already limits to Mondays)
           DOW=$(date -u +%u) # 1=Mon ... 7=Sun
           if [[ "$DOW" -eq 1 ]]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -53,7 +51,7 @@ jobs:
           fi
 
   scrape_and_compile:
-    name: "Box scores: scrape + compile (daily)"
+    name: "Box scores: scrape + compile"
     needs: gate
     if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
@@ -89,7 +87,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
             git add "data/weeks_${{ env.YEAR }}"/*.json
             git commit -m "Add week box score JSON for ${{ env.YEAR }}" || echo "No changes"
@@ -114,8 +111,8 @@ jobs:
           fi
 
   daily-elo-update:
-    name: ELO update (daily)
-    needs: gate
+    name: ELO update
+    needs: [gate, scrape_and_compile]   # serialized after box scores
     if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
@@ -159,19 +156,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
             git add "data/weeks_${{ env.YEAR }}"/*.csv
           fi
           if [ -f "data/elo_ratings_${{ env.YEAR }}.csv" ]; then
             git add "data/elo_ratings_${{ env.YEAR }}.csv"
           fi
-
           git diff --cached --quiet || (git commit -m "Update ELO for ${{ env.YEAR }}" && git push) || echo "No ELO changes to commit"
 
   update-rankings:
-    name: Rankings (daily)
-    needs: gate
+    name: Rankings
+    needs: [gate, daily-elo-update]     # serialized after ELO
     if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
@@ -213,19 +208,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
             git add "data/weeks_${{ env.YEAR }}"/*.json
           fi
           if [ -f "data/weekly_rankings_${{ env.YEAR }}.csv" ]; then
             git add "data/weekly_rankings_${{ env.YEAR }}.csv"
           fi
-
           git diff --cached --quiet || (git commit -m "Automated update: weekly_rankings for ${{ env.YEAR }} [skip ci]" && git push)
 
   team-stats:
-    name: Team stats (daily)
-    needs: gate
+    name: Team stats
+    needs: [gate, update-rankings]      # serialized last
     if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
@@ -267,12 +260,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
             git add "data/weeks_${{ env.YEAR }}"/*.csv
           fi
           if [ -f "data/weekly_advanced_stats_${{ env.YEAR }}.csv" ]; then
             git add "data/weekly_advanced_stats_${{ env.YEAR }}.csv"
           fi
-
           git diff --cached --quiet || (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push)
