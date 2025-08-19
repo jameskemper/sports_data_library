@@ -7,6 +7,10 @@ on:
         description: 'Why are you running this manually?'
         required: false
         default: 'manual run'
+      force:
+        description: 'Bypass the Monday/2025-09-01 gate? (true/false)'
+        required: false
+        default: 'false'
   schedule:
     # Mondays at 12:00 UTC
     - cron: '0 12 * * 1'
@@ -24,8 +28,6 @@ env:
 
 jobs:
   gate:
-    # Blocks scheduled runs before 2025-09-01; allows Mondays-only thereafter.
-    # Manual runs remain allowed (jobs check event_name to proceed).
     runs-on: ubuntu-latest
     outputs:
       ok: ${{ steps.chk.outputs.ok }}
@@ -33,6 +35,19 @@ jobs:
       - id: chk
         shell: bash
         run: |
+          # Non-schedule events (manual dispatch, re-runs) bypass the gate
+          if [[ "${GITHUB_EVENT_NAME}" != "schedule" ]]; then
+            # Optional explicit force input for workflow_dispatch
+            if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "${{ github.event.inputs.force }}" == "true" ]]; then
+              echo "User forced run via input."
+            else
+              echo "Non-schedule event (${GITHUB_EVENT_NAME}); bypassing date/DOW checks."
+            fi
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Schedule runs must be on/after cutoff AND Monday
           CUTOFF="2025-09-01"
           TODAY=$(date -u +%F)
           echo "ok=false" >> "$GITHUB_OUTPUT"
@@ -53,7 +68,7 @@ jobs:
   scrape_and_compile:
     name: "Box scores: scrape + compile"
     needs: gate
-    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
+    if: ${{ needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -113,7 +128,7 @@ jobs:
   daily-elo-update:
     name: ELO update
     needs: [gate, scrape_and_compile]   # serialized after box scores
-    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
+    if: ${{ needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -167,7 +182,7 @@ jobs:
   update-rankings:
     name: Rankings
     needs: [gate, daily-elo-update]     # serialized after ELO
-    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
+    if: ${{ needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -219,7 +234,7 @@ jobs:
   team-stats:
     name: Team stats
     needs: [gate, update-rankings]      # serialized last
-    if: ${{ github.event_name == 'workflow_dispatch' || needs.gate.outputs.ok == 'true' }}
+    if: ${{ needs.gate.outputs.ok == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -250,6 +265,13 @@ jobs:
         env:
           CFBD_API_KEY: ${{ env.CFBD_API_KEY }}
         run: python weekly_team_stats_scraper.py
+
+      # (Optional safety) remove zero-byte CSVs before compiling
+      - name: Remove zero-byte weekly files
+        working-directory: NCAA_football/team_stats_app
+        run: |
+          find "data/weeks_${{ env.YEAR }}" -type f -name "*.csv" -size 0 -print -delete || true
+          ls -lah "data/weeks_${{ env.YEAR }}" || true
 
       - name: Compile team stats into CSV
         working-directory: NCAA_football/team_stats_app
