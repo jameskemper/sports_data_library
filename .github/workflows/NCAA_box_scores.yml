@@ -1,4 +1,4 @@
-name: NCAA Box Score App
+name: NCAA Box Scores App
 
 on:
   workflow_dispatch:
@@ -15,10 +15,6 @@ on:
         description: 'regular or postseason'
         required: false
         default: 'regular'
-      skip_if_exists:
-        description: 'Skip existing week JSONs? (true/false)'
-        required: false
-        default: 'true'
   schedule:
     # Mondays at 12:00 UTC
     - cron: '0 12 * * 1'
@@ -27,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ncaaf-boxscores-${{ github.ref }}
+  group: ncaaf-boxscores-v2-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -47,7 +43,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Verify CFBD_API_KEY is set
         run: |
@@ -62,30 +58,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas requests
 
-      - name: Scrape selected weeks
+      - name: Scrape selected weeks (overwrite existing)
         working-directory: NCAA_football/box_scores_app
         env:
           SEASON_TYPE: ${{ github.event.inputs.season_type }}
           WFROM: ${{ github.event.inputs.week_from }}
           WTO: ${{ github.event.inputs.week_to }}
-          SKIP: ${{ github.event.inputs.skip_if_exists }}
+        shell: bash
         run: |
           : "${WFROM:=1}"
           : "${WTO:=16}"
           : "${SEASON_TYPE:=regular}"
-          : "${SKIP:=true}"
 
-          echo "YEAR=${YEAR}  weeks=${WFROM}-${WTO}  season_type=${SEASON_TYPE}  skip_if_exists=${SKIP}"
-
+          echo "YEAR=${YEAR}  weeks=${WFROM}-${WTO}  season_type=${SEASON_TYPE}"
           mkdir -p "data/weeks_${YEAR}"
 
           for w in $(seq "$WFROM" "$WTO"); do
-            cmd="python box_scores_scraper.py --year \"$YEAR\" --week \"$w\" --season-type \"$SEASON_TYPE\""
-            if [[ "$SKIP" == "true" ]]; then
-              cmd="$cmd --skip-if-exists"
-            fi
-            echo "Running: $cmd"
-            eval $cmd || true
+            echo "Running: python box_scores_scraper.py --year \"$YEAR\" --week \"$w\" --season-type \"$SEASON_TYPE\""
+            python box_scores_scraper.py --year "$YEAR" --week "$w" --season-type "$SEASON_TYPE"
             sleep 1
           done
 
@@ -94,28 +84,37 @@ jobs:
         run: |
           ls -lah "data/weeks_${YEAR}" || true
 
-      - name: Commit weekly data
-        working-directory: NCAA_football/box_scores_app
+      - name: Pull latest (avoid non-fast-forward) and commit weekly data
+        working-directory: .
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if compgen -G "data/weeks_${YEAR}/*.json" > /dev/null; then
-            git add "data/weeks_${YEAR}"/*.json
-            git commit -m "Add box score week JSON for ${YEAR}" || echo "No changes"
+          git fetch origin
+          git pull --rebase origin master || true
+          if compgen -G "NCAA_football/box_scores_app/data/weeks_${YEAR}/*.json" > /dev/null; then
+            git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.json
+            git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.raw.txt 2>/dev/null || true
+            git commit -m "Overwrite box score week JSON for ${YEAR}" || echo "No changes"
             git push || true
           else
             echo "No box score JSON found; skipping commit."
           fi
 
-      - name: Run compiler
+      - name: Run compiler (in app folder)
         working-directory: NCAA_football/box_scores_app
         run: python compile_box_scores_season.py
 
-      - name: Commit compiled season file
-        working-directory: NCAA_football/box_scores_app
+      - name: Pull latest (avoid non-fast-forward) and commit compiled season file
+        working-directory: .
+        shell: bash
         run: |
-          if [ -f "data/boxscores_${YEAR}.csv" ]; then
-            git add "data/boxscores_${YEAR}.csv"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin
+          git pull --rebase origin master || true
+          if [ -f "NCAA_football/box_scores_app/data/boxscores_${YEAR}.csv" ]; then
+            git add "NCAA_football/box_scores_app/data/boxscores_${YEAR}.csv"
             git commit -m "Update boxscores_${YEAR}.csv" || echo "No changes"
             git push || true
           else
