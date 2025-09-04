@@ -3,13 +3,12 @@
 compile_polls.py
 
 Reads all 16 week JSONs and compiles into a single season CSV.
-Always updates the CSV if new data exists.
+Rebuilds the CSV from scratch each run to ensure all weeks are included.
 """
 
 import os
 import json
 import pandas as pd
-import hashlib
 
 YEAR = int(os.getenv("YEAR", 2025))
 LAST_WEEK = 16
@@ -24,12 +23,14 @@ def compile_all():
     for week in range(1, LAST_WEEK + 1):
         fname = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
         if not os.path.exists(fname):
+            print(f"Week {week}: no data file found, skipping.")
             continue
 
         with open(fname, "r") as f:
             week_data = json.load(f)
 
         if not isinstance(week_data, list):
+            print(f"Week {week}: unexpected format, skipping.")
             continue
 
         for poll in week_data:
@@ -42,8 +43,8 @@ def compile_all():
                     "rank": ranking.get("rank"),
                     "school": ranking.get("school"),
                     "conference": ranking.get("conference", ""),
-                    "first_place_votes": ranking.get("firstPlaceVotes", None),
-                    "points": ranking.get("points", None)
+                    "first_place_votes": ranking.get("firstPlaceVotes"),
+                    "points": ranking.get("points")
                 })
 
     return pd.DataFrame(rows)
@@ -54,24 +55,13 @@ def main():
         print("No poll data compiled.")
         return
 
-    # New file content
-    csv_content = df.to_csv(index=False)
+    # Always overwrite the CSV with the full dataset
+    df.to_csv(OUTPUT_FILE, index=False)
+    print(f"Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
-    # Compare hashes
-    new_hash = hashlib.md5(csv_content.encode()).hexdigest()
-    old_hash = None
-    if os.path.exists(OUTPUT_FILE):
-        with open(OUTPUT_FILE, "rb") as f:
-            old_hash = hashlib.md5(f.read()).hexdigest()
-
-    if old_hash == new_hash:
-        print("No change in weekly rankings CSV.")
-    else:
-        with open(OUTPUT_FILE, "w") as f:
-            f.write(csv_content)
-        print(f"Updated {OUTPUT_FILE}")
-        with open(FLAG_FILE, "w") as f:
-            f.write("true")
+    # Touch the flag file so workflow commits
+    with open(FLAG_FILE, "w") as f:
+        f.write("true")
 
 if __name__ == "__main__":
     main()
