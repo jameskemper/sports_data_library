@@ -2,8 +2,8 @@
 """
 compile_box_scores_season.py
 
-Compiles weekly CFBD game/box score JSONs into a clean season CSV.
-Matches format of 2024 box_scores file, with deduplication by game id.
+Compiles weekly CFBD game JSONs into a clean season CSV.
+Matches 2024 format, using correct camelCase keys from API.
 """
 
 import os
@@ -32,41 +32,27 @@ KEEP_COLS = [
     "away_points",
 ]
 
-def safe_val(obj, key=None):
-    """
-    Safely extract from CFBD JSON fields that might be dict, str, or None.
-    - If obj is dict and key is given → return obj.get(key)
-    - If obj is dict and no key → None
-    - If obj is str → return obj (only if no key)
-    - Else → None
-    """
-    if isinstance(obj, dict):
-        return obj.get(key) if key else None
-    if isinstance(obj, str) and key is None:
-        return obj
-    return None
-
 def extract_game_fields(game: dict) -> dict:
     """Flatten one game dict into a row with selected fields."""
     return {
         "id": game.get("id"),
         "season": game.get("season"),
         "week": game.get("week"),
-        "season_type": game.get("season_type"),
-        "start_date": game.get("start_date"),
+        "season_type": game.get("seasonType"),     # fixed
+        "start_date": game.get("startDate"),       # fixed
         "completed": game.get("completed"),
-        "neutral_site": game.get("neutral_site"),
-        "conference_game": game.get("conference_game"),
-        "venue_id": safe_val(game.get("venue"), "id"),
-        "venue": safe_val(game.get("venue"), "name") or safe_val(game.get("venue")),
-        "home_id": safe_val(game.get("home_team"), "id"),
-        "home_team": safe_val(game.get("home_team"), "school") or game.get("home_team"),
-        "home_conference": safe_val(game.get("home_team"), "conference"),
-        "home_points": game.get("home_points"),
-        "away_id": safe_val(game.get("away_team"), "id"),
-        "away_team": safe_val(game.get("away_team"), "school") or game.get("away_team"),
-        "away_conference": safe_val(game.get("away_team"), "conference"),
-        "away_points": game.get("away_points"),
+        "neutral_site": game.get("neutralSite"),   # fixed
+        "conference_game": game.get("conferenceGame"),  # fixed
+        "venue_id": game.get("venueId"),           # fixed
+        "venue": game.get("venue"),
+        "home_id": game.get("homeId"),             # fixed
+        "home_team": game.get("homeTeam"),         # fixed
+        "home_conference": game.get("homeConference"),  # fixed
+        "home_points": game.get("homePoints"),     # fixed
+        "away_id": game.get("awayId"),             # fixed
+        "away_team": game.get("awayTeam"),         # fixed
+        "away_conference": game.get("awayConference"),  # fixed
+        "away_points": game.get("awayPoints"),     # fixed
     }
 
 def compile_season():
@@ -97,7 +83,7 @@ def compile_season():
 
     df = pd.DataFrame(rows, columns=KEEP_COLS)
 
-    # ✅ Deduplicate by game id (keep latest row)
+    # ✅ Deduplicate by game id
     if "id" in df.columns:
         before = len(df)
         df = df.drop_duplicates(subset=["id"], keep="last")
