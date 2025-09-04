@@ -2,72 +2,57 @@
 """
 compile_polls.py
 
-Reads all weekly JSON files from
-  {BASE_DIR}/data/weeks_{YEAR}/week_##.json
-flattens/cleans them into one season CSV:
-  {BASE_DIR}/data/weekly_rankings_<YEAR>.csv
-
-Renames "school" → "team".
+Reads all week JSONs and compiles into a single season CSV.
+Only updates the CSV if something changed (based on hash).
 """
 
 import os
 import json
 import pandas as pd
+import hashlib
 
-YEAR      = 2025  # <- updated to reflect current season
-
-BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
+YEAR = int(os.getenv("YEAR", 2025))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-OUTPUT_CSV  = os.path.join(BASE_DIR, "data", f"weekly_rankings_{YEAR}.csv")
+OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"polls_{YEAR}.csv")
 
-def flatten_week(json_data, week: int) -> pd.DataFrame:
+def compile_all():
     rows = []
-    for entry in json_data:
-        season     = entry.get("season")
-        seasonType = entry.get("seasonType")
-        for poll in entry.get("polls", []):
-            poll_name = poll.get("poll")
-            for r in poll.get("ranks", []):
-                rows.append({
-                    "season"    : season,
-                    "seasonType": seasonType,
-                    "week"      : week,
-                    "poll"      : poll_name,
-                    "rank"      : r.get("rank"),
-                    "team"      : r.get("school"),
-                    "conference": r.get("conference"),
-                    "points"    : r.get("points"),
-                })
+    for fname in sorted(os.listdir(WEEKS_DIR)):
+        if fname.endswith(".json"):
+            path = os.path.join(WEEKS_DIR, fname)
+            with open(path, "r") as f:
+                week_data = json.load(f)
+            for poll in week_data.get("polls", []):
+                for ranking in poll.get("ranks", []):
+                    rows.append({
+                        "week": int(fname.split("_")[1].split(".")[0]),
+                        "poll": poll["poll"],
+                        "rank": ranking["rank"],
+                        "school": ranking["school"],
+                        "conference": ranking.get("conference", "")
+                    })
     return pd.DataFrame(rows)
 
 def main():
-    if not os.path.isdir(WEEKS_DIR):
-        print(f"No weekly folder found at {WEEKS_DIR}")
+    df = compile_all()
+    if df.empty:
+        print("No poll data found.")
         return
 
-    all_dfs = []
-    for fname in sorted(os.listdir(WEEKS_DIR)):
-        if not fname.lower().endswith(".json"):
-            continue
-        wk = int(fname.replace("week_", "").replace(".json", ""))
-        path = os.path.join(WEEKS_DIR, fname)
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        df = flatten_week(data, wk)
-        print(f" Week {wk:02d}: {len(df)} rows")
-        all_dfs.append(df)
+    new_hash = hashlib.md5(df.to_csv(index=False).encode()).hexdigest()
+    old_hash = None
+    if os.path.exists(OUTPUT_FILE):
+        with open(OUTPUT_FILE, "rb") as f:
+            old_hash = hashlib.md5(f.read()).hexdigest()
 
-    if not all_dfs:
-        print("No JSON files to compile.")
-        return
-
-    full = pd.concat(all_dfs, ignore_index=True)
-    full.drop_duplicates(subset=["week","poll","team"], inplace=True)
-    full.sort_values(["week","poll","rank"], inplace=True)
-
-    os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
-    full.to_csv(OUTPUT_CSV, index=False)
-    print(f"\nSaved combined CSV to:\n  {OUTPUT_CSV}")
+    if old_hash == new_hash:
+        print("No change in compiled polls.")
+    else:
+        df.to_csv(OUTPUT_FILE, index=False)
+        print(f"Compiled polls saved to {OUTPUT_FILE}")
+        with open(os.path.join(BASE_DIR, "polls_changed.flag"), "w") as f:
+            f.write("true")
 
 if __name__ == "__main__":
     main()
