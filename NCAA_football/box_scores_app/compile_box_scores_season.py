@@ -32,6 +32,14 @@ KEEP_COLS = [
     "away_points",
 ]
 
+def safe_get(obj, key, subkey=None):
+    """Safely extract key (and optional subkey) from obj that might be dict, str, or None."""
+    if isinstance(obj, dict):
+        if subkey:
+            return obj.get(subkey)
+        return obj.get(key)
+    return obj if subkey is None and isinstance(obj, str) else None
+
 def extract_game_fields(game: dict) -> dict:
     """Flatten one game dict into a row with selected fields."""
     return {
@@ -43,15 +51,15 @@ def extract_game_fields(game: dict) -> dict:
         "completed": game.get("completed"),
         "neutral_site": game.get("neutral_site"),
         "conference_game": game.get("conference_game"),
-        "venue_id": (game.get("venue", {}) or {}).get("id"),
-        "venue": (game.get("venue", {}) or {}).get("name"),
-        "home_id": (game.get("home_team", {}) or {}).get("id"),
-        "home_team": (game.get("home_team", {}) or {}).get("school") or game.get("home_team"),
-        "home_conference": (game.get("home_team", {}) or {}).get("conference"),
+        "venue_id": safe_get(game.get("venue"), "id"),
+        "venue": safe_get(game.get("venue"), "name") or safe_get(game.get("venue"), None),
+        "home_id": safe_get(game.get("home_team"), "id"),
+        "home_team": safe_get(game.get("home_team"), "school") or game.get("home_team"),
+        "home_conference": safe_get(game.get("home_team"), "conference"),
         "home_points": game.get("home_points"),
-        "away_id": (game.get("away_team", {}) or {}).get("id"),
-        "away_team": (game.get("away_team", {}) or {}).get("school") or game.get("away_team"),
-        "away_conference": (game.get("away_team", {}) or {}).get("conference"),
+        "away_id": safe_get(game.get("away_team"), "id"),
+        "away_team": safe_get(game.get("away_team"), "school") or game.get("away_team"),
+        "away_conference": safe_get(game.get("away_team"), "conference"),
         "away_points": game.get("away_points"),
     }
 
