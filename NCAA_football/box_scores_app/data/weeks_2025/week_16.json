@@ -3,11 +3,44 @@
     "year": 2025,
     "week": 16,
     "season_type": "regular",
-    "fetched_at_utc": "2025-09-02T15:57:13+00:00",
-    "source_url": null,
-    "http_status": 200,
-    "content_type": "text/html; charset=utf-8",
-    "preview": " <!-- HTML for static distribution bundle build --> <!DOCTYPE html> <html lang=\"en\"> <head>   <meta charset=\"UTF-8\">      <title>Swagger UI</title>   <link rel=\"stylesheet\" type=\"text/css\" href=\"./swagger-ui.css\" >   <link rel=\"icon\" type=\"image/png\" href=\"./favicon-32x32.png\" sizes=\"32x32\" /><link rel=\"icon\" type=\"image/png\" href=\"./favicon-16x16.png\" sizes=\"16x16\" />   <style>     html     {       box-sizing: border-box;       overflow: -moz-scrollbars-vertical;       overflow-y: scroll;     }     *,     *:before,     *:after     {       box-sizing: inherit;     }      body {       margin:0;       background: #fafafa;     }   </style> </head>  <body>  <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" style=\"position:absolute;width:0;height:0\">   <defs>     <symbol viewBox=\"0 0 20 20\" id=\"unlocked\">       <path d=\"M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199"
+    "fetched_at": "2025-09-04T16:02:08+00:00",
+    "source_url": "https://api.collegefootballdata.com/games?year=2025&week=16&seasonType=regular"
   },
-  "data": []
+  "data": [
+    {
+      "id": 401762521,
+      "season": 2025,
+      "week": 16,
+      "seasonType": "regular",
+      "startDate": "2025-12-13T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "neutralSite": true,
+      "conferenceGame": true,
+      "attendance": null,
+      "venueId": 3814,
+      "venue": "M&T Bank Stadium",
+      "homeId": 2426,
+      "homeTeam": "Navy",
+      "homeClassification": "fbs",
+      "homeConference": "American Athletic",
+      "homePoints": null,
+      "homeLineScores": null,
+      "homePostgameWinProbability": null,
+      "homePregameElo": 1543,
+      "homePostgameElo": null,
+      "awayId": 349,
+      "awayTeam": "Army",
+      "awayClassification": "fbs",
+      "awayConference": "American Athletic",
+      "awayPoints": null,
+      "awayLineScores": null,
+      "awayPostgameWinProbability": null,
+      "awayPregameElo": 1607,
+      "awayPostgameElo": null,
+      "excitementIndex": null,
+      "highlights": "",
+      "notes": null
+    }
+  ]
 }
