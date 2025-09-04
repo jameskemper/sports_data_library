@@ -3,7 +3,6 @@
 compile_box_scores_season.py
 
 Compiles weekly CFBD game/box score JSONs into a clean season CSV.
-Matches format of 2024 box_scores file.
 """
 
 import os
