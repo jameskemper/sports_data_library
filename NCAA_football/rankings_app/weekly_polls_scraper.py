@@ -2,64 +2,63 @@
 """
 weekly_polls_scraper.py
 
-Fetches CFBD weekly poll data for one week (auto-increment or specified),
-and saves raw JSON to data/weeks_<YEAR>/week_##.json.
+Fetches CFBD weekly poll data (for a given week or auto-increment),
+and saves raw JSON to data/weeks_<YEAR>/week_##.json ONLY if data changed.
 """
 
 import os
 import json
 import requests
+import hashlib
 
 API_KEY     = os.environ["CFBD_API_KEY"]
-YEAR        = 2025
+YEAR        = int(os.getenv("YEAR", 2025))
 SEASON_TYPE = "regular"
-WEEK        = None
 LAST_WEEK   = 16
 
-# Use script location for all relative paths
+# Directories
 BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
 WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-
 os.makedirs(WEEKS_DIR, exist_ok=True)
 
-def existing_weeks():
-    files = os.listdir(WEEKS_DIR)
-    weeks = [
-        int(f.split("_")[1].split(".")[0])
-        for f in files if f.startswith("week_") and f.endswith(".json")
-    ]
-    return sorted(weeks)
+def fetch_week_data(week):
+    url = f"https://api.collegefootballdata.com/rankings?year={YEAR}&week={week}&seasonType={SEASON_TYPE}"
+    headers = {"Authorization": f"Bearer {API_KEY}"}
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
 
-def next_week():
-    seen = set(existing_weeks())
-    for w in range(1, LAST_WEEK + 1):
-        if w not in seen:
-            return w
-    return None
+def save_if_changed(week, data):
+    """Save week JSON only if it's new/different."""
+    filename = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
+    new_hash = hashlib.md5(json.dumps(data, sort_keys=True).encode()).hexdigest()
 
-def fetch_week_json(week: int):
-    url = "https://apinext.collegefootballdata.com/rankings"
-    headers = {
-        "accept": "application/json",
-        "Authorization": f"Bearer {API_KEY}"
-    }
-    params = {"year": YEAR, "seasonType": SEASON_TYPE, "week": week}
-    r = requests.get(url, headers=headers, params=params)
-    r.raise_for_status()
-    return r.json()
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            old_data = json.load(f)
+        old_hash = hashlib.md5(json.dumps(old_data, sort_keys=True).encode()).hexdigest()
+        if old_hash == new_hash:
+            print(f"Week {week}: No change, skipping save.")
+            return False
+
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"Week {week}: New data saved.")
+    return True
 
 def main():
-    wk = WEEK or next_week()
-    if wk is None:
-        print("All weeks fetched.")
-        return
-
-    print(f"Fetching week {wk}...")
-    data = fetch_week_json(wk)
-    path = os.path.join(WEEKS_DIR, f"week_{wk:02d}.json")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Saved raw JSON to {path}")
+    changed = False
+    for week in range(1, LAST_WEEK + 1):
+        try:
+            data = fetch_week_data(week)
+            if data:
+                if save_if_changed(week, data):
+                    changed = True
+        except Exception as e:
+            print(f"Error fetching week {week}: {e}")
+    if changed:
+        with open(os.path.join(BASE_DIR, "polls_changed.flag"), "w") as f:
+            f.write("true")
 
 if __name__ == "__main__":
     main()
