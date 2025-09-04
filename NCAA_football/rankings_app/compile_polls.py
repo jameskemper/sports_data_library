@@ -16,7 +16,7 @@ LAST_WEEK = 16
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"polls_{YEAR}.csv")
+OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"weekly_rankings_{YEAR}.csv")
 
 def compile_all():
     rows = []
