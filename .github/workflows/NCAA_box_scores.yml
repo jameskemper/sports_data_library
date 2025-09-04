@@ -1,39 +1,22 @@
-name: NCAA Box Scores
+name: NCAA Box Scores (2025)
 
 on:
   workflow_dispatch:
-    inputs:
-      week_from:
-        description: 'Start week (1–16)'
-        required: false
-        default: '1'
-      week_to:
-        description: 'End week (1–16)'
-        required: false
-        default: '16'
-      season_type:
-        description: 'regular or postseason'
-        required: false
-        default: 'regular'
   schedule:
-    # Mondays at 12:00 UTC
+    # Run every Monday at 12:00 UTC
     - cron: '0 12 * * 1'
 
 permissions:
   contents: write
 
-concurrency:
-  group: ncaaf-boxscores-v3-${{ github.ref }}
-  cancel-in-progress: true
-
 env:
-  YEAR: '2025'
+  YEAR: "2025"
   CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
 jobs:
   box-scores:
-    name: "Box scores: scrape + compile"
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -43,80 +26,53 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
-      - name: Verify CFBD_API_KEY is set
-        run: |
-          if [ -z "${CFBD_API_KEY}" ]; then
-            echo "CFBD_API_KEY is not set. Add it in Settings → Secrets and variables → Actions."
-            exit 1
-          fi
-          echo "CFBD_API_KEY present (masked)."
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests
+          pip install requests pandas
 
-      - name: Scrape selected weeks (overwrite existing)
+      # 🔹 Run scraper (weeks 1–16)
+      - name: Scrape weekly box scores
         working-directory: NCAA_football/box_scores_app
-        env:
-          SEASON_TYPE: ${{ github.event.inputs.season_type }}
-          WFROM: ${{ github.event.inputs.week_from }}
-          WTO: ${{ github.event.inputs.week_to }}
-        shell: bash
         run: |
-          : "${WFROM:=1}"
-          : "${WTO:=16}"
-          : "${SEASON_TYPE:=regular}"
-
-          echo "YEAR=${YEAR}  weeks=${WFROM}-${WTO}  season_type=${SEASON_TYPE}"
-          mkdir -p "data/weeks_${YEAR}"
-
-          for w in $(seq "$WFROM" "$WTO"); do
-            echo "Running: python box_scores_scraper.py --year \"$YEAR\" --week \"$w\" --season-type \"$SEASON_TYPE\""
-            python box_scores_scraper.py --year "$YEAR" --week "$w" --season-type "$SEASON_TYPE"
-            sleep 1
+          for w in $(seq 1 16); do
+            echo "Fetching week $w..."
+            python box_scores_scraper.py --year "$YEAR" --week "$w" --season-type regular
           done
 
-      - name: Inspect outputs
+      - name: Inspect weekly outputs
         working-directory: NCAA_football/box_scores_app
-        run: |
-          ls -lah "data/weeks_${YEAR}" || true
+        run: ls -lah "data/weeks_${YEAR}" || true
 
-      - name: Pull latest (avoid non-fast-forward) and commit weekly data
-        working-directory: .
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin
-          git pull --rebase origin master || true
-          if compgen -G "NCAA_football/box_scores_app/data/weeks_${YEAR}/*.json" > /dev/null; then
-            git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.json
-            git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.raw.txt 2>/dev/null || true
-            git commit -m "Update box score week JSON for ${YEAR}" || echo "No changes"
-            git push || true
-          else
-            echo "No box score JSON found; skipping commit."
-          fi
-
-      - name: Run compiler (in app folder)
+      # 🔹 Compile into season CSV
+      - name: Compile season file
         working-directory: NCAA_football/box_scores_app
         run: python compile_box_scores_season.py
 
-      - name: Pull latest (avoid non-fast-forward) and commit compiled season file
-        working-directory: .
-        shell: bash
+      - name: Inspect compiled file
+        working-directory: NCAA_football/box_scores_app
+        run: ls -lah data/box_scores_${YEAR}.csv || true
+
+      # 🔹 Commit JSONs and compiled CSV
+      - name: Commit and push data
+        working-directory: NCAA_football/box_scores_app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin
-          git pull --rebase origin master || true
-          if [ -f "NCAA_football/box_scores_app/data/boxscores_${YEAR}.csv" ]; then
-            git add "NCAA_football/box_scores_app/data/boxscores_${YEAR}.csv"
-            git commit -m "Update boxscores_${YEAR}.csv" || echo "No changes"
-            git push || true
-          else
-            echo "No compiled season file yet; skipping commit."
+
+          # Stage JSONs and season CSV
+          if compgen -G "data/weeks_${YEAR}/*.json" > /dev/null; then
+            git add data/weeks_${YEAR}/*.json
           fi
+
+          if [ -f "data/box_scores_${YEAR}.csv" ]; then
+            git add data/box_scores_${YEAR}.csv
+          fi
+
+          git commit -m "Update box scores for ${YEAR}" || echo "No changes to commit"
+
+          # Prevent non-fast-forward errors
+          git pull --rebase origin master || true
+          git push
