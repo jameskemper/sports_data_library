@@ -31,13 +31,19 @@ KEEP_COLS = [
     "away_points",
 ]
 
-def safe_get(obj, key, subkey=None):
-    """Safely extract key (and optional subkey) from obj that might be dict, str, or None."""
+def safe_val(obj, key=None):
+    """
+    Safely extract from CFBD JSON fields that might be dict, str, or None.
+    - If obj is dict and key is given → return obj.get(key)
+    - If obj is dict and no key → return None
+    - If obj is str → return obj (only if no key)
+    - Else → None
+    """
     if isinstance(obj, dict):
-        if subkey:
-            return obj.get(subkey)
-        return obj.get(key)
-    return obj if subkey is None and isinstance(obj, str) else None
+        return obj.get(key) if key else None
+    if isinstance(obj, str) and key is None:
+        return obj
+    return None
 
 def extract_game_fields(game: dict) -> dict:
     """Flatten one game dict into a row with selected fields."""
@@ -50,15 +56,15 @@ def extract_game_fields(game: dict) -> dict:
         "completed": game.get("completed"),
         "neutral_site": game.get("neutral_site"),
         "conference_game": game.get("conference_game"),
-        "venue_id": safe_get(game.get("venue"), "id"),
-        "venue": safe_get(game.get("venue"), "name") or safe_get(game.get("venue"), None),
-        "home_id": safe_get(game.get("home_team"), "id"),
-        "home_team": safe_get(game.get("home_team"), "school") or game.get("home_team"),
-        "home_conference": safe_get(game.get("home_team"), "conference"),
+        "venue_id": safe_val(game.get("venue"), "id"),
+        "venue": safe_val(game.get("venue"), "name") or safe_val(game.get("venue")),
+        "home_id": safe_val(game.get("home_team"), "id"),
+        "home_team": safe_val(game.get("home_team"), "school") or game.get("home_team"),
+        "home_conference": safe_val(game.get("home_team"), "conference"),
         "home_points": game.get("home_points"),
-        "away_id": safe_get(game.get("away_team"), "id"),
-        "away_team": safe_get(game.get("away_team"), "school") or game.get("away_team"),
-        "away_conference": safe_get(game.get("away_team"), "conference"),
+        "away_id": safe_val(game.get("away_team"), "id"),
+        "away_team": safe_val(game.get("away_team"), "school") or game.get("away_team"),
+        "away_conference": safe_val(game.get("away_team"), "conference"),
         "away_points": game.get("away_points"),
     }
 
