@@ -3,6 +3,7 @@
 compile_box_scores_season.py
 
 Compiles weekly CFBD game/box score JSONs into a clean season CSV.
+Matches format of 2024 box_scores file, with deduplication by game id.
 """
 
 import os
@@ -35,7 +36,7 @@ def safe_val(obj, key=None):
     """
     Safely extract from CFBD JSON fields that might be dict, str, or None.
     - If obj is dict and key is given → return obj.get(key)
-    - If obj is dict and no key → return None
+    - If obj is dict and no key → None
     - If obj is str → return obj (only if no key)
     - Else → None
     """
@@ -95,6 +96,15 @@ def compile_season():
         return
 
     df = pd.DataFrame(rows, columns=KEEP_COLS)
+
+    # ✅ Deduplicate by game id (keep latest row)
+    if "id" in df.columns:
+        before = len(df)
+        df = df.drop_duplicates(subset=["id"], keep="last")
+        after = len(df)
+        if before != after:
+            print(f"Deduplicated {before - after} duplicate games")
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUTPUT_PATH, index=False)
     print(f"Wrote {len(df)} rows → {OUTPUT_PATH}")
