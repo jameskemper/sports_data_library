@@ -1,4 +1,4 @@
-name: NCAA Box Scores App
+name: NCAA Box Scores
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ncaaf-boxscores-v2-${{ github.ref }}
+  group: ncaaf-boxscores-v3-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -95,7 +95,7 @@ jobs:
           if compgen -G "NCAA_football/box_scores_app/data/weeks_${YEAR}/*.json" > /dev/null; then
             git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.json
             git add "NCAA_football/box_scores_app/data/weeks_${YEAR}"/*.raw.txt 2>/dev/null || true
-            git commit -m "Overwrite box score week JSON for ${YEAR}" || echo "No changes"
+            git commit -m "Update box score week JSON for ${YEAR}" || echo "No changes"
             git push || true
           else
             echo "No box score JSON found; skipping commit."
