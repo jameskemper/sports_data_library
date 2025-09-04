@@ -1,8 +1,11 @@
-name: NCAA Rankings app
+name: NCAA Rankings App
+
+permissions:
+  contents: write   # 👈 allows workflow to push back to repo
 
 on:
   schedule:
-    - cron: "0 12 * 9-12 1" # every Monday at 12:00 UTC during Sep-Dec
+    - cron: "0 12 * 9-12 1"   # every Monday at 12:00 UTC, Sep–Dec
   workflow_dispatch:
 
 jobs:
@@ -44,7 +47,7 @@ jobs:
             git config --global user.email "github-actions@github.com"
             git add .
             git commit -m "Update NCAA polls for ${{ env.YEAR }}"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
           else
             echo "No changes to commit."
           fi
