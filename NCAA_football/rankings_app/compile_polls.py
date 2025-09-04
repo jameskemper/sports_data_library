@@ -2,8 +2,8 @@
 """
 compile_polls.py
 
-Reads all 16 week JSONs and compiles into a single season CSV.
-Rebuilds the CSV from scratch each run to ensure all weeks are included.
+Compiles all weekly poll JSONs into a season-long CSV.
+Matches the exact format of weekly_rankings_2024.csv.
 """
 
 import os
@@ -23,27 +23,30 @@ def compile_all():
     for week in range(1, LAST_WEEK + 1):
         fname = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
         if not os.path.exists(fname):
-            print(f"Week {week}: no data file found, skipping.")
             continue
 
         with open(fname, "r") as f:
             week_data = json.load(f)
 
         if not isinstance(week_data, list):
-            print(f"Week {week}: unexpected format, skipping.")
             continue
 
         for poll in week_data:
+            season = poll.get("season", YEAR)
+            week_num = poll.get("week", week)
+            season_type = poll.get("seasonType", "regular")
             poll_name = poll.get("poll", "Unknown")
+
             for ranking in poll.get("ranks", []):
                 rows.append({
-                    "year": YEAR,
-                    "week": week,
+                    "season": season,
+                    "week": week_num,
+                    "seasonType": season_type,
                     "poll": poll_name,
                     "rank": ranking.get("rank"),
                     "school": ranking.get("school"),
                     "conference": ranking.get("conference", ""),
-                    "first_place_votes": ranking.get("firstPlaceVotes"),
+                    "firstPlaceVotes": ranking.get("firstPlaceVotes"),
                     "points": ranking.get("points")
                 })
 
@@ -55,11 +58,26 @@ def main():
         print("No poll data compiled.")
         return
 
-    # Always overwrite the CSV with the full dataset
+    # Order columns exactly like 2024
+    cols = [
+        "season",
+        "week",
+        "seasonType",
+        "poll",
+        "rank",
+        "school",
+        "conference",
+        "firstPlaceVotes",
+        "points",
+    ]
+    df = df[cols]
+
+    # Sort like 2024: by week, poll, rank
+    df = df.sort_values(["week", "poll", "rank"]).reset_index(drop=True)
+
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
-    # Touch the flag file so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
