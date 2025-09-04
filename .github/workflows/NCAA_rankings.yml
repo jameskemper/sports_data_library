@@ -1,64 +1,50 @@
-name: NCAA rankings (2025) 
+name: NCAA Rankings app
 
 on:
   schedule:
-    - cron: '0 12 * 8-12 MON'  # every Monday at 12:00 UTC, only from August through December
+    - cron: "0 12 * 9-12 1" # every Monday at 12:00 UTC during Sep-Dec
   workflow_dispatch:
 
-permissions:
-  contents: write
-
-env:
-  YEAR: '2025'
-
 jobs:
-  update-weekly-rankings:
+  rankings:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ncaa-rankings
+      cancel-in-progress: false
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install requests pandas
 
-      - name: Run weekly scraper
+      - name: Run weekly poll scraper
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          YEAR: 2025
+        run: python NCAA_football/rankings_app/weekly_polls_scraper.py
+
+      - name: Compile polls
+        env:
+          YEAR: 2025
+        run: python NCAA_football/rankings_app/compile_polls.py
+
+      - name: Commit and push if changes
         run: |
-          cd NCAA_football/rankings_app
-          python weekly_polls_scraper.py
-
-      - name: Compile polls into CSV
-        run: |
-          cd NCAA_football/rankings_app
-          python compile_polls.py
-
-      - name: Commit & push updated data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          cd NCAA_football/rankings_app
-
-          git pull origin main
-
-          if compgen -G "data/weeks_${{ env.YEAR }}/*.json" > /dev/null; then
-            git add data/weeks_${{ env.YEAR }}/*.json
+          if [ -f NCAA_football/rankings_app/polls_changed.flag ]; then
+            rm NCAA_football/rankings_app/polls_changed.flag
+            git config --global user.name "github-actions"
+            git config --global user.email "github-actions@github.com"
+            git add .
+            git commit -m "Update NCAA polls for ${{ env.YEAR }}"
+            git push
+          else
+            echo "No changes to commit."
           fi
-
-          if [ -f "data/weekly_rankings_${{ env.YEAR }}.csv" ]; then
-            git add data/weekly_rankings_${{ env.YEAR }}.csv
-          fi
-
-          git diff --cached --quiet || \
-            (git commit -m "Automated update: weekly_rankings for ${{ env.YEAR }} [skip ci]" && git push origin main)
