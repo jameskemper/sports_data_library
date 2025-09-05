@@ -23,11 +23,11 @@ def compile_all():
         with open(fname, "r") as f:
             raw = json.load(f)
 
-        # Handle two possible formats: list OR dict with "data"
-        if isinstance(raw, list):
-            week_data = raw
-        elif isinstance(raw, dict) and "data" in raw:
+        # Your files have structure {"_meta": {...}, "data": [...]}
+        if isinstance(raw, dict) and "data" in raw:
             week_data = raw["data"]
+        elif isinstance(raw, list):
+            week_data = raw
         else:
             print(f"⚠️ Week {week}: unexpected format, skipping.")
             continue
