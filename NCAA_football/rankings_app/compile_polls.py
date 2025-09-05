@@ -23,12 +23,14 @@ def compile_all():
     for week in range(1, LAST_WEEK + 1):
         fname = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
         if not os.path.exists(fname):
+            print(f"Week {week}: no data file found, skipping.")
             continue
 
         with open(fname, "r") as f:
             week_data = json.load(f)
 
         if not isinstance(week_data, list):
+            print(f"Week {week}: unexpected format, skipping.")
             continue
 
         for poll in week_data:
@@ -58,7 +60,7 @@ def main():
         print("No poll data compiled.")
         return
 
-    # Order columns exactly like 2024
+    # enforce exact column order like 2024
     cols = [
         "season",
         "week",
@@ -68,16 +70,18 @@ def main():
         "school",
         "conference",
         "firstPlaceVotes",
-        "points",
+        "points"
     ]
     df = df[cols]
 
-    # Sort like 2024: by week, poll, rank
+    # sort for consistency
     df = df.sort_values(["week", "poll", "rank"]).reset_index(drop=True)
 
+    # always overwrite
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
+    print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
+    # flag so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
