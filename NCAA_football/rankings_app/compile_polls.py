@@ -3,6 +3,7 @@
 compile_polls.py
 
 Compiles all weekly poll JSONs into a season-long CSV.
+Matches the exact format of weekly_rankings_2024.csv.
 """
 
 import os
