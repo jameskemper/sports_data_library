@@ -21,9 +21,14 @@ def compile_all():
 
         print(f"📂 Processing {fname}")
         with open(fname, "r") as f:
-            week_data = json.load(f)
+            raw = json.load(f)
 
-        if not isinstance(week_data, list):
+        # Handle two possible formats: list OR dict with "data"
+        if isinstance(raw, list):
+            week_data = raw
+        elif isinstance(raw, dict) and "data" in raw:
+            week_data = raw["data"]
+        else:
             print(f"⚠️ Week {week}: unexpected format, skipping.")
             continue
 
