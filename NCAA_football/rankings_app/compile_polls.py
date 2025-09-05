@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-compile_polls.py
-
-Compiles all weekly poll JSONs (wrapped with _meta + data)
-into a season-long CSV that matches weekly_rankings_2024.csv.
-"""
-
 import os
 import json
 import pandas as pd
@@ -18,6 +11,17 @@ WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
 OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"weekly_rankings_{YEAR}.csv")
 FLAG_FILE = os.path.join(BASE_DIR, "polls_changed.flag")
 
+def extract_week_data(raw):
+    """Normalize JSON to always return a list of polls."""
+    if isinstance(raw, list):
+        return raw
+    if isinstance(raw, dict):
+        # look for any list inside the dict
+        for key, val in raw.items():
+            if isinstance(val, list) and val and isinstance(val[0], dict) and "poll" in val[0]:
+                return val
+    return []
+
 def compile_all():
     rows = []
     for week in range(1, LAST_WEEK + 1):
@@ -26,15 +30,13 @@ def compile_all():
             print(f"❌ Week {week}: {fname} not found")
             continue
 
-        print(f"Processing {fname}")
+        print(f"📂 Processing {fname}")
         with open(fname, "r") as f:
             raw = json.load(f)
 
-        # ✅ Use the "data" array inside your JSONs
-        if isinstance(raw, dict) and "data" in raw:
-            week_data = raw["data"]
-        else:
-            print(f"⚠️ Week {week}: no 'data' key, skipping.")
+        week_data = extract_week_data(raw)
+        if not week_data:
+            print(f"⚠️ Week {week}: no usable poll data found")
             continue
 
         for poll in week_data:
@@ -64,28 +66,16 @@ def main():
         print("❌ No poll data compiled.")
         return
 
-    # enforce exact column order like 2024
     cols = [
-        "season",
-        "week",
-        "seasonType",
-        "poll",
-        "rank",
-        "school",
-        "conference",
-        "firstPlaceVotes",
-        "points"
+        "season", "week", "seasonType", "poll", "rank",
+        "school", "conference", "firstPlaceVotes", "points"
     ]
     df = df[cols].sort_values(["week", "poll", "rank"]).reset_index(drop=True)
 
-    # make sure the output directory exists
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-
-    # always overwrite
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
-    # flag so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
