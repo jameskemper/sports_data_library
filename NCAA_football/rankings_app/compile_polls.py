@@ -77,6 +77,9 @@ def main():
     # sort for consistency
     df = df.sort_values(["week", "poll", "rank"]).reset_index(drop=True)
 
+    # make sure the output directory exists
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+
     # always overwrite
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
