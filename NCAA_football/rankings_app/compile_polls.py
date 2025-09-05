@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+compile_polls.py
+
+Compiles all weekly poll JSONs (wrapped with _meta + data)
+into a season-long CSV that matches weekly_rankings_2024.csv.
+"""
+
 import os
 import json
 import pandas as pd
@@ -19,26 +26,29 @@ def compile_all():
             print(f"❌ Week {week}: {fname} not found")
             continue
 
-        print(f"📂 Processing {fname}")
+        print(f"Processing {fname}")
         with open(fname, "r") as f:
             raw = json.load(f)
 
-        # Your files have structure {"_meta": {...}, "data": [...]}
+        # ✅ Use the "data" array inside your JSONs
         if isinstance(raw, dict) and "data" in raw:
             week_data = raw["data"]
-        elif isinstance(raw, list):
-            week_data = raw
         else:
-            print(f"⚠️ Week {week}: unexpected format, skipping.")
+            print(f"⚠️ Week {week}: no 'data' key, skipping.")
             continue
 
         for poll in week_data:
+            season = poll.get("season", YEAR)
+            week_num = poll.get("week", week)
+            season_type = poll.get("seasonType", "regular")
+            poll_name = poll.get("poll", "Unknown")
+
             for ranking in poll.get("ranks", []):
                 rows.append({
-                    "season": poll.get("season", YEAR),
-                    "week": poll.get("week", week),
-                    "seasonType": poll.get("seasonType", "regular"),
-                    "poll": poll.get("poll", "Unknown"),
+                    "season": season,
+                    "week": week_num,
+                    "seasonType": season_type,
+                    "poll": poll_name,
                     "rank": ranking.get("rank"),
                     "school": ranking.get("school"),
                     "conference": ranking.get("conference", ""),
@@ -54,16 +64,28 @@ def main():
         print("❌ No poll data compiled.")
         return
 
+    # enforce exact column order like 2024
     cols = [
-        "season", "week", "seasonType", "poll", "rank",
-        "school", "conference", "firstPlaceVotes", "points"
+        "season",
+        "week",
+        "seasonType",
+        "poll",
+        "rank",
+        "school",
+        "conference",
+        "firstPlaceVotes",
+        "points"
     ]
     df = df[cols].sort_values(["week", "poll", "rank"]).reset_index(drop=True)
 
+    # make sure the output directory exists
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+
+    # always overwrite
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
+    # flag so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
