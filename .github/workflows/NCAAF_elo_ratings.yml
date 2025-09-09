@@ -2,13 +2,14 @@ name: NCAAF ELO Ratings app
 
 on:
   schedule:
-    # Every Tuesday at 3PM UTC (10AM CT) — adjust as needed
-    - cron: "0 15 * * 2"
+    - cron: "0 12 * * 1"   # every Monday at noon UTC
   workflow_dispatch:
 
 jobs:
   weekly-elo-update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # allow commits
 
     steps:
       - name: Check if current month is in season (Aug–Jan)
@@ -22,33 +23,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true
           fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install cfbd pandas requests
+          pip install cfbd pandas
 
       - name: Run Weekly ELO Scraper
+        run: python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: |
-          python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
 
       - name: Compile ELO Season Data
-        run: |
-          python NCAA_football/elo_ratings_app/compile_elo_season.py
+        run: python NCAA_football/elo_ratings_app/compile_elo_season.py
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add .
-          git commit -m 'Update 2025 ELO ratings' || echo "No changes to commit"
+          git commit -m "Update 2025 ELO ratings" || echo "No changes to commit"
           git push
