@@ -1,7 +1,7 @@
 name: NCAA Rankings App
 
 permissions:
-  contents: write   # 👈 allows workflow to push back to repo
+  contents: write   # allow workflow to push back to repo
 
 on:
   schedule:
@@ -47,6 +47,8 @@ jobs:
             git config --global user.email "github-actions@github.com"
             git add .
             git commit -m "Update NCAA polls for ${{ env.YEAR }}"
+            # ensure branch is up-to-date to avoid rejected push
+            git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git master || true
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
           else
             echo "No changes to commit."
