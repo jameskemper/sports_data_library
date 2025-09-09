@@ -1,199 +1,50 @@
-name: NCAAF_apps
+#!/usr/bin/env python3
+"""
+weekly_elo_scraper.py
 
-on:
-  workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Why are you running this manually?'
-        required: false
-        default: 'manual run'
-      force:
-        description: 'Bypass the Monday/2025-09-01 gate? (true/false)'
-        required: false
-        default: 'false'
-      week_from:
-        description: 'Start week (1–16)'
-        required: false
-        default: '1'
-      week_to:
-        description: 'End week (1–16)'
-        required: false
-        default: '16'
-      season_type:
-        description: 'regular or postseason'
-        required: false
-        default: 'regular'
-      skip_if_exists:
-        description: 'Skip existing week JSONs? (true/false)'
-        required: false
-        default: 'true'
-  schedule:
-    # Mondays at 12:00 UTC
-    - cron: '0 12 * * 1'
+Fetches weekly ELO ratings from the CFBD API and saves them as CSVs.
+"""
 
-permissions:
-  contents: write
+import os
+import time
+import requests
+import pandas as pd
 
-concurrency:
-  group: ncaaf-apps-${{ github.ref }}
-  cancel-in-progress: true
+YEAR = 2025
+SEASON_TYPE = "regular"
+LAST_WEEK = 20
+SAVE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", f"weeks_{YEAR}")
+os.makedirs(SAVE_DIR, exist_ok=True)
 
-env:
-  YEAR: '2025'
-  CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+API_KEY = os.getenv("CFBD_API_KEY")
+if not API_KEY:
+    raise RuntimeError("CFBD_API_KEY is not set in environment variables")
 
-jobs:
-  gate:
-    runs-on: ubuntu-latest
-    outputs:
-      ok: ${{ steps.chk.outputs.ok }}
-    steps:
-      - id: chk
-        shell: bash
-        run: |
-          # Non-schedule events (manual dispatch, re-runs) bypass the gate
-          if [[ "${GITHUB_EVENT_NAME}" != "schedule" ]]; then
-            if [[ "${GITHUB_EVENT_NAME}" == "workflow_dispatch" && "${{ github.event.inputs.force }}" == "true" ]]; then
-              echo "User forced run via input."
-            else
-              echo "Non-schedule event (${GITHUB_EVENT_NAME}); bypassing date/DOW checks."
-            fi
-            echo "ok=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
+BASE_URL = "https://api.collegefootballdata.com/elo"
 
-          # Schedule runs must be on/after cutoff AND Monday
-          CUTOFF="2025-09-01"
-          TODAY=$(date -u +%F)
-          echo "ok=false" >> "$GITHUB_OUTPUT"
+headers = {"Authorization": f"Bearer {API_KEY}"}
 
-          if [[ "$TODAY" < "$CUTOFF" ]]; then
-            echo "Before cutoff ($TODAY < $CUTOFF); scheduled run blocked."
-            exit 0
-          fi
+def fetch_weekly_elo(year, week):
+    url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
+    resp = requests.get(url, headers=headers)
+    if resp.status_code != 200:
+        print(f"❌ Error fetching year {year} week {week}: {resp.status_code} {resp.text}")
+        return None
+    data = resp.json()
+    if not data:
+        print(f"⚠️ No data for {year} week {week}")
+        return None
+    return pd.DataFrame(data)
 
-          DOW=$(date -u +%u) # 1=Mon ... 7=Sun
-          if [[ "$DOW" -eq 1 ]]; then
-            echo "ok=true" >> "$GITHUB_OUTPUT"
-            echo "On/after cutoff and it's Monday. Proceed."
-          else
-            echo "Not Monday; scheduled run blocked."
-          fi
+def main():
+    for week in range(1, LAST_WEEK + 1):
+        print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
+        df = fetch_weekly_elo(YEAR, week)
+        if df is not None:
+            out_path = os.path.join(SAVE_DIR, f"week_{week:02d}.csv")
+            df.to_csv(out_path, index=False)
+            print(f"✅ Saved {out_path}")
+        time.sleep(1)
 
-  scrape_and_compile:
-    name: "Box scores: scrape + compile"
-    needs: gate
-    if: ${{ needs.gate.outputs.ok == 'true' }}
-    runs-on: ubuntu-latest
-    env:
-      YEAR: ${{ env.YEAR }}
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Verify CFBD_API_KEY is set
-        shell: bash
-        run: |
-          if [ -z "${CFBD_API_KEY}" ]; then
-            echo "CFBD_API_KEY is not set. Add it in Settings → Secrets and variables → Actions."
-            exit 1
-          fi
-          echo "CFBD_API_KEY present (masked)."
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas requests
-
-      - name: Scrape selected weeks
-        working-directory: NCAA_football/box_scores_app
-        env:
-          SEASON_TYPE: ${{ github.event.inputs.season_type }}
-          WFROM: ${{ github.event.inputs.week_from }}
-          WTO: ${{ github.event.inputs.week_to }}
-          SKIP: ${{ github.event.inputs.skip_if_exists }}
-        shell: bash
-        run: |
-          : "${WFROM:=1}"
-          : "${WTO:=16}"
-          : "${SEASON_TYPE:=regular}"
-          : "${SKIP:=true}"
-
-          echo "YEAR=${YEAR}  weeks=${WFROM}-${WTO}  season_type=${SEASON_TYPE}  skip_if_exists=${SKIP}"
-
-          mkdir -p "data/weeks_${YEAR}"
-
-          for w in $(seq "$WFROM" "$WTO"); do
-            cmd="python box_scores_scraper.py --year \"$YEAR\" --week \"$w\" --season-type \"$SEASON_TYPE\""
-            if [[ "$SKIP" == "true" ]]; then
-              cmd="$cmd --skip-if-exists"
-            fi
-            echo "Running: $cmd"
-            eval $cmd || true
-            sleep 1
-          done
-
-      - name: Inspect outputs
-        working-directory: NCAA_football/box_scores_app
-        run: |
-          ls -lah "data/weeks_${YEAR}" || true
-
-      - name: Commit weekly data
-        working-directory: NCAA_football/box_scores_app
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if compgen -G "data/weeks_${YEAR}/*.json" > /dev/null; then
-            git add "data/weeks_${YEAR}"/*.json
-            git commit -m "Add box score week JSON for ${YEAR}" || echo "No changes"
-            git push || true
-          else
-            echo "No box score JSON found; skipping commit."
-          fi
-
-      - name: Run compiler
-        working-directory: NCAA_football/box_scores_app
-        run: python compile_box_scores_season.py
-
-      - name: Commit compiled season file
-        working-directory: NCAA_football/box_scores_app
-        run: |
-          if [ -f "data/boxscores_${YEAR}.csv" ]; then
-            git add "data/boxscores_${YEAR}.csv"
-            git commit -m "Update boxscores_${YEAR}.csv" || echo "No changes"
-            git push || true
-          else
-            echo "No compiled season file yet; skipping commit."
-          fi
-
-  # --- Temporarily disabled while you test box scores ---
-  daily-elo-update:
-    if: ${{ false }}
-    name: ELO update
-    needs: [gate, scrape_and_compile]
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Disabled during box score testing."
-
-  update-rankings:
-    if: ${{ false }}
-    name: Rankings
-    needs: [gate, daily-elo-update]
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Disabled during box score testing."
-
-  team-stats:
-    if: ${{ false }}
-    name: Team stats
-    needs: [gate, update-rankings]
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Disabled during box score testing."
+if __name__ == "__main__":
+    main()
