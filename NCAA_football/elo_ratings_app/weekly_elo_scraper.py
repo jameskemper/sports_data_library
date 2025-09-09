@@ -6,48 +6,45 @@ Fetches weekly ELO ratings from the CFBD API and saves them as CSVs.
 """
 
 import os
+import time
+import requests
 import pandas as pd
-from cfbd import ApiClient, Configuration
-from cfbd.api import RatingsApi
-
-# Get API key from environment
-CFBD_API_KEY = os.getenv("CFBD_API_KEY")
-if not CFBD_API_KEY:
-    raise ValueError("Missing CFBD_API_KEY in environment variables.")
 
 YEAR = 2025
 SEASON_TYPE = "regular"
-LAST_WEEK = 20  # Adjust if the season length changes
+LAST_WEEK = 20
+SAVE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", f"weeks_{YEAR}")
+os.makedirs(SAVE_DIR, exist_ok=True)
 
-# Directory setup
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-os.makedirs(WEEKS_DIR, exist_ok=True)
+API_KEY = os.getenv("CFBD_API_KEY")
+if not API_KEY:
+    raise RuntimeError("CFBD_API_KEY is not set in environment variables")
 
-# Configure API client
-config = Configuration()
-config.api_key["Authorization"] = CFBD_API_KEY
-config.api_key_prefix["Authorization"] = "Bearer"
-api_client = ApiClient(config)
-ratings_api = RatingsApi(api_client)
+BASE_URL = "https://api.collegefootballdata.com/elo"
 
-# Loop through weeks
-for week in range(1, LAST_WEEK + 1):
-    try:
+headers = {"Authorization": f"Bearer {API_KEY}"}
+
+def fetch_weekly_elo(year, week):
+    url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
+    resp = requests.get(url, headers=headers)
+    if resp.status_code != 200:
+        print(f"❌ Error fetching year {year} week {week}: {resp.status_code} {resp.text}")
+        return None
+    data = resp.json()
+    if not data:
+        print(f"⚠️ No data for {year} week {week}")
+        return None
+    return pd.DataFrame(data)
+
+def main():
+    for week in range(1, LAST_WEEK + 1):
         print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
-        elo_data = ratings_api.get_elo_ratings(year=YEAR, week=week, season_type=SEASON_TYPE)
+        df = fetch_weekly_elo(YEAR, week)
+        if df is not None:
+            out_path = os.path.join(SAVE_DIR, f"week_{week:02d}.csv")
+            df.to_csv(out_path, index=False)
+            print(f"✅ Saved {out_path}")
+        time.sleep(1)
 
-        if not elo_data:
-            print(f"⚠️ No data found for Week {week}. Skipping.")
-            continue
-
-        # Convert to DataFrame
-        df = pd.DataFrame([team.to_dict() for team in elo_data])
-
-        # Save weekly CSV
-        out_path = os.path.join(WEEKS_DIR, f"week_{week:02d}.csv")
-        df.to_csv(out_path, index=False)
-        print(f"✅ Saved {out_path}")
-
-    except Exception as e:
-        print(f"❌ Error fetching year {YEAR} week {week}: {e}")
+if __name__ == "__main__":
+    main()
