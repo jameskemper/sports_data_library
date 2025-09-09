@@ -1,8 +1,6 @@
 import cfbd
 import pandas as pd
 import os
-import datetime
-import time
 import sys
 
 # Securely load API key
@@ -22,22 +20,23 @@ configuration.api_key_prefix['Authorization'] = 'Bearer'
 api_config = cfbd.ApiClient(configuration)
 games_api = cfbd.GamesApi(api_config)
 
-# Year and approximate week
-today = datetime.date.today()
 year = 2025
-week = today.isocalendar()[1] - 32  # crude Aug start offset
-week = max(1, min(week, 20))
+script_dir = os.path.dirname(os.path.abspath(__file__))
+weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
+os.makedirs(weekly_dir, exist_ok=True)
 
-print(f"📅 Fetching 2025 Week {week} games...")
+for week in range(1, 21):  # Loop through weeks 1–20
+    print(f"📅 Fetching 2025 Week {week} games...")
+    try:
+        games = games_api.get_games(year=year, week=week)
+    except Exception as e:
+        print(f"❌ Error fetching year {year} week {week}: {e}")
+        continue
 
-try:
-    games = games_api.get_games(year=year, week=week)
-except Exception as e:
-    print(f"❌ Error fetching year {year} week {week}: {e}")
-    time.sleep(1)
-    games = []
+    if not games:
+        print(f"⚠️ No games found for year {year}, week {week}.")
+        continue
 
-if games:
     df_week = pd.DataFrame.from_records([{
         'season': g.season,
         'week': g.week,
@@ -58,13 +57,6 @@ if games:
 
     df_week['margin'] = df_week['home_points'] - df_week['away_points']
 
-    # Save to weeks_2025
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
-    os.makedirs(weekly_dir, exist_ok=True)
-
     weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
     df_week.to_csv(weekly_filename, index=False)
     print(f"✅ Week {week} data saved → {weekly_filename}")
-else:
-    print(f"⚠️ No games found for year {year}, week {week}.")
