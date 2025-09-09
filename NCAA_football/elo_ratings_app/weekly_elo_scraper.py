@@ -13,13 +13,13 @@ configuration.api_key_prefix['Authorization'] = 'Bearer'
 api_config = cfbd.ApiClient(configuration)
 games_api = cfbd.GamesApi(api_config)
 
-# Set the year and calculate the approximate week
+# Set the year and approximate current week
 today = datetime.date.today()
 year = 2025
-week = today.isocalendar()[1] - 32
+week = today.isocalendar()[1] - 32  # rough mapping of ISO week → CFB week
 week = max(1, min(week, 20))
 
-print(f"Fetching 2025 Week {week} games...")
+print(f"Fetching {year} Week {week} games...")
 
 try:
     games = games_api.get_games(year=year, week=week)
@@ -47,14 +47,17 @@ if games:
         'conference_game': int(g.conference_game)
     } for g in games])
 
-    df_week['margin'] = df_week['home_points'] - df_week['away_points']
+    if df_week.empty:
+        print(f"No valid data returned for year {year}, week {week}. Skipping save.")
+    else:
+        df_week['margin'] = df_week['home_points'] - df_week['away_points']
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
-    os.makedirs(weekly_dir, exist_ok=True)
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
+        os.makedirs(weekly_dir, exist_ok=True)
 
-    weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
-    df_week.to_csv(weekly_filename, index=False)
-    print(f"Week {week} data saved to {weekly_filename}")
+        weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
+        df_week.to_csv(weekly_filename, index=False)
+        print(f"Week {week} data saved to {weekly_filename}")
 else:
     print(f"No games found for year {year}, week {week}.")
