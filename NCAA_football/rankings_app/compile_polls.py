@@ -58,7 +58,7 @@ def compile_all():
                     "seasonType": season_type,
                     "poll": poll_name,
                     "rank": ranking.get("rank"),
-                    "school": ranking.get("school"),
+                    "team": ranking.get("school"),
                     "conference": ranking.get("conference", ""),
                     "firstPlaceVotes": ranking.get("firstPlaceVotes"),
                     "points": ranking.get("points")
@@ -75,7 +75,7 @@ def main():
     # enforce consistent column order
     cols = [
         "season", "week", "seasonType", "poll",
-        "rank", "school", "conference", "firstPlaceVotes", "points"
+        "rank", "team", "conference", "firstPlaceVotes", "points"
     ]
     df = df[cols]
 
