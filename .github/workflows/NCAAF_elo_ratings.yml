@@ -1,31 +1,74 @@
-import os
-import pandas as pd
+name: NCAA Football ELO Ratings
 
-# Base directory = directory where this script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(script_dir, "data")
-weeks_folder = os.path.join(data_dir, "weeks_2025")
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 6"   # Saturdays 12:00 UTC
 
-# Ensure folder exists so os.listdir doesn't blow up
-os.makedirs(weeks_folder, exist_ok=True)
+# 👇 Required so GITHUB_TOKEN can push
+permissions:
+  contents: write
 
-weekly_files = sorted(
-    os.path.join(weeks_folder, f)
-    for f in os.listdir(weeks_folder)
-    if f.endswith(".csv")
-)
+jobs:
+  weekly-elo-update:
+    runs-on: ubuntu-latest
 
-dfs = []
-for file in weekly_files:
-    df = pd.read_csv(file)
-    if not df.empty:
-        dfs.append(df)
+    steps:
+      - name: Check if current month is in season (Aug–Jan)
+        run: |
+          month=$(date +%m)
+          if [ "$month" -lt 8 ] && [ "$month" -ne 1 ]; then
+            echo "Out of season (Feb–Jul). Skipping run."
+            exit 0
+          fi
 
-if not dfs:
-    print("No weekly files found to compile.")
-    raise SystemExit(0)
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-combined = pd.concat(dfs, ignore_index=True)
-combined_filename = os.path.join(data_dir, "elo_ratings_2025.csv")
-combined.to_csv(combined_filename, index=False)
-print(f"Compiled season file saved to {combined_filename}")
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cfbd pandas requests python-dateutil
+
+      - name: Run Weekly ELO Scraper
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
+
+      - name: Compile ELO Season Data
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          python NCAA_football/elo_ratings_app/compile_elo_season.py
+
+      - name: Commit and Push Changes (only if changes exist)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+          # bail out early if no changes
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "Update 2025 ELO ratings"
+
+          # ensure remote uses token (fixes 403)
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
+          # push back to the triggering branch
+          git push origin HEAD:${{ github.ref_name }}
