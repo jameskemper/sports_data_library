@@ -2,58 +2,59 @@
 """
 weekly_elo_scraper.py
 
-Fetches weekly ELO ratings from the CFBD API and saves them as CSVs.
+Fetch weekly ELO ratings from the CollegeFootballData API
+and save raw JSON to data/weeks_<YEAR>/week_##.json.
 """
 
 import os
-import time
+import json
 import requests
-import pandas as pd
+from datetime import datetime
 
+# Config
+API_KEY = os.environ["CFBD_API_KEY"]
 YEAR = 2025
 SEASON_TYPE = "regular"
-LAST_WEEK = 20
-SAVE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", f"weeks_{YEAR}")
-os.makedirs(SAVE_DIR, exist_ok=True)
+LAST_WEEK = 20  # adjust if season has fewer/more weeks
 
-API_KEY = os.getenv("CFBD_API_KEY")
-if not API_KEY:
-    raise RuntimeError("CFBD_API_KEY is not set in environment variables")
+# Paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
+os.makedirs(DATA_DIR, exist_ok=True)
 
-BASE_URL = "https://api.collegefootballdata.com/elo"
-headers = {"Authorization": f"Bearer {API_KEY}"}
+# API base
+BASE_URL = "https://api.collegefootballdata.com/ratings/elo"
+HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
-def fetch_weekly_elo(year, week):
+def fetch_weekly_elo(year: int, week: int):
+    """Fetch ELO ratings for a specific week."""
     url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
-    resp = requests.get(url, headers=headers)
+    resp = requests.get(url, headers=HEADERS, timeout=30)
 
     if resp.status_code != 200:
-        print(f"❌ HTTP {resp.status_code} for {year} week {week}")
-        print(resp.text[:300])  # show first 300 chars of response
+        print(f"❌ Error {resp.status_code} fetching year {year} week {week}")
         return None
 
     try:
-        data = resp.json()
+        return resp.json()
     except Exception:
         print(f"❌ Could not decode JSON for {year} week {week}")
-        print("Response text preview:", resp.text[:300])
+        print("Response preview:", resp.text[:200])
         return None
 
-    if not data:
-        print(f"⚠️ No data for {year} week {week}")
-        return None
-
-    return pd.DataFrame(data)
+def save_weekly_file(week: int, data: dict):
+    """Save weekly data as JSON."""
+    fname = os.path.join(DATA_DIR, f"week_{week:02d}.json")
+    with open(fname, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"✅ Saved {fname}")
 
 def main():
     for week in range(1, LAST_WEEK + 1):
         print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
-        df = fetch_weekly_elo(YEAR, week)
-        if df is not None:
-            out_path = os.path.join(SAVE_DIR, f"week_{week:02d}.csv")
-            df.to_csv(out_path, index=False)
-            print(f"✅ Saved {out_path}")
-        time.sleep(1)
+        data = fetch_weekly_elo(YEAR, week)
+        if data:
+            save_weekly_file(week, data)
 
 if __name__ == "__main__":
     main()
