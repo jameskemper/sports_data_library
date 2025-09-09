@@ -3,20 +3,18 @@ import pandas as pd
 import os
 import sys
 
-# Securely load API key
+# Load API key from GitHub Secrets
 api_key = os.getenv("CFBD_API_KEY")
 
-# Sanity check
 if not api_key:
-    sys.exit("❌ No API key found. Did you set CFBD_API_KEY in GitHub Secrets?")
+    sys.exit("❌ No API key set. Add CFBD_API_KEY in GitHub Secrets.")
 if api_key.startswith("Bearer"):
-    sys.exit("❌ API key misconfigured: remove 'Bearer ' prefix from secret.")
+    sys.exit("❌ API key misconfigured: remove 'Bearer ' from CFBD_API_KEY secret.")
 
 # Configure CFBD client
 configuration = cfbd.Configuration()
 configuration.api_key['Authorization'] = api_key
 configuration.api_key_prefix['Authorization'] = 'Bearer'
-
 api_config = cfbd.ApiClient(configuration)
 games_api = cfbd.GamesApi(api_config)
 
@@ -25,8 +23,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
 os.makedirs(weekly_dir, exist_ok=True)
 
-for week in range(1, 21):  # Loop through weeks 1–20
-    print(f"📅 Fetching 2025 Week {week} games...")
+# Fetch weeks 1–20
+for week in range(1, 21):
+    print(f"📅 Fetching {year} Week {week} games...")
     try:
         games = games_api.get_games(year=year, week=week)
     except Exception as e:
@@ -34,7 +33,7 @@ for week in range(1, 21):  # Loop through weeks 1–20
         continue
 
     if not games:
-        print(f"⚠️ No games found for year {year}, week {week}.")
+        print(f"⚠️ No games found for {year}, week {week}.")
         continue
 
     df_week = pd.DataFrame.from_records([{
@@ -59,4 +58,4 @@ for week in range(1, 21):  # Loop through weeks 1–20
 
     weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
     df_week.to_csv(weekly_filename, index=False)
-    print(f"✅ Week {week} data saved → {weekly_filename}")
+    print(f"✅ Week {week} saved → {weekly_filename}")
