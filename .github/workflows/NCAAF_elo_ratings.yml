@@ -1,18 +1,19 @@
 name: NCAAF Elo Ratings app
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 12 * * 2"   # every Tuesday at noon UTC
+    - cron: "0 12 * * 2"   # Runs every Tuesday at noon UTC
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
-    env:
-      CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # important so rebase works
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -20,24 +21,22 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Debug API key
         run: |
-          if [ -z "$CFBD_API_KEY" ]; then
-            echo "❌ CFBD_API_KEY not found"
-            exit 1
-          else
-            echo "✅ CFBD_API_KEY is set"
-          fi
+          python -m pip install --upgrade pip
+          pip install requests pandas
 
-      - name: Run weekly ELO scraper
-        run: python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
+      - name: Run weekly scraper
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
+          python NCAA_football/elo_ratings_app/compile_elo_season.py
 
       - name: Commit and push data
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git pull --rebase origin master
           git add NCAA_football/elo_ratings_app/data/*
           git commit -m "Update ELO data" || echo "No changes to commit"
-          git push
+          git push origin master
