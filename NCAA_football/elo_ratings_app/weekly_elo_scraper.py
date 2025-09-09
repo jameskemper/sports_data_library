@@ -1,61 +1,64 @@
-import cfbd
-import pandas as pd
+#!/usr/bin/env python3
+"""
+weekly_elo_scraper.py
+
+Fetches weekly ELO ratings from the CFBD API and saves them as CSVs.
+"""
+
 import os
-import sys
+import time
+import pandas as pd
+import cfbd
+from cfbd.api import EloApi
+from cfbd.rest import ApiException
+from cfbd.configuration import Configuration
 
-# Load API key from GitHub Secrets
-api_key = os.getenv("CFBD_API_KEY")
+# --- CONFIG ---
+YEAR = 2025
+LAST_WEEK = 20
+SAVE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", f"weeks_{YEAR}")
+os.makedirs(SAVE_DIR, exist_ok=True)
 
-if not api_key:
-    sys.exit("❌ No API key set. Add CFBD_API_KEY in GitHub Secrets.")
-if api_key.startswith("Bearer"):
-    sys.exit("❌ API key misconfigured: remove 'Bearer ' from CFBD_API_KEY secret.")
+# --- AUTHENTICATION ---
+configuration = Configuration()
+configuration.api_key["Authorization"] = os.getenv("CFBD_API_KEY")
+configuration.api_key_prefix["Authorization"] = "Bearer"
+api_client = cfbd.ApiClient(configuration)
+elo_api = EloApi(api_client)
 
-# Configure CFBD client
-configuration = cfbd.Configuration()
-configuration.api_key['Authorization'] = api_key
-configuration.api_key_prefix['Authorization'] = 'Bearer'
-api_config = cfbd.ApiClient(configuration)
-games_api = cfbd.GamesApi(api_config)
-
-year = 2025
-script_dir = os.path.dirname(os.path.abspath(__file__))
-weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
-os.makedirs(weekly_dir, exist_ok=True)
-
-# Fetch weeks 1–20
-for week in range(1, 21):
-    print(f"📅 Fetching {year} Week {week} games...")
+def fetch_weekly_elo(year, week):
+    """Fetch ELO ratings for a given year and week."""
     try:
-        games = games_api.get_games(year=year, week=week)
-    except Exception as e:
-        print(f"❌ Error fetching year {year} week {week}: {e}")
-        continue
+        ratings = elo_api.get_elo_ratings(year=year, week=week, season_type="regular")
+        if not ratings:
+            print(f"⚠️ No ELO data for {year} week {week}")
+            return None
 
-    if not games:
-        print(f"⚠️ No games found for {year}, week {week}.")
-        continue
+        rows = []
+        for r in ratings:
+            rows.append({
+                "season": r.season,
+                "week": r.week,
+                "season_type": r.season_type,
+                "team": r.team,
+                "elo": r.elo,
+                "elo_prob": r.elo_prob
+            })
+        return pd.DataFrame(rows)
 
-    df_week = pd.DataFrame.from_records([{
-        'season': g.season,
-        'week': g.week,
-        'home_team': g.home_team,
-        'home_id': g.home_id,
-        'home_conference': g.home_conference,
-        'home_points': g.home_points,
-        'home_pregame_elo': g.home_pregame_elo,
-        'home_postgame_elo': g.home_postgame_elo,
-        'away_team': g.away_team,
-        'away_id': g.away_id,
-        'away_conference': g.away_conference,
-        'away_points': g.away_points,
-        'away_pregame_elo': g.away_pregame_elo,
-        'away_postgame_elo': g.away_postgame_elo,
-        'conference_game': int(g.conference_game)
-    } for g in games])
+    except ApiException as e:
+        print(f"❌ API error fetching {year} week {week}: {e}")
+        return None
 
-    df_week['margin'] = df_week['home_points'] - df_week['away_points']
+def main():
+    for week in range(1, LAST_WEEK + 1):
+        print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
+        df = fetch_weekly_elo(YEAR, week)
+        if df is not None:
+            save_path = os.path.join(SAVE_DIR, f"week_{week:02d}.csv")
+            df.to_csv(save_path, index=False)
+            print(f"✅ Saved: {save_path}")
+        time.sleep(1)  # avoid hammering the API
 
-    weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
-    df_week.to_csv(weekly_filename, index=False)
-    print(f"✅ Week {week} saved → {weekly_filename}")
+if __name__ == "__main__":
+    main()
