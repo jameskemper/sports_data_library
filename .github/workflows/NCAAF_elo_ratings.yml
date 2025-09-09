@@ -1,52 +1,43 @@
-name: NCAAF ELO Ratings app
+name: NCAAF Elo Ratings app
 
 on:
-  schedule:
-    - cron: "0 12 * * 1"   # every Monday at noon UTC
   workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 2"   # every Tuesday at noon UTC
 
 jobs:
-  weekly-elo-update:
+  scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # allow commits
+    env:
+      CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
     steps:
-      - name: Check if current month is in season (Aug–Jan)
-        run: |
-          month=$(date +%m)
-          if [ "$month" -lt 8 ] && [ "$month" -ne 1 ]; then
-            echo "Out of season (Feb–Jul). Skipping run."
-            exit 0
-          fi
-
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install cfbd pandas
+        run: pip install -r requirements.txt
 
-      - name: Run Weekly ELO Scraper
+      - name: Debug API key
+        run: |
+          if [ -z "$CFBD_API_KEY" ]; then
+            echo "❌ CFBD_API_KEY not found"
+            exit 1
+          else
+            echo "✅ CFBD_API_KEY is set"
+          fi
+
+      - name: Run weekly ELO scraper
         run: python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
-        env:
-          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
-      - name: Compile ELO Season Data
-        run: python NCAA_football/elo_ratings_app/compile_elo_season.py
-
-      - name: Commit and Push Changes
+      - name: Commit and push data
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Update 2025 ELO ratings" || echo "No changes to commit"
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add NCAA_football/elo_ratings_app/data/*
+          git commit -m "Update ELO data" || echo "No changes to commit"
           git push
