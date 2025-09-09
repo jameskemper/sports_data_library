@@ -1,9 +1,9 @@
-name: NCAA Football ELO Ratings
+name: NCAAF ELO Ratings
 
 on:
-  workflow_dispatch:  # allow manual runs
+  workflow_dispatch:
   schedule:
-    - cron: "0 12 * * 6"   # runs every Saturday at 12:00 UTC
+    - cron: "0 12 * * 6"   # every Saturday at 12:00 UTC
 
 jobs:
   weekly-elo-update:
@@ -54,4 +54,5 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git add .
           git commit -m 'Update 2025 ELO ratings' || echo "No changes to commit"
-          git push origin HEAD:${{ github.ref }}
+          # push using token
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
