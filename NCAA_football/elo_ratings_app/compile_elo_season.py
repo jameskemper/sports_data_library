@@ -6,6 +6,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(script_dir, "data")
 weeks_folder = os.path.join(data_dir, "weeks_2025")
 
+# Ensure the weeks folder exists (prevents FileNotFoundError)
+os.makedirs(weeks_folder, exist_ok=True)
+
 # Gather all weekly CSV files
 weekly_files = [os.path.join(weeks_folder, f) for f in os.listdir(weeks_folder) if f.endswith('.csv')]
 
