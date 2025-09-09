@@ -13,7 +13,8 @@ weekly_files = [os.path.join(weeks_folder, f) for f in os.listdir(weeks_folder) 
 dfs = []
 for file in sorted(weekly_files):
     df = pd.read_csv(file)
-    dfs.append(df)
+    if not df.empty:
+        dfs.append(df)
 
 # Save combined file
 if dfs:
