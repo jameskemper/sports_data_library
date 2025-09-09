@@ -21,19 +21,28 @@ if not API_KEY:
     raise RuntimeError("CFBD_API_KEY is not set in environment variables")
 
 BASE_URL = "https://api.collegefootballdata.com/elo"
-
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
 def fetch_weekly_elo(year, week):
     url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
     resp = requests.get(url, headers=headers)
+
     if resp.status_code != 200:
-        print(f"❌ Error fetching year {year} week {week}: {resp.status_code} {resp.text}")
+        print(f"❌ HTTP {resp.status_code} for {year} week {week}")
+        print(resp.text[:300])  # show first 300 chars of response
         return None
-    data = resp.json()
+
+    try:
+        data = resp.json()
+    except Exception:
+        print(f"❌ Could not decode JSON for {year} week {week}")
+        print("Response text preview:", resp.text[:300])
+        return None
+
     if not data:
         print(f"⚠️ No data for {year} week {week}")
         return None
+
     return pd.DataFrame(data)
 
 def main():
