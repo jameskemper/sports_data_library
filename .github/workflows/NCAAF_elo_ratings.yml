@@ -1,4 +1,4 @@
-name: NCAAF ELO Ratings App
+name: NCAA Football ELO Ratings
 
 on:
   workflow_dispatch:  # allow manual runs
@@ -22,6 +22,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -35,10 +36,14 @@ jobs:
           pip install cfbd pandas requests python-dateutil
 
       - name: Run Weekly ELO Scraper
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
           python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
 
       - name: Compile ELO Season Data
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
           python NCAA_football/elo_ratings_app/compile_elo_season.py
 
@@ -49,3 +54,5 @@ jobs:
           git add .
           git commit -m 'Update 2025 ELO ratings' || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
