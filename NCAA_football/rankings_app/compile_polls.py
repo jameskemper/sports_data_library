@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+compile_polls.py
+
+Compiles all weekly poll JSONs into a season-long CSV.
+Matches the exact format of weekly_rankings_2024.csv.
+"""
+
 import os
 import json
 import pandas as pd
@@ -10,17 +17,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
 OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"weekly_rankings_{YEAR}.csv")
 FLAG_FILE = os.path.join(BASE_DIR, "polls_changed.flag")
-
-def extract_week_data(raw):
-    """Normalize JSON to always return a list of polls."""
-    if isinstance(raw, list):
-        return raw
-    if isinstance(raw, dict):
-        # look for any list inside the dict
-        for key, val in raw.items():
-            if isinstance(val, list) and val and isinstance(val[0], dict) and "poll" in val[0]:
-                return val
-    return []
 
 def compile_all():
     rows = []
@@ -34,17 +30,18 @@ def compile_all():
         with open(fname, "r") as f:
             raw = json.load(f)
 
-        week_data = extract_week_data(raw)
-        if not week_data:
-            print(f"⚠️ Week {week}: no usable poll data found")
+        # Expecting structure: { "season": ..., "seasonType": ..., "week": ..., "polls": [...] }
+        season = raw.get("season", YEAR)
+        season_type = raw.get("seasonType", "regular")
+        week_num = raw.get("week", week)
+
+        polls = raw.get("polls", [])
+        if not polls:
+            print(f"⚠️ Week {week}: no polls found")
             continue
 
-        for poll in week_data:
-            season = poll.get("season", YEAR)
-            week_num = poll.get("week", week)
-            season_type = poll.get("seasonType", "regular")
+        for poll in polls:
             poll_name = poll.get("poll", "Unknown")
-
             for ranking in poll.get("ranks", []):
                 rows.append({
                     "season": season,
@@ -66,16 +63,28 @@ def main():
         print("❌ No poll data compiled.")
         return
 
+    # enforce exact column order like 2024
     cols = [
-        "season", "week", "seasonType", "poll", "rank",
-        "school", "conference", "firstPlaceVotes", "points"
+        "season",
+        "week",
+        "seasonType",
+        "poll",
+        "rank",
+        "school",
+        "conference",
+        "firstPlaceVotes",
+        "points"
     ]
-    df = df[cols].sort_values(["week", "poll", "rank"]).reset_index(drop=True)
+    df = df[cols]
 
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    # sort for consistency
+    df = df.sort_values(["week", "poll", "rank"]).reset_index(drop=True)
+
+    # always overwrite
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
+    # flag so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
