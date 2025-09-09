@@ -35,11 +35,39 @@ def fetch_week(week):
         return None
 
     # normalize: if it's a list, flatten to first element
-    if isinstance(data, list):
+    if isinstance(data, list) and len(data) > 0:
         data = data[0]
 
     return data
 
 def save_week(week, data):
     """Save week data to JSON file."""
-    fname = os.
+    fname = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
+    with open(fname, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"💾 Week {week}: New data saved.")
+
+def existing_data(week):
+    """Load existing file if present."""
+    fname = os.path.join(WEEKS_DIR, f"week_{week:02}.json")
+    if not os.path.exists(fname):
+        return None
+    with open(fname, "r") as f:
+        return json.load(f)
+
+def main():
+    for week in range(1, LAST_WEEK + 1):
+        new_data = fetch_week(week)
+        if not new_data:
+            print(f"⚠️ Week {week}: No data returned, skipping.")
+            continue
+
+        old_data = existing_data(week)
+        if old_data == new_data:
+            print(f"⏩ Week {week}: No change, skipping save.")
+            continue
+
+        save_week(week, new_data)
+
+if __name__ == "__main__":
+    main()
