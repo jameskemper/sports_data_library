@@ -1,62 +1,70 @@
-import os
 import cfbd
 import pandas as pd
+import os
+import datetime
+import time
+import sys
 
-# ----- AUTH -----
+# Securely load API key
 api_key = os.getenv("CFBD_API_KEY")
-if not api_key or not api_key.strip():
-    raise SystemExit("CFBD_API_KEY not set. Exiting.")
 
+# Sanity check
+if not api_key:
+    sys.exit("❌ No API key found. Did you set CFBD_API_KEY in GitHub Secrets?")
+if api_key.startswith("Bearer"):
+    sys.exit("❌ API key misconfigured: remove 'Bearer ' prefix from secret.")
+
+# Configure CFBD client
 configuration = cfbd.Configuration()
-configuration.api_key["Authorization"] = api_key.strip()
-configuration.api_key_prefix["Authorization"] = "Bearer"
+configuration.api_key['Authorization'] = api_key
+configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-api_client = cfbd.ApiClient(configuration)
-games_api = cfbd.GamesApi(api_client)
+api_config = cfbd.ApiClient(configuration)
+games_api = cfbd.GamesApi(api_config)
 
+# Year and approximate week
+today = datetime.date.today()
 year = 2025
-season_type = "regular"
+week = today.isocalendar()[1] - 32  # crude Aug start offset
+week = max(1, min(week, 20))
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-weekly_dir = os.path.join(script_dir, "data", f"weeks_{year}")
-os.makedirs(weekly_dir, exist_ok=True)
+print(f"📅 Fetching 2025 Week {week} games...")
 
-# ---- loop through all weeks (1–20) ----
-for week in range(1, 21):
-    try:
-        games = games_api.get_games(year=year, week=week, season_type=season_type)
-    except Exception as e:
-        print(f"Error fetching {year} week {week}: {e}")
-        continue
+try:
+    games = games_api.get_games(year=year, week=week)
+except Exception as e:
+    print(f"❌ Error fetching year {year} week {week}: {e}")
+    time.sleep(1)
+    games = []
 
-    if not games:
-        print(f"No games found for {year} week {week}.")
-        continue
+if games:
+    df_week = pd.DataFrame.from_records([{
+        'season': g.season,
+        'week': g.week,
+        'home_team': g.home_team,
+        'home_id': g.home_id,
+        'home_conference': g.home_conference,
+        'home_points': g.home_points,
+        'home_pregame_elo': g.home_pregame_elo,
+        'home_postgame_elo': g.home_postgame_elo,
+        'away_team': g.away_team,
+        'away_id': g.away_id,
+        'away_conference': g.away_conference,
+        'away_points': g.away_points,
+        'away_pregame_elo': g.away_pregame_elo,
+        'away_postgame_elo': g.away_postgame_elo,
+        'conference_game': int(g.conference_game)
+    } for g in games])
 
-    rows = []
-    for g in games:
-        rows.append({
-            "season": g.season,
-            "week": g.week,
-            "home_team": g.home_team,
-            "home_id": g.home_id,
-            "home_conference": g.home_conference,
-            "home_points": g.home_points,
-            "home_pregame_elo": g.home_pregame_elo,
-            "home_postgame_elo": g.home_postgame_elo,
-            "away_team": g.away_team,
-            "away_id": g.away_id,
-            "away_conference": g.away_conference,
-            "away_points": g.away_points,
-            "away_pregame_elo": g.away_pregame_elo,
-            "away_postgame_elo": g.away_postgame_elo,
-            "conference_game": int(g.conference_game),
-        })
+    df_week['margin'] = df_week['home_points'] - df_week['away_points']
 
-    df_week = pd.DataFrame(rows)
-    if not df_week.empty:
-        out_file = os.path.join(weekly_dir, f"week_{week}.csv")
-        df_week.to_csv(out_file, index=False)
-        print(f"Saved {year} week {week} → {out_file}")
-    else:
-        print(f"Week {week} had no data to save.")
+    # Save to weeks_2025
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
+    os.makedirs(weekly_dir, exist_ok=True)
+
+    weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
+    df_week.to_csv(weekly_filename, index=False)
+    print(f"✅ Week {week} data saved → {weekly_filename}")
+else:
+    print(f"⚠️ No games found for year {year}, week {week}.")
