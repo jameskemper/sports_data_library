@@ -3,7 +3,7 @@
 compile_polls.py
 
 Compiles all weekly poll JSONs into a season-long CSV.
-Matches the exact format of weekly_rankings_2024.csv.
+Handles both dict and list JSON root structures.
 """
 
 import os
@@ -18,6 +18,17 @@ WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
 OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"weekly_rankings_{YEAR}.csv")
 FLAG_FILE = os.path.join(BASE_DIR, "polls_changed.flag")
 
+def load_json(fname):
+    """Load JSON and normalize root to a dict."""
+    with open(fname, "r") as f:
+        raw = json.load(f)
+    # If root is a list, take the first element
+    if isinstance(raw, list):
+        if not raw:
+            return {}
+        return raw[0]
+    return raw
+
 def compile_all():
     rows = []
     for week in range(1, LAST_WEEK + 1):
@@ -27,10 +38,8 @@ def compile_all():
             continue
 
         print(f"📂 Processing {fname}")
-        with open(fname, "r") as f:
-            raw = json.load(f)
+        raw = load_json(fname)
 
-        # Expecting structure: { "season": ..., "seasonType": ..., "week": ..., "polls": [...] }
         season = raw.get("season", YEAR)
         season_type = raw.get("seasonType", "regular")
         week_num = raw.get("week", week)
@@ -63,28 +72,20 @@ def main():
         print("❌ No poll data compiled.")
         return
 
-    # enforce exact column order like 2024
+    # enforce consistent column order
     cols = [
-        "season",
-        "week",
-        "seasonType",
-        "poll",
-        "rank",
-        "school",
-        "conference",
-        "firstPlaceVotes",
-        "points"
+        "season", "week", "seasonType", "poll",
+        "rank", "school", "conference", "firstPlaceVotes", "points"
     ]
     df = df[cols]
 
     # sort for consistency
     df = df.sort_values(["week", "poll", "rank"]).reset_index(drop=True)
 
-    # always overwrite
+    # overwrite output
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"✅ Rebuilt {OUTPUT_FILE} with {len(df)} rows.")
 
-    # flag so workflow commits
     with open(FLAG_FILE, "w") as f:
         f.write("true")
 
