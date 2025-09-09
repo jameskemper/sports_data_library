@@ -1,4 +1,4 @@
-name: NCAAF ELO Ratings
+name: NCAAF ELO Ratings App
 
 on:
   workflow_dispatch:  # allow manual runs
