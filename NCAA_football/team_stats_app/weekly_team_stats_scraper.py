@@ -2,81 +2,66 @@
 """
 weekly_team_stats_scraper.py
 
-Fetches CFBD advanced team stats for one week (auto-increment or specified),
-and saves a per-week CSV to:
-  shiny_app/team_stats_app/data/weeks_<YEAR>/advanced_stats_week_<WW>.csv
+Fetches advanced team stats from the CFBD API for all weeks played
+up to the current week of the season. Saves each week into
+data/weeks_<YEAR>/advanced_stats_week_##.csv
 """
 
 import os
 import requests
 import pandas as pd
+from datetime import datetime
 
-# Load API key from environment (set via CFBD_API_KEY)
+# Config
 API_KEY = os.environ["CFBD_API_KEY"]
-
-# Configuration
-YEAR        = 2025       # practicing with 2025 data
+YEAR = int(os.environ.get("YEAR", "2025"))
 SEASON_TYPE = "regular"
-CLASSIF     = "fbs"
-WEEK        = None       # if None, auto-picks next missing week
-LAST_WEEK   = 16         # adjust if needed
 
-# Base paths
-BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
-DATA_ROOT = os.path.join(BASE_DIR, "data")
-WEEKS_DIR = os.path.join(DATA_ROOT, f"weeks_{YEAR}")
+# API base
+BASE_URL = "https://api.collegefootballdata.com/stats/season/advanced"
+HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
-os.makedirs(WEEKS_DIR, exist_ok=True)
+# Paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
+os.makedirs(DATA_DIR, exist_ok=True)
 
-# Team name corrections (extend if you spot others)
-TEAM_CORR = {
-    "San JosÃ© State": "San Jose State",
-    "San Jos\303\251 State": "San Jose State",
-    "San José State": "San Jose State",
-}
+def fetch_week_stats(year: int, week: int):
+    """Fetch advanced team stats for a specific week."""
+    url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
+    resp = requests.get(url, headers=HEADERS)
+    resp.raise_for_status()
+    data = resp.json()
+    if not data:
+        print(f"No data returned for week {week}")
+        return None
+    return pd.DataFrame(data)
 
-def existing_weeks():
-    """Return sorted list of already-fetched week numbers."""
-    files = [f for f in os.listdir(WEEKS_DIR) if f.startswith("advanced_stats_week_") and f.endswith(".csv")]
-    weeks = [int(f.split("_")[-1].split(".")[0]) for f in files]
-    return sorted(weeks)
-
-def next_week():
-    """Choose the next missing week, or None if all done."""
-    seen = set(existing_weeks())
-    for w in range(1, LAST_WEEK + 1):
-        if w not in seen:
-            return w
-    return None
-
-def fetch_week(week: int) -> pd.DataFrame:
-    """Fetch advanced stats for a single week and return a cleaned DataFrame."""
-    url = "https://api.collegefootballdata.com/stats/season/advanced"
-    headers = {"Authorization": f"Bearer {API_KEY}"}
-    params = {
-        "year": YEAR,
-        "seasonType": SEASON_TYPE,
-        "classification": CLASSIF,
-        "excludeGarbageTime": True,
-        "startWeek": week,
-        "endWeek": week
-    }
-    r = requests.get(url, headers=headers, params=params)
-    r.raise_for_status()
-    df = pd.json_normalize(r.json())
-    return df.replace(TEAM_CORR)
+def get_current_week(year: int):
+    """Find the current week number from the CFBD API."""
+    url = f"https://api.collegefootballdata.com/calendar?year={year}&seasonType={SEASON_TYPE}"
+    resp = requests.get(url, headers=HEADERS)
+    resp.raise_for_status()
+    calendar = resp.json()
+    # Find the latest week with startDate <= today
+    today = datetime.utcnow().date()
+    played_weeks = [c["week"] for c in calendar if "startDate" in c and datetime.fromisoformat(c["startDate"][:-1]).date() <= today]
+    return max(played_weeks) if played_weeks else 1
 
 def main():
-    wk = WEEK or next_week()
-    if wk is None:
-        print("All weeks fetched.")
-        return
+    current_week = get_current_week(YEAR)
+    print(f"Fetching advanced stats for weeks 1 through {current_week}…")
 
-    print(f"Fetching advanced stats for week {wk}…")
-    df = fetch_week(wk)
-    out_path = os.path.join(WEEKS_DIR, f"advanced_stats_week_{wk:02d}.csv")
-    df.to_csv(out_path, index=False)
-    print(f"Saved to {out_path}")
+    for week in range(1, current_week + 1):
+        out_path = os.path.join(DATA_DIR, f"advanced_stats_week_{week:02d}.csv")
+        if os.path.exists(out_path):
+            print(f"Week {week} already exists, skipping.")
+            continue
+
+        df = fetch_week_stats(YEAR, week)
+        if df is not None:
+            df.to_csv(out_path, index=False)
+            print(f"Saved to {out_path}")
 
 if __name__ == "__main__":
     main()
