@@ -1,60 +1,41 @@
-#!/usr/bin/env python3
-"""
-compile_elo_season.py
+name: NCAA Football ELO Ratings
 
-Compile weekly ELO JSON files into a single CSV for 2025.
-"""
+on:
+  schedule:
+    - cron: "0 6 * * *"   # run daily at 6 AM UTC
+  workflow_dispatch:       # allow manual runs
 
-import os
-import json
-import pandas as pd
+jobs:
+  update-elo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-YEAR = 2025
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"elo_{YEAR}.csv")
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cfbd pandas requests
 
-def load_week(week_file):
-    """Load one week's JSON and flatten into DataFrame."""
-    with open(week_file, "r") as f:
-        data = json.load(f)
+      - name: Run weekly scraper
+        run: python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
-    if not data:
-        return pd.DataFrame()
+      - name: Compile season file
+        run: python NCAA_football/elo_ratings_app/compile_elo_season.py
 
-    df = pd.json_normalize(data)
-    df["week"] = int(os.path.basename(week_file).split("_")[1].split(".")[0])
-    return df
-
-def main():
-    if not os.path.exists(DATA_DIR):
-        print(f"⚠️ No weekly directory found for {YEAR}")
-        return
-
-    all_files = sorted(
-        [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith(".json")]
-    )
-
-    if not all_files:
-        print("⚠️ No weekly files found to compile yet.")
-        return
-
-    dfs = []
-    for f in all_files:
-        try:
-            df = load_week(f)
-            if not df.empty:
-                dfs.append(df)
-        except Exception as e:
-            print(f"⚠️ Could not load {f}: {e}")
-
-    if dfs:
-        final_df = pd.concat(dfs, ignore_index=True)
-        final_df.to_csv(OUTPUT_FILE, index=False)
-        print(f"✅ Compiled season file saved to {OUTPUT_FILE}")
-    else:
-        print("⚠️ No data to compile.")
-
-if __name__ == "__main__":
-    main()
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add NCAA_football/elo_ratings_app/data/
+          git commit -m "Update 2025 ELO data [skip ci]" || echo "No changes to commit"
+          git push
