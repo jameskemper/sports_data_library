@@ -1,4 +1,4 @@
-name: NCAA Football ELO Ratings
+name: NCAAF ELO Ratings app
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   #  allow workflow to push commits
+  contents: write   # 👈 allow workflow to push commits
 
 jobs:
   update-elo:
