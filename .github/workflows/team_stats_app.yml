@@ -1,8 +1,8 @@
-name: Weekly Team Stats Update
+name: NCAAF Team Stats app
 
 on:
   schedule:
-    # Every Monday at 12:00 UTC, but only in August–December and January
+    # Every Monday at 12:00 UTC, August–December and January
     - cron: '0 12 * 8-12,1 MON'
   workflow_dispatch:
 
@@ -50,7 +50,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cd NCAA_football/team_stats_app
-          git pull origin main
 
           if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
             git add data/weeks_${{ env.YEAR }}/*.csv
