@@ -6,8 +6,7 @@ on:
     - cron: "0 12 * * 2"    # every Tuesday at 12:00 UTC
 
 permissions:
-  contents: write           # 👈 allows push access for github-actions[bot]
-
+  contents: write          
 jobs:
   update-elo:
     runs-on: ubuntu-latest
