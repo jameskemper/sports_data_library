@@ -60,4 +60,5 @@ jobs:
           fi
 
           git diff --cached --quiet || \
-            (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push origin main)
+            (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push origin HEAD)
+
