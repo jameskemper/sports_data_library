@@ -9,7 +9,7 @@ import os
 import json
 import pandas as pd
 
-YEAR = 2024
+YEAR = 2025
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")

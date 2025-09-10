@@ -1,0 +1,782 @@
+[
+  {
+    "year": 2014,
+    "team": "Air Force",
+    "conference": "Mountain West",
+    "elo": 1349
+  },
+  {
+    "year": 2014,
+    "team": "Akron",
+    "conference": "Mid-American",
+    "elo": 1269
+  },
+  {
+    "year": 2014,
+    "team": "Alabama",
+    "conference": "SEC",
+    "elo": 2106
+  },
+  {
+    "year": 2014,
+    "team": "App State",
+    "conference": "Sun Belt",
+    "elo": 1416
+  },
+  {
+    "year": 2014,
+    "team": "Arizona",
+    "conference": "Pac-12",
+    "elo": 1726
+  },
+  {
+    "year": 2014,
+    "team": "Arizona State",
+    "conference": "Pac-12",
+    "elo": 1746
+  },
+  {
+    "year": 2014,
+    "team": "Arkansas",
+    "conference": "SEC",
+    "elo": 1676
+  },
+  {
+    "year": 2014,
+    "team": "Arkansas State",
+    "conference": "Sun Belt",
+    "elo": 1479
+  },
+  {
+    "year": 2014,
+    "team": "Army",
+    "conference": "FBS Independents",
+    "elo": 1167
+  },
+  {
+    "year": 2014,
+    "team": "Auburn",
+    "conference": "SEC",
+    "elo": 1945
+  },
+  {
+    "year": 2014,
+    "team": "Ball State",
+    "conference": "Mid-American",
+    "elo": 1475
+  },
+  {
+    "year": 2014,
+    "team": "Baylor",
+    "conference": "Big 12",
+    "elo": 1977
+  },
+  {
+    "year": 2014,
+    "team": "Boise State",
+    "conference": "Mountain West",
+    "elo": 1661
+  },
+  {
+    "year": 2014,
+    "team": "Boston College",
+    "conference": "ACC",
+    "elo": 1519
+  },
+  {
+    "year": 2014,
+    "team": "Bowling Green",
+    "conference": "Mid-American",
+    "elo": 1418
+  },
+  {
+    "year": 2014,
+    "team": "Buffalo",
+    "conference": "Mid-American",
+    "elo": 1311
+  },
+  {
+    "year": 2014,
+    "team": "BYU",
+    "conference": "FBS Independents",
+    "elo": 1626
+  },
+  {
+    "year": 2014,
+    "team": "California",
+    "conference": "Pac-12",
+    "elo": 1370
+  },
+  {
+    "year": 2014,
+    "team": "Central Michigan",
+    "conference": "Mid-American",
+    "elo": 1401
+  },
+  {
+    "year": 2014,
+    "team": "Cincinnati",
+    "conference": "American Athletic",
+    "elo": 1575
+  },
+  {
+    "year": 2014,
+    "team": "Clemson",
+    "conference": "ACC",
+    "elo": 1832
+  },
+  {
+    "year": 2014,
+    "team": "Colorado",
+    "conference": "Pac-12",
+    "elo": 1289
+  },
+  {
+    "year": 2014,
+    "team": "Colorado State",
+    "conference": "Mountain West",
+    "elo": 1565
+  },
+  {
+    "year": 2014,
+    "team": "Duke",
+    "conference": "ACC",
+    "elo": 1652
+  },
+  {
+    "year": 2014,
+    "team": "East Carolina",
+    "conference": "American Athletic",
+    "elo": 1645
+  },
+  {
+    "year": 2014,
+    "team": "Eastern Michigan",
+    "conference": "Mid-American",
+    "elo": 862
+  },
+  {
+    "year": 2014,
+    "team": "Florida",
+    "conference": "SEC",
+    "elo": 1695
+  },
+  {
+    "year": 2014,
+    "team": "Florida Atlantic",
+    "conference": "Conference USA",
+    "elo": 1273
+  },
+  {
+    "year": 2014,
+    "team": "Florida International",
+    "conference": "Conference USA",
+    "elo": 1206
+  },
+  {
+    "year": 2014,
+    "team": "Florida State",
+    "conference": "ACC",
+    "elo": 2063
+  },
+  {
+    "year": 2014,
+    "team": "Fresno State",
+    "conference": "Mountain West",
+    "elo": 1283
+  },
+  {
+    "year": 2014,
+    "team": "Georgia",
+    "conference": "SEC",
+    "elo": 1932
+  },
+  {
+    "year": 2014,
+    "team": "Georgia Southern",
+    "conference": "Sun Belt",
+    "elo": 1614
+  },
+  {
+    "year": 2014,
+    "team": "Georgia State",
+    "conference": "Sun Belt",
+    "elo": 945
+  },
+  {
+    "year": 2014,
+    "team": "Georgia Tech",
+    "conference": "ACC",
+    "elo": 1735
+  },
+  {
+    "year": 2014,
+    "team": "Hawai'i",
+    "conference": "Mountain West",
+    "elo": 1275
+  },
+  {
+    "year": 2014,
+    "team": "Houston",
+    "conference": "American Athletic",
+    "elo": 1667
+  },
+  {
+    "year": 2014,
+    "team": "Idaho",
+    "conference": "Sun Belt",
+    "elo": 1033
+  },
+  {
+    "year": 2014,
+    "team": "Illinois",
+    "conference": "Big Ten",
+    "elo": 1314
+  },
+  {
+    "year": 2014,
+    "team": "Indiana",
+    "conference": "Big Ten",
+    "elo": 1390
+  },
+  {
+    "year": 2014,
+    "team": "Iowa",
+    "conference": "Big Ten",
+    "elo": 1751
+  },
+  {
+    "year": 2014,
+    "team": "Iowa State",
+    "conference": "Big 12",
+    "elo": 1392
+  },
+  {
+    "year": 2014,
+    "team": "James Madison",
+    "conference": "CAA",
+    "elo": 1317
+  },
+  {
+    "year": 2014,
+    "team": "Kansas",
+    "conference": "Big 12",
+    "elo": 1177
+  },
+  {
+    "year": 2014,
+    "team": "Kansas State",
+    "conference": "Big 12",
+    "elo": 1919
+  },
+  {
+    "year": 2014,
+    "team": "Kent State",
+    "conference": "Mid-American",
+    "elo": 1151
+  },
+  {
+    "year": 2014,
+    "team": "Kentucky",
+    "conference": "SEC",
+    "elo": 1449
+  },
+  {
+    "year": 2014,
+    "team": "Liberty",
+    "conference": "Big South",
+    "elo": 1426
+  },
+  {
+    "year": 2014,
+    "team": "Louisiana",
+    "conference": "Sun Belt",
+    "elo": 1397
+  },
+  {
+    "year": 2014,
+    "team": "Louisiana Tech",
+    "conference": "Conference USA",
+    "elo": 1698
+  },
+  {
+    "year": 2014,
+    "team": "Louisville",
+    "conference": "ACC",
+    "elo": 1795
+  },
+  {
+    "year": 2014,
+    "team": "LSU",
+    "conference": "SEC",
+    "elo": 1879
+  },
+  {
+    "year": 2014,
+    "team": "Marshall",
+    "conference": "Conference USA",
+    "elo": 1804
+  },
+  {
+    "year": 2014,
+    "team": "Maryland",
+    "conference": "Big Ten",
+    "elo": 1535
+  },
+  {
+    "year": 2014,
+    "team": "Massachusetts",
+    "conference": "Mid-American",
+    "elo": 1150
+  },
+  {
+    "year": 2014,
+    "team": "Memphis",
+    "conference": "American Athletic",
+    "elo": 1553
+  },
+  {
+    "year": 2014,
+    "team": "Miami",
+    "conference": "ACC",
+    "elo": 1741
+  },
+  {
+    "year": 2014,
+    "team": "Miami (OH)",
+    "conference": "Mid-American",
+    "elo": 1063
+  },
+  {
+    "year": 2014,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "elo": 1595
+  },
+  {
+    "year": 2014,
+    "team": "Michigan State",
+    "conference": "Big Ten",
+    "elo": 1949
+  },
+  {
+    "year": 2014,
+    "team": "Middle Tennessee",
+    "conference": "Conference USA",
+    "elo": 1342
+  },
+  {
+    "year": 2014,
+    "team": "Minnesota",
+    "conference": "Big Ten",
+    "elo": 1562
+  },
+  {
+    "year": 2014,
+    "team": "Mississippi State",
+    "conference": "SEC",
+    "elo": 1889
+  },
+  {
+    "year": 2014,
+    "team": "Missouri",
+    "conference": "SEC",
+    "elo": 1793
+  },
+  {
+    "year": 2014,
+    "team": "Navy",
+    "conference": "FBS Independents",
+    "elo": 1498
+  },
+  {
+    "year": 2014,
+    "team": "NC State",
+    "conference": "ACC",
+    "elo": 1431
+  },
+  {
+    "year": 2014,
+    "team": "Nebraska",
+    "conference": "Big Ten",
+    "elo": 1853
+  },
+  {
+    "year": 2014,
+    "team": "Nevada",
+    "conference": "Mountain West",
+    "elo": 1520
+  },
+  {
+    "year": 2014,
+    "team": "New Mexico",
+    "conference": "Mountain West",
+    "elo": 1242
+  },
+  {
+    "year": 2014,
+    "team": "New Mexico State",
+    "conference": "Sun Belt",
+    "elo": 957
+  },
+  {
+    "year": 2014,
+    "team": "North Carolina",
+    "conference": "ACC",
+    "elo": 1532
+  },
+  {
+    "year": 2014,
+    "team": "Northern Illinois",
+    "conference": "Mid-American",
+    "elo": 1424
+  },
+  {
+    "year": 2014,
+    "team": "North Texas",
+    "conference": "Conference USA",
+    "elo": 1253
+  },
+  {
+    "year": 2014,
+    "team": "Northwestern",
+    "conference": "Big Ten",
+    "elo": 1455
+  },
+  {
+    "year": 2014,
+    "team": "Notre Dame",
+    "conference": "FBS Independents",
+    "elo": 1814
+  },
+  {
+    "year": 2014,
+    "team": "Ohio",
+    "conference": "Mid-American",
+    "elo": 1158
+  },
+  {
+    "year": 2014,
+    "team": "Ohio State",
+    "conference": "Big Ten",
+    "elo": 2057
+  },
+  {
+    "year": 2014,
+    "team": "Oklahoma",
+    "conference": "Big 12",
+    "elo": 1970
+  },
+  {
+    "year": 2014,
+    "team": "Oklahoma State",
+    "conference": "Big 12",
+    "elo": 1588
+  },
+  {
+    "year": 2014,
+    "team": "Old Dominion",
+    "conference": "Conference USA",
+    "elo": 1175
+  },
+  {
+    "year": 2014,
+    "team": "Ole Miss",
+    "conference": "SEC",
+    "elo": 1934
+  },
+  {
+    "year": 2014,
+    "team": "Oregon",
+    "conference": "Pac-12",
+    "elo": 1979
+  },
+  {
+    "year": 2014,
+    "team": "Oregon State",
+    "conference": "Pac-12",
+    "elo": 1475
+  },
+  {
+    "year": 2014,
+    "team": "Penn State",
+    "conference": "Big Ten",
+    "elo": 1575
+  },
+  {
+    "year": 2014,
+    "team": "Pittsburgh",
+    "conference": "ACC",
+    "elo": 1439
+  },
+  {
+    "year": 2014,
+    "team": "Purdue",
+    "conference": "Big Ten",
+    "elo": 1303
+  },
+  {
+    "year": 2014,
+    "team": "Rice",
+    "conference": "Conference USA",
+    "elo": 1505
+  },
+  {
+    "year": 2014,
+    "team": "Rutgers",
+    "conference": "Big Ten",
+    "elo": 1409
+  },
+  {
+    "year": 2014,
+    "team": "San Diego State",
+    "conference": "Mountain West",
+    "elo": 1418
+  },
+  {
+    "year": 2014,
+    "team": "San Jos\u00e9 State",
+    "conference": "Mountain West",
+    "elo": 1353
+  },
+  {
+    "year": 2014,
+    "team": "SMU",
+    "conference": "American Athletic",
+    "elo": 978
+  },
+  {
+    "year": 2014,
+    "team": "South Alabama",
+    "conference": "Sun Belt",
+    "elo": 1414
+  },
+  {
+    "year": 2014,
+    "team": "South Carolina",
+    "conference": "SEC",
+    "elo": 1736
+  },
+  {
+    "year": 2014,
+    "team": "Southern Miss",
+    "conference": "Conference USA",
+    "elo": 1080
+  },
+  {
+    "year": 2014,
+    "team": "South Florida",
+    "conference": "American Athletic",
+    "elo": 1254
+  },
+  {
+    "year": 2014,
+    "team": "Stanford",
+    "conference": "Pac-12",
+    "elo": 1779
+  },
+  {
+    "year": 2014,
+    "team": "Syracuse",
+    "conference": "ACC",
+    "elo": 1523
+  },
+  {
+    "year": 2014,
+    "team": "TCU",
+    "conference": "Big 12",
+    "elo": 1957
+  },
+  {
+    "year": 2014,
+    "team": "Temple",
+    "conference": "American Athletic",
+    "elo": 1530
+  },
+  {
+    "year": 2014,
+    "team": "Tennessee",
+    "conference": "SEC",
+    "elo": 1561
+  },
+  {
+    "year": 2014,
+    "team": "Texas",
+    "conference": "Big 12",
+    "elo": 1616
+  },
+  {
+    "year": 2014,
+    "team": "Texas A&M",
+    "conference": "SEC",
+    "elo": 1668
+  },
+  {
+    "year": 2014,
+    "team": "Texas State",
+    "conference": "Sun Belt",
+    "elo": 1209
+  },
+  {
+    "year": 2014,
+    "team": "Texas Tech",
+    "conference": "Big 12",
+    "elo": 1312
+  },
+  {
+    "year": 2014,
+    "team": "Toledo",
+    "conference": "Mid-American",
+    "elo": 1452
+  },
+  {
+    "year": 2014,
+    "team": "Troy",
+    "conference": "Sun Belt",
+    "elo": 987
+  },
+  {
+    "year": 2014,
+    "team": "Tulane",
+    "conference": "American Athletic",
+    "elo": 1243
+  },
+  {
+    "year": 2014,
+    "team": "Tulsa",
+    "conference": "American Athletic",
+    "elo": 1165
+  },
+  {
+    "year": 2014,
+    "team": "UAB",
+    "conference": "Conference USA",
+    "elo": 1297
+  },
+  {
+    "year": 2014,
+    "team": "UCF",
+    "conference": "American Athletic",
+    "elo": 1654
+  },
+  {
+    "year": 2014,
+    "team": "UCLA",
+    "conference": "Pac-12",
+    "elo": 1757
+  },
+  {
+    "year": 2014,
+    "team": "UConn",
+    "conference": "American Athletic",
+    "elo": 1345
+  },
+  {
+    "year": 2014,
+    "team": "UL Monroe",
+    "conference": "Sun Belt",
+    "elo": 1203
+  },
+  {
+    "year": 2014,
+    "team": "UNLV",
+    "conference": "Mountain West",
+    "elo": 1170
+  },
+  {
+    "year": 2014,
+    "team": "USC",
+    "conference": "Pac-12",
+    "elo": 1836
+  },
+  {
+    "year": 2014,
+    "team": "Utah",
+    "conference": "Pac-12",
+    "elo": 1646
+  },
+  {
+    "year": 2014,
+    "team": "Utah State",
+    "conference": "Mountain West",
+    "elo": 1636
+  },
+  {
+    "year": 2014,
+    "team": "UTEP",
+    "conference": "Conference USA",
+    "elo": 1273
+  },
+  {
+    "year": 2014,
+    "team": "UTSA",
+    "conference": "Conference USA",
+    "elo": 1268
+  },
+  {
+    "year": 2014,
+    "team": "Vanderbilt",
+    "conference": "SEC",
+    "elo": 1399
+  },
+  {
+    "year": 2014,
+    "team": "Virginia",
+    "conference": "ACC",
+    "elo": 1397
+  },
+  {
+    "year": 2014,
+    "team": "Virginia Tech",
+    "conference": "ACC",
+    "elo": 1552
+  },
+  {
+    "year": 2014,
+    "team": "Wake Forest",
+    "conference": "ACC",
+    "elo": 1300
+  },
+  {
+    "year": 2014,
+    "team": "Washington",
+    "conference": "Pac-12",
+    "elo": 1687
+  },
+  {
+    "year": 2014,
+    "team": "Washington State",
+    "conference": "Pac-12",
+    "elo": 1389
+  },
+  {
+    "year": 2014,
+    "team": "Western Kentucky",
+    "conference": "Conference USA",
+    "elo": 1366
+  },
+  {
+    "year": 2014,
+    "team": "Western Michigan",
+    "conference": "Mid-American",
+    "elo": 1403
+  },
+  {
+    "year": 2014,
+    "team": "West Virginia",
+    "conference": "Big 12",
+    "elo": 1680
+  },
+  {
+    "year": 2014,
+    "team": "Wisconsin",
+    "conference": "Big Ten",
+    "elo": 2011
+  },
+  {
+    "year": 2014,
+    "team": "Wyoming",
+    "conference": "Mountain West",
+    "elo": 1309
+  }
+]

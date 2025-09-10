@@ -1,0 +1,758 @@
+[
+  {
+    "year": 2010,
+    "team": "Air Force",
+    "conference": "Mountain West",
+    "elo": 1687
+  },
+  {
+    "year": 2010,
+    "team": "Akron",
+    "conference": "Mid-American",
+    "elo": 1135
+  },
+  {
+    "year": 2010,
+    "team": "Alabama",
+    "conference": "SEC",
+    "elo": 2025
+  },
+  {
+    "year": 2010,
+    "team": "Arizona",
+    "conference": "Pac-10",
+    "elo": 1693
+  },
+  {
+    "year": 2010,
+    "team": "Arizona State",
+    "conference": "Pac-10",
+    "elo": 1526
+  },
+  {
+    "year": 2010,
+    "team": "Arkansas",
+    "conference": "SEC",
+    "elo": 1727
+  },
+  {
+    "year": 2010,
+    "team": "Arkansas State",
+    "conference": "Sun Belt",
+    "elo": 1294
+  },
+  {
+    "year": 2010,
+    "team": "Army",
+    "conference": "FBS Independents",
+    "elo": 1370
+  },
+  {
+    "year": 2010,
+    "team": "Auburn",
+    "conference": "SEC",
+    "elo": 1640
+  },
+  {
+    "year": 2010,
+    "team": "Ball State",
+    "conference": "Mid-American",
+    "elo": 1268
+  },
+  {
+    "year": 2010,
+    "team": "Baylor",
+    "conference": "Big 12",
+    "elo": 1457
+  },
+  {
+    "year": 2010,
+    "team": "Boise State",
+    "conference": "Western Athletic",
+    "elo": 1900
+  },
+  {
+    "year": 2010,
+    "team": "Boston College",
+    "conference": "ACC",
+    "elo": 1543
+  },
+  {
+    "year": 2010,
+    "team": "Bowling Green",
+    "conference": "Mid-American",
+    "elo": 1351
+  },
+  {
+    "year": 2010,
+    "team": "Buffalo",
+    "conference": "Mid-American",
+    "elo": 1288
+  },
+  {
+    "year": 2010,
+    "team": "BYU",
+    "conference": "Mountain West",
+    "elo": 1574
+  },
+  {
+    "year": 2010,
+    "team": "California",
+    "conference": "Pac-10",
+    "elo": 1614
+  },
+  {
+    "year": 2010,
+    "team": "Central Michigan",
+    "conference": "Mid-American",
+    "elo": 1653
+  },
+  {
+    "year": 2010,
+    "team": "Cincinnati",
+    "conference": "Big East",
+    "elo": 1593
+  },
+  {
+    "year": 2010,
+    "team": "Clemson",
+    "conference": "ACC",
+    "elo": 1707
+  },
+  {
+    "year": 2010,
+    "team": "Coastal Carolina",
+    "conference": "Big South",
+    "elo": 1296
+  },
+  {
+    "year": 2010,
+    "team": "Colorado",
+    "conference": "Big 12",
+    "elo": 1386
+  },
+  {
+    "year": 2010,
+    "team": "Colorado State",
+    "conference": "Mountain West",
+    "elo": 1157
+  },
+  {
+    "year": 2010,
+    "team": "Duke",
+    "conference": "ACC",
+    "elo": 1302
+  },
+  {
+    "year": 2010,
+    "team": "East Carolina",
+    "conference": "Conference USA",
+    "elo": 1575
+  },
+  {
+    "year": 2010,
+    "team": "Eastern Michigan",
+    "conference": "Mid-American",
+    "elo": 1008
+  },
+  {
+    "year": 2010,
+    "team": "Florida",
+    "conference": "SEC",
+    "elo": 1988
+  },
+  {
+    "year": 2010,
+    "team": "Florida Atlantic",
+    "conference": "Sun Belt",
+    "elo": 1295
+  },
+  {
+    "year": 2010,
+    "team": "Florida International",
+    "conference": "Sun Belt",
+    "elo": 1254
+  },
+  {
+    "year": 2010,
+    "team": "Florida State",
+    "conference": "ACC",
+    "elo": 1698
+  },
+  {
+    "year": 2010,
+    "team": "Fresno State",
+    "conference": "Western Athletic",
+    "elo": 1487
+  },
+  {
+    "year": 2010,
+    "team": "Georgia",
+    "conference": "SEC",
+    "elo": 1656
+  },
+  {
+    "year": 2010,
+    "team": "Georgia Southern",
+    "conference": "Southern",
+    "elo": 1430
+  },
+  {
+    "year": 2010,
+    "team": "Georgia Tech",
+    "conference": "ACC",
+    "elo": 1615
+  },
+  {
+    "year": 2010,
+    "team": "Hawai'i",
+    "conference": "Western Athletic",
+    "elo": 1283
+  },
+  {
+    "year": 2010,
+    "team": "Houston",
+    "conference": "Conference USA",
+    "elo": 1660
+  },
+  {
+    "year": 2010,
+    "team": "Idaho",
+    "conference": "Western Athletic",
+    "elo": 1343
+  },
+  {
+    "year": 2010,
+    "team": "Illinois",
+    "conference": "Big Ten",
+    "elo": 1477
+  },
+  {
+    "year": 2010,
+    "team": "Indiana",
+    "conference": "Big Ten",
+    "elo": 1387
+  },
+  {
+    "year": 2010,
+    "team": "Iowa",
+    "conference": "Big Ten",
+    "elo": 1810
+  },
+  {
+    "year": 2010,
+    "team": "Iowa State",
+    "conference": "Big 12",
+    "elo": 1409
+  },
+  {
+    "year": 2010,
+    "team": "James Madison",
+    "conference": "CAA",
+    "elo": 1469
+  },
+  {
+    "year": 2010,
+    "team": "Kansas",
+    "conference": "Big 12",
+    "elo": 1548
+  },
+  {
+    "year": 2010,
+    "team": "Kansas State",
+    "conference": "Big 12",
+    "elo": 1523
+  },
+  {
+    "year": 2010,
+    "team": "Kent State",
+    "conference": "Mid-American",
+    "elo": 1319
+  },
+  {
+    "year": 2010,
+    "team": "Kentucky",
+    "conference": "SEC",
+    "elo": 1597
+  },
+  {
+    "year": 2010,
+    "team": "Liberty",
+    "conference": "Big South",
+    "elo": 1445
+  },
+  {
+    "year": 2010,
+    "team": "Louisiana",
+    "conference": "Sun Belt",
+    "elo": 1169
+  },
+  {
+    "year": 2010,
+    "team": "Louisiana Tech",
+    "conference": "Western Athletic",
+    "elo": 1397
+  },
+  {
+    "year": 2010,
+    "team": "Louisville",
+    "conference": "Big East",
+    "elo": 1374
+  },
+  {
+    "year": 2010,
+    "team": "LSU",
+    "conference": "SEC",
+    "elo": 1768
+  },
+  {
+    "year": 2010,
+    "team": "Marshall",
+    "conference": "Conference USA",
+    "elo": 1306
+  },
+  {
+    "year": 2010,
+    "team": "Maryland",
+    "conference": "ACC",
+    "elo": 1430
+  },
+  {
+    "year": 2010,
+    "team": "Massachusetts",
+    "conference": "CAA",
+    "elo": 1448
+  },
+  {
+    "year": 2010,
+    "team": "Memphis",
+    "conference": "Conference USA",
+    "elo": 1196
+  },
+  {
+    "year": 2010,
+    "team": "Miami",
+    "conference": "ACC",
+    "elo": 1710
+  },
+  {
+    "year": 2010,
+    "team": "Miami (OH)",
+    "conference": "Mid-American",
+    "elo": 1197
+  },
+  {
+    "year": 2010,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "elo": 1664
+  },
+  {
+    "year": 2010,
+    "team": "Michigan State",
+    "conference": "Big Ten",
+    "elo": 1597
+  },
+  {
+    "year": 2010,
+    "team": "Middle Tennessee",
+    "conference": "Sun Belt",
+    "elo": 1496
+  },
+  {
+    "year": 2010,
+    "team": "Minnesota",
+    "conference": "Big Ten",
+    "elo": 1458
+  },
+  {
+    "year": 2010,
+    "team": "Mississippi State",
+    "conference": "SEC",
+    "elo": 1586
+  },
+  {
+    "year": 2010,
+    "team": "Missouri",
+    "conference": "Big 12",
+    "elo": 1669
+  },
+  {
+    "year": 2010,
+    "team": "Navy",
+    "conference": "FBS Independents",
+    "elo": 1609
+  },
+  {
+    "year": 2010,
+    "team": "NC State",
+    "conference": "ACC",
+    "elo": 1536
+  },
+  {
+    "year": 2010,
+    "team": "Nebraska",
+    "conference": "Big 12",
+    "elo": 1880
+  },
+  {
+    "year": 2010,
+    "team": "Nevada",
+    "conference": "Western Athletic",
+    "elo": 1734
+  },
+  {
+    "year": 2010,
+    "team": "New Mexico",
+    "conference": "Mountain West",
+    "elo": 980
+  },
+  {
+    "year": 2010,
+    "team": "New Mexico State",
+    "conference": "Western Athletic",
+    "elo": 1019
+  },
+  {
+    "year": 2010,
+    "team": "North Carolina",
+    "conference": "ACC",
+    "elo": 1619
+  },
+  {
+    "year": 2010,
+    "team": "Northern Illinois",
+    "conference": "Mid-American",
+    "elo": 1457
+  },
+  {
+    "year": 2010,
+    "team": "North Texas",
+    "conference": "Sun Belt",
+    "elo": 1151
+  },
+  {
+    "year": 2010,
+    "team": "Northwestern",
+    "conference": "Big Ten",
+    "elo": 1534
+  },
+  {
+    "year": 2010,
+    "team": "Notre Dame",
+    "conference": "FBS Independents",
+    "elo": 1562
+  },
+  {
+    "year": 2010,
+    "team": "Ohio",
+    "conference": "Mid-American",
+    "elo": 1381
+  },
+  {
+    "year": 2010,
+    "team": "Ohio State",
+    "conference": "Big Ten",
+    "elo": 1962
+  },
+  {
+    "year": 2010,
+    "team": "Oklahoma",
+    "conference": "Big 12",
+    "elo": 1906
+  },
+  {
+    "year": 2010,
+    "team": "Oklahoma State",
+    "conference": "Big 12",
+    "elo": 1790
+  },
+  {
+    "year": 2010,
+    "team": "Ole Miss",
+    "conference": "SEC",
+    "elo": 1639
+  },
+  {
+    "year": 2010,
+    "team": "Oregon",
+    "conference": "Pac-10",
+    "elo": 1996
+  },
+  {
+    "year": 2010,
+    "team": "Oregon State",
+    "conference": "Pac-10",
+    "elo": 1611
+  },
+  {
+    "year": 2010,
+    "team": "Penn State",
+    "conference": "Big Ten",
+    "elo": 1758
+  },
+  {
+    "year": 2010,
+    "team": "Pittsburgh",
+    "conference": "Big East",
+    "elo": 1601
+  },
+  {
+    "year": 2010,
+    "team": "Purdue",
+    "conference": "Big Ten",
+    "elo": 1449
+  },
+  {
+    "year": 2010,
+    "team": "Rice",
+    "conference": "Conference USA",
+    "elo": 1154
+  },
+  {
+    "year": 2010,
+    "team": "Rutgers",
+    "conference": "Big East",
+    "elo": 1599
+  },
+  {
+    "year": 2010,
+    "team": "San Diego State",
+    "conference": "Mountain West",
+    "elo": 1426
+  },
+  {
+    "year": 2010,
+    "team": "San Jos\u00e9 State",
+    "conference": "Western Athletic",
+    "elo": 1068
+  },
+  {
+    "year": 2010,
+    "team": "SMU",
+    "conference": "Conference USA",
+    "elo": 1533
+  },
+  {
+    "year": 2010,
+    "team": "South Carolina",
+    "conference": "SEC",
+    "elo": 1647
+  },
+  {
+    "year": 2010,
+    "team": "Southern Miss",
+    "conference": "Conference USA",
+    "elo": 1502
+  },
+  {
+    "year": 2010,
+    "team": "South Florida",
+    "conference": "Big East",
+    "elo": 1492
+  },
+  {
+    "year": 2010,
+    "team": "Stanford",
+    "conference": "Pac-10",
+    "elo": 1894
+  },
+  {
+    "year": 2010,
+    "team": "Syracuse",
+    "conference": "Big East",
+    "elo": 1400
+  },
+  {
+    "year": 2010,
+    "team": "TCU",
+    "conference": "Mountain West",
+    "elo": 1935
+  },
+  {
+    "year": 2010,
+    "team": "Temple",
+    "conference": "Mid-American",
+    "elo": 1565
+  },
+  {
+    "year": 2010,
+    "team": "Tennessee",
+    "conference": "SEC",
+    "elo": 1569
+  },
+  {
+    "year": 2010,
+    "team": "Texas",
+    "conference": "Big 12",
+    "elo": 1789
+  },
+  {
+    "year": 2010,
+    "team": "Texas A&M",
+    "conference": "Big 12",
+    "elo": 1583
+  },
+  {
+    "year": 2010,
+    "team": "Texas State",
+    "conference": "Southland",
+    "elo": 1317
+  },
+  {
+    "year": 2010,
+    "team": "Texas Tech",
+    "conference": "Big 12",
+    "elo": 1796
+  },
+  {
+    "year": 2010,
+    "team": "Toledo",
+    "conference": "Mid-American",
+    "elo": 1337
+  },
+  {
+    "year": 2010,
+    "team": "Troy",
+    "conference": "Sun Belt",
+    "elo": 1505
+  },
+  {
+    "year": 2010,
+    "team": "Tulane",
+    "conference": "Conference USA",
+    "elo": 1128
+  },
+  {
+    "year": 2010,
+    "team": "Tulsa",
+    "conference": "Conference USA",
+    "elo": 1440
+  },
+  {
+    "year": 2010,
+    "team": "UAB",
+    "conference": "Conference USA",
+    "elo": 1347
+  },
+  {
+    "year": 2010,
+    "team": "UCF",
+    "conference": "Conference USA",
+    "elo": 1495
+  },
+  {
+    "year": 2010,
+    "team": "UCLA",
+    "conference": "Pac-10",
+    "elo": 1606
+  },
+  {
+    "year": 2010,
+    "team": "UConn",
+    "conference": "Big East",
+    "elo": 1552
+  },
+  {
+    "year": 2010,
+    "team": "UL Monroe",
+    "conference": "Sun Belt",
+    "elo": 1270
+  },
+  {
+    "year": 2010,
+    "team": "UNLV",
+    "conference": "Mountain West",
+    "elo": 1297
+  },
+  {
+    "year": 2010,
+    "team": "USC",
+    "conference": "Pac-10",
+    "elo": 1719
+  },
+  {
+    "year": 2010,
+    "team": "Utah",
+    "conference": "Mountain West",
+    "elo": 1828
+  },
+  {
+    "year": 2010,
+    "team": "Utah State",
+    "conference": "Western Athletic",
+    "elo": 1259
+  },
+  {
+    "year": 2010,
+    "team": "UTEP",
+    "conference": "Conference USA",
+    "elo": 1422
+  },
+  {
+    "year": 2010,
+    "team": "Vanderbilt",
+    "conference": "SEC",
+    "elo": 1459
+  },
+  {
+    "year": 2010,
+    "team": "Virginia",
+    "conference": "ACC",
+    "elo": 1445
+  },
+  {
+    "year": 2010,
+    "team": "Virginia Tech",
+    "conference": "ACC",
+    "elo": 1813
+  },
+  {
+    "year": 2010,
+    "team": "Wake Forest",
+    "conference": "ACC",
+    "elo": 1353
+  },
+  {
+    "year": 2010,
+    "team": "Washington",
+    "conference": "Pac-10",
+    "elo": 1468
+  },
+  {
+    "year": 2010,
+    "team": "Washington State",
+    "conference": "Pac-10",
+    "elo": 1027
+  },
+  {
+    "year": 2010,
+    "team": "Western Kentucky",
+    "conference": "Sun Belt",
+    "elo": 1071
+  },
+  {
+    "year": 2010,
+    "team": "Western Michigan",
+    "conference": "Mid-American",
+    "elo": 1288
+  },
+  {
+    "year": 2010,
+    "team": "West Virginia",
+    "conference": "Big East",
+    "elo": 1645
+  },
+  {
+    "year": 2010,
+    "team": "Wisconsin",
+    "conference": "Big Ten",
+    "elo": 1669
+  },
+  {
+    "year": 2010,
+    "team": "Wyoming",
+    "conference": "Mountain West",
+    "elo": 1268
+  }
+]

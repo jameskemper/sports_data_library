@@ -1,0 +1,794 @@
+[
+  {
+    "year": 2017,
+    "team": "Air Force",
+    "conference": "Mountain West",
+    "elo": 1506
+  },
+  {
+    "year": 2017,
+    "team": "Akron",
+    "conference": "Mid-American",
+    "elo": 1313
+  },
+  {
+    "year": 2017,
+    "team": "Alabama",
+    "conference": "SEC",
+    "elo": 2258
+  },
+  {
+    "year": 2017,
+    "team": "App State",
+    "conference": "Sun Belt",
+    "elo": 1517
+  },
+  {
+    "year": 2017,
+    "team": "Arizona",
+    "conference": "Pac-12",
+    "elo": 1520
+  },
+  {
+    "year": 2017,
+    "team": "Arizona State",
+    "conference": "Pac-12",
+    "elo": 1453
+  },
+  {
+    "year": 2017,
+    "team": "Arkansas",
+    "conference": "SEC",
+    "elo": 1472
+  },
+  {
+    "year": 2017,
+    "team": "Arkansas State",
+    "conference": "Sun Belt",
+    "elo": 1569
+  },
+  {
+    "year": 2017,
+    "team": "Army",
+    "conference": "FBS Independents",
+    "elo": 1437
+  },
+  {
+    "year": 2017,
+    "team": "Auburn",
+    "conference": "SEC",
+    "elo": 1951
+  },
+  {
+    "year": 2017,
+    "team": "Ball State",
+    "conference": "Mid-American",
+    "elo": 1182
+  },
+  {
+    "year": 2017,
+    "team": "Baylor",
+    "conference": "Big 12",
+    "elo": 1434
+  },
+  {
+    "year": 2017,
+    "team": "Boise State",
+    "conference": "Mountain West",
+    "elo": 1645
+  },
+  {
+    "year": 2017,
+    "team": "Boston College",
+    "conference": "ACC",
+    "elo": 1412
+  },
+  {
+    "year": 2017,
+    "team": "Bowling Green",
+    "conference": "Mid-American",
+    "elo": 1179
+  },
+  {
+    "year": 2017,
+    "team": "Buffalo",
+    "conference": "Mid-American",
+    "elo": 1285
+  },
+  {
+    "year": 2017,
+    "team": "BYU",
+    "conference": "FBS Independents",
+    "elo": 1399
+  },
+  {
+    "year": 2017,
+    "team": "California",
+    "conference": "Pac-12",
+    "elo": 1634
+  },
+  {
+    "year": 2017,
+    "team": "Central Michigan",
+    "conference": "Mid-American",
+    "elo": 1218
+  },
+  {
+    "year": 2017,
+    "team": "Charlotte",
+    "conference": "Conference USA",
+    "elo": 1025
+  },
+  {
+    "year": 2017,
+    "team": "Cincinnati",
+    "conference": "American Athletic",
+    "elo": 1273
+  },
+  {
+    "year": 2017,
+    "team": "Clemson",
+    "conference": "ACC",
+    "elo": 2063
+  },
+  {
+    "year": 2017,
+    "team": "Coastal Carolina",
+    "conference": "Sun Belt",
+    "elo": 1307
+  },
+  {
+    "year": 2017,
+    "team": "Colorado",
+    "conference": "Pac-12",
+    "elo": 1580
+  },
+  {
+    "year": 2017,
+    "team": "Colorado State",
+    "conference": "Mountain West",
+    "elo": 1624
+  },
+  {
+    "year": 2017,
+    "team": "Duke",
+    "conference": "ACC",
+    "elo": 1511
+  },
+  {
+    "year": 2017,
+    "team": "East Carolina",
+    "conference": "American Athletic",
+    "elo": 1081
+  },
+  {
+    "year": 2017,
+    "team": "Eastern Michigan",
+    "conference": "Mid-American",
+    "elo": 1331
+  },
+  {
+    "year": 2017,
+    "team": "Florida",
+    "conference": "SEC",
+    "elo": 1672
+  },
+  {
+    "year": 2017,
+    "team": "Florida Atlantic",
+    "conference": "Conference USA",
+    "elo": 1360
+  },
+  {
+    "year": 2017,
+    "team": "Florida International",
+    "conference": "Conference USA",
+    "elo": 1185
+  },
+  {
+    "year": 2017,
+    "team": "Florida State",
+    "conference": "ACC",
+    "elo": 1703
+  },
+  {
+    "year": 2017,
+    "team": "Fresno State",
+    "conference": "Mountain West",
+    "elo": 1407
+  },
+  {
+    "year": 2017,
+    "team": "Georgia",
+    "conference": "SEC",
+    "elo": 1896
+  },
+  {
+    "year": 2017,
+    "team": "Georgia Southern",
+    "conference": "Sun Belt",
+    "elo": 1258
+  },
+  {
+    "year": 2017,
+    "team": "Georgia State",
+    "conference": "Sun Belt",
+    "elo": 1296
+  },
+  {
+    "year": 2017,
+    "team": "Georgia Tech",
+    "conference": "ACC",
+    "elo": 1696
+  },
+  {
+    "year": 2017,
+    "team": "Hawai'i",
+    "conference": "Mountain West",
+    "elo": 1153
+  },
+  {
+    "year": 2017,
+    "team": "Houston",
+    "conference": "American Athletic",
+    "elo": 1574
+  },
+  {
+    "year": 2017,
+    "team": "Idaho",
+    "conference": "Sun Belt",
+    "elo": 1321
+  },
+  {
+    "year": 2017,
+    "team": "Illinois",
+    "conference": "Big Ten",
+    "elo": 1241
+  },
+  {
+    "year": 2017,
+    "team": "Indiana",
+    "conference": "Big Ten",
+    "elo": 1569
+  },
+  {
+    "year": 2017,
+    "team": "Iowa",
+    "conference": "Big Ten",
+    "elo": 1679
+  },
+  {
+    "year": 2017,
+    "team": "Iowa State",
+    "conference": "Big 12",
+    "elo": 1666
+  },
+  {
+    "year": 2017,
+    "team": "James Madison",
+    "conference": "CAA",
+    "elo": 1461
+  },
+  {
+    "year": 2017,
+    "team": "Kansas",
+    "conference": "Big 12",
+    "elo": 999
+  },
+  {
+    "year": 2017,
+    "team": "Kansas State",
+    "conference": "Big 12",
+    "elo": 1676
+  },
+  {
+    "year": 2017,
+    "team": "Kent State",
+    "conference": "Mid-American",
+    "elo": 1087
+  },
+  {
+    "year": 2017,
+    "team": "Kentucky",
+    "conference": "SEC",
+    "elo": 1519
+  },
+  {
+    "year": 2017,
+    "team": "Liberty",
+    "conference": "Big South",
+    "elo": 1416
+  },
+  {
+    "year": 2017,
+    "team": "Louisiana",
+    "conference": "Sun Belt",
+    "elo": 1302
+  },
+  {
+    "year": 2017,
+    "team": "Louisiana Tech",
+    "conference": "Conference USA",
+    "elo": 1523
+  },
+  {
+    "year": 2017,
+    "team": "Louisville",
+    "conference": "ACC",
+    "elo": 1684
+  },
+  {
+    "year": 2017,
+    "team": "LSU",
+    "conference": "SEC",
+    "elo": 1747
+  },
+  {
+    "year": 2017,
+    "team": "Marshall",
+    "conference": "Conference USA",
+    "elo": 1444
+  },
+  {
+    "year": 2017,
+    "team": "Maryland",
+    "conference": "Big Ten",
+    "elo": 1322
+  },
+  {
+    "year": 2017,
+    "team": "Massachusetts",
+    "conference": "FBS Independents",
+    "elo": 1235
+  },
+  {
+    "year": 2017,
+    "team": "Memphis",
+    "conference": "American Athletic",
+    "elo": 1618
+  },
+  {
+    "year": 2017,
+    "team": "Miami",
+    "conference": "ACC",
+    "elo": 1788
+  },
+  {
+    "year": 2017,
+    "team": "Miami (OH)",
+    "conference": "Mid-American",
+    "elo": 1313
+  },
+  {
+    "year": 2017,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "elo": 1889
+  },
+  {
+    "year": 2017,
+    "team": "Michigan State",
+    "conference": "Big Ten",
+    "elo": 1652
+  },
+  {
+    "year": 2017,
+    "team": "Middle Tennessee",
+    "conference": "Conference USA",
+    "elo": 1298
+  },
+  {
+    "year": 2017,
+    "team": "Minnesota",
+    "conference": "Big Ten",
+    "elo": 1613
+  },
+  {
+    "year": 2017,
+    "team": "Mississippi State",
+    "conference": "SEC",
+    "elo": 1673
+  },
+  {
+    "year": 2017,
+    "team": "Missouri",
+    "conference": "SEC",
+    "elo": 1265
+  },
+  {
+    "year": 2017,
+    "team": "Navy",
+    "conference": "American Athletic",
+    "elo": 1656
+  },
+  {
+    "year": 2017,
+    "team": "NC State",
+    "conference": "ACC",
+    "elo": 1670
+  },
+  {
+    "year": 2017,
+    "team": "Nebraska",
+    "conference": "Big Ten",
+    "elo": 1480
+  },
+  {
+    "year": 2017,
+    "team": "Nevada",
+    "conference": "Mountain West",
+    "elo": 1288
+  },
+  {
+    "year": 2017,
+    "team": "New Mexico",
+    "conference": "Mountain West",
+    "elo": 1353
+  },
+  {
+    "year": 2017,
+    "team": "New Mexico State",
+    "conference": "Sun Belt",
+    "elo": 1265
+  },
+  {
+    "year": 2017,
+    "team": "North Carolina",
+    "conference": "ACC",
+    "elo": 1537
+  },
+  {
+    "year": 2017,
+    "team": "Northern Illinois",
+    "conference": "Mid-American",
+    "elo": 1485
+  },
+  {
+    "year": 2017,
+    "team": "North Texas",
+    "conference": "Conference USA",
+    "elo": 1274
+  },
+  {
+    "year": 2017,
+    "team": "Northwestern",
+    "conference": "Big Ten",
+    "elo": 1599
+  },
+  {
+    "year": 2017,
+    "team": "Notre Dame",
+    "conference": "FBS Independents",
+    "elo": 1886
+  },
+  {
+    "year": 2017,
+    "team": "Ohio",
+    "conference": "Mid-American",
+    "elo": 1403
+  },
+  {
+    "year": 2017,
+    "team": "Ohio State",
+    "conference": "Big Ten",
+    "elo": 2163
+  },
+  {
+    "year": 2017,
+    "team": "Oklahoma",
+    "conference": "Big 12",
+    "elo": 1926
+  },
+  {
+    "year": 2017,
+    "team": "Oklahoma State",
+    "conference": "Big 12",
+    "elo": 1946
+  },
+  {
+    "year": 2017,
+    "team": "Old Dominion",
+    "conference": "Conference USA",
+    "elo": 1165
+  },
+  {
+    "year": 2017,
+    "team": "Ole Miss",
+    "conference": "SEC",
+    "elo": 1501
+  },
+  {
+    "year": 2017,
+    "team": "Oregon",
+    "conference": "Pac-12",
+    "elo": 1496
+  },
+  {
+    "year": 2017,
+    "team": "Oregon State",
+    "conference": "Pac-12",
+    "elo": 1242
+  },
+  {
+    "year": 2017,
+    "team": "Penn State",
+    "conference": "Big Ten",
+    "elo": 2007
+  },
+  {
+    "year": 2017,
+    "team": "Pittsburgh",
+    "conference": "ACC",
+    "elo": 1496
+  },
+  {
+    "year": 2017,
+    "team": "Purdue",
+    "conference": "Big Ten",
+    "elo": 1524
+  },
+  {
+    "year": 2017,
+    "team": "Rice",
+    "conference": "Conference USA",
+    "elo": 1014
+  },
+  {
+    "year": 2017,
+    "team": "Rutgers",
+    "conference": "Big Ten",
+    "elo": 1174
+  },
+  {
+    "year": 2017,
+    "team": "San Diego State",
+    "conference": "Mountain West",
+    "elo": 1663
+  },
+  {
+    "year": 2017,
+    "team": "San Jos\u00e9 State",
+    "conference": "Mountain West",
+    "elo": 897
+  },
+  {
+    "year": 2017,
+    "team": "SMU",
+    "conference": "American Athletic",
+    "elo": 1463
+  },
+  {
+    "year": 2017,
+    "team": "South Alabama",
+    "conference": "Sun Belt",
+    "elo": 1286
+  },
+  {
+    "year": 2017,
+    "team": "South Carolina",
+    "conference": "SEC",
+    "elo": 1577
+  },
+  {
+    "year": 2017,
+    "team": "Southern Miss",
+    "conference": "Conference USA",
+    "elo": 1397
+  },
+  {
+    "year": 2017,
+    "team": "South Florida",
+    "conference": "American Athletic",
+    "elo": 1802
+  },
+  {
+    "year": 2017,
+    "team": "Stanford",
+    "conference": "Pac-12",
+    "elo": 1868
+  },
+  {
+    "year": 2017,
+    "team": "Syracuse",
+    "conference": "ACC",
+    "elo": 1422
+  },
+  {
+    "year": 2017,
+    "team": "TCU",
+    "conference": "Big 12",
+    "elo": 1807
+  },
+  {
+    "year": 2017,
+    "team": "Temple",
+    "conference": "American Athletic",
+    "elo": 1467
+  },
+  {
+    "year": 2017,
+    "team": "Tennessee",
+    "conference": "SEC",
+    "elo": 1521
+  },
+  {
+    "year": 2017,
+    "team": "Texas",
+    "conference": "Big 12",
+    "elo": 1680
+  },
+  {
+    "year": 2017,
+    "team": "Texas A&M",
+    "conference": "SEC",
+    "elo": 1701
+  },
+  {
+    "year": 2017,
+    "team": "Texas State",
+    "conference": "Sun Belt",
+    "elo": 919
+  },
+  {
+    "year": 2017,
+    "team": "Texas Tech",
+    "conference": "Big 12",
+    "elo": 1571
+  },
+  {
+    "year": 2017,
+    "team": "Toledo",
+    "conference": "Mid-American",
+    "elo": 1583
+  },
+  {
+    "year": 2017,
+    "team": "Troy",
+    "conference": "Sun Belt",
+    "elo": 1427
+  },
+  {
+    "year": 2017,
+    "team": "Tulane",
+    "conference": "American Athletic",
+    "elo": 1370
+  },
+  {
+    "year": 2017,
+    "team": "Tulsa",
+    "conference": "American Athletic",
+    "elo": 1546
+  },
+  {
+    "year": 2017,
+    "team": "UAB",
+    "conference": "Conference USA",
+    "elo": 1406
+  },
+  {
+    "year": 2017,
+    "team": "UCF",
+    "conference": "American Athletic",
+    "elo": 1766
+  },
+  {
+    "year": 2017,
+    "team": "UCLA",
+    "conference": "Pac-12",
+    "elo": 1503
+  },
+  {
+    "year": 2017,
+    "team": "UConn",
+    "conference": "American Athletic",
+    "elo": 1141
+  },
+  {
+    "year": 2017,
+    "team": "UL Monroe",
+    "conference": "Sun Belt",
+    "elo": 1211
+  },
+  {
+    "year": 2017,
+    "team": "UNLV",
+    "conference": "Mountain West",
+    "elo": 1310
+  },
+  {
+    "year": 2017,
+    "team": "USC",
+    "conference": "Pac-12",
+    "elo": 1860
+  },
+  {
+    "year": 2017,
+    "team": "Utah",
+    "conference": "Pac-12",
+    "elo": 1687
+  },
+  {
+    "year": 2017,
+    "team": "Utah State",
+    "conference": "Mountain West",
+    "elo": 1389
+  },
+  {
+    "year": 2017,
+    "team": "UTEP",
+    "conference": "Conference USA",
+    "elo": 977
+  },
+  {
+    "year": 2017,
+    "team": "UTSA",
+    "conference": "Conference USA",
+    "elo": 1464
+  },
+  {
+    "year": 2017,
+    "team": "Vanderbilt",
+    "conference": "SEC",
+    "elo": 1357
+  },
+  {
+    "year": 2017,
+    "team": "Virginia",
+    "conference": "ACC",
+    "elo": 1504
+  },
+  {
+    "year": 2017,
+    "team": "Virginia Tech",
+    "conference": "ACC",
+    "elo": 1852
+  },
+  {
+    "year": 2017,
+    "team": "Wake Forest",
+    "conference": "ACC",
+    "elo": 1604
+  },
+  {
+    "year": 2017,
+    "team": "Washington",
+    "conference": "Pac-12",
+    "elo": 1952
+  },
+  {
+    "year": 2017,
+    "team": "Washington State",
+    "conference": "Pac-12",
+    "elo": 1696
+  },
+  {
+    "year": 2017,
+    "team": "Western Kentucky",
+    "conference": "Conference USA",
+    "elo": 1707
+  },
+  {
+    "year": 2017,
+    "team": "Western Michigan",
+    "conference": "Mid-American",
+    "elo": 1722
+  },
+  {
+    "year": 2017,
+    "team": "West Virginia",
+    "conference": "Big 12",
+    "elo": 1704
+  },
+  {
+    "year": 2017,
+    "team": "Wisconsin",
+    "conference": "Big Ten",
+    "elo": 1915
+  },
+  {
+    "year": 2017,
+    "team": "Wyoming",
+    "conference": "Mountain West",
+    "elo": 1381
+  }
+]
