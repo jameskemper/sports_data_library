@@ -1,48 +1,60 @@
 #!/usr/bin/env python3
+"""
+compile_elo_season.py
+
+Compile weekly ELO JSON files into a single CSV.
+"""
+
 import os
+import json
 import pandas as pd
 
-YEAR = 2025
+YEAR = 2024
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-WEEKS_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-OUT_FILE = os.path.join(BASE_DIR, "data", f"elo_{YEAR}.csv")
+DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
+OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"elo_{YEAR}.csv")
+
+def load_week(week_file):
+    """Load one week's JSON and flatten into DataFrame."""
+    with open(week_file, "r") as f:
+        data = json.load(f)
+
+    if not data:
+        return pd.DataFrame()
+
+    df = pd.json_normalize(data)
+    df["week"] = int(os.path.basename(week_file).split("_")[1].split(".")[0])
+    return df
 
 def main():
-    if not os.path.exists(WEEKS_DIR):
-        print(f"⚠️ {WEEKS_DIR} does not exist. Run weekly_elo_scraper.py first.")
+    if not os.path.exists(DATA_DIR):
+        print(f"⚠️ No weekly directory found for {YEAR}")
         return
 
-    # Collect weekly CSVs
-    weekly_files = [
-        os.path.join(WEEKS_DIR, f) 
-        for f in sorted(os.listdir(WEEKS_DIR)) 
-        if f.endswith(".csv")
-    ]
+    all_files = sorted(
+        [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith(".json")]
+    )
 
-    if not weekly_files:
+    if not all_files:
         print("⚠️ No weekly files found to compile yet.")
         return
 
-    # Concatenate all weeks into one DataFrame
-    df_list = []
-    for f in weekly_files:
+    dfs = []
+    for f in all_files:
         try:
-            df = pd.read_csv(f)
-            df["week_file"] = os.path.basename(f)  # keep track of source week
-            df_list.append(df)
+            df = load_week(f)
+            if not df.empty:
+                dfs.append(df)
         except Exception as e:
-            print(f"❌ Error reading {f}: {e}")
+            print(f"⚠️ Could not load {f}: {e}")
 
-    if not df_list:
-        print("⚠️ No data compiled, all files were empty or errored.")
-        return
-
-    full_df = pd.concat(df_list, ignore_index=True)
-
-    # Save compiled season file
-    os.makedirs(os.path.dirname(OUT_FILE), exist_ok=True)
-    full_df.to_csv(OUT_FILE, index=False)
-    print(f"✅ Compiled season file saved to {OUT_FILE}")
+    if dfs:
+        final_df = pd.concat(dfs, ignore_index=True)
+        final_df.to_csv(OUTPUT_FILE, index=False)
+        print(f"✅ Compiled season file saved to {OUTPUT_FILE}")
+    else:
+        print("⚠️ No data to compile.")
 
 if __name__ == "__main__":
     main()
