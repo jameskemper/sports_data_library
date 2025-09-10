@@ -2,7 +2,7 @@
 """
 compile_elo_season.py
 
-Compile weekly ELO JSON files into a single CSV.
+Compile weekly ELO JSON files into a single CSV for 2025.
 """
 
 import os
