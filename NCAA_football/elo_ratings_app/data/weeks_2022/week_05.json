@@ -1,0 +1,788 @@
+[
+  {
+    "year": 2022,
+    "team": "Air Force",
+    "conference": "Mountain West",
+    "elo": 1739
+  },
+  {
+    "year": 2022,
+    "team": "Akron",
+    "conference": "Mid-American",
+    "elo": 967
+  },
+  {
+    "year": 2022,
+    "team": "Alabama",
+    "conference": "SEC",
+    "elo": 2190
+  },
+  {
+    "year": 2022,
+    "team": "App State",
+    "conference": "Sun Belt",
+    "elo": 1633
+  },
+  {
+    "year": 2022,
+    "team": "Arizona",
+    "conference": "Pac-12",
+    "elo": 1361
+  },
+  {
+    "year": 2022,
+    "team": "Arizona State",
+    "conference": "Pac-12",
+    "elo": 1505
+  },
+  {
+    "year": 2022,
+    "team": "Arkansas",
+    "conference": "SEC",
+    "elo": 1658
+  },
+  {
+    "year": 2022,
+    "team": "Arkansas State",
+    "conference": "Sun Belt",
+    "elo": 1271
+  },
+  {
+    "year": 2022,
+    "team": "Army",
+    "conference": "FBS Independents",
+    "elo": 1476
+  },
+  {
+    "year": 2022,
+    "team": "Auburn",
+    "conference": "SEC",
+    "elo": 1558
+  },
+  {
+    "year": 2022,
+    "team": "Ball State",
+    "conference": "Mid-American",
+    "elo": 1294
+  },
+  {
+    "year": 2022,
+    "team": "Baylor",
+    "conference": "Big 12",
+    "elo": 1733
+  },
+  {
+    "year": 2022,
+    "team": "Boise State",
+    "conference": "Mountain West",
+    "elo": 1582
+  },
+  {
+    "year": 2022,
+    "team": "Boston College",
+    "conference": "ACC",
+    "elo": 1339
+  },
+  {
+    "year": 2022,
+    "team": "Bowling Green",
+    "conference": "Mid-American",
+    "elo": 1148
+  },
+  {
+    "year": 2022,
+    "team": "Buffalo",
+    "conference": "Mid-American",
+    "elo": 1402
+  },
+  {
+    "year": 2022,
+    "team": "BYU",
+    "conference": "FBS Independents",
+    "elo": 1636
+  },
+  {
+    "year": 2022,
+    "team": "California",
+    "conference": "Pac-12",
+    "elo": 1503
+  },
+  {
+    "year": 2022,
+    "team": "Central Michigan",
+    "conference": "Mid-American",
+    "elo": 1415
+  },
+  {
+    "year": 2022,
+    "team": "Charlotte",
+    "conference": "Conference USA",
+    "elo": 1111
+  },
+  {
+    "year": 2022,
+    "team": "Cincinnati",
+    "conference": "American Athletic",
+    "elo": 1797
+  },
+  {
+    "year": 2022,
+    "team": "Clemson",
+    "conference": "ACC",
+    "elo": 1816
+  },
+  {
+    "year": 2022,
+    "team": "Coastal Carolina",
+    "conference": "Sun Belt",
+    "elo": 1671
+  },
+  {
+    "year": 2022,
+    "team": "Colorado",
+    "conference": "Pac-12",
+    "elo": 1147
+  },
+  {
+    "year": 2022,
+    "team": "Colorado State",
+    "conference": "Mountain West",
+    "elo": 1233
+  },
+  {
+    "year": 2022,
+    "team": "Duke",
+    "conference": "ACC",
+    "elo": 1336
+  },
+  {
+    "year": 2022,
+    "team": "East Carolina",
+    "conference": "American Athletic",
+    "elo": 1539
+  },
+  {
+    "year": 2022,
+    "team": "Eastern Michigan",
+    "conference": "Mid-American",
+    "elo": 1320
+  },
+  {
+    "year": 2022,
+    "team": "Florida",
+    "conference": "SEC",
+    "elo": 1568
+  },
+  {
+    "year": 2022,
+    "team": "Florida Atlantic",
+    "conference": "Conference USA",
+    "elo": 1372
+  },
+  {
+    "year": 2022,
+    "team": "Florida International",
+    "conference": "Conference USA",
+    "elo": 943
+  },
+  {
+    "year": 2022,
+    "team": "Florida State",
+    "conference": "ACC",
+    "elo": 1564
+  },
+  {
+    "year": 2022,
+    "team": "Fresno State",
+    "conference": "Mountain West",
+    "elo": 1487
+  },
+  {
+    "year": 2022,
+    "team": "Georgia",
+    "conference": "SEC",
+    "elo": 2058
+  },
+  {
+    "year": 2022,
+    "team": "Georgia Southern",
+    "conference": "Sun Belt",
+    "elo": 1403
+  },
+  {
+    "year": 2022,
+    "team": "Georgia State",
+    "conference": "Sun Belt",
+    "elo": 1476
+  },
+  {
+    "year": 2022,
+    "team": "Georgia Tech",
+    "conference": "ACC",
+    "elo": 1280
+  },
+  {
+    "year": 2022,
+    "team": "Hawai'i",
+    "conference": "Mountain West",
+    "elo": 1090
+  },
+  {
+    "year": 2022,
+    "team": "Houston",
+    "conference": "American Athletic",
+    "elo": 1514
+  },
+  {
+    "year": 2022,
+    "team": "Illinois",
+    "conference": "Big Ten",
+    "elo": 1706
+  },
+  {
+    "year": 2022,
+    "team": "Indiana",
+    "conference": "Big Ten",
+    "elo": 1323
+  },
+  {
+    "year": 2022,
+    "team": "Iowa",
+    "conference": "Big Ten",
+    "elo": 1701
+  },
+  {
+    "year": 2022,
+    "team": "Iowa State",
+    "conference": "Big 12",
+    "elo": 1782
+  },
+  {
+    "year": 2022,
+    "team": "James Madison",
+    "conference": "Sun Belt",
+    "elo": 1496
+  },
+  {
+    "year": 2022,
+    "team": "Kansas",
+    "conference": "Big 12",
+    "elo": 1357
+  },
+  {
+    "year": 2022,
+    "team": "Kansas State",
+    "conference": "Big 12",
+    "elo": 1680
+  },
+  {
+    "year": 2022,
+    "team": "Kent State",
+    "conference": "Mid-American",
+    "elo": 1313
+  },
+  {
+    "year": 2022,
+    "team": "Kentucky",
+    "conference": "SEC",
+    "elo": 1712
+  },
+  {
+    "year": 2022,
+    "team": "Liberty",
+    "conference": "FBS Independents",
+    "elo": 1582
+  },
+  {
+    "year": 2022,
+    "team": "Louisiana",
+    "conference": "Sun Belt",
+    "elo": 1631
+  },
+  {
+    "year": 2022,
+    "team": "Louisiana Tech",
+    "conference": "Conference USA",
+    "elo": 1187
+  },
+  {
+    "year": 2022,
+    "team": "Louisville",
+    "conference": "ACC",
+    "elo": 1568
+  },
+  {
+    "year": 2022,
+    "team": "LSU",
+    "conference": "SEC",
+    "elo": 1644
+  },
+  {
+    "year": 2022,
+    "team": "Marshall",
+    "conference": "Sun Belt",
+    "elo": 1549
+  },
+  {
+    "year": 2022,
+    "team": "Maryland",
+    "conference": "Big Ten",
+    "elo": 1647
+  },
+  {
+    "year": 2022,
+    "team": "Massachusetts",
+    "conference": "FBS Independents",
+    "elo": 888
+  },
+  {
+    "year": 2022,
+    "team": "Memphis",
+    "conference": "American Athletic",
+    "elo": 1506
+  },
+  {
+    "year": 2022,
+    "team": "Miami",
+    "conference": "ACC",
+    "elo": 1533
+  },
+  {
+    "year": 2022,
+    "team": "Miami (OH)",
+    "conference": "Mid-American",
+    "elo": 1452
+  },
+  {
+    "year": 2022,
+    "team": "Michigan",
+    "conference": "Big Ten",
+    "elo": 2013
+  },
+  {
+    "year": 2022,
+    "team": "Michigan State",
+    "conference": "Big Ten",
+    "elo": 1580
+  },
+  {
+    "year": 2022,
+    "team": "Middle Tennessee",
+    "conference": "Conference USA",
+    "elo": 1384
+  },
+  {
+    "year": 2022,
+    "team": "Minnesota",
+    "conference": "Big Ten",
+    "elo": 1784
+  },
+  {
+    "year": 2022,
+    "team": "Mississippi State",
+    "conference": "SEC",
+    "elo": 1667
+  },
+  {
+    "year": 2022,
+    "team": "Missouri",
+    "conference": "SEC",
+    "elo": 1443
+  },
+  {
+    "year": 2022,
+    "team": "Navy",
+    "conference": "American Athletic",
+    "elo": 1364
+  },
+  {
+    "year": 2022,
+    "team": "NC State",
+    "conference": "ACC",
+    "elo": 1652
+  },
+  {
+    "year": 2022,
+    "team": "Nebraska",
+    "conference": "Big Ten",
+    "elo": 1536
+  },
+  {
+    "year": 2022,
+    "team": "Nevada",
+    "conference": "Mountain West",
+    "elo": 1467
+  },
+  {
+    "year": 2022,
+    "team": "New Mexico",
+    "conference": "Mountain West",
+    "elo": 1196
+  },
+  {
+    "year": 2022,
+    "team": "New Mexico State",
+    "conference": "FBS Independents",
+    "elo": 1040
+  },
+  {
+    "year": 2022,
+    "team": "North Carolina",
+    "conference": "ACC",
+    "elo": 1622
+  },
+  {
+    "year": 2022,
+    "team": "Northern Illinois",
+    "conference": "Mid-American",
+    "elo": 1355
+  },
+  {
+    "year": 2022,
+    "team": "North Texas",
+    "conference": "Conference USA",
+    "elo": 1325
+  },
+  {
+    "year": 2022,
+    "team": "Northwestern",
+    "conference": "Big Ten",
+    "elo": 1368
+  },
+  {
+    "year": 2022,
+    "team": "Notre Dame",
+    "conference": "FBS Independents",
+    "elo": 1790
+  },
+  {
+    "year": 2022,
+    "team": "Ohio",
+    "conference": "Mid-American",
+    "elo": 1265
+  },
+  {
+    "year": 2022,
+    "team": "Ohio State",
+    "conference": "Big Ten",
+    "elo": 2150
+  },
+  {
+    "year": 2022,
+    "team": "Oklahoma",
+    "conference": "Big 12",
+    "elo": 1721
+  },
+  {
+    "year": 2022,
+    "team": "Oklahoma State",
+    "conference": "Big 12",
+    "elo": 1824
+  },
+  {
+    "year": 2022,
+    "team": "Old Dominion",
+    "conference": "Sun Belt",
+    "elo": 1351
+  },
+  {
+    "year": 2022,
+    "team": "Ole Miss",
+    "conference": "SEC",
+    "elo": 1746
+  },
+  {
+    "year": 2022,
+    "team": "Oregon",
+    "conference": "Pac-12",
+    "elo": 1585
+  },
+  {
+    "year": 2022,
+    "team": "Oregon State",
+    "conference": "Pac-12",
+    "elo": 1559
+  },
+  {
+    "year": 2022,
+    "team": "Penn State",
+    "conference": "Big Ten",
+    "elo": 1804
+  },
+  {
+    "year": 2022,
+    "team": "Pittsburgh",
+    "conference": "ACC",
+    "elo": 1650
+  },
+  {
+    "year": 2022,
+    "team": "Purdue",
+    "conference": "Big Ten",
+    "elo": 1666
+  },
+  {
+    "year": 2022,
+    "team": "Rice",
+    "conference": "Conference USA",
+    "elo": 1225
+  },
+  {
+    "year": 2022,
+    "team": "Rutgers",
+    "conference": "Big Ten",
+    "elo": 1329
+  },
+  {
+    "year": 2022,
+    "team": "San Diego State",
+    "conference": "Mountain West",
+    "elo": 1388
+  },
+  {
+    "year": 2022,
+    "team": "San Jos\u00e9 State",
+    "conference": "Mountain West",
+    "elo": 1468
+  },
+  {
+    "year": 2022,
+    "team": "SMU",
+    "conference": "American Athletic",
+    "elo": 1628
+  },
+  {
+    "year": 2022,
+    "team": "South Alabama",
+    "conference": "Sun Belt",
+    "elo": 1467
+  },
+  {
+    "year": 2022,
+    "team": "South Carolina",
+    "conference": "SEC",
+    "elo": 1546
+  },
+  {
+    "year": 2022,
+    "team": "Southern Miss",
+    "conference": "Sun Belt",
+    "elo": 1275
+  },
+  {
+    "year": 2022,
+    "team": "South Florida",
+    "conference": "American Athletic",
+    "elo": 1167
+  },
+  {
+    "year": 2022,
+    "team": "Stanford",
+    "conference": "Pac-12",
+    "elo": 1315
+  },
+  {
+    "year": 2022,
+    "team": "Syracuse",
+    "conference": "ACC",
+    "elo": 1539
+  },
+  {
+    "year": 2022,
+    "team": "TCU",
+    "conference": "Big 12",
+    "elo": 1656
+  },
+  {
+    "year": 2022,
+    "team": "Temple",
+    "conference": "American Athletic",
+    "elo": 1092
+  },
+  {
+    "year": 2022,
+    "team": "Tennessee",
+    "conference": "SEC",
+    "elo": 1830
+  },
+  {
+    "year": 2022,
+    "team": "Texas",
+    "conference": "Big 12",
+    "elo": 1759
+  },
+  {
+    "year": 2022,
+    "team": "Texas A&M",
+    "conference": "SEC",
+    "elo": 1658
+  },
+  {
+    "year": 2022,
+    "team": "Texas State",
+    "conference": "Sun Belt",
+    "elo": 1202
+  },
+  {
+    "year": 2022,
+    "team": "Texas Tech",
+    "conference": "Big 12",
+    "elo": 1519
+  },
+  {
+    "year": 2022,
+    "team": "Toledo",
+    "conference": "Mid-American",
+    "elo": 1522
+  },
+  {
+    "year": 2022,
+    "team": "Troy",
+    "conference": "Sun Belt",
+    "elo": 1427
+  },
+  {
+    "year": 2022,
+    "team": "Tulane",
+    "conference": "American Athletic",
+    "elo": 1497
+  },
+  {
+    "year": 2022,
+    "team": "Tulsa",
+    "conference": "American Athletic",
+    "elo": 1506
+  },
+  {
+    "year": 2022,
+    "team": "UAB",
+    "conference": "Conference USA",
+    "elo": 1542
+  },
+  {
+    "year": 2022,
+    "team": "UCF",
+    "conference": "American Athletic",
+    "elo": 1618
+  },
+  {
+    "year": 2022,
+    "team": "UCLA",
+    "conference": "Pac-12",
+    "elo": 1712
+  },
+  {
+    "year": 2022,
+    "team": "UConn",
+    "conference": "FBS Independents",
+    "elo": 1029
+  },
+  {
+    "year": 2022,
+    "team": "UL Monroe",
+    "conference": "Sun Belt",
+    "elo": 1090
+  },
+  {
+    "year": 2022,
+    "team": "UNLV",
+    "conference": "Mountain West",
+    "elo": 1424
+  },
+  {
+    "year": 2022,
+    "team": "USC",
+    "conference": "Pac-12",
+    "elo": 1708
+  },
+  {
+    "year": 2022,
+    "team": "Utah",
+    "conference": "Pac-12",
+    "elo": 1886
+  },
+  {
+    "year": 2022,
+    "team": "Utah State",
+    "conference": "Mountain West",
+    "elo": 1414
+  },
+  {
+    "year": 2022,
+    "team": "UTEP",
+    "conference": "Conference USA",
+    "elo": 1317
+  },
+  {
+    "year": 2022,
+    "team": "UTSA",
+    "conference": "Conference USA",
+    "elo": 1518
+  },
+  {
+    "year": 2022,
+    "team": "Vanderbilt",
+    "conference": "SEC",
+    "elo": 1358
+  },
+  {
+    "year": 2022,
+    "team": "Virginia",
+    "conference": "ACC",
+    "elo": 1406
+  },
+  {
+    "year": 2022,
+    "team": "Virginia Tech",
+    "conference": "ACC",
+    "elo": 1325
+  },
+  {
+    "year": 2022,
+    "team": "Wake Forest",
+    "conference": "ACC",
+    "elo": 1679
+  },
+  {
+    "year": 2022,
+    "team": "Washington",
+    "conference": "Pac-12",
+    "elo": 1616
+  },
+  {
+    "year": 2022,
+    "team": "Washington State",
+    "conference": "Pac-12",
+    "elo": 1674
+  },
+  {
+    "year": 2022,
+    "team": "Western Kentucky",
+    "conference": "Conference USA",
+    "elo": 1789
+  },
+  {
+    "year": 2022,
+    "team": "Western Michigan",
+    "conference": "Mid-American",
+    "elo": 1377
+  },
+  {
+    "year": 2022,
+    "team": "West Virginia",
+    "conference": "Big 12",
+    "elo": 1476
+  },
+  {
+    "year": 2022,
+    "team": "Wisconsin",
+    "conference": "Big Ten",
+    "elo": 1692
+  },
+  {
+    "year": 2022,
+    "team": "Wyoming",
+    "conference": "Mountain West",
+    "elo": 1367
+  }
+]
