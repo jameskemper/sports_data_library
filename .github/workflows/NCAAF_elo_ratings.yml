@@ -3,11 +3,15 @@ name: NCAA Football ELO Ratings
 on:
   schedule:
     - cron: "0 6 * * *"   # run daily at 6 AM UTC
-  workflow_dispatch:       # allow manual runs
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 👈 allow workflow to push commits
 
 jobs:
   update-elo:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -25,12 +29,14 @@ jobs:
           pip install cfbd pandas requests
 
       - name: Run weekly scraper
-        run: python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
 
-      - name: Compile season file
-        run: python NCAA_football/elo_ratings_app/compile_elo_season.py
+      - name: Compile season data
+        run: |
+          python NCAA_football/elo_ratings_app/compile_elo_season.py
 
       - name: Commit and push changes
         run: |
@@ -38,4 +44,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add NCAA_football/elo_ratings_app/data/
           git commit -m "Update 2025 ELO data [skip ci]" || echo "No changes to commit"
-          git push
+          git push origin master
