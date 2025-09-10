@@ -9,18 +9,11 @@ and save raw JSON to data/weeks_<YEAR>/week_##.json.
 import os
 import json
 import requests
-from datetime import datetime
 
 # Config
 API_KEY = os.environ["CFBD_API_KEY"]
-YEAR = 2025
 SEASON_TYPE = "regular"
 LAST_WEEK = 20  # adjust if season has fewer/more weeks
-
-# Paths
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-os.makedirs(DATA_DIR, exist_ok=True)
 
 # API base
 BASE_URL = "https://api.collegefootballdata.com/ratings/elo"
@@ -42,19 +35,24 @@ def fetch_weekly_elo(year: int, week: int):
         print("Response preview:", resp.text[:200])
         return None
 
-def save_weekly_file(week: int, data: dict):
+def save_weekly_file(year: int, week: int, data: dict):
     """Save weekly data as JSON."""
-    fname = os.path.join(DATA_DIR, f"week_{week:02d}.json")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(base_dir, "data", f"weeks_{year}")
+    os.makedirs(data_dir, exist_ok=True)
+
+    fname = os.path.join(data_dir, f"week_{week:02d}.json")
     with open(fname, "w") as f:
         json.dump(data, f, indent=2)
     print(f"✅ Saved {fname}")
 
 def main():
-    for week in range(1, LAST_WEEK + 1):
-        print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
-        data = fetch_weekly_elo(YEAR, week)
-        if data:
-            save_weekly_file(week, data)
+    for year in range(2010, 2025):  # loop 2010 → 2024
+        for week in range(1, LAST_WEEK + 1):
+            print(f"📅 Fetching {year} Week {week} ELO ratings...")
+            data = fetch_weekly_elo(year, week)
+            if data:
+                save_weekly_file(year, week, data)
 
 if __name__ == "__main__":
     main()
