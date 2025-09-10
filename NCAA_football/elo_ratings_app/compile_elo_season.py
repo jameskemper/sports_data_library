@@ -2,18 +2,14 @@
 """
 compile_elo_season.py
 
-Compile weekly ELO JSON files into a single CSV.
+Compile weekly ELO JSON files into one CSV per year.
 """
 
 import os
 import json
 import pandas as pd
 
-YEAR = 2024
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
-OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"elo_{YEAR}.csv")
 
 def load_week(week_file):
     """Load one week's JSON and flatten into DataFrame."""
@@ -27,17 +23,21 @@ def load_week(week_file):
     df["week"] = int(os.path.basename(week_file).split("_")[1].split(".")[0])
     return df
 
-def main():
-    if not os.path.exists(DATA_DIR):
-        print(f"⚠️ No weekly directory found for {YEAR}")
+def compile_year(year: int):
+    """Compile all weekly files for a given year."""
+    data_dir = os.path.join(BASE_DIR, "data", f"weeks_{year}")
+    output_file = os.path.join(BASE_DIR, "data", f"elo_{year}.csv")
+
+    if not os.path.exists(data_dir):
+        print(f"⚠️ No weekly directory found for {year}")
         return
 
     all_files = sorted(
-        [os.path.join(DATA_DIR, f) for f in os.listdir(DATA_DIR) if f.endswith(".json")]
+        [os.path.join(data_dir, f) for f in os.listdir(data_dir) if f.endswith(".json")]
     )
 
     if not all_files:
-        print("⚠️ No weekly files found to compile yet.")
+        print(f"⚠️ No weekly files found for {year}")
         return
 
     dfs = []
@@ -51,10 +51,14 @@ def main():
 
     if dfs:
         final_df = pd.concat(dfs, ignore_index=True)
-        final_df.to_csv(OUTPUT_FILE, index=False)
-        print(f"✅ Compiled season file saved to {OUTPUT_FILE}")
+        final_df.to_csv(output_file, index=False)
+        print(f"✅ Compiled season file saved to {output_file}")
     else:
-        print("⚠️ No data to compile.")
+        print(f"⚠️ No data compiled for {year}")
+
+def main():
+    for year in range(2010, 2025):  # loop 2010 → 2024
+        compile_year(year)
 
 if __name__ == "__main__":
     main()
