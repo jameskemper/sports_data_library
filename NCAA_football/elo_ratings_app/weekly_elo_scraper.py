@@ -1,62 +1,60 @@
-import cfbd
-import pandas as pd
+#!/usr/bin/env python3
+"""
+weekly_elo_scraper.py
+
+Fetch weekly ELO ratings from the CollegeFootballData API
+and save raw JSON to data/weeks_<YEAR>/week_##.json.
+"""
+
 import os
-import sys
+import json
+import requests
+from datetime import datetime
 
-# Securely load API key
-api_key = os.getenv("CFBD_API_KEY")
+# Config
+API_KEY = os.environ["CFBD_API_KEY"]
+YEAR = 2024
+SEASON_TYPE = "regular"
+LAST_WEEK = 20  # adjust if season has fewer/more weeks
 
-# Sanity check
-if not api_key:
-    sys.exit("❌ No API key found. Did you set CFBD_API_KEY in GitHub Secrets?")
-if api_key.startswith("Bearer"):
-    sys.exit("❌ API key misconfigured: remove 'Bearer ' prefix from secret.")
+# Paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
+os.makedirs(DATA_DIR, exist_ok=True)
 
-# Configure CFBD client
-configuration = cfbd.Configuration()
-configuration.api_key['Authorization'] = api_key
-configuration.api_key_prefix['Authorization'] = 'Bearer'
+# API base
+BASE_URL = "https://api.collegefootballdata.com/ratings/elo"
+HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
-api_config = cfbd.ApiClient(configuration)
-games_api = cfbd.GamesApi(api_config)
+def fetch_weekly_elo(year: int, week: int):
+    """Fetch ELO ratings for a specific week."""
+    url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
+    resp = requests.get(url, headers=HEADERS, timeout=30)
 
-year = 2025
-script_dir = os.path.dirname(os.path.abspath(__file__))
-weekly_dir = os.path.join(script_dir, "data", "weeks_2025")
-os.makedirs(weekly_dir, exist_ok=True)
+    if resp.status_code != 200:
+        print(f"❌ Error {resp.status_code} fetching year {year} week {week}")
+        return None
 
-for week in range(1, 21):  # Loop through weeks 1–20
-    print(f"📅 Fetching 2025 Week {week} games...")
     try:
-        games = games_api.get_games(year=year, week=week)
-    except Exception as e:
-        print(f"❌ Error fetching year {year} week {week}: {e}")
-        continue
+        return resp.json()
+    except Exception:
+        print(f"❌ Could not decode JSON for {year} week {week}")
+        print("Response preview:", resp.text[:200])
+        return None
 
-    if not games:
-        print(f"⚠️ No games found for year {year}, week {week}.")
-        continue
+def save_weekly_file(week: int, data: dict):
+    """Save weekly data as JSON."""
+    fname = os.path.join(DATA_DIR, f"week_{week:02d}.json")
+    with open(fname, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"✅ Saved {fname}")
 
-    df_week = pd.DataFrame.from_records([{
-        'season': g.season,
-        'week': g.week,
-        'home_team': g.home_team,
-        'home_id': g.home_id,
-        'home_conference': g.home_conference,
-        'home_points': g.home_points,
-        'home_pregame_elo': g.home_pregame_elo,
-        'home_postgame_elo': g.home_postgame_elo,
-        'away_team': g.away_team,
-        'away_id': g.away_id,
-        'away_conference': g.away_conference,
-        'away_points': g.away_points,
-        'away_pregame_elo': g.away_pregame_elo,
-        'away_postgame_elo': g.away_postgame_elo,
-        'conference_game': int(g.conference_game)
-    } for g in games])
+def main():
+    for week in range(1, LAST_WEEK + 1):
+        print(f"📅 Fetching {YEAR} Week {week} ELO ratings...")
+        data = fetch_weekly_elo(YEAR, week)
+        if data:
+            save_weekly_file(week, data)
 
-    df_week['margin'] = df_week['home_points'] - df_week['away_points']
-
-    weekly_filename = os.path.join(weekly_dir, f"week_{week}.csv")
-    df_week.to_csv(weekly_filename, index=False)
-    print(f"✅ Week {week} data saved → {weekly_filename}")
+if __name__ == "__main__":
+    main()
