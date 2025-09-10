@@ -3,13 +3,12 @@
 weekly_elo_scraper.py
 
 Fetch weekly ELO ratings from the CollegeFootballData API
-and save raw JSON to data/weeks_<YEAR>/week_##.json.
+and save raw JSON to data/weeks_2025/week_##.json.
 """
 
 import os
 import json
 import requests
-from datetime import datetime
 
 # Config
 API_KEY = os.environ["CFBD_API_KEY"]
@@ -17,14 +16,14 @@ YEAR = 2025
 SEASON_TYPE = "regular"
 LAST_WEEK = 20  # adjust if season has fewer/more weeks
 
+# API base
+BASE_URL = "https://api.collegefootballdata.com/ratings/elo"
+HEADERS = {"Authorization": f"Bearer {API_KEY}"}
+
 # Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data", f"weeks_{YEAR}")
 os.makedirs(DATA_DIR, exist_ok=True)
-
-# API base
-BASE_URL = "https://api.collegefootballdata.com/ratings/elo"
-HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 def fetch_weekly_elo(year: int, week: int):
     """Fetch ELO ratings for a specific week."""
