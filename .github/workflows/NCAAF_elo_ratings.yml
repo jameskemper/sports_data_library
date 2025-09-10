@@ -1,12 +1,10 @@
-name: NCAAF ELO Ratings app
+name: NCAA ELO Ratings App
 
 on:
-  workflow_dispatch:        # allow manual runs
+  workflow_dispatch:   # Manual trigger
   schedule:
-    - cron: "0 12 * * 2"    # every Tuesday at 12:00 UTC
+    - cron: "0 12 * * 2"   # Every Tuesday at 12:00 UTC (adjust as needed)
 
-permissions:
-  contents: write          
 jobs:
   update-elo:
     runs-on: ubuntu-latest
@@ -14,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}   # Use your PAT instead of GITHUB_TOKEN
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,13 +25,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install cfbd pandas requests
 
-      - name: Run weekly ELO scraper
+      - name: Run weekly scraper
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
           python NCAA_football/elo_ratings_app/weekly_elo_scraper.py
 
-      - name: Compile season ELO file
+      - name: Compile season file
         run: |
           python NCAA_football/elo_ratings_app/compile_elo_season.py
 
@@ -39,6 +39,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Update ELO data [skip ci]" || echo "No changes to commit"
-          git push
+          git add NCAA_football/elo_ratings_app/data/
+          git commit -m "Update ELO ratings [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin master
+          git push origin master
