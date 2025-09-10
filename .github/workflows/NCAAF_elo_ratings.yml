@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # 👈 allow workflow to push commits
+  contents: write   #  allow workflow to push commits
 
 jobs:
   update-elo:
