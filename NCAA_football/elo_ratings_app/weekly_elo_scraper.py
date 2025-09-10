@@ -13,7 +13,7 @@ from datetime import datetime
 
 # Config
 API_KEY = os.environ["CFBD_API_KEY"]
-YEAR = 2025
+YEAR = 2024
 SEASON_TYPE = "regular"
 LAST_WEEK = 20  # adjust if season has fewer/more weeks
 
