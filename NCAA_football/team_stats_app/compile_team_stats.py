@@ -9,7 +9,21 @@ OUTPUT_FILE = os.path.join(BASE_DIR, "data", f"weekly_advanced_stats_{YEAR}.csv"
 
 def compile_weekly_stats():
     all_files = sorted(glob.glob(os.path.join(DATA_DIR, "advanced_stats_week_*.csv")))
-    df_list = [pd.read_csv(f) for f in all_files]
+    df_list = []
+
+    for f in all_files:
+        # extract week number from filename
+        fname = os.path.basename(f)
+        week_str = fname.replace("advanced_stats_week_", "").replace(".csv", "")
+        try:
+            week = int(week_str)
+        except ValueError:
+            continue  # skip if filename is malformed
+
+        df = pd.read_csv(f)
+        df["week"] = week
+        df_list.append(df)
+
     if df_list:
         combined = pd.concat(df_list, ignore_index=True)
         combined.to_csv(OUTPUT_FILE, index=False)
