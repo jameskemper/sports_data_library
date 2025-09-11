@@ -12,16 +12,12 @@ def compile_weekly_stats():
     df_list = []
 
     for f in all_files:
-        # extract week number from filename
+        # pull week from filename (e.g., advanced_stats_week_03.csv → 3)
         fname = os.path.basename(f)
-        week_str = fname.replace("advanced_stats_week_", "").replace(".csv", "")
-        try:
-            week = int(week_str)
-        except ValueError:
-            continue  # skip if filename is malformed
+        week = int(fname.split("_")[-1].replace(".csv", ""))
 
         df = pd.read_csv(f)
-        df["week"] = week
+        df.insert(0, "week", week)   # add week as the first column
         df_list.append(df)
 
     if df_list:
