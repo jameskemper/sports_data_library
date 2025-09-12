@@ -38,7 +38,7 @@ jobs:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
           cd NCAA_football/schedule_app
-          python compile_schedule_${{ env.YEAR }}.py
+          python schedule_scraper.py
 
       - name: Commit & push updated schedule
         run: |
