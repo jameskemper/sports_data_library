@@ -1,9 +1,9 @@
-name: NCAAF Schedule app
+name: NCAAF Schedule App
 
 on:
   workflow_dispatch:
   schedule:
-    # Run every day at 12:00 UTC (07:00 CDT / 06:00 CST), Aug–Jan
+    # Run every day at 12:00 UTC (07:00 CDT / 06:00 CST)
     - cron: "0 12 * 8-12,1 *"
 
 permissions:
@@ -33,18 +33,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pandas
 
-      - name: Run schedule scraper/compiler
+      - name: Run schedule compiler
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
-          cd NCAA_football/schedule_app
-          python schedule_scraper.py
+          cd NCAA_football/schedules_app
+          python compile_schedule_${{ env.YEAR }}.py
 
       - name: Commit & push updated schedule
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          cd NCAA_football/schedule_app
+          cd NCAA_football/schedules_app
 
           if [ -f "schedule_${{ env.YEAR }}.csv" ]; then
             git add schedule_${{ env.YEAR }}.csv
