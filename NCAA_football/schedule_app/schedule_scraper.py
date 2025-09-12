@@ -16,6 +16,11 @@ YEAR = 2025
 BASE_URL = "https://api.collegefootballdata.com/games"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
+# Ensure the data directory exists
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+
 def fetch_schedule(year):
     url = f"{BASE_URL}?year={year}&seasonType=regular"
     resp = requests.get(url, headers=HEADERS)
@@ -40,11 +45,10 @@ def compile_schedule(year):
             "game_id": g.get("id")
         })
 
-    df = pd.DataFrame(records)
-    return df
+    return pd.DataFrame(records)
 
 if __name__ == "__main__":
     df = compile_schedule(YEAR)
-    outpath = f"schedule_{YEAR}.csv"
+    outpath = os.path.join(DATA_DIR, f"schedule_{YEAR}.csv")
     df.to_csv(outpath, index=False)
     print(f"Saved schedule to {outpath}")
