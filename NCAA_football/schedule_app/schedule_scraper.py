@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-compile_schedule_2025.py
-
+schedule_scraper.py
 Fetches the 2025 college football schedule from the CFBD API
 and saves it as a CSV (no scores).
 """
