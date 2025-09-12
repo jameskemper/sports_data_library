@@ -2,8 +2,10 @@ name: NCAAF ELO Ratings app
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # run daily at 6 AM UTC
+    # Every day at 12:00 UTC, August–December and January
+    - cron: '0 12 * 8-12,1 *'
   workflow_dispatch:
+
 
 permissions:
   contents: write   # 👈 allow workflow to push commits
