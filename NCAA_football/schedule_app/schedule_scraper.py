@@ -1,4 +1,4 @@
-name: NCAAF Schedule App
+name: NCAAF Schedule app
 
 on:
   workflow_dispatch:
