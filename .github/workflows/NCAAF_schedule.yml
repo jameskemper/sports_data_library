@@ -38,7 +38,7 @@ jobs:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
           cd NCAA_football/schedule_app
-          python schedule_scraper.py
+          python compile_schedule_${{ env.YEAR }}.py
 
       - name: Commit & push updated schedule
         run: |
@@ -46,8 +46,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cd NCAA_football/schedule_app
 
-          if [ -f "schedule_${{ env.YEAR }}.csv" ]; then
-            git add schedule_${{ env.YEAR }}.csv
+          if [ -f "data/schedule_${{ env.YEAR }}.csv" ]; then
+            git add data/schedule_${{ env.YEAR }}.csv
           fi
 
           git diff --cached --quiet || \
