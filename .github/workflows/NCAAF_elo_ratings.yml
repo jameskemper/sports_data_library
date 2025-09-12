@@ -8,7 +8,7 @@ on:
 
 
 permissions:
-  contents: write   # 👈 allow workflow to push commits
+  contents: write
 
 jobs:
   update-elo:
