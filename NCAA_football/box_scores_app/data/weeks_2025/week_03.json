@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 3,
     "season_type": "regular",
-    "fetched_at": "2025-09-14T12:39:48+00:00",
+    "fetched_at": "2025-09-15T12:48:59+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=3&seasonType=regular"
   },
   "data": [
@@ -78,7 +78,7 @@
       ],
       "homePostgameWinProbability": 0,
       "homePregameElo": 1394,
-      "homePostgameElo": 1375,
+      "homePostgameElo": 1383,
       "awayId": 152,
       "awayTeam": "NC State",
       "awayClassification": "fbs",
@@ -92,7 +92,7 @@
       ],
       "awayPostgameWinProbability": 1,
       "awayPregameElo": 1510,
-      "awayPostgameElo": 1529,
+      "awayPostgameElo": 1521,
       "excitementIndex": 5.133342505139144,
       "highlights": "",
       "notes": null
@@ -346,7 +346,7 @@
         7,
         21
       ],
-      "homePostgameWinProbability": 0.9951863288879395,
+      "homePostgameWinProbability": 0.9922441840171814,
       "homePregameElo": 1475,
       "homePostgameElo": 1475,
       "awayId": 2142,
@@ -360,10 +360,10 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": 0.004813671112060547,
+      "awayPostgameWinProbability": 0.0077558159828186035,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.5308509093973757,
+      "excitementIndex": 3.5273897868845587,
       "highlights": "",
       "notes": null
     },
@@ -391,9 +391,9 @@
         10,
         10
       ],
-      "homePostgameWinProbability": 0.9756357073783875,
+      "homePostgameWinProbability": 0.7838240265846252,
       "homePregameElo": 1441,
-      "homePostgameElo": 1482,
+      "homePostgameElo": 1497,
       "awayId": 38,
       "awayTeam": "Colorado",
       "awayClassification": "fbs",
@@ -405,10 +405,10 @@
         0,
         6
       ],
-      "awayPostgameWinProbability": 0.02436429262161255,
+      "awayPostgameWinProbability": 0.21617597341537476,
       "awayPregameElo": 1660,
-      "awayPostgameElo": 1619,
-      "excitementIndex": 4.7413938063259,
+      "awayPostgameElo": 1604,
+      "excitementIndex": 4.780995718894543,
       "highlights": "",
       "notes": null
     },
@@ -436,9 +436,9 @@
         3,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.8432114124298096,
       "homePregameElo": 1451,
-      "homePostgameElo": 1464,
+      "homePostgameElo": 1469,
       "awayId": 2306,
       "awayTeam": "Kansas State",
       "awayClassification": "fbs",
@@ -450,9 +450,9 @@
         14,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.15678858757019043,
       "awayPregameElo": 1658,
-      "awayPostgameElo": 1645,
+      "awayPostgameElo": 1640,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -481,9 +481,9 @@
         3,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0,
       "homePregameElo": 1407,
-      "homePostgameElo": 1330,
+      "homePostgameElo": 1331,
       "awayId": 167,
       "awayTeam": "New Mexico",
       "awayClassification": "fbs",
@@ -495,9 +495,9 @@
         0,
         21
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 1,
       "awayPregameElo": 1332,
-      "awayPostgameElo": 1409,
+      "awayPostgameElo": 1408,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -520,7 +520,12 @@
       "homeClassification": "ii",
       "homeConference": "Northeast 10",
       "homePoints": 21,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -529,7 +534,12 @@
       "awayClassification": "ii",
       "awayConference": "Northeast 10",
       "awayPoints": 39,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        24,
+        6,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -544,7 +554,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T04:00:00.000Z",
       "startTimeTBD": true,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -554,8 +564,13 @@
       "homeTeam": "Winston-Salem",
       "homeClassification": "ii",
       "homeConference": "CIAA",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 51,
+      "homeLineScores": [
+        7,
+        14,
+        9,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -563,8 +578,13 @@
       "awayTeam": "Lincoln (PA)",
       "awayClassification": "ii",
       "awayConference": "CIAA",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 14,
+      "awayLineScores": [
+        7,
+        0,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -579,7 +599,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T04:00:00.000Z",
       "startTimeTBD": true,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -589,8 +609,13 @@
       "homeTeam": "Apprentice School",
       "homeClassification": "iii",
       "homeConference": "Independent DIII",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 16,
+      "homeLineScores": [
+        7,
+        0,
+        0,
+        9
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -598,8 +623,13 @@
       "awayTeam": "North Carolina Wesleyan",
       "awayClassification": "iii",
       "awayConference": "USA South",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 49,
+      "awayLineScores": [
+        14,
+        21,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -625,7 +655,12 @@
       "homeClassification": "ii",
       "homeConference": "Carolinas",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -634,7 +669,12 @@
       "awayClassification": "ii",
       "awayConference": "CIAA",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -649,7 +689,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -659,8 +699,13 @@
       "homeTeam": "Carnegie Mellon",
       "homeClassification": "iii",
       "homeConference": "Presidents'",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 14,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -668,8 +713,13 @@
       "awayTeam": "Wisconsin-Lacrosse",
       "awayClassification": "iii",
       "awayConference": "Wisconsin",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 38,
+      "awayLineScores": [
+        7,
+        7,
+        10,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -695,7 +745,12 @@
       "homeClassification": "iii",
       "homeConference": "New Jersey",
       "homePoints": 17,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        7,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -704,7 +759,12 @@
       "awayClassification": "iii",
       "awayConference": "Landmark Conference",
       "awayPoints": 3,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -719,7 +779,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -729,8 +789,14 @@
       "homeTeam": "Bluffton",
       "homeClassification": "iii",
       "homeConference": "Heartland",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 39,
+      "homeLineScores": [
+        3,
+        0,
+        21,
+        8,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -738,8 +804,14 @@
       "awayTeam": "Albion",
       "awayClassification": "iii",
       "awayConference": "Michigan",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 45,
+      "awayLineScores": [
+        6,
+        23,
+        0,
+        3,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -765,7 +837,12 @@
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
       "homePoints": 42,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        21,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -774,7 +851,12 @@
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        0,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -800,7 +882,13 @@
       "homeClassification": "iii",
       "homeConference": "MSCAC",
       "homePoints": 47,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        13,
+        12,
+        7,
+        8
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -809,7 +897,13 @@
       "awayClassification": "iii",
       "awayConference": "MSCAC",
       "awayPoints": 46,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        15,
+        7,
+        10,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -835,7 +929,12 @@
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
       "homePoints": 24,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        3,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -844,7 +943,12 @@
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -921,7 +1025,7 @@
         10,
         3
       ],
-      "homePostgameWinProbability": 0.9923254251480103,
+      "homePostgameWinProbability": 0.9940246939659119,
       "homePregameElo": 1514,
       "homePostgameElo": 1514,
       "awayId": 2729,
@@ -935,7 +1039,7 @@
         7,
         2
       ],
-      "awayPostgameWinProbability": 0.007674574851989746,
+      "awayPostgameWinProbability": 0.005975306034088135,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 2.9915828835043174,
@@ -1011,9 +1115,9 @@
         14,
         3
       ],
-      "homePostgameWinProbability": 0.8512743711471558,
+      "homePostgameWinProbability": 0.8911544680595398,
       "homePregameElo": 1920,
-      "homePostgameElo": 1959,
+      "homePostgameElo": 1948,
       "awayId": 275,
       "awayTeam": "Wisconsin",
       "awayClassification": "fbs",
@@ -1025,9 +1129,9 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": 0.14872562885284424,
+      "awayPostgameWinProbability": 0.1088455319404602,
       "awayPregameElo": 1619,
-      "awayPostgameElo": 1580,
+      "awayPostgameElo": 1591,
       "excitementIndex": 3.036218096573123,
       "highlights": "",
       "notes": null
@@ -1056,9 +1160,9 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0,
       "homePregameElo": 1284,
-      "homePostgameElo": 1193,
+      "homePostgameElo": 1221,
       "awayId": 201,
       "awayTeam": "Oklahoma",
       "awayClassification": "fbs",
@@ -1070,9 +1174,9 @@
         14,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 1,
       "awayPregameElo": 1679,
-      "awayPostgameElo": 1770,
+      "awayPostgameElo": 1742,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -1101,9 +1205,9 @@
         7,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.3225918412208557,
       "homePregameElo": 938,
-      "homePostgameElo": 948,
+      "homePostgameElo": 959,
       "awayId": 2084,
       "awayTeam": "Buffalo",
       "awayClassification": "fbs",
@@ -1115,9 +1219,9 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.6774081587791443,
       "awayPregameElo": 1407,
-      "awayPostgameElo": 1397,
+      "awayPostgameElo": 1386,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -1139,8 +1243,13 @@
       "homeTeam": "Springfield",
       "homeClassification": "iii",
       "homeConference": "NEWMAC",
-      "homePoints": 31,
-      "homeLineScores": null,
+      "homePoints": 38,
+      "homeLineScores": [
+        14,
+        7,
+        7,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1149,7 +1258,12 @@
       "awayClassification": "iii",
       "awayConference": "Commonwealth Coast",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1220,7 +1334,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        7,
+        0,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1229,7 +1348,12 @@
       "awayClassification": "iii",
       "awayConference": "Ohio",
       "awayPoints": 13,
-      "awayLineScores": null,
+      "awayLineScores": [
+        3,
+        10,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1263,7 +1387,7 @@
       ],
       "homePostgameWinProbability": 0.9919071197509766,
       "homePregameElo": 1742,
-      "homePostgameElo": 1877,
+      "homePostgameElo": 1852,
       "awayId": 2117,
       "awayTeam": "Central Michigan",
       "awayClassification": "fbs",
@@ -1277,7 +1401,7 @@
       ],
       "awayPostgameWinProbability": 0.008092880249023438,
       "awayPregameElo": 1204,
-      "awayPostgameElo": 1069,
+      "awayPostgameElo": 1094,
       "excitementIndex": 2.587065763775777,
       "highlights": "",
       "notes": null
@@ -1308,7 +1432,7 @@
       ],
       "homePostgameWinProbability": 0,
       "homePregameElo": 1472,
-      "homePostgameElo": 1422,
+      "homePostgameElo": 1435,
       "awayId": 235,
       "awayTeam": "Memphis",
       "awayClassification": "fbs",
@@ -1322,8 +1446,8 @@
       ],
       "awayPostgameWinProbability": 1,
       "awayPregameElo": 1621,
-      "awayPostgameElo": 1671,
-      "excitementIndex": 4.642823730209075,
+      "awayPostgameElo": 1658,
+      "excitementIndex": 4.585106428375084,
       "highlights": "",
       "notes": null
     },
@@ -1351,9 +1475,9 @@
         0,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.03762400522828102,
       "homePregameElo": 1403,
-      "homePostgameElo": 1379,
+      "homePostgameElo": 1411,
       "awayId": 2483,
       "awayTeam": "Oregon",
       "awayClassification": "fbs",
@@ -1365,10 +1489,10 @@
         14,
         3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.962375994771719,
       "awayPregameElo": 1992,
-      "awayPostgameElo": 2016,
-      "excitementIndex": null,
+      "awayPostgameElo": 1984,
+      "excitementIndex": 3.2641501167463502,
       "highlights": "",
       "notes": null
     },
@@ -1396,7 +1520,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.0863690972328186,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2329,
@@ -1410,7 +1534,7 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.9136309027671814,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -1443,7 +1567,7 @@
       ],
       "homePostgameWinProbability": 0.38769611716270447,
       "homePregameElo": 1557,
-      "homePostgameElo": 1564,
+      "homePostgameElo": 1560,
       "awayId": 228,
       "awayTeam": "Clemson",
       "awayClassification": "fbs",
@@ -1457,8 +1581,8 @@
       ],
       "awayPostgameWinProbability": 0.6123038828372955,
       "awayPregameElo": 1696,
-      "awayPostgameElo": 1689,
-      "excitementIndex": 5.848341980197943,
+      "awayPostgameElo": 1693,
+      "excitementIndex": 5.843388219921077,
       "highlights": "",
       "notes": null
     },
@@ -1480,7 +1604,12 @@
       "homeClassification": "iii",
       "homeConference": "Commonwealth Coast",
       "homePoints": 20,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        7,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1489,7 +1618,12 @@
       "awayClassification": "iii",
       "awayConference": "Centennial",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        13,
+        7,
+        0,
+        8
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1515,7 +1649,12 @@
       "homeClassification": "iii",
       "homeConference": "North Coast",
       "homePoints": 6,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        6,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1524,7 +1663,12 @@
       "awayClassification": "iii",
       "awayConference": "Wisconsin",
       "awayPoints": 35,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        7,
+        6,
+        16
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1550,7 +1694,12 @@
       "homeClassification": "iii",
       "homeConference": "Empire 8",
       "homePoints": 30,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        3,
+        20
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1559,7 +1708,12 @@
       "awayClassification": "iii",
       "awayConference": "Liberty League",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        6,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1585,7 +1739,12 @@
       "homeClassification": "iii",
       "homeConference": "Empire 8",
       "homePoints": 13,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        13,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1594,7 +1753,12 @@
       "awayClassification": "iii",
       "awayConference": "Empire 8",
       "awayPoints": 49,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        7,
+        14,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1620,7 +1784,12 @@
       "homeClassification": "iii",
       "homeConference": "Michigan",
       "homePoints": 53,
-      "homeLineScores": null,
+      "homeLineScores": [
+        16,
+        16,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1629,7 +1798,12 @@
       "awayClassification": "iii",
       "awayConference": "North Coast",
       "awayPoints": 27,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        14,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1655,7 +1829,12 @@
       "homeClassification": "iii",
       "homeConference": "Empire 8",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1664,7 +1843,12 @@
       "awayClassification": "iii",
       "awayConference": "Liberty League",
       "awayPoints": 30,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        3,
+        7,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1690,7 +1874,12 @@
       "homeClassification": "iii",
       "homeConference": "USA South",
       "homePoints": 22,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        15,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1699,7 +1888,12 @@
       "awayClassification": null,
       "awayConference": null,
       "awayPoints": 32,
-      "awayLineScores": null,
+      "awayLineScores": [
+        3,
+        8,
+        7,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1725,7 +1919,12 @@
       "homeClassification": "iii",
       "homeConference": "Liberty League",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        14,
+        0,
+        13
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1734,7 +1933,12 @@
       "awayClassification": "iii",
       "awayConference": "Empire 8",
       "awayPoints": 29,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        7,
+        7,
+        9
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1811,7 +2015,7 @@
         14,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9886107444763184,
       "homePregameElo": 1712,
       "homePostgameElo": 1712,
       "awayId": 2277,
@@ -1825,10 +2029,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.01138925552368164,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 2.770745384073898,
       "highlights": "",
       "notes": null
     },
@@ -1850,7 +2054,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Midwest Athletic",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1859,7 +2068,12 @@
       "awayClassification": "ii",
       "awayConference": "GLIAC",
       "awayPoints": 3,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1874,7 +2088,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -1884,8 +2098,13 @@
       "homeTeam": "Anna Maria College",
       "homeClassification": "iii",
       "homeConference": "MSCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 25,
+      "homeLineScores": [
+        6,
+        3,
+        16,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1893,8 +2112,13 @@
       "awayTeam": "Framingham State",
       "awayClassification": "iii",
       "awayConference": "MSCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 31,
+      "awayLineScores": [
+        7,
+        3,
+        8,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1909,7 +2133,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -1919,8 +2143,13 @@
       "homeTeam": "Dean College",
       "homeClassification": "iii",
       "homeConference": "MSCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1928,8 +2157,13 @@
       "awayTeam": "Mass Maritime",
       "awayClassification": "iii",
       "awayConference": "MSCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 28,
+      "awayLineScores": [
+        0,
+        21,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1944,7 +2178,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -1954,8 +2188,13 @@
       "homeTeam": "Alfred University",
       "homeClassification": "iii",
       "homeConference": "Empire 8",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 14,
+      "homeLineScores": [
+        7,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1963,8 +2202,13 @@
       "awayTeam": "Ithaca College",
       "awayClassification": "iii",
       "awayConference": "Liberty League",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 45,
+      "awayLineScores": [
+        10,
+        14,
+        14,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -1990,7 +2234,12 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -1999,7 +2248,12 @@
       "awayClassification": "ii",
       "awayConference": "Mountain East",
       "awayPoints": 44,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        14,
+        9
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2014,7 +2268,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2024,8 +2278,13 @@
       "homeTeam": "Seton Hill",
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 31,
+      "homeLineScores": [
+        3,
+        0,
+        7,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2033,8 +2292,13 @@
       "awayTeam": "Bloomsburg",
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 28,
+      "awayLineScores": [
+        0,
+        14,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2049,7 +2313,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2059,8 +2323,13 @@
       "homeTeam": "PennWest California",
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 26,
+      "homeLineScores": [
+        10,
+        3,
+        2,
+        11
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2068,8 +2337,13 @@
       "awayTeam": "West Chester",
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 24,
+      "awayLineScores": [
+        0,
+        10,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2084,7 +2358,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -2094,8 +2368,13 @@
       "homeTeam": "St John Fisher University",
       "homeClassification": "iii",
       "homeConference": "Empire 8",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 28,
+      "homeLineScores": [
+        7,
+        14,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2103,8 +2382,13 @@
       "awayTeam": "St. Lawrence",
       "awayClassification": "iii",
       "awayConference": "Liberty League",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 23,
+      "awayLineScores": [
+        0,
+        10,
+        7,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2130,7 +2414,12 @@
       "homeClassification": "iii",
       "homeConference": "Landmark Conference",
       "homePoints": 56,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        21,
+        7,
+        28
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2139,7 +2428,12 @@
       "awayClassification": "iii",
       "awayConference": "Old Dominion",
       "awayPoints": 17,
-      "awayLineScores": null,
+      "awayLineScores": [
+        10,
+        0,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2165,7 +2459,12 @@
       "homeClassification": "iii",
       "homeConference": "Empire 8",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2174,7 +2473,12 @@
       "awayClassification": "iii",
       "awayConference": "Liberty League",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        3,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2189,7 +2493,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -2199,8 +2503,13 @@
       "homeTeam": "Castleton",
       "homeClassification": "iii",
       "homeConference": "New Jersey",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 30,
+      "homeLineScores": [
+        7,
+        20,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2208,8 +2517,13 @@
       "awayTeam": "Norwich",
       "awayClassification": "iii",
       "awayConference": "NEWMAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 8,
+      "awayLineScores": [
+        0,
+        0,
+        2,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2224,7 +2538,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -2234,8 +2548,14 @@
       "homeTeam": "Salve Regina",
       "homeClassification": "iii",
       "homeConference": "NEWMAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 34,
+      "homeLineScores": [
+        21,
+        7,
+        0,
+        0,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2243,8 +2563,14 @@
       "awayTeam": "Western New England",
       "awayClassification": "iii",
       "awayConference": "Commonwealth Coast",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 28,
+      "awayLineScores": [
+        3,
+        3,
+        7,
+        15,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2278,7 +2604,7 @@
       ],
       "homePostgameWinProbability": 1,
       "homePregameElo": 1661,
-      "homePostgameElo": 1687,
+      "homePostgameElo": 1686,
       "awayId": 6,
       "awayTeam": "South Alabama",
       "awayClassification": "fbs",
@@ -2292,7 +2618,7 @@
       ],
       "awayPostgameWinProbability": 0,
       "awayPregameElo": 1557,
-      "awayPostgameElo": 1531,
+      "awayPostgameElo": 1532,
       "excitementIndex": 3.376760616702656,
       "highlights": "",
       "notes": null
@@ -2315,7 +2641,12 @@
       "homeClassification": "iii",
       "homeConference": "Heartland",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        13,
+        8,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2324,7 +2655,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 35,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2339,7 +2675,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -2349,8 +2685,13 @@
       "homeTeam": "Olivet College",
       "homeClassification": "iii",
       "homeConference": "Michigan",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 28,
+      "homeLineScores": [
+        7,
+        7,
+        14,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2358,8 +2699,13 @@
       "awayTeam": "Madonna University (Mich.)",
       "awayClassification": null,
       "awayConference": null,
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 45,
+      "awayLineScores": [
+        14,
+        10,
+        7,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2385,7 +2731,12 @@
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
       "homePoints": 37,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        10,
+        0,
+        20
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2394,7 +2745,12 @@
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
       "awayPoints": 13,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2420,7 +2776,12 @@
       "homeClassification": "iii",
       "homeConference": "North Coast",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2429,7 +2790,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        14,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2455,7 +2821,12 @@
       "homeClassification": "iii",
       "homeConference": "Michigan",
       "homePoints": 76,
-      "homeLineScores": null,
+      "homeLineScores": [
+        28,
+        21,
+        20,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2463,8 +2834,13 @@
       "awayTeam": "Thiel",
       "awayClassification": "iii",
       "awayConference": "Presidents'",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2490,7 +2866,12 @@
       "homeClassification": "iii",
       "homeConference": "North Coast",
       "homePoints": 38,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        0,
+        17
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2499,7 +2880,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2525,7 +2911,12 @@
       "homeClassification": "iii",
       "homeConference": "Commonwealth Coast",
       "homePoints": 24,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        6,
+        6,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2534,7 +2925,12 @@
       "awayClassification": "iii",
       "awayConference": "NEWMAC",
       "awayPoints": 56,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        28,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2560,7 +2956,12 @@
       "homeClassification": "iii",
       "homeConference": "NEWMAC",
       "homePoints": 34,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        14,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2569,7 +2970,12 @@
       "awayClassification": "iii",
       "awayConference": "Commonwealth Coast",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        10,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2595,7 +3001,12 @@
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
       "homePoints": 19,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        6,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2604,7 +3015,12 @@
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
       "awayPoints": 3,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        3,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2630,7 +3046,12 @@
       "homeClassification": "iii",
       "homeConference": "Presidents'",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2639,7 +3060,12 @@
       "awayClassification": "iii",
       "awayConference": "Ohio",
       "awayPoints": 49,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        14,
+        14,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2665,7 +3091,12 @@
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        28,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2674,7 +3105,12 @@
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2700,7 +3136,12 @@
       "homeClassification": "iii",
       "homeConference": "New Jersey",
       "homePoints": 56,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        14,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2708,8 +3149,13 @@
       "awayTeam": "Moravian",
       "awayClassification": "iii",
       "awayConference": "Landmark Conference",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2735,7 +3181,12 @@
       "homeClassification": "iii",
       "homeConference": "Commonwealth Coast",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        6,
+        0,
+        28
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2744,7 +3195,12 @@
       "awayClassification": "iii",
       "awayConference": "NEWMAC",
       "awayPoints": 3,
-      "awayLineScores": null,
+      "awayLineScores": [
+        3,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2770,7 +3226,12 @@
       "homeClassification": "iii",
       "homeConference": "Michigan",
       "homePoints": 50,
-      "homeLineScores": null,
+      "homeLineScores": [
+        10,
+        33,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2779,7 +3240,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2805,7 +3271,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 52,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        21,
+        17,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2814,7 +3285,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 19,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        6,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2846,7 +3322,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.7069054841995239,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2368,
@@ -2860,10 +3336,10 @@
         0,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.2930945158004761,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 6.43313946077628,
       "highlights": "",
       "notes": null
     },
@@ -2885,7 +3361,12 @@
       "homeClassification": "iii",
       "homeConference": "Old Dominion",
       "homePoints": 38,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        14,
+        21,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -2894,7 +3375,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 31,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        17,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -2919,28 +3405,28 @@
       "homeTeam": "Howard",
       "homeClassification": "fcs",
       "homeConference": "MEAC",
-      "homePoints": 10,
+      "homePoints": 38,
       "homeLineScores": [
         7,
         7,
         3,
-        14
+        21
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9900166988372803,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 60,
       "awayTeam": "Morehouse College",
       "awayClassification": "ii",
       "awayConference": "SIAC",
-      "awayPoints": 38,
+      "awayPoints": 10,
       "awayLineScores": [
         3,
         0,
         7,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.009983301162719727,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -2971,7 +3457,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": 0.17023614048957825,
+      "homePostgameWinProbability": 0.18728531897068024,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2900,
@@ -2985,7 +3471,7 @@
         0,
         14
       ],
-      "awayPostgameWinProbability": 0.8297638595104218,
+      "awayPostgameWinProbability": 0.8127146810293198,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 4.336705130200845,
@@ -3009,14 +3495,14 @@
       "homeTeam": "Georgetown",
       "homeClassification": "fcs",
       "homeConference": "Patriot",
-      "homePoints": 31,
+      "homePoints": 37,
       "homeLineScores": [
         7,
         14,
         10,
-        0
+        6
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.237948939204216,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 322,
@@ -3030,7 +3516,7 @@
         7,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.762051060795784,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -3055,7 +3541,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 42,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        28,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3064,7 +3555,12 @@
       "awayClassification": "iii",
       "awayConference": "New Jersey",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3096,7 +3592,7 @@
         21,
         6
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9798442125320435,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2166,
@@ -3110,7 +3606,7 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.020155787467956543,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -3135,7 +3631,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3144,7 +3645,12 @@
       "awayClassification": "iii",
       "awayConference": "New Jersey",
       "awayPoints": 49,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        28,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3170,7 +3676,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3179,7 +3690,12 @@
       "awayClassification": "iii",
       "awayConference": "Presidents'",
       "awayPoints": 27,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        17,
+        10,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3205,7 +3721,12 @@
       "homeClassification": "iii",
       "homeConference": "New Jersey",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        3,
+        6,
+        11
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3214,7 +3735,12 @@
       "awayClassification": "iii",
       "awayConference": "Landmark Conference",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        10,
+        7,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3248,7 +3774,7 @@
       ],
       "homePostgameWinProbability": 0.9927979707717896,
       "homePregameElo": 1659,
-      "homePostgameElo": 1762,
+      "homePostgameElo": 1755,
       "awayId": 309,
       "awayTeam": "Louisiana",
       "awayClassification": "fbs",
@@ -3262,7 +3788,7 @@
       ],
       "awayPostgameWinProbability": 0.007202029228210449,
       "awayPregameElo": 1463,
-      "awayPostgameElo": 1360,
+      "awayPostgameElo": 1367,
       "excitementIndex": 2.585327124218903,
       "highlights": "",
       "notes": null
@@ -3285,7 +3811,12 @@
       "homeClassification": "iii",
       "homeConference": "NEWMAC",
       "homePoints": 48,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        20,
+        21,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3293,8 +3824,13 @@
       "awayTeam": "Anderson (IN)",
       "awayClassification": "iii",
       "awayConference": "Heartland",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3320,7 +3856,12 @@
       "homeClassification": "iii",
       "homeConference": "North Coast",
       "homePoints": 24,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        14,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3329,7 +3870,12 @@
       "awayClassification": "iii",
       "awayConference": "Old Dominion",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3355,7 +3901,13 @@
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        3,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3364,7 +3916,13 @@
       "awayClassification": "ii",
       "awayConference": "South Atlantic",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        10,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3389,8 +3947,13 @@
       "homeTeam": "Central State (OH)",
       "homeClassification": "ii",
       "homeConference": "SIAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3399,7 +3962,12 @@
       "awayClassification": "ii",
       "awayConference": "SIAC",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        0,
+        3,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3414,7 +3982,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -3424,8 +3992,13 @@
       "homeTeam": "Juniata College",
       "homeClassification": "iii",
       "homeConference": "Landmark Conference",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 40,
+      "homeLineScores": [
+        7,
+        7,
+        6,
+        20
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3433,8 +4006,13 @@
       "awayTeam": "Allegheny",
       "awayClassification": "iii",
       "awayConference": "Presidents'",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 38,
+      "awayLineScores": [
+        7,
+        7,
+        14,
+        10
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3460,7 +4038,12 @@
       "homeClassification": "iii",
       "homeConference": "Heartland",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3469,7 +4052,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 35,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        14,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3495,7 +4083,12 @@
       "homeClassification": "iii",
       "homeConference": "Michigan",
       "homePoints": 34,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        7,
+        3,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3504,7 +4097,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3519,7 +4117,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3529,8 +4127,13 @@
       "homeTeam": "Trinity (CT)",
       "homeClassification": "iii",
       "homeConference": "NESCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 6,
+      "homeLineScores": [
+        6,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3538,8 +4141,13 @@
       "awayTeam": "Colby College",
       "awayClassification": "iii",
       "awayConference": "NESCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 13,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3565,7 +4173,12 @@
       "homeClassification": "iii",
       "homeConference": "NESCAC",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        10,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3574,7 +4187,12 @@
       "awayClassification": "iii",
       "awayConference": "NESCAC",
       "awayPoints": 17,
-      "awayLineScores": null,
+      "awayLineScores": [
+        3,
+        0,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3589,7 +4207,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3599,8 +4217,15 @@
       "homeTeam": "Bates",
       "homeClassification": "iii",
       "homeConference": "NESCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 26,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        16,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3608,8 +4233,15 @@
       "awayTeam": "Amherst",
       "awayClassification": "iii",
       "awayConference": "NESCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 23,
+      "awayLineScores": [
+        0,
+        0,
+        23,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3635,7 +4267,12 @@
       "homeClassification": "ii",
       "homeConference": "CIAA",
       "homePoints": 17,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        7,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3644,7 +4281,12 @@
       "awayClassification": "ii",
       "awayConference": "CIAA",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3670,7 +4312,12 @@
       "homeClassification": "ii",
       "homeConference": "Carolinas",
       "homePoints": 25,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        0,
+        7,
+        15
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3679,7 +4326,12 @@
       "awayClassification": "ii",
       "awayConference": "Gulf South",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3705,7 +4357,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Midwest Athletic",
       "homePoints": 21,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3714,7 +4371,12 @@
       "awayClassification": "ii",
       "awayConference": "GLIAC",
       "awayPoints": 34,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        10,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3740,7 +4402,13 @@
       "homeClassification": "ii",
       "homeConference": "Great Lakes",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3749,7 +4417,13 @@
       "awayClassification": "ii",
       "awayConference": "GLIAC",
       "awayPoints": 27,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        0,
+        7,
+        0,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3775,7 +4449,12 @@
       "homeClassification": "ii",
       "homeConference": "Northeast 10",
       "homePoints": 39,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        13,
+        19
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3784,7 +4463,12 @@
       "awayClassification": "ii",
       "awayConference": "Northeast 10",
       "awayPoints": 30,
-      "awayLineScores": null,
+      "awayLineScores": [
+        3,
+        7,
+        13,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3810,7 +4494,12 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        17,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3819,7 +4508,12 @@
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        3,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3844,8 +4538,13 @@
       "homeTeam": "Edinboro University",
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3854,7 +4553,12 @@
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
       "awayPoints": 34,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        20,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3880,7 +4584,12 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 22,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        3,
+        6,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3889,7 +4598,12 @@
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
       "awayPoints": 69,
-      "awayLineScores": null,
+      "awayLineScores": [
+        21,
+        20,
+        14,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3904,7 +4618,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:30:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3914,8 +4628,13 @@
       "homeTeam": "Hamilton",
       "homeClassification": "iii",
       "homeConference": "NESCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 17,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        17
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3923,8 +4642,13 @@
       "awayTeam": "Williams",
       "awayClassification": "iii",
       "awayConference": "NESCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 24,
+      "awayLineScores": [
+        0,
+        10,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3939,7 +4663,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T17:30:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3949,8 +4673,13 @@
       "homeTeam": "Baldwin Wallace",
       "homeClassification": "iii",
       "homeConference": "Ohio",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 63,
+      "homeLineScores": [
+        14,
+        14,
+        14,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3958,8 +4687,13 @@
       "awayTeam": "Wilmington (OH)",
       "awayClassification": "iii",
       "awayConference": "Ohio",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 21,
+      "awayLineScores": [
+        7,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -3985,7 +4719,12 @@
       "homeClassification": "iii",
       "homeConference": "Ohio",
       "homePoints": 36,
-      "homeLineScores": null,
+      "homeLineScores": [
+        9,
+        7,
+        20,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -3994,7 +4733,12 @@
       "awayClassification": "iii",
       "awayConference": "Landmark Conference",
       "awayPoints": 20,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        14,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4026,7 +4770,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2086,
@@ -4040,7 +4784,7 @@
         6,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 1,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -4065,7 +4809,12 @@
       "homeClassification": "iii",
       "homeConference": "Heartland",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4074,7 +4823,12 @@
       "awayClassification": "iii",
       "awayConference": "Michigan",
       "awayPoints": 38,
-      "awayLineScores": null,
+      "awayLineScores": [
+        17,
+        14,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4100,7 +4854,12 @@
       "homeClassification": "iii",
       "homeConference": "Upper Midwest",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4109,7 +4868,12 @@
       "awayClassification": "iii",
       "awayConference": "American Rivers",
       "awayPoints": 45,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        10,
+        7,
+        21
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4141,7 +4905,7 @@
         6,
         0
       ],
-      "homePostgameWinProbability": 0.8621337413787842,
+      "homePostgameWinProbability": 0.6924471259117126,
       "homePregameElo": 1070,
       "homePostgameElo": 1070,
       "awayId": 160,
@@ -4155,10 +4919,10 @@
         3,
         5
       ],
-      "awayPostgameWinProbability": 0.13786625862121582,
+      "awayPostgameWinProbability": 0.30755287408828735,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.251913145447354,
+      "excitementIndex": 6.2521489726866895,
       "highlights": "",
       "notes": null
     },
@@ -4187,7 +4951,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.7461053133010864,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2458,
@@ -4202,10 +4966,10 @@
         11,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.2538946866989136,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.587578138305982,
       "highlights": "",
       "notes": null
     },
@@ -4233,7 +4997,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.07368314266204834,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 227,
@@ -4247,10 +5011,10 @@
         0,
         3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.9263168573379517,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.136281470723753,
       "highlights": "",
       "notes": null
     },
@@ -4272,7 +5036,12 @@
       "homeClassification": "iii",
       "homeConference": "Midwest",
       "homePoints": 12,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        12
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4281,7 +5050,12 @@
       "awayClassification": "iii",
       "awayConference": "Midwest",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        14,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4307,7 +5081,12 @@
       "homeClassification": "iii",
       "homeConference": "American Rivers",
       "homePoints": 10,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4315,8 +5094,13 @@
       "awayTeam": "Randolph-Macon",
       "awayClassification": "iii",
       "awayConference": "Old Dominion",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4331,7 +5115,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -4341,8 +5125,13 @@
       "homeTeam": "Edward Waters",
       "homeClassification": "ii",
       "homeConference": "SIAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 41,
+      "homeLineScores": [
+        0,
+        14,
+        14,
+        13
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4350,8 +5139,13 @@
       "awayTeam": "Virginia Union",
       "awayClassification": "ii",
       "awayConference": "CIAA",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 38,
+      "awayLineScores": [
+        7,
+        7,
+        3,
+        21
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4377,7 +5171,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Lakes",
       "homePoints": 33,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        14,
+        0,
+        19
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4386,7 +5185,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Midwest Athletic",
       "awayPoints": 26,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        13,
+        7,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4412,7 +5216,12 @@
       "homeClassification": "ii",
       "homeConference": "GLIAC",
       "homePoints": 34,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        7,
+        20
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4421,7 +5230,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Lakes",
       "awayPoints": 40,
-      "awayLineScores": null,
+      "awayLineScores": [
+        13,
+        13,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4447,7 +5261,12 @@
       "homeClassification": "ii",
       "homeConference": "Gulf South",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        10,
+        3,
+        15
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4456,7 +5275,12 @@
       "awayClassification": "ii",
       "awayConference": "Mountain East",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        10,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4482,7 +5306,12 @@
       "homeClassification": "ii",
       "homeConference": "Rocky Mountain",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        20,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4491,7 +5320,12 @@
       "awayClassification": "ii",
       "awayConference": "Mid America",
       "awayPoints": 27,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        6,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4517,7 +5351,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 23,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        6,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4526,7 +5365,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 56,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        21,
+        14,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4552,7 +5396,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4561,7 +5410,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 12,
-      "awayLineScores": null,
+      "awayLineScores": [
+        2,
+        0,
+        10,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4587,7 +5441,12 @@
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
       "homePoints": 30,
-      "homeLineScores": null,
+      "homeLineScores": [
+        10,
+        14,
+        3,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4595,8 +5454,13 @@
       "awayTeam": "Greeneville",
       "awayClassification": "ii",
       "awayConference": "South Atlantic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4622,7 +5486,12 @@
       "homeClassification": "iii",
       "homeConference": "Wisconsin",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        21,
+        0,
+        13
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4631,7 +5500,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 17,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        10,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4657,7 +5531,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 10,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4666,7 +5545,12 @@
       "awayClassification": "iii",
       "awayConference": "USA South",
       "awayPoints": 26,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        10,
+        2,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4681,7 +5565,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -4691,8 +5575,13 @@
       "homeTeam": "Huntingdon College (AL)",
       "homeClassification": "iii",
       "homeConference": "USA South",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 28,
+      "homeLineScores": [
+        0,
+        14,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4700,8 +5589,13 @@
       "awayTeam": "Hendrix College",
       "awayClassification": "iii",
       "awayConference": "Southern Athletic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 30,
+      "awayLineScores": [
+        10,
+        13,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4727,7 +5621,12 @@
       "homeClassification": "iii",
       "homeConference": "Minnesota",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        28,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4735,8 +5634,13 @@
       "awayTeam": "Minnesota Morris",
       "awayClassification": "iii",
       "awayConference": "Upper Midwest",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4762,7 +5666,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 45,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        17,
+        7,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4771,7 +5680,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        14,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4797,7 +5711,12 @@
       "homeClassification": "iii",
       "homeConference": "NACC",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4806,7 +5725,12 @@
       "awayClassification": "iii",
       "awayConference": "Upper Midwest",
       "awayPoints": 29,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        7,
+        8
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4831,8 +5755,13 @@
       "homeTeam": "New England College",
       "homeClassification": null,
       "homeConference": null,
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4841,7 +5770,12 @@
       "awayClassification": "iii",
       "awayConference": "NEWMAC",
       "awayPoints": 55,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        21,
+        14,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4867,7 +5801,12 @@
       "homeClassification": "iii",
       "homeConference": "Midwest",
       "homePoints": 78,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        31,
+        26,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4876,7 +5815,12 @@
       "awayClassification": "iii",
       "awayConference": "Midwest",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4902,7 +5846,12 @@
       "homeClassification": "iii",
       "homeConference": "Midwest",
       "homePoints": 24,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        3,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4910,8 +5859,13 @@
       "awayTeam": "Beloit",
       "awayClassification": "iii",
       "awayConference": "Midwest",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4936,8 +5890,13 @@
       "homeTeam": "Wisconsin-Stout",
       "homeClassification": "iii",
       "homeConference": "Wisconsin",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4946,7 +5905,12 @@
       "awayClassification": "iii",
       "awayConference": "American Rivers",
       "awayPoints": 16,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        6,
+        0,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -4972,7 +5936,12 @@
       "homeClassification": "iii",
       "homeConference": "North Coast",
       "homePoints": 24,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        3,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -4981,7 +5950,12 @@
       "awayClassification": "iii",
       "awayConference": "USA South",
       "awayPoints": 48,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        21,
+        13,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5007,7 +5981,12 @@
       "homeClassification": "iii",
       "homeConference": "American Rivers",
       "homePoints": 17,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        10,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5016,7 +5995,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5042,7 +6026,12 @@
       "homeClassification": "iii",
       "homeConference": "CCIW",
       "homePoints": 34,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        14,
+        6,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5051,7 +6040,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 30,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        3,
+        20,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5077,7 +6071,13 @@
       "homeClassification": "iii",
       "homeConference": "American Rivers",
       "homePoints": 13,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        0,
+        2,
+        8,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5086,7 +6086,13 @@
       "awayClassification": null,
       "awayConference": null,
       "awayPoints": 20,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        6,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5112,7 +6118,13 @@
       "homeClassification": "iii",
       "homeConference": "Midwest",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        0,
+        0,
+        8,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5121,7 +6133,13 @@
       "awayClassification": "iii",
       "awayConference": "Midwest",
       "awayPoints": 25,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        15,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5147,7 +6165,12 @@
       "homeClassification": "iii",
       "homeConference": "CCIW",
       "homePoints": 45,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        24,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5156,7 +6179,12 @@
       "awayClassification": "iii",
       "awayConference": "Wisconsin",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5182,7 +6210,12 @@
       "homeClassification": "iii",
       "homeConference": "Wisconsin",
       "homePoints": 59,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        7,
+        10,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5191,7 +6224,12 @@
       "awayClassification": "iii",
       "awayConference": "American Rivers",
       "awayPoints": 47,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        14,
+        21,
+        12
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5217,7 +6255,12 @@
       "homeClassification": "iii",
       "homeConference": "Upper Midwest",
       "homePoints": 34,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        17,
+        0,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5225,8 +6268,13 @@
       "awayTeam": "Luther",
       "awayClassification": "iii",
       "awayConference": "American Rivers",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5252,7 +6300,12 @@
       "homeClassification": "iii",
       "homeConference": "Midwest",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5261,7 +6314,12 @@
       "awayClassification": "iii",
       "awayConference": "Midwest",
       "awayPoints": 50,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        12,
+        14,
+        10
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5287,7 +6345,12 @@
       "homeClassification": "iii",
       "homeConference": "Centennial",
       "homePoints": 7,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5296,7 +6359,12 @@
       "awayClassification": "iii",
       "awayConference": "New Jersey",
       "awayPoints": 62,
-      "awayLineScores": null,
+      "awayLineScores": [
+        13,
+        14,
+        14,
+        21
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5328,7 +6396,7 @@
         14,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.2332453727722168,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2210,
@@ -5342,7 +6410,7 @@
         6,
         8
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.7667546272277832,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -5356,7 +6424,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T18:30:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -5366,8 +6434,13 @@
       "homeTeam": "Bridgewater State",
       "homeClassification": "iii",
       "homeConference": "MSCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 29,
+      "homeLineScores": [
+        2,
+        7,
+        10,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5375,8 +6448,13 @@
       "awayTeam": "Westfield State",
       "awayClassification": "iii",
       "awayConference": "MSCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 16,
+      "awayLineScores": [
+        0,
+        0,
+        9,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5402,7 +6480,12 @@
       "homeClassification": "ii",
       "homeConference": "Mid America",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        7,
+        21
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5411,7 +6494,12 @@
       "awayClassification": "ii",
       "awayConference": "Lone Star",
       "awayPoints": 20,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        0,
+        10,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5437,7 +6525,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 21,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5446,7 +6539,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 27,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        0,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5472,7 +6570,12 @@
       "homeClassification": "ii",
       "homeConference": "Great American",
       "homePoints": 18,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        0,
+        0,
+        15
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5481,7 +6584,12 @@
       "awayClassification": "ii",
       "awayConference": "Great American",
       "awayPoints": 26,
-      "awayLineScores": null,
+      "awayLineScores": [
+        2,
+        10,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5496,7 +6604,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T19:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -5506,8 +6614,13 @@
       "homeTeam": "Bowdoin",
       "homeClassification": "iii",
       "homeConference": "NESCAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5515,8 +6628,13 @@
       "awayTeam": "Tufts",
       "awayClassification": "iii",
       "awayConference": "NESCAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 13,
+      "awayLineScores": [
+        7,
+        3,
+        3,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5548,7 +6666,7 @@
         0,
         20
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.03835118189454079,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2287,
@@ -5562,10 +6680,10 @@
         7,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.9616488181054592,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.435315657694889,
       "highlights": "",
       "notes": null
     },
@@ -5632,7 +6750,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 20,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        10,
+        3,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -5641,7 +6764,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -5718,7 +6846,7 @@
         6,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.943918764591217,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2075,
@@ -5732,7 +6860,7 @@
         0,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.05608123540878296,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -5764,9 +6892,9 @@
         3,
         6
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.2355707436800003,
       "homePregameElo": 1453,
-      "homePostgameElo": 1455,
+      "homePostgameElo": 1454,
       "awayId": 41,
       "awayTeam": "UConn",
       "awayClassification": "fbs",
@@ -5779,9 +6907,9 @@
         7,
         3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.7644292563199997,
       "awayPregameElo": 1446,
-      "awayPostgameElo": 1444,
+      "awayPostgameElo": 1445,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -5810,24 +6938,24 @@
         9,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.988840639591217,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2657,
       "awayTeam": "Tuskegee",
       "awayClassification": "ii",
       "awayConference": "SIAC",
-      "awayPoints": null,
+      "awayPoints": 0,
       "awayLineScores": [
         0,
         0,
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.011159360408782959,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 2.762488983822626,
       "highlights": "",
       "notes": null
     },
@@ -5855,7 +6983,7 @@
         10,
         21
       ],
-      "homePostgameWinProbability": 0.9864473938941956,
+      "homePostgameWinProbability": 1,
       "homePregameElo": 2152,
       "homePostgameElo": 2152,
       "awayId": 222,
@@ -5869,10 +6997,10 @@
         0,
         6
       ],
-      "awayPostgameWinProbability": 0.013552606105804443,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.9440738346765105,
+      "excitementIndex": 2.5341388565562255,
       "highlights": "",
       "notes": null
     },
@@ -5900,7 +7028,7 @@
         20,
         14
       ],
-      "homePostgameWinProbability": 0.9919692277908325,
+      "homePostgameWinProbability": 0.9916054010391235,
       "homePregameElo": 1594,
       "homePostgameElo": 1594,
       "awayId": 2450,
@@ -5914,10 +7042,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.00803077220916748,
+      "awayPostgameWinProbability": 0.008394598960876465,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.051172500147924,
+      "excitementIndex": 3.0531257443572137,
       "highlights": "",
       "notes": null
     },
@@ -6007,7 +7135,7 @@
       "awayPostgameWinProbability": 0.001491248607635498,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.979519366230617,
+      "excitementIndex": 3.0115730752607686,
       "highlights": "",
       "notes": null
     },
@@ -6035,7 +7163,7 @@
         14,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9894834756851196,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2230,
@@ -6049,10 +7177,10 @@
         10,
         8
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.010516524314880371,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.18359460603638,
       "highlights": "",
       "notes": null
     },
@@ -6119,7 +7247,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Lakes",
       "homePoints": 58,
-      "homeLineScores": null,
+      "homeLineScores": [
+        20,
+        24,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6128,7 +7261,12 @@
       "awayClassification": "ii",
       "awayConference": "Rocky Mountain",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6208,7 +7346,7 @@
       ],
       "homePostgameWinProbability": 0.8290138840675354,
       "homePregameElo": 1799,
-      "homePostgameElo": 1802,
+      "homePostgameElo": 1809,
       "awayId": 61,
       "awayTeam": "Georgia",
       "awayClassification": "fbs",
@@ -6223,7 +7361,7 @@
       ],
       "awayPostgameWinProbability": 0.1709861159324646,
       "awayPregameElo": 2053,
-      "awayPostgameElo": 2050,
+      "awayPostgameElo": 2043,
       "excitementIndex": 8.927697065894355,
       "highlights": "",
       "notes": null
@@ -6252,9 +7390,9 @@
         7,
         7
       ],
-      "homePostgameWinProbability": 0.03650952875614166,
+      "homePostgameWinProbability": 0.0364251509308815,
       "homePregameElo": 1293,
-      "homePostgameElo": 1280,
+      "homePostgameElo": 1310,
       "awayId": 30,
       "awayTeam": "USC",
       "awayClassification": "fbs",
@@ -6266,9 +7404,9 @@
         13,
         3
       ],
-      "awayPostgameWinProbability": 0.9634904712438583,
+      "awayPostgameWinProbability": 0.9635748490691185,
       "awayPregameElo": 1895,
-      "awayPostgameElo": 1908,
+      "awayPostgameElo": 1878,
       "excitementIndex": 4.127607975845876,
       "highlights": "",
       "notes": null
@@ -6297,7 +7435,7 @@
         14,
         10
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9881170988082886,
       "homePregameElo": 1406,
       "homePostgameElo": 1406,
       "awayId": 2754,
@@ -6311,10 +7449,10 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.011882901191711426,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.2166848075946906,
       "highlights": "",
       "notes": null
     },
@@ -6344,7 +7482,7 @@
       ],
       "homePostgameWinProbability": 0.992473304271698,
       "homePregameElo": 1409,
-      "homePostgameElo": 1569,
+      "homePostgameElo": 1585,
       "awayId": 265,
       "awayTeam": "Washington State",
       "awayClassification": "fbs",
@@ -6358,7 +7496,7 @@
       ],
       "awayPostgameWinProbability": 0.007526695728302002,
       "awayPregameElo": 1555,
-      "awayPostgameElo": 1395,
+      "awayPostgameElo": 1379,
       "excitementIndex": 2.9196179755702003,
       "highlights": "",
       "notes": null
@@ -6387,9 +7525,9 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.007379618473351002,
       "homePregameElo": 1346,
-      "homePostgameElo": 1316,
+      "homePostgameElo": 1338,
       "awayId": 2567,
       "awayTeam": "SMU",
       "awayClassification": "fbs",
@@ -6401,10 +7539,10 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.992620381526649,
       "awayPregameElo": 1703,
-      "awayPostgameElo": 1733,
-      "excitementIndex": null,
+      "awayPostgameElo": 1711,
+      "excitementIndex": 4.819093231576694,
       "highlights": "",
       "notes": null
     },
@@ -6432,7 +7570,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": 0.9780080318450928,
+      "homePostgameWinProbability": 0.927303671836853,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2678,
@@ -6446,10 +7584,10 @@
         7,
         14
       ],
-      "awayPostgameWinProbability": 0.021991968154907227,
+      "awayPostgameWinProbability": 0.07269632816314697,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.181553456923564,
+      "excitementIndex": 6.872931110823002,
       "highlights": "",
       "notes": null
     },
@@ -6494,7 +7632,7 @@
       "awayPostgameWinProbability": 0.0167238712310791,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.8493933180100495,
+      "excitementIndex": 2.8548324802643834,
       "highlights": "",
       "notes": null
     },
@@ -6567,24 +7705,24 @@
         10,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9839296936988831,
       "homePregameElo": 1639,
-      "homePostgameElo": 1723,
+      "homePostgameElo": 1690,
       "awayId": 204,
       "awayTeam": "Oregon State",
       "awayClassification": "fbs",
       "awayConference": "Pac-12",
-      "awayPoints": 7,
+      "awayPoints": 14,
       "awayLineScores": [
         0,
         0,
         0,
-        7
+        14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.016070306301116943,
       "awayPregameElo": 1365,
-      "awayPostgameElo": 1281,
-      "excitementIndex": null,
+      "awayPostgameElo": 1314,
+      "excitementIndex": 3.4678863962298885,
       "highlights": "",
       "notes": null
     },
@@ -6615,7 +7753,7 @@
       ],
       "homePostgameWinProbability": 0.6105152368545532,
       "homePregameElo": 1469,
-      "homePostgameElo": 1479,
+      "homePostgameElo": 1481,
       "awayId": 221,
       "awayTeam": "Pittsburgh",
       "awayClassification": "fbs",
@@ -6630,8 +7768,8 @@
       ],
       "awayPostgameWinProbability": 0.3894847631454468,
       "awayPregameElo": 1518,
-      "awayPostgameElo": 1508,
-      "excitementIndex": 6.311808054480723,
+      "awayPostgameElo": 1506,
+      "excitementIndex": 6.320810263190439,
       "highlights": "",
       "notes": null
     },
@@ -6652,8 +7790,13 @@
       "homeTeam": "Willamette",
       "homeClassification": "iii",
       "homeConference": "Northwest",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6662,7 +7805,12 @@
       "awayClassification": "iii",
       "awayConference": "Northwest",
       "awayPoints": 42,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        14,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6688,7 +7836,12 @@
       "homeClassification": "iii",
       "homeConference": "Ohio",
       "homePoints": 33,
-      "homeLineScores": null,
+      "homeLineScores": [
+        13,
+        6,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6697,7 +7850,12 @@
       "awayClassification": "iii",
       "awayConference": "Ohio",
       "awayPoints": 13,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6722,31 +7880,31 @@
       "homeTeam": "Charleston Southern",
       "homeClassification": "fcs",
       "homeConference": "Big South-OVC",
-      "homePoints": 21,
+      "homePoints": 28,
       "homeLineScores": [
         14,
         7,
         0,
-        0
+        7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.5478032231330872,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2815,
       "awayTeam": "Lindenwood",
       "awayClassification": "fcs",
       "awayConference": "Big South-OVC",
-      "awayPoints": 28,
+      "awayPoints": 35,
       "awayLineScores": [
         0,
         7,
         7,
-        14
+        21
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.45219677686691284,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.710982376682405,
       "highlights": "",
       "notes": null
     },
@@ -6791,7 +7949,7 @@
       "awayPostgameWinProbability": 0.02086353302001953,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.501753634754656,
+      "excitementIndex": 5.0272905295682655,
       "highlights": "",
       "notes": null
     },
@@ -6813,7 +7971,12 @@
       "homeClassification": "iii",
       "homeConference": "Northwest",
       "homePoints": 38,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        10,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6822,7 +7985,12 @@
       "awayClassification": "iii",
       "awayConference": "Northwest",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6848,7 +8016,12 @@
       "homeClassification": "iii",
       "homeConference": "Northwest",
       "homePoints": 42,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6857,7 +8030,12 @@
       "awayClassification": null,
       "awayConference": null,
       "awayPoints": 16,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        7,
+        2
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6891,7 +8069,7 @@
       ],
       "homePostgameWinProbability": 0.10015681385993958,
       "homePregameElo": 1244,
-      "homePostgameElo": 1241,
+      "homePostgameElo": 1257,
       "awayId": 66,
       "awayTeam": "Iowa State",
       "awayClassification": "fbs",
@@ -6905,8 +8083,8 @@
       ],
       "awayPostgameWinProbability": 0.8998431861400604,
       "awayPregameElo": 1621,
-      "awayPostgameElo": 1624,
-      "excitementIndex": 6.089138261240947,
+      "awayPostgameElo": 1608,
+      "excitementIndex": 6.731182769771558,
       "highlights": "",
       "notes": null
     },
@@ -6928,7 +8106,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Midwest Athletic",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        14,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6937,7 +8120,12 @@
       "awayClassification": "ii",
       "awayConference": "Mountain East",
       "awayPoints": 35,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        14,
+        7,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6963,7 +8151,12 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 42,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        14,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -6972,7 +8165,12 @@
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        10,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -6998,7 +8196,12 @@
       "homeClassification": "iii",
       "homeConference": "MSCAC",
       "homePoints": 25,
-      "homeLineScores": null,
+      "homeLineScores": [
+        13,
+        0,
+        6,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7007,7 +8210,12 @@
       "awayClassification": "iii",
       "awayConference": "MSCAC",
       "awayPoints": 24,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        3,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7022,7 +8230,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T20:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": true,
       "conferenceGame": false,
       "attendance": null,
@@ -7032,8 +8240,13 @@
       "homeTeam": "Eastern Oregon",
       "homeClassification": null,
       "homeConference": null,
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 16,
+      "homeLineScores": [
+        7,
+        3,
+        3,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7041,8 +8254,13 @@
       "awayTeam": "Whitworth",
       "awayClassification": "iii",
       "awayConference": "Northwest",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 10,
+      "awayLineScores": [
+        3,
+        0,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7076,7 +8294,7 @@
       ],
       "homePostgameWinProbability": 0.9785351157188416,
       "homePregameElo": 1896,
-      "homePostgameElo": 1901,
+      "homePostgameElo": 1878,
       "awayId": 2638,
       "awayTeam": "UTEP",
       "awayClassification": "fbs",
@@ -7090,7 +8308,7 @@
       ],
       "awayPostgameWinProbability": 0.021464884281158447,
       "awayPregameElo": 1230,
-      "awayPostgameElo": 1225,
+      "awayPostgameElo": 1248,
       "excitementIndex": 4.283283201014982,
       "highlights": "",
       "notes": null
@@ -7119,9 +8337,9 @@
         7,
         14
       ],
-      "homePostgameWinProbability": 0.9852378368377686,
+      "homePostgameWinProbability": 0.9786890745162964,
       "homePregameElo": 1743,
-      "homePostgameElo": 1830,
+      "homePostgameElo": 1825,
       "awayId": 58,
       "awayTeam": "South Florida",
       "awayClassification": "fbs",
@@ -7133,9 +8351,9 @@
         0,
         6
       ],
-      "awayPostgameWinProbability": 0.014762163162231445,
+      "awayPostgameWinProbability": 0.021310925483703613,
       "awayPregameElo": 1564,
-      "awayPostgameElo": 1477,
+      "awayPostgameElo": 1482,
       "excitementIndex": 3.675912828336096,
       "highlights": "",
       "notes": null
@@ -7164,7 +8382,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.3807678818702698,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2010,
@@ -7178,10 +8396,10 @@
         10,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.6192321181297302,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 6.21379952340697,
       "highlights": "",
       "notes": null
     },
@@ -7203,7 +8421,12 @@
       "homeClassification": "ii",
       "homeConference": "Mid America",
       "homePoints": 17,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        10,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7212,7 +8435,12 @@
       "awayClassification": "ii",
       "awayConference": "GLIAC",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7244,7 +8472,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.5640181303024292,
       "homePregameElo": 1284,
       "homePostgameElo": 1278,
       "awayId": 2393,
@@ -7258,7 +8486,7 @@
         0,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.4359818696975708,
       "awayPregameElo": 1182,
       "awayPostgameElo": 1188,
       "excitementIndex": null,
@@ -7283,7 +8511,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 17,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        0,
+        3,
+        11
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7292,7 +8525,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7324,9 +8562,9 @@
         3,
         10
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.607711911201477,
       "homePregameElo": 1434,
-      "homePostgameElo": 1451,
+      "homePostgameElo": 1456,
       "awayId": 2335,
       "awayTeam": "Liberty",
       "awayClassification": "fbs",
@@ -7338,10 +8576,10 @@
         7,
         6
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.39228808879852295,
       "awayPregameElo": 1494,
-      "awayPostgameElo": 1477,
-      "excitementIndex": null,
+      "awayPostgameElo": 1472,
+      "excitementIndex": 4.965804416497581,
       "highlights": "",
       "notes": null
     },
@@ -7369,7 +8607,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.8413136601448059,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 331,
@@ -7383,10 +8621,10 @@
         0,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.1586863398551941,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.04995922376133,
       "highlights": "",
       "notes": null
     },
@@ -7414,7 +8652,7 @@
         0,
         6
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9972197413444519,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2396,
@@ -7428,10 +8666,10 @@
         6,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.0027802586555480957,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.1315024439699686,
       "highlights": "",
       "notes": null
     },
@@ -7453,7 +8691,12 @@
       "homeClassification": "iii",
       "homeConference": "Old Dominion",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        6,
+        8
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7462,7 +8705,12 @@
       "awayClassification": "iii",
       "awayConference": "USA South",
       "awayPoints": 46,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        19,
+        13,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7494,7 +8742,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9945290088653564,
       "homePregameElo": 1492,
       "homePostgameElo": 1492,
       "awayId": 2198,
@@ -7508,10 +8756,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.005470991134643555,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.123035714444983,
       "highlights": "",
       "notes": null
     },
@@ -7532,14 +8780,14 @@
       "homeTeam": "Chattanooga",
       "homeClassification": "fcs",
       "homeConference": "Southern",
-      "homePoints": 56,
+      "homePoints": 63,
       "homeLineScores": [
         21,
         14,
         21,
-        0
+        7
       ],
-      "homePostgameWinProbability": 0.9890530705451965,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 56,
@@ -7553,10 +8801,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": 0.010946929454803467,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.2228854894640646,
+      "excitementIndex": 3.3736652874941004,
       "highlights": "",
       "notes": null
     },
@@ -7578,7 +8826,12 @@
       "homeClassification": "ii",
       "homeConference": "GLIAC",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        21,
+        0,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7587,7 +8840,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Midwest Athletic",
       "awayPoints": 34,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        13,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7619,7 +8877,7 @@
         14,
         14
       ],
-      "homePostgameWinProbability": 0.5075997710227966,
+      "homePostgameWinProbability": 0.6333847045898438,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2065,
@@ -7633,10 +8891,10 @@
         6,
         28
       ],
-      "awayPostgameWinProbability": 0.49240022897720337,
+      "awayPostgameWinProbability": 0.36661529541015625,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.005178348986097,
+      "excitementIndex": 4.354624764887282,
       "highlights": "",
       "notes": null
     },
@@ -7703,7 +8961,12 @@
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        7,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7712,7 +8975,12 @@
       "awayClassification": "ii",
       "awayConference": "South Atlantic",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        3,
+        7,
+        18
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7738,7 +9006,12 @@
       "homeClassification": "ii",
       "homeConference": "GLIAC",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        0,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7747,7 +9020,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Midwest Athletic",
       "awayPoints": 38,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        14,
+        10,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7762,7 +9040,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T22:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -7772,8 +9050,8 @@
       "homeTeam": "Allen",
       "homeClassification": "ii",
       "homeConference": "SIAC",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 29,
+      "homeLineScores": [],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7781,8 +9059,8 @@
       "awayTeam": "Lane College",
       "awayClassification": "ii",
       "awayConference": "SIAC",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 21,
+      "awayLineScores": [],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7808,7 +9086,12 @@
       "homeClassification": "iii",
       "homeConference": "Empire 8",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        14,
+        13,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7817,7 +9100,12 @@
       "awayClassification": "iii",
       "awayConference": "Liberty League",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        8
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7843,7 +9131,12 @@
       "homeClassification": "iii",
       "homeConference": "USA South",
       "homePoints": 40,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        14,
+        14,
+        12
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7852,7 +9145,12 @@
       "awayClassification": "iii",
       "awayConference": "Old Dominion",
       "awayPoints": 42,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        21,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7878,7 +9176,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Collegiate Athletic",
       "homePoints": 19,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        12
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7887,7 +9190,12 @@
       "awayClassification": null,
       "awayConference": null,
       "awayPoints": 20,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7913,7 +9221,12 @@
       "homeClassification": "iii",
       "homeConference": "Upper Midwest",
       "homePoints": 29,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        19,
+        3,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7922,7 +9235,12 @@
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7937,7 +9255,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T22:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -7947,8 +9265,13 @@
       "homeTeam": "Wingate",
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 72,
+      "homeLineScores": [
+        21,
+        28,
+        13,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7956,8 +9279,13 @@
       "awayTeam": "Bluefield State",
       "awayClassification": "ii",
       "awayConference": "CIAA",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 7,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -7983,7 +9311,13 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 35,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        14,
+        0,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -7992,7 +9326,13 @@
       "awayClassification": "ii",
       "awayConference": "Pennsylvania State Athletic",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        7,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -8069,9 +9409,9 @@
         21,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9204025864601135,
       "homePregameElo": 1358,
-      "homePostgameElo": 1368,
+      "homePostgameElo": 1367,
       "awayId": 2226,
       "awayTeam": "Florida Atlantic",
       "awayClassification": "fbs",
@@ -8083,10 +9423,10 @@
         0,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.07959741353988647,
       "awayPregameElo": 1240,
-      "awayPostgameElo": 1230,
-      "excitementIndex": null,
+      "awayPostgameElo": 1231,
+      "excitementIndex": 6.29559626968601,
       "highlights": "",
       "notes": null
     },
@@ -8108,7 +9448,12 @@
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
       "homePoints": 44,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        21,
+        7,
+        10
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -8117,7 +9462,12 @@
       "awayClassification": "ii",
       "awayConference": "South Atlantic",
       "awayPoints": 34,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        20,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -8149,7 +9499,7 @@
         7,
         15
       ],
-      "homePostgameWinProbability": 0.7216457724571228,
+      "homePostgameWinProbability": 0.7971357107162476,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2193,
@@ -8163,10 +9513,10 @@
         10,
         0
       ],
-      "awayPostgameWinProbability": 0.2783542275428772,
+      "awayPostgameWinProbability": 0.20286428928375244,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 7.752568340237873,
+      "excitementIndex": 7.88563361827374,
       "highlights": "",
       "notes": null
     },
@@ -8194,7 +9544,7 @@
         14,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2220,
@@ -8206,12 +9556,12 @@
         3,
         0,
         7,
-        3
+        9
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.783828970456972,
       "highlights": "",
       "notes": null
     },
@@ -8239,7 +9589,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": 0.9993749856948853,
+      "homePostgameWinProbability": 0.9923140406608582,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 124179,
@@ -8253,7 +9603,7 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": 0.0006250143051147461,
+      "awayPostgameWinProbability": 0.007685959339141846,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 4.311170755386763,
@@ -8284,7 +9634,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9947419762611389,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2060,
@@ -8298,10 +9648,10 @@
         6,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.005258023738861084,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.0021933637905938,
       "highlights": "",
       "notes": null
     },
@@ -8346,7 +9696,7 @@
       "awayPostgameWinProbability": 0.7771692126989365,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.91371381058348,
+      "excitementIndex": 5.55832028020935,
       "highlights": "",
       "notes": null
     },
@@ -8374,7 +9724,7 @@
         17,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.7522923350334167,
       "homePregameElo": 1175,
       "homePostgameElo": 1175,
       "awayId": 2771,
@@ -8388,10 +9738,10 @@
         0,
         13
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.24770766496658325,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.744209434880275,
       "highlights": "",
       "notes": null
     },
@@ -8413,7 +9763,12 @@
       "homeClassification": "ii",
       "homeConference": "Northeast 10",
       "homePoints": 30,
-      "homeLineScores": null,
+      "homeLineScores": [
+        9,
+        7,
+        6,
+        8
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -8422,7 +9777,12 @@
       "awayClassification": "ii",
       "awayConference": "Northeast 10",
       "awayPoints": 6,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        6,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -8450,9 +9810,11 @@
       "homePoints": 28,
       "homeLineScores": [
         7,
+        7,
+        7,
         7
       ],
-      "homePostgameWinProbability": 0.9428871273994446,
+      "homePostgameWinProbability": 0.9795030951499939,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2699,
@@ -8462,12 +9824,14 @@
       "awayPoints": 14,
       "awayLineScores": [
         0,
-        0
+        0,
+        7,
+        7
       ],
-      "awayPostgameWinProbability": 0.05711287260055542,
+      "awayPostgameWinProbability": 0.020496904850006104,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 1.9986293911933903,
+      "excitementIndex": 2.8779756776786973,
       "highlights": "",
       "notes": null
     },
@@ -8512,7 +9876,7 @@
       "awayPostgameWinProbability": 0.05085521936416626,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.560458452469475,
+      "excitementIndex": 6.434152458573703,
       "highlights": "",
       "notes": null
     },
@@ -8534,7 +9898,12 @@
       "homeClassification": "iii",
       "homeConference": "Presidents'",
       "homePoints": 58,
-      "homeLineScores": null,
+      "homeLineScores": [
+        20,
+        10,
+        14,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -8543,7 +9912,12 @@
       "awayClassification": "iii",
       "awayConference": "North Coast",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        0,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -8569,7 +9943,12 @@
       "homeClassification": "ii",
       "homeConference": "South Atlantic",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        14,
+        14,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -8577,8 +9956,13 @@
       "awayTeam": "Point University",
       "awayClassification": null,
       "awayConference": null,
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -8610,7 +9994,7 @@
         14,
         20
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.24715760350227356,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2692,
@@ -8624,10 +10008,10 @@
         7,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.7528423964977264,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.70388683233259,
       "highlights": "",
       "notes": null
     },
@@ -8657,7 +10041,7 @@
         7,
         6
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.2409917265176773,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2261,
@@ -8673,10 +10057,10 @@
         7,
         3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.7590082734823227,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.672955932447203,
       "highlights": "",
       "notes": null
     },
@@ -8704,24 +10088,24 @@
         3,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.8668926954269409,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2643,
       "awayTeam": "The Citadel",
       "awayClassification": "fcs",
       "awayConference": "Southern",
-      "awayPoints": 7,
+      "awayPoints": 13,
       "awayLineScores": [
         0,
         0,
         7,
-        0
+        6
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.13310730457305908,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.6588677134928136,
       "highlights": "",
       "notes": null
     },
@@ -8749,24 +10133,24 @@
         3,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.003906499594449997,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 79,
       "awayTeam": "Southern Illinois",
       "awayClassification": "fcs",
       "awayConference": "MVFC",
-      "awayPoints": 30,
+      "awayPoints": 37,
       "awayLineScores": [
         7,
         10,
         13,
-        0
+        7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.99609350040555,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.1878611192793525,
       "highlights": "",
       "notes": null
     },
@@ -8839,7 +10223,7 @@
         14,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2413,
@@ -8853,7 +10237,7 @@
         0,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -8884,7 +10268,7 @@
         0,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.0003099944442510605,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2627,
@@ -8898,7 +10282,7 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.9996900055557489,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -8922,22 +10306,28 @@
       "homeTeam": "SE Louisiana",
       "homeClassification": "fcs",
       "homeConference": "Southland",
-      "homePoints": 14,
+      "homePoints": 56,
       "homeLineScores": [
-        14
+        28,
+        14,
+        14,
+        0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9928467869758606,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2400,
       "awayTeam": "Mississippi Valley State",
       "awayClassification": "fcs",
       "awayConference": "SWAC",
-      "awayPoints": 0,
+      "awayPoints": 3,
       "awayLineScores": [
+        3,
+        0,
+        0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.007153213024139404,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -8963,20 +10353,26 @@
       "homeConference": "SWAC",
       "homePoints": 7,
       "homeLineScores": [
-        7
+        7,
+        0,
+        0,
+        0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2320,
       "awayTeam": "Lamar",
       "awayClassification": "fcs",
       "awayConference": "Southland",
-      "awayPoints": 14,
+      "awayPoints": 31,
       "awayLineScores": [
-        14
+        14,
+        14,
+        0,
+        3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 1,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -9004,9 +10400,10 @@
       "homeLineScores": [
         14,
         21,
-        7
+        7,
+        0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.979390561580658,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 101784,
@@ -9017,9 +10414,10 @@
       "awayLineScores": [
         0,
         7,
-        7
+        7,
+        0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.02060943841934204,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -9095,7 +10493,7 @@
         7,
         3
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.5293049812316895,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2441,
@@ -9109,7 +10507,7 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.47069501876831055,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -9142,7 +10540,7 @@
       ],
       "homePostgameWinProbability": 0.9919793605804443,
       "homePregameElo": 1642,
-      "homePostgameElo": 1722,
+      "homePostgameElo": 1708,
       "awayId": 2711,
       "awayTeam": "Western Michigan",
       "awayClassification": "fbs",
@@ -9156,7 +10554,7 @@
       ],
       "awayPostgameWinProbability": 0.008020639419555664,
       "awayPregameElo": 1312,
-      "awayPostgameElo": 1232,
+      "awayPostgameElo": 1246,
       "excitementIndex": 3.1088281984789954,
       "highlights": "",
       "notes": null
@@ -9187,7 +10585,7 @@
       ],
       "homePostgameWinProbability": 0.9870242476463318,
       "homePregameElo": 1977,
-      "homePostgameElo": 2025,
+      "homePostgameElo": 2010,
       "awayId": 195,
       "awayTeam": "Ohio",
       "awayClassification": "fbs",
@@ -9201,8 +10599,8 @@
       ],
       "awayPostgameWinProbability": 0.012975752353668213,
       "awayPregameElo": 1620,
-      "awayPostgameElo": 1572,
-      "excitementIndex": 3.513690065285246,
+      "awayPostgameElo": 1587,
+      "excitementIndex": 3.5345613469090864,
       "highlights": "",
       "notes": null
     },
@@ -9224,7 +10622,12 @@
       "homeClassification": "ii",
       "homeConference": "Northern Sun",
       "homePoints": 26,
-      "homeLineScores": null,
+      "homeLineScores": [
+        3,
+        3,
+        6,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9233,7 +10636,12 @@
       "awayClassification": "ii",
       "awayConference": "Northern Sun",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9259,7 +10667,12 @@
       "homeClassification": "ii",
       "homeConference": "Great Lakes",
       "homePoints": 48,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        14,
+        14,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9268,7 +10681,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Midwest Athletic",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        9,
+        12,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9294,7 +10712,12 @@
       "homeClassification": "ii",
       "homeConference": "Mid America",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        17,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9303,7 +10726,12 @@
       "awayClassification": "ii",
       "awayConference": "Great Lakes",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        10
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9329,7 +10757,12 @@
       "homeClassification": "ii",
       "homeConference": "Great American",
       "homePoints": 13,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        13,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9338,7 +10771,12 @@
       "awayClassification": "ii",
       "awayConference": "Great American",
       "awayPoints": 38,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        3,
+        0,
+        21
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9364,7 +10802,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Collegiate Athletic",
       "homePoints": 18,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        3,
+        8
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9373,7 +10816,12 @@
       "awayClassification": "iii",
       "awayConference": "American Southwest",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9388,7 +10836,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T23:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -9398,8 +10846,13 @@
       "homeTeam": "Hardin-Simmons",
       "homeClassification": "iii",
       "homeConference": "American Southwest",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 24,
+      "homeLineScores": [
+        14,
+        10,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9407,8 +10860,13 @@
       "awayTeam": "McMurry",
       "awayClassification": "iii",
       "awayConference": "Southern Collegiate Athletic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 19,
+      "awayLineScores": [
+        3,
+        3,
+        7,
+        6
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9440,9 +10898,9 @@
         7,
         3
       ],
-      "homePostgameWinProbability": 0.44136133790016174,
+      "homePostgameWinProbability": 0.4054233729839325,
       "homePregameElo": 1922,
-      "homePostgameElo": 1920,
+      "homePostgameElo": 1918,
       "awayId": 8,
       "awayTeam": "Arkansas",
       "awayClassification": "fbs",
@@ -9454,9 +10912,9 @@
         0,
         7
       ],
-      "awayPostgameWinProbability": 0.5586386620998383,
+      "awayPostgameWinProbability": 0.5945766270160675,
       "awayPregameElo": 1674,
-      "awayPostgameElo": 1676,
+      "awayPostgameElo": 1678,
       "excitementIndex": 6.476053958073642,
       "highlights": "",
       "notes": null
@@ -9479,7 +10937,12 @@
       "homeClassification": "iii",
       "homeConference": "NACC",
       "homePoints": 20,
-      "homeLineScores": null,
+      "homeLineScores": [
+        6,
+        7,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9488,7 +10951,12 @@
       "awayClassification": "iii",
       "awayConference": "American Rivers",
       "awayPoints": 13,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        6,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9514,7 +10982,12 @@
       "homeClassification": "iii",
       "homeConference": "American Rivers",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        14,
+        0,
+        6
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9523,7 +10996,12 @@
       "awayClassification": "iii",
       "awayConference": "Wisconsin",
       "awayPoints": 56,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        21,
+        21,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9619,7 +11097,7 @@
       "awayPostgameWinProbability": 0.19556528329849243,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 8.461045850008167,
+      "excitementIndex": 8.461012182332832,
       "highlights": "",
       "notes": null
     },
@@ -9640,12 +11118,12 @@
       "homeTeam": "North Alabama",
       "homeClassification": "fcs",
       "homeConference": "UAC",
-      "homePoints": 46,
+      "homePoints": 49,
       "homeLineScores": [
         14,
         23,
         9,
-        0
+        3
       ],
       "homePostgameWinProbability": 1,
       "homePregameElo": null,
@@ -9664,7 +11142,7 @@
       "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.0281585945026297,
+      "excitementIndex": 3.3086465069222117,
       "highlights": "",
       "notes": null
     },
@@ -9686,7 +11164,12 @@
       "homeClassification": "ii",
       "homeConference": "Gulf South",
       "homePoints": 42,
-      "homeLineScores": null,
+      "homeLineScores": [
+        15,
+        10,
+        14,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9695,7 +11178,12 @@
       "awayClassification": "ii",
       "awayConference": "Carolinas",
       "awayPoints": 20,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        0,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9721,7 +11209,12 @@
       "homeClassification": "ii",
       "homeConference": "Carolinas",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        17,
+        10,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9730,7 +11223,12 @@
       "awayClassification": "ii",
       "awayConference": "Carolinas",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        14,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9762,7 +11260,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9967264533042908,
       "homePregameElo": 1262,
       "homePostgameElo": 1262,
       "awayId": 2504,
@@ -9776,10 +11274,10 @@
         3,
         7
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.0032735466957092285,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.294864729685547,
       "highlights": "",
       "notes": null
     },
@@ -9807,7 +11305,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9928389191627502,
       "homePregameElo": 1167,
       "homePostgameElo": 1167,
       "awayId": 93,
@@ -9821,10 +11319,10 @@
         0,
         14
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.007161080837249756,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.7539187260165643,
       "highlights": "",
       "notes": null
     },
@@ -9846,7 +11344,12 @@
       "homeClassification": "iii",
       "homeConference": "American Southwest",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        7,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9854,8 +11357,13 @@
       "awayTeam": "Oklahoma Panhandle St",
       "awayClassification": "ii",
       "awayConference": "Independent DII",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9881,7 +11389,12 @@
       "homeClassification": "iii",
       "homeConference": "Michigan",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        7,
+        3,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9890,7 +11403,12 @@
       "awayClassification": "iii",
       "awayConference": "Heartland",
       "awayPoints": 10,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        10,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9916,7 +11434,12 @@
       "homeClassification": "iii",
       "homeConference": "Presidents'",
       "homePoints": 28,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        14,
+        14,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9925,7 +11448,12 @@
       "awayClassification": "iii",
       "awayConference": "Old Dominion",
       "awayPoints": 29,
-      "awayLineScores": null,
+      "awayLineScores": [
+        12,
+        0,
+        7,
+        10
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9951,7 +11479,12 @@
       "homeClassification": "iii",
       "homeConference": "Minnesota",
       "homePoints": 50,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        16,
+        7,
+        13
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -9960,7 +11493,12 @@
       "awayClassification": "iii",
       "awayConference": "Upper Midwest",
       "awayPoints": 3,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -9994,7 +11532,7 @@
       ],
       "homePostgameWinProbability": 0.9881961345672607,
       "homePregameElo": 1107,
-      "homePostgameElo": 1155,
+      "homePostgameElo": 1178,
       "awayId": 2026,
       "awayTeam": "App State",
       "awayClassification": "fbs",
@@ -10008,7 +11546,7 @@
       ],
       "awayPostgameWinProbability": 0.011803865432739258,
       "awayPregameElo": 1461,
-      "awayPostgameElo": 1413,
+      "awayPostgameElo": 1390,
       "excitementIndex": 4.71376107823059,
       "highlights": "",
       "notes": null
@@ -10037,9 +11575,9 @@
         7,
         19
       ],
-      "homePostgameWinProbability": 0.023896506056189537,
+      "homePostgameWinProbability": 0.09397724270820618,
       "homePregameElo": 1502,
-      "homePostgameElo": 1449,
+      "homePostgameElo": 1452,
       "awayId": 295,
       "awayTeam": "Old Dominion",
       "awayClassification": "fbs",
@@ -10051,9 +11589,9 @@
         10,
         7
       ],
-      "awayPostgameWinProbability": 0.9761034939438105,
+      "awayPostgameWinProbability": 0.9060227572917938,
       "awayPregameElo": 1480,
-      "awayPostgameElo": 1533,
+      "awayPostgameElo": 1530,
       "excitementIndex": 3.011007830057404,
       "highlights": "",
       "notes": null
@@ -10082,9 +11620,9 @@
         0,
         10
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9579857587814331,
       "homePregameElo": 1328,
-      "homePostgameElo": 1347,
+      "homePostgameElo": 1357,
       "awayId": 55,
       "awayTeam": "Jacksonville State",
       "awayClassification": "fbs",
@@ -10096,9 +11634,9 @@
         10,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.042014241218566895,
       "awayPregameElo": 1642,
-      "awayPostgameElo": 1623,
+      "awayPostgameElo": 1613,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -10121,7 +11659,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        21,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10129,8 +11672,13 @@
       "awayTeam": "Belhaven",
       "awayClassification": "iii",
       "awayConference": "USA South",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 0,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10156,7 +11704,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        17,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10165,7 +11718,12 @@
       "awayClassification": "iii",
       "awayConference": "Southern Collegiate Athletic",
       "awayPoints": 17,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        3,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10180,7 +11738,7 @@
       "seasonType": "regular",
       "startDate": "2025-09-13T23:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -10190,8 +11748,13 @@
       "homeTeam": "Marietta",
       "homeClassification": "iii",
       "homeConference": "Ohio",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 47,
+      "homeLineScores": [
+        6,
+        21,
+        6,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10199,8 +11762,13 @@
       "awayTeam": "Otterbein",
       "awayClassification": "iii",
       "awayConference": "Ohio",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 31,
+      "awayLineScores": [
+        10,
+        7,
+        7,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10226,7 +11794,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 56,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        21,
+        14,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10235,7 +11808,12 @@
       "awayClassification": "iii",
       "awayConference": "Southern Collegiate Athletic",
       "awayPoints": 14,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10261,7 +11839,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        8,
+        6,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10270,7 +11853,12 @@
       "awayClassification": "iii",
       "awayConference": "North Coast",
       "awayPoints": 35,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        14,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10304,7 +11892,7 @@
       ],
       "homePostgameWinProbability": 0.9979289770126343,
       "homePregameElo": 1524,
-      "homePostgameElo": 1568,
+      "homePostgameElo": 1557,
       "awayId": 2199,
       "awayTeam": "Eastern Michigan",
       "awayClassification": "fbs",
@@ -10318,7 +11906,7 @@
       ],
       "awayPostgameWinProbability": 0.0020710229873657227,
       "awayPregameElo": 1253,
-      "awayPostgameElo": 1209,
+      "awayPostgameElo": 1220,
       "excitementIndex": 3.6645728040247083,
       "highlights": "",
       "notes": null
@@ -10349,7 +11937,7 @@
       ],
       "homePostgameWinProbability": 0,
       "homePregameElo": 1262,
-      "homePostgameElo": 1157,
+      "homePostgameElo": 1172,
       "awayId": 151,
       "awayTeam": "East Carolina",
       "awayClassification": "fbs",
@@ -10363,8 +11951,8 @@
       ],
       "awayPostgameWinProbability": 1,
       "awayPregameElo": 1429,
-      "awayPostgameElo": 1534,
-      "excitementIndex": 3.7589724510262243,
+      "awayPostgameElo": 1519,
+      "excitementIndex": 3.8528115010189783,
       "highlights": "",
       "notes": null
     },
@@ -10385,8 +11973,13 @@
       "homeTeam": "Lagrange College",
       "homeClassification": "iii",
       "homeConference": "USA South",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 0,
+      "homeLineScores": [
+        0,
+        0,
+        0,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10395,7 +11988,12 @@
       "awayClassification": "iii",
       "awayConference": "Southern Athletic",
       "awayPoints": 48,
-      "awayLineScores": null,
+      "awayLineScores": [
+        8,
+        20,
+        20,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10427,9 +12025,9 @@
         7,
         9
       ],
-      "homePostgameWinProbability": 0.3599589765071869,
+      "homePostgameWinProbability": 0.06095157936215401,
       "homePregameElo": 2166,
-      "homePostgameElo": 2149,
+      "homePostgameElo": 2141,
       "awayId": 245,
       "awayTeam": "Texas A&M",
       "awayClassification": "fbs",
@@ -10441,9 +12039,9 @@
         3,
         10
       ],
-      "awayPostgameWinProbability": 0.6400410234928131,
+      "awayPostgameWinProbability": 0.939048420637846,
       "awayPregameElo": 1724,
-      "awayPostgameElo": 1741,
+      "awayPostgameElo": 1749,
       "excitementIndex": 8.042479756639608,
       "highlights": "",
       "notes": null
@@ -10519,7 +12117,7 @@
       ],
       "homePostgameWinProbability": 0.9895370602607727,
       "homePregameElo": 1680,
-      "homePostgameElo": 1750,
+      "homePostgameElo": 1723,
       "awayId": 113,
       "awayTeam": "Massachusetts",
       "awayClassification": "fbs",
@@ -10533,7 +12131,7 @@
       ],
       "awayPostgameWinProbability": 0.010462939739227295,
       "awayPregameElo": 1101,
-      "awayPostgameElo": 1031,
+      "awayPostgameElo": 1058,
       "excitementIndex": 2.706172889122278,
       "highlights": "",
       "notes": null
@@ -10562,9 +12160,9 @@
         0,
         22
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9940977692604065,
       "homePregameElo": 1392,
-      "homePostgameElo": 1475,
+      "homePostgameElo": 1471,
       "awayId": 166,
       "awayTeam": "New Mexico State",
       "awayClassification": "fbs",
@@ -10576,10 +12174,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.005902230739593506,
       "awayPregameElo": 1244,
-      "awayPostgameElo": 1161,
-      "excitementIndex": null,
+      "awayPostgameElo": 1165,
+      "excitementIndex": 3.565683321277412,
       "highlights": "",
       "notes": null
     },
@@ -10609,7 +12207,7 @@
       ],
       "homePostgameWinProbability": 0.0192426610738039,
       "homePregameElo": 1729,
-      "homePostgameElo": 1650,
+      "homePostgameElo": 1645,
       "awayId": 238,
       "awayTeam": "Vanderbilt",
       "awayClassification": "fbs",
@@ -10623,8 +12221,8 @@
       ],
       "awayPostgameWinProbability": 0.9807573389261961,
       "awayPregameElo": 1570,
-      "awayPostgameElo": 1649,
-      "excitementIndex": 4.468344718064012,
+      "awayPostgameElo": 1654,
+      "excitementIndex": 4.458445004730975,
       "highlights": "",
       "notes": null
     },
@@ -10646,7 +12244,12 @@
       "homeClassification": "iii",
       "homeConference": "Southern Athletic",
       "homePoints": 51,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        28,
+        9,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10655,7 +12258,12 @@
       "awayClassification": "iii",
       "awayConference": "Northwest",
       "awayPoints": 43,
-      "awayLineScores": null,
+      "awayLineScores": [
+        6,
+        0,
+        7,
+        30
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10687,7 +12295,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9896548390388489,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2834,
@@ -10701,10 +12309,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.010345160961151123,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 2.462407182705721,
       "highlights": "",
       "notes": null
     },
@@ -10732,9 +12340,9 @@
         0,
         6
       ],
-      "homePostgameWinProbability": 0.011190112680196762,
+      "homePostgameWinProbability": 0.01311210636049509,
       "homePregameElo": 1043,
-      "homePostgameElo": 1018,
+      "homePostgameElo": 1046,
       "awayId": 2426,
       "awayTeam": "Navy",
       "awayClassification": "fbs",
@@ -10746,10 +12354,10 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": 0.9888098873198032,
+      "awayPostgameWinProbability": 0.9868878936395049,
       "awayPregameElo": 1553,
-      "awayPostgameElo": 1578,
-      "excitementIndex": 4.351962925338813,
+      "awayPostgameElo": 1550,
+      "excitementIndex": 4.787999254795146,
       "highlights": "",
       "notes": null
     },
@@ -10779,7 +12387,7 @@
       ],
       "homePostgameWinProbability": 0.8578504920005798,
       "homePregameElo": 1642,
-      "homePostgameElo": 1644,
+      "homePostgameElo": 1642,
       "awayId": 150,
       "awayTeam": "Duke",
       "awayClassification": "fbs",
@@ -10793,7 +12401,7 @@
       ],
       "awayPostgameWinProbability": 0.14214950799942017,
       "awayPregameElo": 1462,
-      "awayPostgameElo": 1460,
+      "awayPostgameElo": 1462,
       "excitementIndex": 3.9642182675078077,
       "highlights": "",
       "notes": null
@@ -10815,26 +12423,30 @@
       "homeTeam": "Wyoming",
       "homeClassification": "fbs",
       "homeConference": "Mountain West",
-      "homePoints": 0,
+      "homePoints": 6,
       "homeLineScores": [
         0,
-        0
+        0,
+        0,
+        6
       ],
-      "homePostgameWinProbability": 0.14070816338062286,
+      "homePostgameWinProbability": 0.0009106388315558434,
       "homePregameElo": 1377,
-      "homePostgameElo": 1380,
+      "homePostgameElo": 1339,
       "awayId": 254,
       "awayTeam": "Utah",
       "awayClassification": "fbs",
       "awayConference": "Big 12",
-      "awayPoints": 3,
+      "awayPoints": 31,
       "awayLineScores": [
         3,
-        0
+        0,
+        14,
+        14
       ],
-      "awayPostgameWinProbability": 0.8592918366193771,
+      "awayPostgameWinProbability": 0.9990893611684442,
       "awayPregameElo": 1630,
-      "awayPostgameElo": 1627,
+      "awayPostgameElo": 1668,
       "excitementIndex": 2.522973477840424,
       "highlights": "",
       "notes": null
@@ -10857,7 +12469,7 @@
       "homeClassification": "ii",
       "homeConference": "Lone Star",
       "homePoints": 20,
-      "homeLineScores": null,
+      "homeLineScores": [],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10866,7 +12478,7 @@
       "awayClassification": "ii",
       "awayConference": "Lone Star",
       "awayPoints": 31,
-      "awayLineScores": null,
+      "awayLineScores": [],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10892,7 +12504,12 @@
       "homeClassification": "ii",
       "homeConference": "Lone Star",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        0,
+        13,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10901,7 +12518,12 @@
       "awayClassification": "ii",
       "awayConference": "Lone Star",
       "awayPoints": 58,
-      "awayLineScores": null,
+      "awayLineScores": [
+        21,
+        21,
+        13,
+        3
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -10972,7 +12594,12 @@
       "homeClassification": "ii",
       "homeConference": "Rocky Mountain",
       "homePoints": 31,
-      "homeLineScores": null,
+      "homeLineScores": [
+        14,
+        14,
+        0,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -10981,7 +12608,12 @@
       "awayClassification": "ii",
       "awayConference": "Rocky Mountain",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        7,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -11007,7 +12639,12 @@
       "homeClassification": "ii",
       "homeConference": "Great American",
       "homePoints": 41,
-      "homeLineScores": null,
+      "homeLineScores": [
+        10,
+        10,
+        7,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -11016,7 +12653,12 @@
       "awayClassification": "ii",
       "awayConference": "Great American",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        7,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -11041,13 +12683,14 @@
       "homeTeam": "UT Rio Grande Valley",
       "homeClassification": "fcs",
       "homeConference": "Southland",
-      "homePoints": 52,
+      "homePoints": 80,
       "homeLineScores": [
         21,
         31,
-        0
+        21,
+        7
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2324,
@@ -11058,12 +12701,13 @@
       "awayLineScores": [
         0,
         0,
+        0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.212946328909301,
       "highlights": "",
       "notes": null
     },
@@ -11091,7 +12735,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.989151120185852,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2848,
@@ -11105,7 +12749,7 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.01084887981414795,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": null,
@@ -11130,7 +12774,12 @@
       "homeClassification": "ii",
       "homeConference": "Mid America",
       "homePoints": 26,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        10,
+        6,
+        3
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -11139,7 +12788,12 @@
       "awayClassification": "ii",
       "awayConference": "Mid America",
       "awayPoints": 7,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -11165,7 +12819,12 @@
       "homeClassification": "ii",
       "homeConference": "Great American",
       "homePoints": 14,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -11174,7 +12833,12 @@
       "awayClassification": "ii",
       "awayConference": "Great American",
       "awayPoints": 28,
-      "awayLineScores": null,
+      "awayLineScores": [
+        14,
+        7,
+        7,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -11213,12 +12877,12 @@
       "awayTeam": "Northern Arizona",
       "awayClassification": "fcs",
       "awayConference": "Big Sky",
-      "awayPoints": 50,
+      "awayPoints": 52,
       "awayLineScores": [
         7,
         7,
         28,
-        8
+        10
       ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
@@ -11251,9 +12915,9 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.5819172263145447,
       "homePregameElo": 1309,
-      "homePostgameElo": 1303,
+      "homePostgameElo": 1307,
       "awayId": 2006,
       "awayTeam": "Akron",
       "awayClassification": "fbs",
@@ -11265,9 +12929,9 @@
         0,
         8
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.4180827736854553,
       "awayPregameElo": 1058,
-      "awayPostgameElo": 1064,
+      "awayPostgameElo": 1060,
       "excitementIndex": null,
       "highlights": "",
       "notes": null
@@ -11296,7 +12960,7 @@
         7,
         21
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2385,
@@ -11310,10 +12974,10 @@
         7,
         3
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 5.9155816992583965,
       "highlights": "",
       "notes": null
     },
@@ -11343,7 +13007,7 @@
       ],
       "homePostgameWinProbability": 1,
       "homePregameElo": 1394,
-      "homePostgameElo": 1436,
+      "homePostgameElo": 1442,
       "awayId": 2005,
       "awayTeam": "Air Force",
       "awayClassification": "fbs",
@@ -11357,8 +13021,8 @@
       ],
       "awayPostgameWinProbability": 0,
       "awayPregameElo": 1438,
-      "awayPostgameElo": 1396,
-      "excitementIndex": 4.762136852662361,
+      "awayPostgameElo": 1390,
+      "excitementIndex": 5.7210732334539,
       "highlights": "",
       "notes": null
     },
@@ -11386,7 +13050,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9841591715812683,
       "homePregameElo": 1458,
       "homePostgameElo": 1458,
       "awayId": 2582,
@@ -11400,10 +13064,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.01584082841873169,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 2.7328645123792015,
       "highlights": "",
       "notes": null
     },
@@ -11431,9 +13095,9 @@
         7,
         10
       ],
-      "homePostgameWinProbability": 0.9261302947998047,
+      "homePostgameWinProbability": 0.8964213728904724,
       "homePregameElo": 1554,
-      "homePostgameElo": 1579,
+      "homePostgameElo": 1586,
       "awayId": 135,
       "awayTeam": "Minnesota",
       "awayClassification": "fbs",
@@ -11445,10 +13109,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.07386970520019531,
+      "awayPostgameWinProbability": 0.10357862710952759,
       "awayPregameElo": 1625,
-      "awayPostgameElo": 1600,
-      "excitementIndex": 5.643300946968678,
+      "awayPostgameElo": 1593,
+      "excitementIndex": 6.143238471096987,
       "highlights": "",
       "notes": null
     },
@@ -11523,7 +13187,7 @@
       ],
       "homePostgameWinProbability": 0.9717102646827698,
       "homePregameElo": 1260,
-      "homePostgameElo": 1284,
+      "homePostgameElo": 1296,
       "awayId": 103,
       "awayTeam": "Boston College",
       "awayClassification": "fbs",
@@ -11537,7 +13201,7 @@
       ],
       "awayPostgameWinProbability": 0.028289735317230225,
       "awayPregameElo": 1506,
-      "awayPostgameElo": 1482,
+      "awayPostgameElo": 1470,
       "excitementIndex": 5.304368767390675,
       "highlights": "",
       "notes": null
