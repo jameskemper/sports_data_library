@@ -1,869 +1,869 @@
-id,season,week,seasonType,startDate,completed,neutralSite,conferenceGame,venue,homeTeam,homeConference,homePoints,homeLineScores,awayTeam,awayConference,awayPoints,awayLineScores
-401525434,2023,1,regular,2023-08-26T18:30:00.000Z,1,1,0,Aviva Stadium,Notre Dame,FBS Independents,42,"[14, 14, 7, 7]",Navy,American Athletic,3,"[0, 0, 0, 3]"
-401520145,2023,1,regular,2023-08-26T21:30:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,17,"[3, 7, 7, 0]",UTEP,Conference USA,14,"[0, 7, 0, 7]"
-401525450,2023,1,regular,2023-08-26T23:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,Conference USA,30,"[0, 10, 0, 20]",Massachusetts,FBS Independents,41,"[7, 3, 3, 28]"
-401532392,2023,1,regular,2023-08-26T23:00:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,20,"[3, 7, 0, 10]",Ohio,Mid-American,13,"[3, 3, 0, 7]"
-401520147,2023,1,regular,2023-08-26T23:30:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,35,"[14, 7, 7, 7]",Hawai'i,Mountain West,28,"[7, 7, 0, 14]"
-401523986,2023,1,regular,2023-08-27T00:00:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,56,"[7, 14, 21, 14]",San José State,Mountain West,28,"[0, 14, 7, 7]"
-401520146,2023,1,regular,2023-08-27T01:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,22,"[0, 13, 0, 9]",Florida International,Conference USA,17,"[14, 3, 0, 0]"
-401532393,2023,1,regular,2023-08-31T23:00:00.000Z,1,0,0,Waldo Stadium,Western Michigan,Mid-American,35,"[7, 14, 7, 7]",St. Francis (PA),NEC,17,"[0, 10, 7, 0]"
-401531834,2023,1,regular,2023-08-31T23:00:00.000Z,1,0,0,Center Parc Stadium,Georgia State,Sun Belt,42,"[14, 7, 14, 7]",Rhode Island,CAA,35,"[0, 14, 14, 7]"
-401525461,2023,1,regular,2023-08-31T23:00:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,37,"[10, 14, 6, 7]",Elon,CAA,17,"[0, 0, 14, 3]"
-401525816,2023,1,regular,2023-08-31T23:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,Big 12,56,"[14, 14, 14, 14]",Kent State,Mid-American,6,"[3, 0, 3, 0]"
-401520174,2023,1,regular,2023-08-31T23:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,14,"[7, 0, 7, 0]",NC State,ACC,24,"[7, 3, 14, 0]"
-401520176,2023,1,regular,2023-09-01T00:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,24,"[7, 10, 7, 0]",Florida,SEC,11,"[3, 0, 0, 8]"
-401520148,2023,1,regular,2023-09-01T00:00:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,13,"[0, 3, 0, 10]",Nebraska,Big Ten,10,"[0, 0, 7, 3]"
-401520165,2023,1,regular,2023-09-01T00:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,35,"[14, 14, 0, 7]",South Dakota,MVFC,10,"[0, 3, 0, 7]"
-401531337,2023,1,regular,2023-09-01T00:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,42,"[0, 28, 7, 7]",Arkansas-Pine Bluff,SWAC,7,"[7, 0, 0, 0]"
-401531377,2023,1,regular,2023-09-01T00:00:00.000Z,1,0,0,Protective Stadium,UAB,American Athletic,35,"[7, 14, 7, 7]",North Carolina A&T,CAA,6,"[3, 0, 0, 3]"
-401523987,2023,1,regular,2023-09-01T02:00:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,24,"[7, 14, 0, 3]",Southern Utah,UAC,21,"[0, 7, 7, 7]"
-401532394,2023,1,regular,2023-09-01T22:30:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,33,"[16, 14, 0, 3]",Howard,MEAC,23,"[0, 9, 14, 0]"
-401520163,2023,1,regular,2023-09-01T23:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,31,"[0, 10, 7, 14]",Central Michigan,Mid-American,7,"[0, 7, 0, 0]"
-401525463,2023,1,regular,2023-09-01T23:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,38,"[10, 6, 8, 14]",Miami (OH),Mid-American,3,"[0, 3, 0, 0]"
-401525462,2023,1,regular,2023-09-01T23:30:00.000Z,1,1,1,Mercedes-Benz Stadium,Georgia Tech,ACC,34,"[0, 28, 0, 6]",Louisville,ACC,39,"[6, 7, 10, 16]"
-401525815,2023,1,regular,2023-09-02T00:00:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,48,"[7, 10, 10, 21]",Missouri State,MVFC,17,"[7, 3, 0, 7]"
-401523988,2023,1,regular,2023-09-02T03:00:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,24,"[0, 10, 0, 14]",Stanford,Pac-12,37,"[7, 14, 6, 10]"
-401525822,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,73,"[28, 17, 21, 7]",Arkansas State,Sun Belt,0,"[0, 0, 0, 0]"
-401520179,2023,1,regular,2023-09-02T16:00:00.000Z,1,1,0,Nissan Stadium,Tennessee,SEC,49,"[7, 14, 14, 14]",Virginia,ACC,13,"[0, 3, 7, 3]"
-401520159,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,44,"[3, 20, 14, 7]",Ball State,Mid-American,14,"[7, 0, 7, 0]"
-401523994,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,42,"[0, 14, 14, 14]",Colorado,Pac-12,45,"[7, 10, 14, 14]"
-401520172,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,38,"[14, 17, 0, 7]",Louisiana Tech,Conference USA,14,"[0, 0, 7, 7]"
-401525464,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,24,"[0, 0, 7, 14, 3]",Northern Illinois,Mid-American,27,"[0, 7, 7, 7, 6]"
-401520162,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,30,"[7, 16, 7, 0]",East Carolina,American Athletic,3,"[0, 0, 0, 3]"
-401520160,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Williams Stadium (VA),Liberty,Conference USA,34,"[7, 17, 7, 3]",Bowling Green,Mid-American,24,"[0, 14, 10, 0]"
-401520157,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,24,"[14, 3, 0, 7]",Utah State,Mountain West,14,"[0, 3, 3, 8]"
-401520170,2023,1,regular,2023-09-02T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,35,"[7, 14, 7, 7]",Fresno State,Mountain West,39,"[7, 10, 8, 14]"
-401532570,2023,1,regular,2023-09-02T17:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,42,"[14, 14, 7, 7]",Robert Morris,Big South-OVC,7,"[0, 0, 0, 7]"
-401532395,2023,1,regular,2023-09-02T18:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,27,"[3, 14, 10, 0]",Long Island University,NEC,10,"[0, 3, 0, 7]"
-401520158,2023,1,regular,2023-09-02T18:00:00.000Z,1,0,0,AmFirst Stadium,Jacksonville State,Conference USA,49,"[14, 7, 21, 7]",East Tennessee State,Southern,3,"[3, 0, 0, 0]"
-401525820,2023,1,regular,2023-09-02T18:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,30,"[14, 9, 7, 0]",Northern Iowa,MVFC,9,"[0, 0, 3, 6]"
-401531387,2023,1,regular,2023-09-02T18:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,24,"[0, 10, 6, 8]",Akron,Mid-American,21,"[7, 14, 0, 0]"
-401520168,2023,1,regular,2023-09-02T18:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,73,"[28, 10, 28, 7]",Mercer,Southern,7,"[7, 0, 0, 0]"
-401523992,2023,1,regular,2023-09-02T19:00:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,81,"[22, 28, 17, 14]",Portland State,Big Sky,7,"[7, 0, 0, 0]"
-401525465,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,45,"[7, 21, 10, 7]",Wofford,Southern,7,"[0, 0, 0, 7]"
-401520180,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,38,"[7, 7, 14, 10]",Buffalo,Mid-American,17,"[7, 3, 0, 7]"
-401525435,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,56,"[7, 28, 14, 7]",Tennessee State,Big South-OVC,3,"[3, 0, 0, 0]"
-401523997,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,56,"[0, 28, 7, 21]",Boise State,Mountain West,19,"[6, 6, 7, 0]"
-401531835,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Kidd Brewer Stadium,App State,Sun Belt,45,"[7, 7, 17, 14]",Gardner-Webb,Big South-OVC,24,"[0, 10, 14, 0]"
-401525818,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Nippert Stadium,Cincinnati,Big 12,66,"[21, 21, 10, 14]",Eastern Kentucky,UAC,13,"[0, 7, 3, 3]"
-401520181,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,41,"[7, 10, 14, 10]",South Florida,American Athletic,24,"[14, 3, 7, 0]"
-401525824,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,37,"[7, 9, 21, 0]",Rice,American Athletic,10,"[3, 0, 0, 7]"
-401520156,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,3,"[0, 3, 0, 0]",Ohio State,Big Ten,23,"[7, 3, 10, 3]"
-401520161,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,38,"[21, 7, 7, 3]",Towson,CAA,6,"[0, 3, 3, 0]"
-401520151,2023,1,regular,2023-09-02T19:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,59,"[10, 21, 21, 7]",Massachusetts,FBS Independents,14,"[7, 0, 0, 7]"
-401525466,2023,1,regular,2023-09-02T20:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,65,"[23, 14, 28, 0]",Colgate,Patriot,0,"[0, 0, 0, 0]"
-401520150,2023,1,regular,2023-09-02T20:00:00.000Z,1,1,0,War Memorial Stadium (AR),Arkansas,SEC,56,"[21, 14, 7, 14]",Western Carolina,Southern,13,"[3, 0, 7, 3]"
-401520164,2023,1,regular,2023-09-02T20:00:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,48,"[3, 17, 7, 21]",SE Louisiana,Southland,7,"[0, 7, 0, 0]"
-401523991,2023,1,regular,2023-09-02T20:00:00.000Z,1,0,0,DATCU Stadium,North Texas,American Athletic,21,"[7, 14, 0, 0]",California,Pac-12,58,"[14, 19, 15, 10]"
-401532572,2023,1,regular,2023-09-02T20:00:00.000Z,1,0,0,Allegiant Stadium,UNLV,Mountain West,44,"[17, 7, 17, 3]",Bryant,Big South-OVC,14,"[0, 0, 7, 7]"
-401531402,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,American Athletic,24,"[0, 17, 0, 7]",South Carolina State,MEAC,3,"[0, 3, 0, 0]"
-401520154,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,48,"[7, 10, 14, 17]",UT Martin,Big South-OVC,7,"[0, 0, 0, 7]"
-401531837,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,Bridgeforth Stadium,James Madison,Sun Belt,38,"[3, 14, 7, 14]",Bucknell,Patriot,3,"[0, 3, 0, 0]"
-401531418,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,American Athletic,42,"[14, 14, 14, 0]",Monmouth,CAA,20,"[7, 7, 0, 6]"
-401531838,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Sun Belt,21,"[0, 0, 14, 7]",UAlbany,CAA,17,"[0, 3, 14, 0]"
-401531836,2023,1,regular,2023-09-02T22:00:00.000Z,1,0,0,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,34,"[14, 10, 7, 3]",The Citadel,Southern,0,"[0, 0, 0, 0]"
-401523996,2023,1,regular,2023-09-02T22:30:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,66,"[21, 14, 7, 24]",Nevada,Mountain West,14,"[7, 0, 0, 7]"
-401520153,2023,1,regular,2023-09-02T22:30:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,14,"[7, 7, 0, 0]",Maine,CAA,12,"[3, 3, 6, 0]"
-401520173,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,52,"[7, 28, 7, 10]",New Mexico,Mountain West,10,"[0, 7, 3, 0]"
-401525823,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,27,"[7, 6, 0, 14]",Central Arkansas,UAC,13,"[0, 0, 7, 6]"
-401525821,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,45,"[7, 28, 3, 7]",Southeast Missouri State,Big South-OVC,0,"[0, 0, 0, 0]"
-401525819,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,TDECU Stadium,Houston,Big 12,17,"[7, 3, 7, 0]",UTSA,American Athletic,14,"[7, 0, 0, 7]"
-401531840,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Sun Belt,40,"[17, 10, 10, 3]",Alcorn State,SWAC,14,"[7, 0, 0, 7]"
-401531841,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,48,"[21, 10, 10, 7]",Stephen F. Austin,UAC,30,"[3, 17, 0, 10]"
-401523990,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Canvas Stadium,Colorado State,Mountain West,24,"[3, 0, 0, 21]",Washington State,Pac-12,50,"[7, 10, 12, 21]"
-401525817,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,31,"[6, 7, 11, 7]",Texas State,Sun Belt,42,"[14, 14, 7, 7]"
-401531426,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,56,"[10, 18, 21, 7]",Bethune-Cookman,SWAC,14,"[7, 0, 0, 7]"
-401520178,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,47,"[5, 7, 14, 21]",Alabama A&M,SWAC,13,"[3, 0, 7, 3]"
-401520175,2023,1,regular,2023-09-02T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,17,"[0, 3, 0, 14]",Army,FBS Independents,13,"[0, 10, 0, 3]"
-401525825,2023,1,regular,2023-09-02T23:30:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,35,"[0, 10, 7, 3, 7, 8]",Texas Tech,Big 12,33,"[17, 0, 0, 3, 7, 6]"
-401520167,2023,1,regular,2023-09-02T23:30:00.000Z,1,1,0,Bank of America Stadium,North Carolina,ACC,31,"[7, 10, 14, 0]",South Carolina,SEC,17,"[7, 7, 0, 3]"
-401520155,2023,1,regular,2023-09-02T23:30:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,30,"[7, 0, 13, 10]",Toledo,Mid-American,28,"[3, 9, 7, 9]"
-401520169,2023,1,regular,2023-09-02T23:30:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,38,"[7, 7, 7, 17]",West Virginia,Big 12,15,"[0, 7, 0, 8]"
-401520149,2023,1,regular,2023-09-02T23:30:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,56,"[14, 14, 14, 14]",Middle Tennessee,Conference USA,7,"[0, 0, 7, 0]"
-401531839,2023,1,regular,2023-09-02T23:30:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,38,"[7, 14, 7, 10]",Northwestern State,Southland,13,"[3, 3, 0, 7]"
-401531347,2023,1,regular,2023-09-03T00:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,37,"[10, 14, 7, 6]",South Alabama,Sun Belt,17,"[0, 10, 7, 0]"
-401525467,2023,1,regular,2023-09-03T00:00:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,36,"[2, 14, 14, 6]",Old Dominion,Sun Belt,17,"[0, 10, 7, 0]"
-401520177,2023,1,regular,2023-09-03T01:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,28,"[7, 7, 7, 7]",Incarnate Word,Southland,14,"[7, 7, 0, 0]"
-401520166,2023,1,regular,2023-09-03T01:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,Conference USA,58,"[6, 14, 17, 21]",Western Illinois,MVFC,21,"[0, 14, 7, 0]"
-401523989,2023,1,regular,2023-09-03T02:00:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,38,"[7, 7, 21, 3]",Northern Arizona,Big Sky,3,"[0, 3, 0, 0]"
-401520152,2023,1,regular,2023-09-03T02:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,Big 12,14,"[7, 0, 0, 7]",Sam Houston,Conference USA,0,"[0, 0, 0, 0]"
-401523995,2023,1,regular,2023-09-03T02:30:00.000Z,1,0,0,Rose Bowl,UCLA,Pac-12,27,"[7, 7, 0, 13]",Coastal Carolina,Sun Belt,13,"[0, 6, 7, 0]"
-401532571,2023,1,regular,2023-09-03T02:30:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,36,"[10, 10, 9, 7]",Idaho State,Big Sky,28,"[3, 10, 0, 15]"
-401520171,2023,1,regular,2023-09-03T16:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,24,"[7, 10, 7, 0]",Northwestern,Big Ten,7,"[0, 0, 0, 7]"
-401532573,2023,1,regular,2023-09-03T19:30:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,17,"[0, 3, 0, 14]",Oregon State,Pac-12,42,"[7, 14, 7, 14]"
-401520182,2023,1,regular,2023-09-03T23:30:00.000Z,1,1,0,Camping World Stadium,Florida State,ACC,45,"[7, 7, 10, 21]",LSU,SEC,24,"[7, 10, 0, 7]"
-401525468,2023,1,regular,2023-09-05T00:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,28,"[3, 3, 7, 15]",Clemson,ACC,7,"[0, 7, 0, 0]"
-401525469,2023,2,regular,2023-09-07T23:30:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,56,"[7, 21, 14, 14]",Murray State,MVFC,0,"[0, 0, 0, 0]"
-401520193,2023,2,regular,2023-09-08T23:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,41,"[21, 3, 7, 10]",Indiana State,MVFC,7,"[0, 7, 0, 0]"
-401520195,2023,2,regular,2023-09-08T23:30:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,34,"[14, 14, 6, 0]",Illinois,Big Ten,23,"[0, 7, 8, 8]"
-401520216,2023,2,regular,2023-09-09T15:00:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,36,"[3, 21, 3, 9]",Vanderbilt,SEC,20,"[0, 14, 0, 6]"
-401525490,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,31,"[7, 17, 0, 7]",Holy Cross,Patriot,28,"[0, 14, 7, 7]"
-401520188,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Folsom Field,Colorado,Pac-12,36,"[0, 13, 10, 13]",Nebraska,Big Ten,14,"[0, 0, 7, 7]"
-401523999,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,13,"[0, 10, 3, 0]",Utah,Pac-12,20,"[0, 3, 3, 14]"
-401520215,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,17,"[0, 17, 0, 0]",Purdue,Big Ten,24,"[7, 10, 0, 7]"
-401520208,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,35,"[14, 14, 7, 0]",Youngstown State,MVFC,7,"[7, 0, 0, 0]"
-401525436,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,24,"[0, 7, 10, 7]",Notre Dame,FBS Independents,45,"[3, 14, 7, 21]"
-401520191,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,45,"[0, 31, 14, 0]",Ball State,Mid-American,3,"[0, 0, 0, 3]"
-401525498,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,35,"[7, 7, 21, 0]",James Madison,Sun Belt,36,"[17, 0, 7, 12]"
-401525829,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,42,"[7, 14, 7, 14]",Troy,Sun Belt,13,"[0, 10, 0, 3]"
-401520209,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,63,"[14, 21, 21, 7]",Delaware,CAA,7,"[7, 0, 0, 0]"
-401520185,2023,2,regular,2023-09-09T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,57,"[15, 21, 7, 14]",Delaware State,MEAC,0,"[0, 0, 0, 0]"
-401525494,2023,2,regular,2023-09-09T17:00:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,48,"[14, 14, 17, 3]",South Carolina State,MEAC,13,"[0, 6, 7, 0]"
-401532396,2023,2,regular,2023-09-09T17:30:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,45,"[7, 21, 7, 10]",New Hampshire,CAA,42,"[7, 14, 7, 14]"
-401532400,2023,2,regular,2023-09-09T18:00:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,38,"[7, 14, 10, 7]",Eastern Illinois,Big South-OVC,15,"[6, 6, 0, 3]"
-401525491,2023,2,regular,2023-09-09T18:15:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,66,"[14, 10, 28, 14]",Charleston Southern,Big South-OVC,17,"[14, 3, 0, 0]"
-401525828,2023,2,regular,2023-09-09T19:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,Big 12,41,"[6, 21, 7, 7]",Southern Utah,UAC,16,"[3, 0, 7, 6]"
-401520196,2023,2,regular,2023-09-09T19:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,28,"[0, 7, 14, 7]",Eastern Kentucky,UAC,17,"[7, 0, 3, 7]"
-401520203,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,45,"[7, 10, 21, 7]",Richmond,CAA,14,"[0, 0, 0, 14]"
-401531432,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,24,"[7, 10, 0, 7]",Wagner,NEC,0,"[0, 0, 0, 0]"
-401520214,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,20,"[7, 10, 0, 3]",Ole Miss,SEC,37,"[7, 3, 7, 20]"
-401520202,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,35,"[7, 14, 14, 0]",UNLV,Mountain West,7,"[0, 0, 0, 7]"
-401525497,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,48,"[17, 28, 3, 0]",Western Michigan,Mid-American,7,"[7, 0, 0, 0]"
-401532398,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,71,"[22, 28, 7, 14]",Texas Southern,SWAC,3,"[0, 3, 0, 0]"
-401526833,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,28,"[0, 7, 14, 7]",Miami (OH),Mid-American,41,"[21, 7, 3, 10]"
-401531395,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Alamodome,UTSA,American Athletic,20,"[3, 7, 7, 3]",Texas State,Sun Belt,13,"[0, 10, 0, 3]"
-401520201,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,48,"[7, 14, 10, 17]",Texas A&M,SEC,33,"[10, 7, 9, 7]"
-401520207,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,38,"[7, 0, 21, 10]",UTEP,Conference USA,7,"[7, 0, 0, 0]"
-401520194,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,13,"[0, 3, 0, 10]",Iowa,Big Ten,20,"[3, 14, 3, 0]"
-401532397,2023,2,regular,2023-09-09T19:30:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,11,"[0, 0, 3, 8]",Southern Illinois,MVFC,14,"[7, 0, 7, 0]"
-401532580,2023,2,regular,2023-09-09T20:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,31,"[14, 7, 10, 0]",Portland State,Big Sky,17,"[0, 10, 0, 7]"
-401520184,2023,2,regular,2023-09-09T20:00:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,28,"[7, 7, 7, 7]",Kent State,Mid-American,6,"[3, 3, 0, 0]"
-401532578,2023,2,regular,2023-09-09T20:00:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,59,"[17, 21, 21, 0]",Cal Poly,Big Sky,3,"[0, 3, 0, 0]"
-401531411,2023,2,regular,2023-09-09T20:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,13,"[0, 10, 3, 0]",Marshall,Sun Belt,31,"[0, 10, 0, 21]"
-401524004,2023,2,regular,2023-09-09T21:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,43,"[14, 8, 14, 7]",Tulsa,American Athletic,10,"[3, 0, 0, 7]"
-401531844,2023,2,regular,2023-09-09T21:00:00.000Z,1,0,0,Hancock Whitney Stadium,South Alabama,Sun Belt,35,"[0, 7, 14, 14]",SE Louisiana,Southland,17,"[0, 7, 0, 10]"
-401520213,2023,2,regular,2023-09-09T21:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,30,"[3, 10, 10, 7]",Austin Peay,UAC,13,"[3, 3, 0, 7]"
-401525495,2023,2,regular,2023-09-09T21:15:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,40,"[0, 10, 10, 7, 7, 6]",App State,Sun Belt,34,"[0, 10, 7, 10, 7, 0]"
-401525830,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,28,"[7, 7, 0, 14]",SMU,American Athletic,11,"[3, 0, 0, 8]"
-401525833,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,56,"[7, 28, 7, 14]",Duquesne,NEC,17,"[7, 3, 7, 0]"
-401532399,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,24,"[3, 14, 0, 7]",Morgan State,MEAC,21,"[0, 7, 14, 0]"
-401531378,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,49,"[14, 14, 7, 14]",UAB,American Athletic,35,"[0, 22, 7, 6]"
-401531842,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,38,"[7, 10, 14, 7]",Louisiana,Sun Belt,31,"[10, 7, 0, 14]"
-401532401,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,37,"[14, 7, 9, 7]",Fordham,Patriot,40,"[3, 17, 6, 14]"
-401525492,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,42,"[7, 14, 14, 7]",Lafayette,Patriot,7,"[7, 0, 0, 0]"
-401531419,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,American Athletic,10,"[0, 10, 0, 0]",Ohio,Mid-American,17,"[0, 7, 7, 3]"
-401520198,2023,2,regular,2023-09-09T22:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,33,"[7, 16, 10, 0]",New Mexico State,Conference USA,17,"[7, 10, 0, 0]"
-401520189,2023,2,regular,2023-09-09T22:30:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,46,"[7, 10, 21, 8]",North Texas,American Athletic,39,"[10, 10, 7, 12]"
-401525496,2023,2,regular,2023-09-09T22:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,21,"[7, 0, 0, 14]",Cincinnati,Big 12,27,"[10, 10, 7, 0]"
-401532576,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,6,"[3, 3, 0, 0]",Idaho,Big Sky,33,"[14, 3, 10, 6]"
-401525831,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Rice Stadium,Rice,American Athletic,43,"[21, 7, 0, 0, 7, 8]",Houston,Big 12,41,"[0, 7, 0, 21, 7, 6]"
-401531422,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,38,"[14, 10, 7, 7]",Florida A&M,SWAC,24,"[7, 7, 3, 7]"
-401520197,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,51,"[10, 21, 20, 0]",Northwestern State,Southland,21,"[7, 7, 7, 0]"
-401520218,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,52,"[24, 7, 7, 14]",Houston Christian,Southland,22,"[0, 14, 0, 8]"
-401531427,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,3,"[0, 3, 0, 0]",Memphis,American Athletic,37,"[3, 21, 7, 6]"
-401525827,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,16,"[7, 3, 0, 6]",UCF,Big 12,18,"[3, 6, 0, 9]"
-401520187,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Brooks Stadium (SC),Coastal Carolina,Sun Belt,30,"[7, 3, 13, 7]",Jacksonville State,Conference USA,16,"[6, 3, 0, 7]"
-401520192,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Center Parc Stadium,Georgia State,Sun Belt,35,"[7, 14, 7, 7]",UConn,FBS Independents,14,"[0, 0, 0, 14]"
-401520183,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,24,"[0, 6, 10, 8]",Texas,Big 12,34,"[3, 10, 0, 21]"
-401524002,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,30,"[7, 6, 14, 3]",Oregon,Pac-12,38,"[15, 3, 0, 20]"
-401520206,2023,2,regular,2023-09-09T23:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,23,"[3, 7, 6, 7]",Middle Tennessee,Conference USA,19,"[0, 7, 3, 9]"
-401520210,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,SHI Stadium,Rutgers,Big Ten,36,"[7, 6, 0, 23]",Temple,American Athletic,7,"[0, 0, 0, 7]"
-401520199,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,72,"[14, 28, 14, 16]",Grambling,SWAC,10,"[10, 0, 0, 0]"
-401520205,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,31,"[14, 0, 7, 3, 7]",Arizona,Pac-12,24,"[0, 7, 7, 10, 0]"
-401520204,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,25,"[0, 10, 10, 5]",Eastern Michigan,Mid-American,6,"[0, 6, 0, 0]"
-401520190,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,49,"[13, 13, 16, 7]",McNeese,Southland,7,"[0, 0, 0, 7]"
-401524001,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,10,"[7, 3, 0, 0]",UCLA,Pac-12,35,"[7, 21, 7, 0]"
-401520217,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,31,"[7, 17, 0, 7]",Wisconsin,Big Ten,22,"[3, 6, 13, 0]"
-401520212,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,47,"[7, 20, 13, 7]",Furman,Southern,21,"[7, 7, 0, 7]"
-401520200,2023,2,regular,2023-09-09T23:30:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,38,"[0, 9, 8, 21]",Charlotte,American Athletic,20,"[14, 0, 0, 6]"
-401531843,2023,2,regular,2023-09-10T00:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,24,"[7, 14, 0, 3]",Lamar,Southland,14,"[0, 0, 0, 14]"
-401532579,2023,2,regular,2023-09-10T00:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,78,"[7, 44, 14, 13]",Idaho State,Big Sky,28,"[7, 7, 7, 7]"
-401532577,2023,2,regular,2023-09-10T00:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,56,"[7, 21, 21, 7]",Tennessee Tech,Big South-OVC,10,"[7, 3, 0, 0]"
-401525832,2023,2,regular,2023-09-10T00:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,41,"[14, 10, 0, 17]",Nicholls,Southland,6,"[0, 3, 3, 0]"
-401520211,2023,2,regular,2023-09-10T00:00:00.000Z,1,1,0,NRG Stadium,Sam Houston,Conference USA,3,"[0, 0, 3, 0]",Air Force,Mountain West,13,"[0, 3, 0, 10]"
-401525493,2023,2,regular,2023-09-10T00:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,66,"[14, 17, 21, 14]",Southern Miss,Sun Belt,13,"[0, 3, 7, 3]"
-401532574,2023,2,regular,2023-09-10T01:00:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,34,"[7, 7, 7, 3, 7, 3]",Eastern Washington,Big Sky,31,"[3, 0, 14, 7, 7, 0]"
-401524000,2023,2,regular,2023-09-10T01:00:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,55,"[14, 24, 10, 7]",UC Davis,Big Sky,7,"[0, 0, 0, 7]"
-401524003,2023,2,regular,2023-09-10T02:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,56,"[21, 28, 0, 7]",Stanford,Pac-12,10,"[0, 3, 0, 7]"
-401523998,2023,2,regular,2023-09-10T02:30:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,15,"[7, 8, 0, 0]",Oklahoma State,Big 12,27,"[0, 10, 7, 10]"
-401520186,2023,2,regular,2023-09-10T02:30:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,10,"[3, 7, 0, 0]",Auburn,SEC,14,"[0, 7, 0, 7]"
-401532575,2023,2,regular,2023-09-10T03:59:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,31,"[10, 7, 7, 7]",UAlbany,CAA,20,"[7, 10, 3, 0]"
-401525499,2023,3,regular,2023-09-14T23:30:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,48,"[14, 20, 7, 7]",Bethune-Cookman,SWAC,7,"[0, 0, 0, 7]"
-401531428,2023,3,regular,2023-09-14T23:30:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,28,"[7, 7, 7, 7]",Navy,American Athletic,24,"[14, 0, 7, 3]"
-401520231,2023,3,regular,2023-09-15T23:00:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,42,"[7, 7, 7, 21]",Virginia,ACC,14,"[14, 0, 0, 0]"
-401531396,2023,3,regular,2023-09-15T23:00:00.000Z,1,0,0,Alamodome,UTSA,American Athletic,29,"[0, 14, 7, 8]",Army,FBS Independents,37,"[14, 6, 10, 7]"
-401532581,2023,3,regular,2023-09-16T00:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,39,"[22, 10, 7, 0]",Utah State,Mountain West,21,"[0, 7, 7, 7]"
-401532582,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,42,"[7, 14, 7, 14]",North Dakota,MVFC,18,"[0, 6, 12, 0]"
-401525838,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,10,"[0, 0, 7, 3]",Iowa State,Big 12,7,"[0, 0, 0, 7]"
-401532404,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,Dix Stadium,Kent State,Mid-American,38,"[14, 7, 17, 0]",Central Connecticut,NEC,10,"[0, 0, 0, 10]"
-401520236,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,30,"[10, 7, 0, 13]",Kansas State,Big 12,27,"[7, 7, 10, 3]"
-401520235,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,14,"[0, 7, 0, 7]",LSU,SEC,41,"[10, 14, 10, 7]"
-401520226,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,13,"[0, 7, 0, 6]",Penn State,Big Ten,30,"[6, 10, 7, 7]"
-401520249,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,35,"[0, 7, 21, 7]",Georgia Southern,Sun Belt,14,"[0, 7, 7, 0]"
-401520230,2023,3,regular,2023-09-16T16:00:00.000Z,1,1,0,Lucas Oil Stadium,Indiana,Big Ten,14,"[0, 0, 14, 0]",Louisville,ACC,21,"[7, 14, 0, 0]"
-401525834,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,30,"[7, 9, 7, 7]",Long Island University,NEC,7,"[0, 7, 0, 0]"
-401525500,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,29,"[7, 3, 6, 13]",Florida State,ACC,31,"[3, 14, 14, 0]"
-401520222,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,27,"[0, 14, 7, 6]",Liberty,Conference USA,55,"[10, 14, 17, 14]"
-401525504,2023,3,regular,2023-09-16T16:00:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Sun Belt,24,"[0, 17, 7, 0]",Wake Forest,ACC,27,"[0, 0, 13, 14]"
-401532402,2023,3,regular,2023-09-16T18:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,45,"[0, 10, 7, 28]",Indiana State,MVFC,7,"[0, 0, 7, 0]"
-401524012,2023,3,regular,2023-09-16T18:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,31,"[7, 10, 14, 0]",Weber State,Big Sky,7,"[0, 7, 0, 0]"
-401531388,2023,3,regular,2023-09-16T18:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,41,"[14, 14, 10, 3]",Norfolk State,MEAC,9,"[0, 7, 0, 2]"
-401525502,2023,3,regular,2023-09-16T18:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,45,"[21, 10, 7, 7]",VMI,Southern,7,"[0, 0, 7, 0]"
-401526834,2023,3,regular,2023-09-16T18:00:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,19,"[3, 7, 0, 9]",Massachusetts,FBS Independents,17,"[0, 3, 7, 7]"
-401525437,2023,3,regular,2023-09-16T18:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,41,"[14, 7, 10, 10]",Central Michigan,Mid-American,17,"[7, 7, 3, 0]"
-401520227,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,41,"[0, 14, 17, 10]",Western Michigan,Mid-American,10,"[7, 3, 0, 0]"
-401520243,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,SHI Stadium,Rutgers,Big Ten,35,"[7, 14, 0, 14]",Virginia Tech,ACC,16,"[0, 3, 7, 6]"
-401525842,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,17,"[0, 14, 3, 0]",Oklahoma,Big 12,66,"[28, 10, 21, 7]"
-401520244,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,3,"[3, 0, 0, 0]",Alabama,SEC,17,"[0, 3, 7, 7]"
-401520239,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,31,"[7, 14, 3, 7]",Minnesota,Big Ten,13,"[0, 10, 3, 0]"
-401520223,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,38,"[7, 10, 14, 7]",Northwestern,Big Ten,14,"[0, 7, 0, 7]"
-401520246,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,17,"[3, 0, 7, 7]",Florida International,Conference USA,24,"[7, 17, 0, 0]"
-401531412,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Kidd Brewer Stadium,App State,Sun Belt,43,"[10, 6, 20, 7]",East Carolina,American Athletic,28,"[7, 14, 7, 0]"
-401524009,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,26,"[3, 9, 7, 7]",San Diego State,Mountain West,9,"[0, 3, 0, 6]"
-401520225,2023,3,regular,2023-09-16T19:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,24,"[3, 0, 14, 7]",South Carolina,SEC,14,"[7, 7, 0, 0]"
-401520245,2023,3,regular,2023-09-16T20:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,47,"[10, 17, 10, 10]",UL Monroe,Sun Belt,3,"[0, 3, 0, 0]"
-401524006,2023,3,regular,2023-09-16T20:00:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,31,"[0, 14, 14, 3]",Idaho,Big Sky,17,"[10, 7, 0, 0]"
-401520240,2023,3,regular,2023-09-16T20:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,63,"[7, 35, 7, 14]",Western Kentucky,Conference USA,10,"[3, 7, 0, 0]"
-401531348,2023,3,regular,2023-09-16T20:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Sun Belt,3,"[0, 0, 3, 0]",Tulane,American Athletic,21,"[7, 0, 14, 0]"
-401524013,2023,3,regular,2023-09-16T21:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,64,"[22, 21, 14, 7]",Northern Colorado,Big Sky,21,"[0, 7, 7, 7]"
-401520233,2023,3,regular,2023-09-16T21:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,7,"[0, 0, 0, 7]",Washington,Pac-12,41,"[14, 21, 6, 0]"
-401524011,2023,3,regular,2023-09-16T21:00:00.000Z,1,0,0,Rose Bowl,UCLA,Pac-12,59,"[35, 10, 14, 0]",North Carolina Central,MEAC,7,"[0, 0, 0, 7]"
-401531403,2023,3,regular,2023-09-16T22:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,American Athletic,25,"[0, 10, 15, 0]",Georgia State,Sun Belt,41,"[7, 13, 14, 7]"
-401525843,2023,3,regular,2023-09-16T22:30:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,Big 12,48,"[17, 17, 7, 7]",Villanova,CAA,14,"[0, 0, 0, 14]"
-401520224,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,29,"[6, 20, 0, 3]",Tennessee,SEC,16,"[7, 0, 3, 6]"
-401531379,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Protective Stadium,UAB,American Athletic,21,"[0, 0, 3, 18]",Louisiana,Sun Belt,41,"[0, 24, 10, 7]"
-401531441,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Rice Stadium,Rice,American Athletic,59,"[28, 14, 10, 7]",Texas Southern,SWAC,7,"[0, 7, 0, 0]"
-401531846,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,31,"[17, 0, 7, 7]",Stony Brook,CAA,7,"[0, 0, 0, 7]"
-401531848,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,14,"[0, 7, 0, 7]",James Madison,Sun Belt,16,"[3, 10, 3, 0]"
-401531438,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,69,"[14, 28, 21, 6]",Prairie View A&M,SWAC,0,"[0, 0, 0, 0]"
-401525835,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Nippert Stadium,Cincinnati,Big 12,24,"[10, 3, 3, 8, 0]",Miami (OH),Mid-American,31,"[7, 7, 7, 3, 7]"
-401520234,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,35,"[14, 7, 7, 7]",Murray State,MVFC,14,"[0, 7, 0, 7]"
-401520229,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,37,"[0, 14, 0, 23]",North Texas,American Athletic,40,"[10, 13, 7, 10]"
-401531845,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Brooks Stadium (SC),Coastal Carolina,Sun Belt,66,"[21, 24, 21, 0]",Duquesne,NEC,7,"[0, 0, 7, 0]"
-401532403,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,21,"[0, 7, 14, 0]",San José State,Mountain West,17,"[0, 10, 7, 0]"
-401520221,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,45,"[0, 17, 14, 14]",Samford,Southern,13,"[0, 0, 13, 0]"
-401520237,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,35,"[7, 7, 7, 14]",Northern Illinois,Mid-American,11,"[3, 0, 0, 8]"
-401520247,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Allegiant Stadium,UNLV,Mountain West,40,"[0, 20, 10, 10]",Vanderbilt,SEC,37,"[10, 7, 0, 20]"
-401525839,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,7,"[0, 0, 0, 7]",South Alabama,Sun Belt,33,"[10, 13, 0, 10]"
-401525841,2023,3,regular,2023-09-16T23:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,41,"[21, 3, 10, 7]",Tarleton State,UAC,3,"[0, 0, 0, 3]"
-401520228,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,35,"[7, 7, 7, 14]",Akron,Mid-American,3,"[0, 0, 3, 0]"
-401520242,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,20,"[0, 7, 7, 6]",Syracuse,ACC,35,"[7, 14, 0, 14]"
-401520220,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,31,"[14, 10, 7, 0]",BYU,Big 12,38,"[14, 7, 10, 7]"
-401520241,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,48,"[10, 0, 14, 24]",Georgia Tech,ACC,23,"[0, 3, 7, 13]"
-401525503,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,17,"[0, 7, 10, 0]",Pittsburgh,ACC,6,"[3, 3, 0, 0]"
-401520232,2023,3,regular,2023-09-16T23:30:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,31,"[7, 7, 17, 0]",Bowling Green,Mid-American,6,"[0, 6, 0, 0]"
-401520238,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,17,"[3, 7, 0, 7]",New Mexico State,Conference USA,27,"[0, 17, 3, 7]"
-401524010,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,23,"[7, 7, 3, 6]",Sacramento State,Big Sky,30,"[3, 14, 3, 10]"
-401524008,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,55,"[24, 10, 14, 7]",Hawai'i,Mountain West,10,"[0, 3, 0, 7]"
-401525836,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,13,"[3, 10, 0, 0]",TCU,Big 12,36,"[7, 13, 9, 7]"
-401525501,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,48,"[20, 14, 7, 7]",Florida Atlantic,American Athletic,14,"[0, 0, 0, 14]"
-401525840,2023,3,regular,2023-09-17T00:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,31,"[3, 7, 0, 21]",Wyoming,Mountain West,10,"[7, 0, 3, 0]"
-401531847,2023,3,regular,2023-09-17T00:30:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,77,"[21, 35, 7, 14]",Jackson State,SWAC,34,"[6, 14, 7, 7]"
-401524007,2023,3,regular,2023-09-17T02:00:00.000Z,1,0,0,Folsom Field,Colorado,Pac-12,43,"[14, 0, 0, 14, 7, 8]",Colorado State,Mountain West,35,"[14, 7, 0, 7, 7, 0]"
-401524005,2023,3,regular,2023-09-17T02:30:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,0,"[0, 0, 0, 0]",Fresno State,Mountain West,29,"[10, 6, 10, 3]"
-401525837,2023,3,regular,2023-09-17T02:30:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,24,"[0, 10, 7, 7]",Kansas,Big 12,31,"[7, 3, 14, 7]"
-401520219,2023,3,regular,2023-09-17T03:00:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,31,"[0, 14, 10, 7]",UTEP,Conference USA,10,"[0, 3, 0, 7]"
-401531849,2023,4,regular,2023-09-21T23:30:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,17,"[3, 0, 7, 7]",Georgia State,Sun Belt,30,"[7, 10, 3, 10]"
-401520266,2023,4,regular,2023-09-22T23:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,17,"[3, 0, 14, 0]",Wisconsin,Big Ten,38,"[14, 7, 6, 11]"
-401525505,2023,4,regular,2023-09-22T23:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,21,"[0, 7, 6, 8]",NC State,ACC,24,"[0, 14, 7, 3]"
-401532583,2023,4,regular,2023-09-23T02:30:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,31,"[7, 10, 0, 14]",Boise State,Mountain West,34,"[0, 17, 10, 7]"
-401532584,2023,4,regular,2023-09-23T02:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,20,"[6, 14, 0, 0]",Air Force,Mountain West,45,"[3, 14, 7, 21]"
-401520270,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,27,"[6, 0, 14, 7]",Auburn,SEC,10,"[0, 3, 0, 7]"
-401525849,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,34,"[7, 7, 13, 7]",SMU,American Athletic,17,"[3, 7, 0, 7]"
-401520260,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,31,"[7, 7, 10, 7]",Rutgers,Big Ten,7,"[7, 0, 0, 0]"
-401525507,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,24,"[3, 14, 7, 0, 0]",Florida State,ACC,31,"[0, 14, 10, 0, 7]"
-401525845,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,6,"[3, 0, 3, 0]",Oklahoma,Big 12,20,"[7, 3, 7, 3]"
-401520274,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,28,"[0, 10, 3, 15]",Kentucky,SEC,45,"[21, 3, 7, 14]"
-401520271,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,27,"[0, 10, 10, 7]",Western Kentucky,Conference USA,24,"[7, 0, 7, 10]"
-401525511,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Sun Belt,24,"[0, 17, 7, 0]",Virginia Tech,ACC,17,"[7, 3, 0, 7]"
-401520268,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,29,"[0, 3, 13, 13]",Army,FBS Independents,16,"[7, 3, 0, 6]"
-401531338,2023,4,regular,2023-09-23T16:00:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,14,"[0, 7, 7, 0]",Tulsa,American Athletic,22,"[2, 7, 3, 10]"
-401532406,2023,4,regular,2023-09-23T17:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,49,"[14, 0, 14, 21]",Western Michigan,Mid-American,31,"[7, 17, 0, 7]"
-401531871,2023,4,regular,2023-09-23T18:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,3,"[0, 0, 0, 3]",Georgia Southern,Sun Belt,40,"[14, 9, 10, 7]"
-401520261,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,9,"[0, 3, 6, 0]",Maryland,Big Ten,31,"[7, 14, 0, 10]"
-401525847,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,38,"[14, 0, 14, 10]",BYU,Big 12,27,"[7, 10, 3, 7]"
-401525850,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,20,"[7, 6, 0, 7]",Texas Tech,Big 12,13,"[3, 0, 0, 10]"
-401526835,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,31,"[0, 14, 3, 11, 3]",New Mexico,Mountain West,34,"[14, 14, 0, 0, 6]"
-401532408,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,62,"[17, 17, 21, 7]",Delaware State,MEAC,20,"[7, 6, 7, 0]"
-401525509,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,7,"[0, 7, 0, 0]",Miami,ACC,41,"[7, 17, 14, 3]"
-401531873,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Sun Belt,10,"[0, 0, 7, 3]",East Texas A&M,Southland,9,"[0, 0, 3, 6]"
-401520250,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,24,"[3, 3, 11, 7]",Ole Miss,SEC,10,"[7, 0, 3, 0]"
-401520272,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,7,"[0, 0, 0, 7]",Duke,ACC,41,"[7, 20, 14, 0]"
-401524015,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,42,"[13, 22, 7, 0]",Colorado,Pac-12,6,"[0, 0, 0, 6]"
-401524017,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,14,"[7, 7, 0, 0]",UCLA,Pac-12,7,"[0, 0, 0, 7]"
-401532405,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,7,"[0, 0, 0, 7]",Ohio,Mid-American,38,"[21, 10, 7, 0]"
-401525506,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,56,"[14, 28, 14, 0]",Boston College,ACC,28,"[0, 14, 7, 7]"
-401520263,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,28,"[0, 7, 7, 14]",Louisiana Tech,Conference USA,14,"[0, 7, 0, 7]"
-401520255,2023,4,regular,2023-09-23T19:30:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,23,"[0, 14, 9, 0]",Florida Atlantic,American Athletic,17,"[10, 0, 0, 7]"
-401520269,2023,4,regular,2023-09-23T20:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,45,"[14, 17, 0, 14]",UTSA,American Athletic,14,"[0, 0, 14, 0]"
-401531423,2023,4,regular,2023-09-23T20:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,42,"[3, 10, 14, 15]",Rice,American Athletic,29,"[7, 7, 7, 8]"
-401525846,2023,4,regular,2023-09-23T20:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,34,"[7, 13, 7, 7]",Oklahoma State,Big 12,27,"[7, 10, 3, 7]"
-401520257,2023,4,regular,2023-09-23T21:00:00.000Z,1,0,0,AmFirst Stadium,Jacksonville State,Conference USA,21,"[7, 7, 7, 0]",Eastern Michigan,Mid-American,0,"[0, 0, 0, 0]"
-401531876,2023,4,regular,2023-09-23T21:00:00.000Z,1,0,0,Hancock Whitney Stadium,South Alabama,Sun Belt,30,"[14, 0, 3, 13]",Central Michigan,Mid-American,34,"[0, 13, 7, 14]"
-401531413,2023,4,regular,2023-09-23T22:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,44,"[13, 10, 7, 14]",Gardner-Webb,Big South-OVC,0,"[0, 0, 0, 0]"
-401520275,2023,4,regular,2023-09-23T22:30:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,6,"[6, 0, 0, 0]",Liberty,Conference USA,38,"[14, 10, 14, 0]"
-401525508,2023,4,regular,2023-09-23T22:30:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,16,"[3, 0, 6, 7]",Georgia Tech,ACC,30,"[7, 13, 0, 10]"
-401531874,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,44,"[14, 6, 14, 10]",Southern Miss,Sun Belt,37,"[7, 10, 10, 10]"
-401520251,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,22,"[10, 6, 3, 3]",Charlotte,American Athletic,7,"[0, 7, 0, 0]"
-401531349,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,36,"[17, 10, 6, 3]",Nicholls,Southland,7,"[0, 7, 0, 0]"
-401520254,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,TDECU Stadium,Houston,Big 12,38,"[10, 14, 7, 7]",Sam Houston,Conference USA,7,"[7, 0, 0, 0]"
-401520258,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,34,"[0, 10, 14, 10]",Arkansas,SEC,31,"[3, 10, 3, 15]"
-401531870,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,22,"[0, 7, 0, 15]",App State,Sun Belt,19,"[6, 6, 0, 7]"
-401524019,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,38,"[14, 14, 7, 3]",Oregon State,Pac-12,35,"[7, 7, 0, 21]"
-401524016,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,20,"[3, 7, 7, 3]",Arizona,Pac-12,21,"[0, 7, 7, 7]"
-401520262,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,23,"[10, 7, 0, 6]",Colorado State,Mountain West,31,"[10, 0, 7, 14]"
-401531877,2023,4,regular,2023-09-23T23:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,35,"[0, 0, 21, 14]",Nevada,Mountain West,24,"[10, 7, 0, 7]"
-401520264,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,37,"[0, 7, 3, 21, 6]",Minnesota,Big Ten,34,"[7, 17, 7, 0, 3]"
-401520265,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,31,"[3, 7, 14, 7]",Iowa,Big Ten,0,"[0, 0, 0, 0]"
-401521330,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,14,"[0, 0, 7, 7]",Ohio State,Big Ten,17,"[0, 3, 7, 7]"
-401525844,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,6,"[3, 3, 0, 0]",Texas,Big 12,38,"[7, 21, 10, 0]"
-401520267,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,37,"[7, 13, 7, 10]",Mississippi State,SEC,30,"[0, 17, 10, 3]"
-401520256,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,29,"[0, 7, 7, 3, 7, 3, 0, 2]",Akron,Mid-American,27,"[0, 3, 7, 7, 7, 3, 0, 0]"
-401520259,2023,4,regular,2023-09-23T23:30:00.000Z,1,1,0,The Dome at America's Center,Missouri,SEC,34,"[7, 10, 7, 10]",Memphis,American Athletic,27,"[10, 0, 7, 10]"
-401520252,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,49,"[7, 21, 14, 7]",UAB,American Athletic,21,"[0, 14, 0, 7]"
-401531875,2023,4,regular,2023-09-23T23:30:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,45,"[7, 3, 21, 14]",Buffalo,Mid-American,38,"[0, 0, 21, 17]"
-401525848,2023,4,regular,2023-09-24T00:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,44,"[7, 14, 10, 13]",UCF,Big 12,31,"[10, 7, 7, 7]"
-401531872,2023,4,regular,2023-09-24T00:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,38,"[0, 17, 14, 7]",James Madison,Sun Belt,45,"[17, 21, 0, 7]"
-401525510,2023,4,regular,2023-09-24T00:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,24,"[7, 10, 7, 0]",North Carolina,ACC,41,"[7, 21, 13, 0]"
-401520273,2023,4,regular,2023-09-24T01:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,28,"[7, 7, 7, 7]",UNLV,Mountain West,45,"[14, 14, 0, 17]"
-401524018,2023,4,regular,2023-09-24T02:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,59,"[24, 21, 7, 7]",California,Pac-12,32,"[6, 6, 7, 13]"
-401532407,2023,4,regular,2023-09-24T02:30:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,53,"[22, 14, 14, 3]",Kent State,Mid-American,10,"[7, 3, 0, 0]"
-401524014,2023,4,regular,2023-09-24T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,28,"[7, 6, 8, 7]",USC,Pac-12,42,"[14, 7, 6, 15]"
-401520253,2023,4,regular,2023-09-24T03:59:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,20,"[0, 3, 7, 10]",New Mexico State,Conference USA,17,"[7, 10, 0, 0]"
-401531339,2023,5,regular,2023-09-28T23:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,48,"[14, 7, 10, 17]",Temple,American Athletic,26,"[3, 0, 15, 8]"
-401520277,2023,5,regular,2023-09-28T23:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,31,"[10, 13, 0, 8]",Middle Tennessee,Conference USA,10,"[0, 3, 7, 0]"
-401520276,2023,5,regular,2023-09-29T00:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,28,"[14, 7, 0, 7, 0]",Jacksonville State,Conference USA,35,"[7, 0, 7, 14, 7]"
-401525512,2023,5,regular,2023-09-29T23:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,10,"[0, 10, 0, 0]",Louisville,ACC,13,"[0, 0, 10, 3]"
-401524020,2023,5,regular,2023-09-30T01:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,21,"[7, 0, 7, 7]",Utah,Pac-12,7,"[0, 0, 0, 7]"
-401520278,2023,5,regular,2023-09-30T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,10,"[0, 7, 3, 0]",Louisiana Tech,Conference USA,24,"[14, 3, 0, 7]"
-401525851,2023,5,regular,2023-09-30T02:15:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,35,"[7, 7, 14, 7]",Cincinnati,Big 12,27,"[0, 10, 10, 7]"
-401520292,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,33,"[7, 10, 0, 16]",Utah State,Mountain West,34,"[0, 7, 17, 10]"
-401531370,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,35,"[7, 7, 14, 7]",UAB,American Athletic,23,"[3, 17, 0, 3]"
-401520279,2023,5,regular,2023-09-30T16:00:00.000Z,1,1,1,AT&T Stadium,Arkansas,SEC,22,"[3, 3, 10, 6]",Texas A&M,SEC,34,"[7, 10, 10, 7]"
-401520282,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,33,"[16, 7, 7, 3]",Florida,SEC,14,"[0, 7, 7, 0]"
-401520287,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,13,"[3, 7, 0, 3]",Penn State,Big Ten,41,"[3, 7, 17, 14]"
-401520284,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,35,"[7, 7, 7, 14]",Louisiana,Sun Belt,24,"[7, 10, 0, 7]"
-401525514,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,14,"[7, 0, 0, 7]",Clemson,ACC,31,"[14, 7, 3, 7]"
-401532412,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,10,"[7, 3, 0, 0, 0]",Buffalo,Mid-American,13,"[0, 7, 3, 0, 3]"
-401524023,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,41,"[0, 14, 13, 14]",USC,Pac-12,48,"[14, 20, 14, 0]"
-401531880,2023,5,regular,2023-09-30T16:00:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,31,"[14, 10, 0, 7]",South Alabama,Sun Belt,23,"[0, 7, 3, 13]"
-401532410,2023,5,regular,2023-09-30T17:30:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,26,"[7, 7, 5, 7]",Eastern Michigan,Mid-American,23,"[7, 3, 13, 0]"
-401525513,2023,5,regular,2023-09-30T18:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,27,"[0, 7, 17, 3]",Virginia,ACC,24,"[7, 14, 0, 3]"
-401532413,2023,5,regular,2023-09-30T18:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,3,"[3, 0, 0, 0]",Miami (OH),Mid-American,23,"[10, 3, 10, 0]"
-401524022,2023,5,regular,2023-09-30T19:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,24,"[7, 3, 7, 7]",Arizona State,Pac-12,21,"[7, 0, 6, 8]"
-401525854,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,40,"[10, 3, 13, 14]",Kansas,Big 12,14,"[0, 7, 7, 0]"
-401520289,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,44,"[6, 10, 21, 7]",Illinois,Big Ten,19,"[3, 10, 0, 6]"
-401520286,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,7,"[0, 0, 0, 7]",Michigan,Big Ten,45,"[14, 14, 7, 10]"
-401525855,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,49,"[14, 21, 7, 7]",Houston,Big 12,28,"[14, 14, 0, 0]"
-401520290,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,0,SHI Stadium,Rutgers,Big Ten,52,"[10, 14, 14, 14]",Wagner,NEC,3,"[0, 3, 0, 0]"
-401525515,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,27,"[14, 0, 6, 7]",Bowling Green,Mid-American,38,"[7, 10, 21, 0]"
-401531424,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,30,"[14, 6, 3, 7]",South Florida,American Athletic,44,"[7, 16, 7, 14]"
-401532411,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,35,"[7, 7, 14, 7]",Northern Illinois,Mid-American,33,"[7, 0, 10, 16]"
-401525856,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,35,"[21, 7, 7, 0]",Baylor,Big 12,36,"[7, 0, 3, 26]"
-401520280,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,20,"[10, 0, 7, 3]",Georgia,SEC,27,"[0, 10, 7, 10]"
-401526836,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,28,"[0, 10, 10, 8]",Arkansas State,Sun Belt,52,"[17, 14, 14, 7]"
-401520283,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,44,"[21, 6, 10, 7]",Indiana,Big Ten,17,"[3, 0, 0, 14]"
-401532409,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,42,"[7, 21, 7, 7]",Ball State,Mid-American,24,"[3, 7, 7, 7]"
-401531881,2023,5,regular,2023-09-30T19:30:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,41,"[3, 14, 21, 3]",Old Dominion,Sun Belt,35,"[7, 14, 7, 7]"
-401532588,2023,5,regular,2023-09-30T20:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,35,"[9, 3, 17, 6]",New Mexico,Mountain West,26,"[6, 3, 3, 14]"
-401520293,2023,5,regular,2023-09-30T20:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,21,"[7, 0, 0, 14]",Missouri,SEC,38,"[3, 14, 7, 14]"
-401531429,2023,5,regular,2023-09-30T20:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,35,"[0, 14, 7, 14]",Boise State,Mountain West,32,"[3, 14, 0, 15]"
-401532586,2023,5,regular,2023-09-30T20:00:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,44,"[7, 13, 7, 17]",Hawai'i,Mountain West,20,"[0, 3, 10, 7]"
-401520288,2023,5,regular,2023-09-30T22:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,55,"[21, 10, 3, 21]",LSU,SEC,49,"[7, 21, 14, 7]"
-401524024,2023,5,regular,2023-09-30T22:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,6,"[3, 3, 0, 0]",Oregon,Pac-12,42,"[0, 14, 21, 7]"
-401525852,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,50,"[21, 19, 7, 3]",Iowa State,Big 12,20,"[10, 10, 0, 0]"
-401532585,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,0,Canvas Stadium,Colorado State,Mountain West,41,"[14, 7, 6, 14]",Utah Tech,UAC,20,"[3, 14, 3, 0]"
-401531883,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,36,"[3, 7, 6, 20]",Texas State,Sun Belt,50,"[28, 14, 0, 8]"
-401531436,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,0,DATCU Stadium,North Texas,American Athletic,45,"[24, 7, 14, 0]",Abilene Christian,UAC,31,"[7, 10, 7, 7]"
-401531414,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,24,"[3, 7, 7, 7]",East Carolina,American Athletic,17,"[3, 6, 0, 8]"
-401531879,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,7,"[0, 7, 0, 0]",Troy,Sun Belt,28,"[3, 3, 15, 7]"
-401531878,2023,5,regular,2023-09-30T23:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,38,"[0, 21, 17, 0]",Coastal Carolina,Sun Belt,28,"[7, 7, 7, 7]"
-401531404,2023,5,regular,2023-09-30T23:30:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,34,"[14, 3, 10, 7]",Charlotte,American Athletic,16,"[0, 3, 6, 7]"
-401520281,2023,5,regular,2023-09-30T23:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,26,"[3, 7, 3, 13]",Michigan State,Big Ten,16,"[3, 6, 7, 0]"
-401525438,2023,5,regular,2023-09-30T23:30:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,14,"[0, 0, 7, 7]",Notre Dame,FBS Independents,21,"[7, 3, 3, 8]"
-401520291,2023,5,regular,2023-09-30T23:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,41,"[14, 10, 7, 10]",South Carolina,SEC,20,"[10, 0, 7, 3]"
-401532589,2023,5,regular,2023-10-01T00:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,49,"[0, 21, 21, 7]",San Diego State,Mountain West,10,"[0, 10, 0, 0]"
-401525853,2023,5,regular,2023-10-01T00:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,21,"[7, 14, 0, 0]",West Virginia,Big 12,24,"[7, 7, 7, 3]"
-401531882,2023,5,regular,2023-10-01T00:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,40,"[14, 14, 12, 0]",App State,Sun Belt,41,"[14, 14, 7, 6]"
-401525516,2023,5,regular,2023-10-01T00:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,38,"[7, 14, 14, 3]",Pittsburgh,ACC,21,"[7, 0, 14, 0]"
-401520285,2023,5,regular,2023-10-01T01:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,17,"[0, 10, 7, 0]",Alabama,SEC,40,"[14, 17, 3, 6]"
-401524021,2023,5,regular,2023-10-01T02:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,24,"[0, 10, 7, 7]",Washington,Pac-12,31,"[14, 7, 7, 3]"
-401532587,2023,5,regular,2023-10-01T02:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,27,"[7, 7, 6, 7]",Nevada,Mountain West,9,"[0, 0, 0, 9]"
-401520294,2023,6,regular,2023-10-05T00:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,30,"[3, 20, 0, 7]",Jacksonville State,Conference USA,45,"[0, 7, 17, 21]"
-401520297,2023,6,regular,2023-10-05T01:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,34,"[7, 7, 3, 17]",Florida International,Conference USA,17,"[7, 7, 3, 0]"
-401520296,2023,6,regular,2023-10-05T23:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,21,"[7, 14, 0, 0]",Sam Houston,Conference USA,16,"[10, 0, 6, 0]"
-401520295,2023,6,regular,2023-10-06T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,28,"[7, 0, 14, 7]",Western Kentucky,Conference USA,35,"[21, 14, 0, 0]"
-401525857,2023,6,regular,2023-10-06T23:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,29,"[10, 10, 6, 3]",Kansas State,Big 12,21,"[0, 7, 8, 6]"
-401520301,2023,6,regular,2023-10-07T00:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,7,"[0, 7, 0, 0]",Nebraska,Big Ten,20,"[3, 14, 3, 0]"
-401526837,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,24,"[7, 14, 3, 0]",Toledo,Mid-American,41,"[10, 7, 21, 3]"
-401520304,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,41,"[10, 7, 14, 10]",Western Michigan,Mid-American,28,"[0, 7, 14, 7]"
-401525522,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,27,"[3, 17, 0, 7]",William & Mary,CAA,13,"[6, 7, 0, 0]"
-401520305,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,39,"[15, 10, 7, 7]",LSU,SEC,49,"[7, 10, 10, 22]"
-401520307,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,37,"[0, 10, 10, 17]",Maryland,Big Ten,17,"[7, 3, 7, 0]"
-401520311,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,24,"[3, 14, 0, 7]",Rutgers,Big Ten,13,"[0, 0, 6, 7]"
-401520298,2023,6,regular,2023-10-07T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,24,"[0, 3, 14, 7]",Boston College,ACC,27,"[6, 7, 7, 7]"
-401525861,2023,6,regular,2023-10-07T16:00:00.000Z,1,1,1,Cotton Bowl,Texas,Big 12,30,"[7, 10, 3, 10]",Oklahoma,Big 12,34,"[7, 13, 7, 7]"
-401532415,2023,6,regular,2023-10-07T18:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,37,"[10, 13, 14, 0]",Central Michigan,Mid-American,13,"[0, 7, 0, 6]"
-401531389,2023,6,regular,2023-10-07T18:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,34,"[14, 7, 0, 13]",UTSA,American Athletic,49,"[7, 21, 7, 14]"
-401525521,2023,6,regular,2023-10-07T18:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,48,"[7, 14, 14, 13]",Marshall,Sun Belt,41,"[14, 10, 10, 7]"
-401520306,2023,6,regular,2023-10-07T19:00:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,23,"[9, 7, 7, 0]",Howard,MEAC,20,"[0, 0, 7, 13]"
-401524028,2023,6,regular,2023-10-07T19:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,25,"[0, 9, 3, 13]",Washington State,Pac-12,17,"[3, 7, 7, 0]"
-401532417,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,42,"[0, 21, 14, 7]",Kent State,Mid-American,17,"[0, 7, 3, 7]"
-401532416,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,27,"[7, 7, 10, 3]",Bowling Green,Mid-American,0,"[0, 0, 0, 0]"
-401532414,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,24,"[3, 14, 7, 0]",Ball State,Mid-American,10,"[3, 7, 0, 0]"
-401525518,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,39,"[22, 0, 10, 7]",Virginia Tech,ACC,17,"[0, 10, 7, 0]"
-401525517,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,17,"[0, 7, 3, 7]",Wake Forest,ACC,12,"[3, 0, 3, 6]"
-401525520,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,40,"[10, 17, 10, 3]",Syracuse,ACC,7,"[0, 0, 7, 0]"
-401520310,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,20,"[3, 14, 0, 3]",Alabama,SEC,26,"[3, 7, 14, 2]"
-401520302,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,20,"[7, 3, 3, 7]",Purdue,Big Ten,14,"[0, 7, 0, 7]"
-401531433,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,27,"[0, 13, 7, 7]",North Texas,American Athletic,24,"[3, 7, 0, 14]"
-401531884,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,34,"[7, 7, 7, 13]",Texas State,Sun Belt,30,"[10, 10, 3, 7]"
-401532418,2023,6,regular,2023-10-07T19:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,14,"[7, 0, 7, 0]",Northern Illinois,Mid-American,55,"[7, 28, 20, 0]"
-401525860,2023,6,regular,2023-10-07T20:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,51,"[3, 21, 13, 14]",UCF,Big 12,22,"[0, 0, 8, 14]"
-401531887,2023,6,regular,2023-10-07T20:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,37,"[7, 13, 3, 14]",Arkansas State,Sun Belt,3,"[0, 0, 0, 3]"
-401520299,2023,6,regular,2023-10-07T20:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,38,"[7, 14, 7, 10]",Vanderbilt,SEC,14,"[7, 0, 7, 0]"
-401531380,2023,6,regular,2023-10-07T20:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,56,"[21, 14, 14, 7]",South Florida,American Athletic,35,"[14, 0, 7, 14]"
-401520309,2023,6,regular,2023-10-07T21:00:00.000Z,1,0,0,Rice Stadium,Rice,American Athletic,31,"[14, 0, 7, 10]",UConn,FBS Independents,38,"[0, 20, 8, 10]"
-401531340,2023,6,regular,2023-10-07T22:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,20,"[14, 3, 0, 3]",Tulsa,American Athletic,17,"[0, 7, 3, 7]"
-401524026,2023,6,regular,2023-10-07T22:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,24,"[7, 10, 0, 7]",Colorado,Pac-12,27,"[7, 7, 0, 13]"
-401520300,2023,6,regular,2023-10-07T23:00:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,51,"[14, 20, 10, 7]",Kentucky,SEC,13,"[0, 7, 6, 0]"
-401531886,2023,6,regular,2023-10-07T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,13,"[10, 0, 3, 0]",Old Dominion,Sun Belt,17,"[0, 7, 3, 7]"
-401531885,2023,6,regular,2023-10-07T23:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,7,"[0, 7, 0, 0]",South Alabama,Sun Belt,55,"[14, 17, 14, 10]"
-401520303,2023,6,regular,2023-10-07T23:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,10,"[3, 7, 0, 0]",Michigan,Big Ten,52,"[10, 14, 21, 7]"
-401520308,2023,6,regular,2023-10-07T23:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,27,"[10, 7, 0, 10]",Arkansas,SEC,20,"[7, 0, 6, 7]"
-401525439,2023,6,regular,2023-10-07T23:37:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,33,"[7, 0, 10, 16]",Notre Dame,FBS Independents,20,"[0, 7, 6, 7]"
-401525519,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,20,"[0, 3, 7, 10]",Georgia Tech,ACC,23,"[0, 0, 14, 9]"
-401532592,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,35,"[0, 14, 7, 14]",San José State,Mountain West,27,"[14, 13, 0, 0]"
-401532591,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,24,"[3, 21, 0, 0]",Fresno State,Mountain West,19,"[0, 7, 3, 9]"
-401525859,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,27,"[7, 3, 14, 3]",TCU,Big 12,14,"[0, 7, 0, 7]"
-401525858,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,14,"[0, 3, 0, 11]",Texas Tech,Big 12,39,"[7, 10, 7, 15]"
-401532590,2023,6,regular,2023-10-08T00:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,44,"[3, 14, 14, 13]",Colorado State,Mountain West,24,"[17, 0, 0, 7]"
-401524027,2023,6,regular,2023-10-08T02:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,40,"[0, 17, 15, 8]",Oregon State,Pac-12,52,"[7, 14, 14, 17]"
-401524025,2023,6,regular,2023-10-08T02:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,43,"[0, 14, 7, 7, 7, 6, 2]",Arizona,Pac-12,41,"[10, 7, 3, 8, 7, 6, 0]"
-401520313,2023,7,regular,2023-10-10T23:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,31,"[10, 7, 7, 7]",Louisiana Tech,Conference USA,23,"[6, 3, 7, 7]"
-401531888,2023,7,regular,2023-10-10T23:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,24,"[0, 10, 7, 7]",Coastal Carolina,Sun Belt,27,"[14, 3, 7, 3]"
-401520312,2023,7,regular,2023-10-10T23:30:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,13,"[7, 3, 3, 0]",Liberty,Conference USA,31,"[0, 10, 7, 14]"
-401520314,2023,7,regular,2023-10-11T23:30:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,14,"[0, 7, 7, 0]",UTEP,Conference USA,27,"[21, 3, 0, 3]"
-401520315,2023,7,regular,2023-10-12T01:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,27,"[14, 13, 0, 0]",Sam Houston,Conference USA,13,"[0, 0, 6, 7]"
-401525862,2023,7,regular,2023-10-12T23:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,41,"[7, 7, 7, 20]",West Virginia,Big 12,39,"[10, 0, 7, 22]"
-401531415,2023,7,regular,2023-10-12T23:30:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,10,"[0, 10, 0, 0]",SMU,American Athletic,31,"[14, 0, 0, 17]"
-401531371,2023,7,regular,2023-10-13T23:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,21,"[0, 14, 7, 0]",Tulane,American Athletic,31,"[7, 3, 7, 14]"
-401532594,2023,7,regular,2023-10-14T00:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,32,"[7, 7, 3, 15]",Fresno State,Mountain West,37,"[7, 7, 14, 9]"
-401524029,2023,7,regular,2023-10-14T02:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,43,"[14, 15, 0, 7, 7, 0]",Stanford,Pac-12,46,"[0, 0, 19, 17, 7, 3]"
-401532422,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,28,"[7, 7, 7, 7]",Kent State,Mid-American,14,"[0, 0, 7, 7]"
-401520327,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,20,"[7, 0, 0, 13]",Georgia,SEC,37,"[7, 17, 3, 10]"
-401525863,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,10,"[7, 0, 3, 0]",Iowa State,Big 12,30,"[3, 14, 6, 7]"
-401520323,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,7,"[0, 0, 0, 7]",Ohio State,Big Ten,41,"[13, 7, 14, 7]"
-401525524,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,41,"[7, 10, 7, 17]",Syracuse,ACC,3,"[0, 3, 0, 0]"
-401531390,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,45,"[14, 10, 7, 14]",Temple,American Athletic,14,"[7, 7, 0, 0]"
-401531890,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,41,"[14, 6, 21, 0]",Georgia Southern,Sun Belt,13,"[0, 6, 0, 7]"
-401520321,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,52,"[0, 21, 17, 14]",Indiana,Big Ten,7,"[7, 0, 0, 0]"
-401520324,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,27,"[3, 3, 0, 21]",Michigan State,Big Ten,24,"[7, 10, 7, 0]"
-401520316,2023,7,regular,2023-10-14T16:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,24,"[7, 14, 3, 0]",Arkansas,SEC,21,"[6, 0, 7, 8]"
-401531405,2023,7,regular,2023-10-14T18:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,0,"[0, 0, 0, 0]",Navy,American Athletic,14,"[0, 0, 7, 7]"
-401532419,2023,7,regular,2023-10-14T18:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,6,"[0, 3, 0, 3]",Toledo,Mid-American,13,"[3, 0, 0, 10]"
-401524033,2023,7,regular,2023-10-14T19:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,34,"[0, 14, 10, 10]",California,Pac-12,14,"[7, 0, 7, 0]"
-401520317,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,0,"[0, 0, 0, 0]",Troy,Sun Belt,19,"[3, 13, 3, 0]"
-401520326,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,20,"[7, 0, 7, 6]",Texas A&M,SEC,13,"[7, 3, 3, 0]"
-401520325,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,39,"[14, 7, 3, 15]",Florida,SEC,41,"[10, 14, 3, 14]"
-401525864,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,39,"[17, 7, 3, 12]",Kansas,Big 12,32,"[7, 18, 7, 0]"
-401525865,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,44,"[14, 17, 10, 3]",BYU,Big 12,11,"[0, 8, 3, 0]"
-401531420,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,14,"[0, 14, 0, 0]",Florida Atlantic,American Athletic,56,"[7, 14, 21, 14]"
-401532423,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,21,"[3, 7, 3, 8]",Miami (OH),Mid-American,34,"[14, 7, 0, 13]"
-401532420,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,17,"[0, 3, 14, 0]",Akron,Mid-American,10,"[3, 0, 0, 7]"
-401524034,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,36,"[14, 8, 7, 7]",Oregon,Pac-12,33,"[8, 10, 8, 7]"
-401532421,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,14,"[7, 0, 7, 0]",Bowling Green,Mid-American,24,"[10, 14, 0, 0]"
-401525527,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,30,"[0, 17, 3, 10]",Wake Forest,ACC,13,"[0, 10, 0, 3]"
-401520320,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,24,"[7, 7, 7, 3]",Illinois,Big Ten,27,"[7, 7, 10, 3]"
-401520322,2023,7,regular,2023-10-14T19:30:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,63,"[7, 21, 21, 14]",Massachusetts,FBS Independents,0,"[0, 0, 0, 0]"
-401520328,2023,7,regular,2023-10-14T20:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,6,"[0, 0, 6, 0]",Iowa,Big Ten,15,"[0, 7, 0, 8]"
-401532424,2023,7,regular,2023-10-14T20:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,23,"[7, 0, 10, 6]",Ohio,Mid-American,13,"[3, 10, 0, 0]"
-401532597,2023,7,regular,2023-10-14T21:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,27,"[7, 0, 7, 13]",UNLV,Mountain West,45,"[14, 14, 10, 7]"
-401532596,2023,7,regular,2023-10-14T22:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,24,"[3, 14, 0, 7]",San José State,Mountain West,52,"[0, 14, 24, 14]"
-401525525,2023,7,regular,2023-10-14T22:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,38,"[7, 7, 17, 7]",Louisville,ACC,21,"[7, 14, 0, 0]"
-401531889,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,41,"[14, 13, 0, 14]",Marshall,Sun Belt,24,"[7, 10, 7, 0]"
-401532598,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,34,"[7, 10, 7, 10]",Wyoming,Mountain West,27,"[14, 7, 0, 6]"
-401531891,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,21,"[3, 6, 0, 12]",UL Monroe,Sun Belt,20,"[7, 0, 3, 10]"
-401524030,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,6,"[6, 0, 0, 0]",Arizona,Pac-12,44,"[10, 10, 10, 14]"
-401520319,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,48,"[17, 3, 14, 14]",Auburn,SEC,18,"[0, 7, 3, 8]"
-401525866,2023,7,regular,2023-10-14T23:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,21,"[0, 14, 7, 0]",Kansas State,Big 12,38,"[10, 7, 14, 7]"
-401524031,2023,7,regular,2023-10-14T23:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,48,"[7, 17, 7, 17]",USC,Pac-12,20,"[3, 3, 7, 7]"
-401525526,2023,7,regular,2023-10-14T23:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,41,"[7, 7, 21, 6]",Miami,ACC,31,"[0, 17, 0, 14]"
-401520318,2023,7,regular,2023-10-14T23:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,21,"[14, 0, 7, 0]",Missouri,SEC,38,"[0, 17, 3, 18]"
-401525523,2023,7,regular,2023-10-15T00:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,24,"[7, 10, 7, 0]",NC State,ACC,3,"[3, 0, 0, 0]"
-401524032,2023,7,regular,2023-10-15T00:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,36,"[13, 10, 13, 0]",UCLA,Pac-12,24,"[0, 10, 7, 7]"
-401531381,2023,7,regular,2023-10-15T00:00:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,41,"[21, 3, 7, 10]",UAB,American Athletic,20,"[7, 6, 7, 0]"
-401532593,2023,7,regular,2023-10-15T01:45:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,31,"[0, 0, 10, 21]",Boise State,Mountain West,30,"[7, 10, 0, 13]"
-401532595,2023,7,regular,2023-10-15T03:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,34,"[0, 14, 10, 10]",San Diego State,Mountain West,41,"[10, 7, 3, 21]"
-401520330,2023,8,regular,2023-10-17T23:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,42,"[14, 7, 14, 7]",Middle Tennessee,Conference USA,35,"[14, 7, 14, 0]"
-401531892,2023,8,regular,2023-10-17T23:30:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,55,"[14, 17, 17, 7]",Southern Miss,Sun Belt,3,"[0, 0, 3, 0]"
-401520329,2023,8,regular,2023-10-17T23:30:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,20,"[0, 10, 0, 10]",Western Kentucky,Conference USA,17,"[10, 7, 0, 0]"
-401520331,2023,8,regular,2023-10-18T23:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,27,"[0, 10, 0, 10, 7, 0]",Florida International,Conference USA,33,"[3, 7, 7, 3, 7, 6]"
-401520332,2023,8,regular,2023-10-19T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,7,"[0, 7, 0, 0]",New Mexico State,Conference USA,28,"[7, 0, 14, 7]"
-401531893,2023,8,regular,2023-10-19T23:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,9,"[0, 0, 2, 7]",James Madison,Sun Belt,20,"[0, 3, 10, 7]"
-401531341,2023,8,regular,2023-10-19T23:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,10,"[0, 10, 0, 0]",Rice,American Athletic,42,"[14, 7, 14, 7]"
-401531391,2023,8,regular,2023-10-20T23:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,0,"[0, 0, 0, 0]",SMU,American Athletic,55,"[14, 10, 17, 14]"
-401525528,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,23,"[7, 3, 13, 0]",Boston College,ACC,38,"[10, 7, 0, 21]"
-401520334,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,3,"[3, 0, 0, 0]",Mississippi State,SEC,7,"[0, 7, 0, 0]"
-401532428,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,20,"[3, 3, 7, 7]",Western Michigan,Mid-American,17,"[0, 0, 10, 7]"
-401525868,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,29,"[0, 14, 0, 15]",Baylor,Big 12,32,"[3, 17, 9, 3]"
-401531434,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,6,"[0, 0, 0, 6]",Air Force,Mountain West,17,"[0, 7, 3, 7]"
-401525871,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,31,"[7, 10, 0, 14]",UCF,Big 12,29,"[0, 17, 6, 6]"
-401531382,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,21,"[14, 7, 0, 0]",Memphis,American Athletic,45,"[7, 14, 17, 7]"
-401520337,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,14,"[7, 7, 0, 0]",Rutgers,Big Ten,31,"[7, 10, 7, 7]"
-401520343,2023,8,regular,2023-10-21T16:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,20,"[3, 7, 0, 10]",Penn State,Big Ten,12,"[3, 3, 0, 6]"
-401532429,2023,8,regular,2023-10-21T18:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,41,"[3, 10, 21, 7]",Akron,Mid-American,14,"[7, 0, 0, 7]"
-401531406,2023,8,regular,2023-10-21T18:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,7,"[0, 0, 0, 7]",Charlotte,American Athletic,10,"[3, 0, 7, 0]"
-401531894,2023,8,regular,2023-10-21T18:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,38,"[7, 24, 0, 7]",UL Monroe,Sun Belt,28,"[7, 7, 3, 11]"
-401532430,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,6,"[6, 0, 0, 0]",Buffalo,Mid-American,24,"[7, 7, 3, 7]"
-401525872,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,34,"[0, 17, 7, 10]",Oklahoma State,Big 12,48,"[10, 3, 7, 28]"
-401531372,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,35,"[7, 14, 7, 7]",North Texas,American Athletic,28,"[0, 0, 21, 7]"
-401520333,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,34,"[0, 7, 17, 10]",Tennessee,SEC,20,"[13, 7, 0, 0]"
-401532425,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,24,"[7, 3, 7, 7]",Central Michigan,Mid-American,17,"[3, 0, 7, 7]"
-401532426,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,20,"[7, 3, 0, 10]",Eastern Michigan,Mid-American,13,"[7, 3, 3, 0]"
-401520344,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,21,"[0, 14, 0, 7]",South Florida,American Athletic,24,"[7, 3, 0, 14]"
-401524035,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,38,"[3, 14, 14, 7]",Washington State,Pac-12,24,"[3, 10, 3, 8]"
-401525532,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,21,"[0, 7, 0, 14]",Pittsburgh,ACC,17,"[7, 0, 0, 10]"
-401520341,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,34,"[14, 10, 0, 10]",South Carolina,SEC,12,"[0, 3, 6, 3]"
-401520342,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,17,"[3, 7, 0, 7]",Northwestern,Big Ten,9,"[3, 3, 0, 3]"
-401520338,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,10,"[3, 7, 0, 0]",Minnesota,Big Ten,12,"[3, 0, 6, 3]"
-401520336,2023,8,regular,2023-10-21T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,21,"[7, 7, 7, 0]",Wisconsin,Big Ten,25,"[0, 7, 0, 18]"
-401525869,2023,8,regular,2023-10-21T20:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,24,"[0, 14, 7, 3]",Texas,Big 12,31,"[14, 7, 3, 7]"
-401532427,2023,8,regular,2023-10-21T20:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,17,"[0, 3, 14, 0]",Toledo,Mid-American,21,"[7, 14, 0, 0]"
-401531397,2023,8,regular,2023-10-21T22:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,10,"[10, 0, 0, 0]",UTSA,American Athletic,36,"[7, 13, 9, 7]"
-401532600,2023,8,regular,2023-10-21T22:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,42,"[14, 14, 7, 7]",Hawai'i,Mountain West,21,"[7, 7, 0, 7]"
-401525531,2023,8,regular,2023-10-21T22:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,27,"[7, 10, 7, 3]",Virginia,ACC,31,"[14, 0, 10, 7]"
-401531895,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,28,"[0, 17, 3, 8]",App State,Sun Belt,21,"[7, 7, 7, 0]"
-401531896,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,17,"[0, 3, 7, 7]",Coastal Carolina,Sun Belt,27,"[3, 14, 0, 10]"
-401525867,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,27,"[14, 10, 3, 0]",Texas Tech,Big 12,14,"[0, 7, 0, 7]"
-401520335,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,21,"[7, 7, 0, 7]",Ole Miss,SEC,28,"[14, 0, 7, 7]"
-401525870,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,41,"[21, 6, 7, 7]",TCU,Big 12,3,"[3, 0, 0, 0]"
-401532599,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,25,"[0, 3, 13, 9]",Colorado State,Mountain West,23,"[0, 13, 0, 10]"
-401532602,2023,8,regular,2023-10-21T23:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,42,"[14, 0, 14, 14]",Utah State,Mountain West,21,"[0, 14, 0, 7]"
-401520339,2023,8,regular,2023-10-21T23:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,62,"[14, 24, 10, 14]",Army,FBS Independents,0,"[0, 0, 0, 0]"
-401520340,2023,8,regular,2023-10-21T23:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,0,"[0, 0, 0, 0]",Michigan,Big Ten,49,"[14, 14, 14, 7]"
-401525530,2023,8,regular,2023-10-21T23:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,38,"[7, 10, 0, 21]",Duke,ACC,20,"[10, 10, 0, 0]"
-401531897,2023,8,regular,2023-10-22T00:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,17,"[0, 7, 10, 0]",Georgia State,Sun Belt,20,"[0, 20, 0, 0]"
-401525529,2023,8,regular,2023-10-22T00:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,28,"[7, 0, 0, 10, 3, 8]",Clemson,ACC,20,"[0, 7, 10, 0, 3, 0]"
-401524037,2023,8,regular,2023-10-22T00:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,32,"[14, 0, 3, 15]",Utah,Pac-12,34,"[14, 0, 14, 6]"
-401532601,2023,8,regular,2023-10-22T01:00:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,0,"[0, 0, 0, 0]",Nevada,Mountain West,6,"[3, 3, 0, 0]"
-401524036,2023,8,regular,2023-10-22T02:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,7,"[0, 0, 7, 0]",UCLA,Pac-12,42,"[14, 7, 14, 7]"
-401524038,2023,8,regular,2023-10-22T02:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,15,"[0, 3, 0, 12]",Arizona State,Pac-12,7,"[0, 7, 0, 0]"
-401520345,2023,9,regular,2023-10-24T23:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,24,"[3, 13, 8, 0]",New Mexico State,Conference USA,27,"[0, 10, 14, 3]"
-401520346,2023,9,regular,2023-10-24T23:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,29,"[7, 3, 0, 19]",Liberty,Conference USA,42,"[7, 7, 7, 21]"
-401520347,2023,9,regular,2023-10-25T23:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,16,"[0, 3, 13, 0]",Jacksonville State,Conference USA,41,"[21, 3, 3, 14]"
-401520348,2023,9,regular,2023-10-26T00:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,34,"[7, 14, 6, 7]",UTEP,Conference USA,37,"[0, 13, 7, 17]"
-401531929,2023,9,regular,2023-10-26T23:30:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,44,"[10, 17, 7, 10]",Georgia State,Sun Belt,27,"[7, 0, 14, 6]"
-401525533,2023,9,regular,2023-10-26T23:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,38,"[13, 17, 5, 3]",Syracuse,ACC,10,"[0, 3, 7, 0]"
-401531407,2023,9,regular,2023-10-27T23:30:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,16,"[3, 3, 10, 0]",Florida Atlantic,American Athletic,38,"[7, 14, 10, 7]"
-401520356,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,33,"[14, 10, 3, 6]",Maryland,Big Ten,27,"[14, 3, 3, 7]"
-401525875,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,41,"[7, 21, 7, 6]",Houston,Big 12,0,"[0, 0, 0, 0]"
-401525878,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,28,"[7, 7, 7, 7]",West Virginia,Big 12,41,"[10, 7, 7, 17]"
-401520351,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,21,"[7, 7, 7, 0]",UConn,FBS Independents,14,"[7, 0, 0, 7]"
-401525874,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,38,"[7, 10, 9, 12]",Oklahoma,Big 12,33,"[0, 21, 6, 6]"
-401520349,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Michie Stadium,Army,FBS Independents,14,"[0, 7, 0, 7]",Massachusetts,FBS Independents,21,"[13, 0, 8, 0]"
-401531342,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,69,"[28, 24, 14, 3]",Tulsa,American Athletic,10,"[3, 0, 0, 7]"
-401520358,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,33,"[7, 10, 7, 9]",Indiana,Big Ten,24,"[7, 7, 0, 10]"
-401525536,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,16,"[0, 7, 9, 0]",Florida State,ACC,41,"[10, 24, 0, 7]"
-401520359,2023,9,regular,2023-10-28T16:00:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,30,"[0, 21, 3, 6]",South Carolina,SEC,17,"[7, 0, 3, 7]"
-401532431,2023,9,regular,2023-10-28T17:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,21,"[0, 7, 6, 8]",Western Michigan,Mid-American,45,"[14, 7, 4, 20]"
-401525534,2023,9,regular,2023-10-28T18:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,24,"[7, 3, 14, 0]",Clemson,ACC,17,"[0, 7, 0, 10]"
-401531430,2023,9,regular,2023-10-28T19:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,42,"[7, 3, 11, 21]",Memphis,American Athletic,45,"[14, 17, 0, 14]"
-401525877,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,35,"[14, 7, 0, 14]",BYU,Big 12,6,"[0, 3, 3, 0]"
-401520352,2023,9,regular,2023-10-28T19:30:00.000Z,1,1,1,EverBank Stadium,Florida,SEC,20,"[7, 0, 0, 13]",Georgia,SEC,43,"[10, 16, 10, 7]"
-401525873,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,18,"[0, 6, 6, 6]",Iowa State,Big 12,30,"[7, 10, 10, 3]"
-401520350,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,27,"[14, 10, 3, 0]",Mississippi State,SEC,13,"[3, 0, 3, 7]"
-401532432,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,16,"[9, 0, 0, 7]",Miami (OH),Mid-American,30,"[0, 13, 10, 7]"
-401531898,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,48,"[7, 7, 14, 20]",Southern Miss,Sun Belt,38,"[7, 17, 7, 7]"
-401524044,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,6,"[3, 3, 0, 0]",Oregon,Pac-12,35,"[14, 7, 14, 0]"
-401525538,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,29,"[0, 3, 14, 6, 6]",Virginia,ACC,26,"[7, 3, 10, 3, 3]"
-401525535,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,23,"[14, 3, 6, 0]",Duke,ACC,0,"[0, 0, 0, 0]"
-401531398,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,41,"[14, 17, 3, 7]",East Carolina,American Athletic,27,"[17, 3, 0, 7]"
-401520354,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,27,"[0, 10, 0, 17]",Michigan State,Big Ten,12,"[6, 0, 0, 6]"
-401520355,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,31,"[0, 14, 7, 10]",Purdue,Big Ten,14,"[0, 0, 0, 14]"
-401525440,2023,9,regular,2023-10-28T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,58,"[7, 10, 27, 14]",Pittsburgh,ACC,7,"[0, 0, 0, 7]"
-401531373,2023,9,regular,2023-10-28T20:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,28,"[7, 0, 14, 7]",Tulane,American Athletic,30,"[10, 17, 0, 3]"
-401524041,2023,9,regular,2023-10-28T20:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,49,"[14, 14, 8, 13]",USC,Pac-12,50,"[17, 0, 12, 21]"
-401531901,2023,9,regular,2023-10-28T21:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,24,"[3, 6, 7, 8]",Arkansas State,Sun Belt,34,"[7, 3, 7, 17]"
-401531902,2023,9,regular,2023-10-28T21:00:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,20,"[0, 0, 14, 6]",Louisiana,Sun Belt,33,"[0, 17, 16, 0]"
-401532607,2023,9,regular,2023-10-28T21:30:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,32,"[8, 7, 14, 3]",Wyoming,Mountain West,7,"[7, 0, 0, 0]"
-401531899,2023,9,regular,2023-10-28T22:00:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,34,"[10, 17, 0, 7]",Marshall,Sun Belt,6,"[0, 6, 0, 0]"
-401524042,2023,9,regular,2023-10-28T23:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,33,"[0, 13, 13, 7]",Washington,Pac-12,42,"[7, 14, 7, 14]"
-401532603,2023,9,regular,2023-10-28T23:00:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,13,"[0, 13, 0, 0]",Air Force,Mountain West,30,"[7, 6, 10, 7]"
-401531903,2023,9,regular,2023-10-28T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,13,"[7, 3, 3, 0]",Troy,Sun Belt,31,"[0, 7, 7, 17]"
-401520353,2023,9,regular,2023-10-28T23:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,27,"[0, 17, 7, 3]",Tennessee,SEC,33,"[10, 13, 3, 7]"
-401520360,2023,9,regular,2023-10-28T23:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,10,"[0, 3, 7, 0]",Ohio State,Big Ten,24,"[3, 7, 7, 7]"
-401524043,2023,9,regular,2023-10-28T23:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,28,"[0, 7, 7, 14]",Colorado,Pac-12,16,"[6, 0, 3, 7]"
-401520357,2023,9,regular,2023-10-28T23:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,33,"[13, 13, 0, 7]",Vanderbilt,SEC,7,"[0, 0, 7, 0]"
-401525876,2023,9,regular,2023-10-29T00:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,45,"[7, 3, 21, 14]",Cincinnati,Big 12,13,"[7, 0, 0, 6]"
-401531900,2023,9,regular,2023-10-29T00:00:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,30,"[7, 7, 16, 0]",Old Dominion,Sun Belt,27,"[3, 7, 14, 3]"
-401525537,2023,9,regular,2023-10-29T00:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,46,"[0, 24, 0, 22]",North Carolina,ACC,42,"[14, 14, 7, 7]"
-401524040,2023,9,regular,2023-10-29T00:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,38,"[7, 17, 7, 7]",Washington State,Pac-12,27,"[7, 14, 3, 3]"
-401532606,2023,9,regular,2023-10-29T02:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,31,"[7, 0, 24, 0]",UNLV,Mountain West,24,"[7, 10, 0, 7]"
-401532604,2023,9,regular,2023-10-29T02:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,34,"[3, 21, 3, 7]",New Mexico,Mountain West,24,"[0, 0, 10, 14]"
-401524039,2023,9,regular,2023-10-29T02:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,27,"[3, 7, 3, 14]",Oregon State,Pac-12,24,"[7, 3, 0, 14]"
-401532605,2023,9,regular,2023-10-29T03:59:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,0,"[0, 0, 0, 0]",San José State,Mountain West,35,"[7, 14, 7, 7]"
-401532433,2023,10,regular,2023-10-31T23:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,37,"[7, 17, 13, 0]",Northern Illinois,Mid-American,31,"[3, 0, 14, 14]"
-401532434,2023,10,regular,2023-10-31T23:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,31,"[14, 10, 7, 0]",Buffalo,Mid-American,13,"[7, 0, 6, 0]"
-401532435,2023,10,regular,2023-11-01T23:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,24,"[7, 7, 0, 10]",Ball State,Mid-American,21,"[0, 7, 7, 7]"
-401532436,2023,10,regular,2023-11-01T23:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,31,"[7, 3, 0, 21]",Kent State,Mid-American,27,"[6, 14, 7, 0]"
-401525879,2023,10,regular,2023-11-02T23:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,35,"[7, 13, 8, 7]",TCU,Big 12,28,"[7, 0, 14, 7]"
-401531904,2023,10,regular,2023-11-02T23:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,28,"[0, 14, 0, 14]",South Alabama,Sun Belt,10,"[7, 0, 0, 3]"
-401525539,2023,10,regular,2023-11-02T23:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,24,"[0, 14, 0, 10]",Wake Forest,ACC,21,"[7, 7, 7, 0]"
-401525540,2023,10,regular,2023-11-03T23:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,10,"[7, 0, 0, 3]",Boston College,ACC,17,"[3, 7, 0, 7]"
-401532609,2023,10,regular,2023-11-04T00:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,24,"[3, 7, 14, 0]",Colorado State,Mountain West,15,"[0, 7, 0, 8]"
-401525884,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,33,"[10, 7, 10, 3, 3]",Kansas State,Big 12,30,"[0, 7, 7, 16, 0]"
-401520376,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,38,"[14, 7, 7, 10]",Jacksonville State,Conference USA,28,"[7, 7, 14, 0]"
-401520375,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,16,"[0, 9, 0, 7]",Ohio State,Big Ten,35,"[7, 0, 14, 14]"
-401520369,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,20,"[3, 7, 3, 7]",Nebraska,Big Ten,17,"[0, 10, 0, 7]"
-401520374,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,38,"[7, 13, 11, 7]",Texas A&M,SEC,35,"[0, 14, 7, 14]"
-401525545,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,59,"[7, 21, 17, 14]",Campbell,CAA,7,"[7, 0, 0, 0]"
-401525441,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,31,"[10, 14, 7, 0]",Notre Dame,FBS Independents,23,"[3, 6, 14, 0]"
-401520363,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,36,"[14, 3, 6, 10, 3]",Arkansas,SEC,39,"[14, 3, 3, 13, 6]"
-401520365,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,20,"[7, 10, 0, 3]",Wisconsin,Big Ten,14,"[0, 7, 7, 0]"
-401520377,2023,10,regular,2023-11-04T16:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,59,"[14, 21, 21, 3]",UConn,FBS Independents,3,"[3, 0, 0, 0]"
-401525451,2023,10,regular,2023-11-04T17:00:00.000Z,1,0,0,Elliott T. Bowers Stadium,Sam Houston,Conference USA,24,"[0, 7, 7, 10]",Kennesaw State,FCS Independents,21,"[14, 7, 0, 0]"
-401531392,2023,10,regular,2023-11-04T18:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,32,"[10, 7, 0, 15]",Navy,American Athletic,18,"[0, 0, 8, 10]"
-401525542,2023,10,regular,2023-11-04T18:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,17,"[7, 3, 0, 7]",Georgia Tech,ACC,45,"[3, 21, 7, 14]"
-401524049,2023,10,regular,2023-11-04T18:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,55,"[14, 10, 10, 21]",Arizona State,Pac-12,3,"[3, 0, 0, 0]"
-401520361,2023,10,regular,2023-11-04T18:30:00.000Z,1,1,0,Sports Authority Field at Mile High,Air Force,Mountain West,3,"[0, 3, 0, 0]",Army,FBS Independents,23,"[17, 6, 0, 0]"
-401531425,2023,10,regular,2023-11-04T19:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,59,"[21, 14, 10, 14]",South Florida,American Athletic,50,"[7, 21, 14, 8]"
-401531908,2023,10,regular,2023-11-04T19:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,37,"[14, 6, 7, 10]",Louisiana,Sun Belt,17,"[7, 3, 7, 0]"
-401531383,2023,10,regular,2023-11-04T19:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,45,"[7, 21, 7, 10]",Florida Atlantic,American Athletic,42,"[0, 14, 14, 14]"
-401531399,2023,10,regular,2023-11-04T19:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,29,"[0, 13, 0, 16]",UTSA,American Athletic,37,"[10, 17, 3, 7]"
-401531374,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,10,"[10, 0, 0, 0]",Tulane,American Athletic,13,"[0, 10, 0, 3]"
-401531906,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,14,"[7, 0, 7, 0]",James Madison,Sun Belt,42,"[7, 7, 14, 14]"
-401525543,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,34,"[7, 7, 13, 7]",Virginia Tech,ACC,3,"[0, 3, 0, 0]"
-401520364,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,30,"[3, 7, 14, 6]",Missouri,SEC,21,"[7, 3, 3, 8]"
-401525541,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,7,"[0, 7, 0, 0]",Florida State,ACC,24,"[0, 10, 14, 0]"
-401520400,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,31,"[7, 7, 3, 14]",Merrimack,NEC,21,"[7, 0, 0, 14]"
-401520370,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,26,"[7, 10, 3, 6]",Illinois,Big Ten,27,"[14, 0, 7, 6]"
-401525883,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,27,"[7, 10, 0, 10]",Oklahoma,Big 12,24,"[7, 7, 7, 3]"
-401531907,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,24,"[7, 0, 14, 3]",Coastal Carolina,Sun Belt,28,"[0, 6, 7, 15]"
-401525881,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,26,"[3, 7, 7, 9]",UCF,Big 12,28,"[7, 7, 7, 7]"
-401520373,2023,10,regular,2023-11-04T19:30:00.000Z,1,1,1,Wrigley Field,Northwestern,Big Ten,7,"[0, 0, 0, 7]",Iowa,Big Ten,10,"[0, 0, 7, 3]"
-401525880,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,24,"[0, 0, 7, 10, 7]",Houston,Big 12,25,"[0, 7, 3, 7, 8]"
-401520367,2023,10,regular,2023-11-04T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,15,"[0, 7, 0, 8]",Penn State,Big Ten,51,"[14, 7, 3, 27]"
-401531909,2023,10,regular,2023-11-04T20:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,24,"[17, 0, 0, 7]",UL Monroe,Sun Belt,7,"[0, 0, 7, 0]"
-401520379,2023,10,regular,2023-11-04T20:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,15,"[0, 7, 8, 0]",Auburn,SEC,31,"[14, 3, 14, 0]"
-401531343,2023,10,regular,2023-11-04T20:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,26,"[14, 3, 0, 9, 0]",Charlotte,American Athletic,33,"[0, 10, 5, 11, 7]"
-401532610,2023,10,regular,2023-11-04T20:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,14,"[0, 0, 14, 0]",Hawai'i,Mountain West,27,"[0, 17, 7, 3]"
-401531910,2023,10,regular,2023-11-04T21:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,45,"[7, 24, 14, 0]",Georgia Southern,Sun Belt,24,"[10, 0, 7, 7]"
-401524047,2023,10,regular,2023-11-04T21:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,63,"[14, 21, 7, 21]",California,Pac-12,19,"[10, 3, 6, 0]"
-401520372,2023,10,regular,2023-11-04T22:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,13,"[0, 10, 3, 0]",Middle Tennessee,Conference USA,7,"[0, 7, 0, 0]"
-401520366,2023,10,regular,2023-11-04T22:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,56,"[14, 14, 14, 14]",Louisiana Tech,Conference USA,30,"[3, 7, 14, 6]"
-401531905,2023,10,regular,2023-11-04T22:00:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,31,"[0, 21, 7, 3]",Marshall,Sun Belt,9,"[0, 3, 6, 0]"
-401532611,2023,10,regular,2023-11-04T22:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,14,"[0, 7, 0, 7]",UNLV,Mountain West,56,"[14, 21, 14, 7]"
-401525885,2023,10,regular,2023-11-04T23:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,37,"[14, 13, 10, 0]",BYU,Big 12,7,"[0, 0, 0, 7]"
-401532612,2023,10,regular,2023-11-04T23:00:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,24,"[0, 7, 0, 10, 7, 0]",Utah State,Mountain West,32,"[0, 3, 7, 7, 7, 8]"
-401525882,2023,10,regular,2023-11-04T23:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,21,"[0, 3, 8, 10]",Kansas,Big 12,28,"[7, 7, 7, 7]"
-401524048,2023,10,regular,2023-11-04T23:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,42,"[14, 14, 14, 0]",Washington,Pac-12,52,"[7, 28, 7, 10]"
-401520371,2023,10,regular,2023-11-04T23:30:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,3,"[0, 3, 0, 0]",Kentucky,SEC,24,"[7, 14, 3, 0]"
-401531440,2023,10,regular,2023-11-04T23:30:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,31,"[7, 14, 7, 3]",SMU,American Athletic,36,"[14, 10, 9, 3]"
-401520368,2023,10,regular,2023-11-04T23:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,41,"[17, 3, 7, 14]",Purdue,Big Ten,13,"[0, 6, 0, 7]"
-401520362,2023,10,regular,2023-11-04T23:45:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,42,"[14, 7, 14, 7]",LSU,SEC,28,"[7, 14, 7, 0]"
-401525544,2023,10,regular,2023-11-05T00:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,20,"[7, 3, 0, 10]",Miami,ACC,6,"[3, 3, 0, 0]"
-401524050,2023,10,regular,2023-11-05T01:00:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,7,"[0, 7, 0, 0]",Stanford,Pac-12,10,"[0, 0, 7, 3]"
-401520378,2023,10,regular,2023-11-05T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,13,"[0, 3, 0, 10]",Western Kentucky,Conference USA,21,"[0, 0, 14, 7]"
-401524046,2023,10,regular,2023-11-05T02:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,19,"[0, 3, 2, 14]",Oregon State,Pac-12,26,"[7, 7, 6, 6]"
-401532608,2023,10,regular,2023-11-05T02:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,37,"[10, 10, 7, 10]",Boise State,Mountain West,30,"[3, 7, 7, 13]"
-401524045,2023,10,regular,2023-11-05T02:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,27,"[7, 7, 3, 10]",UCLA,Pac-12,10,"[0, 7, 3, 0]"
-401532438,2023,11,regular,2023-11-08T00:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,38,"[7, 14, 0, 17]",Central Michigan,Mid-American,28,"[0, 7, 21, 0]"
-401532437,2023,11,regular,2023-11-08T00:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,17,"[0, 10, 0, 7]",Ball State,Mid-American,20,"[7, 3, 0, 10]"
-401532439,2023,11,regular,2023-11-08T00:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,10,"[0, 3, 0, 7]",Ohio,Mid-American,20,"[0, 0, 10, 10]"
-401532442,2023,11,regular,2023-11-09T00:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,19,"[3, 3, 7, 6]",Bowling Green,Mid-American,49,"[14, 14, 0, 21]"
-401532441,2023,11,regular,2023-11-09T00:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,19,"[7, 3, 6, 3]",Akron,Mid-American,0,"[0, 0, 0, 0]"
-401532440,2023,11,regular,2023-11-09T00:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,49,"[21, 14, 7, 7]",Eastern Michigan,Mid-American,23,"[0, 3, 6, 14]"
-401525546,2023,11,regular,2023-11-10T00:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,31,"[7, 7, 0, 17]",Virginia,ACC,24,"[0, 0, 21, 3]"
-401531911,2023,11,regular,2023-11-10T00:30:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,31,"[7, 7, 0, 14, 3]",Southern Miss,Sun Belt,34,"[0, 14, 7, 7, 6]"
-401531437,2023,11,regular,2023-11-11T02:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,45,"[14, 3, 14, 14]",North Texas,American Athletic,21,"[7, 7, 0, 7]"
-401532618,2023,11,regular,2023-11-11T03:45:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,34,"[21, 0, 7, 6]",Wyoming,Mountain West,14,"[0, 14, 0, 0]"
-401531393,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,27,"[17, 3, 7, 0]",Temple,American Athletic,23,"[0, 10, 0, 13]"
-401520396,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,47,"[6, 7, 14, 20]",Vanderbilt,SEC,6,"[0, 0, 0, 6]"
-401520386,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,21,"[7, 0, 7, 7]",Alabama,SEC,49,"[21, 7, 7, 14]"
-401525888,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,13,"[0, 0, 0, 13]",Texas Tech,Big 12,16,"[10, 0, 3, 3]"
-401520381,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,17,"[7, 7, 0, 3]",Holy Cross,Patriot,14,"[0, 0, 0, 14]"
-401531344,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,24,"[14, 0, 7, 3]",Tulsa,American Athletic,22,"[0, 10, 3, 9]"
-401520383,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,48,"[9, 17, 7, 9, 6]",Indiana,Big Ten,45,"[7, 20, 0, 15, 3]"
-401520392,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,10,"[0, 0, 10, 0]",Maryland,Big Ten,13,"[0, 7, 0, 6]"
-401525547,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,22,"[7, 0, 8, 7]",Virginia Tech,ACC,48,"[10, 21, 7, 10]"
-401525548,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,42,"[0, 21, 7, 14]",Georgia Tech,ACC,21,"[7, 0, 0, 14]"
-401520394,2023,11,regular,2023-11-11T17:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,15,"[3, 6, 0, 6]",Michigan,Big Ten,24,"[0, 14, 3, 7]"
-401520388,2023,11,regular,2023-11-11T18:00:00.000Z,1,0,0,Williams Stadium (VA),Liberty,Conference USA,38,"[14, 21, 3, 0]",Old Dominion,Sun Belt,10,"[0, 3, 0, 7]"
-401524052,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,31,"[14, 10, 7, 0]",Arizona,Pac-12,34,"[7, 10, 7, 10]"
-401531408,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,38,"[0, 17, 7, 14, 0]",Memphis,American Athletic,44,"[7, 7, 7, 17, 6]"
-401520385,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,0,Bridgeforth Stadium,James Madison,Sun Belt,44,"[3, 10, 17, 14]",UConn,FBS Independents,6,"[0, 3, 3, 0]"
-401531913,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,14,"[0, 0, 0, 14]",App State,Sun Belt,42,"[7, 14, 7, 14]"
-401525551,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,6,"[0, 0, 0, 6]",NC State,ACC,26,"[7, 14, 0, 5]"
-401531915,2023,11,regular,2023-11-11T19:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,14,"[0, 0, 7, 7]",Troy,Sun Belt,45,"[7, 14, 3, 21]"
-401520387,2023,11,regular,2023-11-11T20:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,27,"[3, 3, 14, 7]",Sam Houston,Conference USA,42,"[7, 7, 14, 14]"
-401532615,2023,11,regular,2023-11-11T20:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,41,"[7, 17, 10, 7]",Nevada,Mountain West,24,"[7, 3, 0, 14]"
-401525889,2023,11,regular,2023-11-11T20:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,59,"[21, 14, 17, 7]",Baylor,Big 12,25,"[7, 6, 6, 6]"
-401520390,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,40,"[17, 14, 0, 9]",Florida International,Conference USA,6,"[0, 6, 0, 0]"
-401531912,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,31,"[7, 14, 7, 3]",Texas State,Sun Belt,23,"[10, 0, 0, 13]"
-401520399,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,29,"[14, 7, 0, 8]",New Mexico State,Conference USA,38,"[3, 14, 7, 14]"
-401531384,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,31,"[7, 0, 3, 21]",UAB,American Athletic,6,"[3, 3, 0, 0]"
-401520398,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,10,"[3, 0, 0, 7]",Northwestern,Big Ten,24,"[7, 17, 0, 0]"
-401524056,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,35,"[10, 14, 11, 0]",Utah,Pac-12,28,"[7, 21, 0, 0]"
-401525892,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,45,"[14, 10, 14, 7]",Oklahoma State,Big 12,3,"[0, 0, 3, 0]"
-401520395,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,49,"[14, 14, 7, 14]",Minnesota,Big Ten,30,"[10, 10, 0, 10]"
-401525550,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,27,"[7, 3, 10, 7]",Miami,ACC,20,"[0, 10, 3, 7]"
-401525552,2023,11,regular,2023-11-11T20:30:00.000Z,1,1,1,Yankee Stadium,Syracuse,ACC,28,"[7, 0, 14, 7]",Pittsburgh,ACC,13,"[3, 10, 0, 0]"
-401520391,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,36,"[0, 13, 9, 14]",Tennessee,SEC,7,"[0, 7, 0, 0]"
-401520384,2023,11,regular,2023-11-11T20:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,22,"[0, 3, 3, 16]",Rutgers,Big Ten,0,"[0, 0, 0, 0]"
-401520380,2023,11,regular,2023-11-11T21:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,10,"[3, 0, 0, 7]",Auburn,SEC,48,"[21, 6, 21, 0]"
-401524051,2023,11,regular,2023-11-11T21:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,42,"[14, 14, 0, 14]",Washington State,Pac-12,39,"[7, 14, 3, 15]"
-401531416,2023,11,regular,2023-11-11T21:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,7,"[0, 7, 0, 0]",East Carolina,American Athletic,22,"[7, 6, 0, 9]"
-401531916,2023,11,regular,2023-11-11T22:00:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,21,"[7, 7, 7, 0]",Arkansas State,Sun Belt,14,"[3, 0, 3, 8]"
-401524054,2023,11,regular,2023-11-11T22:30:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,62,"[14, 20, 21, 7]",Stanford,Pac-12,17,"[7, 3, 7, 0]"
-401532617,2023,11,regular,2023-11-12T00:00:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,22,"[5, 10, 7, 0]",San Diego State,Mountain West,19,"[0, 0, 6, 13]"
-401525887,2023,11,regular,2023-11-12T00:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,14,"[0, 7, 0, 7]",Cincinnati,Big 12,24,"[7, 7, 3, 7]"
-401531914,2023,11,regular,2023-11-12T00:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,38,"[10, 7, 7, 14]",Georgia Southern,Sun Belt,33,"[3, 17, 6, 7]"
-401520382,2023,11,regular,2023-11-12T00:00:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,52,"[14, 14, 10, 14]",Ole Miss,SEC,17,"[7, 7, 0, 3]"
-401525890,2023,11,regular,2023-11-12T00:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,59,"[14, 17, 14, 14]",West Virginia,Big 12,20,"[7, 7, 6, 0]"
-401520397,2023,11,regular,2023-11-12T00:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,51,"[17, 17, 14, 3]",Mississippi State,SEC,10,"[7, 3, 0, 0]"
-401525891,2023,11,regular,2023-11-12T00:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,26,"[6, 0, 0, 20]",Texas,Big 12,29,"[7, 19, 0, 3]"
-401531400,2023,11,regular,2023-11-12T00:30:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,34,"[3, 7, 21, 3]",Rice,American Athletic,14,"[0, 7, 0, 7]"
-401520389,2023,11,regular,2023-11-12T00:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,52,"[7, 10, 21, 14]",Florida,SEC,35,"[7, 7, 14, 7]"
-401520393,2023,11,regular,2023-11-12T00:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,38,"[14, 21, 3, 0]",Michigan State,Big Ten,3,"[0, 3, 0, 0]"
-401525549,2023,11,regular,2023-11-12T01:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,47,"[10, 6, 3, 17, 3, 8]",Duke,ACC,45,"[0, 14, 0, 22, 3, 6]"
-401524055,2023,11,regular,2023-11-12T02:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,7,"[0, 0, 0, 7]",Arizona State,Pac-12,17,"[0, 3, 7, 7]"
-401532616,2023,11,regular,2023-11-12T03:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,42,"[15, 17, 7, 3]",New Mexico,Mountain West,14,"[7, 7, 0, 0]"
-401525886,2023,11,regular,2023-11-12T03:15:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,13,"[7, 0, 6, 0]",Iowa State,Big 12,45,"[17, 14, 14, 0]"
-401524053,2023,11,regular,2023-11-12T03:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,36,"[13, 9, 7, 7]",USC,Pac-12,27,"[7, 7, 0, 13]"
-401532614,2023,11,regular,2023-11-12T03:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,42,"[21, 7, 7, 7]",Fresno State,Mountain West,18,"[3, 7, 0, 8]"
-401532613,2023,11,regular,2023-11-12T04:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,27,"[7, 6, 7, 7]",Air Force,Mountain West,13,"[0, 3, 7, 3]"
-401532444,2023,12,regular,2023-11-15T00:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,24,"[7, 7, 7, 3]",Western Michigan,Mid-American,0,"[0, 0, 0, 0]"
-401532443,2023,12,regular,2023-11-15T00:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,31,"[14, 14, 0, 3]",Toledo,Mid-American,32,"[7, 3, 7, 15]"
-401532445,2023,12,regular,2023-11-15T00:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,30,"[0, 14, 0, 3, 7, 6]",Akron,Mid-American,27,"[0, 14, 0, 3, 7, 3]"
-401532446,2023,12,regular,2023-11-16T00:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,34,"[10, 7, 14, 3]",Central Michigan,Mid-American,20,"[0, 7, 7, 6]"
-401532447,2023,12,regular,2023-11-16T00:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,23,"[0, 10, 3, 10]",Buffalo,Mid-American,10,"[0, 3, 7, 0]"
-401525553,2023,12,regular,2023-11-17T00:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,24,"[3, 7, 7, 7]",Boston College,ACC,16,"[3, 3, 7, 3]"
-401531401,2023,12,regular,2023-11-18T02:00:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,49,"[7, 21, 14, 7]",South Florida,American Athletic,21,"[7, 7, 7, 0]"
-401524057,2023,12,regular,2023-11-18T03:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,56,"[21, 21, 14, 0]",Colorado,Pac-12,14,"[7, 0, 0, 7]"
-401520405,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,21,"[0, 7, 7, 7]",Michigan State,Big Ten,24,"[7, 7, 0, 10]"
-401520403,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,28,"[7, 14, 7, 0]",Coastal Carolina,Sun Belt,21,"[7, 7, 0, 7]"
-401531431,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,34,"[10, 3, 8, 13]",SMU,American Athletic,38,"[7, 7, 14, 10]"
-401531417,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,10,"[7, 0, 0, 3]",East Carolina,American Athletic,0,"[0, 0, 0, 0]"
-401520417,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,27,"[0, 10, 3, 14]",Rutgers,Big Ten,6,"[3, 3, 0, 0]"
-401520410,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,24,"[3, 7, 14, 0]",Michigan,Big Ten,31,"[16, 7, 6, 2]"
-401520412,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,41,"[3, 13, 7, 18]",Southern Miss,Sun Belt,20,"[7, 0, 0, 13]"
-401520420,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,38,"[7, 10, 7, 14]",Abilene Christian,UAC,10,"[7, 0, 0, 3]"
-401525558,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,31,"[14, 7, 7, 3]",Louisville,ACC,38,"[14, 6, 3, 15]"
-401525893,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,24,"[7, 10, 7, 0]",Oklahoma,Big 12,31,"[7, 10, 7, 7]"
-401520421,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,31,"[17, 7, 0, 7]",Sacred Heart,NEC,3,"[0, 3, 0, 0]"
-401520401,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,66,"[21, 17, 14, 14]",Chattanooga,Southern,10,"[0, 7, 3, 0]"
-401520416,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,35,"[7, 0, 21, 7]",UL Monroe,Sun Belt,3,"[0, 3, 0, 0]"
-401520414,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,23,"[6, 0, 10, 7]",Purdue,Big Ten,15,"[0, 0, 7, 8]"
-401531375,2023,12,regular,2023-11-18T17:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,8,"[0, 0, 0, 8]",Tulane,American Athletic,24,"[7, 7, 10, 0]"
-401520408,2023,12,regular,2023-11-18T18:00:00.000Z,1,0,0,Williams Stadium (VA),Liberty,Conference USA,49,"[21, 14, 7, 7]",Massachusetts,FBS Independents,25,"[0, 10, 0, 15]"
-401520411,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,34,"[14, 10, 7, 3]",UTEP,Conference USA,30,"[7, 14, 3, 6]"
-401520407,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,56,"[21, 21, 14, 0]",Louisiana Tech,Conference USA,17,"[7, 3, 7, 0]"
-401531409,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,7,"[0, 0, 0, 7]",Rice,American Athletic,28,"[10, 3, 8, 7]"
-401532448,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,34,"[3, 10, 14, 7]",Kent State,Mid-American,3,"[0, 3, 0, 0]"
-401531918,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,23,"[0, 5, 0, 15, 3]",App State,Sun Belt,26,"[3, 7, 0, 10, 6]"
-401532620,2023,12,regular,2023-11-18T19:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,42,"[14, 21, 0, 7]",Hawai'i,Mountain West,9,"[0, 0, 9, 0]"
-401524058,2023,12,regular,2023-11-18T19:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,42,"[21, 7, 0, 14]",Utah,Pac-12,18,"[0, 7, 3, 8]"
-401525899,2023,12,regular,2023-11-18T19:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,42,"[7, 21, 14, 0]",Cincinnati,Big 12,21,"[0, 7, 0, 14]"
-401531919,2023,12,regular,2023-11-18T20:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,77,"[14, 21, 28, 14]",Texas State,Sun Belt,31,"[10, 7, 7, 7]"
-401531345,2023,12,regular,2023-11-18T20:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,28,"[7, 14, 0, 7]",North Texas,American Athletic,35,"[7, 14, 14, 0]"
-401525555,2023,12,regular,2023-11-18T20:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,30,"[7, 3, 14, 6]",Duke,ACC,27,"[0, 10, 3, 14]"
-401532621,2023,12,regular,2023-11-18T20:00:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,30,"[14, 6, 3, 7]",Nevada,Mountain West,20,"[3, 10, 7, 0]"
-401531385,2023,12,regular,2023-11-18T20:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,34,"[0, 10, 7, 17]",Temple,American Athletic,24,"[7, 7, 3, 7]"
-401532624,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,27,"[7, 20, 0, 0]",UNLV,Mountain West,31,"[7, 7, 14, 3]"
-401524062,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,20,"[0, 10, 3, 7]",UCLA,Pac-12,38,"[14, 0, 17, 7]"
-401525554,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,31,"[0, 14, 14, 3]",North Carolina,ACC,20,"[7, 0, 7, 6]"
-401525559,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,28,"[0, 7, 7, 14]",NC State,ACC,35,"[0, 21, 14, 0]"
-401531921,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,31,"[0, 17, 0, 14]",Louisiana,Sun Belt,24,"[7, 3, 7, 7]"
-401525897,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,42,"[0, 14, 14, 14]",Baylor,Big 12,17,"[7, 3, 7, 0]"
-401520406,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,15,"[2, 7, 0, 6]",Illinois,Big Ten,13,"[3, 7, 0, 3]"
-401520419,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,10,"[7, 3, 0, 0]",Georgia,SEC,38,"[10, 14, 14, 0]"
-401520423,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,28,"[7, 14, 0, 7]",Sam Houston,Conference USA,23,"[0, 16, 7, 0]"
-401525442,2023,12,regular,2023-11-18T20:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,45,"[7, 10, 14, 14]",Wake Forest,ACC,7,"[0, 7, 0, 0]"
-401525894,2023,12,regular,2023-11-18T21:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,30,"[14, 9, 0, 7]",Oklahoma State,Big 12,43,"[3, 16, 14, 10]"
-401524059,2023,12,regular,2023-11-18T21:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,13,"[0, 0, 3, 10]",Oregon,Pac-12,49,"[21, 21, 0, 7]"
-401520415,2023,12,regular,2023-11-18T21:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,37,"[7, 6, 17, 7]",Minnesota,Big Ten,3,"[0, 0, 0, 3]"
-401520404,2023,12,regular,2023-11-18T21:00:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,10,"[0, 7, 0, 3]",New Mexico State,Conference USA,31,"[7, 3, 7, 14]"
-401531920,2023,12,regular,2023-11-18T22:00:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,28,"[14, 7, 0, 7]",Marshall,Sun Belt,0,"[0, 0, 0, 0]"
-401525898,2023,12,regular,2023-11-18T22:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,24,"[0, 14, 7, 3]",UCF,Big 12,23,"[14, 0, 0, 9]"
-401531917,2023,12,regular,2023-11-18T23:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,17,"[0, 7, 3, 7]",Old Dominion,Sun Belt,20,"[0, 10, 7, 3]"
-401524061,2023,12,regular,2023-11-18T23:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,15,"[3, 3, 9, 0]",California,Pac-12,27,"[7, 7, 7, 6]"
-401525556,2023,12,regular,2023-11-18T23:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,58,"[0, 24, 14, 20]",North Alabama,UAC,13,"[13, 0, 0, 0]"
-401532619,2023,12,regular,2023-11-19T00:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,10,"[7, 3, 0, 0]",Boise State,Mountain West,45,"[0, 31, 7, 7]"
-401525896,2023,12,regular,2023-11-19T00:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,27,"[7, 13, 7, 0]",Kansas State,Big 12,31,"[7, 9, 8, 7]"
-401520413,2023,12,regular,2023-11-19T00:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,33,"[3, 10, 10, 10]",Florida,SEC,31,"[7, 0, 14, 10]"
-401520422,2023,12,regular,2023-11-19T00:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,24,"[0, 10, 7, 0, 7]",Nebraska,Big Ten,17,"[14, 0, 0, 3, 0]"
-401520402,2023,12,regular,2023-11-19T00:30:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,44,"[7, 24, 7, 6]",Florida International,Conference USA,20,"[13, 0, 7, 0]"
-401520418,2023,12,regular,2023-11-19T00:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,17,"[10, 0, 0, 7]",Kentucky,SEC,14,"[0, 7, 7, 0]"
-401524060,2023,12,regular,2023-11-19T00:30:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,20,"[7, 3, 7, 3]",Washington,Pac-12,22,"[9, 13, 0, 0]"
-401525895,2023,12,regular,2023-11-19T01:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,16,"[3, 0, 6, 7]",Texas,Big 12,26,"[0, 6, 9, 11]"
-401525557,2023,12,regular,2023-11-19T01:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,31,"[7, 10, 7, 7]",Syracuse,ACC,22,"[3, 0, 13, 6]"
-401520409,2023,12,regular,2023-11-19T01:00:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,56,"[14, 21, 7, 14]",Georgia State,Sun Belt,14,"[7, 7, 0, 0]"
-401532623,2023,12,regular,2023-11-19T03:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,24,"[0, 10, 7, 7]",San Diego State,Mountain West,13,"[7, 3, 0, 3]"
-401532622,2023,12,regular,2023-11-19T03:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,17,"[7, 7, 0, 3]",New Mexico,Mountain West,25,"[3, 9, 6, 7]"
-401532450,2023,13,regular,2023-11-22T00:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,10,"[0, 3, 0, 7]",Bowling Green,Mid-American,34,"[10, 21, 3, 0]"
-401532449,2023,13,regular,2023-11-22T00:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,11,"[0, 0, 8, 3]",Eastern Michigan,Mid-American,24,"[7, 17, 0, 0]"
-401520424,2023,13,regular,2023-11-24T00:30:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,7,"[0, 0, 7, 0]",Ole Miss,SEC,17,"[0, 3, 7, 7]"
-401525560,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,20,"[7, 0, 7, 6]",Miami,ACC,45,"[7, 21, 7, 10]"
-401525900,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,69,"[14, 28, 10, 17]",TCU,Big 12,45,"[13, 3, 22, 7]"
-401520425,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,10,"[0, 7, 3, 0]",Iowa,Big Ten,13,"[0, 10, 0, 3]"
-401531394,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,21,"[6, 0, 8, 7]",Memphis,American Athletic,45,"[14, 14, 7, 10]"
-401532452,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,14,"[0, 14, 0, 0]",Ohio,Mid-American,25,"[3, 0, 15, 7]"
-401532451,2023,13,regular,2023-11-24T17:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,17,"[0, 0, 3, 14]",Toledo,Mid-American,32,"[0, 10, 7, 15]"
-401532629,2023,13,regular,2023-11-24T20:30:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,41,"[7, 7, 7, 10, 7, 3]",Utah State,Mountain West,44,"[14, 3, 7, 7, 7, 6]"
-401531376,2023,13,regular,2023-11-24T20:30:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,29,"[7, 16, 0, 6]",UTSA,American Athletic,16,"[7, 3, 0, 6]"
-401520426,2023,13,regular,2023-11-24T21:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,14,"[0, 0, 0, 14]",Missouri,SEC,48,"[10, 10, 21, 7]"
-401532625,2023,13,regular,2023-11-24T21:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,27,"[3, 14, 7, 3]",Air Force,Mountain West,19,"[0, 6, 13, 0]"
-401520435,2023,13,regular,2023-11-25T00:30:00.000Z,1,1,1,Ford Field,Michigan State,Big Ten,0,"[0, 0, 0, 0]",Penn State,Big Ten,42,"[3, 10, 15, 14]"
-401525901,2023,13,regular,2023-11-25T00:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,57,"[10, 16, 24, 7]",Texas Tech,Big 12,7,"[7, 0, 0, 0]"
-401524063,2023,13,regular,2023-11-25T01:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,31,"[7, 14, 3, 7]",Oregon State,Pac-12,7,"[0, 7, 0, 0]"
-401532453,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,27,"[0, 17, 3, 7]",Northern Illinois,Mid-American,37,"[10, 0, 14, 13]"
-401520432,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,31,"[7, 3, 14, 7]",Kentucky,SEC,38,"[0, 7, 14, 17]"
-401520433,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,42,"[7, 7, 7, 21]",Texas A&M,SEC,30,"[0, 17, 7, 6]"
-401520440,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,23,"[3, 6, 7, 7]",Middle Tennessee,Conference USA,20,"[10, 0, 3, 7]"
-401520438,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,35,"[0, 12, 6, 17]",Indiana,Big Ten,31,"[7, 7, 14, 3]"
-401520434,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,30,"[7, 7, 10, 6]",Ohio State,Big Ten,24,"[3, 7, 7, 7]"
-401532454,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,15,"[6, 6, 0, 3]",Miami (OH),Mid-American,17,"[7, 7, 3, 0]"
-401531927,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,17,"[0, 10, 7, 0]",Troy,Sun Belt,35,"[7, 7, 14, 7]"
-401531435,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,59,"[28, 24, 7, 0]",Navy,American Athletic,14,"[7, 7, 0, 0]"
-401525906,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,27,"[6, 7, 14, 0]",Houston,Big 12,13,"[10, 0, 0, 3]"
-401525561,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,30,"[3, 7, 10, 10]",Pittsburgh,ACC,19,"[3, 7, 3, 6]"
-401520443,2023,13,regular,2023-11-25T17:00:00.000Z,1,0,1,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,18,"[0, 0, 6, 12]",UConn,FBS Independents,31,"[6, 13, 6, 6]"
-401531421,2023,13,regular,2023-11-25T18:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,24,"[7, 3, 14, 0]",Florida Atlantic,American Athletic,21,"[7, 0, 7, 7]"
-401531925,2023,13,regular,2023-11-25T19:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,25,"[0, 0, 7, 18]",Georgia State,Sun Belt,24,"[7, 14, 0, 3]"
-401525563,2023,13,regular,2023-11-25T19:00:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,35,"[7, 7, 7, 14]",Wake Forest,ACC,31,"[7, 3, 7, 14]"
-401531346,2023,13,regular,2023-11-25T19:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,27,"[14, 10, 0, 3]",Tulsa,American Athletic,29,"[13, 7, 6, 3]"
-401531386,2023,13,regular,2023-11-25T19:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,45,"[7, 7, 11, 20]",UAB,American Athletic,42,"[13, 15, 0, 14]"
-401532628,2023,13,regular,2023-11-25T20:00:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,31,"[7, 3, 7, 14]",San José State,Mountain West,37,"[17, 3, 10, 7]"
-401524067,2023,13,regular,2023-11-25T20:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,23,"[7, 6, 7, 3]",Colorado,Pac-12,17,"[0, 10, 0, 7]"
-401531926,2023,13,regular,2023-11-25T20:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,52,"[7, 24, 14, 7]",UL Monroe,Sun Belt,21,"[7, 7, 0, 7]"
-401520428,2023,13,regular,2023-11-25T20:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,28,"[0, 7, 7, 14]",Western Kentucky,Conference USA,41,"[21, 13, 7, 0]"
-401525905,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,40,"[6, 0, 7, 14, 7, 6]",BYU,Big 12,34,"[7, 17, 0, 3, 7, 0]"
-401531924,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,35,"[14, 14, 7, 0]",Arkansas State,Sun Belt,21,"[0, 7, 7, 7]"
-401531923,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,14,"[0, 0, 7, 7]",James Madison,Sun Belt,56,"[7, 21, 14, 14]"
-401531922,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,55,"[3, 24, 14, 14]",Georgia Southern,Sun Belt,27,"[14, 3, 0, 10]"
-401525564,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,17,"[0, 0, 10, 7]",Virginia Tech,ACC,55,"[10, 14, 24, 7]"
-401520436,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,14,"[7, 7, 0, 0]",Wisconsin,Big Ten,28,"[0, 14, 14, 0]"
-401520431,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,43,"[3, 17, 3, 20]",Northwestern,Big Ten,45,"[7, 14, 7, 17]"
-401520444,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,28,"[7, 0, 0, 21]",Liberty,Conference USA,42,"[21, 7, 7, 7]"
-401520427,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,24,"[7, 7, 7, 3]",Alabama,SEC,27,"[7, 10, 3, 7]"
-401524064,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,23,"[7, 0, 8, 8]",Arizona,Pac-12,59,"[10, 28, 14, 7]"
-401520442,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,48,"[14, 17, 14, 3]",Vanderbilt,SEC,24,"[7, 3, 0, 14]"
-401520439,2023,13,regular,2023-11-25T20:30:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,24,"[3, 14, 0, 7]",Maryland,Big Ten,42,"[21, 7, 7, 7]"
-401520437,2023,13,regular,2023-11-25T21:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,20,"[14, 3, 0, 3]",Jacksonville State,Conference USA,17,"[0, 3, 0, 14]"
-401524068,2023,13,regular,2023-11-25T21:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,24,"[7, 7, 7, 3]",Washington State,Pac-12,21,"[7, 7, 0, 7]"
-401525902,2023,13,regular,2023-11-26T00:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,31,"[0, 14, 14, 3]",West Virginia,Big 12,34,"[7, 20, 0, 7]"
-401531928,2023,13,regular,2023-11-26T00:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,52,"[24, 7, 7, 14]",South Alabama,Sun Belt,44,"[0, 17, 7, 20]"
-401520429,2023,13,regular,2023-11-26T00:00:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,15,"[0, 12, 3, 0]",Florida State,ACC,24,"[0, 7, 7, 10]"
-401524065,2023,13,regular,2023-11-26T00:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,23,"[13, 3, 0, 7]",Notre Dame,FBS Independents,56,"[7, 21, 21, 7]"
-401520430,2023,13,regular,2023-11-26T00:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,23,"[10, 3, 0, 10]",Georgia,SEC,31,"[7, 14, 10, 0]"
-401525903,2023,13,regular,2023-11-26T00:30:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,16,"[3, 7, 0, 6]",Kansas,Big 12,49,"[0, 21, 7, 21]"
-401531410,2023,13,regular,2023-11-26T00:30:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,48,"[7, 14, 20, 7]",Charlotte,American Athletic,14,"[7, 0, 7, 0]"
-401520441,2023,13,regular,2023-11-26T00:30:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,7,"[7, 0, 0, 0]",Clemson,ACC,16,"[10, 3, 3, 0]"
-401525904,2023,13,regular,2023-11-26T01:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,35,"[6, 14, 8, 7]",Iowa State,Big 12,42,"[7, 7, 14, 14]"
-401525562,2023,13,regular,2023-11-26T01:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,39,"[6, 20, 13, 0]",North Carolina,ACC,20,"[0, 7, 13, 0]"
-401532630,2023,13,regular,2023-11-26T02:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,6,"[0, 6, 0, 0]",Wyoming,Mountain West,42,"[14, 7, 14, 7]"
-401532627,2023,13,regular,2023-11-26T03:30:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,33,"[3, 13, 7, 10]",Fresno State,Mountain West,18,"[7, 3, 0, 8]"
-401524066,2023,13,regular,2023-11-26T03:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,7,"[0, 7, 0, 0]",California,Pac-12,33,"[6, 14, 0, 13]"
-401532626,2023,13,regular,2023-11-26T04:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,27,"[7, 7, 7, 6]",Colorado State,Mountain West,24,"[7, 3, 0, 14]"
-401539476,2023,14,regular,2023-12-02T00:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,49,"[7, 14, 14, 14]",New Mexico State,Conference USA,35,"[7, 14, 14, 0]"
-401539475,2023,14,regular,2023-12-02T01:00:00.000Z,1,1,1,Allegiant Stadium,Washington,Pac-12,34,"[10, 10, 0, 14]",Oregon,Pac-12,31,"[0, 10, 14, 7]"
-401539481,2023,14,regular,2023-12-02T17:00:00.000Z,1,1,1,Ford Field,Toledo,Mid-American,14,"[0, 8, 6, 0]",Miami (OH),Mid-American,23,"[10, 0, 3, 10]"
-401539479,2023,14,regular,2023-12-02T17:00:00.000Z,1,1,1,AT&T Stadium,Texas,Big 12,49,"[21, 14, 7, 7]",Oklahoma State,Big 12,21,"[7, 7, 0, 7]"
-401539482,2023,14,regular,2023-12-02T20:00:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,20,"[7, 10, 3, 0]",Boise State,Mountain West,44,"[14, 17, 10, 3]"
-401539484,2023,14,regular,2023-12-02T21:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,49,"[0, 14, 7, 28]",App State,Sun Belt,23,"[0, 7, 10, 6]"
-401539477,2023,14,regular,2023-12-02T21:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,14,"[7, 0, 7, 0]",SMU,American Athletic,26,"[7, 7, 3, 9]"
-401539483,2023,14,regular,2023-12-02T21:00:00.000Z,1,1,1,Mercedes-Benz Stadium,Alabama,SEC,27,"[3, 14, 3, 7]",Georgia,SEC,24,"[7, 0, 3, 14]"
-401539480,2023,14,regular,2023-12-03T01:00:00.000Z,1,1,1,Lucas Oil Stadium,Iowa,Big Ten,0,"[0, 0, 0, 0]",Michigan,Big Ten,26,"[10, 0, 10, 6]"
-401539478,2023,14,regular,2023-12-03T01:00:00.000Z,1,1,1,Bank of America Stadium,Florida State,ACC,16,"[0, 3, 7, 6]",Louisville,ACC,6,"[0, 0, 3, 3]"
-401520445,2023,15,regular,2023-12-09T20:00:00.000Z,1,1,0,Gillette Stadium,Army,FBS Independents,17,"[0, 10, 0, 7]",Navy,American Athletic,11,"[0, 0, 0, 11]"
+id,season,week,season_type,start_date,completed,neutral_site,conference_game,venue_id,venue,home_id,home_team,home_conference,home_points,away_id,away_team,away_conference,away_points
+401525434,2023,1,,,1,,,,Aviva Stadium,,,,,,,,
+401520145,2023,1,,,1,,,,AmFirst Stadium,,,,,,,,
+401525450,2023,1,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401532392,2023,1,,,1,,,,Snapdragon Stadium,,,,,,,,
+401520147,2023,1,,,1,,,,FirstBank Stadium,,,,,,,,
+401523986,2023,1,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401520146,2023,1,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401532393,2023,1,,,1,,,,Waldo Stadium,,,,,,,,
+401531834,2023,1,,,1,,,,Center Parc Stadium,,,,,,,,
+401525461,2023,1,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401525816,2023,1,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401520174,2023,1,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401520176,2023,1,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401520148,2023,1,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401520165,2023,1,,,1,,,,Memorial Stadium,,,,,,,,
+401531337,2023,1,,,1,,,,Chapman Stadium,,,,,,,,
+401531377,2023,1,,,1,,,,Protective Stadium,,,,,,,,
+401523987,2023,1,,,1,,,,Mountain America Stadium,,,,,,,,
+401532394,2023,1,,,1,,,,Rynearson Stadium,,,,,,,,
+401520163,2023,1,,,1,,,,Spartan Stadium,,,,,,,,
+401525463,2023,1,,,1,,,,Hard Rock Stadium,,,,,,,,
+401525462,2023,1,,,1,,,,Mercedes-Benz Stadium,,,,,,,,
+401525815,2023,1,,,1,,,,Memorial Stadium,,,,,,,,
+401523988,2023,1,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401525822,2023,1,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401520179,2023,1,,,1,,,,Nissan Stadium,,,,,,,,
+401520159,2023,1,,,1,,,,Kroger Field,,,,,,,,
+401523994,2023,1,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401520172,2023,1,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401525464,2023,1,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401520162,2023,1,,,1,,,,Michigan Stadium,,,,,,,,
+401520160,2023,1,,,1,,,,Williams Stadium (VA),,,,,,,,
+401520157,2023,1,,,1,,,,Kinnick Stadium,,,,,,,,
+401520170,2023,1,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401532570,2023,1,,,1,,,,Falcon Stadium,,,,,,,,
+401532395,2023,1,,,1,,,,Peden Stadium,,,,,,,,
+401520158,2023,1,,,1,,,,AmFirst Stadium,,,,,,,,
+401525820,2023,1,,,1,,,,Jack Trice Stadium,,,,,,,,
+401531387,2023,1,,,1,,,,Lincoln Financial Field,,,,,,,,
+401520168,2023,1,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401523992,2023,1,,,1,,,,Autzen Stadium,,,,,,,,
+401525465,2023,1,,,1,,,,Acrisure Stadium,,,,,,,,
+401520180,2023,1,,,1,,,,Camp Randall Stadium,,,,,,,,
+401525435,2023,1,,,1,,,,Notre Dame Stadium,,,,,,,,
+401523997,2023,1,,,1,,,,Husky Stadium,,,,,,,,
+401531835,2023,1,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401525818,2023,1,,,1,,,,Nippert Stadium,,,,,,,,
+401520181,2023,1,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401525824,2023,1,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401520156,2023,1,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520161,2023,1,,,1,,,,SECU Stadium,,,,,,,,
+401520151,2023,1,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401525466,2023,1,,,1,,,,JMA Wireless Dome,,,,,,,,
+401520150,2023,1,,,1,,,,War Memorial Stadium (AR),,,,,,,,
+401520164,2023,1,,,1,,,,Davis Wade Stadium,,,,,,,,
+401523991,2023,1,,,1,,,,DATCU Stadium,,,,,,,,
+401532572,2023,1,,,1,,,,Allegiant Stadium,,,,,,,,
+401531402,2023,1,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401520154,2023,1,,,1,,,,Sanford Stadium,,,,,,,,
+401531837,2023,1,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401531418,2023,1,,,1,,,,FAU Stadium,,,,,,,,
+401531838,2023,1,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401531836,2023,1,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401523996,2023,1,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401520153,2023,1,,,1,,,,FIU Stadium,,,,,,,,
+401520173,2023,1,,,1,,,,Kyle Field,,,,,,,,
+401525823,2023,1,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401525821,2023,1,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401525819,2023,1,,,1,,,,TDECU Stadium,,,,,,,,
+401531840,2023,1,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401531841,2023,1,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401523990,2023,1,,,1,,,,Canvas Stadium,,,,,,,,
+401525817,2023,1,,,1,,,,McLane Stadium,,,,,,,,
+401531426,2023,1,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401520178,2023,1,,,1,,,,FirstBank Stadium,,,,,,,,
+401520175,2023,1,,,1,,,,Malone Stadium,,,,,,,,
+401525825,2023,1,,,1,,,,War Memorial Stadium,,,,,,,,
+401520167,2023,1,,,1,,,,Bank of America Stadium,,,,,,,,
+401520155,2023,1,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401520169,2023,1,,,1,,,,Beaver Stadium,,,,,,,,
+401520149,2023,1,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401531839,2023,1,,,1,,,,Cajun Field,,,,,,,,
+401531347,2023,1,,,1,,,,Yulman Stadium,,,,,,,,
+401525467,2023,1,,,1,,,,Lane Stadium,,,,,,,,
+401520177,2023,1,,,1,,,,Sun Bowl,,,,,,,,
+401520166,2023,1,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401523989,2023,1,,,1,,,,Arizona Stadium,,,,,,,,
+401520152,2023,1,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401523995,2023,1,,,1,,,,Rose Bowl,,,,,,,,
+401532571,2023,1,,,1,,,,Snapdragon Stadium,,,,,,,,
+401520171,2023,1,,,1,,,,SHI Stadium,,,,,,,,
+401532573,2023,1,,,1,,,,CEFCU Stadium,,,,,,,,
+401520182,2023,1,,,1,,,,Camping World Stadium,,,,,,,,
+401525468,2023,1,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401525469,2023,2,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401520193,2023,2,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520195,2023,2,,,1,,,,Memorial Stadium,,,,,,,,
+401520216,2023,2,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401525490,2023,2,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401520188,2023,2,,,1,,,,Folsom Field,,,,,,,,
+401523999,2023,2,,,1,,,,McLane Stadium,,,,,,,,
+401520215,2023,2,,,1,,,,Lane Stadium,,,,,,,,
+401520208,2023,2,,,1,,,,Ohio Stadium,,,,,,,,
+401525436,2023,2,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401520191,2023,2,,,1,,,,Sanford Stadium,,,,,,,,
+401525498,2023,2,,,1,,,,Scott Stadium,,,,,,,,
+401525829,2023,2,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401520209,2023,2,,,1,,,,Beaver Stadium,,,,,,,,
+401520185,2023,2,,,1,,,,Michie Stadium,,,,,,,,
+401525494,2023,2,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401532396,2023,2,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401532400,2023,2,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401525491,2023,2,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401525828,2023,2,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401520196,2023,2,,,1,,,,Kroger Field,,,,,,,,
+401520203,2023,2,,,1,,,,Spartan Stadium,,,,,,,,
+401531432,2023,2,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401520214,2023,2,,,1,,,,Yulman Stadium,,,,,,,,
+401520202,2023,2,,,1,,,,Michigan Stadium,,,,,,,,
+401525497,2023,2,,,1,,,,JMA Wireless Dome,,,,,,,,
+401532398,2023,2,,,1,,,,Glass Bowl,,,,,,,,
+401526833,2023,2,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401531395,2023,2,,,1,,,,Alamodome,,,,,,,,
+401520201,2023,2,,,1,,,,Hard Rock Stadium,,,,,,,,
+401520207,2023,2,,,1,,,,Ryan Field,,,,,,,,
+401520194,2023,2,,,1,,,,Jack Trice Stadium,,,,,,,,
+401532397,2023,2,,,1,,,,Huskie Stadium,,,,,,,,
+401532580,2023,2,,,1,,,,War Memorial Stadium,,,,,,,,
+401520184,2023,2,,,1,,,,Razorback Stadium,,,,,,,,
+401532578,2023,2,,,1,,,,CEFCU Stadium,,,,,,,,
+401531411,2023,2,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401524004,2023,2,,,1,,,,Husky Stadium,,,,,,,,
+401531844,2023,2,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401520213,2023,2,,,1,,,,Neyland Stadium,,,,,,,,
+401525495,2023,2,,,1,,,,Kenan Stadium,,,,,,,,
+401525830,2023,2,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401525833,2023,2,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401532399,2023,2,,,1,,,,InfoCision Stadium,,,,,,,,
+401531378,2023,2,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401531842,2023,2,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401532401,2023,2,,,1,,,,UB Stadium,,,,,,,,
+401525492,2023,2,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401531419,2023,2,,,1,,,,FAU Stadium,,,,,,,,
+401520198,2023,2,,,1,,,,Williams Stadium (VA),,,,,,,,
+401520189,2023,2,,,1,,,,FIU Stadium,,,,,,,,
+401525496,2023,2,,,1,,,,Acrisure Stadium,,,,,,,,
+401532576,2023,2,,,1,,,,Mackay Stadium,,,,,,,,
+401525831,2023,2,,,1,,,,Rice Stadium,,,,,,,,
+401531422,2023,2,,,1,,,,Raymond James Stadium,,,,,,,,
+401520197,2023,2,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401520218,2023,2,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401531427,2023,2,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401525827,2023,2,,,1,,,,Albertsons Stadium,,,,,,,,
+401520187,2023,2,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401520192,2023,2,,,1,,,,Center Parc Stadium,,,,,,,,
+401520183,2023,2,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401524002,2023,2,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401520206,2023,2,,,1,,,,Memorial Stadium,,,,,,,,
+401520210,2023,2,,,1,,,,SHI Stadium,,,,,,,,
+401520199,2023,2,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401520205,2023,2,,,1,,,,Davis Wade Stadium,,,,,,,,
+401520204,2023,2,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401520190,2023,2,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401524001,2023,2,,,1,,,,Snapdragon Stadium,,,,,,,,
+401520217,2023,2,,,1,,,,Gesa Field,,,,,,,,
+401520212,2023,2,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401520200,2023,2,,,1,,,,SECU Stadium,,,,,,,,
+401531843,2023,2,,,1,,,,Malone Stadium,,,,,,,,
+401532579,2023,2,,,1,,,,Maverik Stadium,,,,,,,,
+401532577,2023,2,,,1,,,,University Stadium (NM),,,,,,,,
+401525832,2023,2,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401520211,2023,2,,,1,,,,NRG Stadium,,,,,,,,
+401525493,2023,2,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401532574,2023,2,,,1,,,,Valley Children's Stadium,,,,,,,,
+401524000,2023,2,,,1,,,,Reser Stadium,,,,,,,,
+401524003,2023,2,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401523998,2023,2,,,1,,,,Mountain America Stadium,,,,,,,,
+401520186,2023,2,,,1,,,,California Memorial Stadium,,,,,,,,
+401532575,2023,2,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401525499,2023,3,,,1,,,,Hard Rock Stadium,,,,,,,,
+401531428,2023,3,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401520231,2023,3,,,1,,,,SECU Stadium,,,,,,,,
+401531396,2023,3,,,1,,,,Alamodome,,,,,,,,
+401532581,2023,3,,,1,,,,Falcon Stadium,,,,,,,,
+401532582,2023,3,,,1,,,,Albertsons Stadium,,,,,,,,
+401525838,2023,3,,,1,,,,Peden Stadium,,,,,,,,
+401532404,2023,3,,,1,,,,Dix Stadium,,,,,,,,
+401520236,2023,3,,,1,,,,Memorial Stadium,,,,,,,,
+401520235,2023,3,,,1,,,,Davis Wade Stadium,,,,,,,,
+401520226,2023,3,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401520249,2023,3,,,1,,,,Camp Randall Stadium,,,,,,,,
+401520230,2023,3,,,1,,,,Lucas Oil Stadium,,,,,,,,
+401525834,2023,3,,,1,,,,McLane Stadium,,,,,,,,
+401525500,2023,3,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401520222,2023,3,,,1,,,,UB Stadium,,,,,,,,
+401525504,2023,3,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401532402,2023,3,,,1,,,,Scheumann Stadium,,,,,,,,
+401524012,2023,3,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401531388,2023,3,,,1,,,,Lincoln Financial Field,,,,,,,,
+401525502,2023,3,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401526834,2023,3,,,1,,,,Rynearson Stadium,,,,,,,,
+401525437,2023,3,,,1,,,,Notre Dame Stadium,,,,,,,,
+401520227,2023,3,,,1,,,,Kinnick Stadium,,,,,,,,
+401520243,2023,3,,,1,,,,SHI Stadium,,,,,,,,
+401525842,2023,3,,,1,,,,Chapman Stadium,,,,,,,,
+401520244,2023,3,,,1,,,,Raymond James Stadium,,,,,,,,
+401520239,2023,3,,,1,,,,Kenan Stadium,,,,,,,,
+401520223,2023,3,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401520246,2023,3,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401531412,2023,3,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401524009,2023,3,,,1,,,,Reser Stadium,,,,,,,,
+401520225,2023,3,,,1,,,,Sanford Stadium,,,,,,,,
+401520245,2023,3,,,1,,,,Kyle Field,,,,,,,,
+401524006,2023,3,,,1,,,,California Memorial Stadium,,,,,,,,
+401520240,2023,3,,,1,,,,Ohio Stadium,,,,,,,,
+401531348,2023,3,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401524013,2023,3,,,1,,,,Gesa Field,,,,,,,,
+401520233,2023,3,,,1,,,,Spartan Stadium,,,,,,,,
+401524011,2023,3,,,1,,,,Rose Bowl,,,,,,,,
+401531403,2023,3,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401525843,2023,3,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401520224,2023,3,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401531379,2023,3,,,1,,,,Protective Stadium,,,,,,,,
+401531441,2023,3,,,1,,,,Rice Stadium,,,,,,,,
+401531846,2023,3,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401531848,2023,3,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401531438,2023,3,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401525835,2023,3,,,1,,,,Nippert Stadium,,,,,,,,
+401520234,2023,3,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401520229,2023,3,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401531845,2023,3,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401532403,2023,3,,,1,,,,Glass Bowl,,,,,,,,
+401520221,2023,3,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401520237,2023,3,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401520247,2023,3,,,1,,,,Allegiant Stadium,,,,,,,,
+401525839,2023,3,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401525841,2023,3,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401520228,2023,3,,,1,,,,Kroger Field,,,,,,,,
+401520242,2023,3,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401520220,2023,3,,,1,,,,Razorback Stadium,,,,,,,,
+401520241,2023,3,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401525503,2023,3,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401520232,2023,3,,,1,,,,Michigan Stadium,,,,,,,,
+401520238,2023,3,,,1,,,,University Stadium (NM),,,,,,,,
+401524010,2023,3,,,1,,,,Stanford Stadium,,,,,,,,
+401524008,2023,3,,,1,,,,Autzen Stadium,,,,,,,,
+401525836,2023,3,,,1,,,,TDECU Stadium,,,,,,,,
+401525501,2023,3,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401525840,2023,3,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401531847,2023,3,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401524007,2023,3,,,1,,,,Folsom Field,,,,,,,,
+401524005,2023,3,,,1,,,,Mountain America Stadium,,,,,,,,
+401525837,2023,3,,,1,,,,Mackay Stadium,,,,,,,,
+401520219,2023,3,,,1,,,,Arizona Stadium,,,,,,,,
+401531849,2023,4,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401520266,2023,4,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401525505,2023,4,,,1,,,,Scott Stadium,,,,,,,,
+401532583,2023,4,,,1,,,,Snapdragon Stadium,,,,,,,,
+401532584,2023,4,,,1,,,,CEFCU Stadium,,,,,,,,
+401520270,2023,4,,,1,,,,Kyle Field,,,,,,,,
+401525849,2023,4,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401520260,2023,4,,,1,,,,Michigan Stadium,,,,,,,,
+401525507,2023,4,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401525845,2023,4,,,1,,,,Nippert Stadium,,,,,,,,
+401520274,2023,4,,,1,,,,FirstBank Stadium,,,,,,,,
+401520271,2023,4,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401525511,2023,4,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401520268,2023,4,,,1,,,,JMA Wireless Dome,,,,,,,,
+401531338,2023,4,,,1,,,,Huskie Stadium,,,,,,,,
+401532406,2023,4,,,1,,,,Glass Bowl,,,,,,,,
+401531871,2023,4,,,1,,,,Scheumann Stadium,,,,,,,,
+401520261,2023,4,,,1,,,,Spartan Stadium,,,,,,,,
+401525847,2023,4,,,1,,,,Memorial Stadium,,,,,,,,
+401525850,2023,4,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401526835,2023,4,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401532408,2023,4,,,1,,,,Yager Stadium,,,,,,,,
+401525509,2023,4,,,1,,,,Lincoln Financial Field,,,,,,,,
+401531873,2023,4,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401520250,2023,4,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401520272,2023,4,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401524015,2023,4,,,1,,,,Autzen Stadium,,,,,,,,
+401524017,2023,4,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401532405,2023,4,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401525506,2023,4,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401520263,2023,4,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401520255,2023,4,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401520269,2023,4,,,1,,,,Neyland Stadium,,,,,,,,
+401531423,2023,4,,,1,,,,Raymond James Stadium,,,,,,,,
+401525846,2023,4,,,1,,,,Jack Trice Stadium,,,,,,,,
+401520257,2023,4,,,1,,,,AmFirst Stadium,,,,,,,,
+401531876,2023,4,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401531413,2023,4,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401520275,2023,4,,,1,,,,FIU Stadium,,,,,,,,
+401525508,2023,4,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401531874,2023,4,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401520251,2023,4,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401531349,2023,4,,,1,,,,Yulman Stadium,,,,,,,,
+401520254,2023,4,,,1,,,,TDECU Stadium,,,,,,,,
+401520258,2023,4,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401531870,2023,4,,,1,,,,War Memorial Stadium,,,,,,,,
+401524019,2023,4,,,1,,,,Gesa Field,,,,,,,,
+401524016,2023,4,,,1,,,,Stanford Stadium,,,,,,,,
+401520262,2023,4,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401531877,2023,4,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401520264,2023,4,,,1,,,,Ryan Field,,,,,,,,
+401520265,2023,4,,,1,,,,Beaver Stadium,,,,,,,,
+401521330,2023,4,,,1,,,,Notre Dame Stadium,,,,,,,,
+401525844,2023,4,,,1,,,,McLane Stadium,,,,,,,,
+401520267,2023,4,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401520256,2023,4,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520259,2023,4,,,1,,,,The Dome at America's Center,,,,,,,,
+401520252,2023,4,,,1,,,,Sanford Stadium,,,,,,,,
+401531875,2023,4,,,1,,,,Cajun Field,,,,,,,,
+401525848,2023,4,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401531872,2023,4,,,1,,,,Maverik Stadium,,,,,,,,
+401525510,2023,4,,,1,,,,Acrisure Stadium,,,,,,,,
+401520273,2023,4,,,1,,,,Sun Bowl,,,,,,,,
+401524018,2023,4,,,1,,,,Husky Stadium,,,,,,,,
+401532407,2023,4,,,1,,,,Valley Children's Stadium,,,,,,,,
+401524014,2023,4,,,1,,,,Mountain America Stadium,,,,,,,,
+401520253,2023,4,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401531339,2023,5,,,1,,,,Chapman Stadium,,,,,,,,
+401520277,2023,5,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401520276,2023,5,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401525512,2023,5,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401524020,2023,5,,,1,,,,Reser Stadium,,,,,,,,
+401520278,2023,5,,,1,,,,Sun Bowl,,,,,,,,
+401525851,2023,5,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401520292,2023,5,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401531370,2023,5,,,1,,,,Yulman Stadium,,,,,,,,
+401520279,2023,5,,,1,,,,AT&T Stadium,,,,,,,,
+401520282,2023,5,,,1,,,,Kroger Field,,,,,,,,
+401520287,2023,5,,,1,,,,Ryan Field,,,,,,,,
+401520284,2023,5,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401525514,2023,5,,,1,,,,JMA Wireless Dome,,,,,,,,
+401532412,2023,5,,,1,,,,InfoCision Stadium,,,,,,,,
+401524023,2023,5,,,1,,,,Folsom Field,,,,,,,,
+401531880,2023,5,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401532410,2023,5,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401525513,2023,5,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401532413,2023,5,,,1,,,,Dix Stadium,,,,,,,,
+401524022,2023,5,,,1,,,,California Memorial Stadium,,,,,,,,
+401525854,2023,5,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401520289,2023,5,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401520286,2023,5,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401525855,2023,5,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401520290,2023,5,,,1,,,,SHI Stadium,,,,,,,,
+401525515,2023,5,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401531424,2023,5,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401532411,2023,5,,,1,,,,Glass Bowl,,,,,,,,
+401525856,2023,5,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401520280,2023,5,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401526836,2023,5,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401520283,2023,5,,,1,,,,SECU Stadium,,,,,,,,
+401532409,2023,5,,,1,,,,Waldo Stadium,,,,,,,,
+401531881,2023,5,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401532588,2023,5,,,1,,,,War Memorial Stadium,,,,,,,,
+401520293,2023,5,,,1,,,,FirstBank Stadium,,,,,,,,
+401531429,2023,5,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401532586,2023,5,,,1,,,,Allegiant Stadium,,,,,,,,
+401520288,2023,5,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401524024,2023,5,,,1,,,,Stanford Stadium,,,,,,,,
+401525852,2023,5,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401532585,2023,5,,,1,,,,Canvas Stadium,,,,,,,,
+401531883,2023,5,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401531436,2023,5,,,1,,,,DATCU Stadium,,,,,,,,
+401531414,2023,5,,,1,,,,Rice Stadium,,,,,,,,
+401531879,2023,5,,,1,,,,Center Parc Stadium,,,,,,,,
+401531878,2023,5,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401531404,2023,5,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401520281,2023,5,,,1,,,,Kinnick Stadium,,,,,,,,
+401525438,2023,5,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401520291,2023,5,,,1,,,,Neyland Stadium,,,,,,,,
+401532589,2023,5,,,1,,,,Falcon Stadium,,,,,,,,
+401525853,2023,5,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401531882,2023,5,,,1,,,,Malone Stadium,,,,,,,,
+401525516,2023,5,,,1,,,,Lane Stadium,,,,,,,,
+401520285,2023,5,,,1,,,,Davis Wade Stadium,,,,,,,,
+401524021,2023,5,,,1,,,,Arizona Stadium,,,,,,,,
+401532587,2023,5,,,1,,,,Valley Children's Stadium,,,,,,,,
+401520294,2023,6,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401520297,2023,6,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401520296,2023,6,,,1,,,,Williams Stadium (VA),,,,,,,,
+401520295,2023,6,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401525857,2023,6,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401520301,2023,6,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401526837,2023,6,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401520304,2023,6,,,1,,,,Davis Wade Stadium,,,,,,,,
+401525522,2023,6,,,1,,,,Scott Stadium,,,,,,,,
+401520305,2023,6,,,1,,,,Memorial Stadium,,,,,,,,
+401520307,2023,6,,,1,,,,Ohio Stadium,,,,,,,,
+401520311,2023,6,,,1,,,,Camp Randall Stadium,,,,,,,,
+401520298,2023,6,,,1,,,,Michie Stadium,,,,,,,,
+401525861,2023,6,,,1,,,,Cotton Bowl,,,,,,,,
+401532415,2023,6,,,1,,,,UB Stadium,,,,,,,,
+401531389,2023,6,,,1,,,,Lincoln Financial Field,,,,,,,,
+401525521,2023,6,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401520306,2023,6,,,1,,,,Ryan Field,,,,,,,,
+401524028,2023,6,,,1,,,,Rose Bowl,,,,,,,,
+401532417,2023,6,,,1,,,,Peden Stadium,,,,,,,,
+401532416,2023,6,,,1,,,,Yager Stadium,,,,,,,,
+401532414,2023,6,,,1,,,,Rynearson Stadium,,,,,,,,
+401525518,2023,6,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401525517,2023,6,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401525520,2023,6,,,1,,,,Kenan Stadium,,,,,,,,
+401520310,2023,6,,,1,,,,Kyle Field,,,,,,,,
+401520302,2023,6,,,1,,,,Kinnick Stadium,,,,,,,,
+401531433,2023,6,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401531884,2023,6,,,1,,,,Cajun Field,,,,,,,,
+401532418,2023,6,,,1,,,,InfoCision Stadium,,,,,,,,
+401525860,2023,6,,,1,,,,Memorial Stadium,,,,,,,,
+401531887,2023,6,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401520299,2023,6,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401531380,2023,6,,,1,,,,Protective Stadium,,,,,,,,
+401520309,2023,6,,,1,,,,Rice Stadium,,,,,,,,
+401531340,2023,6,,,1,,,,FAU Stadium,,,,,,,,
+401524026,2023,6,,,1,,,,Mountain America Stadium,,,,,,,,
+401520300,2023,6,,,1,,,,Sanford Stadium,,,,,,,,
+401531886,2023,6,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401531885,2023,6,,,1,,,,Malone Stadium,,,,,,,,
+401520303,2023,6,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401520308,2023,6,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401525439,2023,6,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401525519,2023,6,,,1,,,,Hard Rock Stadium,,,,,,,,
+401532592,2023,6,,,1,,,,Albertsons Stadium,,,,,,,,
+401532591,2023,6,,,1,,,,War Memorial Stadium,,,,,,,,
+401525859,2023,6,,,1,,,,Jack Trice Stadium,,,,,,,,
+401525858,2023,6,,,1,,,,McLane Stadium,,,,,,,,
+401532590,2023,6,,,1,,,,Maverik Stadium,,,,,,,,
+401524027,2023,6,,,1,,,,California Memorial Stadium,,,,,,,,
+401524025,2023,6,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401520313,2023,7,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401531888,2023,7,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401520312,2023,7,,,1,,,,AmFirst Stadium,,,,,,,,
+401520314,2023,7,,,1,,,,FIU Stadium,,,,,,,,
+401520315,2023,7,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401525862,2023,7,,,1,,,,TDECU Stadium,,,,,,,,
+401531415,2023,7,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401531371,2023,7,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401532594,2023,7,,,1,,,,Maverik Stadium,,,,,,,,
+401524029,2023,7,,,1,,,,Folsom Field,,,,,,,,
+401532422,2023,7,,,1,,,,Rynearson Stadium,,,,,,,,
+401520327,2023,7,,,1,,,,FirstBank Stadium,,,,,,,,
+401525863,2023,7,,,1,,,,Nippert Stadium,,,,,,,,
+401520323,2023,7,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401525524,2023,7,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401531390,2023,7,,,1,,,,DATCU Stadium,,,,,,,,
+401531890,2023,7,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401520321,2023,7,,,1,,,,Michigan Stadium,,,,,,,,
+401520324,2023,7,,,1,,,,SHI Stadium,,,,,,,,
+401520316,2023,7,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401531405,2023,7,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401532419,2023,7,,,1,,,,Scheumann Stadium,,,,,,,,
+401524033,2023,7,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401520317,2023,7,,,1,,,,Michie Stadium,,,,,,,,
+401520326,2023,7,,,1,,,,Neyland Stadium,,,,,,,,
+401520325,2023,7,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401525864,2023,7,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401525865,2023,7,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401531420,2023,7,,,1,,,,Raymond James Stadium,,,,,,,,
+401532423,2023,7,,,1,,,,Waldo Stadium,,,,,,,,
+401532420,2023,7,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401524034,2023,7,,,1,,,,Husky Stadium,,,,,,,,
+401532421,2023,7,,,1,,,,UB Stadium,,,,,,,,
+401525527,2023,7,,,1,,,,Lane Stadium,,,,,,,,
+401520320,2023,7,,,1,,,,SECU Stadium,,,,,,,,
+401520322,2023,7,,,1,,,,Beaver Stadium,,,,,,,,
+401520328,2023,7,,,1,,,,Camp Randall Stadium,,,,,,,,
+401532424,2023,7,,,1,,,,Huskie Stadium,,,,,,,,
+401532597,2023,7,,,1,,,,Mackay Stadium,,,,,,,,
+401532596,2023,7,,,1,,,,University Stadium (NM),,,,,,,,
+401525525,2023,7,,,1,,,,Acrisure Stadium,,,,,,,,
+401531889,2023,7,,,1,,,,Center Parc Stadium,,,,,,,,
+401532598,2023,7,,,1,,,,Falcon Stadium,,,,,,,,
+401531891,2023,7,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401524030,2023,7,,,1,,,,Gesa Field,,,,,,,,
+401520319,2023,7,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401525866,2023,7,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401524031,2023,7,,,1,,,,Notre Dame Stadium,,,,,,,,
+401525526,2023,7,,,1,,,,Kenan Stadium,,,,,,,,
+401520318,2023,7,,,1,,,,Kroger Field,,,,,,,,
+401525523,2023,7,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401524032,2023,7,,,1,,,,Reser Stadium,,,,,,,,
+401531381,2023,7,,,1,,,,Alamodome,,,,,,,,
+401532593,2023,7,,,1,,,,Canvas Stadium,,,,,,,,
+401532595,2023,7,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401520330,2023,8,,,1,,,,Williams Stadium (VA),,,,,,,,
+401531892,2023,8,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401520329,2023,8,,,1,,,,AmFirst Stadium,,,,,,,,
+401520331,2023,8,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401520332,2023,8,,,1,,,,Sun Bowl,,,,,,,,
+401531893,2023,8,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401531341,2023,8,,,1,,,,Chapman Stadium,,,,,,,,
+401531391,2023,8,,,1,,,,Lincoln Financial Field,,,,,,,,
+401525528,2023,8,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401520334,2023,8,,,1,,,,Razorback Stadium,,,,,,,,
+401532428,2023,8,,,1,,,,Peden Stadium,,,,,,,,
+401525868,2023,8,,,1,,,,Nippert Stadium,,,,,,,,
+401531434,2023,8,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401525871,2023,8,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401531382,2023,8,,,1,,,,Protective Stadium,,,,,,,,
+401520337,2023,8,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520343,2023,8,,,1,,,,Ohio Stadium,,,,,,,,
+401532429,2023,8,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401531406,2023,8,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401531894,2023,8,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401532430,2023,8,,,1,,,,Dix Stadium,,,,,,,,
+401525872,2023,8,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401531372,2023,8,,,1,,,,Yulman Stadium,,,,,,,,
+401520333,2023,8,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401532425,2023,8,,,1,,,,Scheumann Stadium,,,,,,,,
+401532426,2023,8,,,1,,,,Huskie Stadium,,,,,,,,
+401520344,2023,8,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401524035,2023,8,,,1,,,,Autzen Stadium,,,,,,,,
+401525532,2023,8,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401520341,2023,8,,,1,,,,Memorial Stadium,,,,,,,,
+401520342,2023,8,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401520338,2023,8,,,1,,,,Kinnick Stadium,,,,,,,,
+401520336,2023,8,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401525869,2023,8,,,1,,,,TDECU Stadium,,,,,,,,
+401532427,2023,8,,,1,,,,Yager Stadium,,,,,,,,
+401531397,2023,8,,,1,,,,FAU Stadium,,,,,,,,
+401532600,2023,8,,,1,,,,University Stadium (NM),,,,,,,,
+401525531,2023,8,,,1,,,,Kenan Stadium,,,,,,,,
+401531895,2023,8,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401531896,2023,8,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401525867,2023,8,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401520335,2023,8,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401525870,2023,8,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401532599,2023,8,,,1,,,,Allegiant Stadium,,,,,,,,
+401532602,2023,8,,,1,,,,CEFCU Stadium,,,,,,,,
+401520339,2023,8,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401520340,2023,8,,,1,,,,Spartan Stadium,,,,,,,,
+401525530,2023,8,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401531897,2023,8,,,1,,,,Cajun Field,,,,,,,,
+401525529,2023,8,,,1,,,,Hard Rock Stadium,,,,,,,,
+401524037,2023,8,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401532601,2023,8,,,1,,,,Snapdragon Stadium,,,,,,,,
+401524036,2023,8,,,1,,,,Stanford Stadium,,,,,,,,
+401524038,2023,8,,,1,,,,Husky Stadium,,,,,,,,
+401520345,2023,9,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401520346,2023,9,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401520347,2023,9,,,1,,,,FIU Stadium,,,,,,,,
+401520348,2023,9,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401531929,2023,9,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401525533,2023,9,,,1,,,,Lane Stadium,,,,,,,,
+401531407,2023,9,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401520356,2023,9,,,1,,,,Ryan Field,,,,,,,,
+401525875,2023,9,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401525878,2023,9,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401520351,2023,9,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401525874,2023,9,,,1,,,,Memorial Stadium,,,,,,,,
+401520349,2023,9,,,1,,,,Michie Stadium,,,,,,,,
+401531342,2023,9,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401520358,2023,9,,,1,,,,Beaver Stadium,,,,,,,,
+401525536,2023,9,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401520359,2023,9,,,1,,,,Kyle Field,,,,,,,,
+401532431,2023,9,,,1,,,,Rynearson Stadium,,,,,,,,
+401525534,2023,9,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401531430,2023,9,,,1,,,,DATCU Stadium,,,,,,,,
+401525877,2023,9,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401520352,2023,9,,,1,,,,EverBank Stadium,,,,,,,,
+401525873,2023,9,,,1,,,,McLane Stadium,,,,,,,,
+401520350,2023,9,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401532432,2023,9,,,1,,,,Peden Stadium,,,,,,,,
+401531898,2023,9,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401524044,2023,9,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401525538,2023,9,,,1,,,,Hard Rock Stadium,,,,,,,,
+401525535,2023,9,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401531398,2023,9,,,1,,,,Alamodome,,,,,,,,
+401520354,2023,9,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401520355,2023,9,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401525440,2023,9,,,1,,,,Notre Dame Stadium,,,,,,,,
+401531373,2023,9,,,1,,,,Rice Stadium,,,,,,,,
+401524041,2023,9,,,1,,,,California Memorial Stadium,,,,,,,,
+401531901,2023,9,,,1,,,,Malone Stadium,,,,,,,,
+401531902,2023,9,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401532607,2023,9,,,1,,,,Albertsons Stadium,,,,,,,,
+401531899,2023,9,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401524042,2023,9,,,1,,,,Stanford Stadium,,,,,,,,
+401532603,2023,9,,,1,,,,Canvas Stadium,,,,,,,,
+401531903,2023,9,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401520353,2023,9,,,1,,,,Kroger Field,,,,,,,,
+401520360,2023,9,,,1,,,,Camp Randall Stadium,,,,,,,,
+401524043,2023,9,,,1,,,,Rose Bowl,,,,,,,,
+401520357,2023,9,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401525876,2023,9,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401531900,2023,9,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401525537,2023,9,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401524040,2023,9,,,1,,,,Mountain America Stadium,,,,,,,,
+401532606,2023,9,,,1,,,,Valley Children's Stadium,,,,,,,,
+401532604,2023,9,,,1,,,,Mackay Stadium,,,,,,,,
+401524039,2023,9,,,1,,,,Arizona Stadium,,,,,,,,
+401532605,2023,9,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401532433,2023,10,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401532434,2023,10,,,1,,,,Glass Bowl,,,,,,,,
+401532435,2023,10,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401532436,2023,10,,,1,,,,InfoCision Stadium,,,,,,,,
+401525879,2023,10,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401531904,2023,10,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401525539,2023,10,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401525540,2023,10,,,1,,,,JMA Wireless Dome,,,,,,,,
+401532609,2023,10,,,1,,,,War Memorial Stadium,,,,,,,,
+401525884,2023,10,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401520376,2023,10,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401520375,2023,10,,,1,,,,SHI Stadium,,,,,,,,
+401520369,2023,10,,,1,,,,Spartan Stadium,,,,,,,,
+401520374,2023,10,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401525545,2023,10,,,1,,,,Kenan Stadium,,,,,,,,
+401525441,2023,10,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401520363,2023,10,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401520365,2023,10,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520377,2023,10,,,1,,,,Neyland Stadium,,,,,,,,
+401525451,2023,10,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401531392,2023,10,,,1,,,,Lincoln Financial Field,,,,,,,,
+401525542,2023,10,,,1,,,,Scott Stadium,,,,,,,,
+401524049,2023,10,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401520361,2023,10,,,1,,,,Sports Authority Field at Mile High,,,,,,,,
+401531425,2023,10,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401531908,2023,10,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401531383,2023,10,,,1,,,,Protective Stadium,,,,,,,,
+401531399,2023,10,,,1,,,,DATCU Stadium,,,,,,,,
+401531374,2023,10,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401531906,2023,10,,,1,,,,Center Parc Stadium,,,,,,,,
+401525543,2023,10,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401520364,2023,10,,,1,,,,Sanford Stadium,,,,,,,,
+401525541,2023,10,,,1,,,,Acrisure Stadium,,,,,,,,
+401520400,2023,10,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401520370,2023,10,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401525883,2023,10,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401531907,2023,10,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401525881,2023,10,,,1,,,,Nippert Stadium,,,,,,,,
+401520373,2023,10,,,1,,,,Wrigley Field,,,,,,,,
+401525880,2023,10,,,1,,,,McLane Stadium,,,,,,,,
+401520367,2023,10,,,1,,,,SECU Stadium,,,,,,,,
+401531909,2023,10,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401520379,2023,10,,,1,,,,FirstBank Stadium,,,,,,,,
+401531343,2023,10,,,1,,,,Chapman Stadium,,,,,,,,
+401532610,2023,10,,,1,,,,Mackay Stadium,,,,,,,,
+401531910,2023,10,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401524047,2023,10,,,1,,,,Autzen Stadium,,,,,,,,
+401520372,2023,10,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401520366,2023,10,,,1,,,,Williams Stadium (VA),,,,,,,,
+401531905,2023,10,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401532611,2023,10,,,1,,,,University Stadium (NM),,,,,,,,
+401525885,2023,10,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401532612,2023,10,,,1,,,,Snapdragon Stadium,,,,,,,,
+401525882,2023,10,,,1,,,,Jack Trice Stadium,,,,,,,,
+401524048,2023,10,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401520371,2023,10,,,1,,,,Davis Wade Stadium,,,,,,,,
+401531440,2023,10,,,1,,,,Rice Stadium,,,,,,,,
+401520368,2023,10,,,1,,,,Michigan Stadium,,,,,,,,
+401520362,2023,10,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401525544,2023,10,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401524050,2023,10,,,1,,,,Gesa Field,,,,,,,,
+401520378,2023,10,,,1,,,,Sun Bowl,,,,,,,,
+401524046,2023,10,,,1,,,,Folsom Field,,,,,,,,
+401532608,2023,10,,,1,,,,Valley Children's Stadium,,,,,,,,
+401524045,2023,10,,,1,,,,Arizona Stadium,,,,,,,,
+401532438,2023,11,,,1,,,,Waldo Stadium,,,,,,,,
+401532437,2023,11,,,1,,,,Huskie Stadium,,,,,,,,
+401532439,2023,11,,,1,,,,UB Stadium,,,,,,,,
+401532442,2023,11,,,1,,,,Dix Stadium,,,,,,,,
+401532441,2023,11,,,1,,,,Yager Stadium,,,,,,,,
+401532440,2023,11,,,1,,,,Glass Bowl,,,,,,,,
+401525546,2023,11,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401531911,2023,11,,,1,,,,Cajun Field,,,,,,,,
+401531437,2023,11,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401532618,2023,11,,,1,,,,Allegiant Stadium,,,,,,,,
+401531393,2023,11,,,1,,,,Raymond James Stadium,,,,,,,,
+401520396,2023,11,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401520386,2023,11,,,1,,,,Kroger Field,,,,,,,,
+401525888,2023,11,,,1,,,,Memorial Stadium,,,,,,,,
+401520381,2023,11,,,1,,,,Michie Stadium,,,,,,,,
+401531344,2023,11,,,1,,,,Yulman Stadium,,,,,,,,
+401520383,2023,11,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401520392,2023,11,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401525547,2023,11,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401525548,2023,11,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401520394,2023,11,,,1,,,,Beaver Stadium,,,,,,,,
+401520388,2023,11,,,1,,,,Williams Stadium (VA),,,,,,,,
+401524052,2023,11,,,1,,,,Folsom Field,,,,,,,,
+401531408,2023,11,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401520385,2023,11,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401531913,2023,11,,,1,,,,Center Parc Stadium,,,,,,,,
+401525551,2023,11,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401531915,2023,11,,,1,,,,Malone Stadium,,,,,,,,
+401520387,2023,11,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401532615,2023,11,,,1,,,,Maverik Stadium,,,,,,,,
+401525889,2023,11,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401520390,2023,11,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401531912,2023,11,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401520399,2023,11,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401531384,2023,11,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401520398,2023,11,,,1,,,,Camp Randall Stadium,,,,,,,,
+401524056,2023,11,,,1,,,,Husky Stadium,,,,,,,,
+401525892,2023,11,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401520395,2023,11,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401525550,2023,11,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401525552,2023,11,,,1,,,,Yankee Stadium,,,,,,,,
+401520391,2023,11,,,1,,,,Memorial Stadium,,,,,,,,
+401520384,2023,11,,,1,,,,Kinnick Stadium,,,,,,,,
+401520380,2023,11,,,1,,,,Razorback Stadium,,,,,,,,
+401524051,2023,11,,,1,,,,California Memorial Stadium,,,,,,,,
+401531416,2023,11,,,1,,,,FAU Stadium,,,,,,,,
+401531916,2023,11,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401524054,2023,11,,,1,,,,Reser Stadium,,,,,,,,
+401532617,2023,11,,,1,,,,Canvas Stadium,,,,,,,,
+401525887,2023,11,,,1,,,,TDECU Stadium,,,,,,,,
+401531914,2023,11,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401520382,2023,11,,,1,,,,Sanford Stadium,,,,,,,,
+401525890,2023,11,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401520397,2023,11,,,1,,,,Kyle Field,,,,,,,,
+401525891,2023,11,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401531400,2023,11,,,1,,,,Alamodome,,,,,,,,
+401520389,2023,11,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401520393,2023,11,,,1,,,,Ohio Stadium,,,,,,,,
+401525549,2023,11,,,1,,,,Kenan Stadium,,,,,,,,
+401524055,2023,11,,,1,,,,Rose Bowl,,,,,,,,
+401532616,2023,11,,,1,,,,Albertsons Stadium,,,,,,,,
+401525886,2023,11,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401524053,2023,11,,,1,,,,Autzen Stadium,,,,,,,,
+401532614,2023,11,,,1,,,,CEFCU Stadium,,,,,,,,
+401532613,2023,11,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401532444,2023,12,,,1,,,,Huskie Stadium,,,,,,,,
+401532443,2023,12,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401532445,2023,12,,,1,,,,Rynearson Stadium,,,,,,,,
+401532446,2023,12,,,1,,,,Peden Stadium,,,,,,,,
+401532447,2023,12,,,1,,,,Yager Stadium,,,,,,,,
+401525553,2023,12,,,1,,,,Acrisure Stadium,,,,,,,,
+401531401,2023,12,,,1,,,,Alamodome,,,,,,,,
+401524057,2023,12,,,1,,,,Gesa Field,,,,,,,,
+401520405,2023,12,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401520403,2023,12,,,1,,,,Michie Stadium,,,,,,,,
+401531431,2023,12,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401531417,2023,12,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401520417,2023,12,,,1,,,,Beaver Stadium,,,,,,,,
+401520410,2023,12,,,1,,,,SECU Stadium,,,,,,,,
+401520412,2023,12,,,1,,,,Davis Wade Stadium,,,,,,,,
+401520420,2023,12,,,1,,,,Kyle Field,,,,,,,,
+401525558,2023,12,,,1,,,,Hard Rock Stadium,,,,,,,,
+401525893,2023,12,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401520421,2023,12,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401520401,2023,12,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401520416,2023,12,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401520414,2023,12,,,1,,,,Ryan Field,,,,,,,,
+401531375,2023,12,,,1,,,,FAU Stadium,,,,,,,,
+401520408,2023,12,,,1,,,,Williams Stadium (VA),,,,,,,,
+401520411,2023,12,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401520407,2023,12,,,1,,,,AmFirst Stadium,,,,,,,,
+401531409,2023,12,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401532448,2023,12,,,1,,,,Scheumann Stadium,,,,,,,,
+401531918,2023,12,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401532620,2023,12,,,1,,,,War Memorial Stadium,,,,,,,,
+401524058,2023,12,,,1,,,,Arizona Stadium,,,,,,,,
+401525899,2023,12,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401531919,2023,12,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401531345,2023,12,,,1,,,,Chapman Stadium,,,,,,,,
+401525555,2023,12,,,1,,,,Scott Stadium,,,,,,,,
+401532621,2023,12,,,1,,,,Canvas Stadium,,,,,,,,
+401531385,2023,12,,,1,,,,Protective Stadium,,,,,,,,
+401532624,2023,12,,,1,,,,Falcon Stadium,,,,,,,,
+401524062,2023,12,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401525554,2023,12,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401525559,2023,12,,,1,,,,Lane Stadium,,,,,,,,
+401531921,2023,12,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401525897,2023,12,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401520406,2023,12,,,1,,,,Kinnick Stadium,,,,,,,,
+401520419,2023,12,,,1,,,,Neyland Stadium,,,,,,,,
+401520423,2023,12,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401525442,2023,12,,,1,,,,Notre Dame Stadium,,,,,,,,
+401525894,2023,12,,,1,,,,TDECU Stadium,,,,,,,,
+401524059,2023,12,,,1,,,,Mountain America Stadium,,,,,,,,
+401520415,2023,12,,,1,,,,Ohio Stadium,,,,,,,,
+401520404,2023,12,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401531920,2023,12,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401525898,2023,12,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401531917,2023,12,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401524061,2023,12,,,1,,,,Stanford Stadium,,,,,,,,
+401525556,2023,12,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401532619,2023,12,,,1,,,,Maverik Stadium,,,,,,,,
+401525896,2023,12,,,1,,,,Memorial Stadium,,,,,,,,
+401520413,2023,12,,,1,,,,Memorial Stadium,,,,,,,,
+401520422,2023,12,,,1,,,,Camp Randall Stadium,,,,,,,,
+401520402,2023,12,,,1,,,,Razorback Stadium,,,,,,,,
+401520418,2023,12,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401524060,2023,12,,,1,,,,Reser Stadium,,,,,,,,
+401525895,2023,12,,,1,,,,Jack Trice Stadium,,,,,,,,
+401525557,2023,12,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401520409,2023,12,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401532623,2023,12,,,1,,,,CEFCU Stadium,,,,,,,,
+401532622,2023,12,,,1,,,,Valley Children's Stadium,,,,,,,,
+401532450,2023,13,,,1,,,,Waldo Stadium,,,,,,,,
+401532449,2023,13,,,1,,,,UB Stadium,,,,,,,,
+401520424,2023,13,,,1,,,,Davis Wade Stadium,,,,,,,,
+401525560,2023,13,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401525900,2023,13,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401520425,2023,13,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401531394,2023,13,,,1,,,,Lincoln Financial Field,,,,,,,,
+401532452,2023,13,,,1,,,,InfoCision Stadium,,,,,,,,
+401532451,2023,13,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401532629,2023,13,,,1,,,,University Stadium (NM),,,,,,,,
+401531376,2023,13,,,1,,,,Yulman Stadium,,,,,,,,
+401520426,2023,13,,,1,,,,Razorback Stadium,,,,,,,,
+401532625,2023,13,,,1,,,,Albertsons Stadium,,,,,,,,
+401520435,2023,13,,,1,,,,Ford Field,,,,,,,,
+401525901,2023,13,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401524063,2023,13,,,1,,,,Autzen Stadium,,,,,,,,
+401532453,2023,13,,,1,,,,Dix Stadium,,,,,,,,
+401520432,2023,13,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401520433,2023,13,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401520440,2023,13,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401520438,2023,13,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401520434,2023,13,,,1,,,,Michigan Stadium,,,,,,,,
+401532454,2023,13,,,1,,,,Scheumann Stadium,,,,,,,,
+401531927,2023,13,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401531435,2023,13,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401525906,2023,13,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401525561,2023,13,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401520443,2023,13,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401531421,2023,13,,,1,,,,Rice Stadium,,,,,,,,
+401531925,2023,13,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401525563,2023,13,,,1,,,,JMA Wireless Dome,,,,,,,,
+401531346,2023,13,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401531386,2023,13,,,1,,,,DATCU Stadium,,,,,,,,
+401532628,2023,13,,,1,,,,Allegiant Stadium,,,,,,,,
+401524067,2023,13,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401531926,2023,13,,,1,,,,Cajun Field,,,,,,,,
+401520428,2023,13,,,1,,,,FIU Stadium,,,,,,,,
+401525905,2023,13,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401531924,2023,13,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401531923,2023,13,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401531922,2023,13,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401525564,2023,13,,,1,,,,Scott Stadium,,,,,,,,
+401520436,2023,13,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401520431,2023,13,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401520444,2023,13,,,1,,,,Sun Bowl,,,,,,,,
+401520427,2023,13,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401524064,2023,13,,,1,,,,Mountain America Stadium,,,,,,,,
+401520442,2023,13,,,1,,,,Neyland Stadium,,,,,,,,
+401520439,2023,13,,,1,,,,SHI Stadium,,,,,,,,
+401520437,2023,13,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401524068,2023,13,,,1,,,,Husky Stadium,,,,,,,,
+401525902,2023,13,,,1,,,,McLane Stadium,,,,,,,,
+401531928,2023,13,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401520429,2023,13,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401524065,2023,13,,,1,,,,Stanford Stadium,,,,,,,,
+401520430,2023,13,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401525903,2023,13,,,1,,,,Nippert Stadium,,,,,,,,
+401531410,2023,13,,,1,,,,Raymond James Stadium,,,,,,,,
+401520441,2023,13,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401525904,2023,13,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401525562,2023,13,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401532630,2023,13,,,1,,,,Mackay Stadium,,,,,,,,
+401532627,2023,13,,,1,,,,Snapdragon Stadium,,,,,,,,
+401524066,2023,13,,,1,,,,Rose Bowl,,,,,,,,
+401532626,2023,13,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401539476,2023,14,,,1,,,,Williams Stadium (VA),,,,,,,,
+401539475,2023,14,,,1,,,,Allegiant Stadium,,,,,,,,
+401539481,2023,14,,,1,,,,Ford Field,,,,,,,,
+401539479,2023,14,,,1,,,,AT&T Stadium,,,,,,,,
+401539482,2023,14,,,1,,,,Allegiant Stadium,,,,,,,,
+401539484,2023,14,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401539477,2023,14,,,1,,,,Yulman Stadium,,,,,,,,
+401539483,2023,14,,,1,,,,Mercedes-Benz Stadium,,,,,,,,
+401539480,2023,14,,,1,,,,Lucas Oil Stadium,,,,,,,,
+401539478,2023,14,,,1,,,,Bank of America Stadium,,,,,,,,
+401520445,2023,15,,,1,,,,Gillette Stadium,,,,,,,,

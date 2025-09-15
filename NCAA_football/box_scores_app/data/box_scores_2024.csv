@@ -1,874 +1,874 @@
-id,season,week,seasonType,startDate,completed,neutralSite,conferenceGame,venue,homeTeam,homeConference,homePoints,homeLineScores,awayTeam,awayConference,awayPoints,awayLineScores
-401635525,2024,1,regular,2024-08-24T16:00:00.000Z,1,1,1,Aviva Stadium,Georgia Tech,ACC,24.0,"[7, 7, 0, 10]",Florida State,ACC,21.0,"[8, 6, 0, 7]"
-401643697,2024,1,regular,2024-08-24T20:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,31.0,"[10, 14, 7, 0]",Montana State,Big Sky,35.0,"[0, 14, 0, 21]"
-401643696,2024,1,regular,2024-08-25T00:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,24.0,"[7, 10, 7, 0]",SMU,ACC,29.0,"[0, 10, 3, 16]"
-401643858,2024,1,regular,2024-08-25T03:59:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,35.0,"[14, 0, 7, 14]",Delaware State,MEAC,14.0,"[0, 7, 7, 0]"
-401628458,2024,1,regular,2024-08-29T22:00:00.000Z,1,0,0,SHI Stadium,Rutgers,Big Ten,44.0,"[7, 10, 14, 13]",Howard,MEAC,7.0,"[0, 7, 0, 0]"
-401628582,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,Big 12,57.0,"[6, 23, 28, 0]",New Hampshire,CAA,3.0,"[0, 3, 0, 0]"
-401644730,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,66.0,"[14, 28, 24, 0]",Central Connecticut,NEC,10.0,"[7, 0, 3, 0]"
-401634299,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,38.0,"[7, 7, 3, 21]",Western Carolina,Southern,21.0,"[14, 0, 7, 0]"
-401628581,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,45.0,"[7, 10, 21, 7]",North Carolina A&T,CAA,13.0,"[7, 3, 0, 3]"
-401636387,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,30.0,"[7, 7, 7, 9]",Jackson State,SWAC,14.0,"[0, 7, 7, 0]"
-401644729,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,41.0,"[20, 7, 7, 7]",Fordham,Patriot,17.0,"[0, 3, 7, 7]"
-401644727,2024,1,regular,2024-08-29T23:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,30.0,"[13, 3, 7, 7]",Lafayette,Patriot,13.0,"[0, 0, 6, 7]"
-401628320,2024,1,regular,2024-08-29T23:30:00.000Z,1,1,0,War Memorial Stadium (AR),Arkansas,SEC,70.0,"[28, 21, 7, 14]",Arkansas-Pine Bluff,SWAC,0.0,"[0, 0, 0, 0]"
-401644728,2024,1,regular,2024-08-29T23:30:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,49.0,"[21, 7, 14, 7]",Duquesne,NEC,10.0,"[7, 3, 0, 0]"
-401645318,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,62.0,"[14, 27, 7, 14]",Northwestern State,Southland,28.0,"[14, 0, 0, 14]"
-401628327,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,51.0,"[28, 7, 10, 6]",Murray State,MVFC,0.0,"[0, 0, 0, 0]"
-401636606,2024,1,regular,2024-08-30T00:00:00.000Z,1,1,0,Children's Mercy Park,Kansas,Big 12,48.0,"[7, 27, 7, 7]",Lindenwood,Big South-OVC,3.0,"[0, 0, 0, 3]"
-401645317,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,52.0,"[7, 14, 14, 17]",SE Louisiana,Southland,0.0,"[0, 0, 0, 0]"
-401628448,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,17.0,"[0, 14, 0, 3]",North Carolina,ACC,19.0,"[0, 7, 6, 6]"
-401645316,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Protective Stadium,UAB,American Athletic,41.0,"[14, 14, 3, 10]",Alcorn State,SWAC,3.0,"[3, 0, 0, 0]"
-401634206,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,Folsom Field,Colorado,Big 12,31.0,"[14, 3, 7, 7]",North Dakota State,MVFC,26.0,"[10, 10, 0, 6]"
-401640998,2024,1,regular,2024-08-30T00:00:00.000Z,1,0,0,AmFirst Stadium,Jacksonville State,Conference USA,27.0,"[3, 7, 0, 17]",Coastal Carolina,Sun Belt,55.0,"[17, 14, 10, 14]"
-401654845,2024,1,regular,2024-08-30T01:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,45.0,"[14, 17, 7, 7]",Eastern Illinois,Big South-OVC,0.0,"[0, 0, 0, 0]"
-401636607,2024,1,regular,2024-08-30T01:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Big 12,49.0,"[7, 28, 7, 7]",Southern Utah,UAC,0.0,"[0, 0, 0, 0]"
-401643698,2024,1,regular,2024-08-30T02:00:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,42.0,"[7, 7, 7, 21]",Sacramento State,Big Sky,24.0,"[14, 3, 7, 0]"
-401645319,2024,1,regular,2024-08-30T22:00:00.000Z,1,0,0,Michie Stadium,Army,American Athletic,42.0,"[7, 14, 7, 14]",Lehigh,Patriot,7.0,"[7, 0, 0, 0]"
-401628453,2024,1,regular,2024-08-30T23:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,16.0,"[2, 14, 0, 0]",Florida Atlantic,American Athletic,10.0,"[0, 3, 7, 0]"
-401628328,2024,1,regular,2024-08-30T23:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,51.0,"[17, 17, 3, 14]",Temple,American Athletic,3.0,"[0, 0, 3, 0]"
-401628584,2024,1,regular,2024-08-30T23:30:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,26.0,"[3, 7, 9, 7]",Elon,CAA,3.0,"[0, 0, 0, 3]"
-401628461,2024,1,regular,2024-08-31T01:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,28.0,"[0, 10, 3, 15]",Western Michigan,Mid-American,14.0,"[0, 7, 0, 7]"
-401634300,2024,1,regular,2024-08-31T02:30:00.000Z,1,0,0,Stanford Stadium,Stanford,ACC,27.0,"[7, 10, 0, 10]",TCU,Big 12,34.0,"[7, 3, 10, 14]"
-401643703,2024,1,regular,2024-08-31T04:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,36.0,"[7, 3, 10, 16]",Robert Morris,NEC,14.0,"[0, 14, 0, 0]"
-401634169,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,49.0,"[7, 14, 14, 14]",Indiana State,MVFC,0.0,"[0, 0, 0, 0]"
-401628323,2024,1,regular,2024-08-31T16:00:00.000Z,1,1,0,Mercedes-Benz Stadium,Georgia,SEC,34.0,"[0, 6, 14, 14]",Clemson,ACC,3.0,"[0, 0, 3, 0]"
-401628457,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,12.0,"[0, 6, 0, 6]",Penn State,Big Ten,34.0,"[0, 20, 7, 7]"
-401628451,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,50.0,"[14, 9, 13, 14]",UConn,FBS Independents,7.0,"[0, 0, 7, 0]"
-401634305,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,55.0,"[14, 14, 14, 13]",Kent State,Mid-American,24.0,"[7, 7, 10, 0]"
-401632062,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,62.0,"[10, 28, 21, 3]",Austin Peay,UAC,0.0,"[0, 0, 0, 0]"
-401628333,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,34.0,"[3, 14, 3, 7, 7]",Virginia Tech,ACC,27.0,"[0, 3, 10, 14, 0]"
-401645322,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,49.0,"[6, 22, 7, 14]",Bucknell,Patriot,21.0,"[7, 0, 7, 7]"
-401628450,2024,1,regular,2024-08-31T16:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,40.0,"[3, 3, 13, 21]",Illinois State,MVFC,0.0,"[0, 0, 0, 0]"
-401628330,2024,1,regular,2024-08-31T16:45:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,69.0,"[24, 21, 10, 14]",Chattanooga,Southern,3.0,"[0, 0, 3, 0]"
-401634212,2024,1,regular,2024-08-31T18:00:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,44.0,"[10, 7, 21, 6]",South Dakota State,MVFC,20.0,"[0, 6, 7, 7]"
-401628591,2024,1,regular,2024-08-31T18:30:00.000Z,1,0,0,Nippert Stadium,Cincinnati,Big 12,38.0,"[21, 7, 10, 0]",Towson,CAA,20.0,"[3, 14, 3, 0]"
-401637159,2024,1,regular,2024-08-31T19:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,70.0,"[22, 27, 14, 7]",Portland State,Big Sky,30.0,"[7, 10, 6, 7]"
-401628331,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,SEC,52.0,"[7, 24, 14, 7]",Colorado State,Mountain West,0.0,"[0, 0, 0, 0]"
-401634304,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,38.0,"[0, 17, 14, 7]",Ohio,Mid-American,22.0,"[6, 3, 7, 6]"
-401641015,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Alamodome,UTSA,American Athletic,28.0,"[14, 7, 0, 7]",Kennesaw State,Conference USA,16.0,"[3, 3, 3, 7]"
-401634197,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,21.0,"[7, 7, 0, 7]",North Dakota,MVFC,3.0,"[0, 3, 0, 0]"
-401629039,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,14.0,"[0, 0, 7, 7]",Eastern Michigan,Mid-American,28.0,"[0, 14, 3, 11]"
-401628322,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,17.0,"[3, 7, 0, 7]",Miami,ACC,41.0,"[7, 17, 14, 3]"
-401643699,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,21.0,"[7, 7, 0, 7]",Merrimack,FCS Independents,6.0,"[0, 0, 0, 6]"
-401628454,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,40.0,"[7, 23, 7, 3]",UTEP,Conference USA,7.0,"[7, 0, 0, 0]"
-401628455,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,52.0,"[7, 10, 21, 14]",Akron,Mid-American,6.0,"[3, 0, 3, 0]"
-401644731,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,54.0,"[6, 28, 13, 7]",Western Illinois,Big South-OVC,15.0,"[3, 0, 5, 7]"
-401644683,2024,1,regular,2024-08-31T19:30:00.000Z,1,1,0,Lanny and Sharon Martin Stadium,Northwestern,Big Ten,13.0,"[3, 0, 7, 3]",Miami (OH),Mid-American,6.0,"[3, 0, 0, 3]"
-401628449,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,31.0,"[14, 7, 3, 7]",Florida International,Conference USA,7.0,"[0, 7, 0, 0]"
-401634133,2024,1,regular,2024-08-31T19:30:00.000Z,1,0,0,Kidd Brewer Stadium,App State,Sun Belt,38.0,"[10, 7, 7, 14]",East Tennessee State,Southern,10.0,"[0, 7, 3, 0]"
-401643700,2024,1,regular,2024-08-31T20:00:00.000Z,1,0,0,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,45.0,"[0, 16, 14, 15]",Boise State,Mountain West,56.0,"[14, 14, 8, 20]"
-401628329,2024,1,regular,2024-08-31T20:15:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,23.0,"[10, 3, 3, 7]",Old Dominion,Sun Belt,19.0,"[7, 0, 9, 3]"
-401628590,2024,1,regular,2024-08-31T21:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Sun Belt,45.0,"[7, 10, 7, 21]",Stony Brook,CAA,3.0,"[0, 0, 3, 0]"
-401634301,2024,1,regular,2024-08-31T21:00:00.000Z,1,0,0,California Memorial Stadium,California,ACC,31.0,"[7, 7, 10, 7]",UC Davis,Big Sky,13.0,"[6, 7, 0, 0]"
-401643775,2024,1,regular,2024-08-31T21:00:00.000Z,1,0,0,Hancock Whitney Stadium,South Alabama,Sun Belt,38.0,"[3, 16, 7, 12]",North Texas,American Athletic,52.0,"[7, 7, 28, 10]"
-401628589,2024,1,regular,2024-08-31T22:00:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,34.0,"[17, 10, 7, 0]",Richmond,CAA,13.0,"[0, 7, 3, 3]"
-401628586,2024,1,regular,2024-08-31T22:00:00.000Z,1,0,0,Williams Stadium (VA),Liberty,Conference USA,41.0,"[7, 10, 10, 14]",Campbell,CAA,24.0,"[3, 7, 7, 7]"
-401645320,2024,1,regular,2024-08-31T22:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,42.0,"[14, 14, 7, 7]",Norfolk State,MEAC,3.0,"[3, 0, 0, 0]"
-401628326,2024,1,regular,2024-08-31T22:00:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,56.0,"[14, 21, 7, 14]",Eastern Kentucky,UAC,7.0,"[0, 7, 0, 0]"
-401643704,2024,1,regular,2024-08-31T22:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,38.0,"[7, 10, 14, 7]",Idaho State,Big Sky,15.0,"[9, 0, 6, 0]"
-401636611,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,TDECU Stadium,Houston,Big 12,7.0,"[0, 0, 0, 7]",UNLV,Mountain West,27.0,"[7, 7, 10, 3]"
-401628319,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,63.0,"[21, 21, 14, 7]",Western Kentucky,Conference USA,0.0,"[0, 0, 0, 0]"
-401636610,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,45.0,"[21, 7, 7, 10]",Tarleton State,UAC,3.0,"[0, 0, 3, 0]"
-401641039,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Rice Stadium,Rice,American Athletic,14.0,"[0, 7, 7, 0]",Sam Houston,Conference USA,34.0,"[17, 7, 10, 0]"
-401641023,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,32.0,"[7, 14, 0, 11]",Tennessee Tech,Big South-OVC,25.0,"[0, 5, 6, 14]"
-401645321,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,40.0,"[7, 24, 3, 6]",North Alabama,UAC,0.0,"[0, 0, 0, 0]"
-401632064,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,34.0,"[6, 7, 7, 14]",Central Arkansas,UAC,31.0,"[0, 0, 10, 21]"
-401636612,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,41.0,"[14, 3, 10, 14]",UT Martin,Big South-OVC,6.0,"[0, 3, 3, 0]"
-401636363,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,48.0,"[14, 17, 17, 0]",Bethune-Cookman,SWAC,3.0,"[0, 3, 0, 0]"
-401628325,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,76.0,"[24, 28, 21, 3]",Furman,Southern,0.0,"[0, 0, 0, 0]"
-401643701,2024,1,regular,2024-08-31T23:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,26.0,"[7, 7, 3, 9]",Nevada,Mountain West,28.0,"[0, 6, 15, 7]"
-401628459,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,13.0,"[7, 3, 3, 0]",UCLA,Big Ten,16.0,"[0, 0, 10, 6]"
-401636613,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,52.0,"[22, 10, 7, 6, 7]",Abilene Christian,UAC,51.0,"[7, 14, 7, 17, 6]"
-401628456,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Autzen Stadium,Oregon,Big Ten,24.0,"[7, 7, 0, 10]",Idaho,Big Sky,14.0,"[0, 0, 7, 7]"
-401628332,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,13.0,"[3, 3, 0, 7]",Notre Dame,FBS Independents,23.0,"[3, 3, 7, 10]"
-401628321,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,73.0,"[28, 24, 14, 7]",Alabama A&M,SWAC,3.0,"[0, 3, 0, 0]"
-401628452,2024,1,regular,2024-08-31T23:30:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,30.0,"[7, 3, 3, 17]",Fresno State,Mountain West,10.0,"[0, 3, 0, 7]"
-401628324,2024,1,regular,2024-08-31T23:45:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,31.0,"[7, 17, 7]",Southern Miss,Sun Belt,0.0,"[0, 0, 0]"
-401643776,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,34.0,"[15, 3, 3, 13]",Lamar,Southland,27.0,"[0, 0, 10, 17]"
-401636380,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,40.0,"[7, 23, 7, 3]",Grambling,SWAC,10.0,"[0, 0, 7, 3]"
-401634240,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,Big 12,41.0,"[14, 3, 14, 10]",Southern Illinois,MVFC,13.0,"[0, 6, 7, 0]"
-401643774,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,American Athletic,7.0,"[0, 7, 0, 0]",James Madison,Sun Belt,30.0,"[3, 6, 7, 14]"
-401643702,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,45.0,"[3, 0, 21, 21]",East Texas A&M,Southland,14.0,"[0, 6, 8, 0]"
-401641007,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,25.0,"[9, 6, 0, 10]",Nicholls,Southland,17.0,"[7, 3, 0, 7]"
-401634303,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,ACC,59.0,"[28, 14, 7, 10]",Houston Christian,Southland,7.0,"[0, 7, 0, 0]"
-401634302,2024,1,regular,2024-09-01T00:00:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,35.0,"[7, 7, 14, 7]",Georgia State,Sun Belt,12.0,"[0, 3, 9, 0]"
-401641032,2024,1,regular,2024-09-01T01:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,Conference USA,23.0,"[0, 10, 0, 13]",Southeast Missouri State,Big South-OVC,16.0,"[7, 3, 3, 3]"
-401636609,2024,1,regular,2024-09-01T02:30:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Big 12,48.0,"[17, 10, 21, 0]",Wyoming,Mountain West,7.0,"[0, 0, 0, 7]"
-401636608,2024,1,regular,2024-09-01T02:30:00.000Z,1,0,0,Arizona Stadium,Arizona,Big 12,61.0,"[14, 13, 21, 13]",New Mexico,Mountain West,39.0,"[14, 10, 7, 8]"
-401628460,2024,1,regular,2024-09-01T03:00:00.000Z,1,0,0,Husky Stadium,Washington,Big Ten,35.0,"[0, 14, 14, 7]",Weber State,Big Sky,3.0,"[0, 0, 3, 0]"
-401628334,2024,1,regular,2024-09-01T23:30:00.000Z,1,1,0,Allegiant Stadium,LSU,SEC,20.0,"[0, 10, 7, 3]",USC,Big Ten,27.0,"[0, 10, 3, 14]"
-401634306,2024,1,regular,2024-09-02T23:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,13.0,"[0, 6, 7, 0]",Boston College,ACC,28.0,"[0, 14, 14, 0]"
-401628463,2024,2,regular,2024-09-06T23:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,77.0,"[28, 14, 14, 21]",Western Illinois,Big South-OVC,3.0,"[0, 3, 0, 0]"
-401634765,2024,2,regular,2024-09-06T23:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,ACC,15.0,"[0, 9, 3, 3]",BYU,Big 12,18.0,"[7, 0, 8, 3]"
-401635533,2024,2,regular,2024-09-07T01:00:00.000Z,1,1,0,Lanny and Sharon Martin Stadium,Northwestern,Big Ten,20.0,"[3, 7, 0, 3, 7, 0]",Duke,ACC,26.0,"[7, 0, 3, 3, 7, 6]"
-401628470,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,34.0,"[7, 13, 7, 7]",Bowling Green,Mid-American,27.0,"[10, 14, 0, 3]"
-401628336,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,39.0,"[0, 7, 6, 18, 0, 8]",Arkansas,SEC,31.0,"[14, 7, 0, 10, 0, 0]"
-401628347,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,12.0,"[0, 3, 3, 6]",Texas,SEC,31.0,"[7, 17, 7, 0]"
-401628466,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,48.0,"[3, 14, 14, 17]",Rhode Island,CAA,0.0,"[0, 0, 0, 0]"
-401636616,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,27.0,"[7, 13, 0, 7]",Kansas State,Big 12,34.0,"[3, 7, 10, 14]"
-401635538,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Nippert Stadium,Cincinnati,Big 12,27.0,"[14, 3, 10, 0]",Pittsburgh,ACC,28.0,"[3, 3, 7, 15]"
-401645323,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,7.0,"[0, 7, 0, 0]",Army,American Athletic,24.0,"[14, 0, 3, 7]"
-401628471,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,SHI Stadium,Rutgers,Big Ten,49.0,"[7, 14, 14, 14]",Akron,Mid-American,17.0,"[0, 3, 7, 7]"
-401635534,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,31.0,"[7, 14, 3, 7]",Georgia Tech,ACC,28.0,"[7, 7, 0, 14]"
-401643784,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,38.0,"[7, 14, 10, 7]",Troy,Sun Belt,17.0,"[0, 7, 3, 7]"
-401636999,2024,2,regular,2024-09-07T16:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,63.0,"[35, 21, 7, 0]",Merrimack,FCS Independents,17.0,"[7, 0, 0, 10]"
-401628348,2024,2,regular,2024-09-07T16:45:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,52.0,"[14, 24, 7, 7]",McNeese,Southland,10.0,"[0, 0, 0, 10]"
-401628339,2024,2,regular,2024-09-07T18:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,48.0,"[14, 10, 21, 3]",Tennessee Tech,Big South-OVC,3.0,"[0, 0, 0, 3]"
-401634181,2024,2,regular,2024-09-07T18:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,42.0,"[0, 7, 7, 28]",Missouri State,MVFC,34.0,"[7, 0, 7, 20]"
-401644732,2024,2,regular,2024-09-07T18:30:00.000Z,1,0,0,Dix Stadium,Kent State,Mid-American,17.0,"[0, 14, 0, 3]",St. Francis (PA),NEC,23.0,"[10, 10, 3, 0]"
-401632071,2024,2,regular,2024-09-07T19:00:00.000Z,1,0,0,Allegiant Stadium,UNLV,Mountain West,72.0,"[28, 16, 7, 21]",Utah Tech,UAC,14.0,"[7, 0, 7, 0]"
-401628465,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,24.0,"[14, 0, 3, 7]",Michigan State,Big Ten,27.0,"[7, 10, 0, 10]"
-401628473,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Husky Stadium,Washington,Big Ten,30.0,"[0, 21, 9, 0]",Eastern Michigan,Mid-American,9.0,"[3, 3, 0, 3]"
-401628474,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,27.0,"[14, 3, 3, 7]",South Dakota,MVFC,13.0,"[0, 3, 10, 0]"
-401628464,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,19.0,"[7, 6, 6, 0]",Iowa State,Big 12,20.0,"[0, 0, 14, 6]"
-401628977,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,14.0,"[7, 0, 7, 0]",Northern Illinois,Mid-American,16.0,"[10, 3, 0, 3]"
-401645324,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,38.0,"[9, 14, 15, 0]",Temple,American Athletic,11.0,"[0, 3, 0, 8]"
-401628340,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,6.0,"[0, 6, 0, 0]",South Carolina,SEC,31.0,"[7, 3, 14, 7]"
-401635535,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,49.0,"[14, 14, 7, 14]",Jacksonville State,Conference USA,14.0,"[0, 14, 0, 0]"
-401635531,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,56.0,"[14, 28, 7, 7]",Duquesne,NEC,0.0,"[0, 0, 0, 0]"
-401628337,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,14.0,"[7, 0, 0, 7]",California,ACC,21.0,"[7, 7, 0, 7]"
-401635537,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,38.0,"[14, 7, 10, 7]",Charlotte,American Athletic,20.0,"[3, 3, 7, 7]"
-401643710,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,13.0,"[10, 0, 0, 3]",Idaho,Big Sky,17.0,"[7, 10, 0, 0]"
-401629040,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,38.0,"[7, 10, 7, 14]",Massachusetts,FBS Independents,23.0,"[0, 13, 3, 7]"
-401636618,2024,2,regular,2024-09-07T19:30:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Big 12,23.0,"[17, 6, 0, 0]",Baylor,Big 12,12.0,"[0, 3, 9, 0]"
-401643783,2024,2,regular,2024-09-07T20:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,49.0,"[14, 21, 7, 7]",UTSA,American Athletic,10.0,"[3, 0, 7, 0]"
-401628342,2024,2,regular,2024-09-07T20:15:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,52.0,"[17, 14, 14, 7]",Middle Tennessee,Conference USA,3.0,"[0, 3, 0, 0]"
-401635540,2024,2,regular,2024-09-07T20:30:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,31.0,"[7, 3, 14, 7]",Marshall,Sun Belt,14.0,"[0, 7, 7, 0]"
-401628593,2024,2,regular,2024-09-07T22:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,49.0,"[14, 14, 14, 7]",UAlbany,CAA,14.0,"[0, 14, 0, 0]"
-401643777,2024,2,regular,2024-09-07T22:00:00.000Z,1,0,0,Bridgeforth Stadium,James Madison,Sun Belt,13.0,"[0, 0, 10, 3]",Gardner-Webb,Big South-OVC,6.0,"[0, 3, 3, 0]"
-401643781,2024,2,regular,2024-09-07T22:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,27.0,"[3, 14, 7, 3]",South Alabama,Sun Belt,20.0,"[0, 10, 7, 3]"
-401643778,2024,2,regular,2024-09-07T22:00:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Sun Belt,14.0,"[0, 7, 7, 0]",East Carolina,American Athletic,20.0,"[6, 0, 11, 3]"
-401635536,2024,2,regular,2024-09-07T22:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,56.0,"[15, 10, 21, 10]",Florida A&M,SWAC,9.0,"[3, 3, 3, 0]"
-401640979,2024,2,regular,2024-09-07T22:00:00.000Z,1,1,0,Pitbull Stadium,Florida International,Conference USA,52.0,"[7, 21, 8, 16]",Central Michigan,Mid-American,16.0,"[0, 8, 8, 0]"
-401636617,2024,2,regular,2024-09-07T22:30:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,Big 12,45.0,"[14, 10, 14, 7]",Sam Houston,Conference USA,14.0,"[0, 7, 0, 7]"
-401628335,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,42.0,"[7, 7, 0, 28]",South Florida,American Athletic,16.0,"[3, 3, 7, 3]"
-401632068,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,31.0,"[10, 7, 0, 14]",Eastern Kentucky,UAC,0.0,"[0, 0, 0, 0]"
-401628603,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Brooks Stadium (SC),Coastal Carolina,Sun Belt,40.0,"[14, 13, 10, 3]",William & Mary,CAA,21.0,"[0, 7, 7, 7]"
-401632459,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Center Parc Stadium,Georgia State,Sun Belt,24.0,"[3, 7, 7, 7]",Chattanooga,Southern,21.0,"[7, 0, 7, 7]"
-401643779,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,28.0,"[7, 0, 21, 0]",Tulsa,American Athletic,24.0,"[3, 14, 7, 0]"
-401643780,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,32.0,"[3, 10, 9, 10]",UAB,American Athletic,6.0,"[3, 3, 0, 0]"
-401643782,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Sun Belt,35.0,"[7, 7, 7, 14]",SE Louisiana,Southland,10.0,"[3, 7, 0, 0]"
-401645326,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Rice Stadium,Rice,American Athletic,69.0,"[14, 24, 17, 14]",Texas Southern,SWAC,7.0,"[0, 0, 0, 7]"
-401635539,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Stanford Stadium,Stanford,ACC,41.0,"[7, 7, 17, 10]",Cal Poly,Big Sky,7.0,"[0, 7, 0, 0]"
-401635639,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,30.0,"[10, 10, 10, 0]",Virginia,ACC,31.0,"[3, 14, 0, 14]"
-401628462,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,23.0,"[3, 10, 0, 10]",Kansas,Big 12,17.0,"[0, 10, 7, 0]"
-401641016,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Fifth Third Stadium,Kennesaw State,Conference USA,10.0,"[7, 0, 0, 3]",Louisiana,Sun Belt,34.0,"[0, 20, 14, 0]"
-401643706,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Canvas Stadium,Colorado State,Mountain West,38.0,"[10, 14, 7, 7]",Northern Colorado,Big Sky,17.0,"[7, 0, 7, 3]"
-401643705,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,7.0,"[7, 0, 0, 0]",San José State,Mountain West,17.0,"[14, 0, 0, 3]"
-401643708,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,17.0,"[14, 0, 3, 0]",Georgia Southern,Sun Belt,20.0,"[7, 10, 3, 0]"
-401628338,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,45.0,"[7, 7, 14, 17]",Samford,Southern,7.0,"[0, 0, 7, 0]"
-401628344,2024,2,regular,2024-09-07T23:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,38.0,"[3, 21, 7, 7]",Buffalo,Mid-American,0.0,"[0, 0, 0, 0]"
-401628468,2024,2,regular,2024-09-07T23:30:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,56.0,"[21, 14, 14, 7]",Western Michigan,Mid-American,0.0,"[0, 0, 0, 0]"
-401628349,2024,2,regular,2024-09-07T23:30:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,55.0,"[10, 17, 7, 21]",Alcorn State,SWAC,0.0,"[0, 0, 0, 0]"
-401628346,2024,2,regular,2024-09-07T23:30:00.000Z,1,1,0,Bank of America Stadium,NC State,ACC,10.0,"[0, 3, 7, 0]",Tennessee,SEC,51.0,"[7, 13, 17, 14]"
-401628467,2024,2,regular,2024-09-07T23:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,28.0,"[14, 14, 0, 0]",Colorado,Big 12,10.0,"[0, 0, 3, 7]"
-401645325,2024,2,regular,2024-09-07T23:30:00.000Z,1,0,0,DATCU Stadium,North Texas,American Athletic,35.0,"[14, 7, 7, 7]",Stephen F. Austin,Southland,20.0,"[10, 7, 3, 0]"
-401628341,2024,2,regular,2024-09-07T23:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,44.0,"[9, 14, 21, 0]",Nicholls,Southland,21.0,"[7, 7, 7, 0]"
-401628345,2024,2,regular,2024-09-07T23:45:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,16.0,"[7, 7, 0, 2]",Houston,Big 12,12.0,"[3, 3, 6, 0]"
-401635532,2024,2,regular,2024-09-08T00:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,66.0,"[35, 21, 10, 0]",App State,Sun Belt,20.0,"[0, 13, 7, 0]"
-401636615,2024,2,regular,2024-09-08T00:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,45.0,"[10, 21, 7, 7]",Long Island University,NEC,0.0,"[0, 0, 0, 0]"
-401632072,2024,2,regular,2024-09-08T01:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,24.0,"[14, 3, 0, 7, 0]",Southern Utah,UAC,27.0,"[6, 0, 8, 10, 3]"
-401636859,2024,2,regular,2024-09-08T02:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,37.0,"[7, 20, 7, 3]",Texas Tech,Big 12,16.0,"[3, 7, 0, 6]"
-401643707,2024,2,regular,2024-09-08T02:00:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,46.0,"[18, 7, 14, 7]",Sacramento State,Big Sky,30.0,"[3, 7, 7, 13]"
-401628469,2024,2,regular,2024-09-08T02:00:00.000Z,1,0,0,Autzen Stadium,Oregon,Big Ten,37.0,"[7, 7, 13, 10]",Boise State,Mountain West,34.0,"[3, 17, 0, 14]"
-401636614,2024,2,regular,2024-09-08T02:00:00.000Z,1,0,0,Arizona Stadium,Arizona,Big 12,22.0,"[3, 3, 7, 9]",Northern Arizona,Big Sky,10.0,"[0, 10, 0, 0]"
-401640989,2024,2,regular,2024-09-08T02:15:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,24.0,"[10, 7, 0, 7]",Liberty,Conference USA,30.0,"[3, 6, 0, 21]"
-401643709,2024,2,regular,2024-09-08T02:30:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,0.0,"[0, 0, 0, 0]",Oregon State,Pac-12,21.0,"[7, 0, 0, 14]"
-401628343,2024,2,regular,2024-09-08T02:30:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Big 12,30.0,"[10, 17, 3, 0]",Mississippi State,SEC,23.0,"[0, 3, 7, 13]"
-401628472,2024,2,regular,2024-09-08T03:00:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Big Ten,48.0,"[10, 17, 7, 14]",Utah State,Mountain West,0.0,"[0, 0, 0, 0]"
-401636867,2024,3,regular,2024-09-12T23:30:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,28.0,"[7, 14, 7, 0]",Arizona State,Big 12,31.0,"[7, 14, 7, 3]"
-401643788,2024,3,regular,2024-09-12T23:30:00.000Z,1,0,0,Hancock Whitney Stadium,South Alabama,Sun Belt,87.0,"[24, 28, 28, 7]",Northwestern State,Southland,10.0,"[10, 0, 0, 0]"
-401636863,2024,3,regular,2024-09-13T23:00:00.000Z,1,1,0,Children's Mercy Park,Kansas,Big 12,20.0,"[7, 10, 0, 3]",UNLV,Mountain West,23.0,"[3, 10, 3, 7]"
-401636864,2024,3,regular,2024-09-14T00:00:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,31.0,"[7, 7, 14, 3]",Arizona,Big 12,7.0,"[7, 0, 0, 0]"
-401636869,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,10.0,"[0, 0, 0, 10]",Oklahoma State,Big 12,45.0,"[7, 21, 10, 7]"
-401628479,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,28.0,"[7, 14, 0, 7]",Arkansas State,Sun Belt,18.0,"[0, 3, 0, 15]"
-401628350,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,10.0,"[3, 0, 7, 0]",Alabama,SEC,42.0,"[7, 14, 14, 7]"
-401628359,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,33.0,"[7, 17, 0, 9]",LSU,SEC,36.0,"[0, 16, 6, 14]"
-401636868,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,66.0,"[17, 35, 7, 7]",North Texas,American Athletic,21.0,"[7, 0, 7, 7]"
-401628475,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,30.0,"[7, 6, 10, 7]",Central Michigan,Mid-American,9.0,"[3, 3, 0, 3]"
-401635542,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,12.0,"[0, 3, 6, 3]",Memphis,American Athletic,20.0,"[3, 10, 7, 0]"
-401635546,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,30.0,"[3, 3, 14, 10]",Louisiana Tech,Conference USA,20.0,"[0, 17, 3, 0]"
-401636865,2024,3,regular,2024-09-14T16:00:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,16.0,"[0, 3, 7, 6]",Cincinnati,Big 12,27.0,"[3, 7, 7, 10]"
-401628357,2024,3,regular,2024-09-14T16:45:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,27.0,"[3, 14, 7, 3]",Boston College,ACC,21.0,"[7, 7, 0, 7]"
-401629041,2024,3,regular,2024-09-14T17:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,34.0,"[7, 3, 17, 7]",Massachusetts,FBS Independents,3.0,"[0, 3, 0, 0]"
-401643786,2024,3,regular,2024-09-14T18:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,20.0,"[3, 7, 7, 3]",Coastal Carolina,Sun Belt,28.0,"[14, 7, 7, 0]"
-401628978,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,7.0,"[0, 0, 7, 0]",Notre Dame,FBS Independents,66.0,"[14, 28, 10, 14]"
-401628480,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,40.0,"[14, 13, 3, 10]",Prairie View A&M,SWAC,0.0,"[0, 0, 0, 0]"
-401628358,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,34.0,"[7, 14, 3, 10]",Tulane,American Athletic,19.0,"[0, 6, 7, 6]"
-401635543,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,59.0,"[17, 21, 14, 7]",VMI,Southern,7.0,"[0, 0, 0, 7]"
-401628483,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,14.0,"[7, 7, 0, 0]",Oregon,Big Ten,49.0,"[7, 15, 10, 17]"
-401644734,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,21.0,"[14, 0, 7, 0]",Morgan State,MEAC,6.0,"[3, 3, 0, 0]"
-401635547,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,38.0,"[10, 7, 7, 14]",West Virginia,Big 12,34.0,"[7, 10, 7, 10]"
-401628484,2024,3,regular,2024-09-14T19:30:00.000Z,1,1,0,Lumen Field,Washington,Big Ten,19.0,"[7, 6, 6, 0]",Washington State,Pac-12,24.0,"[10, 7, 7, 0]"
-401628353,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,20.0,"[0, 0, 14, 6]",Texas A&M,SEC,33.0,"[10, 10, 13, 0]"
-401628481,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,27.0,"[6, 14, 7, 0]",Nevada,Mountain West,0.0,"[0, 0, 0, 0]"
-401635544,2024,3,regular,2024-09-14T19:30:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,62.0,"[10, 21, 10, 21]",Ball State,Mid-American,0.0,"[0, 0, 0, 0]"
-401628477,2024,3,regular,2024-09-14T20:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,38.0,"[0, 10, 14, 14]",Troy,Sun Belt,21.0,"[0, 14, 7, 0]"
-401643785,2024,3,regular,2024-09-14T20:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,19.0,"[16, 0, 0, 3]",App State,Sun Belt,21.0,"[0, 14, 7, 0]"
-401628351,2024,3,regular,2024-09-14T20:15:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,37.0,"[3, 17, 7, 10]",UAB,American Athletic,27.0,"[10, 10, 0, 7]"
-401636870,2024,3,regular,2024-09-14T20:30:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,21.0,"[7, 7, 7, 0]",Utah,Big 12,38.0,"[3, 14, 11, 10]"
-401629030,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,26.0,"[7, 10, 0, 9]",UConn,FBS Independents,21.0,"[0, 7, 14, 0]"
-401643787,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,42.0,"[7, 14, 14, 7]",South Carolina State,MEAC,14.0,"[0, 7, 7, 0]"
-401635548,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Sun Belt,17.0,"[0, 10, 0, 7]",Virginia Tech,ACC,37.0,"[14, 0, 6, 17]"
-401640980,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,American Athletic,38.0,"[7, 17, 14, 0]",Florida International,Conference USA,20.0,"[7, 0, 7, 6]"
-401645327,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,American Athletic,27.0,"[0, 3, 3, 21]",Gardner-Webb,Big South-OVC,26.0,"[3, 14, 3, 6]"
-401640990,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,28.0,"[7, 7, 7, 7]",UTEP,Conference USA,10.0,"[3, 0, 7, 0]"
-401635545,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,45.0,"[0, 17, 0, 28]",North Carolina Central,MEAC,10.0,"[7, 3, 0, 0]"
-401644733,2024,3,regular,2024-09-14T22:00:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,31.0,"[7, 21, 0, 3]",Colgate,Patriot,20.0,"[17, 0, 3, 0]"
-401628355,2024,3,regular,2024-09-14T22:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,6.0,"[3, 3, 0, 0]",Ole Miss,SEC,40.0,"[20, 3, 7, 10]"
-401636364,2024,3,regular,2024-09-14T22:30:00.000Z,1,0,0,Waldo Stadium,Western Michigan,Mid-American,59.0,"[14, 21, 14, 10]",Bethune-Cookman,SWAC,31.0,"[0, 14, 7, 10]"
-401643789,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Sun Belt,24.0,"[14, 7, 0, 3]",South Florida,American Athletic,49.0,"[14, 14, 14, 7]"
-401641017,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,31.0,"[0, 17, 7, 7]",Kennesaw State,Conference USA,10.0,"[3, 0, 7, 0]"
-401628362,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,Center Parc Stadium,Georgia State,Sun Belt,36.0,"[3, 9, 10, 14]",Vanderbilt,SEC,32.0,"[0, 10, 0, 22]"
-401641040,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,Elliott T. Bowers Stadium,Sam Houston,Conference USA,31.0,"[7, 10, 7, 7]",Hawai'i,Mountain West,13.0,"[0, 3, 10, 0]"
-401640999,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,37.0,"[14, 14, 3, 0, 3, 3]",Jacksonville State,Conference USA,34.0,"[7, 13, 0, 11, 3, 0]"
-401641024,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,21.0,"[0, 0, 14, 7]",Western Kentucky,Conference USA,49.0,"[14, 7, 21, 7]"
-401628361,2024,3,regular,2024-09-14T23:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,SEC,56.0,"[14, 14, 14, 14]",UTSA,American Athletic,7.0,"[0, 7, 0, 0]"
-401655632,2024,3,regular,2024-09-14T23:30:00.000Z,1,1,0,Lanny and Sharon Martin Stadium,Northwestern,Big Ten,31.0,"[7, 7, 10, 7]",Eastern Illinois,Big South-OVC,7.0,"[0, 7, 0, 0]"
-401628476,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,1,Rose Bowl,UCLA,Big Ten,13.0,"[0, 7, 3, 3]",Indiana,Big Ten,42.0,"[14, 7, 7, 14]"
-401636861,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,0,Canvas Stadium,Colorado State,Mountain West,9.0,"[3, 0, 0, 6]",Colorado,Big 12,28.0,"[0, 14, 7, 7]"
-401628352,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,45.0,"[14, 3, 14, 14]",New Mexico,Mountain West,19.0,"[10, 3, 0, 6]"
-401628354,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,12.0,"[3, 3, 3, 3]",Georgia,SEC,13.0,"[0, 3, 3, 7]"
-401636866,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,34.0,"[14, 7, 10, 3]",UCF,Big 12,35.0,"[0, 7, 13, 15]"
-401628356,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,17.0,"[0, 3, 7, 7]",Toledo,Mid-American,41.0,"[7, 21, 7, 6]"
-401636860,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,31.0,"[3, 3, 17, 8]",Air Force,Mountain West,3.0,"[0, 3, 0, 0]"
-401628482,2024,3,regular,2024-09-14T23:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,34.0,"[7, 14, 6, 7]",Northern Iowa,MVFC,3.0,"[3, 0, 0, 0]"
-401628360,2024,3,regular,2024-09-14T23:45:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,71.0,"[37, 28, 3, 3]",Kent State,Mid-American,0.0,"[0, 0, 0, 0]"
-401636862,2024,3,regular,2024-09-15T00:00:00.000Z,1,0,0,TDECU Stadium,Houston,Big 12,33.0,"[14, 6, 6, 7]",Rice,American Athletic,7.0,"[0, 0, 0, 7]"
-401628478,2024,3,regular,2024-09-15T00:00:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,13.0,"[3, 10, 0, 0]",Maryland,Big Ten,27.0,"[0, 7, 10, 10]"
-401636871,2024,3,regular,2024-09-15T01:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,14.0,"[0, 7, 0, 7]",BYU,Big 12,34.0,"[7, 10, 17, 0]"
-401635541,2024,3,regular,2024-09-15T02:30:00.000Z,1,0,0,California Memorial Stadium,California,ACC,31.0,"[7, 0, 14, 10]",San Diego State,Mountain West,10.0,"[3, 0, 0, 7]"
-401641033,2024,3,regular,2024-09-15T02:30:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,48.0,"[14, 17, 17, 0]",New Mexico State,Conference USA,0.0,"[0, 0, 0, 0]"
-401643790,2024,4,regular,2024-09-19T23:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,14.0,"[0, 7, 0, 7]",South Alabama,Sun Belt,48.0,"[14, 14, 13, 7]"
-401634766,2024,4,regular,2024-09-20T23:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,24.0,"[0, 10, 7, 7]",Stanford,ACC,26.0,"[7, 6, 7, 6]"
-401628485,2024,4,regular,2024-09-21T00:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,24.0,"[10, 7, 0, 7, 0]",Illinois,Big Ten,31.0,"[7, 3, 7, 7, 7]"
-401643714,2024,4,regular,2024-09-21T02:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,54.0,"[7, 17, 0, 22, 0, 8]",San José State,Mountain West,52.0,"[10, 7, 21, 8, 0, 6]"
-401645328,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,1,Michie Stadium,Army,American Athletic,37.0,"[7, 21, 9, 0]",Rice,American Athletic,14.0,"[0, 0, 7, 7]"
-401628367,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,28.0,"[7, 7, 7, 7]",Florida,SEC,45.0,"[7, 21, 7, 10]"
-401636879,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,32.0,"[7, 7, 3, 15]",Kansas,Big 12,28.0,"[0, 7, 14, 7]"
-401628488,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,38.0,"[17, 7, 7, 7]",Villanova,CAA,20.0,"[0, 0, 10, 10]"
-401628486,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,52.0,"[10, 21, 14, 7]",Charlotte,American Athletic,14.0,"[0, 14, 0, 0]"
-401635552,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,59.0,"[28, 17, 14, 0]",NC State,ACC,35.0,"[0, 7, 7, 21]"
-401643791,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,33.0,"[7, 6, 13, 7]",Tulane,American Athletic,41.0,"[0, 17, 21, 3]"
-401635556,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,50.0,"[14, 7, 17, 12]",James Madison,Sun Belt,70.0,"[25, 28, 7, 10]"
-401636873,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,34.0,"[14, 10, 7, 3]",Houston,Big 12,0.0,"[0, 0, 0, 0]"
-401628492,2024,4,regular,2024-09-21T16:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,49.0,"[7, 21, 14, 7]",Marshall,Sun Belt,14.0,"[7, 7, 0, 0]"
-401628364,2024,4,regular,2024-09-21T16:45:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,41.0,"[3, 14, 10, 14]",Ohio,Mid-American,6.0,"[0, 0, 0, 6]"
-401644735,2024,4,regular,2024-09-21T17:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,37.0,"[0, 23, 0, 14]",Ball State,Mid-American,34.0,"[10, 7, 7, 10]"
-401643715,2024,4,regular,2024-09-21T18:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,45.0,"[0, 17, 7, 21]",Utah State,Mountain West,29.0,"[0, 21, 0, 8]"
-401644737,2024,4,regular,2024-09-21T18:00:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,36.0,"[10, 3, 16, 7]",St. Francis (PA),NEC,0.0,"[0, 0, 0, 0]"
-401635558,2024,4,regular,2024-09-21T18:00:00.000Z,1,0,0,Brooks Stadium (SC),Coastal Carolina,Sun Belt,24.0,"[3, 7, 7, 7]",Virginia,ACC,43.0,"[14, 13, 10, 6]"
-401636875,2024,4,regular,2024-09-21T18:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,52.0,"[14, 17, 7, 14]",Arkansas State,Sun Belt,7.0,"[0, 0, 0, 7]"
-401641000,2024,4,regular,2024-09-21T19:00:00.000Z,1,0,0,AmFirst Stadium,Jacksonville State,Conference USA,44.0,"[14, 7, 23, 0]",Southern Miss,Sun Belt,7.0,"[0, 7, 0, 0]"
-401643713,2024,4,regular,2024-09-21T19:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,49.0,"[14, 7, 14, 14]",Eastern Washington,Big Sky,16.0,"[0, 3, 0, 13]"
-401628979,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,28.0,"[0, 14, 7, 7]",Miami (OH),Mid-American,3.0,"[0, 3, 0, 0]"
-401645329,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,56.0,"[7, 21, 7, 21]",Memphis,American Athletic,44.0,"[14, 3, 13, 14]"
-401628493,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,56.0,"[7, 21, 14, 14]",Kent State,Mid-American,0.0,"[0, 0, 0, 0]"
-401635554,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,31.0,"[7, 10, 7, 7]",Georgia Tech,ACC,19.0,"[7, 7, 3, 2]"
-401628494,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,23.0,"[0, 7, 0, 16]",Rutgers,Big Ten,26.0,"[14, 2, 7, 3]"
-401628365,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,34.0,"[7, 10, 7, 10]",UCLA,Big Ten,17.0,"[10, 7, 0, 0]"
-401629042,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,35.0,"[7, 14, 7, 7]",Central Connecticut,NEC,31.0,"[0, 21, 7, 3]"
-401644736,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,20.0,"[7, 7, 0, 6, 0]",Buffalo,Mid-American,23.0,"[0, 3, 7, 10, 3]"
-401636877,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,30.0,"[14, 3, 7, 6]",Arizona State,Big 12,22.0,"[0, 10, 6, 6]"
-401628363,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,14.0,"[0, 0, 7, 7]",Arkansas,SEC,24.0,"[0, 7, 7, 10]"
-401645330,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Alamodome,UTSA,American Athletic,45.0,"[10, 21, 7, 7]",Houston Christian,Southland,7.0,"[0, 7, 0, 0]"
-401628489,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,27.0,"[7, 7, 6, 7]",USC,Big Ten,24.0,"[0, 3, 14, 7]"
-401634247,2024,4,regular,2024-09-21T19:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,73.0,"[21, 21, 10, 21]",Youngstown State,MVFC,17.0,"[0, 10, 7, 0]"
-401636876,2024,4,regular,2024-09-21T20:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,19.0,"[3, 0, 0, 16]",Utah,Big 12,22.0,"[0, 10, 3, 9]"
-401635553,2024,4,regular,2024-09-21T20:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,17.0,"[10, 0, 7, 0]",Duke,ACC,45.0,"[28, 7, 3, 7]"
-401628368,2024,4,regular,2024-09-21T20:15:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,30.0,"[7, 3, 10, 0, 10]",Vanderbilt,SEC,27.0,"[7, 6, 7, 0, 7]"
-401635557,2024,4,regular,2024-09-21T21:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,ACC,66.0,"[17, 24, 18, 7]",TCU,Big 12,42.0,"[0, 21, 7, 14]"
-401641028,2024,4,regular,2024-09-21T21:00:00.000Z,1,0,0,Canvas Stadium,Colorado State,Mountain West,27.0,"[7, 7, 10, 3]",UTEP,Conference USA,17.0,"[0, 3, 7, 7]"
-401628625,2024,4,regular,2024-09-21T22:00:00.000Z,1,1,0,Pitbull Stadium,Florida International,Conference USA,42.0,"[14, 14, 7, 7]",Monmouth,CAA,45.0,"[7, 14, 14, 10]"
-401640991,2024,4,regular,2024-09-21T22:00:00.000Z,1,0,0,Williams Stadium (VA),Liberty,Conference USA,35.0,"[0, 7, 14, 14]",East Carolina,American Athletic,24.0,"[14, 3, 7, 0]"
-401643716,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,DATCU Stadium,North Texas,American Athletic,44.0,"[7, 20, 14, 3]",Wyoming,Mountain West,17.0,"[3, 14, 0, 0]"
-401641034,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,31.0,"[14, 7, 0, 10]",New Mexico State,Conference USA,11.0,"[3, 0, 0, 8]"
-401629031,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,48.0,"[3, 14, 10, 21]",Florida Atlantic,American Athletic,14.0,"[0, 0, 7, 7]"
-401635551,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,14.0,"[7, 0, 0, 7]",California,ACC,9.0,"[0, 6, 3, 0]"
-401636374,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,34.0,"[7, 7, 7, 13]",Florida A&M,SWAC,12.0,"[6, 3, 3, 0]"
-401641008,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,20.0,"[0, 7, 0, 13, 0]",Tulsa,American Athletic,23.0,"[7, 3, 7, 3, 3]"
-401641037,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,26.0,"[0, 7, 5, 14]",Toledo,Mid-American,21.0,"[0, 14, 7, 0]"
-401628491,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,1,Husky Stadium,Washington,Big Ten,24.0,"[7, 10, 0, 7]",Northwestern,Big Ten,5.0,"[0, 2, 3, 0]"
-401635555,2024,4,regular,2024-09-21T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,15.0,"[9, 6, 0, 0]",Miami,ACC,50.0,"[14, 8, 14, 14]"
-401628370,2024,4,regular,2024-09-21T23:30:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,50.0,"[15, 7, 7, 21]",Akron,Mid-American,7.0,"[0, 7, 0, 0]"
-401628369,2024,4,regular,2024-09-21T23:30:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,15.0,"[3, 0, 0, 12]",Tennessee,SEC,25.0,"[10, 9, 3, 3]"
-401628372,2024,4,regular,2024-09-21T23:30:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,26.0,"[7, 6, 7, 6]",Bowling Green,Mid-American,20.0,"[0, 3, 14, 3]"
-401628487,2024,4,regular,2024-09-21T23:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,14.0,"[0, 14, 0, 0]",Iowa,Big Ten,31.0,"[7, 0, 17, 7]"
-401628366,2024,4,regular,2024-09-21T23:45:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,52.0,"[17, 7, 14, 14]",Georgia Southern,Sun Belt,13.0,"[0, 7, 3, 3]"
-401636874,2024,4,regular,2024-09-22T00:00:00.000Z,1,0,1,Folsom Field,Colorado,Big 12,38.0,"[7, 10, 7, 7, 7]",Baylor,Big 12,31.0,"[3, 21, 0, 7, 0]"
-401628490,2024,4,regular,2024-09-22T00:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,23.0,"[0, 6, 10, 7]",Michigan State,Big Ten,19.0,"[3, 10, 3, 3]"
-401628371,2024,4,regular,2024-09-22T00:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,SEC,51.0,"[21, 7, 9, 14]",UL Monroe,Sun Belt,3.0,"[0, 3, 0, 0]"
-401643717,2024,4,regular,2024-09-22T00:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,38.0,"[7, 10, 7, 14]",Purdue,Big Ten,21.0,"[0, 7, 0, 14]"
-401643711,2024,4,regular,2024-09-22T00:30:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,21.0,"[3, 7, 0, 11]",Fresno State,Mountain West,38.0,"[8, 17, 3, 10]"
-401637162,2024,4,regular,2024-09-22T01:45:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,56.0,"[7, 21, 14, 14]",Portland State,Big Sky,14.0,"[7, 0, 0, 7]"
-401636872,2024,4,regular,2024-09-22T02:30:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,38.0,"[0, 17, 14, 7]",Kansas State,Big 12,9.0,"[3, 3, 3, 0]"
-401643712,2024,4,regular,2024-09-22T03:59:00.000Z,1,0,0,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,36.0,"[15, 7, 7, 7]",Northern Iowa,MVFC,7.0,"[0, 7, 0, 0]"
-401645331,2024,5,regular,2024-09-26T23:30:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,14.0,"[0, 0, 6, 8]",Army,American Athletic,42.0,"[7, 7, 14, 14]"
-401634767,2024,5,regular,2024-09-27T23:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,38.0,"[14, 3, 7, 14]",Virginia Tech,ACC,34.0,"[7, 17, 3, 7]"
-401628501,2024,5,regular,2024-09-28T00:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,21.0,"[0, 14, 0, 7]",Washington,Big Ten,18.0,"[3, 0, 7, 8]"
-401628496,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,42.0,"[0, 14, 14, 14]",Maryland,Big Ten,28.0,"[0, 7, 14, 7]"
-401628497,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,27.0,"[7, 14, 3, 3]",Minnesota,Big Ten,24.0,"[0, 3, 0, 21]"
-401645337,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,45.0,"[14, 17, 0, 14]",South Florida,American Athletic,10.0,"[0, 7, 3, 0]"
-401636883,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,42.0,"[7, 14, 14, 7]",Oklahoma State,Big 12,20.0,"[3, 10, 0, 7]"
-401628377,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,17.0,"[7, 0, 10, 0]",Kentucky,SEC,20.0,"[3, 7, 3, 7]"
-401629032,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,47.0,"[10, 13, 14, 10]",Buffalo,Mid-American,3.0,"[0, 3, 0, 0]"
-401645332,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,18.0,"[0, 3, 7, 8]",Navy,American Athletic,41.0,"[7, 14, 10, 10]"
-401636880,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,28.0,"[7, 7, 7, 7]",BYU,Big 12,34.0,"[21, 10, 3, 0]"
-401635560,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,21.0,"[0, 7, 0, 14]",Western Kentucky,Conference USA,20.0,"[7, 10, 3, 0]"
-401635564,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,24.0,"[7, 10, 7, 0]",Northern Illinois,Mid-American,17.0,"[7, 7, 0, 3]"
-401635565,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,42.0,"[14, 14, 7, 7]",Holy Cross,Patriot,14.0,"[0, 14, 0, 0]"
-401628499,2024,5,regular,2024-09-28T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,10.0,"[0, 0, 3, 7]",Nebraska,Big Ten,28.0,"[0, 0, 7, 21]"
-401643793,2024,5,regular,2024-09-28T17:30:00.000Z,1,0,0,Bridgeforth Stadium,James Madison,Sun Belt,63.0,"[22, 7, 20, 14]",Ball State,Mid-American,7.0,"[7, 0, 0, 0]"
-401641041,2024,5,regular,2024-09-28T19:00:00.000Z,1,1,0,NRG Stadium,Sam Houston,Conference USA,40.0,"[0, 21, 13, 6]",Texas State,Sun Belt,39.0,"[22, 10, 7, 0]"
-401636885,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,21.0,"[7, 7, 7, 0]",Colorado,Big 12,48.0,"[14, 13, 14, 7]"
-401629043,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,23.0,"[7, 3, 7, 3, 3]",Massachusetts,FBS Independents,20.0,"[7, 3, 0, 10, 0]"
-401643720,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,59.0,"[14, 7, 10, 28]",Fresno State,Mountain West,14.0,"[0, 0, 7, 7]"
-401644739,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,33.0,"[7, 7, 7, 12]",Eastern Michigan,Mid-American,52.0,"[7, 14, 17, 14]"
-401643721,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,22.0,"[10, 3, 6, 3]",San Diego State,Mountain West,21.0,"[7, 14, 0, 0]"
-401644738,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,30.0,"[0, 14, 2, 14]",Akron,Mid-American,10.0,"[3, 7, 0, 0]"
-401628375,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,21.0,"[0, 14, 0, 7]",Oklahoma,SEC,27.0,"[7, 0, 3, 17]"
-401643794,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Sun Belt,27.0,"[7, 10, 3, 7]",Western Michigan,Mid-American,20.0,"[3, 0, 14, 3]"
-401640992,2024,5,regular,2024-09-28T19:30:00.000Z,0,0,0,Kidd Brewer Stadium,App State,Sun Belt,,,Liberty,Conference USA,,
-401643792,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,21.0,"[7, 0, 14, 0]",Georgia Southern,Sun Belt,38.0,"[14, 10, 7, 7]"
-401628502,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Big Ten,38.0,"[7, 3, 14, 14]",Wisconsin,Big Ten,21.0,"[7, 14, 0, 0]"
-401636882,2024,5,regular,2024-09-28T19:30:00.000Z,1,1,1,GEHA Field at Arrowhead Stadium,Kansas,Big 12,27.0,"[14, 3, 7, 3]",TCU,Big 12,38.0,"[7, 14, 7, 10]"
-401628373,2024,5,regular,2024-09-28T19:30:00.000Z,1,1,1,AT&T Stadium,Texas A&M,SEC,21.0,"[7, 7, 0, 7]",Arkansas,SEC,17.0,"[14, 0, 0, 3]"
-401628980,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,31.0,"[21, 3, 0, 7]",Louisville,ACC,24.0,"[7, 7, 0, 10]"
-401635659,2024,5,regular,2024-09-28T19:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,38.0,"[3, 14, 14, 7]",Louisiana,Sun Belt,41.0,"[14, 7, 10, 10]"
-401635562,2024,5,regular,2024-09-28T20:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,21.0,"[0, 0, 7, 14]",North Carolina,ACC,20.0,"[10, 7, 3, 0]"
-401645334,2024,5,regular,2024-09-28T20:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,30.0,"[3, 7, 14, 6]",UTSA,American Athletic,20.0,"[10, 3, 0, 7]"
-401628378,2024,5,regular,2024-09-28T20:15:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,SEC,35.0,"[7, 7, 7, 14]",Mississippi State,SEC,13.0,"[0, 6, 0, 7]"
-401643795,2024,5,regular,2024-09-28T21:00:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,27.0,"[7, 7, 7, 6]",Old Dominion,Sun Belt,30.0,"[14, 3, 0, 13]"
-401641018,2024,5,regular,2024-09-28T22:00:00.000Z,1,0,0,Fifth Third Stadium,Kennesaw State,Conference USA,13.0,"[0, 10, 0, 3]",UT Martin,Big South-OVC,24.0,"[0, 10, 14, 0]"
-401640981,2024,5,regular,2024-09-28T22:00:00.000Z,1,1,1,Pitbull Stadium,Florida International,Conference USA,17.0,"[7, 0, 7, 3]",Louisiana Tech,Conference USA,10.0,"[0, 0, 10, 0]"
-401645335,2024,5,regular,2024-09-28T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,American Athletic,41.0,"[10, 7, 10, 14]",Wagner,NEC,10.0,"[0, 10, 0, 0]"
-401635561,2024,5,regular,2024-09-28T23:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,40.0,"[10, 7, 10, 13]",Stanford,ACC,14.0,"[0, 7, 0, 7]"
-401645333,2024,5,regular,2024-09-28T23:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,20.0,"[0, 10, 0, 10]",Charlotte,American Athletic,21.0,"[0, 0, 14, 7]"
-401643796,2024,5,regular,2024-09-28T23:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,9.0,"[3, 3, 0, 3]",UL Monroe,Sun Belt,13.0,"[3, 0, 3, 7]"
-401636881,2024,5,regular,2024-09-28T23:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,0.0,"[0, 0, 0, 0]",Iowa State,Big 12,20.0,"[3, 0, 7, 10]"
-401645336,2024,5,regular,2024-09-28T23:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,52.0,"[0, 24, 21, 7]",Tulsa,American Athletic,20.0,"[0, 3, 0, 17]"
-401628495,2024,5,regular,2024-09-28T23:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,21.0,"[7, 0, 7, 7]",Illinois,Big Ten,7.0,"[7, 0, 0, 0]"
-401628498,2024,5,regular,2024-09-28T23:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,7.0,"[0, 7, 0, 0]",Ohio State,Big Ten,38.0,"[3, 21, 14, 0]"
-401641025,2024,5,regular,2024-09-28T23:30:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,24.0,"[0, 14, 10, 0]",Middle Tennessee,Conference USA,7.0,"[0, 0, 7, 0]"
-401628374,2024,5,regular,2024-09-28T23:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,41.0,"[21, 9, 3, 8]",Georgia,SEC,34.0,"[0, 7, 8, 19]"
-401628376,2024,5,regular,2024-09-28T23:45:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,42.0,"[21, 14, 0, 7]",South Alabama,Sun Belt,10.0,"[0, 3, 7, 0]"
-401636884,2024,5,regular,2024-09-29T00:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,44.0,"[10, 14, 10, 10]",Cincinnati,Big 12,41.0,"[14, 10, 3, 14]"
-401643718,2024,5,regular,2024-09-29T00:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,31.0,"[7, 0, 14, 10]",Air Force,Mountain West,19.0,"[0, 13, 0, 6]"
-401635563,2024,5,regular,2024-09-29T00:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,ACC,42.0,"[7, 7, 14, 14]",Florida State,ACC,16.0,"[7, 2, 7, 0]"
-401641035,2024,5,regular,2024-09-29T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,Conference USA,40.0,"[7, 3, 7, 23]",New Mexico,Mountain West,50.0,"[7, 14, 9, 20]"
-401643719,2024,5,regular,2024-09-29T02:00:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,45.0,"[7, 10, 7, 21]",Washington State,Pac-12,24.0,"[7, 3, 0, 14]"
-401636886,2024,5,regular,2024-09-29T02:15:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Big 12,10.0,"[0, 3, 0, 7]",Arizona,Big 12,23.0,"[3, 7, 6, 7]"
-401628500,2024,5,regular,2024-09-29T03:00:00.000Z,1,0,1,Rose Bowl,UCLA,Big Ten,13.0,"[3, 7, 3, 0]",Oregon,Big Ten,34.0,"[7, 21, 0, 6]"
-401643797,2024,6,regular,2024-10-03T23:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,17.0,"[0, 10, 7, 0]",Texas State,Sun Belt,38.0,"[14, 14, 10, 0]"
-401641029,2024,6,regular,2024-10-04T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,21.0,"[0, 7, 7, 7]",Sam Houston,Conference USA,41.0,"[7, 10, 21, 3]"
-401641001,2024,6,regular,2024-10-04T23:00:00.000Z,1,0,1,Fifth Third Stadium,Kennesaw State,Conference USA,24.0,"[3, 14, 0, 7]",Jacksonville State,Conference USA,63.0,"[7, 14, 21, 21]"
-401636891,2024,6,regular,2024-10-04T23:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,19.0,"[0, 6, 6, 7]",Houston,Big 12,30.0,"[7, 17, 0, 6]"
-401634779,2024,6,regular,2024-10-05T01:00:00.000Z,1,0,0,Allegiant Stadium,UNLV,Mountain West,41.0,"[0, 21, 10, 7, 3]",Syracuse,ACC,44.0,"[14, 3, 14, 7, 6]"
-401628506,2024,6,regular,2024-10-05T01:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Big Ten,31.0,"[7, 14, 3, 7]",Michigan State,Big Ten,10.0,"[0, 0, 0, 10]"
-401629044,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,34.0,"[7, 0, 6, 21]",Massachusetts,FBS Independents,20.0,"[7, 6, 0, 7]"
-401635567,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,24.0,"[0, 6, 0, 18]",Boston College,ACC,14.0,"[7, 7, 0, 0]"
-401635571,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,27.0,"[10, 3, 14, 0]",SMU,ACC,34.0,"[14, 10, 3, 7]"
-401635638,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,30.0,"[3, 13, 7, 7]",Wake Forest,ACC,34.0,"[10, 7, 3, 14]"
-401635572,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,24.0,"[7, 10, 7, 0]",Pittsburgh,ACC,34.0,"[3, 14, 7, 10]"
-401628383,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,41.0,"[10, 14, 10, 7]",Missouri,SEC,10.0,"[0, 0, 7, 3]"
-401643722,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,7.0,"[0, 7, 0, 0]",Navy,American Athletic,34.0,"[14, 7, 6, 7]"
-401628509,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,52.0,"[14, 7, 21, 10]",Purdue,Big Ten,6.0,"[0, 6, 0, 0]"
-401628510,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,27.0,"[0, 14, 10, 3]",UCLA,Big Ten,11.0,"[0, 3, 0, 8]"
-401645339,2024,6,regular,2024-10-05T16:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,7.0,"[7, 0, 0, 0]",Army,American Athletic,49.0,"[7, 14, 21, 7]"
-401645338,2024,6,regular,2024-10-05T17:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,20.0,"[6, 0, 0, 14]",Tulane,American Athletic,71.0,"[20, 17, 20, 14]"
-401644741,2024,6,regular,2024-10-05T18:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,42.0,"[14, 7, 14, 7]",Western Michigan,Mid-American,45.0,"[21, 0, 10, 14]"
-401629033,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,29.0,"[3, 6, 7, 13]",Temple,American Athletic,20.0,"[0, 7, 6, 7]"
-401643799,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,52.0,"[7, 21, 10, 14]",App State,Sun Belt,37.0,"[3, 14, 7, 13]"
-401645340,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,55.0,"[14, 17, 3, 21]",East Carolina,American Athletic,24.0,"[3, 7, 7, 7]"
-401635573,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Stanford Stadium,Stanford,ACC,7.0,"[0, 0, 7, 0]",Virginia Tech,ACC,31.0,"[7, 7, 7, 10]"
-401628503,2024,6,regular,2024-10-05T19:30:00.000Z,1,1,1,Lanny and Sharon Martin Stadium,Northwestern,Big Ten,24.0,"[0, 10, 7, 7]",Indiana,Big Ten,41.0,"[7, 10, 7, 17]"
-401628504,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,35.0,"[7, 0, 21, 7]",Iowa,Big Ten,7.0,"[0, 0, 0, 7]"
-401644740,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,20.0,"[10, 0, 0, 10]",Bowling Green,Mid-American,27.0,"[7, 10, 0, 10]"
-401644684,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,30.0,"[14, 6, 3, 7]",Miami (OH),Mid-American,20.0,"[3, 3, 7, 7]"
-401628381,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,31.0,"[7, 7, 7, 10]",Auburn,SEC,13.0,"[3, 0, 7, 3]"
-401628382,2024,6,regular,2024-10-05T19:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,3.0,"[0, 3, 0, 0]",Ole Miss,SEC,27.0,"[14, 10, 3, 0]"
-401636890,2024,6,regular,2024-10-05T20:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,14.0,"[0, 7, 0, 7]",West Virginia,Big 12,38.0,"[10, 21, 0, 7]"
-401628508,2024,6,regular,2024-10-05T20:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,14.0,"[7, 7, 0, 0]",Rutgers,Big Ten,7.0,"[0, 0, 0, 7]"
-401628384,2024,6,regular,2024-10-05T20:15:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,40.0,"[13, 10, 7, 10]",Alabama,SEC,35.0,"[7, 7, 14, 7]"
-401643724,2024,6,regular,2024-10-05T22:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,39.0,"[0, 14, 0, 10, 7, 8]",Colorado State,Mountain West,31.0,"[7, 3, 0, 14, 7, 0]"
-401643801,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,21.0,"[0, 14, 0, 7]",James Madison,Sun Belt,19.0,"[10, 3, 0, 6]"
-401635569,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,13.0,"[0, 7, 0, 6]",Clemson,ACC,29.0,"[17, 6, 0, 6]"
-401643802,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,13.0,"[0, 13, 0, 0]",Louisiana,Sun Belt,23.0,"[3, 14, 3, 3]"
-401643800,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,18.0,"[3, 3, 3, 9]",South Alabama,Sun Belt,16.0,"[0, 3, 7, 6]"
-401643723,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,62.0,"[14, 35, 6, 7]",Utah State,Mountain West,30.0,"[3, 14, 7, 6]"
-401643798,2024,6,regular,2024-10-05T23:00:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,45.0,"[7, 14, 14, 10]",Old Dominion,Sun Belt,37.0,"[7, 10, 7, 13]"
-401628507,2024,6,regular,2024-10-05T23:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,24.0,"[3, 7, 0, 14]",USC,Big Ten,17.0,"[0, 10, 7, 0]"
-401643726,2024,6,regular,2024-10-05T23:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,35.0,"[7, 14, 7, 7]",Nevada,Mountain West,31.0,"[7, 14, 7, 3]"
-401628379,2024,6,regular,2024-10-05T23:30:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,19.0,"[3, 0, 7, 9]",Tennessee,SEC,14.0,"[0, 0, 14, 0]"
-401628505,2024,6,regular,2024-10-05T23:30:00.000Z,1,0,1,Husky Stadium,Washington,Big Ten,27.0,"[7, 7, 0, 13]",Michigan,Big Ten,17.0,"[0, 10, 7, 0]"
-401636889,2024,6,regular,2024-10-05T23:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,43.0,"[3, 16, 14, 10]",Baylor,Big 12,21.0,"[7, 7, 7, 0]"
-401628380,2024,6,regular,2024-10-05T23:45:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,24.0,"[7, 17, 0, 0]",UCF,Big 12,13.0,"[3, 0, 3, 7]"
-401636888,2024,6,regular,2024-10-06T00:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Big 12,35.0,"[7, 7, 0, 21]",Kansas,Big 12,31.0,"[7, 7, 3, 14]"
-401635570,2024,6,regular,2024-10-06T00:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,24.0,"[7, 3, 0, 14]",Duke,ACC,14.0,"[0, 7, 7, 0]"
-401643725,2024,6,regular,2024-10-06T00:00:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,27.0,"[3, 14, 3, 7]",Hawai'i,Mountain West,24.0,"[3, 7, 7, 7]"
-401635568,2024,6,regular,2024-10-06T02:30:00.000Z,1,0,1,California Memorial Stadium,California,ACC,38.0,"[7, 14, 14, 3]",Miami,ACC,39.0,"[7, 3, 8, 21]"
-401636887,2024,6,regular,2024-10-06T03:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Big 12,22.0,"[3, 0, 13, 6]",Texas Tech,Big 12,28.0,"[7, 11, 0, 10]"
-401640982,2024,7,regular,2024-10-08T23:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,31.0,"[3, 14, 0, 7, 7]",Florida International,Conference USA,24.0,"[3, 7, 0, 14, 0]"
-401641002,2024,7,regular,2024-10-09T23:30:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,54.0,"[7, 26, 14, 7]",New Mexico State,Conference USA,13.0,"[3, 3, 0, 7]"
-401643803,2024,7,regular,2024-10-10T23:30:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,39.0,"[7, 22, 7, 3]",Coastal Carolina,Sun Belt,7.0,"[7, 0, 0, 0]"
-401641030,2024,7,regular,2024-10-11T00:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,44.0,"[14, 13, 7, 10]",UTEP,Conference USA,17.0,"[7, 0, 10, 0]"
-401641009,2024,7,regular,2024-10-11T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,48.0,"[20, 14, 14, 0]",Middle Tennessee,Conference USA,21.0,"[14, 0, 7, 0]"
-401628513,2024,7,regular,2024-10-12T00:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,10.0,"[0, 7, 0, 3]",Northwestern,Big Ten,37.0,"[7, 10, 0, 20]"
-401643733,2024,7,regular,2024-10-12T01:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,34.0,"[7, 0, 14, 13]",UNLV,Mountain West,50.0,"[14, 27, 6, 3]"
-401636892,2024,7,regular,2024-10-12T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Big 12,27.0,"[6, 7, 7, 7]",Utah,Big 12,19.0,"[6, 3, 7, 3]"
-401628517,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,7.0,"[0, 0, 0, 7]",Wisconsin,Big Ten,42.0,"[14, 0, 14, 14]"
-401644743,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,35.0,"[0, 7, 7, 21]",Ball State,Mid-American,37.0,"[10, 10, 7, 10]"
-401635577,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,34.0,"[7, 7, 10, 10]",Georgia Tech,ACC,41.0,"[7, 13, 7, 14]"
-401635576,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,14.0,"[7, 7, 0, 0]",Clemson,ACC,49.0,"[0, 28, 14, 7]"
-401628389,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,3.0,"[0, 3, 0, 0]",Missouri,SEC,45.0,"[14, 10, 21, 0]"
-401645342,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Michie Stadium,Army,American Athletic,44.0,"[20, 14, 7, 3]",UAB,American Athletic,10.0,"[3, 0, 0, 7]"
-401644745,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,30.0,"[7, 0, 14, 9]",Toledo,Mid-American,15.0,"[0, 0, 7, 8]"
-401628512,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,40.0,"[7, 13, 3, 17]",Washington,Big Ten,16.0,"[0, 10, 0, 6]"
-401628385,2024,7,regular,2024-10-12T16:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,27.0,"[7, 7, 0, 13]",South Carolina,SEC,25.0,"[0, 12, 7, 6]"
-401644685,2024,7,regular,2024-10-12T18:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,14.0,"[7, 0, 7, 0]",Miami (OH),Mid-American,38.0,"[7, 14, 0, 17]"
-401628981,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,49.0,"[7, 14, 21, 7]",Stanford,ACC,7.0,"[7, 0, 0, 0]"
-401645341,2024,7,regular,2024-10-12T19:30:00.000Z,1,1,1,Camping World Stadium,South Florida,American Athletic,3.0,"[0, 3, 0, 0]",Memphis,American Athletic,21.0,"[14, 0, 0, 7]"
-401643805,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,14.0,"[0, 7, 0, 7]",Old Dominion,Sun Belt,21.0,"[7, 0, 7, 7]"
-401636895,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,13.0,"[0, 3, 7, 3]",Cincinnati,Big 12,19.0,"[3, 7, 3, 6]"
-401635575,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,17.0,"[7, 10, 0, 0]",California,ACC,15.0,"[6, 3, 0, 6]"
-401635578,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,20.0,"[7, 0, 6, 7]",Louisville,ACC,24.0,"[0, 7, 10, 7]"
-401628516,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Big Ten,30.0,"[7, 13, 3, 7, 0]",Penn State,Big Ten,33.0,"[3, 3, 14, 10, 3]"
-401628511,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,50.0,"[10, 14, 3, 16, 7]",Purdue,Big Ten,49.0,"[0, 3, 17, 23, 6]"
-401644744,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,7.0,"[7, 0, 0, 0]",Northern Illinois,Mid-American,17.0,"[3, 3, 0, 11]"
-401644742,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,34.0,"[0, 24, 7, 3]",Akron,Mid-American,24.0,"[10, 7, 7, 0]"
-401643729,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,31.0,"[7, 7, 7, 10]",San José State,Mountain West,24.0,"[7, 7, 0, 10]"
-401643732,2024,7,regular,2024-10-12T19:30:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,24.0,"[7, 7, 3, 7]",San Diego State,Mountain West,27.0,"[10, 7, 0, 10]"
-401628390,2024,7,regular,2024-10-12T19:30:00.000Z,1,1,1,Cotton Bowl,Oklahoma,SEC,3.0,"[3, 0, 0, 0]",Texas,SEC,34.0,"[0, 21, 3, 10]"
-401644746,2024,7,regular,2024-10-12T20:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,25.0,"[0, 0, 8, 17]",Ohio,Mid-American,27.0,"[3, 21, 0, 3]"
-401636893,2024,7,regular,2024-10-12T20:00:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,41.0,"[0, 14, 13, 14]",Arizona,Big 12,19.0,"[7, 0, 3, 9]"
-401628386,2024,7,regular,2024-10-12T20:15:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,41.0,"[10, 17, 7, 7]",Mississippi State,SEC,31.0,"[3, 7, 14, 7]"
-401643807,2024,7,regular,2024-10-12T21:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,38.0,"[7, 7, 3, 21]",Southern Miss,Sun Belt,21.0,"[3, 3, 8, 7]"
-401643730,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,17.0,"[7, 0, 7, 3]",Washington State,Pac-12,25.0,"[13, 0, 3, 9]"
-401645344,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,29.0,"[0, 9, 14, 6]",UTSA,American Athletic,27.0,"[0, 10, 3, 14]"
-401643727,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,52.0,"[7, 21, 17, 7]",Air Force,Mountain West,37.0,"[3, 14, 0, 20]"
-401643808,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,41.0,"[14, 3, 14, 10]",Arkansas State,Sun Belt,9.0,"[3, 6, 0, 0]"
-401628391,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,23.0,"[0, 0, 10, 7, 6]",Florida,SEC,17.0,"[3, 0, 7, 7, 0]"
-401645343,2024,7,regular,2024-10-12T23:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,37.0,"[7, 20, 7, 3]",North Texas,American Athletic,41.0,"[14, 3, 10, 14]"
-401628515,2024,7,regular,2024-10-12T23:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Big Ten,32.0,"[6, 16, 0, 10]",Ohio State,Big Ten,31.0,"[7, 14, 7, 3]"
-401643806,2024,7,regular,2024-10-12T23:30:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,34.0,"[3, 14, 3, 14]",App State,Sun Belt,24.0,"[0, 14, 3, 7]"
-401628388,2024,7,regular,2024-10-12T23:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,29.0,"[0, 13, 3, 7, 6]",Ole Miss,SEC,26.0,"[0, 17, 3, 3, 3]"
-401643731,2024,7,regular,2024-10-12T23:30:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,42.0,"[7, 7, 7, 21]",Oregon State,Pac-12,37.0,"[7, 10, 7, 13]"
-401628387,2024,7,regular,2024-10-12T23:45:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,13.0,"[0, 7, 0, 6]",Vanderbilt,SEC,20.0,"[7, 7, 3, 3]"
-401636896,2024,7,regular,2024-10-13T00:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,16.0,"[7, 3, 0, 6]",Iowa State,Big 12,28.0,"[0, 14, 0, 14]"
-401635574,2024,7,regular,2024-10-13T00:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,17.0,"[0, 7, 0, 10]",Syracuse,ACC,24.0,"[3, 7, 7, 7]"
-401643804,2024,7,regular,2024-10-13T00:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,24.0,"[3, 0, 0, 21]",Marshall,Sun Belt,23.0,"[6, 10, 7, 0]"
-401628514,2024,7,regular,2024-10-13T01:00:00.000Z,1,0,1,Rose Bowl,UCLA,Big Ten,17.0,"[7, 3, 0, 7]",Minnesota,Big Ten,21.0,"[0, 0, 14, 7]"
-401636894,2024,7,regular,2024-10-13T02:15:00.000Z,1,0,1,Folsom Field,Colorado,Big 12,28.0,"[7, 0, 7, 14]",Kansas State,Big 12,31.0,"[7, 7, 10, 7]"
-401643728,2024,7,regular,2024-10-13T03:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,7.0,"[0, 7, 0, 0]",Boise State,Mountain West,28.0,"[10, 3, 0, 15]"
-401643809,2024,8,regular,2024-10-15T23:30:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,25.0,"[3, 16, 6, 0]",Troy,Sun Belt,9.0,"[0, 3, 0, 6]"
-401641019,2024,8,regular,2024-10-16T00:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,14.0,"[7, 0, 7, 0]",Kennesaw State,Conference USA,5.0,"[2, 0, 0, 3]"
-401641010,2024,8,regular,2024-10-16T01:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,33.0,"[0, 10, 7, 7, 3, 6]",Louisiana Tech,Conference USA,30.0,"[0, 14, 0, 10, 3, 3]"
-401641038,2024,8,regular,2024-10-16T23:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,14.0,"[0, 14, 0, 0]",Western Kentucky,Conference USA,31.0,"[7, 10, 0, 14]"
-401640983,2024,8,regular,2024-10-17T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,30.0,"[3, 14, 3, 10]",Florida International,Conference USA,21.0,"[7, 7, 7, 0]"
-401643810,2024,8,regular,2024-10-17T23:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,35.0,"[11, 14, 0, 10]",Georgia State,Sun Belt,20.0,"[0, 10, 7, 3]"
-401634768,2024,8,regular,2024-10-17T23:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,42.0,"[14, 14, 0, 14]",Boston College,ACC,21.0,"[0, 0, 21, 0]"
-401634769,2024,8,regular,2024-10-18T23:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,23.0,"[7, 10, 3, 3]",Florida State,ACC,16.0,"[3, 3, 7, 3]"
-401628523,2024,8,regular,2024-10-19T00:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,0.0,"[0, 0, 0, 0]",Oregon,Big Ten,35.0,"[14, 7, 0, 14]"
-401636898,2024,8,regular,2024-10-19T02:15:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,38.0,"[7, 7, 14, 10]",Oklahoma State,Big 12,35.0,"[7, 14, 0, 14]"
-401643735,2024,8,regular,2024-10-19T02:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,21.0,"[7, 14, 0, 0]",Fresno State,Mountain West,24.0,"[3, 14, 7, 0]"
-401645346,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,Michie Stadium,Army,American Athletic,45.0,"[7, 17, 14, 7]",East Carolina,American Athletic,28.0,"[0, 0, 7, 21]"
-401635589,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,45.0,"[7, 10, 14, 14]",Miami,ACC,52.0,"[10, 14, 14, 14]"
-401635588,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,48.0,"[3, 14, 21, 10]",Virginia,ACC,31.0,"[3, 7, 0, 21]"
-401628522,2024,8,regular,2024-10-19T16:00:00.000Z,1,1,1,Lanny and Sharon Martin Stadium,Northwestern,Big Ten,3.0,"[0, 0, 3, 0]",Wisconsin,Big Ten,23.0,"[0, 14, 7, 2]"
-401629034,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,20.0,"[3, 3, 7, 7]",Wake Forest,ACC,23.0,"[3, 10, 7, 3]"
-401636899,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,24.0,"[10, 14, 0, 0]",Arizona State,Big 12,14.0,"[7, 0, 7, 0]"
-401628395,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,21.0,"[3, 0, 3, 15]",Auburn,SEC,17.0,"[0, 3, 14, 0]"
-401643811,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,24.0,"[0, 14, 3, 7]",Louisiana,Sun Belt,34.0,"[7, 10, 0, 17]"
-401628519,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,56.0,"[7, 21, 14, 14]",Nebraska,Big Ten,7.0,"[0, 7, 0, 0]"
-401628524,2024,8,regular,2024-10-19T16:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,32.0,"[7, 3, 9, 13]",UCLA,Big Ten,35.0,"[7, 14, 7, 7]"
-401628396,2024,8,regular,2024-10-19T16:45:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,9.0,"[0, 3, 6, 0]",South Carolina,SEC,35.0,"[21, 11, 0, 3]"
-401645351,2024,8,regular,2024-10-19T18:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,20.0,"[3, 14, 0, 3]",Tulsa,American Athletic,10.0,"[0, 0, 10, 0]"
-401644750,2024,8,regular,2024-10-19T18:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,38.0,"[10, 6, 0, 22]",Central Michigan,Mid-American,34.0,"[0, 14, 13, 7]"
-401644749,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,41.0,"[10, 7, 7, 17]",Western Michigan,Mid-American,48.0,"[7, 21, 7, 13]"
-401636901,2024,8,regular,2024-10-19T19:30:00.000Z,1,1,1,GEHA Field at Arrowhead Stadium,Kansas,Big 12,42.0,"[14, 14, 0, 14]",Houston,Big 12,14.0,"[0, 14, 0, 0]"
-401645345,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,35.0,"[0, 7, 13, 15]",UAB,American Athletic,25.0,"[3, 6, 10, 6]"
-401645347,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,51.0,"[24, 14, 13, 0]",Charlotte,American Athletic,17.0,"[0, 10, 7, 0]"
-401645350,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,24.0,"[3, 7, 0, 14]",Rice,American Athletic,10.0,"[0, 7, 3, 0]"
-401643736,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,42.0,"[7, 14, 7, 14]",Hawai'i,Mountain West,10.0,"[3, 0, 7, 0]"
-401643813,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,24.0,"[7, 7, 0, 10]",Texas State,Sun Belt,14.0,"[0, 0, 7, 7]"
-401645348,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,38.0,"[3, 14, 7, 14]",Florida Atlantic,American Athletic,24.0,"[7, 10, 7, 0]"
-401635587,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,California Memorial Stadium,California,ACC,23.0,"[7, 6, 10, 0]",NC State,ACC,24.0,"[3, 7, 0, 14]"
-401628982,2024,8,regular,2024-10-19T19:30:00.000Z,1,1,0,Mercedes-Benz Stadium,Georgia Tech,ACC,13.0,"[7, 0, 0, 6]",Notre Dame,FBS Independents,31.0,"[0, 14, 7, 10]"
-401628518,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,21.0,"[3, 10, 8, 0]",Michigan,Big Ten,7.0,"[0, 7, 0, 0]"
-401644748,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,27.0,"[10, 10, 0, 7]",Kent State,Mid-American,6.0,"[3, 3, 0, 0]"
-401644686,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,30.0,"[3, 13, 14, 0]",Ohio,Mid-American,20.0,"[0, 0, 6, 14]"
-401644751,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,6.0,"[3, 3, 0, 0]",Toledo,Mid-American,13.0,"[0, 7, 3, 3]"
-401628397,2024,8,regular,2024-10-19T19:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,24.0,"[0, 0, 14, 10]",Alabama,SEC,17.0,"[0, 7, 3, 7]"
-401643737,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,45.0,"[14, 10, 14, 7]",New Mexico,Mountain West,50.0,"[0, 15, 14, 21]"
-401636902,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,35.0,"[7, 7, 7, 14]",Baylor,Big 12,59.0,"[7, 17, 14, 21]"
-401643812,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,28.0,"[7, 14, 7, 0]",James Madison,Sun Belt,14.0,"[0, 0, 7, 7]"
-401643738,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,24.0,"[7, 7, 3, 7]",Wyoming,Mountain West,14.0,"[0, 0, 7, 7]"
-401628521,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,29.0,"[0, 7, 7, 15]",USC,Big Ten,28.0,"[7, 14, 0, 7]"
-401636897,2024,8,regular,2024-10-19T20:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Big 12,7.0,"[7, 0, 0, 0]",Colorado,Big 12,34.0,"[14, 14, 3, 3]"
-401628394,2024,8,regular,2024-10-19T20:15:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,24.0,"[7, 10, 0, 7]",Texas A&M,SEC,34.0,"[7, 14, 10, 3]"
-401628399,2024,8,regular,2024-10-19T23:00:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,24.0,"[3, 11, 0, 10]",Ball State,Mid-American,14.0,"[7, 0, 7, 0]"
-401628392,2024,8,regular,2024-10-19T23:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,10.0,"[0, 7, 3, 0]",LSU,SEC,34.0,"[10, 6, 8, 10]"
-401643814,2024,8,regular,2024-10-19T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,28.0,"[7, 14, 0, 7]",Arkansas State,Sun Belt,44.0,"[21, 7, 13, 3]"
-401628520,2024,8,regular,2024-10-19T23:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,32.0,"[6, 6, 7, 13]",Iowa,Big Ten,20.0,"[0, 0, 14, 6]"
-401628398,2024,8,regular,2024-10-19T23:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,SEC,15.0,"[0, 0, 15, 0]",Georgia,SEC,30.0,"[7, 16, 0, 7]"
-401636900,2024,8,regular,2024-10-19T23:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,38.0,"[14, 0, 13, 11]",UCF,Big 12,35.0,"[7, 14, 7, 7]"
-401645349,2024,8,regular,2024-10-19T23:30:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,52.0,"[14, 14, 7, 17]",North Texas,American Athletic,44.0,"[21, 3, 7, 13]"
-401636904,2024,8,regular,2024-10-19T23:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,18.0,"[3, 7, 0, 8]",Kansas State,Big 12,45.0,"[10, 7, 14, 14]"
-401628393,2024,8,regular,2024-10-19T23:45:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,48.0,"[3, 24, 7, 14]",Kentucky,SEC,20.0,"[0, 13, 7, 0]"
-401635590,2024,8,regular,2024-10-20T00:00:00.000Z,1,0,1,Stanford Stadium,Stanford,ACC,10.0,"[0, 7, 3, 0]",SMU,ACC,40.0,"[21, 10, 0, 9]"
-401643734,2024,8,regular,2024-10-20T00:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,13.0,"[0, 0, 0, 13]",Colorado State,Mountain West,21.0,"[0, 14, 7, 0]"
-401643739,2024,8,regular,2024-10-20T02:00:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,25.0,"[3, 14, 0, 8]",UNLV,Mountain West,33.0,"[3, 13, 7, 10]"
-401636903,2024,8,regular,2024-10-20T02:30:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Big 12,7.0,"[0, 0, 7, 0]",TCU,Big 12,13.0,"[0, 10, 3, 0]"
-401640984,2024,9,regular,2024-10-22T23:30:00.000Z,1,1,1,Pitbull Stadium,Florida International,Conference USA,7.0,"[0, 0, 0, 7]",Sam Houston,Conference USA,10.0,"[0, 0, 7, 3]"
-401641011,2024,9,regular,2024-10-23T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,14.0,"[0, 7, 0, 7]",UTEP,Conference USA,10.0,"[7, 0, 3, 0]"
-401640993,2024,9,regular,2024-10-23T23:00:00.000Z,1,0,1,Fifth Third Stadium,Kennesaw State,Conference USA,27.0,"[7, 7, 7, 6]",Liberty,Conference USA,24.0,"[7, 7, 3, 7]"
-401641003,2024,9,regular,2024-10-23T23:30:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,42.0,"[14, 0, 21, 7]",Middle Tennessee,Conference USA,20.0,"[10, 0, 3, 7]"
-401643815,2024,9,regular,2024-10-24T23:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,47.0,"[13, 17, 14, 3]",Georgia Southern,Sun Belt,19.0,"[0, 7, 6, 6]"
-401634770,2024,9,regular,2024-10-24T23:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,41.0,"[17, 14, 0, 10]",Syracuse,ACC,13.0,"[0, 0, 6, 7]"
-401634771,2024,9,regular,2024-10-25T23:30:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,27.0,"[7, 13, 7, 0]",Louisville,ACC,31.0,"[0, 7, 10, 14]"
-401643740,2024,9,regular,2024-10-26T02:30:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,24.0,"[10, 0, 14, 0]",Boise State,Mountain West,29.0,"[3, 17, 3, 6]"
-401628532,2024,9,regular,2024-10-26T03:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Big Ten,42.0,"[14, 14, 14, 0]",Rutgers,Big Ten,20.0,"[3, 9, 8, 0]"
-401628402,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,26.0,"[7, 3, 13, 3]",Oklahoma,SEC,14.0,"[7, 7, 0, 0]"
-401628530,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,21.0,"[7, 7, 0, 7]",Nebraska,Big Ten,17.0,"[0, 6, 3, 8]"
-401644755,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,47.0,"[3, 21, 9, 14]",Buffalo,Mid-American,16.0,"[0, 10, 6, 0]"
-401628526,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,31.0,"[7, 10, 7, 7]",Washington,Big Ten,17.0,"[0, 7, 7, 3]"
-401628983,2024,9,regular,2024-10-26T16:00:00.000Z,1,1,0,MetLife Stadium,Navy,American Athletic,14.0,"[0, 7, 7, 0]",Notre Dame,FBS Independents,51.0,"[14, 17, 13, 7]"
-401645354,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,37.0,"[3, 14, 7, 13]",Tulane,American Athletic,45.0,"[21, 10, 14, 0]"
-401635597,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,21.0,"[0, 14, 7, 0]",Georgia Tech,ACC,6.0,"[3, 3, 0, 0]"
-401635598,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,14.0,"[3, 3, 0, 8]",North Carolina,ACC,41.0,"[7, 17, 14, 3]"
-401645353,2024,9,regular,2024-10-26T16:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,33.0,"[0, 7, 14, 12]",Charlotte,American Athletic,28.0,"[7, 0, 0, 21]"
-401628403,2024,9,regular,2024-10-26T16:45:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,25.0,"[7, 3, 15, 0]",Arkansas,SEC,58.0,"[17, 14, 10, 17]"
-401643816,2024,9,regular,2024-10-26T17:00:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,33.0,"[2, 16, 7, 8]",Georgia State,Sun Belt,26.0,"[0, 16, 7, 3]"
-401644687,2024,9,regular,2024-10-26T18:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,46.0,"[3, 13, 10, 20]",Central Michigan,Mid-American,7.0,"[7, 0, 0, 0]"
-401645352,2024,9,regular,2024-10-26T18:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,56.0,"[13, 14, 29, 0]",Temple,American Athletic,34.0,"[14, 7, 7, 6]"
-401644752,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,25.0,"[8, 10, 0, 7]",Eastern Michigan,Mid-American,21.0,"[0, 0, 14, 7]"
-401644754,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,26.0,"[7, 13, 6, 0]",Bowling Green,Mid-American,41.0,"[14, 14, 3, 10]"
-401644756,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,52.0,"[14, 24, 7, 7]",Kent State,Mid-American,21.0,"[0, 7, 0, 14]"
-401645355,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,46.0,"[0, 7, 17, 22]",UTSA,American Athletic,45.0,"[14, 21, 7, 3]"
-401643817,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,32.0,"[0, 17, 8, 7]",Southern Miss,Sun Belt,15.0,"[3, 6, 6, 0]"
-401636906,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,38.0,"[3, 14, 7, 14]",Oklahoma State,Big 12,28.0,"[3, 14, 3, 8]"
-401629035,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,17.0,"[0, 0, 7, 10]",Rice,American Athletic,10.0,"[3, 0, 0, 7]"
-401636910,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,35.0,"[14, 0, 7, 14]",Texas Tech,Big 12,34.0,"[3, 14, 14, 3]"
-401636911,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,24.0,"[0, 10, 0, 14]",BYU,Big 12,37.0,"[7, 17, 10, 3]"
-401635599,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Stanford Stadium,Stanford,ACC,24.0,"[0, 17, 0, 7]",Wake Forest,ACC,27.0,"[14, 10, 0, 3]"
-401645308,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,35.0,"[7, 14, 0, 14]",Wagner,NEC,7.0,"[0, 0, 7, 0]"
-401628400,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,34.0,"[3, 10, 14, 7]",Missouri,SEC,0.0,"[0, 0, 0, 0]"
-401628528,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,48.0,"[21, 13, 7, 7]",Maryland,Big Ten,23.0,"[0, 10, 0, 13]"
-401628527,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,40.0,"[3, 9, 28, 0]",Northwestern,Big Ten,14.0,"[0, 7, 0, 7]"
-401628525,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Big Ten,38.0,"[14, 21, 0, 3]",Illinois,Big Ten,9.0,"[3, 0, 6, 0]"
-401644753,2024,9,regular,2024-10-26T19:30:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,25.0,"[7, 12, 0, 6]",Northern Illinois,Mid-American,23.0,"[7, 7, 0, 9]"
-401635594,2024,9,regular,2024-10-26T20:00:00.000Z,1,0,0,California Memorial Stadium,California,ACC,44.0,"[14, 17, 10, 3]",Oregon State,Pac-12,7.0,"[0, 0, 0, 7]"
-401628405,2024,9,regular,2024-10-26T20:15:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,24.0,"[7, 3, 7, 7]",Texas,SEC,27.0,"[14, 7, 3, 3]"
-401643819,2024,9,regular,2024-10-26T21:00:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,46.0,"[7, 5, 20, 14]",UL Monroe,Sun Belt,17.0,"[7, 10, 0, 0]"
-401643741,2024,9,regular,2024-10-26T21:00:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,17.0,"[0, 17, 0, 0]",New Mexico,Mountain West,6.0,"[0, 3, 3, 0]"
-401636905,2024,9,regular,2024-10-26T23:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Big 12,26.0,"[0, 7, 6, 13]",West Virginia,Big 12,31.0,"[10, 7, 7, 7]"
-401643818,2024,9,regular,2024-10-26T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,34.0,"[13, 10, 3, 8]",Troy,Sun Belt,31.0,"[0, 3, 21, 7]"
-401636908,2024,9,regular,2024-10-26T23:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,17.0,"[0, 7, 0, 10]",Utah,Big 12,14.0,"[7, 0, 7, 0]"
-401635596,2024,9,regular,2024-10-26T23:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,36.0,"[7, 10, 6, 13]",Florida State,ACC,14.0,"[0, 7, 0, 7]"
-401643745,2024,9,regular,2024-10-26T23:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,25.0,"[3, 7, 6, 9]",Utah State,Mountain West,27.0,"[7, 10, 0, 10]"
-401628529,2024,9,regular,2024-10-26T23:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,24.0,"[0, 9, 7, 8]",Michigan State,Big Ten,17.0,"[7, 0, 3, 7]"
-401628404,2024,9,regular,2024-10-26T23:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,38.0,"[7, 0, 14, 17]",LSU,SEC,23.0,"[10, 7, 0, 6]"
-401628531,2024,9,regular,2024-10-26T23:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,13.0,"[3, 7, 3, 0]",Penn State,Big Ten,28.0,"[0, 7, 7, 14]"
-401628401,2024,9,regular,2024-10-26T23:45:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,10.0,"[10, 0, 0, 0]",Auburn,SEC,24.0,"[0, 10, 7, 7]"
-401636909,2024,9,regular,2024-10-27T00:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,29.0,"[0, 16, 7, 6]",Kansas,Big 12,27.0,"[7, 7, 13, 0]"
-401635595,2024,9,regular,2024-10-27T00:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,27.0,"[7, 0, 6, 8, 6]",SMU,ACC,28.0,"[0, 14, 7, 0, 7]"
-401643742,2024,9,regular,2024-10-27T00:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,33.0,"[3, 17, 7, 6]",San José State,Mountain West,10.0,"[7, 0, 0, 3]"
-401636907,2024,9,regular,2024-10-27T02:15:00.000Z,1,0,1,Folsom Field,Colorado,Big 12,34.0,"[14, 10, 7, 3]",Cincinnati,Big 12,23.0,"[7, 7, 0, 9]"
-401643744,2024,9,regular,2024-10-27T02:30:00.000Z,1,0,0,Snapdragon Stadium,San Diego State,Mountain West,26.0,"[6, 6, 7, 7]",Washington State,Pac-12,29.0,"[7, 7, 0, 15]"
-401643743,2024,9,regular,2024-10-27T03:59:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,34.0,"[14, 3, 7, 10]",Nevada,Mountain West,13.0,"[0, 0, 7, 6]"
-401640985,2024,10,regular,2024-10-29T23:00:00.000Z,1,1,1,Pitbull Stadium,Florida International,Conference USA,34.0,"[0, 7, 13, 14]",New Mexico State,Conference USA,13.0,"[0, 6, 0, 7]"
-401643820,2024,10,regular,2024-10-29T23:30:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,17.0,"[6, 0, 8, 3]",Louisiana,Sun Belt,23.0,"[7, 7, 3, 6]"
-401641012,2024,10,regular,2024-10-30T00:00:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,9.0,"[2, 0, 7, 0]",Louisiana Tech,Conference USA,3.0,"[3, 0, 0, 0]"
-401640994,2024,10,regular,2024-10-30T23:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,21.0,"[7, 7, 0, 7]",Jacksonville State,Conference USA,31.0,"[7, 7, 10, 7]"
-401641020,2024,10,regular,2024-10-30T23:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,31.0,"[21, 3, 0, 7]",Kennesaw State,Conference USA,14.0,"[7, 0, 0, 7]"
-401645356,2024,10,regular,2024-10-31T23:30:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,3.0,"[0, 3, 0, 0]",Tulane,American Athletic,34.0,"[3, 7, 10, 14]"
-401629036,2024,10,regular,2024-11-01T23:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,FBS Independents,34.0,"[10, 3, 7, 14]",Georgia State,Sun Belt,27.0,"[0, 10, 3, 14]"
-401645357,2024,10,regular,2024-11-01T23:30:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,21.0,"[7, 7, 7, 0]",South Florida,American Athletic,44.0,"[0, 7, 24, 13]"
-401643747,2024,10,regular,2024-11-02T00:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,56.0,"[21, 14, 7, 14]",San Diego State,Mountain West,24.0,"[0, 10, 0, 14]"
-401635604,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,38.0,"[0, 3, 15, 13, 7]",Virginia Tech,ACC,31.0,"[14, 0, 7, 10, 0]"
-401635516,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,59.0,"[14, 17, 21, 7]",Stanford,ACC,28.0,"[7, 7, 7, 7]"
-401645359,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,44.0,"[14, 10, 10, 10]",Memphis,American Athletic,36.0,"[10, 14, 0, 12]"
-401628533,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,17.0,"[0, 10, 0, 7]",Minnesota,Big Ten,25.0,"[3, 10, 3, 9]"
-401628410,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,59.0,"[7, 28, 14, 10]",Maine,CAA,14.0,"[7, 0, 0, 7]"
-401628406,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,31.0,"[3, 7, 14, 7]",Ole Miss,SEC,63.0,"[7, 28, 21, 7]"
-401644758,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,28.0,"[7, 3, 9, 9]",Toledo,Mid-American,29.0,"[0, 7, 0, 22]"
-401644757,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,30.0,"[7, 0, 0, 23]",Buffalo,Mid-American,41.0,"[14, 10, 14, 3]"
-401628538,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,20.0,"[3, 7, 3, 7, 0]",Northwestern,Big Ten,26.0,"[10, 7, 0, 3, 6]"
-401643746,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,0,Michie Stadium,Army,American Athletic,20.0,"[3, 3, 7, 7]",Air Force,Mountain West,3.0,"[0, 3, 0, 0]"
-401628539,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,13.0,"[10, 0, 3, 0]",Ohio State,Big Ten,20.0,"[7, 7, 3, 3]"
-401635601,2024,10,regular,2024-11-02T16:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,53.0,"[14, 3, 15, 21]",Duke,ACC,31.0,"[7, 14, 7, 3]"
-401628407,2024,10,regular,2024-11-02T16:45:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,7.0,"[0, 7, 0, 0]",Vanderbilt,SEC,17.0,"[7, 0, 3, 7]"
-401643821,2024,10,regular,2024-11-02T18:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,28.0,"[7, 7, 7, 7]",Old Dominion,Sun Belt,20.0,"[3, 14, 3, 0]"
-401645358,2024,10,regular,2024-11-02T18:30:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,59.0,"[21, 24, 14, 0]",Tulsa,American Athletic,21.0,"[0, 7, 7, 7]"
-401636914,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,22.0,"[3, 10, 0, 9]",Texas Tech,Big 12,23.0,"[10, 0, 7, 6]"
-401636916,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,56.0,"[14, 21, 14, 7]",Arizona,Big 12,12.0,"[0, 6, 6, 0]"
-401641026,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,13.0,"[3, 7, 3, 0]",Middle Tennessee,Conference USA,20.0,"[3, 7, 3, 7]"
-401628534,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,10.0,"[10, 0, 0, 0]",Indiana,Big Ten,47.0,"[0, 21, 12, 14]"
-401628536,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,17.0,"[7, 3, 7, 0]",Oregon,Big Ten,38.0,"[7, 21, 3, 7]"
-401628537,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,20.0,"[0, 7, 7, 6]",UCLA,Big Ten,27.0,"[3, 10, 14, 0]"
-401636913,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,24.0,"[0, 10, 0, 14]",Kansas State,Big 12,19.0,"[3, 13, 3, 0]"
-401628408,2024,10,regular,2024-11-02T19:30:00.000Z,1,1,1,EverBank Stadium,Georgia,SEC,34.0,"[3, 3, 14, 14]",Florida,SEC,20.0,"[0, 13, 0, 7]"
-401635602,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,11.0,"[3, 0, 8, 0]",North Carolina,ACC,35.0,"[0, 14, 14, 7]"
-401636915,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,21.0,"[0, 14, 0, 7]",Arizona State,Big 12,42.0,"[7, 14, 7, 14]"
-401643822,2024,10,regular,2024-11-02T19:30:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,28.0,"[7, 7, 0, 14]",UL Monroe,Sun Belt,23.0,"[7, 7, 0, 9]"
-401643750,2024,10,regular,2024-11-02T20:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,45.0,"[13, 22, 10, 0]",Wyoming,Mountain West,49.0,"[14, 21, 0, 14]"
-401643824,2024,10,regular,2024-11-02T20:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,38.0,"[7, 21, 7, 3]",Coastal Carolina,Sun Belt,24.0,"[7, 0, 17, 0]"
-401645360,2024,10,regular,2024-11-02T20:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,24.0,"[14, 3, 7, 0]",Navy,American Athletic,10.0,"[0, 7, 0, 3]"
-401628409,2024,10,regular,2024-11-02T20:15:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,45.0,"[0, 21, 14, 10]",Massachusetts,FBS Independents,20.0,"[10, 0, 0, 10]"
-401643749,2024,10,regular,2024-11-02T23:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,20.0,"[7, 6, 7, 0]",Hawai'i,Mountain West,21.0,"[7, 0, 0, 14]"
-401643823,2024,10,regular,2024-11-02T23:30:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,30.0,"[3, 10, 17, 0]",Georgia Southern,Sun Belt,34.0,"[7, 7, 0, 20]"
-401635600,2024,10,regular,2024-11-02T23:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,21.0,"[7, 0, 0, 14]",Louisville,ACC,33.0,"[3, 14, 9, 7]"
-401628540,2024,10,regular,2024-11-02T23:30:00.000Z,1,0,1,Husky Stadium,Washington,Big Ten,26.0,"[10, 10, 0, 6]",USC,Big Ten,21.0,"[0, 7, 14, 0]"
-401628535,2024,10,regular,2024-11-02T23:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,42.0,"[0, 14, 14, 14]",Wisconsin,Big Ten,10.0,"[3, 0, 0, 7]"
-401628411,2024,10,regular,2024-11-02T23:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,44.0,"[14, 6, 10, 14]",Texas A&M,SEC,20.0,"[3, 17, 0, 0]"
-401628412,2024,10,regular,2024-11-02T23:45:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,28.0,"[0, 7, 14, 7]",Kentucky,SEC,18.0,"[7, 3, 0, 8]"
-401636912,2024,10,regular,2024-11-03T00:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,37.0,"[7, 6, 7, 17]",TCU,Big 12,34.0,"[7, 10, 10, 7]"
-401635627,2024,10,regular,2024-11-03T00:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,ACC,48.0,"[7, 24, 3, 14]",Pittsburgh,ACC,25.0,"[3, 0, 8, 14]"
-401643748,2024,10,regular,2024-11-03T00:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,21.0,"[0, 0, 7, 14]",Colorado State,Mountain West,38.0,"[14, 3, 11, 10]"
-401644760,2024,11,regular,2024-11-06T00:30:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,13.0,"[0, 7, 0, 6]",Bowling Green,Mid-American,23.0,"[3, 6, 7, 7]"
-401644688,2024,11,regular,2024-11-06T01:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,21.0,"[7, 6, 8, 0]",Miami (OH),Mid-American,27.0,"[7, 14, 0, 6]"
-401644761,2024,11,regular,2024-11-07T00:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,0.0,"[0, 0, 0, 0]",Ohio,Mid-American,41.0,"[10, 10, 14, 7]"
-401644762,2024,11,regular,2024-11-07T00:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,28.0,"[7, 7, 7, 7]",Northern Illinois,Mid-American,42.0,"[0, 21, 21, 0]"
-401645361,2024,11,regular,2024-11-08T01:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,49.0,"[21, 14, 7, 7]",Florida Atlantic,American Athletic,14.0,"[0, 7, 0, 7]"
-401643825,2024,11,regular,2024-11-08T01:00:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,38.0,"[14, 3, 14, 7]",App State,Sun Belt,24.0,"[0, 10, 0, 14]"
-401634773,2024,11,regular,2024-11-09T01:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,36.0,"[7, 7, 7, 15]",California,ACC,46.0,"[10, 19, 7, 10]"
-401645362,2024,11,regular,2024-11-09T02:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,27.0,"[0, 17, 0, 10]",Rice,American Athletic,20.0,"[6, 7, 0, 7]"
-401628542,2024,11,regular,2024-11-09T02:00:00.000Z,1,0,1,Rose Bowl,UCLA,Big Ten,20.0,"[0, 17, 0, 3]",Iowa,Big Ten,17.0,"[10, 0, 0, 7]"
-401643754,2024,11,regular,2024-11-09T03:30:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,16.0,"[3, 10, 3, 0]",New Mexico,Mountain West,21.0,"[14, 0, 0, 7]"
-401636918,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,24.0,"[7, 0, 7, 10]",West Virginia,Big 12,31.0,"[0, 17, 7, 7]"
-401645363,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,7.0,"[0, 0, 0, 7]",Navy,American Athletic,28.0,"[14, 7, 0, 7]"
-401628417,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,SEC,49.0,"[14, 21, 7, 7]",Florida,SEC,17.0,"[0, 0, 10, 7]"
-401643828,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,17.0,"[0, 0, 14, 3]",Texas State,Sun Belt,38.0,"[14, 14, 0, 10]"
-401635609,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,28.0,"[7, 7, 7, 7]",Miami,ACC,23.0,"[10, 0, 6, 7]"
-401635606,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,37.0,"[7, 7, 16, 7]",Syracuse,ACC,31.0,"[0, 14, 7, 10]"
-401628544,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,26.0,"[7, 7, 0, 12]",Minnesota,Big Ten,19.0,"[9, 0, 7, 3]"
-401628545,2024,11,regular,2024-11-09T17:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,45.0,"[7, 14, 17, 7]",Purdue,Big Ten,0.0,"[0, 0, 0, 0]"
-401640995,2024,11,regular,2024-11-09T18:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,17.0,"[7, 0, 0, 10]",Liberty,Conference USA,37.0,"[7, 20, 3, 7]"
-401629037,2024,11,regular,2024-11-09T19:30:00.000Z,1,0,0,Protective Stadium,UAB,American Athletic,23.0,"[3, 17, 3, 0]",UConn,FBS Independents,31.0,"[3, 0, 7, 21]"
-401643829,2024,11,regular,2024-11-09T20:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,3.0,"[0, 3, 0, 0]",Marshall,Sun Belt,37.0,"[3, 14, 17, 3]"
-401635607,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,14.0,"[0, 7, 0, 7]",Clemson,ACC,24.0,"[0, 0, 14, 10]"
-401629045,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,3.0,"[3, 0, 0, 0]",Army,American Athletic,14.0,"[7, 0, 0, 7]"
-401635608,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,19.0,"[0, 9, 3, 7]",Duke,ACC,29.0,"[12, 0, 7, 10]"
-401636919,2024,11,regular,2024-11-09T20:30:00.000Z,1,1,1,GEHA Field at Arrowhead Stadium,Kansas,Big 12,45.0,"[14, 17, 7, 7]",Iowa State,Big 12,36.0,"[7, 6, 7, 16]"
-401628414,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,28.0,"[10, 6, 6, 6]",Georgia,SEC,10.0,"[7, 0, 3, 0]"
-401643826,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,38.0,"[14, 14, 10, 0]",Georgia State,Sun Belt,7.0,"[0, 7, 0, 0]"
-401643755,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,13.0,"[0, 10, 3, 0]",San José State,Mountain West,24.0,"[0, 10, 0, 14]"
-401628541,2024,11,regular,2024-11-09T20:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,20.0,"[7, 10, 0, 3]",Michigan,Big Ten,15.0,"[3, 0, 6, 6]"
-401645364,2024,11,regular,2024-11-09T21:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,52.0,"[7, 21, 14, 10]",Temple,American Athletic,6.0,"[0, 0, 0, 6]"
-401636921,2024,11,regular,2024-11-09T21:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,27.0,"[13, 0, 7, 7]",Colorado,Big 12,41.0,"[0, 10, 21, 10]"
-401641021,2024,11,regular,2024-11-09T21:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,43.0,"[7, 7, 7, 7, 7, 8]",Kennesaw State,Conference USA,35.0,"[7, 0, 14, 7, 7, 0]"
-401628418,2024,11,regular,2024-11-09T21:15:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,7.0,"[0, 0, 7, 0]",South Carolina,SEC,28.0,"[0, 7, 14, 7]"
-401641004,2024,11,regular,2024-11-09T21:30:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,37.0,"[7, 14, 9, 7, 0]",Jacksonville State,Conference USA,44.0,"[7, 21, 0, 9, 7]"
-401643827,2024,11,regular,2024-11-09T22:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,55.0,"[10, 21, 17, 7]",Arkansas State,Sun Belt,19.0,"[0, 6, 6, 7]"
-401641036,2024,11,regular,2024-11-09T23:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,28.0,"[7, 0, 14, 7]",Western Kentucky,Conference USA,41.0,"[14, 10, 7, 10]"
-401628416,2024,11,regular,2024-11-10T00:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,33.0,"[7, 13, 10, 3]",Mississippi State,SEC,14.0,"[0, 7, 7, 0]"
-401636920,2024,11,regular,2024-11-10T00:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,38.0,"[10, 14, 7, 7]",Oklahoma State,Big 12,13.0,"[0, 0, 6, 7]"
-401636917,2024,11,regular,2024-11-10T00:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Big 12,35.0,"[7, 14, 7, 7]",UCF,Big 12,31.0,"[7, 10, 7, 7]"
-401628543,2024,11,regular,2024-11-10T00:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Big Ten,39.0,"[7, 14, 8, 10]",Maryland,Big Ten,18.0,"[3, 7, 0, 8]"
-401628413,2024,11,regular,2024-11-10T00:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,13.0,"[3, 3, 0, 7]",Alabama,SEC,42.0,"[14, 7, 7, 14]"
-401628984,2024,11,regular,2024-11-10T00:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,52.0,"[7, 14, 10, 21]",Florida State,ACC,3.0,"[3, 0, 0, 0]"
-401628415,2024,11,regular,2024-11-10T00:45:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,30.0,"[0, 3, 7, 20]",Oklahoma,SEC,23.0,"[0, 9, 0, 14]"
-401643752,2024,11,regular,2024-11-10T01:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,28.0,"[14, 0, 7, 7]",Nevada,Mountain West,21.0,"[7, 7, 0, 7]"
-401628546,2024,11,regular,2024-11-10T01:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,35.0,"[7, 21, 0, 7]",Washington,Big Ten,6.0,"[0, 0, 3, 3]"
-401635610,2024,11,regular,2024-11-10T01:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,19.0,"[0, 13, 0, 6]",Virginia,ACC,24.0,"[0, 7, 14, 3]"
-401643753,2024,11,regular,2024-11-10T02:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,27.0,"[7, 3, 10, 7]",UNLV,Mountain West,29.0,"[12, 0, 10, 7]"
-401643751,2024,11,regular,2024-11-10T02:45:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,36.0,"[7, 10, 9, 10]",Fresno State,Mountain West,28.0,"[7, 14, 0, 7]"
-401636922,2024,11,regular,2024-11-10T03:15:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Big 12,21.0,"[0, 21, 0, 0]",BYU,Big 12,22.0,"[3, 7, 3, 9]"
-401643756,2024,11,regular,2024-11-10T03:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,49.0,"[7, 14, 14, 14]",Utah State,Mountain West,28.0,"[7, 0, 7, 14]"
-401644765,2024,12,regular,2024-11-13T00:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,37.0,"[7, 20, 7, 3]",Central Michigan,Mid-American,10.0,"[3, 0, 0, 7]"
-401644764,2024,12,regular,2024-11-13T00:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,31.0,"[3, 14, 14, 0]",Western Michigan,Mid-American,13.0,"[0, 7, 6, 0]"
-401644763,2024,12,regular,2024-11-13T00:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,51.0,"[7, 17, 7, 14, 6]",Ball State,Mid-American,48.0,"[7, 21, 7, 10, 3]"
-401644766,2024,12,regular,2024-11-14T00:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,29.0,"[17, 6, 0, 6]",Akron,Mid-American,16.0,"[6, 10, 0, 0]"
-401644767,2024,12,regular,2024-11-14T00:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,35.0,"[0, 14, 7, 14]",Eastern Michigan,Mid-American,10.0,"[0, 7, 0, 3]"
-401644689,2024,12,regular,2024-11-14T00:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,34.0,"[10, 7, 14, 3]",Kent State,Mid-American,7.0,"[7, 0, 0, 0]"
-401645365,2024,12,regular,2024-11-15T00:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,31.0,"[3, 14, 7, 7]",East Carolina,American Athletic,38.0,"[7, 10, 7, 14]"
-401643759,2024,12,regular,2024-11-16T01:00:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,24.0,"[14, 3, 7, 0]",Wyoming,Mountain West,10.0,"[0, 3, 7, 0]"
-401645366,2024,12,regular,2024-11-16T01:00:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,48.0,"[14, 13, 3, 18]",North Texas,American Athletic,27.0,"[0, 7, 13, 7]"
-401628553,2024,12,regular,2024-11-16T02:00:00.000Z,1,0,1,Husky Stadium,Washington,Big Ten,31.0,"[7, 7, 3, 14]",UCLA,Big Ten,19.0,"[0, 10, 3, 6]"
-401636923,2024,12,regular,2024-11-16T03:15:00.000Z,1,0,1,Arizona Stadium,Arizona,Big 12,27.0,"[7, 3, 17, 0]",Houston,Big 12,3.0,"[0, 3, 0, 0]"
-401636925,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,1,Folsom Field,Colorado,Big 12,49.0,"[14, 7, 7, 21]",Utah,Big 12,24.0,"[3, 6, 7, 8]"
-401629046,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,34.0,"[7, 13, 0, 8, 6]",Liberty,Conference USA,35.0,"[0, 7, 7, 14, 7]"
-401628419,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,10.0,"[0, 0, 7, 3]",Texas,SEC,20.0,"[7, 3, 3, 7]"
-401635582,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,20.0,"[7, 0, 0, 13]",Clemson,ACC,24.0,"[7, 10, 0, 7]"
-401641013,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,7.0,"[0, 7, 0, 0]",Louisiana Tech,Conference USA,12.0,"[3, 6, 0, 3]"
-401628550,2024,12,regular,2024-11-16T17:00:00.000Z,1,1,1,Wrigley Field,Northwestern,Big Ten,7.0,"[0, 7, 0, 0]",Ohio State,Big Ten,31.0,"[0, 21, 10, 0]"
-401645370,2024,12,regular,2024-11-16T17:00:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,0.0,"[0, 0, 0, 0]",Tulane,American Athletic,35.0,"[7, 7, 7, 14]"
-401628426,2024,12,regular,2024-11-16T17:45:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,48.0,"[10, 14, 14, 10]",UL Monroe,Sun Belt,14.0,"[0, 0, 7, 7]"
-401643832,2024,12,regular,2024-11-16T18:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Sun Belt,31.0,"[3, 14, 7, 7]",Coastal Carolina,Sun Belt,19.0,"[7, 0, 0, 12]"
-401628422,2024,12,regular,2024-11-16T18:30:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,48.0,"[14, 10, 10, 14]",Murray State,MVFC,6.0,"[0, 0, 3, 3]"
-401628425,2024,12,regular,2024-11-16T19:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,52.0,"[14, 17, 7, 14]",Mercer,Southern,7.0,"[0, 7, 0, 0]"
-401645369,2024,12,regular,2024-11-16T19:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,18.0,"[3, 0, 3, 9, 3]",Florida Atlantic,American Athletic,15.0,"[0, 7, 0, 8, 0]"
-401640986,2024,12,regular,2024-11-16T19:00:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,34.0,"[3, 17, 0, 14]",Florida International,Conference USA,31.0,"[3, 14, 7, 7]"
-401628547,2024,12,regular,2024-11-16T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,38.0,"[14, 7, 3, 14]",Michigan State,Big Ten,16.0,"[6, 3, 7, 0]"
-401641022,2024,12,regular,2024-11-16T20:00:00.000Z,1,0,1,Fifth Third Stadium,Kennesaw State,Conference USA,17.0,"[0, 3, 7, 7, 0]",Sam Houston,Conference USA,23.0,"[0, 3, 7, 7, 6]"
-401635581,2024,12,regular,2024-11-16T20:00:00.000Z,1,0,1,California Memorial Stadium,California,ACC,25.0,"[0, 7, 7, 11]",Syracuse,ACC,33.0,"[6, 21, 3, 3]"
-401643760,2024,12,regular,2024-11-16T20:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,55.0,"[17, 7, 21, 10]",Hawai'i,Mountain West,10.0,"[0, 3, 0, 7]"
-401628552,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,10.0,"[0, 3, 0, 7]",Penn State,Big Ten,49.0,"[14, 7, 21, 7]"
-401645368,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,24.0,"[7, 3, 7, 7]",South Florida,American Athletic,59.0,"[7, 7, 31, 14]"
-401635517,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,1,Stanford Stadium,Stanford,ACC,38.0,"[10, 3, 8, 17]",Louisville,ACC,35.0,"[7, 14, 7, 7]"
-401635580,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,ACC,38.0,"[10, 10, 11, 7]",Boston College,ACC,28.0,"[0, 14, 7, 7]"
-401628985,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,35.0,"[7, 21, 7, 0]",Virginia,ACC,14.0,"[0, 0, 7, 7]"
-401643757,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,28.0,"[7, 7, 0, 14]",Oregon State,Pac-12,0.0,"[0, 0, 0, 0]"
-401628420,2024,12,regular,2024-11-16T20:30:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,27.0,"[7, 3, 3, 14]",LSU,SEC,16.0,"[0, 10, 3, 3]"
-401643833,2024,12,regular,2024-11-16T21:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,32.0,"[7, 17, 0, 8]",James Madison,Sun Belt,35.0,"[7, 14, 7, 7]"
-401628549,2024,12,regular,2024-11-16T21:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Big Ten,28.0,"[7, 7, 7, 7]",Nebraska,Big Ten,20.0,"[7, 7, 6, 0]"
-401636929,2024,12,regular,2024-11-16T21:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,35.0,"[7, 21, 0, 7]",Baylor,Big 12,49.0,"[14, 21, 0, 14]"
-401643830,2024,12,regular,2024-11-16T21:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,20.0,"[7, 3, 7, 3]",Troy,Sun Belt,28.0,"[0, 7, 7, 14]"
-401628423,2024,12,regular,2024-11-16T21:15:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,34.0,"[7, 14, 0, 13]",Missouri,SEC,30.0,"[6, 0, 6, 18]"
-401643831,2024,12,regular,2024-11-16T22:00:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,20.0,"[7, 0, 7, 6]",Arkansas State,Sun Belt,27.0,"[7, 0, 10, 10]"
-401628548,2024,12,regular,2024-11-16T23:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,17.0,"[3, 7, 7, 0]",Rutgers,Big Ten,31.0,"[0, 14, 7, 10]"
-401643758,2024,12,regular,2024-11-17T00:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,21.0,"[7, 7, 7, 0]",Boise State,Mountain West,42.0,"[0, 14, 14, 14]"
-401643834,2024,12,regular,2024-11-17T00:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,22.0,"[0, 3, 3, 16]",South Alabama,Sun Belt,24.0,"[7, 17, 0, 0]"
-401636927,2024,12,regular,2024-11-17T00:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,14.0,"[0, 0, 6, 8]",Arizona State,Big 12,24.0,"[7, 14, 3, 0]"
-401643835,2024,12,regular,2024-11-17T00:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,58.0,"[21, 13, 17, 7]",Southern Miss,Sun Belt,3.0,"[0, 3, 0, 0]"
-401628421,2024,12,regular,2024-11-17T00:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,31.0,"[0, 17, 7, 7]",Tennessee,SEC,17.0,"[10, 7, 0, 0]"
-401628551,2024,12,regular,2024-11-17T00:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,13.0,"[0, 10, 3, 0]",Oregon,Big Ten,16.0,"[6, 0, 0, 10]"
-401628424,2024,12,regular,2024-11-17T00:45:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,38.0,"[17, 7, 7, 7]",New Mexico State,Conference USA,3.0,"[0, 0, 0, 3]"
-401635583,2024,12,regular,2024-11-17T01:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,31.0,"[0, 10, 14, 7]",Wake Forest,ACC,24.0,"[3, 0, 14, 7]"
-401636926,2024,12,regular,2024-11-17T01:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,34.0,"[7, 3, 10, 14]",Cincinnati,Big 12,17.0,"[7, 3, 0, 7]"
-401645367,2024,12,regular,2024-11-17T01:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,53.0,"[11, 7, 7, 28]",UAB,American Athletic,18.0,"[0, 8, 3, 7]"
-401643761,2024,12,regular,2024-11-17T02:30:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,38.0,"[7, 7, 14, 10]",Washington State,Pac-12,35.0,"[14, 14, 0, 7]"
-401636924,2024,12,regular,2024-11-17T03:15:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,13.0,"[0, 10, 3, 0]",Kansas,Big 12,17.0,"[7, 3, 0, 7]"
-401643762,2024,12,regular,2024-11-17T03:30:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,41.0,"[7, 21, 10, 3]",San Diego State,Mountain West,20.0,"[0, 6, 7, 7]"
-401644769,2024,13,regular,2024-11-20T00:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,17.0,"[7, 3, 0, 7]",Akron,Mid-American,38.0,"[10, 13, 15, 0]"
-401644770,2024,13,regular,2024-11-20T00:30:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,16.0,"[7, 6, 0, 3]",Western Michigan,Mid-American,14.0,"[0, 0, 7, 7]"
-401644690,2024,13,regular,2024-11-20T01:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,20.0,"[7, 10, 0, 3]",Northern Illinois,Mid-American,9.0,"[0, 3, 0, 6]"
-401644772,2024,13,regular,2024-11-21T00:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,20.0,"[0, 0, 13, 7]",Buffalo,Mid-American,37.0,"[8, 9, 6, 14]"
-401644773,2024,13,regular,2024-11-21T00:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,7.0,"[0, 7, 0, 0]",Ohio,Mid-American,24.0,"[0, 0, 7, 17]"
-401634772,2024,13,regular,2024-11-22T00:30:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,30.0,"[7, 6, 3, 14]",NC State,ACC,29.0,"[7, 0, 0, 22]"
-401645374,2024,13,regular,2024-11-23T00:00:00.000Z,1,0,1,Alamodome,UTSA,American Athletic,51.0,"[7, 21, 10, 13]",Temple,American Athletic,27.0,"[3, 14, 7, 3]"
-401628558,2024,13,regular,2024-11-23T01:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,24.0,"[7, 17, 0, 0]",Purdue,Big Ten,17.0,"[3, 0, 7, 7]"
-401643767,2024,13,regular,2024-11-23T03:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,16.0,"[0, 16, 0, 0]",UNLV,Mountain West,27.0,"[3, 7, 10, 7]"
-401628429,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,24.0,"[0, 14, 3, 7]",Ole Miss,SEC,17.0,"[0, 14, 3, 0]"
-401628554,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,SHI Stadium,Rutgers,Big Ten,31.0,"[3, 14, 0, 14]",Illinois,Big Ten,38.0,"[0, 9, 6, 23]"
-401628555,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,38.0,"[0, 14, 14, 10]",Indiana,Big Ten,15.0,"[7, 0, 0, 8]"
-401635612,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,41.0,"[3, 21, 3, 14]",North Carolina,ACC,21.0,"[0, 7, 0, 14]"
-401628556,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,13.0,"[0, 0, 6, 7]",Iowa,Big Ten,29.0,"[3, 10, 6, 10]"
-401635518,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,31.0,"[7, 14, 3, 7]",UConn,FBS Independents,24.0,"[7, 7, 3, 7]"
-401635618,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,42.0,"[10, 10, 0, 22]",Wake Forest,ACC,14.0,"[7, 7, 0, 0]"
-401635619,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,7.0,"[0, 0, 0, 7]",SMU,ACC,33.0,"[7, 10, 3, 13]"
-401641005,2024,13,regular,2024-11-23T17:00:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,21.0,"[7, 7, 0, 7]",Sam Houston,Conference USA,11.0,"[0, 3, 8, 0]"
-401628430,2024,13,regular,2024-11-23T17:45:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,59.0,"[7, 21, 17, 14]",Massachusetts,FBS Independents,21.0,"[7, 7, 7, 0]"
-401640996,2024,13,regular,2024-11-23T18:00:00.000Z,1,0,1,Williams Stadium (VA),Liberty,Conference USA,38.0,"[0, 21, 7, 10]",Western Kentucky,Conference USA,21.0,"[0, 7, 14, 0]"
-401628435,2024,13,regular,2024-11-23T18:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,56.0,"[0, 28, 21, 7]",UTEP,Conference USA,0.0,"[0, 0, 0, 0]"
-401635616,2024,13,regular,2024-11-23T18:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,41.0,"[0, 17, 14, 10]",Charleston Southern,Big South-OVC,7.0,"[0, 0, 0, 7]"
-401644774,2024,13,regular,2024-11-23T19:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,13.0,"[0, 7, 0, 6]",Bowling Green,Mid-American,38.0,"[7, 3, 18, 10]"
-401645373,2024,13,regular,2024-11-23T19:00:00.000Z,1,0,1,Protective Stadium,UAB,American Athletic,40.0,"[14, 13, 0, 13]",Rice,American Athletic,14.0,"[14, 0, 0, 0]"
-401641027,2024,13,regular,2024-11-23T19:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,21.0,"[0, 7, 7, 7]",New Mexico State,Conference USA,36.0,"[10, 3, 13, 10]"
-401643836,2024,13,regular,2024-11-23T19:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,34.0,"[0, 24, 7, 3]",James Madison,Sun Belt,20.0,"[7, 10, 3, 0]"
-401645371,2024,13,regular,2024-11-23T20:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,American Athletic,27.0,"[3, 7, 10, 7]",Charlotte,American Athletic,39.0,"[10, 6, 10, 13]"
-401643839,2024,13,regular,2024-11-23T20:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,28.0,"[7, 7, 7, 7]",UL Monroe,Sun Belt,21.0,"[7, 0, 7, 7]"
-401636935,2024,13,regular,2024-11-23T20:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,49.0,"[14, 7, 14, 14]",Arizona,Big 12,28.0,"[7, 6, 0, 15]"
-401643841,2024,13,regular,2024-11-23T20:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Sun Belt,14.0,"[8, 3, 0, 3]",South Alabama,Sun Belt,35.0,"[0, 14, 14, 7]"
-401640987,2024,13,regular,2024-11-23T20:00:00.000Z,1,0,1,Fifth Third Stadium,Kennesaw State,Conference USA,27.0,"[3, 14, 0, 10]",Florida International,Conference USA,26.0,"[0, 20, 6, 0]"
-401643766,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,41.0,"[0, 14, 7, 20]",San Diego State,Mountain West,20.0,"[3, 10, 0, 7]"
-401635614,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,51.0,"[14, 21, 10, 6]",The Citadel,Southern,14.0,"[0, 0, 7, 7]"
-401636937,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,31.0,"[14, 7, 7, 3]",UCF,Big 12,21.0,"[0, 7, 7, 7]"
-401636930,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Big 12,28.0,"[7, 14, 7, 0]",BYU,Big 12,23.0,"[0, 3, 14, 6]"
-401635613,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,California Memorial Stadium,California,ACC,24.0,"[0, 7, 3, 14]",Stanford,ACC,21.0,"[14, 0, 7, 0]"
-401636932,2024,13,regular,2024-11-23T20:30:00.000Z,1,1,1,GEHA Field at Arrowhead Stadium,Kansas,Big 12,37.0,"[10, 13, 7, 7]",Colorado,Big 12,21.0,"[0, 14, 7, 0]"
-401628560,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,44.0,"[7, 17, 10, 10]",Wisconsin,Big Ten,25.0,"[7, 3, 7, 8]"
-401628559,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,25.0,"[7, 12, 3, 3]",Penn State,Big Ten,26.0,"[0, 16, 7, 3]"
-401628557,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,50.0,"[10, 7, 14, 19]",Northwestern,Big Ten,6.0,"[0, 6, 0, 0]"
-401628436,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,SEC,31.0,"[7, 17, 0, 7]",Kentucky,SEC,14.0,"[0, 7, 7, 0]"
-401645375,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,63.0,"[28, 14, 7, 14]",Tulsa,American Athletic,30.0,"[0, 7, 0, 23]"
-401645372,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,DATCU Stadium,North Texas,American Athletic,28.0,"[14, 7, 7, 0]",East Carolina,American Athletic,40.0,"[0, 7, 24, 9]"
-401643837,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Brooks Stadium (SC),Coastal Carolina,Sun Belt,6.0,"[3, 0, 3, 0]",Georgia Southern,Sun Belt,26.0,"[10, 3, 0, 13]"
-401636934,2024,13,regular,2024-11-23T20:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,48.0,"[7, 7, 14, 20]",Texas Tech,Big 12,56.0,"[14, 7, 14, 21]"
-401628434,2024,13,regular,2024-11-23T21:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,56.0,"[7, 14, 14, 21]",Wofford,Southern,12.0,"[3, 6, 0, 3]"
-401635617,2024,13,regular,2024-11-23T21:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,37.0,"[10, 17, 10, 0]",Pittsburgh,ACC,9.0,"[0, 0, 7, 2]"
-401628427,2024,13,regular,2024-11-23T21:00:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,35.0,"[0, 14, 7, 14]",Louisiana Tech,Conference USA,14.0,"[0, 0, 7, 7]"
-401628432,2024,13,regular,2024-11-23T21:15:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,20.0,"[10, 3, 7, 0]",Missouri,SEC,39.0,"[14, 14, 3, 8]"
-401643840,2024,13,regular,2024-11-23T22:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,51.0,"[7, 27, 3, 14]",Troy,Sun Belt,30.0,"[14, 0, 8, 8]"
-401628572,2024,13,regular,2024-11-24T00:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,41.0,"[7, 14, 10, 10]",Washington State,Pac-12,38.0,"[7, 10, 7, 14]"
-401636931,2024,13,regular,2024-11-24T00:00:00.000Z,1,0,1,TDECU Stadium,Houston,Big 12,10.0,"[7, 0, 0, 3]",Baylor,Big 12,20.0,"[7, 10, 0, 3]"
-401643842,2024,13,regular,2024-11-24T00:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,44.0,"[14, 7, 0, 23]",Georgia State,Sun Belt,52.0,"[14, 24, 7, 7]"
-401640959,2024,13,regular,2024-11-24T00:00:00.000Z,1,1,0,Yankee Stadium,Notre Dame,FBS Independents,49.0,"[14, 14, 14, 7]",Army,American Athletic,14.0,"[0, 7, 0, 7]"
-401643764,2024,13,regular,2024-11-24T00:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,13.0,"[3, 7, 0, 3]",Boise State,Mountain West,17.0,"[7, 3, 0, 7]"
-401628428,2024,13,regular,2024-11-24T00:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,43.0,"[14, 7, 7, 3, 7, 3, 0, 2]",Texas A&M,SEC,41.0,"[0, 7, 14, 10, 7, 3, 0, 0]"
-401636936,2024,13,regular,2024-11-24T00:30:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Big 12,28.0,"[3, 10, 0, 15]",Iowa State,Big 12,31.0,"[7, 10, 7, 7]"
-401628433,2024,13,regular,2024-11-24T00:30:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,SEC,24.0,"[0, 10, 14, 0]",Alabama,SEC,3.0,"[3, 0, 0, 0]"
-401643838,2024,13,regular,2024-11-24T00:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Sun Belt,35.0,"[0, 7, 21, 7]",Marshall,Sun Belt,42.0,"[3, 14, 10, 15]"
-401628431,2024,13,regular,2024-11-24T00:45:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,24.0,"[7, 7, 7, 3]",Vanderbilt,SEC,17.0,"[7, 0, 3, 7]"
-401635615,2024,13,regular,2024-11-24T01:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,31.0,"[14, 7, 10, 0]",Virginia Tech,ACC,28.0,"[7, 10, 0, 11]"
-401636933,2024,13,regular,2024-11-24T01:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,41.0,"[10, 17, 0, 14]",Cincinnati,Big 12,15.0,"[0, 3, 6, 6]"
-401643765,2024,13,regular,2024-11-24T03:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,28.0,"[7, 21, 0, 0]",Colorado State,Mountain West,22.0,"[7, 0, 7, 8]"
-401628561,2024,13,regular,2024-11-24T03:30:00.000Z,1,0,1,Rose Bowl,UCLA,Big Ten,13.0,"[3, 0, 10, 0]",USC,Big Ten,19.0,"[3, 6, 0, 10]"
-401643763,2024,13,regular,2024-11-24T03:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,19.0,"[0, 6, 6, 7]",Air Force,Mountain West,22.0,"[0, 7, 0, 15]"
-401644775,2024,14,regular,2024-11-27T00:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,21.0,"[7, 0, 0, 7, 7]",Toledo,Mid-American,14.0,"[0, 0, 0, 14, 0]"
-401644776,2024,14,regular,2024-11-27T00:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,43.0,"[13, 13, 7, 10]",Kent State,Mid-American,7.0,"[0, 0, 7, 0]"
-401645376,2024,14,regular,2024-11-29T00:30:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,24.0,"[10, 0, 0, 14]",Memphis,American Athletic,34.0,"[7, 10, 7, 10]"
-401628568,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,7.0,"[0, 0, 7, 0]",Minnesota,Big Ten,24.0,"[7, 7, 7, 3]"
-401636938,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,1,Folsom Field,Colorado,Big 12,52.0,"[21, 0, 17, 14]",Oklahoma State,Big 12,0.0,"[0, 0, 0, 0]"
-401643769,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,34.0,"[14, 7, 6, 7]",Oregon State,Pac-12,18.0,"[0, 7, 3, 8]"
-401644691,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,12.0,"[0, 5, 0, 7]",Miami (OH),Mid-American,28.0,"[7, 7, 0, 14]"
-401645379,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,20.0,"[0, 3, 0, 17]",Navy,American Athletic,34.0,"[0, 0, 14, 20]"
-401644777,2024,14,regular,2024-11-29T17:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,42.0,"[14, 7, 14, 7]",Ball State,Mid-American,21.0,"[0, 7, 7, 7]"
-401643770,2024,14,regular,2024-11-29T20:30:00.000Z,1,0,1,Canvas Stadium,Colorado State,Mountain West,42.0,"[0, 13, 0, 29]",Utah State,Mountain West,37.0,"[13, 3, 14, 7]"
-401640997,2024,14,regular,2024-11-29T20:30:00.000Z,1,0,1,Elliott T. Bowers Stadium,Sam Houston,Conference USA,20.0,"[3, 14, 3, 0]",Liberty,Conference USA,18.0,"[2, 7, 0, 9]"
-401643843,2024,14,regular,2024-11-29T20:30:00.000Z,1,0,1,Hancock Whitney Stadium,South Alabama,Sun Belt,38.0,"[14, 14, 7, 3]",Texas State,Sun Belt,45.0,"[14, 7, 10, 14]"
-401628442,2024,14,regular,2024-11-29T20:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,26.0,"[10, 7, 3, 6]",Mississippi State,SEC,14.0,"[14, 0, 0, 0]"
-401635625,2024,14,regular,2024-11-29T21:00:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,34.0,"[0, 17, 10, 7]",Stanford,ACC,31.0,"[3, 7, 7, 14]"
-401628562,2024,14,regular,2024-11-30T00:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,13.0,"[0, 0, 3, 10]",Nebraska,Big Ten,10.0,"[3, 7, 0, 0]"
-401628439,2024,14,regular,2024-11-30T00:30:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,44.0,"[0, 0, 6, 21, 7, 6, 0, 0, 2, 0, 0, 2]",Georgia Tech,ACC,42.0,"[3, 14, 0, 10, 7, 6, 0, 0, 2, 0, 0, 0]"
-401636939,2024,14,regular,2024-11-30T01:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,Big 12,14.0,"[0, 7, 0, 7]",Utah,Big 12,28.0,"[3, 10, 0, 15]"
-401628444,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,14.0,"[0, 7, 7, 0]",South Carolina,SEC,17.0,"[0, 7, 0, 10]"
-401636941,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,45.0,"[14, 7, 21, 3]",Kansas,Big 12,17.0,"[7, 3, 7, 0]"
-401628440,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,14.0,"[0, 0, 7, 7]",Louisville,ACC,41.0,"[7, 13, 14, 7]"
-401629038,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,42.0,"[14, 14, 0, 14]",UConn,FBS Independents,47.0,"[14, 13, 6, 14]"
-401628446,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,23.0,"[17, 0, 0, 6]",Tennessee,SEC,36.0,"[7, 17, 9, 3]"
-401635622,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,17.0,"[0, 10, 7, 0]",Duke,ACC,23.0,"[0, 3, 7, 13]"
-401645381,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,17.0,"[3, 14, 0, 0]",North Texas,American Athletic,24.0,"[17, 7, 0, 0]"
-401636945,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,52.0,"[6, 29, 7, 10]",West Virginia,Big 12,15.0,"[3, 0, 6, 6]"
-401628563,2024,14,regular,2024-11-30T17:00:00.000Z,1,1,1,Wrigley Field,Northwestern,Big Ten,28.0,"[10, 0, 10, 8]",Illinois,Big Ten,38.0,"[7, 7, 14, 10]"
-401645378,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Michie Stadium,Army,American Athletic,29.0,"[7, 6, 3, 13]",UTSA,American Athletic,24.0,"[7, 3, 7, 7]"
-401628566,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,10.0,"[3, 7, 0, 0]",Michigan,Big Ten,13.0,"[0, 10, 0, 3]"
-401643848,2024,14,regular,2024-11-30T17:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,23.0,"[3, 10, 3, 7]",Louisiana,Sun Belt,37.0,"[6, 7, 7, 17]"
-401644780,2024,14,regular,2024-11-30T18:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,26.0,"[0, 16, 7, 3]",Eastern Michigan,Mid-American,18.0,"[0, 0, 15, 3]"
-401640988,2024,14,regular,2024-11-30T19:00:00.000Z,1,1,1,Pitbull Stadium,Florida International,Conference USA,35.0,"[14, 14, 0, 7]",Middle Tennessee,Conference USA,24.0,"[0, 17, 0, 7]"
-401643845,2024,14,regular,2024-11-30T19:00:00.000Z,1,0,1,Center Parc Stadium,Georgia State,Sun Belt,27.0,"[0, 10, 9, 8]",Coastal Carolina,Sun Belt,48.0,"[7, 10, 14, 17]"
-401645382,2024,14,regular,2024-11-30T19:00:00.000Z,1,0,1,Rice Stadium,Rice,American Athletic,35.0,"[17, 10, 8, 0]",South Florida,American Athletic,28.0,"[7, 0, 7, 14]"
-401643849,2024,14,regular,2024-11-30T19:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,52.0,"[10, 7, 14, 21]",Southern Miss,Sun Belt,20.0,"[8, 0, 6, 6]"
-401643847,2024,14,regular,2024-11-30T20:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,32.0,"[7, 7, 15, 3]",Old Dominion,Sun Belt,40.0,"[14, 7, 19, 0]"
-401635620,2024,14,regular,2024-11-30T20:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,34.0,"[6, 14, 7, 7]",Pittsburgh,ACC,23.0,"[0, 10, 7, 6]"
-401628571,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Big Ten,35.0,"[0, 14, 7, 14]",Notre Dame,FBS Independents,49.0,"[7, 7, 21, 14]"
-401636940,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Big 12,7.0,"[0, 0, 7, 0]",Arizona State,Big 12,49.0,"[14, 21, 0, 14]"
-401645377,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,American Athletic,29.0,"[7, 6, 6, 10]",UAB,American Athletic,27.0,"[0, 14, 0, 13]"
-401635624,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,30.0,"[0, 6, 14, 10]",NC State,ACC,35.0,"[7, 0, 6, 22]"
-401628567,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,14.0,"[7, 0, 0, 7]",Rutgers,Big Ten,41.0,"[10, 13, 8, 10]"
-401628570,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,0,Rose Bowl,UCLA,Big Ten,20.0,"[3, 3, 7, 7]",Fresno State,Mountain West,13.0,"[0, 10, 0, 3]"
-401635621,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,ACC,38.0,"[14, 7, 0, 17]",California,ACC,6.0,"[0, 0, 3, 3]"
-401635623,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,42.0,"[0, 14, 21, 7]",Miami,ACC,38.0,"[14, 7, 7, 10]"
-401645380,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,16.0,"[2, 7, 7, 0]",Florida Atlantic,American Athletic,63.0,"[7, 35, 14, 7]"
-401644779,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,24.0,"[19, 2, 3, 0]",Central Michigan,Mid-American,16.0,"[0, 16, 0, 0]"
-401628565,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,44.0,"[3, 28, 0, 13]",Maryland,Big Ten,7.0,"[7, 0, 0, 0]"
-401628443,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,28.0,"[7, 0, 3, 18]",Arkansas,SEC,21.0,"[0, 7, 7, 7]"
-401628437,2024,14,regular,2024-11-30T20:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,28.0,"[7, 7, 14, 0]",Auburn,SEC,14.0,"[0, 6, 8, 0]"
-401641006,2024,14,regular,2024-11-30T21:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,19.0,"[7, 3, 3, 6]",Jacksonville State,Conference USA,17.0,"[3, 7, 0, 7]"
-401641031,2024,14,regular,2024-11-30T21:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Conference USA,35.0,"[17, 7, 0, 11]",UTEP,Conference USA,42.0,"[7, 7, 14, 14]"
-401641014,2024,14,regular,2024-11-30T21:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,33.0,"[7, 10, 9, 7]",Kennesaw State,Conference USA,0.0,"[0, 0, 0, 0]"
-401643844,2024,14,regular,2024-11-30T23:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,29.0,"[8, 7, 0, 14]",App State,Sun Belt,20.0,"[0, 6, 7, 7]"
-401636943,2024,14,regular,2024-11-30T23:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,Big 12,13.0,"[0, 7, 0, 6]",TCU,Big 12,20.0,"[7, 13, 0, 0]"
-401643773,2024,14,regular,2024-11-30T23:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,14.0,"[7, 7, 0, 0]",Wyoming,Mountain West,15.0,"[3, 3, 3, 6]"
-401628564,2024,14,regular,2024-12-01T00:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,66.0,"[7, 21, 17, 21]",Purdue,Big Ten,0.0,"[0, 0, 0, 0]"
-401628441,2024,14,regular,2024-12-01T00:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,37.0,"[7, 17, 7, 6]",Oklahoma,SEC,17.0,"[7, 10, 0, 0]"
-401628438,2024,14,regular,2024-12-01T00:00:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,11.0,"[0, 0, 3, 8]",Florida,SEC,31.0,"[7, 7, 3, 14]"
-401628445,2024,14,regular,2024-12-01T00:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,7.0,"[0, 0, 7, 0]",Texas,SEC,17.0,"[7, 10, 0, 0]"
-401628569,2024,14,regular,2024-12-01T00:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Big Ten,49.0,"[7, 21, 7, 14]",Washington,Big Ten,21.0,"[3, 11, 0, 7]"
-401636944,2024,14,regular,2024-12-01T00:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,29.0,"[7, 17, 0, 5]",Kansas State,Big 12,21.0,"[7, 7, 7, 0]"
-401643846,2024,14,regular,2024-12-01T01:00:00.000Z,1,0,1,Bridgeforth Stadium,James Madison,Sun Belt,33.0,"[14, 3, 0, 7, 3, 6]",Marshall,Sun Belt,35.0,"[0, 0, 17, 7, 3, 8]"
-401635640,2024,14,regular,2024-12-01T01:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,37.0,"[10, 10, 10, 7]",Virginia,ACC,17.0,"[0, 3, 8, 6]"
-401643772,2024,14,regular,2024-12-01T01:00:00.000Z,1,0,1,Allegiant Stadium,UNLV,Mountain West,38.0,"[10, 14, 7, 7]",Nevada,Mountain West,14.0,"[7, 0, 0, 7]"
-401636942,2024,14,regular,2024-12-01T03:15:00.000Z,1,0,1,LaVell Edwards Stadium,BYU,Big 12,30.0,"[7, 14, 3, 6]",Houston,Big 12,18.0,"[7, 3, 0, 8]"
-401643768,2024,14,regular,2024-12-01T03:30:00.000Z,1,0,1,Snapdragon Stadium,San Diego State,Mountain West,20.0,"[7, 7, 0, 6]",Air Force,Mountain West,31.0,"[14, 3, 14, 0]"
-401643771,2024,14,regular,2024-12-01T04:00:00.000Z,1,0,1,Clarence T.C. Ching Athletics Complex,Hawai'i,Mountain West,38.0,"[7, 14, 10, 7]",New Mexico,Mountain West,30.0,"[0, 9, 7, 14]"
-401673466,2024,15,regular,2024-12-07T00:00:00.000Z,1,0,1,AmFirst Stadium,Jacksonville State,Conference USA,52.0,"[14, 14, 10, 14]",Western Kentucky,Conference USA,12.0,"[3, 3, 6, 0]"
-401673468,2024,15,regular,2024-12-07T01:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,21.0,"[7, 14, 0, 0]",UNLV,Mountain West,7.0,"[0, 0, 0, 7]"
-401673462,2024,15,regular,2024-12-07T01:00:00.000Z,1,0,1,Michie Stadium,Army,American Athletic,35.0,"[7, 14, 7, 7]",Tulane,American Athletic,14.0,"[0, 7, 0, 7]"
-401673467,2024,15,regular,2024-12-07T17:00:00.000Z,1,1,1,Ford Field,Miami (OH),Mid-American,3.0,"[3, 0, 0, 0]",Ohio,Mid-American,38.0,"[7, 14, 10, 7]"
-401673465,2024,15,regular,2024-12-07T17:00:00.000Z,1,1,1,AT&T Stadium,Arizona State,Big 12,45.0,"[10, 14, 21, 0]",Iowa State,Big 12,19.0,"[7, 3, 0, 9]"
-401673469,2024,15,regular,2024-12-07T21:00:00.000Z,1,1,1,Mercedes-Benz Stadium,Texas,SEC,19.0,"[3, 3, 0, 10, 3]",Georgia,SEC,22.0,"[0, 3, 10, 3, 6]"
-401673470,2024,15,regular,2024-12-08T00:30:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,3.0,"[3, 0, 0, 0]",Marshall,Sun Belt,31.0,"[7, 10, 7, 7]"
-401673464,2024,15,regular,2024-12-08T01:00:00.000Z,1,1,1,Lucas Oil Stadium,Oregon,Big Ten,45.0,"[14, 17, 7, 7]",Penn State,Big Ten,37.0,"[10, 14, 0, 13]"
-401673463,2024,15,regular,2024-12-08T01:00:00.000Z,1,1,1,Bank of America Stadium,SMU,ACC,31.0,"[7, 0, 7, 17]",Clemson,ACC,34.0,"[21, 3, 7, 3]"
+id,season,week,season_type,start_date,completed,neutral_site,conference_game,venue_id,venue,home_id,home_team,home_conference,home_points,away_id,away_team,away_conference,away_points
+401635525,2024,1,,,1,,,,Aviva Stadium,,,,,,,,
+401643697,2024,1,,,1,,,,University Stadium (NM),,,,,,,,
+401643696,2024,1,,,1,,,,Mackay Stadium,,,,,,,,
+401643858,2024,1,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401628458,2024,1,,,1,,,,SHI Stadium,,,,,,,,
+401628582,2024,1,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401644730,2024,1,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401634299,2024,1,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401628581,2024,1,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401636387,2024,1,,,1,,,,Malone Stadium,,,,,,,,
+401644729,2024,1,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401644727,2024,1,,,1,,,,UB Stadium,,,,,,,,
+401628320,2024,1,,,1,,,,War Memorial Stadium (AR),,,,,,,,
+401644728,2024,1,,,1,,,,Glass Bowl,,,,,,,,
+401645318,2024,1,,,1,,,,Chapman Stadium,,,,,,,,
+401628327,2024,1,,,1,,,,Memorial Stadium,,,,,,,,
+401636606,2024,1,,,1,,,,Children's Mercy Park,,,,,,,,
+401645317,2024,1,,,1,,,,Yulman Stadium,,,,,,,,
+401628448,2024,1,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401645316,2024,1,,,1,,,,Protective Stadium,,,,,,,,
+401634206,2024,1,,,1,,,,Folsom Field,,,,,,,,
+401640998,2024,1,,,1,,,,AmFirst Stadium,,,,,,,,
+401654845,2024,1,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401636607,2024,1,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401643698,2024,1,,,1,,,,CEFCU Stadium,,,,,,,,
+401645319,2024,1,,,1,,,,Michie Stadium,,,,,,,,
+401628453,2024,1,,,1,,,,Spartan Stadium,,,,,,,,
+401628328,2024,1,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401628584,2024,1,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401628461,2024,1,,,1,,,,Camp Randall Stadium,,,,,,,,
+401634300,2024,1,,,1,,,,Stanford Stadium,,,,,,,,
+401643703,2024,1,,,1,,,,Maverik Stadium,,,,,,,,
+401634169,2024,1,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401628323,2024,1,,,1,,,,Mercedes-Benz Stadium,,,,,,,,
+401628457,2024,1,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401628451,2024,1,,,1,,,,SECU Stadium,,,,,,,,
+401634305,2024,1,,,1,,,,Acrisure Stadium,,,,,,,,
+401632062,2024,1,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401628333,2024,1,,,1,,,,FirstBank Stadium,,,,,,,,
+401645322,2024,1,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401628450,2024,1,,,1,,,,Kinnick Stadium,,,,,,,,
+401628330,2024,1,,,1,,,,Neyland Stadium,,,,,,,,
+401634212,2024,1,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401628591,2024,1,,,1,,,,Nippert Stadium,,,,,,,,
+401637159,2024,1,,,1,,,,Gesa Field,,,,,,,,
+401628331,2024,1,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401634304,2024,1,,,1,,,,JMA Wireless Dome,,,,,,,,
+401641015,2024,1,,,1,,,,Alamodome,,,,,,,,
+401634197,2024,1,,,1,,,,Jack Trice Stadium,,,,,,,,
+401629039,2024,1,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401628322,2024,1,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401643699,2024,1,,,1,,,,Falcon Stadium,,,,,,,,
+401628454,2024,1,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401628455,2024,1,,,1,,,,Ohio Stadium,,,,,,,,
+401644731,2024,1,,,1,,,,Huskie Stadium,,,,,,,,
+401644683,2024,1,,,1,,,,Lanny and Sharon Martin Stadium,,,,,,,,
+401628449,2024,1,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401634133,2024,1,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401643700,2024,1,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401628329,2024,1,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401628590,2024,1,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401634301,2024,1,,,1,,,,California Memorial Stadium,,,,,,,,
+401643775,2024,1,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401628589,2024,1,,,1,,,,Scott Stadium,,,,,,,,
+401628586,2024,1,,,1,,,,Williams Stadium (VA),,,,,,,,
+401645320,2024,1,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401628326,2024,1,,,1,,,,Davis Wade Stadium,,,,,,,,
+401643704,2024,1,,,1,,,,Reser Stadium,,,,,,,,
+401636611,2024,1,,,1,,,,TDECU Stadium,,,,,,,,
+401628319,2024,1,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401636610,2024,1,,,1,,,,McLane Stadium,,,,,,,,
+401641039,2024,1,,,1,,,,Rice Stadium,,,,,,,,
+401641023,2024,1,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401645321,2024,1,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401632064,2024,1,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401636612,2024,1,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401636363,2024,1,,,1,,,,Raymond James Stadium,,,,,,,,
+401628325,2024,1,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401643701,2024,1,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401628459,2024,1,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401636613,2024,1,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401628456,2024,1,,,1,,,,Autzen Stadium,,,,,,,,
+401628332,2024,1,,,1,,,,Kyle Field,,,,,,,,
+401628321,2024,1,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401628452,2024,1,,,1,,,,Michigan Stadium,,,,,,,,
+401628324,2024,1,,,1,,,,Kroger Field,,,,,,,,
+401643776,2024,1,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401636380,2024,1,,,1,,,,Cajun Field,,,,,,,,
+401634240,2024,1,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401643774,2024,1,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401643702,2024,1,,,1,,,,Snapdragon Stadium,,,,,,,,
+401641007,2024,1,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401634303,2024,1,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401634302,2024,1,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401641032,2024,1,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401636609,2024,1,,,1,,,,Mountain America Stadium,,,,,,,,
+401636608,2024,1,,,1,,,,Arizona Stadium,,,,,,,,
+401628460,2024,1,,,1,,,,Husky Stadium,,,,,,,,
+401628334,2024,1,,,1,,,,Allegiant Stadium,,,,,,,,
+401634306,2024,1,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401628463,2024,2,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401634765,2024,2,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401635533,2024,2,,,1,,,,Lanny and Sharon Martin Stadium,,,,,,,,
+401628470,2024,2,,,1,,,,Beaver Stadium,,,,,,,,
+401628336,2024,2,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401628347,2024,2,,,1,,,,Michigan Stadium,,,,,,,,
+401628466,2024,2,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401636616,2024,2,,,1,,,,Yulman Stadium,,,,,,,,
+401635538,2024,2,,,1,,,,Nippert Stadium,,,,,,,,
+401645323,2024,2,,,1,,,,FAU Stadium,,,,,,,,
+401628471,2024,2,,,1,,,,SHI Stadium,,,,,,,,
+401635534,2024,2,,,1,,,,JMA Wireless Dome,,,,,,,,
+401643784,2024,2,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401636999,2024,2,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401628348,2024,2,,,1,,,,Kyle Field,,,,,,,,
+401628339,2024,2,,,1,,,,Sanford Stadium,,,,,,,,
+401634181,2024,2,,,1,,,,Scheumann Stadium,,,,,,,,
+401644732,2024,2,,,1,,,,Dix Stadium,,,,,,,,
+401632071,2024,2,,,1,,,,Allegiant Stadium,,,,,,,,
+401628465,2024,2,,,1,,,,SECU Stadium,,,,,,,,
+401628473,2024,2,,,1,,,,Husky Stadium,,,,,,,,
+401628474,2024,2,,,1,,,,Camp Randall Stadium,,,,,,,,
+401628464,2024,2,,,1,,,,Kinnick Stadium,,,,,,,,
+401628977,2024,2,,,1,,,,Notre Dame Stadium,,,,,,,,
+401645324,2024,2,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401628340,2024,2,,,1,,,,Kroger Field,,,,,,,,
+401635535,2024,2,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401635531,2024,2,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401628337,2024,2,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401635537,2024,2,,,1,,,,Kenan Stadium,,,,,,,,
+401643710,2024,2,,,1,,,,War Memorial Stadium,,,,,,,,
+401629040,2024,2,,,1,,,,Glass Bowl,,,,,,,,
+401636618,2024,2,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401643783,2024,2,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401628342,2024,2,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401635540,2024,2,,,1,,,,Lane Stadium,,,,,,,,
+401628593,2024,2,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401643777,2024,2,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401643781,2024,2,,,1,,,,Peden Stadium,,,,,,,,
+401643778,2024,2,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401635536,2024,2,,,1,,,,Hard Rock Stadium,,,,,,,,
+401640979,2024,2,,,1,,,,Pitbull Stadium,,,,,,,,
+401636617,2024,2,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401628335,2024,2,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401632068,2024,2,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401628603,2024,2,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401632459,2024,2,,,1,,,,Center Parc Stadium,,,,,,,,
+401643779,2024,2,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401643780,2024,2,,,1,,,,Malone Stadium,,,,,,,,
+401643782,2024,2,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401645326,2024,2,,,1,,,,Rice Stadium,,,,,,,,
+401635539,2024,2,,,1,,,,Stanford Stadium,,,,,,,,
+401635639,2024,2,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401628462,2024,2,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401641016,2024,2,,,1,,,,Fifth Third Stadium,,,,,,,,
+401643706,2024,2,,,1,,,,Canvas Stadium,,,,,,,,
+401643705,2024,2,,,1,,,,Falcon Stadium,,,,,,,,
+401643708,2024,2,,,1,,,,Mackay Stadium,,,,,,,,
+401628338,2024,2,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401628344,2024,2,,,1,,,,Memorial Stadium,,,,,,,,
+401628468,2024,2,,,1,,,,Ohio Stadium,,,,,,,,
+401628349,2024,2,,,1,,,,FirstBank Stadium,,,,,,,,
+401628346,2024,2,,,1,,,,Bank of America Stadium,,,,,,,,
+401628467,2024,2,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401645325,2024,2,,,1,,,,DATCU Stadium,,,,,,,,
+401628341,2024,2,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401628345,2024,2,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401635532,2024,2,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401636615,2024,2,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401632072,2024,2,,,1,,,,Sun Bowl,,,,,,,,
+401636859,2024,2,,,1,,,,Gesa Field,,,,,,,,
+401643707,2024,2,,,1,,,,Valley Children's Stadium,,,,,,,,
+401628469,2024,2,,,1,,,,Autzen Stadium,,,,,,,,
+401636614,2024,2,,,1,,,,Arizona Stadium,,,,,,,,
+401640989,2024,2,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401643709,2024,2,,,1,,,,Snapdragon Stadium,,,,,,,,
+401628343,2024,2,,,1,,,,Mountain America Stadium,,,,,,,,
+401628472,2024,2,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401636867,2024,3,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401643788,2024,3,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401636863,2024,3,,,1,,,,Children's Mercy Park,,,,,,,,
+401636864,2024,3,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401636869,2024,3,,,1,,,,Chapman Stadium,,,,,,,,
+401628479,2024,3,,,1,,,,Michigan Stadium,,,,,,,,
+401628350,2024,3,,,1,,,,Camp Randall Stadium,,,,,,,,
+401628359,2024,3,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401636868,2024,3,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401628475,2024,3,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401635542,2024,3,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401635546,2024,3,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401636865,2024,3,,,1,,,,Yager Stadium,,,,,,,,
+401628357,2024,3,,,1,,,,Memorial Stadium,,,,,,,,
+401629041,2024,3,,,1,,,,UB Stadium,,,,,,,,
+401643786,2024,3,,,1,,,,Lincoln Financial Field,,,,,,,,
+401628978,2024,3,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401628480,2024,3,,,1,,,,Spartan Stadium,,,,,,,,
+401628358,2024,3,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401635543,2024,3,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401628483,2024,3,,,1,,,,Reser Stadium,,,,,,,,
+401644734,2024,3,,,1,,,,Peden Stadium,,,,,,,,
+401635547,2024,3,,,1,,,,Acrisure Stadium,,,,,,,,
+401628484,2024,3,,,1,,,,Lumen Field,,,,,,,,
+401628353,2024,3,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401628481,2024,3,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401635544,2024,3,,,1,,,,Hard Rock Stadium,,,,,,,,
+401628477,2024,3,,,1,,,,Kinnick Stadium,,,,,,,,
+401643785,2024,3,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401628351,2024,3,,,1,,,,Razorback Stadium,,,,,,,,
+401636870,2024,3,,,1,,,,Maverik Stadium,,,,,,,,
+401629030,2024,3,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401643787,2024,3,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401635548,2024,3,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401640980,2024,3,,,1,,,,FAU Stadium,,,,,,,,
+401645327,2024,3,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401640990,2024,3,,,1,,,,Williams Stadium (VA),,,,,,,,
+401635545,2024,3,,,1,,,,Kenan Stadium,,,,,,,,
+401644733,2024,3,,,1,,,,InfoCision Stadium,,,,,,,,
+401628355,2024,3,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401636364,2024,3,,,1,,,,Waldo Stadium,,,,,,,,
+401643789,2024,3,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401641017,2024,3,,,1,,,,CEFCU Stadium,,,,,,,,
+401628362,2024,3,,,1,,,,Center Parc Stadium,,,,,,,,
+401641040,2024,3,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401640999,2024,3,,,1,,,,Rynearson Stadium,,,,,,,,
+401641024,2024,3,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401628361,2024,3,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401655632,2024,3,,,1,,,,Lanny and Sharon Martin Stadium,,,,,,,,
+401628476,2024,3,,,1,,,,Rose Bowl,,,,,,,,
+401636861,2024,3,,,1,,,,Canvas Stadium,,,,,,,,
+401628352,2024,3,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401628354,2024,3,,,1,,,,Kroger Field,,,,,,,,
+401636866,2024,3,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401628356,2024,3,,,1,,,,Davis Wade Stadium,,,,,,,,
+401636860,2024,3,,,1,,,,McLane Stadium,,,,,,,,
+401628482,2024,3,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401628360,2024,3,,,1,,,,Neyland Stadium,,,,,,,,
+401636862,2024,3,,,1,,,,TDECU Stadium,,,,,,,,
+401628478,2024,3,,,1,,,,Scott Stadium,,,,,,,,
+401636871,2024,3,,,1,,,,War Memorial Stadium,,,,,,,,
+401635541,2024,3,,,1,,,,California Memorial Stadium,,,,,,,,
+401641033,2024,3,,,1,,,,Valley Children's Stadium,,,,,,,,
+401643790,2024,4,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401634766,2024,4,,,1,,,,JMA Wireless Dome,,,,,,,,
+401628485,2024,4,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401643714,2024,4,,,1,,,,Gesa Field,,,,,,,,
+401645328,2024,4,,,1,,,,Michie Stadium,,,,,,,,
+401628367,2024,4,,,1,,,,Davis Wade Stadium,,,,,,,,
+401636879,2024,4,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401628488,2024,4,,,1,,,,SECU Stadium,,,,,,,,
+401628486,2024,4,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401635552,2024,4,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401643791,2024,4,,,1,,,,Cajun Field,,,,,,,,
+401635556,2024,4,,,1,,,,Kenan Stadium,,,,,,,,
+401636873,2024,4,,,1,,,,Nippert Stadium,,,,,,,,
+401628492,2024,4,,,1,,,,Ohio Stadium,,,,,,,,
+401628364,2024,4,,,1,,,,Kroger Field,,,,,,,,
+401644735,2024,4,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401643715,2024,4,,,1,,,,Lincoln Financial Field,,,,,,,,
+401644737,2024,4,,,1,,,,Rynearson Stadium,,,,,,,,
+401635558,2024,4,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401636875,2024,4,,,1,,,,Jack Trice Stadium,,,,,,,,
+401641000,2024,4,,,1,,,,AmFirst Stadium,,,,,,,,
+401643713,2024,4,,,1,,,,Mackay Stadium,,,,,,,,
+401628979,2024,4,,,1,,,,Notre Dame Stadium,,,,,,,,
+401645329,2024,4,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401628493,2024,4,,,1,,,,Beaver Stadium,,,,,,,,
+401635554,2024,4,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401628494,2024,4,,,1,,,,Lane Stadium,,,,,,,,
+401628365,2024,4,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401629042,2024,4,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401644736,2024,4,,,1,,,,Huskie Stadium,,,,,,,,
+401636877,2024,4,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401628363,2024,4,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401645330,2024,4,,,1,,,,Alamodome,,,,,,,,
+401628489,2024,4,,,1,,,,Michigan Stadium,,,,,,,,
+401634247,2024,4,,,1,,,,Acrisure Stadium,,,,,,,,
+401636876,2024,4,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401635553,2024,4,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401628368,2024,4,,,1,,,,Memorial Stadium,,,,,,,,
+401635557,2024,4,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401641028,2024,4,,,1,,,,Canvas Stadium,,,,,,,,
+401628625,2024,4,,,1,,,,Pitbull Stadium,,,,,,,,
+401640991,2024,4,,,1,,,,Williams Stadium (VA),,,,,,,,
+401643716,2024,4,,,1,,,,DATCU Stadium,,,,,,,,
+401641034,2024,4,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401629031,2024,4,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401635551,2024,4,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401636374,2024,4,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401641008,2024,4,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401641037,2024,4,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401628491,2024,4,,,1,,,,Husky Stadium,,,,,,,,
+401635555,2024,4,,,1,,,,Raymond James Stadium,,,,,,,,
+401628370,2024,4,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401628369,2024,4,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401628372,2024,4,,,1,,,,Kyle Field,,,,,,,,
+401628487,2024,4,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401628366,2024,4,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401636874,2024,4,,,1,,,,Folsom Field,,,,,,,,
+401628490,2024,4,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401628371,2024,4,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401643717,2024,4,,,1,,,,Reser Stadium,,,,,,,,
+401643711,2024,4,,,1,,,,University Stadium (NM),,,,,,,,
+401637162,2024,4,,,1,,,,Albertsons Stadium,,,,,,,,
+401636872,2024,4,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401643712,2024,4,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401645331,2024,5,,,1,,,,Lincoln Financial Field,,,,,,,,
+401634767,2024,5,,,1,,,,Hard Rock Stadium,,,,,,,,
+401628501,2024,5,,,1,,,,SHI Stadium,,,,,,,,
+401628496,2024,5,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401628497,2024,5,,,1,,,,Michigan Stadium,,,,,,,,
+401645337,2024,5,,,1,,,,Yulman Stadium,,,,,,,,
+401636883,2024,5,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401628377,2024,5,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401629032,2024,5,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401645332,2024,5,,,1,,,,Protective Stadium,,,,,,,,
+401636880,2024,5,,,1,,,,McLane Stadium,,,,,,,,
+401635560,2024,5,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401635564,2024,5,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401635565,2024,5,,,1,,,,JMA Wireless Dome,,,,,,,,
+401628499,2024,5,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401643793,2024,5,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401641041,2024,5,,,1,,,,NRG Stadium,,,,,,,,
+401636885,2024,5,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401629043,2024,5,,,1,,,,Yager Stadium,,,,,,,,
+401643720,2024,5,,,1,,,,Allegiant Stadium,,,,,,,,
+401644739,2024,5,,,1,,,,Dix Stadium,,,,,,,,
+401643721,2024,5,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401644738,2024,5,,,1,,,,Peden Stadium,,,,,,,,
+401628375,2024,5,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401643794,2024,5,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401640992,2024,5,,,0,,,,Kidd Brewer Stadium,,,,,,,,
+401643792,2024,5,,,1,,,,Center Parc Stadium,,,,,,,,
+401628502,2024,5,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401636882,2024,5,,,1,,,,GEHA Field at Arrowhead Stadium,,,,,,,,
+401628373,2024,5,,,1,,,,AT&T Stadium,,,,,,,,
+401628980,2024,5,,,1,,,,Notre Dame Stadium,,,,,,,,
+401635659,2024,5,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401635562,2024,5,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401645334,2024,5,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401628378,2024,5,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401643795,2024,5,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401641018,2024,5,,,1,,,,Fifth Third Stadium,,,,,,,,
+401640981,2024,5,,,1,,,,Pitbull Stadium,,,,,,,,
+401645335,2024,5,,,1,,,,FAU Stadium,,,,,,,,
+401635561,2024,5,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401645333,2024,5,,,1,,,,Rice Stadium,,,,,,,,
+401643796,2024,5,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401636881,2024,5,,,1,,,,TDECU Stadium,,,,,,,,
+401645336,2024,5,,,1,,,,DATCU Stadium,,,,,,,,
+401628495,2024,5,,,1,,,,Beaver Stadium,,,,,,,,
+401628498,2024,5,,,1,,,,Spartan Stadium,,,,,,,,
+401641025,2024,5,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401628374,2024,5,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401628376,2024,5,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401636884,2024,5,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401643718,2024,5,,,1,,,,War Memorial Stadium,,,,,,,,
+401635563,2024,5,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401641035,2024,5,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401643719,2024,5,,,1,,,,Albertsons Stadium,,,,,,,,
+401636886,2024,5,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401628500,2024,5,,,1,,,,Rose Bowl,,,,,,,,
+401643797,2024,6,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401641029,2024,6,,,1,,,,Sun Bowl,,,,,,,,
+401641001,2024,6,,,1,,,,Fifth Third Stadium,,,,,,,,
+401636891,2024,6,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401634779,2024,6,,,1,,,,Allegiant Stadium,,,,,,,,
+401628506,2024,6,,,1,,,,Autzen Stadium,,,,,,,,
+401629044,2024,6,,,1,,,,Huskie Stadium,,,,,,,,
+401635567,2024,6,,,1,,,,Scott Stadium,,,,,,,,
+401635571,2024,6,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401635638,2024,6,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401635572,2024,6,,,1,,,,Kenan Stadium,,,,,,,,
+401628383,2024,6,,,1,,,,Kyle Field,,,,,,,,
+401643722,2024,6,,,1,,,,Falcon Stadium,,,,,,,,
+401628509,2024,6,,,1,,,,Camp Randall Stadium,,,,,,,,
+401628510,2024,6,,,1,,,,Beaver Stadium,,,,,,,,
+401645339,2024,6,,,1,,,,Chapman Stadium,,,,,,,,
+401645338,2024,6,,,1,,,,Protective Stadium,,,,,,,,
+401644741,2024,6,,,1,,,,Scheumann Stadium,,,,,,,,
+401629033,2024,6,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401643799,2024,6,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401645340,2024,6,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401635573,2024,6,,,1,,,,Stanford Stadium,,,,,,,,
+401628503,2024,6,,,1,,,,Lanny and Sharon Martin Stadium,,,,,,,,
+401628504,2024,6,,,1,,,,Ohio Stadium,,,,,,,,
+401644740,2024,6,,,1,,,,InfoCision Stadium,,,,,,,,
+401644684,2024,6,,,1,,,,Glass Bowl,,,,,,,,
+401628381,2024,6,,,1,,,,Sanford Stadium,,,,,,,,
+401628382,2024,6,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401636890,2024,6,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401628508,2024,6,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401628384,2024,6,,,1,,,,FirstBank Stadium,,,,,,,,
+401643724,2024,6,,,1,,,,Reser Stadium,,,,,,,,
+401643801,2024,6,,,1,,,,Malone Stadium,,,,,,,,
+401635569,2024,6,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401643802,2024,6,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401643800,2024,6,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401643723,2024,6,,,1,,,,Albertsons Stadium,,,,,,,,
+401643798,2024,6,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401628507,2024,6,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401643726,2024,6,,,1,,,,CEFCU Stadium,,,,,,,,
+401628379,2024,6,,,1,,,,Razorback Stadium,,,,,,,,
+401628505,2024,6,,,1,,,,Husky Stadium,,,,,,,,
+401636889,2024,6,,,1,,,,Jack Trice Stadium,,,,,,,,
+401628380,2024,6,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401636888,2024,6,,,1,,,,Mountain America Stadium,,,,,,,,
+401635570,2024,6,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401643725,2024,6,,,1,,,,Snapdragon Stadium,,,,,,,,
+401635568,2024,6,,,1,,,,California Memorial Stadium,,,,,,,,
+401636887,2024,6,,,1,,,,Arizona Stadium,,,,,,,,
+401640982,2024,7,,,1,,,,Williams Stadium (VA),,,,,,,,
+401641002,2024,7,,,1,,,,AmFirst Stadium,,,,,,,,
+401643803,2024,7,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401641030,2024,7,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401641009,2024,7,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401628513,2024,7,,,1,,,,SECU Stadium,,,,,,,,
+401643733,2024,7,,,1,,,,Maverik Stadium,,,,,,,,
+401636892,2024,7,,,1,,,,Mountain America Stadium,,,,,,,,
+401628517,2024,7,,,1,,,,SHI Stadium,,,,,,,,
+401644743,2024,7,,,1,,,,Dix Stadium,,,,,,,,
+401635577,2024,7,,,1,,,,Kenan Stadium,,,,,,,,
+401635576,2024,7,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401628389,2024,7,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401645342,2024,7,,,1,,,,Michie Stadium,,,,,,,,
+401644745,2024,7,,,1,,,,UB Stadium,,,,,,,,
+401628512,2024,7,,,1,,,,Kinnick Stadium,,,,,,,,
+401628385,2024,7,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401644685,2024,7,,,1,,,,Rynearson Stadium,,,,,,,,
+401628981,2024,7,,,1,,,,Notre Dame Stadium,,,,,,,,
+401645341,2024,7,,,1,,,,Camping World Stadium,,,,,,,,
+401643805,2024,7,,,1,,,,Center Parc Stadium,,,,,,,,
+401636895,2024,7,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401635575,2024,7,,,1,,,,Acrisure Stadium,,,,,,,,
+401635578,2024,7,,,1,,,,Scott Stadium,,,,,,,,
+401628516,2024,7,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401628511,2024,7,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401644744,2024,7,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401644742,2024,7,,,1,,,,Waldo Stadium,,,,,,,,
+401643729,2024,7,,,1,,,,Canvas Stadium,,,,,,,,
+401643732,2024,7,,,1,,,,War Memorial Stadium,,,,,,,,
+401628390,2024,7,,,1,,,,Cotton Bowl,,,,,,,,
+401644746,2024,7,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401636893,2024,7,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401628386,2024,7,,,1,,,,Sanford Stadium,,,,,,,,
+401643807,2024,7,,,1,,,,Malone Stadium,,,,,,,,
+401643730,2024,7,,,1,,,,Valley Children's Stadium,,,,,,,,
+401645344,2024,7,,,1,,,,Rice Stadium,,,,,,,,
+401643727,2024,7,,,1,,,,University Stadium (NM),,,,,,,,
+401643808,2024,7,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401628391,2024,7,,,1,,,,Neyland Stadium,,,,,,,,
+401645343,2024,7,,,1,,,,FAU Stadium,,,,,,,,
+401628515,2024,7,,,1,,,,Autzen Stadium,,,,,,,,
+401643806,2024,7,,,1,,,,Cajun Field,,,,,,,,
+401628388,2024,7,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401643731,2024,7,,,1,,,,Mackay Stadium,,,,,,,,
+401628387,2024,7,,,1,,,,Kroger Field,,,,,,,,
+401636896,2024,7,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401635574,2024,7,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401643804,2024,7,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401628514,2024,7,,,1,,,,Rose Bowl,,,,,,,,
+401636894,2024,7,,,1,,,,Folsom Field,,,,,,,,
+401643728,2024,7,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401643809,2024,8,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401641019,2024,8,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401641010,2024,8,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401641038,2024,8,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401640983,2024,8,,,1,,,,Sun Bowl,,,,,,,,
+401643810,2024,8,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401634768,2024,8,,,1,,,,Lane Stadium,,,,,,,,
+401634769,2024,8,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401628523,2024,8,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401636898,2024,8,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401643735,2024,8,,,1,,,,Mackay Stadium,,,,,,,,
+401645346,2024,8,,,1,,,,Michie Stadium,,,,,,,,
+401635589,2024,8,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401635588,2024,8,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401628522,2024,8,,,1,,,,Lanny and Sharon Martin Stadium,,,,,,,,
+401629034,2024,8,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401636899,2024,8,,,1,,,,Nippert Stadium,,,,,,,,
+401628395,2024,8,,,1,,,,Memorial Stadium,,,,,,,,
+401643811,2024,8,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401628519,2024,8,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401628524,2024,8,,,1,,,,SHI Stadium,,,,,,,,
+401628396,2024,8,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401645351,2024,8,,,1,,,,Lincoln Financial Field,,,,,,,,
+401644750,2024,8,,,1,,,,Rynearson Stadium,,,,,,,,
+401644749,2024,8,,,1,,,,UB Stadium,,,,,,,,
+401636901,2024,8,,,1,,,,GEHA Field at Arrowhead Stadium,,,,,,,,
+401645345,2024,8,,,1,,,,Raymond James Stadium,,,,,,,,
+401645347,2024,8,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401645350,2024,8,,,1,,,,Yulman Stadium,,,,,,,,
+401643736,2024,8,,,1,,,,Gesa Field,,,,,,,,
+401643813,2024,8,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401645348,2024,8,,,1,,,,Alamodome,,,,,,,,
+401635587,2024,8,,,1,,,,California Memorial Stadium,,,,,,,,
+401628982,2024,8,,,1,,,,Mercedes-Benz Stadium,,,,,,,,
+401628518,2024,8,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401644748,2024,8,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401644686,2024,8,,,1,,,,Yager Stadium,,,,,,,,
+401644751,2024,8,,,1,,,,Huskie Stadium,,,,,,,,
+401628397,2024,8,,,1,,,,Neyland Stadium,,,,,,,,
+401643737,2024,8,,,1,,,,Maverik Stadium,,,,,,,,
+401636902,2024,8,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401643812,2024,8,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401643738,2024,8,,,1,,,,CEFCU Stadium,,,,,,,,
+401628521,2024,8,,,1,,,,SECU Stadium,,,,,,,,
+401636897,2024,8,,,1,,,,Arizona Stadium,,,,,,,,
+401628394,2024,8,,,1,,,,Davis Wade Stadium,,,,,,,,
+401628399,2024,8,,,1,,,,FirstBank Stadium,,,,,,,,
+401628392,2024,8,,,1,,,,Razorback Stadium,,,,,,,,
+401643814,2024,8,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401628520,2024,8,,,1,,,,Spartan Stadium,,,,,,,,
+401628398,2024,8,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401636900,2024,8,,,1,,,,Jack Trice Stadium,,,,,,,,
+401645349,2024,8,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401636904,2024,8,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401628393,2024,8,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401635590,2024,8,,,1,,,,Stanford Stadium,,,,,,,,
+401643734,2024,8,,,1,,,,Falcon Stadium,,,,,,,,
+401643739,2024,8,,,1,,,,Reser Stadium,,,,,,,,
+401636903,2024,8,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401640984,2024,9,,,1,,,,Pitbull Stadium,,,,,,,,
+401641011,2024,9,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401640993,2024,9,,,1,,,,Fifth Third Stadium,,,,,,,,
+401641003,2024,9,,,1,,,,AmFirst Stadium,,,,,,,,
+401643815,2024,9,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401634770,2024,9,,,1,,,,Acrisure Stadium,,,,,,,,
+401634771,2024,9,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401643740,2024,9,,,1,,,,Allegiant Stadium,,,,,,,,
+401628532,2024,9,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401628402,2024,9,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401628530,2024,9,,,1,,,,Ohio Stadium,,,,,,,,
+401644755,2024,9,,,1,,,,Peden Stadium,,,,,,,,
+401628526,2024,9,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401628983,2024,9,,,1,,,,MetLife Stadium,,,,,,,,
+401645354,2024,9,,,1,,,,DATCU Stadium,,,,,,,,
+401635597,2024,9,,,1,,,,Lane Stadium,,,,,,,,
+401635598,2024,9,,,1,,,,Scott Stadium,,,,,,,,
+401645353,2024,9,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401628403,2024,9,,,1,,,,Davis Wade Stadium,,,,,,,,
+401643816,2024,9,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401644687,2024,9,,,1,,,,Yager Stadium,,,,,,,,
+401645352,2024,9,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401644752,2024,9,,,1,,,,InfoCision Stadium,,,,,,,,
+401644754,2024,9,,,1,,,,Glass Bowl,,,,,,,,
+401644756,2024,9,,,1,,,,Waldo Stadium,,,,,,,,
+401645355,2024,9,,,1,,,,Chapman Stadium,,,,,,,,
+401643817,2024,9,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401636906,2024,9,,,1,,,,McLane Stadium,,,,,,,,
+401629035,2024,9,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401636910,2024,9,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401636911,2024,9,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401635599,2024,9,,,1,,,,Stanford Stadium,,,,,,,,
+401645308,2024,9,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401628400,2024,9,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401628528,2024,9,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401628527,2024,9,,,1,,,,Kinnick Stadium,,,,,,,,
+401628525,2024,9,,,1,,,,Autzen Stadium,,,,,,,,
+401644753,2024,9,,,1,,,,Scheumann Stadium,,,,,,,,
+401635594,2024,9,,,1,,,,California Memorial Stadium,,,,,,,,
+401628405,2024,9,,,1,,,,FirstBank Stadium,,,,,,,,
+401643819,2024,9,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401643741,2024,9,,,1,,,,Canvas Stadium,,,,,,,,
+401636905,2024,9,,,1,,,,Arizona Stadium,,,,,,,,
+401643818,2024,9,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401636908,2024,9,,,1,,,,TDECU Stadium,,,,,,,,
+401635596,2024,9,,,1,,,,Hard Rock Stadium,,,,,,,,
+401643745,2024,9,,,1,,,,War Memorial Stadium,,,,,,,,
+401628529,2024,9,,,1,,,,Michigan Stadium,,,,,,,,
+401628404,2024,9,,,1,,,,Kyle Field,,,,,,,,
+401628531,2024,9,,,1,,,,Camp Randall Stadium,,,,,,,,
+401628401,2024,9,,,1,,,,Kroger Field,,,,,,,,
+401636909,2024,9,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401635595,2024,9,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401643742,2024,9,,,1,,,,Valley Children's Stadium,,,,,,,,
+401636907,2024,9,,,1,,,,Folsom Field,,,,,,,,
+401643744,2024,9,,,1,,,,Snapdragon Stadium,,,,,,,,
+401643743,2024,9,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401640985,2024,10,,,1,,,,Pitbull Stadium,,,,,,,,
+401643820,2024,10,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401641012,2024,10,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401640994,2024,10,,,1,,,,Williams Stadium (VA),,,,,,,,
+401641020,2024,10,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401645356,2024,10,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401629036,2024,10,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+401645357,2024,10,,,1,,,,FAU Stadium,,,,,,,,
+401643747,2024,10,,,1,,,,Albertsons Stadium,,,,,,,,
+401635604,2024,10,,,1,,,,JMA Wireless Dome,,,,,,,,
+401635516,2024,10,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401645359,2024,10,,,1,,,,Alamodome,,,,,,,,
+401628533,2024,10,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401628410,2024,10,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401628406,2024,10,,,1,,,,Razorback Stadium,,,,,,,,
+401644758,2024,10,,,1,,,,Rynearson Stadium,,,,,,,,
+401644757,2024,10,,,1,,,,InfoCision Stadium,,,,,,,,
+401628538,2024,10,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401643746,2024,10,,,1,,,,Michie Stadium,,,,,,,,
+401628539,2024,10,,,1,,,,Beaver Stadium,,,,,,,,
+401635601,2024,10,,,1,,,,Hard Rock Stadium,,,,,,,,
+401628407,2024,10,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401643821,2024,10,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401645358,2024,10,,,1,,,,Protective Stadium,,,,,,,,
+401636914,2024,10,,,1,,,,Jack Trice Stadium,,,,,,,,
+401636916,2024,10,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401641026,2024,10,,,1,,,,Sun Bowl,,,,,,,,
+401628534,2024,10,,,1,,,,Spartan Stadium,,,,,,,,
+401628536,2024,10,,,1,,,,Michigan Stadium,,,,,,,,
+401628537,2024,10,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401636913,2024,10,,,1,,,,TDECU Stadium,,,,,,,,
+401628408,2024,10,,,1,,,,EverBank Stadium,,,,,,,,
+401635602,2024,10,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401636915,2024,10,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401643822,2024,10,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401643750,2024,10,,,1,,,,University Stadium (NM),,,,,,,,
+401643824,2024,10,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401645360,2024,10,,,1,,,,Rice Stadium,,,,,,,,
+401628409,2024,10,,,1,,,,Davis Wade Stadium,,,,,,,,
+401643749,2024,10,,,1,,,,Valley Children's Stadium,,,,,,,,
+401643823,2024,10,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401635600,2024,10,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401628540,2024,10,,,1,,,,Husky Stadium,,,,,,,,
+401628535,2024,10,,,1,,,,Kinnick Stadium,,,,,,,,
+401628411,2024,10,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401628412,2024,10,,,1,,,,Neyland Stadium,,,,,,,,
+401636912,2024,10,,,1,,,,McLane Stadium,,,,,,,,
+401635627,2024,10,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401643748,2024,10,,,1,,,,Mackay Stadium,,,,,,,,
+401644760,2024,11,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401644688,2024,11,,,1,,,,Scheumann Stadium,,,,,,,,
+401644761,2024,11,,,1,,,,Dix Stadium,,,,,,,,
+401644762,2024,11,,,1,,,,Waldo Stadium,,,,,,,,
+401645361,2024,11,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401643825,2024,11,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401634773,2024,11,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401645362,2024,11,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401628542,2024,11,,,1,,,,Rose Bowl,,,,,,,,
+401643754,2024,11,,,1,,,,Snapdragon Stadium,,,,,,,,
+401636918,2024,11,,,1,,,,Nippert Stadium,,,,,,,,
+401645363,2024,11,,,1,,,,Raymond James Stadium,,,,,,,,
+401628417,2024,11,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401643828,2024,11,,,1,,,,Malone Stadium,,,,,,,,
+401635609,2024,11,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401635606,2024,11,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401628544,2024,11,,,1,,,,SHI Stadium,,,,,,,,
+401628545,2024,11,,,1,,,,Ohio Stadium,,,,,,,,
+401640995,2024,11,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401629037,2024,11,,,1,,,,Protective Stadium,,,,,,,,
+401643829,2024,11,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401635607,2024,11,,,1,,,,Lane Stadium,,,,,,,,
+401629045,2024,11,,,1,,,,DATCU Stadium,,,,,,,,
+401635608,2024,11,,,1,,,,Carter-Finley Stadium,,,,,,,,
+401636919,2024,11,,,1,,,,GEHA Field at Arrowhead Stadium,,,,,,,,
+401628414,2024,11,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401643826,2024,11,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401643755,2024,11,,,1,,,,Reser Stadium,,,,,,,,
+401628541,2024,11,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401645364,2024,11,,,1,,,,Yulman Stadium,,,,,,,,
+401636921,2024,11,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401641021,2024,11,,,1,,,,Sun Bowl,,,,,,,,
+401628418,2024,11,,,1,,,,FirstBank Stadium,,,,,,,,
+401641004,2024,11,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401643827,2024,11,,,1,,,,Cajun Field,,,,,,,,
+401641036,2024,11,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401628416,2024,11,,,1,,,,Neyland Stadium,,,,,,,,
+401636920,2024,11,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401636917,2024,11,,,1,,,,Mountain America Stadium,,,,,,,,
+401628543,2024,11,,,1,,,,Autzen Stadium,,,,,,,,
+401628413,2024,11,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401628984,2024,11,,,1,,,,Notre Dame Stadium,,,,,,,,
+401628415,2024,11,,,1,,,,Memorial Stadium,,,,,,,,
+401643752,2024,11,,,1,,,,Albertsons Stadium,,,,,,,,
+401628546,2024,11,,,1,,,,Beaver Stadium,,,,,,,,
+401635610,2024,11,,,1,,,,Acrisure Stadium,,,,,,,,
+401643753,2024,11,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401643751,2024,11,,,1,,,,Falcon Stadium,,,,,,,,
+401636922,2024,11,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401643756,2024,11,,,1,,,,Gesa Field,,,,,,,,
+401644765,2024,12,,,1,,,,Glass Bowl,,,,,,,,
+401644764,2024,12,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401644763,2024,12,,,1,,,,UB Stadium,,,,,,,,
+401644766,2024,12,,,1,,,,Huskie Stadium,,,,,,,,
+401644767,2024,12,,,1,,,,Peden Stadium,,,,,,,,
+401644689,2024,12,,,1,,,,Yager Stadium,,,,,,,,
+401645365,2024,12,,,1,,,,Chapman Stadium,,,,,,,,
+401643759,2024,12,,,1,,,,Canvas Stadium,,,,,,,,
+401645366,2024,12,,,1,,,,Alamodome,,,,,,,,
+401628553,2024,12,,,1,,,,Husky Stadium,,,,,,,,
+401636923,2024,12,,,1,,,,Arizona Stadium,,,,,,,,
+401636925,2024,12,,,1,,,,Folsom Field,,,,,,,,
+401629046,2024,12,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401628419,2024,12,,,1,,,,Razorback Stadium,,,,,,,,
+401635582,2024,12,,,1,,,,Acrisure Stadium,,,,,,,,
+401641013,2024,12,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401628550,2024,12,,,1,,,,Wrigley Field,,,,,,,,
+401645370,2024,12,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+401628426,2024,12,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401643832,2024,12,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+401628422,2024,12,,,1,,,,Kroger Field,,,,,,,,
+401628425,2024,12,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401645369,2024,12,,,1,,,,Lincoln Financial Field,,,,,,,,
+401640986,2024,12,,,1,,,,AmFirst Stadium,,,,,,,,
+401628547,2024,12,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+401641022,2024,12,,,1,,,,Fifth Third Stadium,,,,,,,,
+401635581,2024,12,,,1,,,,California Memorial Stadium,,,,,,,,
+401643760,2024,12,,,1,,,,Maverik Stadium,,,,,,,,
+401628552,2024,12,,,1,,,,Ross-Ade Stadium,,,,,,,,
+401645368,2024,12,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401635517,2024,12,,,1,,,,Stanford Stadium,,,,,,,,
+401635580,2024,12,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401628985,2024,12,,,1,,,,Notre Dame Stadium,,,,,,,,
+401643757,2024,12,,,1,,,,Falcon Stadium,,,,,,,,
+401628420,2024,12,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401643833,2024,12,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401628549,2024,12,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401636929,2024,12,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401643830,2024,12,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401628423,2024,12,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401643831,2024,12,,,1,,,,Center Parc Stadium,,,,,,,,
+401628548,2024,12,,,1,,,,SECU Stadium,,,,,,,,
+401643758,2024,12,,,1,,,,CEFCU Stadium,,,,,,,,
+401643834,2024,12,,,1,,,,Cajun Field,,,,,,,,
+401636927,2024,12,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401643835,2024,12,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401628421,2024,12,,,1,,,,Sanford Stadium,,,,,,,,
+401628551,2024,12,,,1,,,,Camp Randall Stadium,,,,,,,,
+401628424,2024,12,,,1,,,,Kyle Field,,,,,,,,
+401635583,2024,12,,,1,,,,Kenan Stadium,,,,,,,,
+401636926,2024,12,,,1,,,,Jack Trice Stadium,,,,,,,,
+401645367,2024,12,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+401643761,2024,12,,,1,,,,University Stadium (NM),,,,,,,,
+401636924,2024,12,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401643762,2024,12,,,1,,,,Allegiant Stadium,,,,,,,,
+401644769,2024,13,,,1,,,,Dix Stadium,,,,,,,,
+401644770,2024,13,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+401644690,2024,13,,,1,,,,Yager Stadium,,,,,,,,
+401644772,2024,13,,,1,,,,Rynearson Stadium,,,,,,,,
+401644773,2024,13,,,1,,,,Glass Bowl,,,,,,,,
+401634772,2024,13,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+401645374,2024,13,,,1,,,,Alamodome,,,,,,,,
+401628558,2024,13,,,1,,,,Spartan Stadium,,,,,,,,
+401643767,2024,13,,,1,,,,CEFCU Stadium,,,,,,,,
+401628429,2024,13,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+401628554,2024,13,,,1,,,,SHI Stadium,,,,,,,,
+401628555,2024,13,,,1,,,,Ohio Stadium,,,,,,,,
+401635612,2024,13,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401628556,2024,13,,,1,,,,SECU Stadium,,,,,,,,
+401635518,2024,13,,,1,,,,JMA Wireless Dome,,,,,,,,
+401635618,2024,13,,,1,,,,Hard Rock Stadium,,,,,,,,
+401635619,2024,13,,,1,,,,Scott Stadium,,,,,,,,
+401641005,2024,13,,,1,,,,AmFirst Stadium,,,,,,,,
+401628430,2024,13,,,1,,,,Sanford Stadium,,,,,,,,
+401640996,2024,13,,,1,,,,Williams Stadium (VA),,,,,,,,
+401628435,2024,13,,,1,,,,Neyland Stadium,,,,,,,,
+401635616,2024,13,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401644774,2024,13,,,1,,,,Scheumann Stadium,,,,,,,,
+401645373,2024,13,,,1,,,,Protective Stadium,,,,,,,,
+401641027,2024,13,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+401643836,2024,13,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+401645371,2024,13,,,1,,,,FAU Stadium,,,,,,,,
+401643839,2024,13,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401636935,2024,13,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+401643841,2024,13,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+401640987,2024,13,,,1,,,,Fifth Third Stadium,,,,,,,,
+401643766,2024,13,,,1,,,,Maverik Stadium,,,,,,,,
+401635614,2024,13,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401636937,2024,13,,,1,,,,Milan Puskar Stadium,,,,,,,,
+401636930,2024,13,,,1,,,,Mountain America Stadium,,,,,,,,
+401635613,2024,13,,,1,,,,California Memorial Stadium,,,,,,,,
+401636932,2024,13,,,1,,,,GEHA Field at Arrowhead Stadium,,,,,,,,
+401628560,2024,13,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+401628559,2024,13,,,1,,,,Huntington Bank Stadium,,,,,,,,
+401628557,2024,13,,,1,,,,Michigan Stadium,,,,,,,,
+401628436,2024,13,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+401645375,2024,13,,,1,,,,Raymond James Stadium,,,,,,,,
+401645372,2024,13,,,1,,,,DATCU Stadium,,,,,,,,
+401643837,2024,13,,,1,,,,Brooks Stadium (SC),,,,,,,,
+401636934,2024,13,,,1,,,,Boone Pickens Stadium,,,,,,,,
+401628434,2024,13,,,1,,,,Williams-Brice Stadium,,,,,,,,
+401635617,2024,13,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+401628427,2024,13,,,1,,,,Razorback Stadium,,,,,,,,
+401628432,2024,13,,,1,,,,Davis Wade Stadium,,,,,,,,
+401643840,2024,13,,,1,,,,Cajun Field,,,,,,,,
+401628572,2024,13,,,1,,,,Reser Stadium,,,,,,,,
+401636931,2024,13,,,1,,,,TDECU Stadium,,,,,,,,
+401643842,2024,13,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+401640959,2024,13,,,1,,,,Yankee Stadium,,,,,,,,
+401643764,2024,13,,,1,,,,War Memorial Stadium,,,,,,,,
+401628428,2024,13,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+401636936,2024,13,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+401628433,2024,13,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+401643838,2024,13,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+401628431,2024,13,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401635615,2024,13,,,1,,,,Wallace Wade Stadium,,,,,,,,
+401636933,2024,13,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+401643765,2024,13,,,1,,,,Valley Children's Stadium,,,,,,,,
+401628561,2024,13,,,1,,,,Rose Bowl,,,,,,,,
+401643763,2024,13,,,1,,,,Mackay Stadium,,,,,,,,
+401644775,2024,14,,,1,,,,InfoCision Stadium,,,,,,,,
+401644776,2024,14,,,1,,,,UB Stadium,,,,,,,,
+401645376,2024,14,,,1,,,,Yulman Stadium,,,,,,,,
+401628568,2024,14,,,1,,,,Camp Randall Stadium,,,,,,,,
+401636938,2024,14,,,1,,,,Folsom Field,,,,,,,,
+401643769,2024,14,,,1,,,,Albertsons Stadium,,,,,,,,
+401644691,2024,14,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+401645379,2024,14,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+401644777,2024,14,,,1,,,,Peden Stadium,,,,,,,,
+401643770,2024,14,,,1,,,,Canvas Stadium,,,,,,,,
+401640997,2024,14,,,1,,,,Elliott T. Bowers Stadium,,,,,,,,
+401643843,2024,14,,,1,,,,Hancock Whitney Stadium,,,,,,,,
+401628442,2024,14,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+401635625,2024,14,,,1,,,,CEFCU Stadium,,,,,,,,
+401628562,2024,14,,,1,,,,Kinnick Stadium,,,,,,,,
+401628439,2024,14,,,1,,,,Sanford Stadium,,,,,,,,
+401636939,2024,14,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+401628444,2024,14,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+401636941,2024,14,,,1,,,,McLane Stadium,,,,,,,,
+401628440,2024,14,,,1,,,,Kroger Field,,,,,,,,
+401629038,2024,14,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+401628446,2024,14,,,1,,,,FirstBank Stadium,,,,,,,,
+401635622,2024,14,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+401645381,2024,14,,,1,,,,Lincoln Financial Field,,,,,,,,
+401636945,2024,14,,,1,,,,Jones AT&T Stadium,,,,,,,,
+401628563,2024,14,,,1,,,,Wrigley Field,,,,,,,,
+401645378,2024,14,,,1,,,,Michie Stadium,,,,,,,,
+401628566,2024,14,,,1,,,,Ohio Stadium,,,,,,,,
+401643848,2024,14,,,1,,,,Malone Stadium,,,,,,,,
+401644780,2024,14,,,1,,,,Waldo Stadium,,,,,,,,
+401640988,2024,14,,,1,,,,Pitbull Stadium,,,,,,,,
+401643845,2024,14,,,1,,,,Center Parc Stadium,,,,,,,,
+401645382,2024,14,,,1,,,,Rice Stadium,,,,,,,,
+401643849,2024,14,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+401643847,2024,14,,,1,,,,Centennial Bank Stadium,,,,,,,,
+401635620,2024,14,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+401628571,2024,14,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+401636940,2024,14,,,1,,,,Arizona Stadium,,,,,,,,
+401645377,2024,14,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+401635624,2024,14,,,1,,,,Kenan Stadium,,,,,,,,
+401628567,2024,14,,,1,,,,Spartan Stadium,,,,,,,,
+401628570,2024,14,,,1,,,,Rose Bowl,,,,,,,,
+401635621,2024,14,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+401635623,2024,14,,,1,,,,JMA Wireless Dome,,,,,,,,
+401645380,2024,14,,,1,,,,Chapman Stadium,,,,,,,,
+401644779,2024,14,,,1,,,,Huskie Stadium,,,,,,,,
+401628565,2024,14,,,1,,,,Beaver Stadium,,,,,,,,
+401628443,2024,14,,,1,,,,Memorial Stadium,,,,,,,,
+401628437,2024,14,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+401641006,2024,14,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+401641031,2024,14,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+401641014,2024,14,,,1,,,,Joe Aillet Stadium,,,,,,,,
+401643844,2024,14,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+401636943,2024,14,,,1,,,,Nippert Stadium,,,,,,,,
+401643773,2024,14,,,1,,,,Gesa Field,,,,,,,,
+401628564,2024,14,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+401628441,2024,14,,,1,,,,Tiger Stadium (LA),,,,,,,,
+401628438,2024,14,,,1,,,,Doak Campbell Stadium,,,,,,,,
+401628445,2024,14,,,1,,,,Kyle Field,,,,,,,,
+401628569,2024,14,,,1,,,,Autzen Stadium,,,,,,,,
+401636944,2024,14,,,1,,,,Jack Trice Stadium,,,,,,,,
+401643846,2024,14,,,1,,,,Bridgeforth Stadium,,,,,,,,
+401635640,2024,14,,,1,,,,Lane Stadium,,,,,,,,
+401643772,2024,14,,,1,,,,Allegiant Stadium,,,,,,,,
+401636942,2024,14,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+401643768,2024,14,,,1,,,,Snapdragon Stadium,,,,,,,,
+401643771,2024,14,,,1,,,,Clarence T.C. Ching Athletics Complex,,,,,,,,
+401673466,2024,15,,,1,,,,AmFirst Stadium,,,,,,,,
+401673468,2024,15,,,1,,,,Albertsons Stadium,,,,,,,,
+401673462,2024,15,,,1,,,,Michie Stadium,,,,,,,,
+401673467,2024,15,,,1,,,,Ford Field,,,,,,,,
+401673465,2024,15,,,1,,,,AT&T Stadium,,,,,,,,
+401673469,2024,15,,,1,,,,Mercedes-Benz Stadium,,,,,,,,
+401673470,2024,15,,,1,,,,Cajun Field,,,,,,,,
+401673464,2024,15,,,1,,,,Lucas Oil Stadium,,,,,,,,
+401673463,2024,15,,,1,,,,Bank of America Stadium,,,,,,,,

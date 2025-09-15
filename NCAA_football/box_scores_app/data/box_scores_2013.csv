@@ -1,813 +1,813 @@
-id,season,week,seasonType,startDate,completed,neutralSite,conferenceGame,venue,homeTeam,homeConference,homePoints,homeLineScores,awayTeam,awayConference,awayPoints,awayLineScores
-332412579,2013,1,regular,2013-08-29T22:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,27,"[17, 3, 7, 0]",North Carolina,ACC,10,"[0, 7, 3, 0]"
-332412309,2013,1,regular,2013-08-29T22:00:00.000Z,1,0,0,Dix Stadium,Kent State,Mid-American,17,"[7, 0, 0, 10]",Liberty,Big South,10,"[0, 3, 7, 0]"
-332410154,2013,1,regular,2013-08-29T22:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,31,"[3, 14, 7, 7]",Presbyterian,Big South,7,"[7, 0, 0, 0]"
-332410135,2013,1,regular,2013-08-29T23:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,51,"[3, 13, 14, 21]",UNLV,Mountain West,23,"[6, 7, 3, 7]"
-332410189,2013,1,regular,2013-08-29T23:00:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,34,"[3, 3, 7, 21]",Tulsa,Conference USA,7,"[0, 0, 0, 7]"
-332410084,2013,1,regular,2013-08-29T23:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,73,"[21, 24, 21, 7]",Indiana State,MVFC,35,"[7, 14, 7, 7]"
-332412116,2013,1,regular,2013-08-29T23:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,American Athletic,38,"[14, 10, 14, 0]",Akron,Mid-American,7,"[0, 0, 0, 7]"
-332412050,2013,1,regular,2013-08-29T23:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,51,"[9, 7, 21, 14]",Illinois State,MVFC,28,"[14, 7, 0, 7]"
-332412393,2013,1,regular,2013-08-29T23:30:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,45,"[21, 10, 7, 7]",Western Carolina,Southern,24,"[0, 18, 0, 6]"
-332410006,2013,1,regular,2013-08-29T23:30:00.000Z,1,1,0,Ladd Peebles Stadium,South Alabama,Sun Belt,21,"[0, 7, 7, 7]",Southern Utah,Big Sky,22,"[10, 0, 3, 9]"
-332410041,2013,1,regular,2013-08-29T23:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,18,"[7, 3, 0, 8]",Towson,CAA,33,"[7, 6, 6, 14]"
-332412655,2013,1,regular,2013-08-30T00:00:00.000Z,1,0,0,Caesars Superdome,Tulane,Conference USA,34,"[13, 7, 7, 7]",Jackson State,SWAC,7,"[0, 0, 0, 7]"
-332410254,2013,1,regular,2013-08-30T00:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,30,"[14, 0, 10, 6]",Utah State,Mountain West,26,"[3, 14, 6, 3]"
-332410238,2013,1,regular,2013-08-30T01:15:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,35,"[0, 21, 7, 7]",Ole Miss,SEC,39,"[10, 0, 15, 14]"
-332410023,2013,1,regular,2013-08-30T02:00:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,24,"[3, 14, 7, 0]",Sacramento State,Big Sky,0,"[0, 0, 0, 0]"
-332410278,2013,1,regular,2013-08-30T02:30:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,52,"[7, 14, 7, 17, 7]",Rutgers,American Athletic,51,"[10, 10, 11, 14, 6]"
-332410062,2013,1,regular,2013-08-30T03:00:00.000Z,1,0,0,Aloha Stadium,Hawai'i,Mountain West,13,"[0, 5, 0, 8]",USC,Pac-12,30,"[3, 17, 0, 10]"
-332420349,2013,1,regular,2013-08-30T23:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,28,"[14, 7, 7, 0]",Morgan State,MEAC,12,"[0, 6, 6, 0]"
-332422247,2013,1,regular,2013-08-30T23:00:00.000Z,1,1,0,Georgia Dome,Georgia State,Sun Belt,21,"[7, 7, 0, 7]",Samford,Southern,31,"[7, 0, 7, 17]"
-332422390,2013,1,regular,2013-08-31T00:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,34,"[3, 17, 14, 0]",Florida Atlantic,Conference USA,6,"[0, 3, 3, 0]"
-332420127,2013,1,regular,2013-08-31T00:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,26,"[7, 6, 6, 7]",Western Michigan,Mid-American,13,"[0, 7, 0, 6]"
-332422567,2013,1,regular,2013-08-31T00:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,23,"[3, 6, 7, 7]",Texas Tech,Big 12,41,"[3, 10, 7, 21]"
-332422306,2013,1,regular,2013-08-31T00:30:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,21,"[0, 7, 14, 0]",North Dakota State,MVFC,24,"[7, 0, 10, 7]"
-332420248,2013,1,regular,2013-08-31T00:30:00.000Z,1,0,0,,Houston,American Athletic,62,"[10, 17, 14, 21]",Southern,SWAC,13,"[0, 6, 7, 0]"
-332420012,2013,1,regular,2013-08-31T02:00:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,35,"[7, 7, 14, 7]",Northern Arizona,Big Sky,0,"[0, 0, 0, 0]"
-332430103,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,24,"[7, 0, 14, 3]",Villanova,CAA,14,"[14, 0, 0, 0]"
-332430059,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,70,"[28, 14, 21, 7]",Elon,Southern,0,"[0, 0, 0, 0]"
-332430356,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,42,"[3, 22, 14, 3]",Southern Illinois,MVFC,34,"[7, 0, 17, 10]"
-332432132,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,Nippert Stadium,Cincinnati,American Athletic,42,"[0, 14, 14, 14]",Purdue,Big Ten,7,"[0, 7, 0, 0]"
-332430275,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,45,"[10, 7, 21, 7]",Massachusetts,Mid-American,0,"[0, 0, 0, 0]"
-332430277,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,24,"[7, 0, 10, 7]",William & Mary,CAA,17,"[7, 10, 0, 0]"
-332430194,2013,1,regular,2013-08-31T16:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,40,"[23, 7, 7, 3]",Buffalo,Mid-American,20,"[0, 13, 7, 0]"
-332430057,2013,1,regular,2013-08-31T16:21:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,24,"[7, 10, 7, 0]",Toledo,Mid-American,6,"[0, 3, 3, 0]"
-332430120,2013,1,regular,2013-08-31T16:30:00.000Z,1,0,0,SECU Stadium,Maryland,ACC,43,"[13, 27, 0, 3]",Florida International,Conference USA,10,"[3, 7, 0, 0]"
-332430152,2013,1,regular,2013-08-31T16:30:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,40,"[14, 10, 3, 13]",Louisiana Tech,Conference USA,14,"[0, 7, 0, 7]"
-332430245,2013,1,regular,2013-08-31T17:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,52,"[7, 21, 10, 14]",Rice,Conference USA,31,"[14, 7, 0, 10]"
-332432005,2013,1,regular,2013-08-31T19:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,38,"[0, 21, 10, 7]",Colgate,Patriot,13,"[7, 0, 0, 6]"
-332430130,2013,1,regular,2013-08-31T19:30:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,59,"[14, 21, 21, 3]",Central Michigan,Mid-American,9,"[3, 3, 0, 3]"
-332430197,2013,1,regular,2013-08-31T19:30:00.000Z,1,1,0,,Oklahoma State,Big 12,21,"[0, 7, 7, 7]",Mississippi State,SEC,3,"[3, 0, 0, 0]"
-332430258,2013,1,regular,2013-08-31T19:30:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,19,"[0, 3, 9, 7]",BYU,FBS Independents,16,"[0, 7, 0, 9]"
-332432294,2013,1,regular,2013-08-31T19:30:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,27,"[7, 17, 0, 3]",Northern Illinois,Mid-American,30,"[10, 7, 3, 10]"
-332430213,2013,1,regular,2013-08-31T19:30:00.000Z,1,1,0,,Penn State,Big Ten,23,"[0, 6, 7, 10]",Syracuse,ACC,17,"[0, 3, 7, 7]"
-332430087,2013,1,regular,2013-08-31T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,28,"[14, 7, 7, 0]",Temple,American Athletic,6,"[0, 6, 0, 0]"
-332430008,2013,1,regular,2013-08-31T20:00:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,34,"[7, 13, 14, 0]",Louisiana,Sun Belt,14,"[0, 7, 7, 0]"
-332430150,2013,1,regular,2013-08-31T20:00:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,45,"[14, 14, 14, 3]",North Carolina Central,MEAC,0,"[0, 0, 0, 0]"
-332432483,2013,1,regular,2013-08-31T20:00:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,66,"[24, 14, 7, 21]",Nicholls,Southland,3,"[0, 3, 0, 0]"
-332430259,2013,1,regular,2013-08-31T21:30:00.000Z,1,1,0,Georgia Dome,Virginia Tech,ACC,10,"[7, 3, 0, 0]",Alabama,SEC,35,"[14, 14, 7, 0]"
-332432199,2013,1,regular,2013-08-31T22:00:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,34,"[0, 13, 7, 14]",Howard,MEAC,24,"[0, 10, 14, 0]"
-332432633,2013,1,regular,2013-08-31T22:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,45,"[21, 21, 3, 0]",Austin Peay,OVC,0,"[0, 0, 0, 0]"
-332430204,2013,1,regular,2013-08-31T22:00:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,46,"[7, 10, 15, 14]",Eastern Washington,Big Sky,49,"[6, 23, 7, 13]"
-332430276,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Conference USA,52,"[0, 14, 21, 17]",Miami (OH),Mid-American,14,"[7, 7, 0, 0]"
-332430002,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,31,"[8, 17, 3, 3]",Washington State,Pac-12,24,"[7, 14, 3, 0]"
-332430058,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,21,"[7, 0, 7, 7]",McNeese,Southland,53,"[2, 31, 10, 10]"
-332430142,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,58,"[13, 17, 21, 7]",Murray State,OVC,14,"[14, 0, 0, 0]"
-332430151,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,Conference USA,52,"[7, 14, 14, 17]",Old Dominion,,38,"[3, 14, 14, 7]"
-332430249,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,DATCU Stadium,North Texas,Conference USA,40,"[14, 12, 7, 7]",Idaho,FBS Independents,6,"[6, 0, 0, 0]"
-332432032,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,62,"[14, 34, 14, 0]",Arkansas-Pine Bluff,SWAC,11,"[0, 0, 11, 0]"
-332432572,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Conference USA,15,"[0, 3, 9, 3]",Texas State,Sun Belt,22,"[7, 7, 0, 8]"
-332432653,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,34,"[7, 0, 10, 14, 3]",UAB,Conference USA,31,"[14, 3, 14, 0, 0]"
-332430201,2013,1,regular,2013-08-31T23:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,34,"[0, 13, 21, 0]",UL Monroe,Sun Belt,0,"[0, 0, 0, 0]"
-332430098,2013,1,regular,2013-08-31T23:10:00.000Z,1,1,0,Nissan Stadium,Western Kentucky,Sun Belt,35,"[7, 14, 7, 7]",Kentucky,SEC,26,"[3, 14, 0, 9]"
-332430239,2013,1,regular,2013-08-31T23:30:00.000Z,1,1,0,Floyd Casey Stadium,Baylor,Big 12,69,"[28, 10, 28, 3]",Wofford,Southern,3,"[0, 0, 3, 0]"
-332430158,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,37,"[10, 7, 14, 6]",Wyoming,Mountain West,34,"[7, 7, 7, 13]"
-332430251,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,56,"[0, 14, 21, 21]",New Mexico State,FBS Independents,7,"[0, 7, 0, 0]"
-332430021,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,Qualcomm Stadium,San Diego State,Mountain West,19,"[13, 3, 3, 0]",Eastern Illinois,OVC,40,"[7, 12, 7, 14]"
-332430167,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,13,"[6, 7, 0, 0]",UTSA,Conference USA,21,"[0, 7, 7, 7]"
-332430228,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,38,"[14, 7, 10, 7]",Georgia,SEC,35,"[14, 7, 7, 7]"
-332430066,2013,1,regular,2013-09-01T00:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,20,"[7, 7, 6, 0]",Northern Iowa,MVFC,28,"[7, 14, 0, 7]"
-332432628,2013,1,regular,2013-09-01T01:00:00.000Z,1,1,0,,TCU,Big 12,27,"[3, 7, 7, 10]",LSU,SEC,37,"[6, 10, 14, 7]"
-332430026,2013,1,regular,2013-09-01T02:00:00.000Z,1,0,0,Rose Bowl,UCLA,Pac-12,58,"[7, 10, 20, 21]",Nevada,Mountain West,20,"[3, 10, 0, 7]"
-332430264,2013,1,regular,2013-09-01T02:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,38,"[7, 3, 14, 14]",Boise State,Mountain West,6,"[0, 3, 3, 0]"
-332430025,2013,1,regular,2013-09-01T02:30:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,30,"[7, 3, 14, 6]",Northwestern,Big Ten,44,"[7, 10, 10, 17]"
-332440097,2013,1,regular,2013-09-01T19:30:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,American Athletic,49,"[14, 14, 14, 7]",Ohio,Mid-American,7,"[0, 0, 7, 0]"
-332440036,2013,1,regular,2013-09-01T22:00:00.000Z,1,1,0,,Colorado State,Mountain West,27,"[0, 10, 14, 3]",Colorado,Pac-12,41,"[10, 10, 3, 18]"
-332450221,2013,1,regular,2013-09-03T00:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,13,"[7, 3, 3, 0]",Florida State,ACC,41,"[7, 21, 6, 7]"
-332480151,2013,2,regular,2013-09-05T23:30:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,Conference USA,31,"[7, 14, 10, 0]",Florida Atlantic,Conference USA,13,"[3, 3, 0, 7]"
-332480009,2013,2,regular,2013-09-06T02:00:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,55,"[14, 28, 10, 3]",Sacramento State,Big Sky,0,"[0, 0, 0, 0]"
-332492229,2013,2,regular,2013-09-07T00:00:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,0,"[0, 0, 0, 0]",UCF,American Athletic,38,"[7, 17, 14, 0]"
-332490103,2013,2,regular,2013-09-07T00:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,24,"[10, 7, 7, 0]",Wake Forest,ACC,10,"[7, 0, 0, 3]"
-332500164,2013,2,regular,2013-09-07T16:00:00.000Z,1,1,0,High Point Solutions Stadium,Rutgers,American Athletic,38,"[21, 0, 14, 3]",Norfolk State,MEAC,0,"[0, 0, 0, 0]"
-332500097,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,American Athletic,44,"[14, 13, 10, 7]",Eastern Kentucky,OVC,7,"[0, 0, 0, 7]"
-332502628,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,38,"[7, 10, 14, 7]",SE Louisiana,Southland,17,"[0, 14, 0, 3]"
-332500218,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,13,"[6, 7, 0, 0]",Houston,American Athletic,22,"[3, 6, 6, 7]"
-332500356,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,45,"[7, 14, 7, 17]",Cincinnati,American Athletic,17,"[0, 7, 10, 0]"
-332500096,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,41,"[24, 7, 0, 10]",Miami (OH),Mid-American,7,"[7, 0, 0, 0]"
-332502294,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,28,"[7, 0, 14, 7]",Missouri State,MVFC,14,"[0, 0, 0, 14]"
-332502309,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,22,"[8, 14, 0, 0]",Bowling Green,Mid-American,41,"[7, 17, 10, 7]"
-332502509,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,20,"[7, 3, 7, 3]",Indiana State,MVFC,14,"[0, 0, 7, 7]"
-332500275,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,48,"[14, 14, 6, 14]",Tennessee Tech,OVC,0,"[0, 0, 0, 0]"
-332500127,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,21,"[0, 7, 7, 7]",South Florida,American Athletic,6,"[0, 6, 0, 0]"
-332502636,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Alamodome,UTSA,Conference USA,35,"[7, 0, 0, 28]",Oklahoma State,Big 12,56,"[14, 21, 7, 14]"
-332502390,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,21,"[14, 0, 0, 7]",Florida,SEC,16,"[6, 0, 3, 7]"
-332500213,2013,2,regular,2013-09-07T16:00:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,45,"[7, 10, 7, 21]",Eastern Michigan,Mid-American,7,"[7, 0, 0, 0]"
-332502633,2013,2,regular,2013-09-07T16:21:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,52,"[24, 7, 14, 7]",Western Kentucky,Sun Belt,20,"[3, 14, 3, 0]"
-332500153,2013,2,regular,2013-09-07T16:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,40,"[13, 10, 3, 14]",Middle Tennessee,Conference USA,20,"[0, 0, 7, 13]"
-332500228,2013,2,regular,2013-09-07T16:30:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,52,"[17, 21, 7, 7]",South Carolina State,MEAC,13,"[0, 7, 0, 6]"
-332502050,2013,2,regular,2013-09-07T17:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,40,"[14, 13, 10, 3]",Army,FBS Independents,14,"[7, 0, 7, 0]"
-332500259,2013,2,regular,2013-09-07T17:30:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,45,"[7, 14, 14, 10]",Western Carolina,Southern,3,"[0, 0, 3, 0]"
-332500254,2013,2,regular,2013-09-07T18:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,70,"[14, 35, 14, 7]",Weber State,Big Sky,7,"[0, 0, 7, 0]"
-332502247,2013,2,regular,2013-09-07T18:00:00.000Z,1,1,0,Georgia Dome,Georgia State,Sun Belt,14,"[0, 0, 0, 14]",Chattanooga,Southern,42,"[14, 7, 14, 7]"
-332500113,2013,2,regular,2013-09-07T18:00:00.000Z,1,1,0,Gillette Stadium,Massachusetts,Mid-American,14,"[7, 0, 0, 7]",Maine,CAA,24,"[3, 7, 14, 0]"
-332500068,2013,2,regular,2013-09-07T19:00:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,63,"[14, 35, 14, 0]",UT Martin,OVC,14,"[7, 0, 0, 7]"
-332502117,2013,2,regular,2013-09-07T19:00:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,24,"[0, 0, 7, 17]",New Hampshire,CAA,21,"[6, 7, 0, 8]"
-332500258,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,10,"[7, 3, 0, 0]",Oregon,Pac-12,59,"[21, 7, 17, 14]"
-332500239,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Floyd Casey Stadium,Baylor,Big 12,70,"[28, 28, 7, 7]",Buffalo,Mid-American,13,"[13, 0, 0, 0]"
-332500194,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,42,"[21, 14, 7, 0]",San Diego State,Mountain West,7,"[0, 0, 7, 0]"
-332502655,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Caesars Superdome,Tulane,Conference USA,39,"[7, 12, 14, 6]",South Alabama,Sun Belt,41,"[21, 10, 7, 3]"
-332502005,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,20,"[6, 7, 0, 7]",Utah State,Mountain West,52,"[14, 10, 21, 7]"
-332500344,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,51,"[14, 23, 7, 7]",Alcorn State,SWAC,7,"[0, 0, 0, 7]"
-332500142,2013,2,regular,2013-09-07T19:30:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,38,"[10, 7, 14, 7]",Toledo,Mid-American,23,"[3, 6, 14, 0]"
-332500120,2013,2,regular,2013-09-07T20:00:00.000Z,1,0,0,SECU Stadium,Maryland,ACC,47,"[17, 14, 14, 2]",Old Dominion,,10,"[3, 0, 0, 7]"
-332502751,2013,2,regular,2013-09-07T20:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,42,"[0, 21, 21, 0]",Idaho,FBS Independents,10,"[0, 0, 0, 10]"
-332500235,2013,2,regular,2013-09-07T20:30:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,14,"[0, 7, 0, 7]",Duke,ACC,28,"[7, 0, 7, 14]"
-332500061,2013,2,regular,2013-09-07T20:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,41,"[10, 14, 10, 7]",South Carolina,SEC,30,"[3, 21, 0, 6]"
-332500025,2013,2,regular,2013-09-07T21:00:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,37,"[10, 17, 10, 0]",Portland State,Big Sky,30,"[14, 9, 7, 0]"
-332500158,2013,2,regular,2013-09-07T22:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,56,"[21, 14, 14, 7]",Southern Miss,Conference USA,13,"[3, 3, 7, 0]"
-332500084,2013,2,regular,2013-09-07T22:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,35,"[0, 14, 7, 14]",Navy,FBS Independents,41,"[14, 10, 14, 3]"
-332502006,2013,2,regular,2013-09-07T22:00:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,35,"[0, 14, 14, 7]",James Madison,CAA,33,"[13, 0, 11, 9]"
-332500152,2013,2,regular,2013-09-07T22:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,23,"[3, 10, 7, 3]",Richmond,CAA,21,"[7, 14, 0, 0]"
-332500077,2013,2,regular,2013-09-07T22:00:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,48,"[10, 24, 0, 14]",Syracuse,ACC,27,"[0, 7, 6, 14]"
-332500276,2013,2,regular,2013-09-07T22:30:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Conference USA,55,"[14, 20, 21, 0]",Gardner-Webb,Big South,0,"[0, 0, 0, 0]"
-332502306,2013,2,regular,2013-09-07T22:30:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,48,"[10, 10, 21, 7]",Louisiana,Sun Belt,27,"[3, 0, 21, 3]"
-332500145,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,31,"[17, 14, 0, 0]",Southeast Missouri State,OVC,13,"[0, 0, 13, 0]"
-332502711,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Waldo Stadium,Western Michigan,Mid-American,23,"[0, 9, 14, 0]",Nicholls,Southland,27,"[14, 7, 0, 6]"
-332502653,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,66,"[17, 7, 28, 14]",Savannah St,MEAC,3,"[0, 3, 0, 0]"
-332502641,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,61,"[28, 17, 16, 0]",Stephen F. Austin,Southland,13,"[7, 0, 0, 6]"
-332502433,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,48,"[21, 14, 7, 6]",Grambling,SWAC,10,"[7, 0, 0, 3]"
-332502305,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,31,"[0, 14, 7, 10]",South Dakota,MVFC,14,"[7, 0, 0, 7]"
-332500326,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,28,"[14, 7, 7, 0]",Prairie View A&M,SWAC,3,"[0, 0, 3, 0]"
-332500202,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,Conference USA,30,"[14, 0, 3, 13]",Colorado State,Mountain West,27,"[7, 13, 7, 0]"
-332500195,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,27,"[7, 14, 0, 6]",North Texas,Conference USA,21,"[7, 0, 7, 7]"
-332500008,2013,2,regular,2013-09-07T23:00:00.000Z,1,1,0,,Arkansas,SEC,31,"[14, 3, 0, 14]",Samford,Southern,21,"[7, 0, 14, 0]"
-332500201,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,16,"[3, 10, 0, 3]",West Virginia,Big 12,7,"[7, 0, 0, 0]"
-332502348,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,27,"[7, 7, 3, 10]",Lamar,Southland,14,"[0, 7, 0, 7]"
-332500245,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,65,"[14, 16, 35, 0]",Sam Houston,Southland,28,"[7, 7, 14, 0]"
-332500252,2013,2,regular,2013-09-07T23:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,40,"[10, 17, 13, 0]",Texas,Big 12,21,"[7, 7, 7, 0]"
-332500238,2013,2,regular,2013-09-07T23:30:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,38,"[3, 35, 0, 0]",Austin Peay,OVC,3,"[0, 0, 3, 0]"
-332500002,2013,2,regular,2013-09-07T23:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,38,"[14, 7, 7, 10]",Arkansas State,Sun Belt,9,"[3, 0, 6, 0]"
-332500099,2013,2,regular,2013-09-07T23:37:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,56,"[21, 14, 21, 0]",UAB,Conference USA,17,"[0, 17, 0, 0]"
-332500204,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,33,"[7, 7, 14, 5]",Hawai'i,Mountain West,14,"[0, 14, 0, 0]"
-332502567,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,31,"[5, 14, 3, 9]",Montana State,Big Sky,30,"[8, 14, 8, 0]"
-332502638,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,35,"[0, 21, 7, 7, 0]",New Mexico,Mountain West,42,"[7, 14, 0, 14, 7]"
-332500130,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,41,"[10, 17, 7, 7]",Notre Dame,FBS Independents,30,"[7, 6, 7, 10]"
-332500038,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Folsom Field,Colorado,Pac-12,38,"[7, 7, 3, 21]",Central Arkansas,Southland,24,"[0, 14, 3, 7]"
-332500166,2013,2,regular,2013-09-08T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,21,"[0, 7, 7, 7]",Minnesota,Big Ten,44,"[3, 24, 3, 14]"
-332502440,2013,2,regular,2013-09-08T01:05:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,36,"[13, 7, 13, 3]",UC Davis,Big Sky,7,"[0, 7, 0, 0]"
-332500278,2013,2,regular,2013-09-08T02:00:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,41,"[10, 24, 7, 0]",Cal Poly,Big Sky,25,"[0, 0, 10, 15]"
-332502439,2013,2,regular,2013-09-08T02:30:00.000Z,1,0,0,Sam Boyd Stadium,UNLV,Mountain West,13,"[0, 6, 0, 7]",Arizona,Pac-12,58,"[17, 28, 3, 10]"
-332500030,2013,2,regular,2013-09-08T02:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,7,"[0, 7, 0, 0]",Washington State,Pac-12,10,"[0, 7, 0, 3]"
-332500024,2013,2,regular,2013-09-08T03:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,34,"[7, 10, 10, 7]",San José State,Mountain West,13,"[3, 3, 7, 0]"
-332552032,2013,3,regular,2013-09-12T23:30:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,41,"[20, 0, 14, 7]",Troy,Sun Belt,34,"[7, 14, 7, 6]"
-332552348,2013,3,regular,2013-09-12T23:30:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,15,"[6, 3, 0, 6]",Tulane,Conference USA,24,"[7, 0, 10, 7]"
-332552641,2013,3,regular,2013-09-12T23:30:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,20,"[10, 0, 0, 10]",TCU,Big 12,10,"[0, 0, 3, 7]"
-332560068,2013,3,regular,2013-09-14T00:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,42,"[7, 14, 7, 14]",Air Force,Mountain West,20,"[7, 10, 0, 3]"
-332570135,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,29,"[0, 7, 8, 14]",Western Illinois,MVFC,12,"[6, 0, 6, 0]"
-332570277,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,41,"[10, 7, 3, 21]",Georgia State,Sun Belt,7,"[0, 0, 7, 0]"
-332570151,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,Conference USA,10,"[7, 0, 3, 0]",Virginia Tech,ACC,15,"[7, 0, 6, 2]"
-332570349,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,20,"[6, 7, 0, 7]",Stanford,Pac-12,34,"[7, 13, 7, 7]"
-332570096,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,13,"[3, 0, 0, 10]",Louisville,American Athletic,27,"[3, 7, 10, 7]"
-332570130,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,28,"[7, 0, 14, 7]",Akron,Mid-American,24,"[3, 0, 7, 14]"
-332570201,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,51,"[10, 17, 7, 17]",Tulsa,Conference USA,20,"[7, 0, 6, 7]"
-332570158,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,21,"[14, 7, 0, 0]",UCLA,Pac-12,41,"[3, 7, 28, 3]"
-332570084,2013,3,regular,2013-09-14T16:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,42,"[7, 14, 7, 14]",Bowling Green,Mid-American,10,"[7, 3, 0, 0]"
-332570008,2013,3,regular,2013-09-14T16:21:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,24,"[7, 3, 7, 7]",Southern Miss,Conference USA,3,"[0, 3, 0, 0]"
-332570154,2013,3,regular,2013-09-14T16:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,19,"[7, 6, 0, 6]",UL Monroe,Sun Belt,21,"[7, 7, 7, 0]"
-332570221,2013,3,regular,2013-09-14T16:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,49,"[21, 14, 7, 7]",New Mexico,Mountain West,27,"[3, 3, 14, 7]"
-332570218,2013,3,regular,2013-09-14T17:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,29,"[0, 7, 7, 15]",Fordham,Patriot,30,"[3, 10, 7, 10]"
-332570164,2013,3,regular,2013-09-14T17:00:00.000Z,1,0,0,High Point Solutions Stadium,Rutgers,American Athletic,28,"[14, 0, 7, 7]",Eastern Michigan,Mid-American,10,"[3, 7, 0, 0]"
-332570127,2013,3,regular,2013-09-14T18:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,55,"[21, 14, 14, 6]",Youngstown State,MVFC,17,"[3, 7, 7, 0]"
-332570030,2013,3,regular,2013-09-14T19:00:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,35,"[7, 7, 7, 14]",Boston College,ACC,7,"[0, 0, 0, 7]"
-332570150,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,14,"[7, 0, 0, 7]",Georgia Tech,ACC,38,"[10, 14, 7, 7]"
-332572084,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,26,"[3, 0, 7, 0, 3, 7, 0, 0, 6]",Stony Brook,CAA,23,"[0, 0, 0, 10, 3, 7, 0, 0, 3]"
-332570036,2013,3,regular,2013-09-14T19:30:00.000Z,1,1,0,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,34,"[13, 14, 0, 7]",Cal Poly,Big Sky,17,"[3, 7, 7, 0]"
-332570052,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,62,"[3, 14, 31, 14]",Nevada,Mountain West,7,"[0, 7, 0, 0]"
-332572483,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,59,"[10, 28, 21, 0]",Tennessee,SEC,14,"[7, 0, 0, 7]"
-332570245,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,42,"[14, 0, 7, 21]",Alabama,SEC,49,"[7, 21, 14, 7]"
-332572426,2013,3,regular,2013-09-14T19:30:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,FBS Independents,51,"[10, 13, 14, 14]",Delaware,CAA,7,"[0, 7, 0, 0]"
-332572751,2013,3,regular,2013-09-14T20:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,35,"[0, 21, 0, 14]",Northern Colorado,Big Sky,7,"[0, 0, 0, 7]"
-332570183,2013,3,regular,2013-09-14T20:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,54,"[9, 28, 17, 0]",Wagner,NEC,0,"[0, 0, 0, 0]"
-332570249,2013,3,regular,2013-09-14T20:00:00.000Z,1,0,0,DATCU Stadium,North Texas,Conference USA,34,"[3, 13, 8, 10]",Ball State,Mid-American,27,"[20, 7, 0, 0]"
-332570070,2013,3,regular,2013-09-14T21:00:00.000Z,1,0,0,Kibbie Dome,Idaho,FBS Independents,35,"[14, 14, 0, 7]",Northern Illinois,Mid-American,45,"[7, 14, 14, 10]"
-332570066,2013,3,regular,2013-09-14T22:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,21,"[0, 0, 7, 14]",Iowa,Big Ten,27,"[0, 13, 7, 7]"
-332572229,2013,3,regular,2013-09-14T22:00:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,13,"[0, 7, 0, 6]",Bethune-Cookman,MEAC,34,"[7, 7, 14, 6]"
-332570356,2013,3,regular,2013-09-14T22:00:00.000Z,1,0,0,,Illinois,Big Ten,24,"[0, 3, 14, 7]",Washington,Pac-12,34,"[0, 10, 21, 3]"
-332570213,2013,3,regular,2013-09-14T22:00:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,31,"[7, 3, 7, 14]",UCF,American Athletic,34,"[7, 14, 10, 3]"
-332570265,2013,3,regular,2013-09-14T22:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,48,"[14, 14, 13, 7]",Southern Utah,Big Sky,10,"[3, 7, 0, 0]"
-332572132,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Nippert Stadium,Cincinnati,American Athletic,66,"[14, 21, 10, 21]",Northwestern State,Southland,9,"[0, 9, 0, 0]"
-332572306,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,37,"[6, 21, 7, 3]",Massachusetts,Mid-American,7,"[7, 0, 0, 0]"
-332572393,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,17,"[7, 7, 0, 3]",Memphis,American Athletic,15,"[0, 6, 3, 6]"
-332572579,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,35,"[21, 7, 7, 0]",Vanderbilt,SEC,25,"[0, 10, 0, 15]"
-332570002,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,24,"[11, 3, 3, 7]",Mississippi State,SEC,20,"[6, 7, 7, 0]"
-332570058,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,10,"[10, 0, 0, 0]",Florida Atlantic,Conference USA,28,"[7, 7, 7, 7]"
-332570099,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,45,"[21, 10, 0, 14]",Kent State,Mid-American,13,"[0, 10, 3, 0]"
-332570025,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,34,"[14, 6, 7, 7]",Ohio State,Big Ten,52,"[24, 7, 21, 0]"
-332570309,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,70,"[28, 21, 14, 7]",Nicholls,Southland,7,"[0, 7, 0, 0]"
-332572649,2013,3,regular,2013-09-14T23:00:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,33,"[13, 3, 7, 10]",Eastern Washington,Big Sky,21,"[14, 0, 0, 7]"
-332570197,2013,3,regular,2013-09-14T23:30:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,59,"[21, 10, 21, 7]",Lamar,Southland,3,"[0, 3, 0, 0]"
-332570006,2013,3,regular,2013-09-14T23:30:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,31,"[7, 3, 11, 10]",Western Kentucky,Sun Belt,24,"[14, 7, 0, 3]"
-332570041,2013,3,regular,2013-09-14T23:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,21,"[7, 3, 3, 8]",Maryland,ACC,32,"[0, 13, 14, 5]"
-332570242,2013,3,regular,2013-09-14T23:30:00.000Z,1,0,0,Rice Stadium,Rice,Conference USA,23,"[7, 6, 0, 10]",Kansas,Big 12,14,"[0, 7, 7, 0]"
-332570251,2013,3,regular,2013-09-15T00:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,23,"[7, 16, 0, 0]",Ole Miss,SEC,44,"[14, 3, 20, 7]"
-332570166,2013,3,regular,2013-09-15T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,21,"[14, 0, 7, 0]",UTEP,Conference USA,42,"[14, 7, 7, 14]"
-332570195,2013,3,regular,2013-09-15T00:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,34,"[7, 10, 7, 10]",Marshall,Conference USA,31,"[7, 3, 7, 14]"
-332570328,2013,3,regular,2013-09-15T00:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,70,"[21, 28, 21, 0]",Weber State,Big Sky,6,"[0, 0, 0, 6]"
-332572509,2013,3,regular,2013-09-15T00:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,24,"[7, 3, 7, 7]",Notre Dame,FBS Independents,31,"[0, 3, 7, 21]"
-332570077,2013,3,regular,2013-09-15T01:00:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,38,"[0, 24, 7, 7]",Western Michigan,Mid-American,17,"[3, 7, 7, 0]"
-332570254,2013,3,regular,2013-09-15T02:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,48,"[0, 10, 14, 21, 3]",Oregon State,Pac-12,51,"[10, 10, 14, 11, 6]"
-332572439,2013,3,regular,2013-09-15T02:00:00.000Z,1,0,0,Sam Boyd Stadium,UNLV,Mountain West,31,"[0, 7, 14, 10]",Central Michigan,Mid-American,21,"[7, 14, 0, 0]"
-332570012,2013,3,regular,2013-09-15T02:30:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,38,"[14, 10, 7, 7]",UTSA,Conference USA,13,"[3, 3, 0, 7]"
-332570009,2013,3,regular,2013-09-15T02:30:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,32,"[3, 10, 6, 13]",Wisconsin,Big Ten,30,"[0, 14, 7, 9]"
-332620152,2013,4,regular,2013-09-19T23:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,14,"[0, 7, 0, 7]",Clemson,ACC,26,"[3, 10, 7, 6]"
-332630278,2013,4,regular,2013-09-21T01:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,41,"[10, 14, 10, 7]",Boise State,Mountain West,40,"[10, 9, 7, 14]"
-332642305,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,13,"[0, 3, 0, 10]",Louisiana Tech,Conference USA,10,"[7, 0, 3, 0]"
-332642226,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,35,"[0, 7, 14, 14, 0]",Middle Tennessee,Conference USA,42,"[7, 7, 7, 14, 7]"
-332642117,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,17,"[7, 7, 3, 0]",Toledo,Mid-American,38,"[14, 7, 3, 14]"
-332640097,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,American Athletic,72,"[10, 28, 20, 14]",Florida International,Conference USA,0,"[0, 0, 0, 0]"
-332642294,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,59,"[10, 28, 14, 7]",Western Michigan,Mid-American,3,"[0, 3, 0, 0]"
-332640194,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,76,"[34, 21, 14, 7]",Florida A&M,MEAC,0,"[0, 0, 0, 0]"
-332640059,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,28,"[0, 14, 7, 7]",North Carolina,ACC,20,"[13, 7, 0, 0]"
-332640113,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Gillette Stadium,Massachusetts,Mid-American,7,"[0, 7, 0, 0]",Vanderbilt,SEC,24,"[7, 3, 0, 14]"
-332640135,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,43,"[7, 13, 9, 14]",San José State,Mountain West,24,"[0, 17, 0, 7]"
-332640259,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,29,"[14, 0, 0, 7, 0, 0, 8]",Marshall,Conference USA,21,"[7, 14, 0, 0, 0, 0, 0]"
-332640349,2013,4,regular,2013-09-21T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,11,"[2, 3, 6, 0]",Wake Forest,ACC,25,"[0, 10, 8, 7]"
-332640061,2013,4,regular,2013-09-21T16:21:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,45,"[7, 14, 14, 10]",North Texas,Conference USA,21,"[0, 14, 7, 0]"
-332640183,2013,4,regular,2013-09-21T16:30:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,52,"[21, 21, 7, 3]",Tulane,Conference USA,17,"[10, 7, 0, 0]"
-332640150,2013,4,regular,2013-09-21T16:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,55,"[7, 21, 7, 20]",Pittsburgh,ACC,58,"[20, 17, 14, 7]"
-332642199,2013,4,regular,2013-09-21T17:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,20,"[6, 7, 7, 0]",Ball State,Mid-American,51,"[27, 7, 17, 0]"
-332642247,2013,4,regular,2013-09-21T18:00:00.000Z,1,0,0,Georgia Dome,Georgia State,Sun Belt,26,"[9, 0, 0, 17, 0]",Jacksonville State,OVC,32,"[7, 13, 3, 3, 6]"
-332640195,2013,4,regular,2013-09-21T18:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,38,"[14, 7, 7, 10]",Austin Peay,OVC,0,"[0, 0, 0, 0]"
-332640264,2013,4,regular,2013-09-21T19:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,56,"[21, 21, 7, 7]",Idaho State,Big Sky,0,"[0, 0, 0, 0]"
-332640005,2013,4,regular,2013-09-21T19:00:00.000Z,1,1,0,Legion Field,UAB,Conference USA,52,"[17, 14, 14, 7]",Northwestern State,Southland,28,"[7, 7, 14, 0]"
-332640242,2013,4,regular,2013-09-21T19:00:00.000Z,1,1,0,,Rice,Conference USA,26,"[13, 0, 0, 13]",Houston,American Athletic,31,"[7, 10, 7, 7]"
-332640189,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,48,"[6, 21, 14, 7]",Murray State,OVC,7,"[0, 0, 7, 0]"
-332640258,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,49,"[0, 21, 21, 7]",VMI,Big South,0,"[0, 0, 0, 0]"
-332640164,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,High Point Solutions Stadium,Rutgers,American Athletic,28,"[0, 7, 7, 14]",Arkansas,SEC,24,"[10, 0, 14, 0]"
-332640158,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,59,"[14, 24, 14, 7]",South Dakota State,MVFC,20,"[17, 0, 0, 3]"
-332640120,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,,Maryland,ACC,37,"[14, 16, 0, 7]",West Virginia,Big 12,0,"[0, 0, 0, 0]"
-332640275,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,41,"[14, 10, 10, 7]",Purdue,Big Ten,10,"[0, 10, 0, 0]"
-332640087,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,17,"[3, 7, 0, 7]",Michigan State,Big Ten,13,"[0, 7, 3, 3]"
-332640057,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,31,"[3, 14, 7, 7]",Tennessee,SEC,17,"[7, 0, 3, 7]"
-332640077,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,35,"[7, 7, 7, 14]",Maine,CAA,21,"[0, 0, 7, 14]"
-332640030,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,17,"[7, 7, 0, 3]",Utah State,Mountain West,14,"[0, 7, 7, 0]"
-332640213,2013,4,regular,2013-09-21T19:30:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,34,"[7, 7, 7, 13]",Kent State,Mid-American,0,"[0, 0, 0, 0]"
-332640239,2013,4,regular,2013-09-21T20:00:00.000Z,1,0,0,Floyd Casey Stadium,Baylor,Big 12,70,"[35, 14, 21, 0]",UL Monroe,Sun Belt,7,"[0, 7, 0, 0]"
-332640193,2013,4,regular,2013-09-21T20:00:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,0,"[0, 0, 0, 0]",Cincinnati,American Athletic,14,"[0, 0, 0, 14]"
-332640235,2013,4,regular,2013-09-21T20:30:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,31,"[14, 10, 7, 0]",Arkansas State,Sun Belt,7,"[7, 0, 0, 0]"
-332640052,2013,4,regular,2013-09-21T22:00:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,54,"[10, 23, 21, 0]",Bethune-Cookman,MEAC,6,"[0, 0, 6, 0]"
-332642006,2013,4,regular,2013-09-21T22:00:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,30,"[0, 14, 3, 13]",Louisiana,Sun Belt,35,"[7, 7, 7, 14]"
-332642390,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,77,"[21, 28, 28, 0]",Savannah St,MEAC,7,"[0, 0, 7, 0]"
-332640245,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,42,"[14, 18, 10, 0]",SMU,American Athletic,13,"[3, 3, 0, 7]"
-332640024,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,42,"[13, 16, 10, 3]",Arizona State,Pac-12,28,"[0, 0, 7, 21]"
-332640333,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,31,"[7, 10, 0, 14]",Colorado State,Mountain West,6,"[0, 0, 6, 0]"
-332640098,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Sun Belt,58,"[21, 21, 7, 9]",Morgan State,MEAC,17,"[7, 0, 10, 0]"
-332642459,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,43,"[6, 17, 10, 10]",Eastern Illinois,OVC,39,"[20, 0, 6, 13]"
-332642641,2013,4,regular,2013-09-21T23:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,33,"[3, 10, 10, 10]",Texas State,Sun Belt,7,"[0, 0, 7, 0]"
-332640021,2013,4,regular,2013-09-21T23:30:00.000Z,1,0,0,Qualcomm Stadium,San Diego State,Mountain West,30,"[14, 10, 3, 3]",Oregon State,Pac-12,34,"[14, 0, 0, 20]"
-332640344,2013,4,regular,2013-09-21T23:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,62,"[10, 35, 7, 10]",Troy,Sun Belt,7,"[7, 0, 0, 0]"
-332640099,2013,4,regular,2013-09-21T23:45:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,35,"[14, 7, 7, 7]",Auburn,SEC,21,"[0, 0, 14, 7]"
-332640084,2013,4,regular,2013-09-22T00:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,28,"[0, 14, 0, 14]",Missouri,SEC,45,"[14, 14, 3, 14]"
-332640251,2013,4,regular,2013-09-22T00:00:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,31,"[10, 7, 7, 7]",Kansas State,Big 12,21,"[0, 7, 0, 14]"
-332642638,2013,4,regular,2013-09-22T00:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,13,"[10, 0, 3, 0]",UTSA,Conference USA,32,"[7, 18, 0, 7]"
-332640041,2013,4,regular,2013-09-22T00:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,21,"[0, 14, 7, 0]",Michigan,Big Ten,24,"[7, 0, 7, 10]"
-332642440,2013,4,regular,2013-09-22T00:05:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,31,"[7, 10, 7, 7]",Hawai'i,Mountain West,9,"[3, 6, 0, 0]"
-332642439,2013,4,regular,2013-09-22T01:00:00.000Z,1,1,0,Sam Boyd Stadium,UNLV,Mountain West,38,"[10, 7, 14, 7]",Western Illinois,MVFC,7,"[0, 0, 7, 0]"
-332642005,2013,4,regular,2013-09-22T02:15:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,23,"[10, 7, 0, 6]",Wyoming,Mountain West,56,"[14, 28, 7, 7]"
-332640252,2013,4,regular,2013-09-22T02:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,13,"[0, 0, 6, 7]",Utah,Pac-12,20,"[3, 10, 0, 7]"
-332640265,2013,4,regular,2013-09-22T02:30:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,42,"[7, 21, 7, 7]",Idaho,FBS Independents,0,"[0, 0, 0, 0]"
-332640026,2013,4,regular,2013-09-22T02:30:00.000Z,1,0,0,Rose Bowl,UCLA,Pac-12,59,"[7, 24, 14, 14]",New Mexico State,FBS Independents,13,"[0, 0, 0, 13]"
-332690202,2013,5,regular,2013-09-26T23:30:00.000Z,1,0,0,Chapman Stadium,Tulsa,Conference USA,21,"[0, 14, 0, 7]",Iowa State,Big 12,38,"[7, 7, 14, 10]"
-332690059,2013,5,regular,2013-09-26T23:30:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,10,"[0, 3, 7, 0]",Virginia Tech,ACC,17,"[7, 7, 0, 3]"
-332700252,2013,5,regular,2013-09-28T01:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,37,"[7, 16, 14, 0]",Middle Tennessee,Conference USA,10,"[10, 0, 0, 0]"
-332700023,2013,5,regular,2013-09-28T01:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,12,"[3, 3, 6, 0]",Utah State,Mountain West,40,"[14, 9, 14, 3]"
-332710058,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,21,"[7, 0, 0, 14]",Miami,ACC,49,"[21, 14, 14, 0]"
-332712116,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,American Athletic,25,"[7, 3, 0, 15]",South Carolina,SEC,28,"[0, 0, 14, 14]"
-332710277,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,30,"[14, 10, 0, 6]",Oklahoma State,Big 12,21,"[7, 7, 7, 0]"
-332710356,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,50,"[7, 29, 7, 7]",Miami (OH),Mid-American,14,"[0, 0, 7, 7]"
-332712509,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,24,"[7, 3, 7, 7]",Northern Illinois,Mid-American,55,"[10, 17, 21, 7]"
-332712628,2013,5,regular,2013-09-28T16:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,48,"[0, 7, 10, 31]",SMU,American Athletic,17,"[7, 3, 0, 7]"
-332712633,2013,5,regular,2013-09-28T16:21:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,31,"[10, 14, 7, 0]",South Alabama,Sun Belt,24,"[7, 0, 10, 7]"
-332710153,2013,5,regular,2013-09-28T16:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,31,"[0, 10, 14, 7]",East Carolina,Conference USA,55,"[14, 14, 14, 13]"
-332710221,2013,5,regular,2013-09-28T16:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,14,"[14, 0, 0, 0]",Virginia,ACC,3,"[0, 0, 3, 0]"
-332710098,2013,5,regular,2013-09-28T18:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Sun Belt,19,"[0, 3, 7, 9]",Navy,FBS Independents,7,"[7, 0, 0, 0]"
-332710189,2013,5,regular,2013-09-28T18:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,31,"[3, 7, 14, 7]",Akron,Mid-American,14,"[14, 0, 0, 0]"
-332712050,2013,5,regular,2013-09-28T19:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,31,"[10, 7, 0, 14]",Toledo,Mid-American,24,"[10, 0, 0, 14]"
-332710150,2013,5,regular,2013-09-28T19:00:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,38,"[14, 14, 7, 3]",Troy,Sun Belt,31,"[7, 14, 7, 3]"
-332710204,2013,5,regular,2013-09-28T19:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,44,"[10, 7, 21, 6]",Colorado,Pac-12,17,"[3, 0, 0, 14]"
-332710135,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,7,"[0, 0, 7, 0]",Iowa,Big Ten,23,"[3, 14, 3, 3]"
-332710087,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,21,"[7, 0, 7, 7]",Oklahoma,Big 12,35,"[14, 7, 6, 8]"
-332710061,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,44,"[14, 10, 10, 10]",LSU,SEC,41,"[14, 3, 10, 14]"
-332710103,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,34,"[14, 3, 10, 7]",Florida State,ACC,48,"[3, 21, 14, 10]"
-332712084,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,41,"[14, 14, 6, 7]",UConn,American Athletic,12,"[3, 9, 0, 0]"
-332710152,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,48,"[7, 28, 3, 10]",Central Michigan,Mid-American,14,"[0, 0, 0, 14]"
-332710036,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,0,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,59,"[14, 14, 9, 22]",UTEP,Conference USA,42,"[7, 0, 21, 14]"
-332710228,2013,5,regular,2013-09-28T19:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,56,"[21, 14, 14, 7]",Wake Forest,ACC,7,"[7, 0, 0, 0]"
-332712348,2013,5,regular,2013-09-28T20:00:00.000Z,1,1,0,,Louisiana Tech,Conference USA,16,"[0, 9, 7, 0]",Army,FBS Independents,35,"[14, 7, 7, 7]"
-332712636,2013,5,regular,2013-09-28T20:00:00.000Z,1,0,0,Alamodome,UTSA,Conference USA,28,"[7, 14, 7, 0]",Houston,American Athletic,59,"[7, 14, 10, 28]"
-332710070,2013,5,regular,2013-09-28T21:00:00.000Z,1,0,0,Kibbie Dome,Idaho,FBS Independents,26,"[7, 10, 3, 6]",Temple,American Athletic,24,"[3, 0, 7, 14]"
-332710333,2013,5,regular,2013-09-28T22:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,25,"[3, 6, 7, 9]",Ole Miss,SEC,0,"[0, 0, 0, 0]"
-332710008,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,33,"[7, 13, 13, 0]",Texas A&M,SEC,45,"[17, 7, 14, 7]"
-332712711,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,14,"[0, 7, 7, 0]",Kent State,Mid-American,32,"[7, 8, 7, 10]"
-332712433,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,14,"[0, 0, 7, 7]",Tulane,Conference USA,31,"[3, 7, 21, 0]"
-332710326,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,42,"[7, 7, 14, 14]",Wyoming,Mountain West,21,"[0, 14, 0, 7]"
-332710242,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,18,"[3, 3, 0, 12]",Florida Atlantic,Conference USA,14,"[7, 0, 0, 7]"
-332710096,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,7,"[7, 0, 0, 0]",Florida,SEC,24,"[7, 14, 0, 3]"
-332710264,2013,5,regular,2013-09-28T23:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,31,"[8, 3, 14, 6]",Arizona,Pac-12,13,"[0, 6, 7, 0]"
-332710238,2013,5,regular,2013-09-28T23:30:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,52,"[7, 17, 7, 21]",UAB,Conference USA,24,"[3, 3, 3, 15]"
-332710142,2013,5,regular,2013-09-28T23:30:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,41,"[7, 7, 6, 21]",Arkansas State,Sun Belt,19,"[6, 7, 3, 3]"
-332710166,2013,5,regular,2013-09-29T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,16,"[10, 6, 0, 0]",San Diego State,Mountain West,26,"[0, 5, 6, 15]"
-332710167,2013,5,regular,2013-09-29T00:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,42,"[21, 14, 7, 0]",UNLV,Mountain West,56,"[14, 21, 7, 14]"
-332712440,2013,5,regular,2013-09-29T00:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,45,"[7, 10, 7, 21]",Air Force,Mountain West,42,"[7, 14, 14, 7]"
-332710194,2013,5,regular,2013-09-29T00:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,31,"[14, 10, 7, 0]",Wisconsin,Big Ten,24,"[7, 7, 0, 10]"
-332710265,2013,5,regular,2013-09-29T02:00:00.000Z,1,0,1,,Washington State,Pac-12,17,"[3, 0, 0, 14]",Stanford,Pac-12,55,"[10, 7, 21, 17]"
-332710068,2013,5,regular,2013-09-29T02:15:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,60,"[7, 23, 17, 13]",Southern Miss,Conference USA,7,"[0, 7, 0, 0]"
-332712483,2013,5,regular,2013-09-29T02:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,55,"[27, 14, 14, 0]",California,Pac-12,16,"[0, 3, 7, 6]"
-332710009,2013,5,regular,2013-09-29T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,62,"[7, 13, 28, 14]",USC,Pac-12,41,"[7, 7, 7, 20]"
-332710062,2013,5,regular,2013-09-29T04:00:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,37,"[0, 3, 14, 20]",Fresno State,Mountain West,42,"[14, 7, 21, 0]"
-332760066,2013,6,regular,2013-10-03T23:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,30,"[0, 13, 7, 10]",Texas,Big 12,31,"[10, 7, 7, 7]"
-332762433,2013,6,regular,2013-10-03T23:30:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,10,"[7, 3, 0, 0]",Western Kentucky,Sun Belt,31,"[14, 0, 10, 7]"
-332760254,2013,6,regular,2013-10-04T02:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,27,"[14, 3, 0, 10]",UCLA,Pac-12,34,"[7, 14, 3, 10]"
-332770328,2013,6,regular,2013-10-05T00:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,14,"[7, 0, 0, 7]",BYU,FBS Independents,31,"[10, 7, 14, 0]"
-332770021,2013,6,regular,2013-10-05T01:00:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,51,"[7, 16, 21, 0, 7]",Nevada,Mountain West,44,"[7, 10, 6, 21, 0]"
-332782426,2013,6,regular,2013-10-05T15:30:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,FBS Independents,28,"[0, 7, 7, 14]",Air Force,Mountain West,10,"[3, 7, 0, 0]"
-332780258,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,27,"[10, 7, 7, 3]",Ball State,Mid-American,48,"[7, 10, 14, 17]"
-332782084,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,42,"[14, 14, 14, 0]",Eastern Michigan,Mid-American,14,"[0, 7, 0, 7]"
-332782567,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,52,"[0, 7, 7, 21, 7, 7, 3]",Rutgers,American Athletic,55,"[14, 7, 14, 0, 7, 7, 6]"
-332782294,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,14,"[0, 14, 0, 0]",Michigan State,Big Ten,26,"[0, 10, 10, 6]"
-332780218,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,7,"[0, 0, 0, 7]",Louisville,American Athletic,30,"[10, 14, 3, 3]"
-332780052,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,63,"[7, 14, 21, 21]",Maryland,ACC,0,"[0, 0, 0, 0]"
-332782305,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,16,"[10, 0, 0, 6]",Texas Tech,Big 12,54,"[0, 20, 17, 17]"
-332780084,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,44,"[7, 6, 8, 23]",Penn State,Big Ten,24,"[0, 7, 10, 7]"
-332780158,2013,6,regular,2013-10-05T16:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,39,"[14, 9, 13, 3]",Illinois,Big Ten,19,"[0, 5, 7, 7]"
-332780333,2013,6,regular,2013-10-05T16:21:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,45,"[21, 17, 7, 0]",Georgia State,Sun Belt,3,"[0, 0, 3, 0]"
-332780259,2013,6,regular,2013-10-05T16:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,27,"[7, 14, 0, 6]",North Carolina,ACC,17,"[0, 7, 3, 7]"
-332780103,2013,6,regular,2013-10-05T17:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,48,"[14, 17, 7, 10]",Army,FBS Independents,27,"[10, 10, 7, 0]"
-332782653,2013,6,regular,2013-10-05T17:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,34,"[7, 10, 7, 10]",South Alabama,Sun Belt,33,"[7, 0, 6, 20]"
-332780193,2013,6,regular,2013-10-05T17:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,9,"[3, 0, 6, 0]",Central Michigan,Mid-American,21,"[0, 7, 7, 7]"
-332782006,2013,6,regular,2013-10-05T18:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,3,"[3, 0, 0, 0]",Ohio,Mid-American,43,"[9, 21, 3, 10]"
-332780276,2013,6,regular,2013-10-05T18:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,34,"[17, 7, 0, 10]",UTSA,Conference USA,10,"[0, 3, 0, 7]"
-332782649,2013,6,regular,2013-10-05T19:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,47,"[13, 10, 24, 0]",Western Michigan,Mid-American,20,"[0, 7, 0, 13]"
-332780005,2013,6,regular,2013-10-05T19:00:00.000Z,1,0,1,Legion Field,UAB,Conference USA,23,"[10, 3, 10, 0]",Florida Atlantic,Conference USA,37,"[3, 20, 6, 8]"
-332782309,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,24,"[7, 10, 7, 0]",Northern Illinois,Mid-American,38,"[7, 14, 7, 10]"
-332782393,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,17,"[10, 0, 7, 0]",East Carolina,Conference USA,24,"[7, 7, 3, 7]"
-332780183,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,14,"[0, 7, 7, 0]",Clemson,ACC,49,"[21, 14, 7, 7]"
-332780154,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,28,"[7, 7, 7, 7]",NC State,ACC,13,"[0, 10, 3, 0]"
-332780189,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,28,"[0, 14, 14, 0]",Massachusetts,Mid-American,7,"[0, 0, 0, 7]"
-332780202,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,Conference USA,27,"[10, 0, 3, 11, 3]",Rice,Conference USA,30,"[14, 10, 0, 0, 6]"
-332780197,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,33,"[7, 10, 6, 10]",Kansas State,Big 12,29,"[7, 7, 7, 8]"
-332782655,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Caesars Superdome,Tulane,Conference USA,24,"[0, 7, 14, 3]",North Texas,Conference USA,21,"[0, 0, 7, 14]"
-332780130,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,42,"[7, 7, 14, 14]",Minnesota,Big Ten,13,"[7, 0, 3, 3]"
-332782390,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,45,"[7, 10, 7, 21]",Georgia Tech,ACC,30,"[17, 0, 0, 13]"
-332782633,2013,6,regular,2013-10-05T19:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,31,"[0, 3, 14, 14, 0]",Georgia,SEC,34,"[10, 7, 0, 14, 3]"
-332780025,2013,6,regular,2013-10-05T20:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,22,"[0, 15, 7, 0]",Washington State,Pac-12,44,"[14, 7, 14, 9]"
-332782572,2013,6,regular,2013-10-05T20:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,23,"[7, 9, 7, 0]",Florida International,Conference USA,24,"[0, 21, 0, 3]"
-332780235,2013,6,regular,2013-10-05T20:30:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,17,"[7, 0, 3, 7]",UCF,American Athletic,24,"[3, 0, 7, 14]"
-332780070,2013,6,regular,2013-10-05T21:00:00.000Z,1,0,0,Kibbie Dome,Idaho,FBS Independents,14,"[0, 0, 0, 14]",Fresno State,Mountain West,61,"[28, 19, 7, 7]"
-332780038,2013,6,regular,2013-10-05T22:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,16,"[10, 6, 0, 0]",Oregon,Pac-12,57,"[29, 14, 14, 0]"
-332780058,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,26,"[10, 13, 3, 0]",Cincinnati,American Athletic,20,"[0, 6, 0, 14]"
-332780002,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,30,"[13, 7, 7, 3]",Ole Miss,SEC,22,"[3, 3, 10, 6]"
-332780057,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,30,"[0, 17, 7, 6]",Arkansas,SEC,10,"[7, 0, 3, 0]"
-332780201,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,20,"[3, 10, 0, 7]",TCU,Big 12,17,"[0, 0, 10, 7]"
-332780344,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,26,"[9, 14, 3, 0]",LSU,SEC,59,"[14, 14, 3, 28]"
-332780167,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,66,"[21, 21, 10, 14]",New Mexico State,FBS Independents,17,"[0, 14, 3, 0]"
-332780309,2013,6,regular,2013-10-05T23:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,48,"[14, 14, 17, 3]",Texas State,Sun Belt,24,"[0, 3, 7, 14]"
-332782579,2013,6,regular,2013-10-05T23:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,35,"[14, 10, 3, 8]",Kentucky,SEC,28,"[0, 7, 0, 21]"
-332782638,2013,6,regular,2013-10-05T23:30:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,35,"[7, 7, 14, 7]",Louisiana Tech,Conference USA,38,"[14, 10, 7, 7]"
-332780087,2013,6,regular,2013-10-05T23:30:00.000Z,1,1,0,,Notre Dame,FBS Independents,37,"[0, 14, 10, 13]",Arizona State,Pac-12,34,"[0, 13, 0, 21]"
-332780238,2013,6,regular,2013-10-05T23:30:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,28,"[0, 7, 14, 7]",Missouri,SEC,51,"[20, 10, 14, 7]"
-332780077,2013,6,regular,2013-10-06T00:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,30,"[7, 13, 3, 7]",Ohio State,Big Ten,40,"[10, 3, 7, 20]"
-332780239,2013,6,regular,2013-10-06T00:00:00.000Z,1,0,1,Floyd Casey Stadium,Baylor,Big 12,73,"[28, 28, 10, 7]",West Virginia,Big 12,42,"[7, 7, 7, 21]"
-332780024,2013,6,regular,2013-10-06T02:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,31,"[7, 10, 14, 0]",Washington,Pac-12,28,"[0, 7, 14, 7]"
-332780062,2013,6,regular,2013-10-06T04:00:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,27,"[14, 0, 7, 6]",San José State,Mountain West,37,"[10, 17, 7, 3]"
-332830097,2013,7,regular,2013-10-10T23:30:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,American Athletic,24,"[3, 14, 0, 7]",Rutgers,American Athletic,10,"[0, 7, 0, 3]"
-332832005,2013,7,regular,2013-10-11T01:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,20,"[0, 10, 10, 0]",San Diego State,Mountain West,27,"[6, 0, 0, 21]"
-332830030,2013,7,regular,2013-10-11T02:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,38,"[14, 14, 3, 7]",Arizona,Pac-12,31,"[0, 10, 7, 14]"
-332842132,2013,7,regular,2013-10-12T00:30:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,38,"[7, 21, 10, 0]",Temple,American Athletic,20,"[13, 7, 0, 0]"
-332850251,2013,7,regular,2013-10-12T16:00:00.000Z,1,1,1,,Texas,Big 12,36,"[10, 13, 13, 0]",Oklahoma,Big 12,20,"[3, 7, 3, 7]"
-332850248,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,,Houston,American Athletic,25,"[7, 3, 8, 7]",Memphis,American Athletic,15,"[3, 6, 6, 0]"
-332852628,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,27,"[7, 3, 14, 3]",Kansas,Big 12,17,"[3, 7, 7, 0]"
-332852509,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,7,"[0, 0, 0, 7]",Nebraska,Big Ten,44,"[14, 7, 9, 14]"
-332850061,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,26,"[7, 3, 10, 6]",Missouri,SEC,41,"[7, 21, 0, 13]"
-332850349,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,50,"[15, 7, 21, 7]",Eastern Michigan,Mid-American,25,"[15, 3, 0, 7]"
-332852641,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,42,"[14, 7, 7, 14]",Iowa State,Big 12,35,"[7, 14, 0, 14]"
-332850259,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,19,"[10, 0, 6, 3]",Pittsburgh,ACC,9,"[0, 3, 0, 6]"
-332850041,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,10,"[3, 7, 0, 0]",South Florida,American Athletic,13,"[7, 3, 0, 3]"
-332850127,2013,7,regular,2013-10-12T16:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,42,"[0, 21, 14, 7]",Indiana,Big Ten,28,"[7, 7, 7, 7]"
-332850008,2013,7,regular,2013-10-12T16:21:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,7,"[7, 0, 0, 0]",South Carolina,SEC,52,"[10, 14, 14, 14]"
-332850150,2013,7,regular,2013-10-12T16:30:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,35,"[0, 14, 14, 7]",Navy,FBS Independents,7,"[0, 7, 0, 0]"
-332850195,2013,7,regular,2013-10-12T18:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,23,"[3, 0, 7, 13]",Central Michigan,Mid-American,26,"[7, 3, 3, 13]"
-332852711,2013,7,regular,2013-10-12T18:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,0,"[0, 0, 0, 0]",Buffalo,Mid-American,33,"[6, 0, 17, 10]"
-332850002,2013,7,regular,2013-10-12T18:00:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,62,"[21, 21, 14, 6]",Western Carolina,Southern,3,"[3, 0, 0, 0]"
-332850113,2013,7,regular,2013-10-12T19:00:00.000Z,1,0,1,Gillette Stadium,Massachusetts,Mid-American,17,"[7, 0, 7, 3]",Miami (OH),Mid-American,10,"[0, 7, 3, 0]"
-332852050,2013,7,regular,2013-10-12T19:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,27,"[0, 7, 13, 7]",Kent State,Mid-American,24,"[7, 0, 7, 10]"
-332850099,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,17,"[0, 14, 0, 3]",Florida,SEC,6,"[3, 0, 0, 3]"
-332850228,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,24,"[0, 3, 7, 14]",Boston College,ACC,14,"[0, 7, 7, 0]"
-332850152,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,10,"[0, 7, 0, 3]",Syracuse,ACC,24,"[0, 7, 3, 14]"
-332852751,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,38,"[14, 7, 3, 14]",New Mexico,Mountain West,31,"[0, 3, 14, 14]"
-332852247,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,28,"[7, 0, 14, 7]",Troy,Sun Belt,35,"[7, 7, 7, 14]"
-332850275,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,35,"[7, 14, 7, 7]",Northwestern,Big Ten,6,"[3, 3, 0, 0]"
-332852306,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,25,"[0, 10, 15, 0]",Baylor,Big 12,35,"[7, 14, 0, 14]"
-332850120,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,ACC,27,"[7, 7, 6, 7]",Virginia,ACC,26,"[6, 10, 0, 10]"
-332850036,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,27,"[7, 17, 0, 3]",San José State,Mountain West,34,"[3, 14, 7, 10]"
-332852655,2013,7,regular,2013-10-12T19:30:00.000Z,1,0,1,Caesars Superdome,Tulane,Conference USA,36,"[3, 3, 10, 3, 7, 7, 3]",East Carolina,Conference USA,33,"[3, 3, 0, 13, 7, 7, 0]"
-332850264,2013,7,regular,2013-10-12T20:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,24,"[7, 0, 17, 0]",Oregon,Pac-12,45,"[7, 14, 10, 14]"
-332852636,2013,7,regular,2013-10-12T20:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,21,"[0, 7, 0, 14]",Rice,Conference USA,27,"[3, 17, 7, 0]"
-332850213,2013,7,regular,2013-10-12T21:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,43,"[7, 14, 3, 10, 0, 3, 0, 6]",Michigan,Big Ten,40,"[10, 0, 17, 7, 0, 3, 0, 3]"
-332852226,2013,7,regular,2013-10-12T21:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,23,"[0, 3, 13, 7]",Marshall,Conference USA,24,"[0, 7, 7, 10]"
-332852459,2013,7,regular,2013-10-12T21:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,27,"[17, 0, 7, 3]",Akron,Mid-American,20,"[14, 0, 0, 6]"
-332850254,2013,7,regular,2013-10-12T22:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,27,"[14, 7, 3, 3]",Stanford,Pac-12,21,"[14, 0, 0, 7]"
-332850326,2013,7,regular,2013-10-12T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,14,"[0, 0, 6, 8]",UL Monroe,Sun Belt,21,"[7, 0, 7, 7]"
-332850249,2013,7,regular,2013-10-12T23:00:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,34,"[7, 17, 0, 10]",Middle Tennessee,Conference USA,7,"[0, 7, 0, 0]"
-332850252,2013,7,regular,2013-10-12T23:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,38,"[14, 10, 0, 14]",Georgia Tech,ACC,20,"[7, 6, 0, 7]"
-332852032,2013,7,regular,2013-10-12T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,48,"[14, 10, 7, 17]",Idaho,FBS Independents,24,"[7, 0, 10, 7]"
-332850096,2013,7,regular,2013-10-12T23:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,7,"[0, 0, 7, 0]",Alabama,SEC,48,"[0, 24, 10, 14]"
-332852229,2013,7,regular,2013-10-12T23:30:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,24,"[7, 10, 0, 7]",UAB,Conference USA,27,"[7, 14, 3, 3]"
-332850344,2013,7,regular,2013-10-12T23:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,21,"[14, 7, 0, 0]",Bowling Green,Mid-American,20,"[3, 10, 7, 0]"
-332852638,2013,7,regular,2013-10-13T00:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,20,"[3, 3, 14, 0]",Tulsa,Conference USA,34,"[14, 7, 6, 7]"
-332850328,2013,7,regular,2013-10-13T00:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,23,"[0, 10, 0, 13]",Boise State,Mountain West,34,"[10, 14, 10, 0]"
-332852439,2013,7,regular,2013-10-13T00:00:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,39,"[0, 13, 17, 9]",Hawai'i,Mountain West,37,"[0, 17, 0, 20]"
-332850145,2013,7,regular,2013-10-13T00:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,38,"[7, 3, 7, 21]",Texas A&M,SEC,41,"[14, 0, 7, 20]"
-332850009,2013,7,regular,2013-10-13T02:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,54,"[25, 22, 7, 0]",Colorado,Pac-12,13,"[0, 6, 0, 7]"
-332850026,2013,7,regular,2013-10-13T02:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,37,"[10, 14, 6, 7]",California,Pac-12,10,"[0, 10, 0, 0]"
-332850265,2013,7,regular,2013-10-13T02:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,24,"[3, 7, 14, 0]",Oregon State,Pac-12,52,"[3, 14, 7, 28]"
-332880098,2013,8,regular,2013-10-16T00:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Sun Belt,20,"[10, 3, 0, 7]",Louisiana,Sun Belt,37,"[0, 13, 10, 14]"
-332900153,2013,8,regular,2013-10-17T23:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,23,"[7, 10, 3, 3]",Miami,ACC,27,"[6, 7, 0, 14]"
-332910097,2013,8,regular,2013-10-19T00:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,American Athletic,35,"[7, 7, 14, 7]",UCF,American Athletic,38,"[0, 7, 21, 10]"
-332920238,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,31,"[7, 7, 0, 17]",Georgia,SEC,27,"[10, 14, 3, 0]"
-332922633,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,23,"[3, 14, 0, 6]",South Carolina,SEC,21,"[0, 7, 14, 0]"
-332922649,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,45,"[3, 7, 14, 7, 7, 7]",Navy,FBS Independents,44,"[7, 7, 7, 10, 7, 6]"
-332922132,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,41,"[7, 20, 7, 7]",UConn,American Athletic,16,"[3, 0, 7, 6]"
-332920235,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,29,"[3, 0, 7, 19]",SMU,American Athletic,34,"[7, 24, 3, 0]"
-332920151,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,Conference USA,55,"[14, 17, 24, 0]",Southern Miss,Conference USA,14,"[0, 0, 0, 14]"
-332920127,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,14,"[0, 7, 0, 7]",Purdue,Big Ten,0,"[0, 0, 0, 0]"
-332920077,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,17,"[7, 0, 0, 10]",Minnesota,Big Ten,20,"[0, 7, 7, 6]"
-332920197,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,24,"[7, 10, 0, 7]",TCU,Big 12,10,"[0, 0, 3, 7]"
-332920277,2013,8,regular,2013-10-19T16:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,27,"[0, 13, 14, 0]",Texas Tech,Big 12,37,"[10, 3, 10, 14]"
-332920142,2013,8,regular,2013-10-19T16:21:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,36,"[10, 3, 10, 13]",Florida,SEC,17,"[3, 0, 14, 0]"
-332920059,2013,8,regular,2013-10-19T16:30:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,56,"[14, 14, 21, 7]",Syracuse,ACC,0,"[0, 0, 0, 0]"
-332920218,2013,8,regular,2013-10-19T17:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,33,"[14, 12, 7, 0]",Army,FBS Independents,14,"[0, 0, 7, 7]"
-332920193,2013,8,regular,2013-10-19T17:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,17,"[7, 0, 0, 10]",Akron,Mid-American,24,"[7, 0, 14, 3]"
-332922199,2013,8,regular,2013-10-19T17:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,28,"[7, 7, 7, 7]",Ohio,Mid-American,56,"[21, 0, 21, 14]"
-332922751,2013,8,regular,2013-10-19T18:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,22,"[0, 7, 8, 7]",Colorado State,Mountain West,52,"[14, 10, 14, 14]"
-332922711,2013,8,regular,2013-10-19T18:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,17,"[3, 0, 0, 14]",Ball State,Mid-American,38,"[3, 14, 7, 14]"
-332920038,2013,8,regular,2013-10-19T18:00:00.000Z,1,0,0,Folsom Field,Colorado,Pac-12,43,"[8, 14, 7, 14]",Charleston Southern,Big South,10,"[0, 10, 0, 0]"
-332920006,2013,8,regular,2013-10-19T19:00:00.000Z,1,0,0,Ladd Peebles Stadium,South Alabama,Sun Belt,38,"[7, 10, 7, 14]",Kent State,Mid-American,21,"[0, 7, 0, 14]"
-332922117,2013,8,regular,2013-10-19T19:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,17,"[14, 0, 0, 3]",Northern Illinois,Mid-American,38,"[7, 7, 10, 14]"
-332920154,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,34,"[10, 14, 7, 3]",Maryland,ACC,10,"[0, 3, 7, 0]"
-332922305,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,19,"[7, 6, 0, 6]",Oklahoma,Big 12,34,"[0, 18, 7, 9]"
-332920245,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,41,"[14, 10, 7, 10]",Auburn,SEC,45,"[10, 7, 7, 21]"
-332920024,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,24,"[3, 0, 14, 7]",UCLA,Pac-12,10,"[0, 0, 3, 7]"
-332920194,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,34,"[3, 7, 14, 10]",Iowa,Big Ten,24,"[10, 7, 7, 0]"
-332920130,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,63,"[14, 14, 14, 21]",Indiana,Big Ten,47,"[7, 10, 23, 7]"
-332922348,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,13,"[7, 3, 0, 3]",North Texas,Conference USA,28,"[0, 14, 14, 0]"
-332922084,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,32,"[0, 13, 5, 14]",Massachusetts,Mid-American,3,"[0, 3, 0, 0]"
-332920258,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,22,"[14, 8, 0, 0]",Duke,ACC,35,"[0, 7, 10, 18]"
-332920248,2013,8,regular,2013-10-19T19:30:00.000Z,1,0,0,,Houston,American Athletic,46,"[21, 17, 2, 6]",BYU,FBS Independents,47,"[24, 10, 0, 13]"
-332920009,2013,8,regular,2013-10-19T22:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,53,"[3, 26, 10, 14]",Washington,Pac-12,24,"[7, 0, 10, 7]"
-332920239,2013,8,regular,2013-10-19T23:00:00.000Z,1,0,1,Floyd Casey Stadium,Baylor,Big 12,71,"[17, 20, 14, 20]",Iowa State,Big 12,7,"[0, 0, 0, 7]"
-332920326,2013,8,regular,2013-10-19T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,24,"[7, 3, 0, 14]",Georgia State,Sun Belt,17,"[7, 0, 0, 10]"
-332920221,2013,8,regular,2013-10-19T23:00:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,35,"[0, 21, 7, 7]",Old Dominion,,24,"[10, 0, 14, 0]"
-332920145,2013,8,regular,2013-10-19T23:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,27,"[3, 7, 14, 3]",LSU,SEC,24,"[0, 0, 14, 10]"
-332920333,2013,8,regular,2013-10-19T23:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,52,"[14, 14, 17, 7]",Arkansas,SEC,0,"[0, 0, 0, 0]"
-332920087,2013,8,regular,2013-10-19T23:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,14,"[7, 7, 0, 0]",USC,Pac-12,10,"[7, 3, 0, 0]"
-332920068,2013,8,regular,2013-10-20T00:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,34,"[0, 7, 20, 7]",Nevada,Mountain West,17,"[3, 14, 0, 0]"
-332920166,2013,8,regular,2013-10-20T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,19,"[3, 9, 7, 0]",Rice,Conference USA,45,"[21, 7, 7, 10]"
-332920356,2013,8,regular,2013-10-20T00:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,32,"[0, 17, 0, 15]",Wisconsin,Big Ten,56,"[21, 7, 14, 14]"
-332920228,2013,8,regular,2013-10-20T00:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,14,"[7, 0, 0, 7]",Florida State,ACC,51,"[17, 10, 14, 10]"
-332920167,2013,8,regular,2013-10-20T01:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,10,"[0, 3, 0, 7]",Utah State,Mountain West,45,"[17, 14, 7, 7]"
-332920278,2013,8,regular,2013-10-20T02:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,38,"[14, 14, 10, 0]",UNLV,Mountain West,14,"[0, 14, 0, 0]"
-332922483,2013,8,regular,2013-10-20T02:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,62,"[20, 14, 14, 14]",Washington State,Pac-12,38,"[7, 17, 0, 14]"
-332920012,2013,8,regular,2013-10-20T02:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,35,"[7, 13, 0, 15]",Utah,Pac-12,24,"[7, 0, 14, 3]"
-332920025,2013,8,regular,2013-10-20T02:30:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,17,"[3, 0, 7, 7]",Oregon State,Pac-12,49,"[14, 14, 14, 7]"
-332952032,2013,9,regular,2013-10-23T00:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,7,"[0, 7, 0, 0]",Louisiana,Sun Belt,23,"[10, 10, 3, 0]"
-332972393,2013,9,regular,2013-10-24T23:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,51,"[14, 7, 17, 13]",Marshall,Conference USA,49,"[7, 14, 14, 14]"
-332970344,2013,9,regular,2013-10-24T23:30:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,28,"[14, 7, 7, 0]",Kentucky,SEC,22,"[7, 3, 9, 3]"
-332980252,2013,9,regular,2013-10-26T00:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,37,"[7, 17, 10, 3]",Boise State,Mountain West,20,"[0, 3, 10, 7]"
-332992390,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,24,"[0, 10, 0, 14]",Wake Forest,ACC,21,"[7, 7, 0, 7]"
-332990066,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,27,"[7, 13, 0, 7]",Oklahoma State,Big 12,58,"[21, 7, 17, 13]"
-332990058,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,3,"[3, 0, 0, 0]",Louisville,American Athletic,34,"[7, 10, 3, 14]"
-332992116,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,62,"[21, 24, 10, 7]",UConn,American Athletic,17,"[3, 7, 0, 7]"
-332990135,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,34,"[7, 10, 10, 7]",Nebraska,Big Ten,23,"[10, 3, 7, 3]"
-332990164,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,American Athletic,14,"[7, 7, 0, 0]",Houston,American Athletic,49,"[7, 21, 14, 7]"
-332992006,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,24,"[3, 7, 7, 7]",Ball State,Mid-American,42,"[14, 14, 7, 7]"
-332992294,2013,9,regular,2013-10-26T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,17,"[7, 3, 0, 0, 7]",Northwestern,Big Ten,10,"[0, 0, 7, 3, 0]"
-332990245,2013,9,regular,2013-10-26T16:21:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,56,"[21, 7, 21, 7]",Vanderbilt,SEC,24,"[0, 17, 0, 7]"
-332990258,2013,9,regular,2013-10-26T16:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,25,"[0, 10, 0, 15]",Georgia Tech,ACC,35,"[7, 7, 7, 14]"
-332992426,2013,9,regular,2013-10-26T17:00:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,FBS Independents,24,"[0, 7, 0, 17]",Pittsburgh,ACC,21,"[3, 10, 0, 8]"
-332990195,2013,9,regular,2013-10-26T18:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,41,"[14, 10, 3, 14]",Miami (OH),Mid-American,16,"[3, 7, 0, 6]"
-332990189,2013,9,regular,2013-10-26T18:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,25,"[0, 7, 3, 15]",Toledo,Mid-American,28,"[7, 14, 0, 7]"
-332992567,2013,9,regular,2013-10-26T19:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,59,"[7, 7, 21, 24]",Temple,American Athletic,49,"[14, 14, 7, 14]"
-332990113,2013,9,regular,2013-10-26T19:00:00.000Z,1,0,1,Gillette Stadium,Massachusetts,Mid-American,30,"[7, 14, 3, 6]",Western Michigan,Mid-American,31,"[3, 14, 7, 7]"
-332990120,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,ACC,27,"[7, 0, 6, 14]",Clemson,ACC,40,"[6, 10, 3, 21]"
-332992655,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Caesars Superdome,Tulane,Conference USA,14,"[0, 7, 7, 0]",Tulsa,Conference USA,7,"[0, 7, 0, 0]"
-332992309,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,21,"[0, 7, 7, 7]",Buffalo,Mid-American,41,"[6, 14, 14, 7]"
-332990356,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,3,"[3, 0, 0, 0]",Michigan State,Big Ten,42,"[0, 14, 14, 14]"
-332990242,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,45,"[3, 21, 7, 14]",UTEP,Conference USA,7,"[0, 7, 0, 0]"
-332990153,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,34,"[6, 14, 7, 7]",Boston College,ACC,10,"[7, 0, 0, 3]"
-332992459,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,59,"[21, 17, 14, 7]",Eastern Michigan,Mid-American,20,"[3, 0, 10, 7]"
-332990259,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,10,"[0, 0, 7, 3]",Duke,ACC,13,"[0, 6, 7, 0]"
-332990052,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,49,"[35, 7, 0, 7]",NC State,ACC,17,"[0, 0, 10, 7]"
-332990333,2013,9,regular,2013-10-26T19:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,45,"[21, 14, 7, 3]",Tennessee,SEC,10,"[0, 0, 3, 7]"
-332992306,2013,9,regular,2013-10-26T19:45:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,35,"[7, 0, 7, 21]",West Virginia,Big 12,12,"[0, 9, 3, 0]"
-332990098,2013,9,regular,2013-10-26T20:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Sun Belt,26,"[3, 17, 6, 0]",Troy,Sun Belt,32,"[10, 0, 14, 8]"
-332990030,2013,9,regular,2013-10-26T20:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,19,"[7, 9, 3, 0]",Utah,Pac-12,3,"[3, 0, 0, 0]"
-332990201,2013,9,regular,2013-10-26T20:45:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,38,"[0, 14, 14, 10]",Texas Tech,Big 12,30,"[7, 0, 17, 6]"
-332992636,2013,9,regular,2013-10-26T21:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,52,"[24, 14, 7, 7]",UAB,Conference USA,31,"[0, 10, 7, 14]"
-332992005,2013,9,regular,2013-10-26T21:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,10,"[7, 3, 0, 0]",Notre Dame,FBS Independents,45,"[7, 17, 14, 7]"
-332992229,2013,9,regular,2013-10-26T22:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,7,"[0, 0, 7, 0]",Louisiana Tech,Conference USA,23,"[6, 3, 3, 11]"
-332992440,2013,9,regular,2013-10-26T22:05:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,22,"[3, 13, 0, 6]",UNLV,Mountain West,27,"[0, 14, 0, 13]"
-332992483,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,42,"[7, 7, 7, 21]",UCLA,Pac-12,14,"[7, 7, 0, 0]"
-332990099,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,48,"[13, 7, 14, 14]",Furman,Southern,16,"[10, 6, 0, 0]"
-332992433,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,38,"[14, 14, 10, 0]",Georgia State,Sun Belt,10,"[0, 10, 0, 0]"
-332990326,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,33,"[7, 7, 3, 16]",South Alabama,Sun Belt,31,"[0, 3, 7, 21]"
-332992305,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,14,"[0, 0, 7, 7]",Baylor,Big 12,59,"[21, 17, 14, 7]"
-332990023,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,51,"[0, 14, 22, 15]",Wyoming,Mountain West,44,"[16, 7, 7, 14]"
-332992572,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,14,"[0, 7, 7, 0]",North Texas,Conference USA,55,"[13, 28, 7, 7]"
-332990142,2013,9,regular,2013-10-26T23:00:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,24,"[7, 7, 3, 0, 7, 0]",South Carolina,SEC,27,"[0, 0, 0, 17, 7, 3]"
-332992628,2013,9,regular,2013-10-26T23:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,7,"[7, 0, 0, 0]",Texas,Big 12,30,"[10, 10, 7, 3]"
-332990002,2013,9,regular,2013-10-26T23:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,45,"[21, 17, 7, 0]",Florida Atlantic,Conference USA,10,"[0, 7, 3, 0]"
-332990145,2013,9,regular,2013-10-26T23:30:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,59,"[17, 7, 21, 14]",Idaho,FBS Independents,14,"[0, 7, 7, 0]"
-332990194,2013,9,regular,2013-10-27T00:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,63,"[14, 28, 14, 7]",Penn State,Big Ten,14,"[0, 7, 0, 7]"
-332990166,2013,9,regular,2013-10-27T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,34,"[7, 14, 0, 13]",Abilene Christian,FCS Independents,29,"[3, 19, 0, 7]"
-332990038,2013,9,regular,2013-10-27T00:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,20,"[7, 6, 7, 0]",Arizona,Pac-12,44,"[10, 14, 10, 10]"
-332990204,2013,9,regular,2013-10-27T02:30:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,12,"[0, 3, 6, 3]",Stanford,Pac-12,20,"[0, 7, 6, 7]"
-332990021,2013,9,regular,2013-10-27T02:30:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,28,"[0, 7, 7, 14, 0]",Fresno State,Mountain West,35,"[7, 0, 7, 14, 7]"
-332990264,2013,9,regular,2013-10-27T03:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,41,"[17, 7, 14, 3]",California,Pac-12,17,"[0, 7, 0, 10]"
-332990062,2013,9,regular,2013-10-27T04:00:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,28,"[7, 10, 0, 11]",Colorado State,Mountain West,35,"[14, 21, 0, 0]"
-333030235,2013,10,regular,2013-10-31T00:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,21,"[7, 0, 7, 7]",Cincinnati,American Athletic,34,"[0, 14, 7, 13]"
-333040248,2013,10,regular,2013-10-31T23:00:00.000Z,1,0,1,,Houston,American Athletic,35,"[14, 7, 7, 7]",South Florida,American Athletic,23,"[3, 7, 6, 7]"
-333042653,2013,10,regular,2013-10-31T23:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,37,"[0, 17, 6, 14]",UL Monroe,Sun Belt,49,"[14, 7, 21, 7]"
-333040249,2013,10,regular,2013-10-31T23:30:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,28,"[7, 14, 7, 0]",Rice,Conference USA,16,"[2, 14, 0, 0]"
-333040265,2013,10,regular,2013-11-01T02:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,21,"[0, 14, 7, 0]",Arizona State,Pac-12,55,"[21, 21, 7, 6]"
-333050204,2013,10,regular,2013-11-02T01:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,14,"[0, 14, 0, 0]",USC,Pac-12,31,"[14, 7, 10, 0]"
-333062294,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,9,"[3, 3, 3, 0]",Wisconsin,Big Ten,28,"[0, 7, 7, 14]"
-333060276,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,61,"[28, 7, 13, 13]",Southern Miss,Conference USA,13,"[0, 10, 3, 0]"
-333060103,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,34,"[7, 0, 10, 17]",Virginia Tech,ACC,27,"[0, 10, 7, 10]"
-333062005,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,42,"[7, 14, 7, 14]",Army,FBS Independents,28,"[14, 7, 0, 7]"
-333060213,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,24,"[7, 7, 0, 3, 7]",Illinois,Big Ten,17,"[0, 3, 7, 7, 0]"
-333060164,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,American Athletic,23,"[0, 3, 6, 14]",Temple,American Athletic,20,"[6, 7, 0, 7]"
-333062509,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,0,"[0, 0, 0, 0]",Ohio State,Big Ten,56,"[28, 14, 7, 7]"
-333060113,2013,10,regular,2013-11-02T16:00:00.000Z,1,0,1,Gillette Stadium,Massachusetts,Mid-American,19,"[6, 7, 6, 0]",Northern Illinois,Mid-American,63,"[21, 21, 7, 14]"
-333062579,2013,10,regular,2013-11-02T16:21:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,34,"[14, 3, 17, 0]",Mississippi State,SEC,16,"[7, 3, 0, 6]"
-333060152,2013,10,regular,2013-11-02T16:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,19,"[10, 6, 3, 0]",North Carolina,ACC,27,"[14, 7, 0, 6]"
-333060183,2013,10,regular,2013-11-02T16:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,13,"[0, 0, 13, 0]",Wake Forest,ACC,0,"[0, 0, 0, 0]"
-333060005,2013,10,regular,2013-11-02T17:00:00.000Z,1,0,1,Legion Field,UAB,Conference USA,21,"[7, 0, 3, 11]",Middle Tennessee,Conference USA,24,"[0, 0, 7, 17]"
-333062247,2013,10,regular,2013-11-02T17:00:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,28,"[7, 0, 14, 7]",Western Kentucky,Sun Belt,44,"[10, 14, 7, 13]"
-333060127,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,29,"[3, 10, 3, 13]",Michigan,Big Ten,6,"[3, 3, 0, 0]"
-333062628,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,27,"[10, 7, 0, 10, 0]",West Virginia,Big 12,30,"[3, 7, 0, 17, 3]"
-333062306,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,41,"[10, 7, 3, 21]",Iowa State,Big 12,7,"[0, 0, 0, 7]"
-333062006,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,16,"[7, 3, 0, 6]",Kent State,Mid-American,7,"[0, 7, 0, 0]"
-333060251,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,35,"[0, 14, 14, 7]",Kansas,Big 12,13,"[0, 3, 3, 7]"
-333060202,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,Conference USA,15,"[0, 0, 8, 7]",UTSA,Conference USA,34,"[14, 10, 0, 10]"
-333060158,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,27,"[7, 7, 7, 6]",Northwestern,Big Ten,24,"[14, 7, 0, 3]"
-333060084,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,39,"[10, 3, 7, 19]",Minnesota,Big Ten,42,"[7, 21, 7, 7]"
-333060057,2013,10,regular,2013-11-02T19:30:00.000Z,1,1,1,,Florida,SEC,20,"[0, 3, 9, 8]",Georgia,SEC,23,"[17, 6, 0, 0]"
-333060025,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,28,"[7, 7, 7, 7]",Arizona,Pac-12,33,"[9, 10, 14, 0]"
-333060087,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,38,"[10, 7, 7, 14]",Navy,FBS Independents,34,"[7, 13, 0, 14]"
-333060258,2013,10,regular,2013-11-02T19:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,10,"[7, 0, 3, 0]",Clemson,ACC,59,"[14, 21, 7, 17]"
-333062439,2013,10,regular,2013-11-02T20:00:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,24,"[0, 3, 14, 7]",San José State,Mountain West,34,"[14, 10, 0, 10]"
-333060328,2013,10,regular,2013-11-02T20:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,47,"[10, 13, 17, 7]",Hawai'i,Mountain West,10,"[3, 0, 7, 0]"
-333060070,2013,10,regular,2013-11-02T21:00:00.000Z,1,0,0,Kibbie Dome,Idaho,FBS Independents,21,"[7, 7, 0, 7]",Texas State,Sun Belt,37,"[7, 16, 7, 7]"
-333062226,2013,10,regular,2013-11-02T21:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,34,"[7, 0, 10, 17]",Tulane,Conference USA,17,"[7, 10, 0, 0]"
-333060309,2013,10,regular,2013-11-02T21:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,49,"[7, 7, 13, 22]",New Mexico State,FBS Independents,35,"[21, 7, 0, 7]"
-333062229,2013,10,regular,2013-11-02T22:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,13,"[3, 7, 3, 0]",East Carolina,Conference USA,34,"[14, 7, 0, 13]"
-333060008,2013,10,regular,2013-11-02T22:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,17,"[0, 3, 7, 7]",Auburn,SEC,35,"[7, 7, 14, 7]"
-333062641,2013,10,regular,2013-11-02T23:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,34,"[3, 21, 7, 3]",Oklahoma State,Big 12,52,"[21, 7, 21, 3]"
-333060142,2013,10,regular,2013-11-02T23:00:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,31,"[7, 17, 7, 0]",Tennessee,SEC,3,"[0, 3, 0, 0]"
-333060059,2013,10,regular,2013-11-02T23:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,21,"[7, 7, 0, 7]",Pittsburgh,ACC,10,"[0, 3, 7, 0]"
-333062649,2013,10,regular,2013-11-02T23:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,55,"[21, 17, 10, 7]",Eastern Michigan,Mid-American,16,"[0, 10, 0, 6]"
-333060006,2013,10,regular,2013-11-02T23:30:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,16,"[0, 6, 7, 3]",Arkansas State,Sun Belt,17,"[0, 0, 7, 10]"
-333060026,2013,10,regular,2013-11-02T23:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,45,"[7, 14, 14, 10]",Colorado,Pac-12,23,"[3, 10, 0, 10]"
-333060096,2013,10,regular,2013-11-02T23:30:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,48,"[14, 17, 17, 0]",Alabama State,SWAC,14,"[7, 0, 7, 0]"
-333060021,2013,10,regular,2013-11-03T00:00:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,35,"[14, 0, 7, 14]",New Mexico,Mountain West,30,"[7, 0, 10, 13]"
-333060036,2013,10,regular,2013-11-03T00:00:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,30,"[10, 7, 0, 13]",Boise State,Mountain West,42,"[7, 21, 7, 7]"
-333060052,2013,10,regular,2013-11-03T00:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,41,"[7, 14, 14, 6]",Miami,ACC,14,"[7, 7, 0, 0]"
-333060245,2013,10,regular,2013-11-03T01:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,57,"[9, 27, 21, 0]",UTEP,Conference USA,7,"[7, 0, 0, 0]"
-333060278,2013,10,regular,2013-11-03T02:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,41,"[14, 10, 0, 17]",Nevada,Mountain West,23,"[7, 0, 9, 7]"
-333092084,2013,11,regular,2013-11-06T01:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,30,"[0, 7, 16, 7]",Ohio,Mid-American,3,"[0, 3, 0, 0]"
-333090193,2013,11,regular,2013-11-06T01:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,3,"[3, 0, 0, 0]",Bowling Green,Mid-American,45,"[7, 17, 21, 0]"
-333102050,2013,11,regular,2013-11-07T01:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,44,"[14, 17, 10, 3]",Central Michigan,Mid-American,24,"[0, 3, 7, 14]"
-333110239,2013,11,regular,2013-11-08T00:30:00.000Z,1,0,1,Floyd Casey Stadium,Baylor,Big 12,41,"[3, 21, 10, 7]",Oklahoma,Big 12,12,"[0, 5, 7, 0]"
-333110309,2013,11,regular,2013-11-08T00:30:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,41,"[21, 14, 0, 6]",Troy,Sun Belt,36,"[6, 20, 3, 7]"
-333110024,2013,11,regular,2013-11-08T02:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,26,"[7, 10, 6, 3]",Oregon,Pac-12,20,"[0, 0, 0, 20]"
-333120041,2013,11,regular,2013-11-09T01:30:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,10,"[0, 3, 0, 7]",Louisville,American Athletic,31,"[7, 14, 7, 3]"
-333120167,2013,11,regular,2013-11-09T02:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,45,"[14, 7, 14, 10]",Air Force,Mountain West,37,"[0, 14, 14, 9]"
-333130135,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,24,"[10, 14, 0, 0]",Penn State,Big Ten,10,"[7, 3, 0, 0]"
-333130276,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,56,"[21, 14, 14, 7]",UAB,Conference USA,14,"[7, 7, 0, 0]"
-333132132,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,28,"[0, 14, 14, 0]",SMU,American Athletic,25,"[7, 3, 0, 15]"
-333130349,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,17,"[0, 3, 7, 7]",Western Kentucky,Sun Belt,21,"[0, 0, 7, 14]"
-333132509,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,14,"[0, 7, 0, 7]",Iowa,Big Ten,38,"[0, 14, 7, 17]"
-333130154,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,3,"[0, 0, 0, 3]",Florida State,ACC,59,"[21, 21, 10, 7]"
-333130096,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,17,"[3, 0, 14, 0]",Missouri,SEC,48,"[7, 21, 7, 13]"
-333132633,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,23,"[6, 14, 3, 0]",Auburn,SEC,55,"[6, 28, 14, 7]"
-333132641,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,26,"[10, 0, 9, 7]",Kansas State,Big 12,49,"[14, 21, 0, 14]"
-333130057,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,17,"[0, 3, 7, 7]",Vanderbilt,SEC,34,"[10, 7, 7, 10]"
-333130066,2013,11,regular,2013-11-09T17:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,17,"[0, 7, 10, 0]",TCU,Big 12,21,"[7, 7, 0, 7]"
-333130145,2013,11,regular,2013-11-09T17:21:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,34,"[10, 10, 14, 0]",Arkansas,SEC,24,"[3, 7, 7, 7]"
-333130061,2013,11,regular,2013-11-09T17:30:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,45,"[7, 7, 17, 14]",App State,Southern,6,"[6, 0, 0, 0]"
-333130153,2013,11,regular,2013-11-09T17:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,45,"[14, 7, 14, 10]",Virginia,ACC,14,"[0, 0, 7, 7]"
-333132199,2013,11,regular,2013-11-09T18:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,35,"[7, 7, 7, 8, 6]",Western Michigan,Mid-American,32,"[10, 6, 10, 3, 3]"
-333132636,2013,11,regular,2013-11-09T19:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,10,"[0, 0, 7, 3]",Tulane,Conference USA,7,"[0, 7, 0, 0]"
-333130025,2013,11,regular,2013-11-09T20:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,28,"[0, 14, 7, 7]",USC,Pac-12,62,"[21, 20, 14, 7]"
-333130036,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,38,"[3, 3, 18, 14]",Nevada,Mountain West,17,"[0, 7, 10, 0]"
-333130084,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,52,"[14, 7, 14, 17]",Illinois,Big Ten,35,"[14, 0, 14, 7]"
-333130245,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,51,"[16, 7, 14, 14]",Mississippi State,SEC,41,"[7, 7, 6, 21]"
-333130130,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,13,"[0, 3, 7, 3]",Nebraska,Big Ten,17,"[10, 0, 0, 7]"
-333130166,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,34,"[3, 14, 7, 10]",Boston College,ACC,48,"[13, 7, 7, 21]"
-333130275,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,27,"[7, 10, 3, 7]",BYU,FBS Independents,17,"[3, 0, 7, 7]"
-333130249,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,41,"[14, 7, 7, 13]",UTEP,Conference USA,7,"[0, 0, 7, 0]"
-333130120,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,1,SECU Stadium,Maryland,ACC,3,"[0, 0, 3, 0]",Syracuse,ACC,20,"[7, 3, 3, 7]"
-333132426,2013,11,regular,2013-11-09T20:30:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,FBS Independents,42,"[7, 7, 14, 14]",Hawai'i,Mountain West,28,"[0, 14, 0, 14]"
-333130151,2013,11,regular,2013-11-09T20:45:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,Conference USA,58,"[7, 14, 14, 23]",Tulsa,Conference USA,24,"[7, 3, 7, 7]"
-333130197,2013,11,regular,2013-11-09T21:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,42,"[14, 14, 0, 14]",Kansas,Big 12,6,"[0, 0, 3, 3]"
-333132393,2013,11,regular,2013-11-09T21:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,48,"[14, 10, 24, 0]",Florida International,Conference USA,0,"[0, 0, 0, 0]"
-333130254,2013,11,regular,2013-11-09T21:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,19,"[6, 3, 10, 0]",Arizona State,Pac-12,20,"[7, 0, 0, 13]"
-333130150,2013,11,regular,2013-11-09T21:00:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,38,"[7, 3, 7, 21]",NC State,ACC,20,"[0, 0, 13, 7]"
-333130235,2013,11,regular,2013-11-09T21:30:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,21,"[0, 7, 0, 14]",UT Martin,OVC,6,"[3, 3, 0, 0]"
-333130070,2013,11,regular,2013-11-09T22:00:00.000Z,1,0,0,Kibbie Dome,Idaho,FBS Independents,38,"[21, 10, 7, 0]",Old Dominion,,59,"[17, 14, 14, 14]"
-333132390,2013,11,regular,2013-11-10T00:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,24,"[7, 7, 10, 0]",Virginia Tech,ACC,42,"[14, 14, 7, 7]"
-333132116,2013,11,regular,2013-11-10T00:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,19,"[0, 6, 7, 6]",Houston,American Athletic,14,"[0, 0, 7, 7]"
-333130277,2013,11,regular,2013-11-10T00:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,40,"[9, 10, 7, 14, 0]",Texas,Big 12,47,"[3, 10, 17, 10, 7]"
-333132348,2013,11,regular,2013-11-10T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,36,"[9, 7, 6, 14]",Southern Miss,Conference USA,13,"[0, 6, 0, 7]"
-333132433,2013,11,regular,2013-11-10T00:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,14,"[7, 7, 0, 0]",Arkansas State,Sun Belt,42,"[7, 7, 14, 14]"
-333130221,2013,11,regular,2013-11-10T01:00:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,28,"[0, 7, 14, 7]",Notre Dame,FBS Independents,21,"[7, 7, 7, 0]"
-333130264,2013,11,regular,2013-11-10T01:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,59,"[10, 21, 21, 7]",Colorado,Pac-12,7,"[7, 0, 0, 0]"
-333132439,2013,11,regular,2013-11-10T01:00:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,24,"[7, 10, 0, 7]",Utah State,Mountain West,28,"[0, 14, 7, 7]"
-333130333,2013,11,regular,2013-11-10T01:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,38,"[3, 14, 7, 14]",LSU,SEC,17,"[0, 14, 3, 0]"
-333130012,2013,11,regular,2013-11-10T03:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,26,"[3, 7, 3, 13]",UCLA,Pac-12,31,"[14, 7, 3, 7]"
-333132751,2013,11,regular,2013-11-10T03:15:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,10,"[7, 3, 0, 0]",Fresno State,Mountain West,48,"[0, 14, 14, 20]"
-333130023,2013,11,regular,2013-11-10T03:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,30,"[10, 10, 3, 7]",San Diego State,Mountain West,34,"[0, 12, 0, 22]"
-333160189,2013,12,regular,2013-11-13T00:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,49,"[21, 14, 7, 7]",Ohio,Mid-American,0,"[0, 0, 0, 0]"
-333162649,2013,12,regular,2013-11-13T00:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,51,"[21, 10, 7, 13]",Buffalo,Mid-American,41,"[0, 0, 14, 27]"
-333172459,2013,12,regular,2013-11-14T01:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,48,"[3, 17, 7, 21]",Ball State,Mid-American,27,"[7, 17, 3, 0]"
-333172309,2013,12,regular,2013-11-14T01:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,24,"[7, 7, 7, 3]",Miami (OH),Mid-American,6,"[3, 3, 0, 0]"
-333180228,2013,12,regular,2013-11-15T00:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,55,"[6, 21, 14, 14]",Georgia Tech,ACC,31,"[0, 10, 14, 7]"
-333180202,2013,12,regular,2013-11-15T00:36:00.000Z,1,0,1,Chapman Stadium,Tulsa,Conference USA,34,"[0, 14, 17, 3]",Marshall,Conference USA,45,"[21, 10, 0, 14]"
-333190026,2013,12,regular,2013-11-16T02:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,41,"[20, 7, 7, 7]",Washington,Pac-12,31,"[7, 10, 7, 7]"
-333200213,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,45,"[14, 14, 10, 7]",Purdue,Big Ten,21,"[0, 14, 7, 0]"
-333202711,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,22,"[0, 6, 10, 6]",Central Michigan,Mid-American,27,"[14, 0, 13, 0]"
-333202305,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,31,"[3, 14, 7, 7]",West Virginia,Big 12,19,"[7, 0, 0, 12]"
-333200356,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,35,"[0, 14, 7, 14]",Ohio State,Big Ten,60,"[21, 14, 9, 16]"
-333200218,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,36,"[0, 21, 7, 8]",UCF,American Athletic,39,"[5, 17, 0, 17]"
-333200201,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,48,"[0, 10, 17, 21]",Iowa State,Big 12,10,"[0, 10, 0, 0]"
-333200275,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,51,"[20, 7, 10, 14]",Indiana,Big Ten,3,"[0, 0, 3, 0]"
-333200145,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,51,"[20, 7, 17, 7]",Troy,Sun Belt,21,"[7, 0, 0, 14]"
-333200164,2013,12,regular,2013-11-16T17:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,American Athletic,17,"[7, 0, 0, 10]",Cincinnati,American Athletic,52,"[24, 14, 7, 7]"
-333200238,2013,12,regular,2013-11-16T17:21:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,22,"[9, 0, 0, 13]",Kentucky,SEC,6,"[6, 0, 0, 0]"
-333202572,2013,12,regular,2013-11-16T17:30:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,7,"[0, 0, 0, 7]",Florida Atlantic,Conference USA,41,"[7, 20, 14, 0]"
-333200259,2013,12,regular,2013-11-16T17:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,24,"[7, 0, 7, 7, 3]",Maryland,ACC,27,"[0, 14, 7, 0, 6]"
-333200221,2013,12,regular,2013-11-16T17:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,27,"[3, 0, 7, 17]",North Carolina,ACC,34,"[7, 17, 3, 7]"
-333200103,2013,12,regular,2013-11-16T17:30:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,38,"[10, 7, 3, 18]",NC State,ACC,21,"[0, 7, 0, 14]"
-333200113,2013,12,regular,2013-11-16T18:00:00.000Z,1,0,1,Gillette Stadium,Massachusetts,Mid-American,13,"[3, 3, 7, 0]",Akron,Mid-American,14,"[0, 7, 0, 7]"
-333200151,2013,12,regular,2013-11-16T19:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,Conference USA,63,"[14, 21, 14, 14]",UAB,Conference USA,14,"[0, 7, 0, 7]"
-333202247,2013,12,regular,2013-11-16T19:00:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,21,"[0, 14, 7, 0]",Louisiana,Sun Belt,35,"[7, 14, 7, 7]"
-333200012,2013,12,regular,2013-11-16T19:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,17,"[7, 7, 3, 0]",Washington State,Pac-12,24,"[10, 0, 7, 7]"
-333200252,2013,12,regular,2013-11-16T20:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,59,"[14, 35, 10, 0]",Idaho State,Big Sky,13,"[3, 0, 7, 3]"
-333202567,2013,12,regular,2013-11-16T20:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,38,"[7, 14, 7, 10]",UConn,American Athletic,21,"[0, 7, 7, 7]"
-333200002,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,43,"[10, 17, 7, 9]",Georgia,SEC,38,"[0, 10, 7, 21]"
-333200150,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,48,"[7, 14, 10, 17]",Miami,ACC,30,"[17, 3, 10, 0]"
-333200077,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,19,"[3, 3, 3, 0, 7, 3, 0]",Michigan,Big Ten,27,"[3, 0, 0, 6, 7, 3, 8]"
-333202306,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,33,"[14, 3, 10, 6]",TCU,Big 12,31,"[0, 7, 21, 3]"
-333202426,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,FBS Independents,42,"[3, 17, 7, 15]",South Alabama,Sun Belt,14,"[7, 7, 0, 0]"
-333200158,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,28,"[7, 0, 14, 7]",Michigan State,Big Ten,41,"[10, 10, 7, 14]"
-333200251,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,13,"[3, 7, 3, 0]",Oklahoma State,Big 12,38,"[7, 21, 10, 0]"
-333200052,2013,12,regular,2013-11-16T20:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,59,"[28, 10, 21, 0]",Syracuse,ACC,3,"[0, 0, 0, 3]"
-333202483,2013,12,regular,2013-11-16T21:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,44,"[10, 7, 20, 7]",Utah,Pac-12,21,"[0, 7, 7, 7]"
-333200038,2013,12,regular,2013-11-16T22:30:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,41,"[3, 21, 3, 14]",California,Pac-12,24,"[0, 10, 0, 14]"
-333202579,2013,12,regular,2013-11-17T00:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,19,"[3, 3, 7, 6]",Florida,SEC,14,"[7, 7, 0, 0]"
-333200097,2013,12,regular,2013-11-17T00:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,American Athletic,20,"[7, 3, 10, 0]",Houston,American Athletic,13,"[0, 13, 0, 0]"
-333200058,2013,12,regular,2013-11-17T00:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,10,"[0, 0, 3, 7]",Memphis,American Athletic,23,"[3, 3, 0, 17]"
-333200167,2013,12,regular,2013-11-17T00:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,42,"[7, 14, 21, 0]",Colorado State,Mountain West,66,"[14, 17, 14, 21]"
-333200242,2013,12,regular,2013-11-17T00:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,52,"[14, 10, 7, 21]",Louisiana Tech,Conference USA,14,"[0, 0, 7, 7]"
-333200239,2013,12,regular,2013-11-17T00:20:00.000Z,1,1,1,,Baylor,Big 12,63,"[21, 14, 21, 7]",Texas Tech,Big 12,34,"[20, 7, 7, 0]"
-333202032,2013,12,regular,2013-11-17T00:30:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,38,"[7, 14, 14, 3]",Texas State,Sun Belt,21,"[14, 7, 0, 0]"
-333200344,2013,12,regular,2013-11-17T00:45:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,7,"[0, 0, 7, 0]",Alabama,SEC,20,"[3, 7, 7, 3]"
-333202638,2013,12,regular,2013-11-17T01:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,33,"[10, 7, 9, 7]",Florida International,Conference USA,10,"[7, 0, 0, 3]"
-333200030,2013,12,regular,2013-11-17T01:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,20,"[14, 3, 0, 3]",Stanford,Pac-12,17,"[7, 3, 7, 0]"
-333200009,2013,12,regular,2013-11-17T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,30,"[13, 7, 0, 10]",Oregon State,Pac-12,17,"[0, 3, 7, 7]"
-333200068,2013,12,regular,2013-11-17T03:15:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,48,"[14, 14, 17, 3]",Wyoming,Mountain West,7,"[7, 0, 0, 0]"
-333200062,2013,12,regular,2013-11-17T03:30:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,21,"[7, 7, 0, 7, 0]",San Diego State,Mountain West,28,"[0, 7, 7, 7, 7]"
-333202440,2013,12,regular,2013-11-17T03:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,38,"[7, 14, 14, 3]",San José State,Mountain West,16,"[10, 6, 0, 0]"
-333230193,2013,13,regular,2013-11-20T01:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,7,"[0, 0, 0, 7]",Buffalo,Mid-American,44,"[0, 28, 3, 13]"
-333230195,2013,13,regular,2013-11-20T01:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,13,"[6, 7, 0, 0]",Kent State,Mid-American,44,"[3, 14, 14, 13]"
-333242649,2013,13,regular,2013-11-21T01:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,17,"[3, 7, 7, 0]",Northern Illinois,Mid-American,35,"[7, 0, 14, 14]"
-333252116,2013,13,regular,2013-11-22T00:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,41,"[14, 14, 3, 10]",Rutgers,American Athletic,17,"[0, 14, 0, 3]"
-333250005,2013,13,regular,2013-11-22T00:30:00.000Z,1,0,1,Legion Field,UAB,Conference USA,34,"[0, 7, 14, 10, 3]",Rice,Conference USA,37,"[10, 7, 7, 7, 6]"
-333252005,2013,13,regular,2013-11-22T02:30:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,21,"[0, 14, 7, 0]",UNLV,Mountain West,41,"[20, 13, 0, 8]"
-333260023,2013,13,regular,2013-11-23T02:30:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,52,"[3, 13, 6, 16, 7, 7, 0]",Navy,FBS Independents,58,"[0, 10, 14, 14, 7, 7, 6]"
-333270154,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,21,"[7, 7, 7, 0]",Duke,ACC,28,"[0, 14, 14, 0]"
-333270248,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,,Houston,American Athletic,17,"[0, 7, 10, 0]",Cincinnati,American Athletic,24,"[0, 17, 7, 0]"
-333272390,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,45,"[14, 7, 10, 14]",Virginia,ACC,26,"[10, 3, 0, 13]"
-333272294,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,24,"[7, 0, 7, 10]",Michigan,Big Ten,21,"[7, 14, 0, 0]"
-333272509,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,16,"[14, 0, 0, 2]",Illinois,Big Ten,20,"[7, 7, 0, 6]"
-333270153,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,80,"[14, 35, 31, 0]",Old Dominion,,20,"[13, 0, 7, 0]"
-333270228,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,52,"[14, 28, 3, 7]",The Citadel,Southern,6,"[0, 0, 3, 3]"
-333270077,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,6,"[3, 3, 0, 0]",Michigan State,Big Ten,30,"[0, 14, 9, 7]"
-333272306,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,31,"[0, 21, 3, 7]",Oklahoma,Big 12,41,"[7, 17, 3, 14]"
-333270097,2013,13,regular,2013-11-23T17:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,American Athletic,24,"[7, 10, 7, 0]",Memphis,American Athletic,17,"[0, 3, 0, 14]"
-333270008,2013,13,regular,2013-11-23T17:21:00.000Z,1,0,1,,Arkansas,SEC,17,"[7, 3, 7, 0, 0]",Mississippi State,SEC,24,"[0, 10, 0, 7, 7]"
-333270183,2013,13,regular,2013-11-23T17:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,16,"[6, 3, 7, 0]",Pittsburgh,ACC,17,"[0, 10, 7, 0]"
-333270152,2013,13,regular,2013-11-23T17:30:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,28,"[7, 0, 0, 21]",East Carolina,Conference USA,42,"[7, 14, 14, 7]"
-333272117,2013,13,regular,2013-11-23T18:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,37,"[7, 20, 7, 3]",Massachusetts,Mid-American,0,"[0, 0, 0, 0]"
-333272579,2013,13,regular,2013-11-23T18:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,70,"[28, 14, 21, 7]",Coastal Carolina,Big South,10,"[0, 7, 0, 3]"
-333272199,2013,13,regular,2013-11-23T18:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,7,"[7, 0, 0, 0]",Bowling Green,Mid-American,58,"[17, 17, 17, 7]"
-333270059,2013,13,regular,2013-11-23T18:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,66,"[24, 28, 7, 7]",Alabama A&M,SWAC,7,"[0, 0, 0, 7]"
-333270333,2013,13,regular,2013-11-23T19:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,49,"[7, 21, 14, 7]",Chattanooga,Southern,0,"[0, 0, 0, 0]"
-333272751,2013,13,regular,2013-11-23T19:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,59,"[13, 22, 7, 14, 3]",Hawai'i,Mountain West,56,"[14, 21, 7, 14, 0]"
-333270057,2013,13,regular,2013-11-23T19:00:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,20,"[3, 7, 0, 10]",Georgia Southern,Southern,26,"[0, 7, 13, 6]"
-333272226,2013,13,regular,2013-11-23T20:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,Conference USA,55,"[14, 14, 14, 13]",New Mexico State,FBS Independents,10,"[0, 7, 3, 0]"
-333272032,2013,13,regular,2013-11-23T20:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,35,"[7, 0, 21, 7]",Georgia State,Sun Belt,33,"[10, 7, 7, 9]"
-333270265,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,49,"[21, 12, 10, 6]",Utah,Pac-12,37,"[7, 13, 10, 7]"
-333270328,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,13,"[0, 3, 7, 3]",Colorado State,Mountain West,0,"[0, 0, 0, 0]"
-333272572,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,21,"[7, 0, 7, 7]",Middle Tennessee,Conference USA,42,"[7, 21, 0, 14]"
-333270135,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,7,"[0, 7, 0, 0]",Wisconsin,Big Ten,20,"[3, 10, 7, 0]"
-333270099,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,34,"[7, 14, 10, 3]",Texas A&M,SEC,10,"[0, 10, 0, 0]"
-333270087,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,23,"[14, 3, 3, 3]",BYU,FBS Independents,13,"[7, 0, 6, 0]"
-333270120,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,SECU Stadium,Maryland,ACC,26,"[10, 0, 7, 9]",Boston College,ACC,29,"[3, 7, 3, 16]"
-333270213,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,20,"[6, 0, 7, 7, 0]",Nebraska,Big Ten,23,"[0, 7, 10, 3, 3]"
-333270249,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,13,"[0, 3, 0, 10]",UTSA,Conference USA,21,"[7, 0, 7, 7]"
-333272655,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Caesars Superdome,Tulane,Conference USA,45,"[14, 24, 7, 0]",UTEP,Conference USA,3,"[0, 3, 0, 0]"
-333270012,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,42,"[14, 14, 7, 7]",Oregon,Pac-12,16,"[3, 6, 0, 7]"
-333270194,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,42,"[14, 14, 7, 7]",Indiana,Big Ten,14,"[0, 0, 0, 14]"
-333270052,2013,13,regular,2013-11-23T20:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,80,"[21, 21, 17, 21]",Idaho,FBS Independents,14,"[0, 7, 0, 7]"
-333270278,2013,13,regular,2013-11-23T21:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,69,"[14, 21, 28, 6]",New Mexico,Mountain West,28,"[0, 0, 21, 7]"
-333270024,2013,13,regular,2013-11-23T21:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,63,"[21, 21, 7, 14]",California,Pac-12,13,"[10, 3, 0, 0]"
-333272229,2013,13,regular,2013-11-23T23:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,10,"[3, 0, 0, 7]",Marshall,Conference USA,48,"[0, 20, 14, 14]"
-333270026,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,33,"[10, 3, 14, 6]",Arizona State,Pac-12,38,"[14, 21, 3, 0]"
-333272633,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,10,"[0, 7, 3, 0]",Vanderbilt,SEC,14,"[7, 0, 0, 7]"
-333272348,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,14,"[0, 7, 7, 0]",Tulsa,Conference USA,24,"[7, 3, 7, 7]"
-333270326,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,7,"[0, 7, 0, 0]",Western Kentucky,Sun Belt,38,"[0, 17, 0, 21]"
-333270006,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,36,"[6, 13, 7, 10]",UL Monroe,Sun Belt,14,"[0, 7, 7, 0]"
-333270058,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,6,"[0, 0, 0, 6]",SMU,American Athletic,16,"[3, 0, 13, 0]"
-333270061,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,59,"[21, 14, 21, 3]",Kentucky,SEC,17,"[7, 3, 0, 7]"
-333270218,2013,13,regular,2013-11-24T00:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,21,"[7, 14, 0, 0]",UConn,American Athletic,28,"[0, 0, 14, 14]"
-333270145,2013,13,regular,2013-11-24T00:45:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,10,"[0, 3, 7, 0]",Missouri,SEC,24,"[7, 10, 7, 0]"
-333270066,2013,13,regular,2013-11-24T01:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,34,"[7, 3, 17, 7]",Kansas,Big 12,0,"[0, 0, 0, 0]"
-333270197,2013,13,regular,2013-11-24T01:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,49,"[7, 7, 21, 14]",Baylor,Big 12,17,"[0, 3, 0, 14]"
-333270038,2013,13,regular,2013-11-24T02:30:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,29,"[0, 0, 7, 22]",USC,Pac-12,47,"[9, 14, 14, 10]"
-333270021,2013,13,regular,2013-11-24T03:30:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,34,"[7, 7, 0, 14, 6]",Boise State,Mountain West,31,"[7, 0, 14, 7, 3]"
-333270204,2013,13,regular,2013-11-24T03:30:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,27,"[0, 0, 0, 27]",Washington,Pac-12,69,"[17, 10, 21, 21]"
-333302459,2013,14,regular,2013-11-27T00:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,33,"[7, 13, 10, 3]",Western Michigan,Mid-American,14,"[0, 7, 0, 7]"
-333320251,2013,14,regular,2013-11-29T00:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,41,"[10, 10, 7, 14]",Texas Tech,Big 12,16,"[7, 3, 0, 6]"
-333320344,2013,14,regular,2013-11-29T00:30:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,17,"[0, 7, 0, 3, 7]",Ole Miss,SEC,10,"[0, 7, 3, 0, 0]"
-333332006,2013,14,regular,2013-11-29T17:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,31,"[7, 10, 7, 7]",Toledo,Mid-American,29,"[7, 3, 7, 12]"
-333330158,2013,14,regular,2013-11-29T17:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,17,"[0, 3, 7, 7]",Iowa,Big Ten,38,"[7, 7, 10, 14]"
-333330248,2013,14,regular,2013-11-29T17:00:00.000Z,1,0,1,,Houston,American Athletic,34,"[10, 14, 10, 0]",SMU,American Athletic,0,"[0, 0, 0, 0]"
-333330276,2013,14,regular,2013-11-29T17:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,59,"[17, 7, 21, 14]",East Carolina,Conference USA,28,"[0, 10, 10, 8]"
-333332050,2013,14,regular,2013-11-29T18:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,55,"[7, 28, 10, 10]",Miami (OH),Mid-American,14,"[0, 0, 14, 0]"
-333332084,2013,14,regular,2013-11-29T18:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,7,"[0, 7, 0, 0]",Bowling Green,Mid-American,24,"[3, 0, 14, 7]"
-333330195,2013,14,regular,2013-11-29T19:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,51,"[14, 17, 10, 10]",Massachusetts,Mid-American,23,"[3, 7, 10, 3]"
-333332117,2013,14,regular,2013-11-29T19:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,42,"[14, 7, 14, 7]",Eastern Michigan,Mid-American,10,"[0, 10, 0, 0]"
-333332653,2013,14,regular,2013-11-29T19:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,42,"[7, 14, 7, 14]",Texas State,Sun Belt,28,"[7, 7, 0, 14]"
-333330099,2013,14,regular,2013-11-29T19:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,31,"[14, 0, 7, 10]",Arkansas,SEC,27,"[7, 10, 10, 0]"
-333332226,2013,14,regular,2013-11-29T20:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,21,"[14, 0, 7, 0]",Florida International,Conference USA,6,"[3, 0, 0, 3]"
-333330264,2013,14,regular,2013-11-29T20:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,27,"[3, 0, 17, 7]",Washington State,Pac-12,17,"[0, 10, 0, 7]"
-333330023,2013,14,regular,2013-11-29T20:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,62,"[21, 21, 10, 10]",Fresno State,Mountain West,52,"[27, 14, 3, 8]"
-333330221,2013,14,regular,2013-11-29T20:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,31,"[7, 3, 7, 14]",Miami,ACC,41,"[17, 14, 0, 10]"
-333332483,2013,14,regular,2013-11-30T00:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,36,"[14, 3, 7, 12]",Oregon State,Pac-12,35,"[0, 17, 3, 15]"
-333332116,2013,14,regular,2013-11-30T01:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,23,"[3, 10, 3, 7]",South Florida,American Athletic,20,"[3, 3, 7, 7]"
-333340127,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,14,"[7, 0, 7, 0]",Minnesota,Big Ten,3,"[0, 3, 0, 0]"
-333342305,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,10,"[0, 10, 0, 0]",Kansas State,Big 12,31,"[14, 7, 7, 3]"
-333340235,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,21,"[0, 7, 14, 0]",Temple,American Athletic,41,"[3, 14, 14, 10]"
-333340041,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,28,"[14, 0, 0, 14]",Rutgers,American Athletic,17,"[7, 3, 7, 0]"
-333340153,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,25,"[7, 8, 7, 3]",Duke,ACC,27,"[7, 10, 7, 3]"
-333340130,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,41,"[14, 7, 0, 20]",Ohio State,Big Ten,42,"[14, 7, 14, 7]"
-333340057,2013,14,regular,2013-11-30T17:00:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,7,"[0, 0, 0, 7]",Florida State,ACC,37,"[3, 14, 10, 10]"
-333340238,2013,14,regular,2013-11-30T17:21:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,23,"[7, 10, 0, 6]",Wake Forest,ACC,21,"[7, 7, 7, 0]"
-333340152,2013,14,regular,2013-11-30T17:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,21,"[7, 7, 7, 0]",Maryland,ACC,41,"[17, 17, 7, 0]"
-333340005,2013,14,regular,2013-11-30T18:00:00.000Z,1,0,1,Legion Field,UAB,Conference USA,27,"[14, 7, 0, 6]",Southern Miss,Conference USA,62,"[7, 6, 28, 21]"
-333340254,2013,14,regular,2013-11-30T19:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,24,"[14, 7, 0, 3]",Colorado,Pac-12,17,"[0, 0, 7, 10]"
-333340328,2013,14,regular,2013-11-30T19:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,35,"[7, 14, 14, 0]",Wyoming,Mountain West,7,"[0, 0, 0, 7]"
-333342247,2013,14,regular,2013-11-30T19:00:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,17,"[0, 3, 7, 7]",South Alabama,Sun Belt,38,"[14, 10, 14, 0]"
-333340036,2013,14,regular,2013-11-30T19:00:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,58,"[13, 17, 21, 7]",Air Force,Mountain West,13,"[0, 0, 0, 13]"
-333340202,2013,14,regular,2013-11-30T19:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,Conference USA,10,"[10, 0, 0, 0]",North Texas,Conference USA,42,"[7, 14, 14, 7]"
-333342440,2013,14,regular,2013-11-30T20:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,23,"[7, 0, 7, 9]",BYU,FBS Independents,28,"[0, 0, 14, 14]"
-333340242,2013,14,regular,2013-11-30T20:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,17,"[7, 10, 0, 0]",Tulane,Conference USA,13,"[3, 0, 7, 3]"
-333340356,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,34,"[0, 17, 10, 7]",Northwestern,Big Ten,37,"[10, 10, 3, 14]"
-333340275,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,24,"[0, 14, 0, 10]",Penn State,Big Ten,31,"[7, 7, 10, 7]"
-333340258,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,6,"[3, 3, 0, 0]",Virginia Tech,ACC,16,"[6, 10, 0, 0]"
-333342628,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,38,"[3, 14, 14, 7]",Baylor,Big 12,41,"[10, 17, 14, 0]"
-333340002,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,34,"[7, 7, 7, 13]",Alabama,SEC,28,"[0, 21, 0, 7]"
-333340059,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,34,"[17, 3, 0, 7, 7, 0]",Georgia,SEC,41,"[0, 7, 10, 10, 7, 7]"
-333340084,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,56,"[14, 21, 14, 7]",Purdue,Big Ten,36,"[0, 9, 7, 20]"
-333340166,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,FBS Independents,24,"[7, 3, 7, 7]",Idaho,FBS Independents,16,"[0, 13, 3, 0]"
-333342636,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,30,"[14, 3, 7, 6]",Louisiana Tech,Conference USA,10,"[3, 7, 0, 0]"
-333340183,2013,14,regular,2013-11-30T20:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,34,"[0, 21, 3, 10]",Boston College,ACC,31,"[7, 7, 7, 10]"
-333342393,2013,14,regular,2013-11-30T20:45:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,48,"[17, 17, 14, 0]",UTEP,Conference USA,17,"[0, 7, 10, 0]"
-333340098,2013,14,regular,2013-11-30T21:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Sun Belt,34,"[14, 6, 7, 7]",Arkansas State,Sun Belt,31,"[7, 7, 10, 7]"
-333340277,2013,14,regular,2013-11-30T21:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,44,"[17, 14, 0, 7, 3, 3, 0]",Iowa State,Big 12,52,"[7, 7, 0, 24, 3, 3, 8]"
-333342579,2013,14,regular,2013-12-01T00:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,31,"[7, 10, 0, 14]",Clemson,ACC,17,"[7, 3, 7, 0]"
-333340096,2013,14,regular,2013-12-01T00:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,14,"[0, 7, 0, 7]",Tennessee,SEC,27,"[14, 6, 7, 0]"
-333340309,2013,14,regular,2013-12-01T00:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,28,"[14, 7, 0, 7]",UL Monroe,Sun Belt,31,"[7, 7, 14, 3]"
-333340024,2013,14,regular,2013-12-01T00:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,27,"[7, 7, 10, 3]",Notre Dame,FBS Independents,20,"[3, 3, 14, 0]"
-333340142,2013,14,regular,2013-12-01T00:45:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,28,"[0, 7, 14, 7]",Texas A&M,SEC,21,"[7, 7, 0, 7]"
-333340030,2013,14,regular,2013-12-01T01:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,14,"[0, 7, 7, 0]",UCLA,Pac-12,35,"[7, 7, 14, 7]"
-333340009,2013,14,regular,2013-12-01T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,58,"[13, 17, 14, 14]",Arizona,Pac-12,21,"[0, 7, 14, 0]"
-333340068,2013,14,regular,2013-12-01T03:15:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,45,"[14, 7, 7, 17]",New Mexico,Mountain West,17,"[7, 0, 3, 7]"
-333342439,2013,14,regular,2013-12-01T03:30:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,45,"[7, 17, 7, 14]",San Diego State,Mountain West,19,"[7, 0, 6, 6]"
-333340062,2013,14,regular,2013-12-01T04:00:00.000Z,1,0,0,Aloha Stadium,Hawai'i,Mountain West,49,"[14, 14, 14, 7]",Army,FBS Independents,42,"[0, 7, 21, 14]"
-333392132,2013,15,regular,2013-12-06T00:30:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,24,"[0, 7, 7, 10, 0]",Louisville,American Athletic,31,"[7, 3, 0, 14, 7]"
-333402459,2013,15,regular,2013-12-07T01:00:00.000Z,1,1,1,,Northern Illinois,Mid-American,27,"[7, 6, 7, 7]",Bowling Green,Mid-American,47,"[17, 14, 0, 16]"
-333410197,2013,15,regular,2013-12-07T17:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,24,"[7, 3, 7, 7]",Oklahoma,Big 12,33,"[7, 3, 7, 16]"
-333410242,2013,15,regular,2013-12-07T17:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,41,"[14, 7, 13, 7]",Marshall,Conference USA,24,"[0, 10, 0, 14]"
-333412567,2013,15,regular,2013-12-07T17:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,13,"[3, 7, 3, 0]",UCF,American Athletic,17,"[0, 3, 14, 0]"
-333410041,2013,15,regular,2013-12-07T18:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,45,"[0, 21, 17, 7]",Memphis,American Athletic,10,"[3, 0, 7, 0]"
-333410239,2013,15,regular,2013-12-07T20:30:00.000Z,1,0,1,Floyd Casey Stadium,Baylor,Big 12,30,"[3, 0, 17, 10]",Texas,Big 12,10,"[0, 3, 0, 7]"
-333410002,2013,15,regular,2013-12-07T21:00:00.000Z,1,1,1,Georgia Dome,Auburn,SEC,59,"[14, 14, 17, 14]",Missouri,SEC,42,"[10, 17, 15, 0]"
-333410164,2013,15,regular,2013-12-08T00:30:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,American Athletic,31,"[14, 7, 0, 10]",South Florida,American Athletic,6,"[0, 6, 0, 0]"
-333410009,2013,15,regular,2013-12-08T00:45:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,14,"[7, 7, 0, 0]",Stanford,Pac-12,38,"[14, 14, 3, 7]"
-333410052,2013,15,regular,2013-12-08T01:00:00.000Z,1,1,1,,Florida State,ACC,45,"[0, 17, 21, 7]",Duke,ACC,7,"[0, 0, 0, 7]"
-333410006,2013,15,regular,2013-12-08T01:00:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,30,"[17, 13, 0, 0]",Louisiana,Sun Belt,8,"[0, 0, 0, 8]"
-333410127,2013,15,regular,2013-12-08T01:17:00.000Z,1,1,1,,Michigan State,Big Ten,34,"[3, 14, 3, 14]",Ohio State,Big Ten,24,"[0, 10, 14, 0]"
-333410278,2013,15,regular,2013-12-08T03:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,24,"[3, 14, 7, 0]",Utah State,Mountain West,17,"[0, 7, 0, 10]"
+id,season,week,season_type,start_date,completed,neutral_site,conference_game,venue_id,venue,home_id,home_team,home_conference,home_points,away_id,away_team,away_conference,away_points
+332412579,2013,1,,,1,,,,Williams-Brice Stadium,,,,,,,,
+332412309,2013,1,,,1,,,,Dix Stadium,,,,,,,,
+332410154,2013,1,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+332410135,2013,1,,,1,,,,Huntington Bank Stadium,,,,,,,,
+332410189,2013,1,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+332410084,2013,1,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+332412116,2013,1,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+332412050,2013,1,,,1,,,,Scheumann Stadium,,,,,,,,
+332412393,2013,1,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+332410006,2013,1,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+332410041,2013,1,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+332412655,2013,1,,,1,,,,Caesars Superdome,,,,,,,,
+332410254,2013,1,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+332410238,2013,1,,,1,,,,FirstBank Stadium,,,,,,,,
+332410023,2013,1,,,1,,,,CEFCU Stadium,,,,,,,,
+332410278,2013,1,,,1,,,,Valley Children's Stadium,,,,,,,,
+332410062,2013,1,,,1,,,,Aloha Stadium,,,,,,,,
+332420349,2013,1,,,1,,,,Michie Stadium,,,,,,,,
+332422247,2013,1,,,1,,,,Georgia Dome,,,,,,,,
+332422390,2013,1,,,1,,,,Hard Rock Stadium,,,,,,,,
+332420127,2013,1,,,1,,,,Spartan Stadium,,,,,,,,
+332422567,2013,1,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+332422306,2013,1,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+332420248,2013,1,,,1,,,,,,,,,,,,
+332420012,2013,1,,,1,,,,Arizona Stadium,,,,,,,,
+332430103,2013,1,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+332430059,2013,1,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+332430356,2013,1,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+332432132,2013,1,,,1,,,,Nippert Stadium,,,,,,,,
+332430275,2013,1,,,1,,,,Camp Randall Stadium,,,,,,,,
+332430277,2013,1,,,1,,,,Milan Puskar Stadium,,,,,,,,
+332430194,2013,1,,,1,,,,Ohio Stadium,,,,,,,,
+332430057,2013,1,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+332430120,2013,1,,,1,,,,SECU Stadium,,,,,,,,
+332430152,2013,1,,,1,,,,Carter-Finley Stadium,,,,,,,,
+332430245,2013,1,,,1,,,,Kyle Field,,,,,,,,
+332432005,2013,1,,,1,,,,Falcon Stadium,,,,,,,,
+332430130,2013,1,,,1,,,,Michigan Stadium,,,,,,,,
+332430197,2013,1,,,1,,,,,,,,,,,,
+332430258,2013,1,,,1,,,,Scott Stadium,,,,,,,,
+332432294,2013,1,,,1,,,,Kinnick Stadium,,,,,,,,
+332430213,2013,1,,,1,,,,,,,,,,,,
+332430087,2013,1,,,1,,,,Notre Dame Stadium,,,,,,,,
+332430008,2013,1,,,1,,,,Razorback Stadium,,,,,,,,
+332430150,2013,1,,,1,,,,Wallace Wade Stadium,,,,,,,,
+332432483,2013,1,,,1,,,,Autzen Stadium,,,,,,,,
+332430259,2013,1,,,1,,,,Georgia Dome,,,,,,,,
+332432199,2013,1,,,1,,,,Rynearson Stadium,,,,,,,,
+332432633,2013,1,,,1,,,,Neyland Stadium,,,,,,,,
+332430204,2013,1,,,1,,,,Reser Stadium,,,,,,,,
+332430276,2013,1,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+332430002,2013,1,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332430058,2013,1,,,1,,,,Raymond James Stadium,,,,,,,,
+332430142,2013,1,,,1,,,,Memorial Stadium,,,,,,,,
+332430151,2013,1,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+332430249,2013,1,,,1,,,,DATCU Stadium,,,,,,,,
+332432032,2013,1,,,1,,,,Centennial Bank Stadium,,,,,,,,
+332432572,2013,1,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+332432653,2013,1,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+332430201,2013,1,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+332430098,2013,1,,,1,,,,Nissan Stadium,,,,,,,,
+332430239,2013,1,,,1,,,,Floyd Casey Stadium,,,,,,,,
+332430158,2013,1,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+332430251,2013,1,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+332430021,2013,1,,,1,,,,Qualcomm Stadium,,,,,,,,
+332430167,2013,1,,,1,,,,University Stadium (NM),,,,,,,,
+332430228,2013,1,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+332430066,2013,1,,,1,,,,Jack Trice Stadium,,,,,,,,
+332432628,2013,1,,,1,,,,,,,,,,,,
+332430026,2013,1,,,1,,,,Rose Bowl,,,,,,,,
+332430264,2013,1,,,1,,,,Husky Stadium,,,,,,,,
+332430025,2013,1,,,1,,,,California Memorial Stadium,,,,,,,,
+332440097,2013,1,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+332440036,2013,1,,,1,,,,,,,,,,,,
+332450221,2013,1,,,1,,,,Acrisure Stadium,,,,,,,,
+332480151,2013,2,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+332480009,2013,2,,,1,,,,Mountain America Stadium,,,,,,,,
+332492229,2013,2,,,1,,,,FIU Stadium,,,,,,,,
+332490103,2013,2,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+332500164,2013,2,,,1,,,,High Point Solutions Stadium,,,,,,,,
+332500097,2013,2,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+332502628,2013,2,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+332500218,2013,2,,,1,,,,Lincoln Financial Field,,,,,,,,
+332500356,2013,2,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+332500096,2013,2,,,1,,,,Kroger Field,,,,,,,,
+332502294,2013,2,,,1,,,,Kinnick Stadium,,,,,,,,
+332502309,2013,2,,,1,,,,Dix Stadium,,,,,,,,
+332502509,2013,2,,,1,,,,Ross-Ade Stadium,,,,,,,,
+332500275,2013,2,,,1,,,,Camp Randall Stadium,,,,,,,,
+332500127,2013,2,,,1,,,,Spartan Stadium,,,,,,,,
+332502636,2013,2,,,1,,,,Alamodome,,,,,,,,
+332502390,2013,2,,,1,,,,Hard Rock Stadium,,,,,,,,
+332500213,2013,2,,,1,,,,Beaver Stadium,,,,,,,,
+332502633,2013,2,,,1,,,,Neyland Stadium,,,,,,,,
+332500153,2013,2,,,1,,,,Kenan Stadium,,,,,,,,
+332500228,2013,2,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+332502050,2013,2,,,1,,,,Scheumann Stadium,,,,,,,,
+332500259,2013,2,,,1,,,,Lane Stadium,,,,,,,,
+332500254,2013,2,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+332502247,2013,2,,,1,,,,Georgia Dome,,,,,,,,
+332500113,2013,2,,,1,,,,Gillette Stadium,,,,,,,,
+332500068,2013,2,,,1,,,,Albertsons Stadium,,,,,,,,
+332502117,2013,2,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+332500258,2013,2,,,1,,,,Scott Stadium,,,,,,,,
+332500239,2013,2,,,1,,,,Floyd Casey Stadium,,,,,,,,
+332500194,2013,2,,,1,,,,Ohio Stadium,,,,,,,,
+332502655,2013,2,,,1,,,,Caesars Superdome,,,,,,,,
+332502005,2013,2,,,1,,,,Falcon Stadium,,,,,,,,
+332500344,2013,2,,,1,,,,Davis Wade Stadium,,,,,,,,
+332500142,2013,2,,,1,,,,Memorial Stadium,,,,,,,,
+332500120,2013,2,,,1,,,,SECU Stadium,,,,,,,,
+332502751,2013,2,,,1,,,,War Memorial Stadium,,,,,,,,
+332500235,2013,2,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+332500061,2013,2,,,1,,,,Sanford Stadium,,,,,,,,
+332500025,2013,2,,,1,,,,California Memorial Stadium,,,,,,,,
+332500158,2013,2,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+332500084,2013,2,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+332502006,2013,2,,,1,,,,InfoCision Stadium,,,,,,,,
+332500152,2013,2,,,1,,,,Carter-Finley Stadium,,,,,,,,
+332500077,2013,2,,,1,,,,Ryan Field,,,,,,,,
+332500276,2013,2,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+332502306,2013,2,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+332500145,2013,2,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+332502711,2013,2,,,1,,,,Waldo Stadium,,,,,,,,
+332502653,2013,2,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+332502641,2013,2,,,1,,,,Jones AT&T Stadium,,,,,,,,
+332502433,2013,2,,,1,,,,Malone Stadium,,,,,,,,
+332502305,2013,2,,,1,,,,Memorial Stadium,,,,,,,,
+332500326,2013,2,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+332500202,2013,2,,,1,,,,Chapman Stadium,,,,,,,,
+332500195,2013,2,,,1,,,,Peden Stadium,,,,,,,,
+332500008,2013,2,,,1,,,,,,,,,,,,
+332500201,2013,2,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+332502348,2013,2,,,1,,,,Joe Aillet Stadium,,,,,,,,
+332500245,2013,2,,,1,,,,Kyle Field,,,,,,,,
+332500252,2013,2,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+332500238,2013,2,,,1,,,,FirstBank Stadium,,,,,,,,
+332500002,2013,2,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332500099,2013,2,,,1,,,,Tiger Stadium (LA),,,,,,,,
+332500204,2013,2,,,1,,,,Reser Stadium,,,,,,,,
+332502567,2013,2,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+332502638,2013,2,,,1,,,,Sun Bowl,,,,,,,,
+332500130,2013,2,,,1,,,,Michigan Stadium,,,,,,,,
+332500038,2013,2,,,1,,,,Folsom Field,,,,,,,,
+332500166,2013,2,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+332502440,2013,2,,,1,,,,Mackay Stadium,,,,,,,,
+332500278,2013,2,,,1,,,,Valley Children's Stadium,,,,,,,,
+332502439,2013,2,,,1,,,,Sam Boyd Stadium,,,,,,,,
+332500030,2013,2,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+332500024,2013,2,,,1,,,,Stanford Stadium,,,,,,,,
+332552032,2013,3,,,1,,,,Centennial Bank Stadium,,,,,,,,
+332552348,2013,3,,,1,,,,Joe Aillet Stadium,,,,,,,,
+332552641,2013,3,,,1,,,,Jones AT&T Stadium,,,,,,,,
+332560068,2013,3,,,1,,,,Albertsons Stadium,,,,,,,,
+332570135,2013,3,,,1,,,,Huntington Bank Stadium,,,,,,,,
+332570277,2013,3,,,1,,,,Milan Puskar Stadium,,,,,,,,
+332570151,2013,3,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+332570349,2013,3,,,1,,,,Michie Stadium,,,,,,,,
+332570096,2013,3,,,1,,,,Kroger Field,,,,,,,,
+332570130,2013,3,,,1,,,,Michigan Stadium,,,,,,,,
+332570201,2013,3,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+332570158,2013,3,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+332570084,2013,3,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+332570008,2013,3,,,1,,,,Razorback Stadium,,,,,,,,
+332570154,2013,3,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+332570221,2013,3,,,1,,,,Acrisure Stadium,,,,,,,,
+332570218,2013,3,,,1,,,,Lincoln Financial Field,,,,,,,,
+332570164,2013,3,,,1,,,,High Point Solutions Stadium,,,,,,,,
+332570127,2013,3,,,1,,,,Spartan Stadium,,,,,,,,
+332570030,2013,3,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+332570150,2013,3,,,1,,,,Wallace Wade Stadium,,,,,,,,
+332572084,2013,3,,,1,,,,UB Stadium,,,,,,,,
+332570036,2013,3,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+332570052,2013,3,,,1,,,,Doak Campbell Stadium,,,,,,,,
+332572483,2013,3,,,1,,,,Autzen Stadium,,,,,,,,
+332570245,2013,3,,,1,,,,Kyle Field,,,,,,,,
+332572426,2013,3,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+332572751,2013,3,,,1,,,,War Memorial Stadium,,,,,,,,
+332570183,2013,3,,,1,,,,JMA Wireless Dome,,,,,,,,
+332570249,2013,3,,,1,,,,DATCU Stadium,,,,,,,,
+332570070,2013,3,,,1,,,,Kibbie Dome,,,,,,,,
+332570066,2013,3,,,1,,,,Jack Trice Stadium,,,,,,,,
+332572229,2013,3,,,1,,,,FIU Stadium,,,,,,,,
+332570356,2013,3,,,1,,,,,,,,,,,,
+332570213,2013,3,,,1,,,,Beaver Stadium,,,,,,,,
+332570265,2013,3,,,1,,,,Gesa Field,,,,,,,,
+332572132,2013,3,,,1,,,,Nippert Stadium,,,,,,,,
+332572306,2013,3,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+332572393,2013,3,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+332572579,2013,3,,,1,,,,Williams-Brice Stadium,,,,,,,,
+332570002,2013,3,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332570058,2013,3,,,1,,,,Raymond James Stadium,,,,,,,,
+332570099,2013,3,,,1,,,,Tiger Stadium (LA),,,,,,,,
+332570025,2013,3,,,1,,,,California Memorial Stadium,,,,,,,,
+332570309,2013,3,,,1,,,,Cajun Field,,,,,,,,
+332572649,2013,3,,,1,,,,Glass Bowl,,,,,,,,
+332570197,2013,3,,,1,,,,Boone Pickens Stadium,,,,,,,,
+332570006,2013,3,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+332570041,2013,3,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+332570242,2013,3,,,1,,,,Rice Stadium,,,,,,,,
+332570251,2013,3,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+332570166,2013,3,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+332570195,2013,3,,,1,,,,Peden Stadium,,,,,,,,
+332570328,2013,3,,,1,,,,Maverik Stadium,,,,,,,,
+332572509,2013,3,,,1,,,,Ross-Ade Stadium,,,,,,,,
+332570077,2013,3,,,1,,,,Ryan Field,,,,,,,,
+332570254,2013,3,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+332572439,2013,3,,,1,,,,Sam Boyd Stadium,,,,,,,,
+332570012,2013,3,,,1,,,,Arizona Stadium,,,,,,,,
+332570009,2013,3,,,1,,,,Mountain America Stadium,,,,,,,,
+332620152,2013,4,,,1,,,,Carter-Finley Stadium,,,,,,,,
+332630278,2013,4,,,1,,,,Valley Children's Stadium,,,,,,,,
+332642305,2013,4,,,1,,,,Memorial Stadium,,,,,,,,
+332642226,2013,4,,,1,,,,FAU Stadium,,,,,,,,
+332642117,2013,4,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+332640097,2013,4,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+332642294,2013,4,,,1,,,,Kinnick Stadium,,,,,,,,
+332640194,2013,4,,,1,,,,Ohio Stadium,,,,,,,,
+332640059,2013,4,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+332640113,2013,4,,,1,,,,Gillette Stadium,,,,,,,,
+332640135,2013,4,,,1,,,,Huntington Bank Stadium,,,,,,,,
+332640259,2013,4,,,1,,,,Lane Stadium,,,,,,,,
+332640349,2013,4,,,1,,,,Michie Stadium,,,,,,,,
+332640061,2013,4,,,1,,,,Sanford Stadium,,,,,,,,
+332640183,2013,4,,,1,,,,JMA Wireless Dome,,,,,,,,
+332640150,2013,4,,,1,,,,Wallace Wade Stadium,,,,,,,,
+332642199,2013,4,,,1,,,,Rynearson Stadium,,,,,,,,
+332642247,2013,4,,,1,,,,Georgia Dome,,,,,,,,
+332640195,2013,4,,,1,,,,Peden Stadium,,,,,,,,
+332640264,2013,4,,,1,,,,Husky Stadium,,,,,,,,
+332640005,2013,4,,,1,,,,Legion Field,,,,,,,,
+332640242,2013,4,,,1,,,,,,,,,,,,
+332640189,2013,4,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+332640258,2013,4,,,1,,,,Scott Stadium,,,,,,,,
+332640164,2013,4,,,1,,,,High Point Solutions Stadium,,,,,,,,
+332640158,2013,4,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+332640120,2013,4,,,1,,,,,,,,,,,,
+332640275,2013,4,,,1,,,,Camp Randall Stadium,,,,,,,,
+332640087,2013,4,,,1,,,,Notre Dame Stadium,,,,,,,,
+332640057,2013,4,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+332640077,2013,4,,,1,,,,Ryan Field,,,,,,,,
+332640030,2013,4,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+332640213,2013,4,,,1,,,,Beaver Stadium,,,,,,,,
+332640239,2013,4,,,1,,,,Floyd Casey Stadium,,,,,,,,
+332640193,2013,4,,,1,,,,Yager Stadium,,,,,,,,
+332640235,2013,4,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+332640052,2013,4,,,1,,,,Doak Campbell Stadium,,,,,,,,
+332642006,2013,4,,,1,,,,InfoCision Stadium,,,,,,,,
+332642390,2013,4,,,1,,,,Hard Rock Stadium,,,,,,,,
+332640245,2013,4,,,1,,,,Kyle Field,,,,,,,,
+332640024,2013,4,,,1,,,,Stanford Stadium,,,,,,,,
+332640333,2013,4,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+332640098,2013,4,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+332642459,2013,4,,,1,,,,Huskie Stadium,,,,,,,,
+332642641,2013,4,,,1,,,,Jones AT&T Stadium,,,,,,,,
+332640021,2013,4,,,1,,,,Qualcomm Stadium,,,,,,,,
+332640344,2013,4,,,1,,,,Davis Wade Stadium,,,,,,,,
+332640099,2013,4,,,1,,,,Tiger Stadium (LA),,,,,,,,
+332640084,2013,4,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+332640251,2013,4,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+332642638,2013,4,,,1,,,,Sun Bowl,,,,,,,,
+332640041,2013,4,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+332642440,2013,4,,,1,,,,Mackay Stadium,,,,,,,,
+332642439,2013,4,,,1,,,,Sam Boyd Stadium,,,,,,,,
+332642005,2013,4,,,1,,,,Falcon Stadium,,,,,,,,
+332640252,2013,4,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+332640265,2013,4,,,1,,,,Gesa Field,,,,,,,,
+332640026,2013,4,,,1,,,,Rose Bowl,,,,,,,,
+332690202,2013,5,,,1,,,,Chapman Stadium,,,,,,,,
+332690059,2013,5,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+332700252,2013,5,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+332700023,2013,5,,,1,,,,CEFCU Stadium,,,,,,,,
+332710058,2013,5,,,1,,,,Raymond James Stadium,,,,,,,,
+332712116,2013,5,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+332710277,2013,5,,,1,,,,Milan Puskar Stadium,,,,,,,,
+332710356,2013,5,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+332712509,2013,5,,,1,,,,Ross-Ade Stadium,,,,,,,,
+332712628,2013,5,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+332712633,2013,5,,,1,,,,Neyland Stadium,,,,,,,,
+332710153,2013,5,,,1,,,,Kenan Stadium,,,,,,,,
+332710221,2013,5,,,1,,,,Acrisure Stadium,,,,,,,,
+332710098,2013,5,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+332710189,2013,5,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+332712050,2013,5,,,1,,,,Scheumann Stadium,,,,,,,,
+332710150,2013,5,,,1,,,,Wallace Wade Stadium,,,,,,,,
+332710204,2013,5,,,1,,,,Reser Stadium,,,,,,,,
+332710135,2013,5,,,1,,,,Huntington Bank Stadium,,,,,,,,
+332710087,2013,5,,,1,,,,Notre Dame Stadium,,,,,,,,
+332710061,2013,5,,,1,,,,Sanford Stadium,,,,,,,,
+332710103,2013,5,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+332712084,2013,5,,,1,,,,UB Stadium,,,,,,,,
+332710152,2013,5,,,1,,,,Carter-Finley Stadium,,,,,,,,
+332710036,2013,5,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+332710228,2013,5,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+332712348,2013,5,,,1,,,,,,,,,,,,
+332712636,2013,5,,,1,,,,Alamodome,,,,,,,,
+332710070,2013,5,,,1,,,,Kibbie Dome,,,,,,,,
+332710333,2013,5,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+332710008,2013,5,,,1,,,,Razorback Stadium,,,,,,,,
+332712711,2013,5,,,1,,,,Waldo Stadium,,,,,,,,
+332712433,2013,5,,,1,,,,Malone Stadium,,,,,,,,
+332710326,2013,5,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+332710242,2013,5,,,1,,,,Rice Stadium,,,,,,,,
+332710096,2013,5,,,1,,,,Kroger Field,,,,,,,,
+332710264,2013,5,,,1,,,,Husky Stadium,,,,,,,,
+332710238,2013,5,,,1,,,,FirstBank Stadium,,,,,,,,
+332710142,2013,5,,,1,,,,Memorial Stadium,,,,,,,,
+332710166,2013,5,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+332710167,2013,5,,,1,,,,University Stadium (NM),,,,,,,,
+332712440,2013,5,,,1,,,,Mackay Stadium,,,,,,,,
+332710194,2013,5,,,1,,,,Ohio Stadium,,,,,,,,
+332710265,2013,5,,,1,,,,,,,,,,,,
+332710068,2013,5,,,1,,,,Albertsons Stadium,,,,,,,,
+332712483,2013,5,,,1,,,,Autzen Stadium,,,,,,,,
+332710009,2013,5,,,1,,,,Mountain America Stadium,,,,,,,,
+332710062,2013,5,,,1,,,,Aloha Stadium,,,,,,,,
+332760066,2013,6,,,1,,,,Jack Trice Stadium,,,,,,,,
+332762433,2013,6,,,1,,,,Malone Stadium,,,,,,,,
+332760254,2013,6,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+332770328,2013,6,,,1,,,,Maverik Stadium,,,,,,,,
+332770021,2013,6,,,1,,,,Qualcomm Stadium,,,,,,,,
+332782426,2013,6,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+332780258,2013,6,,,1,,,,Scott Stadium,,,,,,,,
+332782084,2013,6,,,1,,,,UB Stadium,,,,,,,,
+332782567,2013,6,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+332782294,2013,6,,,1,,,,Kinnick Stadium,,,,,,,,
+332780218,2013,6,,,1,,,,Lincoln Financial Field,,,,,,,,
+332780052,2013,6,,,1,,,,Doak Campbell Stadium,,,,,,,,
+332782305,2013,6,,,1,,,,Memorial Stadium,,,,,,,,
+332780084,2013,6,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+332780158,2013,6,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+332780333,2013,6,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+332780259,2013,6,,,1,,,,Lane Stadium,,,,,,,,
+332780103,2013,6,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+332782653,2013,6,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+332780193,2013,6,,,1,,,,Yager Stadium,,,,,,,,
+332782006,2013,6,,,1,,,,InfoCision Stadium,,,,,,,,
+332780276,2013,6,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+332782649,2013,6,,,1,,,,Glass Bowl,,,,,,,,
+332780005,2013,6,,,1,,,,Legion Field,,,,,,,,
+332782309,2013,6,,,1,,,,Dix Stadium,,,,,,,,
+332782393,2013,6,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+332780183,2013,6,,,1,,,,JMA Wireless Dome,,,,,,,,
+332780154,2013,6,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+332780189,2013,6,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+332780202,2013,6,,,1,,,,Chapman Stadium,,,,,,,,
+332780197,2013,6,,,1,,,,Boone Pickens Stadium,,,,,,,,
+332782655,2013,6,,,1,,,,Caesars Superdome,,,,,,,,
+332780130,2013,6,,,1,,,,Michigan Stadium,,,,,,,,
+332782390,2013,6,,,1,,,,Hard Rock Stadium,,,,,,,,
+332782633,2013,6,,,1,,,,Neyland Stadium,,,,,,,,
+332780025,2013,6,,,1,,,,California Memorial Stadium,,,,,,,,
+332782572,2013,6,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+332780235,2013,6,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+332780070,2013,6,,,1,,,,Kibbie Dome,,,,,,,,
+332780038,2013,6,,,1,,,,Folsom Field,,,,,,,,
+332780058,2013,6,,,1,,,,Raymond James Stadium,,,,,,,,
+332780002,2013,6,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332780057,2013,6,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+332780201,2013,6,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+332780344,2013,6,,,1,,,,Davis Wade Stadium,,,,,,,,
+332780167,2013,6,,,1,,,,University Stadium (NM),,,,,,,,
+332780309,2013,6,,,1,,,,Cajun Field,,,,,,,,
+332782579,2013,6,,,1,,,,Williams-Brice Stadium,,,,,,,,
+332782638,2013,6,,,1,,,,Sun Bowl,,,,,,,,
+332780087,2013,6,,,1,,,,,,,,,,,,
+332780238,2013,6,,,1,,,,FirstBank Stadium,,,,,,,,
+332780077,2013,6,,,1,,,,Ryan Field,,,,,,,,
+332780239,2013,6,,,1,,,,Floyd Casey Stadium,,,,,,,,
+332780024,2013,6,,,1,,,,Stanford Stadium,,,,,,,,
+332780062,2013,6,,,1,,,,Aloha Stadium,,,,,,,,
+332830097,2013,7,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+332832005,2013,7,,,1,,,,Falcon Stadium,,,,,,,,
+332830030,2013,7,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+332842132,2013,7,,,1,,,,Nippert Stadium,,,,,,,,
+332850251,2013,7,,,1,,,,,,,,,,,,
+332850248,2013,7,,,1,,,,,,,,,,,,
+332852628,2013,7,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+332852509,2013,7,,,1,,,,Ross-Ade Stadium,,,,,,,,
+332850061,2013,7,,,1,,,,Sanford Stadium,,,,,,,,
+332850349,2013,7,,,1,,,,Michie Stadium,,,,,,,,
+332852641,2013,7,,,1,,,,Jones AT&T Stadium,,,,,,,,
+332850259,2013,7,,,1,,,,Lane Stadium,,,,,,,,
+332850041,2013,7,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+332850127,2013,7,,,1,,,,Spartan Stadium,,,,,,,,
+332850008,2013,7,,,1,,,,Razorback Stadium,,,,,,,,
+332850150,2013,7,,,1,,,,Wallace Wade Stadium,,,,,,,,
+332850195,2013,7,,,1,,,,Peden Stadium,,,,,,,,
+332852711,2013,7,,,1,,,,Waldo Stadium,,,,,,,,
+332850002,2013,7,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332850113,2013,7,,,1,,,,Gillette Stadium,,,,,,,,
+332852050,2013,7,,,1,,,,Scheumann Stadium,,,,,,,,
+332850099,2013,7,,,1,,,,Tiger Stadium (LA),,,,,,,,
+332850228,2013,7,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+332850152,2013,7,,,1,,,,Carter-Finley Stadium,,,,,,,,
+332852751,2013,7,,,1,,,,War Memorial Stadium,,,,,,,,
+332852247,2013,7,,,1,,,,Georgia Dome,,,,,,,,
+332850275,2013,7,,,1,,,,Camp Randall Stadium,,,,,,,,
+332852306,2013,7,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+332850120,2013,7,,,1,,,,SECU Stadium,,,,,,,,
+332850036,2013,7,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+332852655,2013,7,,,1,,,,Caesars Superdome,,,,,,,,
+332850264,2013,7,,,1,,,,Husky Stadium,,,,,,,,
+332852636,2013,7,,,1,,,,Alamodome,,,,,,,,
+332850213,2013,7,,,1,,,,Beaver Stadium,,,,,,,,
+332852226,2013,7,,,1,,,,FAU Stadium,,,,,,,,
+332852459,2013,7,,,1,,,,Huskie Stadium,,,,,,,,
+332850254,2013,7,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+332850326,2013,7,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+332850249,2013,7,,,1,,,,DATCU Stadium,,,,,,,,
+332850252,2013,7,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+332852032,2013,7,,,1,,,,Centennial Bank Stadium,,,,,,,,
+332850096,2013,7,,,1,,,,Kroger Field,,,,,,,,
+332852229,2013,7,,,1,,,,FIU Stadium,,,,,,,,
+332850344,2013,7,,,1,,,,Davis Wade Stadium,,,,,,,,
+332852638,2013,7,,,1,,,,Sun Bowl,,,,,,,,
+332850328,2013,7,,,1,,,,Maverik Stadium,,,,,,,,
+332852439,2013,7,,,1,,,,Sam Boyd Stadium,,,,,,,,
+332850145,2013,7,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+332850009,2013,7,,,1,,,,Mountain America Stadium,,,,,,,,
+332850026,2013,7,,,1,,,,Rose Bowl,,,,,,,,
+332850265,2013,7,,,1,,,,Gesa Field,,,,,,,,
+332880098,2013,8,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+332900153,2013,8,,,1,,,,Kenan Stadium,,,,,,,,
+332910097,2013,8,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+332920238,2013,8,,,1,,,,FirstBank Stadium,,,,,,,,
+332922633,2013,8,,,1,,,,Neyland Stadium,,,,,,,,
+332922649,2013,8,,,1,,,,Glass Bowl,,,,,,,,
+332922132,2013,8,,,1,,,,Nippert Stadium,,,,,,,,
+332920235,2013,8,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+332920151,2013,8,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+332920127,2013,8,,,1,,,,Spartan Stadium,,,,,,,,
+332920077,2013,8,,,1,,,,Ryan Field,,,,,,,,
+332920197,2013,8,,,1,,,,Boone Pickens Stadium,,,,,,,,
+332920277,2013,8,,,1,,,,Milan Puskar Stadium,,,,,,,,
+332920142,2013,8,,,1,,,,Memorial Stadium,,,,,,,,
+332920059,2013,8,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+332920218,2013,8,,,1,,,,Lincoln Financial Field,,,,,,,,
+332920193,2013,8,,,1,,,,Yager Stadium,,,,,,,,
+332922199,2013,8,,,1,,,,Rynearson Stadium,,,,,,,,
+332922751,2013,8,,,1,,,,War Memorial Stadium,,,,,,,,
+332922711,2013,8,,,1,,,,Waldo Stadium,,,,,,,,
+332920038,2013,8,,,1,,,,Folsom Field,,,,,,,,
+332920006,2013,8,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+332922117,2013,8,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+332920154,2013,8,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+332922305,2013,8,,,1,,,,Memorial Stadium,,,,,,,,
+332920245,2013,8,,,1,,,,Kyle Field,,,,,,,,
+332920024,2013,8,,,1,,,,Stanford Stadium,,,,,,,,
+332920194,2013,8,,,1,,,,Ohio Stadium,,,,,,,,
+332920130,2013,8,,,1,,,,Michigan Stadium,,,,,,,,
+332922348,2013,8,,,1,,,,Joe Aillet Stadium,,,,,,,,
+332922084,2013,8,,,1,,,,UB Stadium,,,,,,,,
+332920258,2013,8,,,1,,,,Scott Stadium,,,,,,,,
+332920248,2013,8,,,1,,,,,,,,,,,,
+332920009,2013,8,,,1,,,,Mountain America Stadium,,,,,,,,
+332920239,2013,8,,,1,,,,Floyd Casey Stadium,,,,,,,,
+332920326,2013,8,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+332920221,2013,8,,,1,,,,Acrisure Stadium,,,,,,,,
+332920145,2013,8,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+332920333,2013,8,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+332920087,2013,8,,,1,,,,Notre Dame Stadium,,,,,,,,
+332920068,2013,8,,,1,,,,Albertsons Stadium,,,,,,,,
+332920166,2013,8,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+332920356,2013,8,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+332920228,2013,8,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+332920167,2013,8,,,1,,,,University Stadium (NM),,,,,,,,
+332920278,2013,8,,,1,,,,Valley Children's Stadium,,,,,,,,
+332922483,2013,8,,,1,,,,Autzen Stadium,,,,,,,,
+332920012,2013,8,,,1,,,,Arizona Stadium,,,,,,,,
+332920025,2013,8,,,1,,,,California Memorial Stadium,,,,,,,,
+332952032,2013,9,,,1,,,,Centennial Bank Stadium,,,,,,,,
+332972393,2013,9,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+332970344,2013,9,,,1,,,,Davis Wade Stadium,,,,,,,,
+332980252,2013,9,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+332992390,2013,9,,,1,,,,Hard Rock Stadium,,,,,,,,
+332990066,2013,9,,,1,,,,Jack Trice Stadium,,,,,,,,
+332990058,2013,9,,,1,,,,Raymond James Stadium,,,,,,,,
+332992116,2013,9,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+332990135,2013,9,,,1,,,,Huntington Bank Stadium,,,,,,,,
+332990164,2013,9,,,1,,,,High Point Solutions Stadium,,,,,,,,
+332992006,2013,9,,,1,,,,InfoCision Stadium,,,,,,,,
+332992294,2013,9,,,1,,,,Kinnick Stadium,,,,,,,,
+332990245,2013,9,,,1,,,,Kyle Field,,,,,,,,
+332990258,2013,9,,,1,,,,Scott Stadium,,,,,,,,
+332992426,2013,9,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+332990195,2013,9,,,1,,,,Peden Stadium,,,,,,,,
+332990189,2013,9,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+332992567,2013,9,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+332990113,2013,9,,,1,,,,Gillette Stadium,,,,,,,,
+332990120,2013,9,,,1,,,,SECU Stadium,,,,,,,,
+332992655,2013,9,,,1,,,,Caesars Superdome,,,,,,,,
+332992309,2013,9,,,1,,,,Dix Stadium,,,,,,,,
+332990356,2013,9,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+332990242,2013,9,,,1,,,,Rice Stadium,,,,,,,,
+332990153,2013,9,,,1,,,,Kenan Stadium,,,,,,,,
+332992459,2013,9,,,1,,,,Huskie Stadium,,,,,,,,
+332990259,2013,9,,,1,,,,Lane Stadium,,,,,,,,
+332990052,2013,9,,,1,,,,Doak Campbell Stadium,,,,,,,,
+332990333,2013,9,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+332992306,2013,9,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+332990098,2013,9,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+332990030,2013,9,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+332990201,2013,9,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+332992636,2013,9,,,1,,,,Alamodome,,,,,,,,
+332992005,2013,9,,,1,,,,Falcon Stadium,,,,,,,,
+332992229,2013,9,,,1,,,,FIU Stadium,,,,,,,,
+332992440,2013,9,,,1,,,,Mackay Stadium,,,,,,,,
+332992483,2013,9,,,1,,,,Autzen Stadium,,,,,,,,
+332990099,2013,9,,,1,,,,Tiger Stadium (LA),,,,,,,,
+332992433,2013,9,,,1,,,,Malone Stadium,,,,,,,,
+332990326,2013,9,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+332992305,2013,9,,,1,,,,Memorial Stadium,,,,,,,,
+332990023,2013,9,,,1,,,,CEFCU Stadium,,,,,,,,
+332992572,2013,9,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+332990142,2013,9,,,1,,,,Memorial Stadium,,,,,,,,
+332992628,2013,9,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+332990002,2013,9,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+332990145,2013,9,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+332990194,2013,9,,,1,,,,Ohio Stadium,,,,,,,,
+332990166,2013,9,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+332990038,2013,9,,,1,,,,Folsom Field,,,,,,,,
+332990204,2013,9,,,1,,,,Reser Stadium,,,,,,,,
+332990021,2013,9,,,1,,,,Qualcomm Stadium,,,,,,,,
+332990264,2013,9,,,1,,,,Husky Stadium,,,,,,,,
+332990062,2013,9,,,1,,,,Aloha Stadium,,,,,,,,
+333030235,2013,10,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+333040248,2013,10,,,1,,,,,,,,,,,,
+333042653,2013,10,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+333040249,2013,10,,,1,,,,DATCU Stadium,,,,,,,,
+333040265,2013,10,,,1,,,,Gesa Field,,,,,,,,
+333050204,2013,10,,,1,,,,Reser Stadium,,,,,,,,
+333062294,2013,10,,,1,,,,Kinnick Stadium,,,,,,,,
+333060276,2013,10,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+333060103,2013,10,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+333062005,2013,10,,,1,,,,Falcon Stadium,,,,,,,,
+333060213,2013,10,,,1,,,,Beaver Stadium,,,,,,,,
+333060164,2013,10,,,1,,,,High Point Solutions Stadium,,,,,,,,
+333062509,2013,10,,,1,,,,Ross-Ade Stadium,,,,,,,,
+333060113,2013,10,,,1,,,,Gillette Stadium,,,,,,,,
+333062579,2013,10,,,1,,,,Williams-Brice Stadium,,,,,,,,
+333060152,2013,10,,,1,,,,Carter-Finley Stadium,,,,,,,,
+333060183,2013,10,,,1,,,,JMA Wireless Dome,,,,,,,,
+333060005,2013,10,,,1,,,,Legion Field,,,,,,,,
+333062247,2013,10,,,1,,,,Georgia Dome,,,,,,,,
+333060127,2013,10,,,1,,,,Spartan Stadium,,,,,,,,
+333062628,2013,10,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+333062306,2013,10,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+333062006,2013,10,,,1,,,,InfoCision Stadium,,,,,,,,
+333060251,2013,10,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+333060202,2013,10,,,1,,,,Chapman Stadium,,,,,,,,
+333060158,2013,10,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+333060084,2013,10,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+333060057,2013,10,,,1,,,,,,,,,,,,
+333060025,2013,10,,,1,,,,California Memorial Stadium,,,,,,,,
+333060087,2013,10,,,1,,,,Notre Dame Stadium,,,,,,,,
+333060258,2013,10,,,1,,,,Scott Stadium,,,,,,,,
+333062439,2013,10,,,1,,,,Sam Boyd Stadium,,,,,,,,
+333060328,2013,10,,,1,,,,Maverik Stadium,,,,,,,,
+333060070,2013,10,,,1,,,,Kibbie Dome,,,,,,,,
+333062226,2013,10,,,1,,,,FAU Stadium,,,,,,,,
+333060309,2013,10,,,1,,,,Cajun Field,,,,,,,,
+333062229,2013,10,,,1,,,,FIU Stadium,,,,,,,,
+333060008,2013,10,,,1,,,,Razorback Stadium,,,,,,,,
+333062641,2013,10,,,1,,,,Jones AT&T Stadium,,,,,,,,
+333060142,2013,10,,,1,,,,Memorial Stadium,,,,,,,,
+333060059,2013,10,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+333062649,2013,10,,,1,,,,Glass Bowl,,,,,,,,
+333060006,2013,10,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+333060026,2013,10,,,1,,,,Rose Bowl,,,,,,,,
+333060096,2013,10,,,1,,,,Kroger Field,,,,,,,,
+333060021,2013,10,,,1,,,,Qualcomm Stadium,,,,,,,,
+333060036,2013,10,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+333060052,2013,10,,,1,,,,Doak Campbell Stadium,,,,,,,,
+333060245,2013,10,,,1,,,,Kyle Field,,,,,,,,
+333060278,2013,10,,,1,,,,Valley Children's Stadium,,,,,,,,
+333092084,2013,11,,,1,,,,UB Stadium,,,,,,,,
+333090193,2013,11,,,1,,,,Yager Stadium,,,,,,,,
+333102050,2013,11,,,1,,,,Scheumann Stadium,,,,,,,,
+333110239,2013,11,,,1,,,,Floyd Casey Stadium,,,,,,,,
+333110309,2013,11,,,1,,,,Cajun Field,,,,,,,,
+333110024,2013,11,,,1,,,,Stanford Stadium,,,,,,,,
+333120041,2013,11,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+333120167,2013,11,,,1,,,,University Stadium (NM),,,,,,,,
+333130135,2013,11,,,1,,,,Huntington Bank Stadium,,,,,,,,
+333130276,2013,11,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+333132132,2013,11,,,1,,,,Nippert Stadium,,,,,,,,
+333130349,2013,11,,,1,,,,Michie Stadium,,,,,,,,
+333132509,2013,11,,,1,,,,Ross-Ade Stadium,,,,,,,,
+333130154,2013,11,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+333130096,2013,11,,,1,,,,Kroger Field,,,,,,,,
+333132633,2013,11,,,1,,,,Neyland Stadium,,,,,,,,
+333132641,2013,11,,,1,,,,Jones AT&T Stadium,,,,,,,,
+333130057,2013,11,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+333130066,2013,11,,,1,,,,Jack Trice Stadium,,,,,,,,
+333130145,2013,11,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+333130061,2013,11,,,1,,,,Sanford Stadium,,,,,,,,
+333130153,2013,11,,,1,,,,Kenan Stadium,,,,,,,,
+333132199,2013,11,,,1,,,,Rynearson Stadium,,,,,,,,
+333132636,2013,11,,,1,,,,Alamodome,,,,,,,,
+333130025,2013,11,,,1,,,,California Memorial Stadium,,,,,,,,
+333130036,2013,11,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+333130084,2013,11,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+333130245,2013,11,,,1,,,,Kyle Field,,,,,,,,
+333130130,2013,11,,,1,,,,Michigan Stadium,,,,,,,,
+333130166,2013,11,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+333130275,2013,11,,,1,,,,Camp Randall Stadium,,,,,,,,
+333130249,2013,11,,,1,,,,DATCU Stadium,,,,,,,,
+333130120,2013,11,,,1,,,,SECU Stadium,,,,,,,,
+333132426,2013,11,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+333130151,2013,11,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+333130197,2013,11,,,1,,,,Boone Pickens Stadium,,,,,,,,
+333132393,2013,11,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+333130254,2013,11,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+333130150,2013,11,,,1,,,,Wallace Wade Stadium,,,,,,,,
+333130235,2013,11,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+333130070,2013,11,,,1,,,,Kibbie Dome,,,,,,,,
+333132390,2013,11,,,1,,,,Hard Rock Stadium,,,,,,,,
+333132116,2013,11,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+333130277,2013,11,,,1,,,,Milan Puskar Stadium,,,,,,,,
+333132348,2013,11,,,1,,,,Joe Aillet Stadium,,,,,,,,
+333132433,2013,11,,,1,,,,Malone Stadium,,,,,,,,
+333130221,2013,11,,,1,,,,Acrisure Stadium,,,,,,,,
+333130264,2013,11,,,1,,,,Husky Stadium,,,,,,,,
+333132439,2013,11,,,1,,,,Sam Boyd Stadium,,,,,,,,
+333130333,2013,11,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+333130012,2013,11,,,1,,,,Arizona Stadium,,,,,,,,
+333132751,2013,11,,,1,,,,War Memorial Stadium,,,,,,,,
+333130023,2013,11,,,1,,,,CEFCU Stadium,,,,,,,,
+333160189,2013,12,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+333162649,2013,12,,,1,,,,Glass Bowl,,,,,,,,
+333172459,2013,12,,,1,,,,Huskie Stadium,,,,,,,,
+333172309,2013,12,,,1,,,,Dix Stadium,,,,,,,,
+333180228,2013,12,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+333180202,2013,12,,,1,,,,Chapman Stadium,,,,,,,,
+333190026,2013,12,,,1,,,,Rose Bowl,,,,,,,,
+333200213,2013,12,,,1,,,,Beaver Stadium,,,,,,,,
+333202711,2013,12,,,1,,,,Waldo Stadium,,,,,,,,
+333202305,2013,12,,,1,,,,Memorial Stadium,,,,,,,,
+333200356,2013,12,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+333200218,2013,12,,,1,,,,Lincoln Financial Field,,,,,,,,
+333200201,2013,12,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+333200275,2013,12,,,1,,,,Camp Randall Stadium,,,,,,,,
+333200145,2013,12,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+333200164,2013,12,,,1,,,,High Point Solutions Stadium,,,,,,,,
+333200238,2013,12,,,1,,,,FirstBank Stadium,,,,,,,,
+333202572,2013,12,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+333200259,2013,12,,,1,,,,Lane Stadium,,,,,,,,
+333200221,2013,12,,,1,,,,Acrisure Stadium,,,,,,,,
+333200103,2013,12,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+333200113,2013,12,,,1,,,,Gillette Stadium,,,,,,,,
+333200151,2013,12,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+333202247,2013,12,,,1,,,,Georgia Dome,,,,,,,,
+333200012,2013,12,,,1,,,,Arizona Stadium,,,,,,,,
+333200252,2013,12,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+333202567,2013,12,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+333200002,2013,12,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+333200150,2013,12,,,1,,,,Wallace Wade Stadium,,,,,,,,
+333200077,2013,12,,,1,,,,Ryan Field,,,,,,,,
+333202306,2013,12,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+333202426,2013,12,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+333200158,2013,12,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+333200251,2013,12,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+333200052,2013,12,,,1,,,,Doak Campbell Stadium,,,,,,,,
+333202483,2013,12,,,1,,,,Autzen Stadium,,,,,,,,
+333200038,2013,12,,,1,,,,Folsom Field,,,,,,,,
+333202579,2013,12,,,1,,,,Williams-Brice Stadium,,,,,,,,
+333200097,2013,12,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+333200058,2013,12,,,1,,,,Raymond James Stadium,,,,,,,,
+333200167,2013,12,,,1,,,,University Stadium (NM),,,,,,,,
+333200242,2013,12,,,1,,,,Rice Stadium,,,,,,,,
+333200239,2013,12,,,1,,,,,,,,,,,,
+333202032,2013,12,,,1,,,,Centennial Bank Stadium,,,,,,,,
+333200344,2013,12,,,1,,,,Davis Wade Stadium,,,,,,,,
+333202638,2013,12,,,1,,,,Sun Bowl,,,,,,,,
+333200030,2013,12,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+333200009,2013,12,,,1,,,,Mountain America Stadium,,,,,,,,
+333200068,2013,12,,,1,,,,Albertsons Stadium,,,,,,,,
+333200062,2013,12,,,1,,,,Aloha Stadium,,,,,,,,
+333202440,2013,12,,,1,,,,Mackay Stadium,,,,,,,,
+333230193,2013,13,,,1,,,,Yager Stadium,,,,,,,,
+333230195,2013,13,,,1,,,,Peden Stadium,,,,,,,,
+333242649,2013,13,,,1,,,,Glass Bowl,,,,,,,,
+333252116,2013,13,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+333250005,2013,13,,,1,,,,Legion Field,,,,,,,,
+333252005,2013,13,,,1,,,,Falcon Stadium,,,,,,,,
+333260023,2013,13,,,1,,,,CEFCU Stadium,,,,,,,,
+333270154,2013,13,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+333270248,2013,13,,,1,,,,,,,,,,,,
+333272390,2013,13,,,1,,,,Hard Rock Stadium,,,,,,,,
+333272294,2013,13,,,1,,,,Kinnick Stadium,,,,,,,,
+333272509,2013,13,,,1,,,,Ross-Ade Stadium,,,,,,,,
+333270153,2013,13,,,1,,,,Kenan Stadium,,,,,,,,
+333270228,2013,13,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+333270077,2013,13,,,1,,,,Ryan Field,,,,,,,,
+333272306,2013,13,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+333270097,2013,13,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+333270008,2013,13,,,1,,,,,,,,,,,,
+333270183,2013,13,,,1,,,,JMA Wireless Dome,,,,,,,,
+333270152,2013,13,,,1,,,,Carter-Finley Stadium,,,,,,,,
+333272117,2013,13,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+333272579,2013,13,,,1,,,,Williams-Brice Stadium,,,,,,,,
+333272199,2013,13,,,1,,,,Rynearson Stadium,,,,,,,,
+333270059,2013,13,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+333270333,2013,13,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+333272751,2013,13,,,1,,,,War Memorial Stadium,,,,,,,,
+333270057,2013,13,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+333272226,2013,13,,,1,,,,FAU Stadium,,,,,,,,
+333272032,2013,13,,,1,,,,Centennial Bank Stadium,,,,,,,,
+333270265,2013,13,,,1,,,,Gesa Field,,,,,,,,
+333270328,2013,13,,,1,,,,Maverik Stadium,,,,,,,,
+333272572,2013,13,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+333270135,2013,13,,,1,,,,Huntington Bank Stadium,,,,,,,,
+333270099,2013,13,,,1,,,,Tiger Stadium (LA),,,,,,,,
+333270087,2013,13,,,1,,,,Notre Dame Stadium,,,,,,,,
+333270120,2013,13,,,1,,,,SECU Stadium,,,,,,,,
+333270213,2013,13,,,1,,,,Beaver Stadium,,,,,,,,
+333270249,2013,13,,,1,,,,DATCU Stadium,,,,,,,,
+333272655,2013,13,,,1,,,,Caesars Superdome,,,,,,,,
+333270012,2013,13,,,1,,,,Arizona Stadium,,,,,,,,
+333270194,2013,13,,,1,,,,Ohio Stadium,,,,,,,,
+333270052,2013,13,,,1,,,,Doak Campbell Stadium,,,,,,,,
+333270278,2013,13,,,1,,,,Valley Children's Stadium,,,,,,,,
+333270024,2013,13,,,1,,,,Stanford Stadium,,,,,,,,
+333272229,2013,13,,,1,,,,FIU Stadium,,,,,,,,
+333270026,2013,13,,,1,,,,Rose Bowl,,,,,,,,
+333272633,2013,13,,,1,,,,Neyland Stadium,,,,,,,,
+333272348,2013,13,,,1,,,,Joe Aillet Stadium,,,,,,,,
+333270326,2013,13,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+333270006,2013,13,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+333270058,2013,13,,,1,,,,Raymond James Stadium,,,,,,,,
+333270061,2013,13,,,1,,,,Sanford Stadium,,,,,,,,
+333270218,2013,13,,,1,,,,Lincoln Financial Field,,,,,,,,
+333270145,2013,13,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+333270066,2013,13,,,1,,,,Jack Trice Stadium,,,,,,,,
+333270197,2013,13,,,1,,,,Boone Pickens Stadium,,,,,,,,
+333270038,2013,13,,,1,,,,Folsom Field,,,,,,,,
+333270021,2013,13,,,1,,,,Qualcomm Stadium,,,,,,,,
+333270204,2013,13,,,1,,,,Reser Stadium,,,,,,,,
+333302459,2013,14,,,1,,,,Huskie Stadium,,,,,,,,
+333320251,2013,14,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+333320344,2013,14,,,1,,,,Davis Wade Stadium,,,,,,,,
+333332006,2013,14,,,1,,,,InfoCision Stadium,,,,,,,,
+333330158,2013,14,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+333330248,2013,14,,,1,,,,,,,,,,,,
+333330276,2013,14,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+333332050,2013,14,,,1,,,,Scheumann Stadium,,,,,,,,
+333332084,2013,14,,,1,,,,UB Stadium,,,,,,,,
+333330195,2013,14,,,1,,,,Peden Stadium,,,,,,,,
+333332117,2013,14,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+333332653,2013,14,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+333330099,2013,14,,,1,,,,Tiger Stadium (LA),,,,,,,,
+333332226,2013,14,,,1,,,,FAU Stadium,,,,,,,,
+333330264,2013,14,,,1,,,,Husky Stadium,,,,,,,,
+333330023,2013,14,,,1,,,,CEFCU Stadium,,,,,,,,
+333330221,2013,14,,,1,,,,Acrisure Stadium,,,,,,,,
+333332483,2013,14,,,1,,,,Autzen Stadium,,,,,,,,
+333332116,2013,14,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+333340127,2013,14,,,1,,,,Spartan Stadium,,,,,,,,
+333342305,2013,14,,,1,,,,Memorial Stadium,,,,,,,,
+333340235,2013,14,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+333340041,2013,14,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+333340153,2013,14,,,1,,,,Kenan Stadium,,,,,,,,
+333340130,2013,14,,,1,,,,Michigan Stadium,,,,,,,,
+333340057,2013,14,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+333340238,2013,14,,,1,,,,FirstBank Stadium,,,,,,,,
+333340152,2013,14,,,1,,,,Carter-Finley Stadium,,,,,,,,
+333340005,2013,14,,,1,,,,Legion Field,,,,,,,,
+333340254,2013,14,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+333340328,2013,14,,,1,,,,Maverik Stadium,,,,,,,,
+333342247,2013,14,,,1,,,,Georgia Dome,,,,,,,,
+333340036,2013,14,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+333340202,2013,14,,,1,,,,Chapman Stadium,,,,,,,,
+333342440,2013,14,,,1,,,,Mackay Stadium,,,,,,,,
+333340242,2013,14,,,1,,,,Rice Stadium,,,,,,,,
+333340356,2013,14,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+333340275,2013,14,,,1,,,,Camp Randall Stadium,,,,,,,,
+333340258,2013,14,,,1,,,,Scott Stadium,,,,,,,,
+333342628,2013,14,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+333340002,2013,14,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+333340059,2013,14,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+333340084,2013,14,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+333340166,2013,14,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+333342636,2013,14,,,1,,,,Alamodome,,,,,,,,
+333340183,2013,14,,,1,,,,JMA Wireless Dome,,,,,,,,
+333342393,2013,14,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+333340098,2013,14,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+333340277,2013,14,,,1,,,,Milan Puskar Stadium,,,,,,,,
+333342579,2013,14,,,1,,,,Williams-Brice Stadium,,,,,,,,
+333340096,2013,14,,,1,,,,Kroger Field,,,,,,,,
+333340309,2013,14,,,1,,,,Cajun Field,,,,,,,,
+333340024,2013,14,,,1,,,,Stanford Stadium,,,,,,,,
+333340142,2013,14,,,1,,,,Memorial Stadium,,,,,,,,
+333340030,2013,14,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+333340009,2013,14,,,1,,,,Mountain America Stadium,,,,,,,,
+333340068,2013,14,,,1,,,,Albertsons Stadium,,,,,,,,
+333342439,2013,14,,,1,,,,Sam Boyd Stadium,,,,,,,,
+333340062,2013,14,,,1,,,,Aloha Stadium,,,,,,,,
+333392132,2013,15,,,1,,,,Nippert Stadium,,,,,,,,
+333402459,2013,15,,,1,,,,,,,,,,,,
+333410197,2013,15,,,1,,,,Boone Pickens Stadium,,,,,,,,
+333410242,2013,15,,,1,,,,Rice Stadium,,,,,,,,
+333412567,2013,15,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+333410041,2013,15,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+333410239,2013,15,,,1,,,,Floyd Casey Stadium,,,,,,,,
+333410002,2013,15,,,1,,,,Georgia Dome,,,,,,,,
+333410164,2013,15,,,1,,,,High Point Solutions Stadium,,,,,,,,
+333410009,2013,15,,,1,,,,Mountain America Stadium,,,,,,,,
+333410052,2013,15,,,1,,,,,,,,,,,,
+333410006,2013,15,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+333410127,2013,15,,,1,,,,,,,,,,,,
+333410278,2013,15,,,1,,,,Valley Children's Stadium,,,,,,,,

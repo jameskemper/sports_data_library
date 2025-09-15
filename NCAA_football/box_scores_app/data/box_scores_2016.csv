@@ -1,833 +1,833 @@
-id,season,week,seasonType,startDate,completed,neutralSite,conferenceGame,venue,homeTeam,homeConference,homePoints,homeLineScores,awayTeam,awayConference,awayPoints,awayLineScores
-400869090,2016,1,regular,2016-08-27T02:00:00.000Z,1,1,0,ANZ Stadium,California,Pac-12,51,"[17, 17, 7, 10]",Hawai'i,Mountain West,31,"[14, 0, 10, 7]"
-400869421,2016,1,regular,2016-09-01T23:00:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,7,"[0, 7, 0, 0]",Tulane,American Athletic,3,"[3, 0, 0, 0]"
-400869257,2016,1,regular,2016-09-01T23:00:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,49,"[7, 7, 14, 21]",Presbyterian,Big South,3,"[0, 3, 0, 0]"
-400869341,2016,1,regular,2016-09-01T23:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,70,"[28, 28, 7, 7]",Charlotte,Conference USA,14,"[0, 0, 7, 7]"
-400869503,2016,1,regular,2016-09-01T23:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,24,"[0, 7, 7, 10]",Maine,CAA,21,"[7, 0, 7, 7]"
-400869502,2016,1,regular,2016-09-01T23:00:00.000Z,1,0,0,Nippert Stadium,Cincinnati,American Athletic,28,"[0, 6, 8, 14]",UT Martin,OVC,7,"[7, 0, 0, 0]"
-400869342,2016,1,regular,2016-09-01T23:30:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,13,"[3, 7, 3, 0]",Indiana,Big Ten,34,"[5, 7, 0, 22]"
-400868977,2016,1,regular,2016-09-01T23:30:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,20,"[3, 0, 3, 7, 7]",App State,Sun Belt,13,"[7, 6, 0, 0, 0]"
-400869422,2016,1,regular,2016-09-01T23:30:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,48,"[7, 21, 7, 13]",William & Mary,CAA,14,"[7, 0, 7, 0]"
-400868968,2016,1,regular,2016-09-02T00:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,10,"[3, 7, 0, 0]",South Carolina,SEC,13,"[0, 0, 3, 10]"
-400869347,2016,1,regular,2016-09-02T00:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,46,"[16, 14, 6, 10]",Rice,Conference USA,14,"[0, 7, 7, 0]"
-400869091,2016,1,regular,2016-09-02T00:00:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,24,"[3, 14, 0, 7]",Southern Utah,Big Sky,0,"[0, 0, 0, 0]"
-400869173,2016,1,regular,2016-09-02T00:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,45,"[14, 7, 10, 14]",Weber State,Big Sky,6,"[0, 6, 0, 0]"
-400869725,2016,1,regular,2016-09-02T01:00:00.000Z,1,0,0,Kibbie Dome,Idaho,Sun Belt,20,"[17, 3, 0, 0]",Montana State,Big Sky,17,"[7, 3, 7, 0]"
-400869092,2016,1,regular,2016-09-02T01:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,30,"[0, 17, 0, 13]",Oregon State,Pac-12,23,"[7, 7, 9, 0]"
-400869177,2016,1,regular,2016-09-02T01:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,48,"[14, 21, 6, 7]",South Dakota,MVFC,21,"[14, 0, 7, 0]"
-400869174,2016,1,regular,2016-09-02T02:00:00.000Z,1,1,0,Sam Boyd Stadium,UNLV,Mountain West,63,"[28, 14, 21, 0]",Jackson State,SWAC,13,"[7, 3, 0, 3]"
-400869263,2016,1,regular,2016-09-02T22:00:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,61,"[21, 7, 26, 7]",Mississippi Valley State,SWAC,14,"[0, 0, 0, 14]"
-400869423,2016,1,regular,2016-09-02T23:00:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,33,"[7, 13, 6, 7]",Colgate,Patriot,7,"[7, 0, 0, 0]"
-400869258,2016,1,regular,2016-09-02T23:00:00.000Z,1,0,0,Georgia Dome,Georgia State,Sun Belt,21,"[7, 7, 0, 7]",Ball State,Mid-American,31,"[7, 7, 3, 14]"
-400869651,2016,1,regular,2016-09-02T23:00:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,28,"[7, 7, 7, 7]",Furman,Southern,13,"[0, 3, 3, 7]"
-400869259,2016,1,regular,2016-09-02T23:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,16,"[0, 13, 3, 0]",UAlbany,CAA,22,"[7, 7, 0, 8]"
-400868910,2016,1,regular,2016-09-02T23:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,13,"[0, 10, 3, 0]",Army,FBS Independents,28,"[0, 7, 7, 14]"
-400868876,2016,1,regular,2016-09-02T23:30:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,55,"[24, 24, 7, 0]",Northwestern State,Southland,7,"[0, 0, 7, 0]"
-400869093,2016,1,regular,2016-09-03T00:00:00.000Z,1,1,0,Sports Authority Field at Mile High,Colorado,Pac-12,44,"[21, 10, 6, 7]",Colorado State,Mountain West,7,"[0, 0, 0, 7]"
-400869265,2016,1,regular,2016-09-03T01:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,10,"[3, 0, 0, 7]",Toledo,Mid-American,31,"[0, 21, 10, 0]"
-400869094,2016,1,regular,2016-09-03T01:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,26,"[3, 14, 0, 9]",Kansas State,Big 12,13,"[0, 3, 3, 7]"
-400869181,2016,1,regular,2016-09-03T01:30:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,30,"[21, 3, 0, 0, 6]",Cal Poly,Big Sky,27,"[7, 3, 0, 14, 3]"
-400869424,2016,1,regular,2016-09-03T11:30:00.000Z,1,1,1,Aviva Stadium,Boston College,ACC,14,"[0, 0, 7, 7]",Georgia Tech,ACC,17,"[7, 0, 0, 10]"
-400869578,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,45,"[21, 7, 0, 17]",Eastern Kentucky,OVC,24,"[8, 10, 0, 6]"
-400869509,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,52,"[21, 14, 14, 3]",Fordham,Patriot,16,"[10, 0, 3, 3]"
-400868975,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,20,"[7, 10, 3, 0]",South Alabama,Sun Belt,21,"[0, 0, 7, 14]"
-400869176,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,10,"[0, 3, 0, 7]",Boise State,Mountain West,45,"[14, 21, 3, 7]"
-400869653,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,SECU Stadium,Maryland,Big Ten,52,"[21, 14, 7, 10]",Howard,MEAC,13,"[0, 0, 0, 13]"
-400869180,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,63,"[14, 21, 21, 7]",Hawai'i,Mountain West,3,"[0, 0, 0, 3]"
-400868976,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,26,"[10, 3, 10, 3]",Missouri,SEC,11,"[0, 3, 0, 8]"
-400869267,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,21,"[7, 0, 7, 7]",Western Michigan,Mid-American,22,"[0, 6, 10, 6]"
-400869260,2016,1,regular,2016-09-03T16:00:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,77,"[21, 14, 21, 21]",Bowling Green,Mid-American,10,"[7, 3, 0, 0]"
-400869507,2016,1,regular,2016-09-03T16:00:00.000Z,1,1,0,NRG Stadium,Houston,American Athletic,33,"[3, 16, 14, 0]",Oklahoma,Big 12,23,"[10, 7, 0, 6]"
-400869428,2016,1,regular,2016-09-03T16:30:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,36,"[7, 17, 9, 3]",Liberty,Big South,13,"[6, 7, 0, 0]"
-400869426,2016,1,regular,2016-09-03T17:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,28,"[0, 14, 7, 7]",Villanova,CAA,7,"[0, 0, 7, 0]"
-400869175,2016,1,regular,2016-09-03T18:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,37,"[7, 21, 0, 9]",Abilene Christian,Southland,21,"[0, 7, 7, 7]"
-400869097,2016,1,regular,2016-09-03T18:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,48,"[24, 10, 14, 0]",Rutgers,Big Ten,13,"[0, 3, 0, 10]"
-400869619,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,61,"[28, 3, 21, 9]",SE Louisiana,Southland,7,"[0, 7, 0, 0]"
-400869427,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,20,"[0, 7, 0, 13]",Richmond,CAA,37,"[6, 10, 7, 14]"
-400869264,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,54,"[6, 0, 10, 22, 3, 7, 6]",Texas State,Sun Belt,56,"[0, 14, 7, 17, 3, 7, 8]"
-400868974,2016,1,regular,2016-09-03T19:30:00.000Z,1,1,0,Lambeau Field,Wisconsin,Big Ten,16,"[0, 6, 7, 3]",LSU,SEC,14,"[0, 0, 14, 0]"
-400869652,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,52,"[14, 21, 7, 10]",Murray State,OVC,3,"[0, 3, 0, 0]"
-400868978,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,31,"[0, 10, 14, 0, 7]",UCLA,Pac-12,24,"[3, 6, 0, 15, 0]"
-400869261,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,33,"[6, 10, 10, 7]",Kent State,Mid-American,13,"[3, 10, 0, 0]"
-400869262,2016,1,regular,2016-09-03T19:30:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,45,"[21, 7, 7, 10]",Miami (OH),Mid-American,21,"[0, 7, 7, 7]"
-400868970,2016,1,regular,2016-09-03T20:00:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,21,"[7, 7, 0, 7]",Louisiana Tech,Conference USA,20,"[7, 7, 6, 0]"
-400869096,2016,1,regular,2016-09-03T21:00:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,53,"[8, 17, 14, 14]",UC Davis,Big Sky,28,"[7, 0, 14, 7]"
-400868972,2016,1,regular,2016-09-03T21:30:00.000Z,1,1,0,Georgia Dome,North Carolina,ACC,24,"[0, 10, 14, 0]",Georgia,SEC,33,"[7, 7, 9, 10]"
-400869718,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,70,"[14, 14, 42, 0]",Florida A&M,MEAC,3,"[0, 3, 0, 0]"
-400869505,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,52,"[10, 21, 21, 0]",Western Carolina,Southern,7,"[0, 7, 0, 0]"
-400869810,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,57,"[13, 17, 14, 13]",Austin Peay,OVC,17,"[7, 7, 3, 0]"
-400869808,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,54,"[21, 7, 19, 7]",Savannah St,MEAC,0,"[0, 0, 0, 0]"
-400869425,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,49,"[21, 28, 0, 0]",North Carolina Central,MEAC,6,"[0, 0, 3, 3]"
-400869343,2016,1,regular,2016-09-03T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,Conference USA,38,"[14, 7, 14, 3]",Southern Illinois,MVFC,30,"[14, 10, 0, 6]"
-400869266,2016,1,regular,2016-09-03T22:30:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,47,"[12, 7, 7, 21]",VMI,Southern,24,"[7, 3, 14, 0]"
-400869508,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,35,"[22, 7, 3, 3]",Southeast Missouri State,OVC,17,"[0, 3, 7, 7]"
-400869345,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,DATCU Stadium,North Texas,Conference USA,21,"[0, 14, 0, 7]",SMU,American Athletic,34,"[17, 7, 10, 0]"
-400869183,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,45,"[24, 14, 7, 0]",San José State,Mountain West,10,"[7, 0, 0, 3]"
-400869809,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Malone Stadium,UL Monroe,Sun Belt,38,"[14, 0, 10, 14]",Southern,SWAC,21,"[9, 3, 3, 6]"
-400869506,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,56,"[14, 14, 21, 7]",Towson,CAA,20,"[3, 7, 7, 3]"
-400869344,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,55,"[28, 17, 0, 10]",Alabama A&M,SWAC,0,"[0, 0, 0, 0]"
-400869597,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,55,"[13, 14, 14, 14]",Rhode Island,CAA,6,"[0, 6, 0, 0]"
-400869349,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,Alamodome,UTSA,Conference USA,26,"[6, 8, 6, 6]",Alabama State,SWAC,13,"[7, 0, 0, 6]"
-400869504,2016,1,regular,2016-09-03T23:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,American Athletic,38,"[6, 12, 13, 7]",South Carolina State,MEAC,0,"[0, 0, 0, 0]"
-400868957,2016,1,regular,2016-09-03T23:30:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,24,"[7, 3, 0, 14]",Massachusetts,FBS Independents,7,"[0, 7, 0, 0]"
-400868973,2016,1,regular,2016-09-03T23:30:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,35,"[21, 14, 0, 0]",Southern Miss,Conference USA,44,"[7, 10, 21, 6]"
-400869098,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,42,"[14, 14, 0, 14]",Eastern Washington,Big Sky,45,"[7, 17, 14, 7]"
-400869625,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,69,"[21, 24, 10, 14]",Stephen F. Austin,Southland,17,"[0, 3, 7, 7]"
-400868969,2016,1,regular,2016-09-04T00:00:00.000Z,1,1,0,AT&T Stadium,Alabama,SEC,52,"[0, 17, 21, 14]",USC,Pac-12,6,"[3, 0, 3, 0]"
-400869179,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,43,"[7, 7, 7, 22]",Fresno State,Mountain West,10,"[0, 10, 0, 0]"
-400868887,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,20,"[7, 6, 0, 7]",Northern Iowa,MVFC,25,"[0, 16, 3, 6]"
-400869348,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,38,"[7, 17, 7, 7]",New Mexico State,Sun Belt,22,"[3, 0, 13, 6]"
-400869624,2016,1,regular,2016-09-04T00:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,59,"[7, 17, 21, 14]",South Dakota State,MVFC,41,"[3, 21, 14, 3]"
-400869182,2016,1,regular,2016-09-04T00:30:00.000Z,1,1,0,Qualcomm Stadium,San Diego State,Mountain West,31,"[14, 7, 3, 7]",New Hampshire,CAA,0,"[0, 0, 0, 0]"
-400868971,2016,1,regular,2016-09-04T01:00:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,13,"[0, 3, 0, 10]",Clemson,ACC,19,"[0, 10, 3, 6]"
-400868922,2016,1,regular,2016-09-04T02:30:00.000Z,1,1,0,State Farm Stadium,Arizona,Pac-12,16,"[0, 0, 3, 13]",BYU,FBS Independents,18,"[0, 9, 0, 9]"
-400869178,2016,1,regular,2016-09-04T02:30:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,40,"[3, 10, 14, 0, 0, 7, 6]",Northern Illinois,Mid-American,34,"[7, 6, 7, 7, 0, 7, 0]"
-400869095,2016,1,regular,2016-09-04T03:00:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,44,"[7, 3, 10, 24]",Northern Arizona,Big Sky,13,"[0, 3, 3, 7]"
-400869346,2016,1,regular,2016-09-04T19:30:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Conference USA,54,"[14, 17, 9, 14]",Hampton,MEAC,21,"[7, 7, 7, 0]"
-400868946,2016,1,regular,2016-09-04T23:30:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,50,"[7, 14, 10, 6, 7, 6]",Notre Dame,FBS Independents,47,"[7, 7, 14, 9, 7, 3]"
-400868979,2016,1,regular,2016-09-06T00:00:00.000Z,1,1,0,Camping World Stadium,Florida State,ACC,45,"[3, 10, 23, 9]",Ole Miss,SEC,34,"[7, 21, 0, 6]"
-400869351,2016,2,regular,2016-09-09T23:30:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,14,"[0, 7, 0, 7]",Maryland,Big Ten,41,"[10, 21, 10, 0]"
-400869429,2016,2,regular,2016-09-10T00:00:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,28,"[7, 14, 7, 0]",Louisville,ACC,62,"[28, 7, 7, 20]"
-400869510,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,51,"[21, 13, 10, 7]",UCF,American Athletic,14,"[0, 7, 7, 0]"
-400869514,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,TDECU Stadium,Houston,American Athletic,42,"[14, 14, 7, 7]",Lamar,Southland,0,"[0, 0, 0, 0]"
-400869511,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,20,"[0, 7, 0, 13]",Cincinnati,American Athletic,38,"[7, 14, 3, 14]"
-400868911,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,31,"[14, 7, 7, 3]",Rice,Conference USA,14,"[7, 0, 7, 0]"
-400868958,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Gillette Stadium,Massachusetts,FBS Independents,7,"[7, 0, 0, 0]",Boston College,ACC,26,"[0, 13, 6, 7]"
-400869187,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,52,"[7, 10, 7, 28]",Wyoming,Mountain West,17,"[0, 7, 10, 0]"
-400869435,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Dowdy-Ficklen Stadium,East Carolina,American Athletic,33,"[9, 10, 7, 7]",NC State,ACC,30,"[0, 20, 3, 7]"
-400869436,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,42,"[14, 14, 7, 7]",Penn State,Big Ten,39,"[7, 7, 7, 18]"
-400869633,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,High Point Solutions Stadium,Rutgers,Big Ten,52,"[7, 7, 21, 17]",Howard,MEAC,14,"[14, 0, 0, 0]"
-400869654,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,58,"[14, 24, 10, 10]",Indiana State,MVFC,28,"[7, 0, 14, 7]"
-400868990,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,67,"[17, 21, 13, 16]",Prairie View A&M,SWAC,0,"[0, 0, 0, 0]"
-400869270,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,27,"[14, 3, 3, 7]",Central Michigan,Mid-American,30,"[0, 10, 7, 13]"
-400868984,2016,2,regular,2016-09-10T16:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,26,"[7, 3, 16, 0]",Nicholls,Southland,24,"[0, 7, 7, 10]"
-400869430,2016,2,regular,2016-09-10T16:30:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,30,"[3, 10, 0, 17]",Troy,Sun Belt,24,"[3, 7, 0, 14]"
-400869432,2016,2,regular,2016-09-10T16:30:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,52,"[28, 7, 14, 3]",Charleston Southern,Big South,8,"[0, 6, 0, 2]"
-400869513,2016,2,regular,2016-09-10T17:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,38,"[14, 14, 10, 0]",Stony Brook,CAA,0,"[0, 0, 0, 0]"
-400869101,2016,2,regular,2016-09-10T18:00:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,45,"[7, 14, 10, 14]",Utah State,Mountain West,7,"[0, 0, 7, 0]"
-400869626,2016,2,regular,2016-09-10T18:00:00.000Z,1,0,0,Milan Puskar Stadium,West Virginia,Big 12,38,"[7, 7, 17, 7]",Youngstown State,MVFC,21,"[0, 14, 0, 7]"
-400869184,2016,2,regular,2016-09-10T18:00:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,48,"[10, 17, 14, 7]",Georgia State,Sun Belt,14,"[7, 7, 0, 0]"
-400869277,2016,2,regular,2016-09-10T18:30:00.000Z,1,0,0,Memorial Stadium,Kansas,Big 12,21,"[0, 7, 14, 0]",Ohio,Mid-American,37,"[15, 13, 6, 3]"
-400869433,2016,2,regular,2016-09-10T19:00:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,35,"[7, 14, 7, 7]",Mercer,Southern,10,"[7, 0, 3, 0]"
-400869655,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,7,"[0, 0, 0, 7]",Illinois State,MVFC,9,"[0, 6, 0, 3]"
-400869512,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,28,"[7, 14, 0, 7]",UConn,American Athletic,24,"[0, 7, 14, 3]"
-400869431,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,14,"[7, 0, 7, 0]",Wake Forest,ACC,24,"[0, 7, 14, 3]"
-400869276,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,27,"[14, 7, 6, 0]",North Dakota,Big Sky,26,"[0, 10, 10, 6]"
-400868983,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,45,"[14, 10, 14, 7]",Kentucky,SEC,7,"[0, 0, 0, 7]"
-400869355,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Kidd Brewer Stadium,App State,Sun Belt,31,"[14, 10, 0, 7]",Old Dominion,Conference USA,7,"[0, 7, 0, 0]"
-400868980,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,38,"[10, 7, 7, 14]",Western Kentucky,Conference USA,10,"[3, 0, 0, 7]"
-400869516,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Ohio Stadium,Ohio State,Big Ten,48,"[3, 17, 14, 14]",Tulsa,American Athletic,3,"[3, 0, 0, 0]"
-400869268,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,54,"[9, 21, 10, 14]",Akron,Mid-American,10,"[0, 10, 0, 0]"
-400868947,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,39,"[0, 25, 14, 0]",Nevada,Mountain West,10,"[0, 0, 3, 7]"
-400868877,2016,2,regular,2016-09-10T19:30:00.000Z,1,0,0,McLane Stadium,Baylor,Big 12,40,"[0, 6, 20, 14]",SMU,American Athletic,13,"[6, 0, 7, 0]"
-400868991,2016,2,regular,2016-09-10T20:00:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,47,"[5, 28, 0, 14]",Middle Tennessee,Conference USA,24,"[10, 7, 7, 0]"
-400869185,2016,2,regular,2016-09-10T20:00:00.000Z,1,0,0,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,23,"[10, 10, 0, 3]",UTSA,Conference USA,14,"[7, 7, 0, 0]"
-400868986,2016,2,regular,2016-09-10T20:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,38,"[10, 14, 7, 7]",Wofford,Southern,13,"[0, 3, 0, 10]"
-400869269,2016,2,regular,2016-09-10T20:00:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,30,"[10, 10, 10, 0]",Ball State,Mid-American,20,"[0, 0, 3, 17]"
-400869190,2016,2,regular,2016-09-10T20:30:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,66,"[7, 21, 24, 14]",Portland State,Big Sky,35,"[7, 7, 7, 14]"
-400869271,2016,2,regular,2016-09-10T20:30:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,17,"[3, 7, 7, 0]",Eastern Illinois,OVC,21,"[0, 7, 0, 14]"
-400869105,2016,2,regular,2016-09-10T21:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,59,"[7, 28, 14, 10]",Idaho,Sun Belt,14,"[0, 0, 7, 7]"
-400869103,2016,2,regular,2016-09-10T21:30:00.000Z,1,0,0,Folsom Field,Colorado,Pac-12,56,"[14, 35, 7, 0]",Idaho State,Big Sky,7,"[0, 0, 7, 0]"
-400869274,2016,2,regular,2016-09-10T22:00:00.000Z,1,0,0,Dix Stadium,Kent State,Mid-American,36,"[3, 7, 7, 0, 3, 7, 6, 3]",North Carolina A&T,MEAC,39,"[0, 0, 10, 7, 3, 7, 6, 6]"
-400869719,2016,2,regular,2016-09-10T22:00:00.000Z,1,0,0,Hard Rock Stadium,Miami,ACC,38,"[0, 14, 10, 14]",Florida Atlantic,Conference USA,10,"[0, 3, 7, 0]"
-400869350,2016,2,regular,2016-09-10T22:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,Conference USA,47,"[0, 20, 13, 14]",Elon,CAA,14,"[7, 0, 0, 7]"
-400869353,2016,2,regular,2016-09-10T22:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Conference USA,62,"[21, 28, 13, 0]",Morgan State,MEAC,0,"[0, 0, 0, 0]"
-400869352,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Joe Aillet Stadium,Louisiana Tech,Conference USA,53,"[12, 7, 20, 14]",South Carolina State,MEAC,24,"[0, 10, 0, 14]"
-400869354,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,DATCU Stadium,North Texas,Conference USA,41,"[7, 17, 10, 7]",Bethune-Cookman,MEAC,20,"[7, 0, 6, 7]"
-400869356,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Conference USA,56,"[21, 28, 7, 0]",Savannah St,MEAC,0,"[0, 0, 0, 0]"
-400868981,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Amon G. Carter Stadium,TCU,Big 12,38,"[0, 0, 7, 21, 7, 3]",Arkansas,SEC,41,"[3, 10, 7, 8, 7, 6]"
-400869357,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,DKR-Texas Memorial Stadium,Texas,Big 12,41,"[10, 10, 14, 7]",UTEP,Conference USA,7,"[0, 7, 0, 0]"
-400869811,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,9,"[3, 3, 0, 3]",Georgia Southern,Sun Belt,24,"[10, 0, 7, 7]"
-400869812,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Cajun Field,Louisiana,Sun Belt,30,"[7, 7, 13, 3]",McNeese,Southland,22,"[3, 9, 3, 7]"
-400869612,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,59,"[21, 21, 3, 14]",UL Monroe,Sun Belt,17,"[0, 0, 17, 0]"
-400868987,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,27,"[7, 17, 0, 3]",South Carolina,SEC,14,"[0, 0, 7, 7]"
-400869272,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,45,"[7, 10, 21, 7]",Maine,CAA,3,"[3, 0, 0, 0]"
-400869273,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,48,"[14, 13, 14, 7]",Northern Illinois,Mid-American,17,"[0, 7, 0, 10]"
-400869275,2016,2,regular,2016-09-10T23:00:00.000Z,1,0,0,Waldo Stadium,Western Michigan,Mid-American,70,"[28, 14, 14, 14]",North Carolina Central,MEAC,21,"[7, 14, 0, 0]"
-400868985,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,34,"[0, 27, 7, 0]",Jacksonville State,OVC,13,"[0, 10, 0, 3]"
-400868988,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,61,"[14, 19, 14, 14]",Eastern Michigan,Mid-American,21,"[0, 7, 14, 0]"
-400869434,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,23,"[14, 2, 0, 7]",North Carolina,ACC,48,"[17, 7, 7, 17]"
-400868923,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,Rice-Eccles Stadium,Utah,Pac-12,20,"[7, 7, 3, 3]",BYU,FBS Independents,19,"[6, 7, 0, 6]"
-400868888,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,42,"[14, 14, 14, 0]",Iowa State,Big 12,3,"[3, 0, 0, 0]"
-400868982,2016,2,regular,2016-09-10T23:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,51,"[14, 24, 10, 3]",Arkansas State,Sun Belt,14,"[7, 0, 7, 0]"
-400869515,2016,2,regular,2016-09-11T00:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,66,"[28, 21, 7, 10]",Southern,SWAC,21,"[7, 0, 14, 0]"
-400868989,2016,2,regular,2016-09-11T00:00:00.000Z,1,1,0,Bristol Motor Speedway,Tennessee,SEC,45,"[0, 24, 7, 14]",Virginia Tech,ACC,24,"[14, 0, 3, 7]"
-400869186,2016,2,regular,2016-09-11T00:00:00.000Z,1,0,0,Aggie Memorial Stadium,New Mexico State,Sun Belt,32,"[3, 12, 7, 10]",New Mexico,Mountain West,31,"[14, 3, 7, 7]"
-400869102,2016,2,regular,2016-09-11T00:00:00.000Z,1,0,0,Rose Bowl,UCLA,Pac-12,42,"[7, 21, 0, 14]",UNLV,Mountain West,21,"[7, 7, 7, 0]"
-400869100,2016,2,regular,2016-09-11T02:00:00.000Z,1,0,0,Mountain America Stadium,Arizona State,Pac-12,68,"[9, 28, 14, 17]",Texas Tech,Big 12,55,"[14, 20, 7, 14]"
-400869188,2016,2,regular,2016-09-11T02:00:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,31,"[7, 3, 0, 21]",Sacramento State,Big Sky,3,"[0, 3, 0, 0]"
-400869106,2016,2,regular,2016-09-11T02:15:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,31,"[14, 3, 7, 7]",Washington State,Pac-12,28,"[0, 7, 7, 14]"
-400869104,2016,2,regular,2016-09-11T02:30:00.000Z,1,0,0,Autzen Stadium,Oregon,Pac-12,44,"[13, 17, 14, 0]",Virginia,ACC,26,"[6, 0, 14, 6]"
-400869107,2016,2,regular,2016-09-11T02:30:00.000Z,1,0,0,Qualcomm Stadium,San Diego State,Mountain West,45,"[14, 17, 7, 7]",California,Pac-12,40,"[14, 7, 10, 9]"
-400869099,2016,2,regular,2016-09-11T02:45:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,31,"[0, 3, 21, 7]",Grambling,SWAC,21,"[7, 14, 0, 0]"
-400869189,2016,2,regular,2016-09-11T03:59:00.000Z,1,0,0,Aloha Stadium,Hawai'i,Mountain West,41,"[7, 7, 14, 13]",UT Martin,OVC,36,"[10, 7, 7, 12]"
-400869517,2016,3,regular,2016-09-15T23:30:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,16,"[7, 3, 0, 6]",Houston,American Athletic,40,"[7, 3, 2, 28]"
-400869361,2016,3,regular,2016-09-17T00:00:00.000Z,1,0,0,Rice Stadium,Rice,Conference USA,10,"[0, 10, 0, 0]",Baylor,Big 12,38,"[0, 21, 10, 7]"
-400869193,2016,3,regular,2016-09-17T01:00:00.000Z,1,0,0,Maverik Stadium,Utah State,Mountain West,34,"[17, 7, 3, 7]",Arkansas State,Sun Belt,20,"[0, 0, 14, 6]"
-400869109,2016,3,regular,2016-09-17T01:30:00.000Z,1,0,0,Alamodome,UTSA,Conference USA,28,"[14, 0, 14, 0]",Arizona State,Pac-12,32,"[3, 9, 3, 17]"
-400869440,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,63,"[14, 21, 14, 14]",Florida State,ACC,20,"[3, 7, 0, 10]"
-400869438,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,59,"[31, 14, 14, 0]",South Carolina State,MEAC,0,"[0, 0, 0, 0]"
-400869657,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Camp Randall Stadium,Wisconsin,Big Ten,23,"[6, 0, 7, 10]",Georgia State,Sun Belt,17,"[0, 0, 10, 7]"
-400869000,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,28,"[7, 7, 7, 7]",Ohio,Mid-American,19,"[6, 6, 7, 0]"
-400869720,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Kidd Brewer Stadium,App State,Sun Belt,10,"[0, 3, 7, 0]",Miami,ACC,45,"[21, 3, 14, 7]"
-400868889,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,41,"[10, 14, 14, 3]",Iowa State,Big 12,20,"[0, 7, 3, 10]"
-400869192,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,High Point Solutions Stadium,Rutgers,Big Ten,37,"[7, 21, 3, 6]",New Mexico,Mountain West,28,"[21, 0, 0, 7]"
-400869278,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Conference USA,38,"[21, 0, 10, 7]",Akron,Mid-American,65,"[7, 34, 7, 17]"
-400869281,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Doyt L. Perry Stadium,Bowling Green,Mid-American,21,"[14, 7, 0, 0]",Middle Tennessee,Conference USA,41,"[14, 14, 7, 6]"
-400869520,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,43,"[13, 20, 3, 7]",Kansas,Big 12,7,"[0, 7, 0, 0]"
-400869519,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Beaver Stadium,Penn State,Big Ten,34,"[14, 7, 3, 10]",Temple,American Athletic,27,"[7, 3, 7, 10]"
-400869656,2016,3,regular,2016-09-17T16:00:00.000Z,1,0,0,Kinnick Stadium,Iowa,Big Ten,21,"[0, 14, 7, 0]",North Dakota State,MVFC,23,"[7, 0, 7, 9]"
-400869001,2016,3,regular,2016-09-17T16:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,38,"[14, 3, 14, 7]",Vanderbilt,SEC,7,"[7, 0, 0, 0]"
-400869444,2016,3,regular,2016-09-17T17:30:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,13,"[0, 3, 0, 10]",Virginia,ACC,10,"[3, 7, 0, 0]"
-400869523,2016,3,regular,2016-09-17T18:00:00.000Z,1,0,0,Chapman Stadium,Tulsa,American Athletic,58,"[24, 24, 10, 0]",North Carolina A&T,MEAC,21,"[0, 0, 7, 14]"
-400869116,2016,3,regular,2016-09-17T18:00:00.000Z,1,0,0,Gesa Field,Washington State,Pac-12,56,"[7, 14, 7, 28]",Idaho,Sun Belt,6,"[3, 0, 3, 0]"
-400869358,2016,3,regular,2016-09-17T18:30:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,63,"[21, 21, 7, 14]",Florida Atlantic,Conference USA,7,"[0, 0, 0, 7]"
-400869279,2016,3,regular,2016-09-17T19:00:00.000Z,1,0,0,Scheumann Stadium,Ball State,Mid-American,41,"[14, 13, 7, 7]",Eastern Kentucky,OVC,14,"[0, 0, 0, 14]"
-400869198,2016,3,regular,2016-09-17T19:00:00.000Z,1,0,0,Kelly/Shorts Stadium,Central Michigan,Mid-American,44,"[14, 14, 9, 7]",UNLV,Mountain West,21,"[7, 14, 0, 0]"
-400869195,2016,3,regular,2016-09-17T19:00:00.000Z,1,0,0,Glass Bowl,Toledo,Mid-American,52,"[14, 10, 14, 14]",Fresno State,Mountain West,17,"[0, 0, 7, 10]"
-400869443,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,JMA Wireless Dome,Syracuse,ACC,20,"[17, 0, 3, 0]",South Florida,American Athletic,45,"[0, 28, 7, 10]"
-400869282,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Dix Stadium,Kent State,Mid-American,27,"[3, 10, 7, 7]",Monmouth,Big South,7,"[0, 0, 0, 7]"
-400869283,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Yager Stadium,Miami (OH),Mid-American,24,"[0, 3, 14, 7]",Western Kentucky,Conference USA,31,"[0, 14, 10, 7]"
-400869437,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,49,"[14, 7, 21, 7]",Boston College,ACC,0,"[0, 0, 0, 0]"
-400869441,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,56,"[14, 21, 14, 7]",James Madison,CAA,28,"[21, 0, 7, 0]"
-400868959,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,21,"[0, 14, 7, 0]",Florida International,Conference USA,13,"[3, 0, 10, 0]"
-400868997,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,43,"[7, 17, 3, 16]",Alabama,SEC,48,"[3, 14, 17, 14]"
-400869113,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,35,"[7, 7, 14, 7]",Oregon,Pac-12,32,"[8, 12, 6, 6]"
-400869111,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Michigan Stadium,Michigan,Big Ten,45,"[7, 17, 14, 7]",Colorado,Pac-12,28,"[21, 0, 7, 0]"
-400869442,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Boone Pickens Stadium,Oklahoma State,Big 12,45,"[10, 21, 7, 7]",Pittsburgh,ACC,38,"[10, 14, 14, 0]"
-400869197,2016,3,regular,2016-09-17T19:30:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,28,"[0, 7, 14, 7]",San Diego State,Mountain West,42,"[14, 14, 0, 14]"
-400869194,2016,3,regular,2016-09-17T20:00:00.000Z,1,0,0,War Memorial Stadium,Wyoming,Mountain West,45,"[14, 21, 10, 0]",UC Davis,Big Sky,22,"[3, 6, 6, 7]"
-400868995,2016,3,regular,2016-09-17T20:00:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,62,"[14, 21, 14, 13]",New Mexico State,Sun Belt,42,"[21, 14, 7, 0]"
-400868999,2016,3,regular,2016-09-17T20:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,20,"[17, 0, 0, 3]",East Carolina,American Athletic,15,"[3, 3, 0, 9]"
-400869191,2016,3,regular,2016-09-17T20:00:00.000Z,1,0,0,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,47,"[21, 17, 3, 6]",Northern Colorado,Big Sky,21,"[0, 0, 14, 7]"
-400869284,2016,3,regular,2016-09-17T20:00:00.000Z,1,0,0,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,10,"[0, 7, 3, 0]",Western Michigan,Mid-American,34,"[14, 10, 3, 7]"
-400869114,2016,3,regular,2016-09-17T21:00:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,37,"[13, 10, 14, 0]",Idaho State,Big Sky,7,"[0, 0, 7, 0]"
-400869280,2016,3,regular,2016-09-17T22:00:00.000Z,1,0,0,Jerry Richardson Stadium,Charlotte,Conference USA,19,"[0, 3, 3, 13]",Eastern Michigan,Mid-American,37,"[7, 10, 17, 3]"
-400869813,2016,3,regular,2016-09-17T22:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,23,"[7, 3, 6, 7]",UL Monroe,Sun Belt,21,"[14, 0, 0, 7]"
-400869360,2016,3,regular,2016-09-17T22:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,49,"[7, 14, 14, 14]",Old Dominion,Conference USA,22,"[0, 3, 6, 13]"
-400869445,2016,3,regular,2016-09-17T22:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,38,"[10, 14, 14, 0]",Delaware,CAA,21,"[7, 7, 0, 7]"
-400868912,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,14,"[0, 0, 14, 0]",Army,FBS Independents,66,"[3, 21, 28, 14]"
-400869362,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,0,M. M. Roberts Stadium,Southern Miss,Conference USA,31,"[7, 10, 14, 0]",Troy,Sun Belt,37,"[17, 7, 10, 3]"
-400869518,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,0,FBC Mortgage Stadium,UCF,American Athletic,24,"[7, 0, 7, 3, 7, 0]",Maryland,Big Ten,30,"[0, 10, 7, 0, 7, 6]"
-400869521,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,14,"[0, 7, 7, 0]",Navy,American Athletic,21,"[0, 7, 6, 8]"
-400869814,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,28,"[6, 3, 13, 6]",South Alabama,Sun Belt,23,"[0, 7, 7, 9]"
-400869359,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,0,Jones AT&T Stadium,Texas Tech,Big 12,59,"[21, 14, 7, 17]",Louisiana Tech,Conference USA,45,"[3, 14, 14, 14]"
-400869522,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,29,"[10, 3, 6, 10]",Liberty,Big South,14,"[7, 0, 7, 0]"
-400868993,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,16,"[7, 3, 0, 6]",Texas A&M,SEC,29,"[3, 13, 3, 10]"
-400868996,2016,3,regular,2016-09-17T23:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,23,"[14, 9, 0, 0]",Mississippi State,SEC,20,"[0, 3, 3, 14]"
-400868994,2016,3,regular,2016-09-17T23:30:00.000Z,1,0,0,Ben Hill Griffin Stadium,Florida,SEC,32,"[5, 14, 0, 13]",North Texas,Conference USA,0,"[0, 0, 0, 0]"
-400868948,2016,3,regular,2016-09-17T23:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,28,"[7, 0, 7, 14]",Michigan State,Big Ten,36,"[0, 15, 21, 0]"
-400868998,2016,3,regular,2016-09-17T23:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,27,"[10, 10, 7, 0]",Georgia,SEC,28,"[7, 14, 0, 7]"
-400868992,2016,3,regular,2016-09-17T23:30:00.000Z,1,0,0,Razorback Stadium,Arkansas,SEC,42,"[14, 21, 7, 0]",Texas State,Sun Belt,3,"[0, 0, 3, 0]"
-400869613,2016,3,regular,2016-09-17T23:30:00.000Z,1,0,0,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,24,"[7, 10, 7, 0]",Ohio State,Big Ten,45,"[14, 21, 7, 3]"
-400869110,2016,3,regular,2016-09-18T00:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,27,"[7, 10, 10, 0]",USC,Pac-12,10,"[3, 0, 7, 0]"
-400869439,2016,3,regular,2016-09-18T00:00:00.000Z,1,0,0,Ryan Field,Northwestern,Big Ten,24,"[7, 0, 10, 7]",Duke,ACC,13,"[0, 7, 0, 6]"
-400869115,2016,3,regular,2016-09-18T00:00:00.000Z,1,0,0,Husky Stadium,Washington,Pac-12,41,"[14, 14, 0, 13]",Portland State,Big Sky,3,"[0, 0, 3, 0]"
-400869196,2016,3,regular,2016-09-18T01:00:00.000Z,1,0,0,Mackay Stadium,Nevada,Mountain West,38,"[7, 17, 7, 7]",Buffalo,Mid-American,14,"[0, 0, 7, 7]"
-400868924,2016,3,regular,2016-09-18T02:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,14,"[0, 0, 7, 7]",UCLA,Pac-12,17,"[0, 10, 7, 0]"
-400869112,2016,3,regular,2016-09-18T02:30:00.000Z,1,0,0,CEFCU Stadium,San José State,Mountain West,17,"[3, 7, 0, 7]",Utah,Pac-12,34,"[6, 14, 7, 7]"
-400869117,2016,3,regular,2016-09-18T02:30:00.000Z,1,0,0,California Memorial Stadium,California,Pac-12,50,"[14, 21, 0, 15]",Texas,Big 12,43,"[17, 16, 0, 10]"
-400869108,2016,3,regular,2016-09-18T02:45:00.000Z,1,0,0,Arizona Stadium,Arizona,Pac-12,47,"[20, 14, 10, 3]",Hawai'i,Mountain West,28,"[7, 0, 7, 14]"
-400869446,2016,4,regular,2016-09-22T23:30:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,7,"[0, 0, 0, 7]",Clemson,ACC,26,"[14, 9, 0, 3]"
-400869201,2016,4,regular,2016-09-23T23:30:00.000Z,1,0,0,Rynearson Stadium,Eastern Michigan,Mid-American,27,"[3, 14, 3, 7]",Wyoming,Mountain West,24,"[10, 7, 0, 7]"
-400869524,2016,4,regular,2016-09-24T00:00:00.000Z,1,0,0,Gerald J. Ford Stadium,SMU,American Athletic,3,"[3, 0, 0, 0]",TCU,Big 12,33,"[3, 3, 14, 13]"
-400869118,2016,4,regular,2016-09-24T01:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,31,"[7, 3, 7, 14]",USC,Pac-12,27,"[7, 10, 7, 3]"
-400869204,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Jack Trice Stadium,Iowa State,Big 12,44,"[10, 13, 7, 14]",San José State,Mountain West,10,"[3, 0, 7, 0]"
-400869363,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Lincoln Financial Field,Temple,American Athletic,48,"[3, 28, 14, 3]",Charlotte,Conference USA,20,"[7, 0, 7, 6]"
-400869634,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,Big Ten,7,"[0, 0, 0, 7]",Iowa,Big Ten,14,"[0, 7, 0, 7]"
-400869448,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Raymond James Stadium,South Florida,American Athletic,35,"[14, 0, 7, 14]",Florida State,ACC,55,"[28, 10, 7, 10]"
-400869203,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Ross-Ade Stadium,Purdue,Big Ten,24,"[0, 10, 7, 7]",Nevada,Mountain West,14,"[7, 7, 0, 0]"
-400869002,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,48,"[21, 20, 7, 0]",Kent State,Mid-American,0,"[0, 0, 0, 0]"
-400869200,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,0,Huntington Bank Stadium,Minnesota,Big Ten,31,"[7, 10, 7, 7]",Colorado State,Mountain West,24,"[7, 0, 10, 7]"
-400869659,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,6,"[3, 3, 0, 0]",Wisconsin,Big Ten,30,"[7, 6, 17, 0]"
-400869005,2016,4,regular,2016-09-24T16:00:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,45,"[17, 14, 14, 0]",Georgia,SEC,14,"[0, 0, 7, 7]"
-400869451,2016,4,regular,2016-09-24T16:30:00.000Z,1,0,0,Lane Stadium,Virginia Tech,ACC,54,"[14, 24, 9, 7]",East Carolina,American Athletic,17,"[0, 0, 14, 3]"
-400869288,2016,4,regular,2016-09-24T16:30:00.000Z,1,0,0,Scott Stadium,Virginia,ACC,49,"[15, 13, 0, 21]",Central Michigan,Mid-American,35,"[0, 14, 7, 14]"
-400869447,2016,4,regular,2016-09-24T17:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,42,"[14, 14, 14, 0]",Wagner,NEC,10,"[7, 3, 0, 0]"
-400869450,2016,4,regular,2016-09-24T17:00:00.000Z,1,0,0,Pratt & Whitney Stadium,UConn,American Athletic,24,"[0, 14, 3, 7]",Syracuse,ACC,31,"[14, 3, 7, 7]"
-400869289,2016,4,regular,2016-09-24T18:00:00.000Z,1,0,0,Peden Stadium,Ohio,Mid-American,37,"[14, 16, 7, 0]",Gardner-Webb,Big South,21,"[7, 0, 7, 7]"
-400869368,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Conference USA,33,"[6, 7, 12, 8]",UTSA,Conference USA,19,"[0, 7, 12, 0]"
-400869658,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,49,"[14, 14, 7, 14]",Penn State,Big Ten,10,"[0, 0, 3, 7]"
-400869007,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,38,"[0, 3, 14, 21]",Florida,SEC,28,"[7, 14, 0, 7]"
-400868925,2016,4,regular,2016-09-24T19:30:00.000Z,1,1,0,Northwest Stadium,West Virginia,Big 12,35,"[7, 14, 7, 7]",BYU,FBS Independents,32,"[7, 6, 6, 13]"
-400868949,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,35,"[14, 7, 7, 7]",Duke,ACC,38,"[14, 14, 0, 10]"
-400868960,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,Gillette Stadium,Massachusetts,FBS Independents,35,"[7, 7, 7, 14]",Mississippi State,SEC,47,"[3, 10, 28, 6]"
-400869123,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,Reser Stadium,Oregon State,Pac-12,24,"[7, 0, 10, 7]",Boise State,Mountain West,38,"[14, 17, 0, 7]"
-400869285,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,InfoCision Stadium,Akron,Mid-American,38,"[0, 14, 10, 14]",App State,Sun Belt,45,"[10, 21, 7, 7]"
-400869291,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,Nippert Stadium,Cincinnati,American Athletic,27,"[3, 7, 7, 10]",Miami (OH),Mid-American,20,"[7, 3, 10, 0]"
-400869292,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,Huskie Stadium,Northern Illinois,Mid-American,23,"[0, 7, 0, 16]",Western Illinois,MVFC,28,"[14, 0, 14, 0]"
-400869449,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,37,"[0, 16, 7, 14]",Pittsburgh,ACC,36,"[5, 14, 14, 3]"
-400869452,2016,4,regular,2016-09-24T19:30:00.000Z,1,0,0,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,28,"[7, 0, 14, 7]",Wake Forest,ACC,33,"[7, 14, 6, 6]"
-400869006,2016,4,regular,2016-09-24T20:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,79,"[30, 28, 14, 7]",Delaware State,MEAC,0,"[0, 0, 0, 0]"
-400869009,2016,4,regular,2016-09-24T20:30:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,30,"[7, 7, 0, 10, 6]",Vanderbilt,SEC,31,"[0, 7, 7, 10, 7]"
-400869202,2016,4,regular,2016-09-24T20:30:00.000Z,1,0,0,Valley Children's Stadium,Fresno State,Mountain West,41,"[21, 10, 3, 7, 0, 0]",Tulsa,American Athletic,48,"[0, 21, 7, 13, 7, 0]"
-400869122,2016,4,regular,2016-09-24T21:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,38,"[7, 10, 21, 0]",Colorado,Pac-12,41,"[16, 10, 7, 8]"
-400869286,2016,4,regular,2016-09-24T22:00:00.000Z,1,0,0,FAU Stadium,Florida Atlantic,Conference USA,27,"[14, 10, 0, 3]",Ball State,Mid-American,31,"[0, 17, 7, 7]"
-400869367,2016,4,regular,2016-09-24T22:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,35,"[10, 7, 3, 8, 7, 0]",North Texas,Conference USA,42,"[0, 14, 7, 7, 7, 7]"
-400869003,2016,4,regular,2016-09-24T22:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,18,"[3, 6, 3, 6]",LSU,SEC,13,"[7, 0, 6, 0]"
-400869816,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,52,"[7, 24, 14, 7]",New Mexico State,Sun Belt,6,"[0, 0, 6, 0]"
-400869817,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,Ladd Peebles Stadium,South Alabama,Sun Belt,41,"[7, 17, 3, 7, 7]",Nicholls,Southland,40,"[0, 23, 3, 8, 6]"
-400869365,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,38,"[7, 0, 10, 21]",Louisiana Tech,Conference USA,34,"[7, 13, 7, 7]"
-400869815,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,Centennial Bank Stadium,Arkansas State,Sun Belt,23,"[16, 0, 7, 0]",Central Arkansas,Southland,28,"[7, 6, 3, 12]"
-400869364,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,FIU Stadium,Florida International,Conference USA,14,"[7, 0, 0, 7]",UCF,American Athletic,53,"[15, 17, 14, 7]"
-400869290,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,Waldo Stadium,Western Michigan,Mid-American,49,"[7, 28, 7, 7]",Georgia Southern,Sun Belt,31,"[7, 10, 7, 7]"
-400868913,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,UB Stadium,Buffalo,Mid-American,23,"[0, 0, 6, 14, 3]",Army,FBS Independents,20,"[7, 3, 10, 0, 0]"
-400869525,2016,4,regular,2016-09-24T23:00:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,3,"[0, 3, 0, 0]",Houston,American Athletic,64,"[16, 27, 14, 7]"
-400869605,2016,4,regular,2016-09-24T23:10:00.000Z,1,0,0,Bill Snyder Family Stadium,Kansas State,Big 12,35,"[14, 21]",Missouri State,MVFC,0,"[0, 0]"
-400869004,2016,4,regular,2016-09-24T23:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,17,"[0, 3, 7, 7]",South Carolina,SEC,10,"[0, 7, 3, 0]"
-400869660,2016,4,regular,2016-09-24T23:30:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,13,"[0, 7, 6, 0]",Nebraska,Big Ten,24,"[0, 10, 14, 0]"
-400868878,2016,4,regular,2016-09-24T23:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,35,"[7, 14, 7, 7]",Oklahoma State,Big 12,24,"[7, 7, 10, 0]"
-400869366,2016,4,regular,2016-09-25T00:00:00.000Z,1,0,0,Joan C. Edwards Stadium,Marshall,Conference USA,28,"[0, 7, 0, 21]",Louisville,ACC,59,"[7, 28, 17, 7]"
-400869369,2016,4,regular,2016-09-25T00:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,7,"[7, 0, 0, 0]",Southern Miss,Conference USA,34,"[3, 21, 7, 3]"
-400869287,2016,4,regular,2016-09-25T00:00:00.000Z,1,0,0,Simmons Bank Liberty Stadium,Memphis,American Athletic,77,"[35, 21, 14, 7]",Bowling Green,Mid-American,3,"[3, 0, 0, 0]"
-400869121,2016,4,regular,2016-09-25T00:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,13,"[7, 3, 0, 3]",Stanford,Pac-12,22,"[3, 0, 3, 16]"
-400869526,2016,4,regular,2016-09-25T00:00:00.000Z,1,0,0,Yulman Stadium,Tulane,American Athletic,41,"[0, 6, 10, 0, 7, 7, 3, 8]",Louisiana,Sun Belt,39,"[3, 3, 3, 7, 7, 7, 3, 6]"
-400869008,2016,4,regular,2016-09-25T01:00:00.000Z,1,1,1,AT&T Stadium,Texas A&M,SEC,45,"[0, 17, 7, 21]",Arkansas,SEC,24,"[7, 10, 0, 7]"
-400869205,2016,4,regular,2016-09-25T01:00:00.000Z,1,0,0,Sam Boyd Stadium,UNLV,Mountain West,30,"[0, 14, 3, 10, 3]",Idaho,Sun Belt,33,"[7, 10, 3, 7, 6]"
-400869120,2016,4,regular,2016-09-25T02:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,51,"[3, 7, 10, 31]",California,Pac-12,41,"[7, 17, 3, 14]"
-400869199,2016,4,regular,2016-09-25T02:15:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,20,"[7, 3, 0, 10]",Air Force,Mountain West,27,"[3, 14, 0, 10]"
-400869119,2016,4,regular,2016-09-25T02:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,28,"[7, 7, 0, 14, 0]",Washington,Pac-12,35,"[0, 14, 7, 7, 7]"
-400869527,2016,5,regular,2016-09-30T00:00:00.000Z,1,0,1,TDECU Stadium,Houston,American Athletic,42,"[0, 28, 14, 0]",UConn,American Athletic,14,"[0, 7, 0, 7]"
-400869598,2016,5,regular,2016-09-30T00:30:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,55,"[14, 14, 13, 14]",Kansas,Big 12,19,"[0, 9, 10, 0]"
-400869124,2016,5,regular,2016-10-01T01:00:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,44,"[13, 10, 7, 14]",Stanford,Pac-12,6,"[0, 0, 6, 0]"
-400868926,2016,5,regular,2016-10-01T02:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,55,"[21, 0, 14, 20]",Toledo,Mid-American,53,"[14, 7, 17, 15]"
-400869620,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,49,"[16, 21, 6, 6]",Texas,Big 12,31,"[13, 12, 6, 0]"
-400868950,2016,5,regular,2016-10-01T16:00:00.000Z,1,1,0,MetLife Stadium,Syracuse,ACC,33,"[13, 14, 0, 6]",Notre Dame,FBS Independents,50,"[23, 10, 14, 3]"
-400869011,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,0,War Memorial Stadium (AR),Arkansas,SEC,52,"[24, 0, 14, 14]",Alcorn State,SWAC,10,"[0, 7, 3, 0]"
-400869635,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,58,"[6, 24, 21, 7]",Rutgers,Big Ten,0,"[0, 0, 0, 0]"
-400868879,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,42,"[14, 14, 14, 0]",Baylor,Big 12,45,"[7, 14, 7, 17]"
-400869721,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,21,"[0, 14, 7, 0]",Miami,ACC,35,"[7, 21, 7, 0]"
-400869818,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,17,"[0, 0, 7, 10]",Georgia State,Sun Belt,3,"[0, 0, 0, 3]"
-400869662,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,31,"[7, 14, 3, 7]",Northwestern,Big Ten,38,"[10, 7, 14, 7]"
-400869530,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,45,"[21, 14, 3, 7]",SMU,American Athletic,20,"[7, 7, 0, 6]"
-400869528,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,29,"[0, 7, 14, 8]",UCF,American Athletic,47,"[0, 16, 7, 24]"
-400869017,2016,5,regular,2016-10-01T16:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,6,"[0, 3, 3, 0]",Florida,SEC,13,"[0, 10, 0, 3]"
-400869454,2016,5,regular,2016-10-01T16:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,20,"[7, 3, 3, 7]",Virginia,ACC,34,"[6, 14, 7, 7]"
-400869294,2016,5,regular,2016-10-01T17:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,35,"[7, 14, 0, 14]",Buffalo,Mid-American,3,"[0, 3, 0, 0]"
-400869296,2016,5,regular,2016-10-01T18:30:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,7,"[0, 0, 7, 0]",Ohio,Mid-American,17,"[3, 7, 0, 7]"
-400869127,2016,5,regular,2016-10-01T18:30:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,47,"[13, 24, 3, 7]",Oregon State,Pac-12,6,"[3, 3, 0, 0]"
-400869295,2016,5,regular,2016-10-01T19:20:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,25,"[7, 0, 3, 15]",Eastern Michigan,Mid-American,28,"[7, 0, 14, 7]"
-400869665,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,31,"[7, 3, 0, 21]",Illinois,Big Ten,16,"[0, 13, 3, 0]"
-400869297,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,24,"[10, 7, 0, 7]",Northern Illinois,Mid-American,31,"[10, 14, 0, 7]"
-400869293,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,27,"[7, 10, 0, 10]",Akron,Mid-American,31,"[3, 7, 7, 14]"
-400869206,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,0,Falcon Stadium,Air Force,Mountain West,28,"[0, 3, 14, 11]",Navy,American Athletic,14,"[0, 0, 0, 14]"
-400869012,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,58,"[14, 14, 28, 2]",UL Monroe,Sun Belt,7,"[0, 7, 0, 0]"
-400869606,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,17,"[0, 0, 3, 14]",Kansas State,Big 12,16,"[7, 6, 3, 0]"
-400868961,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,24,"[14, 0, 0, 10]",Tulane,American Athletic,31,"[7, 3, 14, 7]"
-400869456,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,33,"[17, 6, 3, 7]",Wake Forest,ACC,16,"[0, 9, 7, 0]"
-400869663,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,50,"[8, 21, 7, 14]",Purdue,Big Ten,7,"[0, 0, 0, 7]"
-400869664,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,14,"[0, 7, 0, 7]",Wisconsin,Big Ten,7,"[0, 0, 7, 0]"
-400869013,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,31,"[7, 10, 7, 7]",Tennessee,SEC,34,"[0, 7, 7, 20]"
-400869455,2016,5,regular,2016-10-01T19:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,35,"[0, 7, 7, 21]",North Carolina,ACC,37,"[7, 14, 7, 9]"
-400869666,2016,5,regular,2016-10-01T19:40:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,29,"[0, 3, 17, 3, 6]",Minnesota,Big Ten,26,"[3, 10, 0, 10, 3]"
-400869209,2016,5,regular,2016-10-01T20:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,48,"[14, 17, 10, 7]",San José State,Mountain West,41,"[13, 7, 0, 21]"
-400869016,2016,5,regular,2016-10-01T20:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,13,"[7, 0, 3, 3]",Texas A&M,SEC,24,"[7, 0, 7, 10]"
-400869819,2016,5,regular,2016-10-01T21:00:00.000Z,1,0,1,Kibbie Dome,Idaho,Sun Belt,13,"[6, 0, 0, 7]",Troy,Sun Belt,34,"[14, 7, 13, 0]"
-400869614,2016,5,regular,2016-10-01T21:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,46,"[21, 3, 0, 22]",Oklahoma,Big 12,52,"[7, 28, 14, 3]"
-400869128,2016,5,regular,2016-10-01T22:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,28,"[14, 0, 7, 7]",Utah,Pac-12,23,"[0, 10, 7, 6]"
-400869370,2016,5,regular,2016-10-01T22:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,Conference USA,17,"[3, 7, 0, 7]",Old Dominion,Conference USA,52,"[21, 10, 21, 0]"
-400869375,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,44,"[3, 10, 21, 10]",Rice,Conference USA,28,"[0, 7, 7, 14]"
-400869010,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,34,"[3, 14, 14, 3]",Kentucky,SEC,6,"[3, 0, 0, 3]"
-400869374,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,13,"[7, 0, 0, 6]",Middle Tennessee,Conference USA,30,"[0, 13, 7, 10]"
-400869298,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,10,"[3, 0, 7, 0]",Western Michigan,Mid-American,49,"[7, 14, 14, 14]"
-400869372,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,28,"[14, 0, 0, 14]",UTEP,Conference USA,7,"[0, 0, 0, 7]"
-400869371,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,33,"[7, 7, 16, 3]",Florida Atlantic,Conference USA,31,"[7, 10, 14, 0]"
-400869529,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,20,"[6, 14, 0, 0]",South Florida,American Athletic,45,"[10, 14, 14, 7]"
-400869376,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,0,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,50,"[14, 16, 20, 0]",Houston Christian,Southland,3,"[3, 0, 0, 0]"
-400869015,2016,5,regular,2016-10-01T23:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,48,"[14, 10, 10, 14]",Memphis,American Athletic,28,"[0, 7, 14, 7]"
-400869821,2016,5,regular,2016-10-01T23:30:00.000Z,1,0,0,Bobcat Stadium (TX),Texas State,Sun Belt,48,"[0, 21, 13, 14]",Incarnate Word,Southland,17,"[7, 3, 0, 7]"
-400869014,2016,5,regular,2016-10-01T23:30:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,42,"[7, 14, 7, 14]",Missouri,SEC,7,"[0, 0, 0, 7]"
-400869373,2016,5,regular,2016-10-01T23:30:00.000Z,1,0,0,Acrisure Stadium,Pittsburgh,ACC,43,"[20, 7, 3, 13]",Marshall,Conference USA,27,"[0, 0, 14, 13]"
-400869661,2016,5,regular,2016-10-02T00:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,24,"[0, 0, 7, 14, 3]",Michigan State,Big Ten,21,"[7, 0, 7, 7, 0]"
-400869212,2016,5,regular,2016-10-02T00:00:00.000Z,1,0,0,Ladd Peebles Stadium,South Alabama,Sun Belt,42,"[14, 0, 7, 21]",San Diego State,Mountain West,24,"[6, 10, 8, 0]"
-400869820,2016,5,regular,2016-10-02T00:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Sun Belt,37,"[7, 14, 0, 3, 7, 6]",Louisiana,Sun Belt,31,"[7, 6, 8, 3, 7, 0]"
-400869453,2016,5,regular,2016-10-02T00:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,42,"[0, 28, 0, 14]",Louisville,ACC,36,"[0, 10, 16, 10]"
-400869126,2016,5,regular,2016-10-02T00:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,41,"[7, 20, 14, 0]",Arizona State,Pac-12,20,"[6, 0, 0, 14]"
-400869129,2016,5,regular,2016-10-02T01:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,51,"[7, 21, 2, 21]",Oregon,Pac-12,33,"[7, 7, 6, 13]"
-400869208,2016,5,regular,2016-10-02T02:15:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,17,"[7, 10, 0, 0]",Wyoming,Mountain West,38,"[3, 21, 14, 0]"
-400869207,2016,5,regular,2016-10-02T02:15:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,21,"[7, 0, 7, 7]",Utah State,Mountain West,10,"[0, 3, 0, 7]"
-400869125,2016,5,regular,2016-10-02T02:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,45,"[14, 0, 10, 21]",Arizona,Pac-12,24,"[7, 0, 3, 14]"
-400869210,2016,5,regular,2016-10-02T02:30:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,45,"[0, 21, 10, 14]",Fresno State,Mountain West,20,"[0, 7, 10, 3]"
-400869211,2016,5,regular,2016-10-02T03:59:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,38,"[3, 14, 21, 0]",Nevada,Mountain West,17,"[0, 3, 0, 14]"
-400869822,2016,6,regular,2016-10-06T00:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,27,"[0, 10, 7, 10]",Georgia Southern,Sun Belt,26,"[7, 6, 10, 3]"
-400869531,2016,6,regular,2016-10-07T00:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,34,"[0, 3, 17, 14]",Temple,American Athletic,27,"[6, 7, 0, 14]"
-400869379,2016,6,regular,2016-10-07T00:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,55,"[21, 14, 17, 3]",Western Kentucky,Conference USA,52,"[14, 10, 7, 21]"
-400869457,2016,6,regular,2016-10-07T23:30:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,10,"[3, 0, 7, 0]",Clemson,ACC,56,"[21, 0, 14, 21]"
-400868962,2016,6,regular,2016-10-08T00:00:00.000Z,1,0,0,S.B. Ballard Stadium,Old Dominion,Conference USA,36,"[10, 9, 10, 7]",Massachusetts,FBS Independents,16,"[0, 9, 7, 0]"
-400869533,2016,6,regular,2016-10-08T00:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,43,"[10, 13, 7, 7, 6]",SMU,American Athletic,40,"[14, 6, 7, 10, 3]"
-400869214,2016,6,regular,2016-10-08T01:00:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,21,"[7, 0, 0, 14]",Boise State,Mountain West,49,"[14, 28, 7, 0]"
-400869534,2016,6,regular,2016-10-08T15:30:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,20,"[0, 7, 10, 3]",Cincinnati,American Athletic,9,"[0, 9, 0, 0]"
-400869381,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,55,"[28, 10, 7, 10]",Southern Miss,Conference USA,32,"[7, 14, 3, 8]"
-400869599,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,23,"[7, 3, 13, 0]",TCU,Big 12,24,"[0, 14, 0, 10]"
-400869668,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,7,"[0, 0, 7, 0]",Iowa,Big Ten,14,"[0, 3, 3, 8]"
-400869669,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,38,"[7, 17, 7, 7]",Maryland,Big Ten,14,"[7, 7, 0, 0]"
-400869535,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,38,"[7, 10, 7, 14]",East Carolina,American Athletic,22,"[3, 3, 7, 9]"
-400869615,2016,6,regular,2016-10-08T16:00:00.000Z,1,1,1,Cotton Bowl,Oklahoma,Big 12,45,"[7, 7, 21, 10]",Texas,Big 12,40,"[3, 10, 14, 13]"
-400868951,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,0,Carter-Finley Stadium,NC State,ACC,10,"[3, 0, 0, 7]",Notre Dame,FBS Independents,3,"[0, 0, 3, 0]"
-400869021,2016,6,regular,2016-10-08T16:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,14,"[0, 0, 7, 7]",Auburn,SEC,38,"[14, 21, 0, 3]"
-400869458,2016,6,regular,2016-10-08T16:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,37,"[7, 14, 3, 13]",Georgia Tech,ACC,34,"[3, 17, 0, 14]"
-400869300,2016,6,regular,2016-10-08T18:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,30,"[3, 20, 7, 0]",Bowling Green,Mid-American,24,"[0, 7, 10, 7]"
-400869302,2016,6,regular,2016-10-08T19:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,35,"[14, 7, 7, 7]",Miami (OH),Mid-American,13,"[3, 3, 7, 0]"
-400869536,2016,6,regular,2016-10-08T19:00:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,46,"[10, 10, 21, 5]",Houston,American Athletic,40,"[10, 10, 7, 13]"
-400869304,2016,6,regular,2016-10-08T19:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,20,"[0, 3, 10, 7]",Toledo,Mid-American,35,"[0, 7, 14, 14]"
-400869023,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,45,"[21, 0, 7, 7, 3, 7]",Tennessee,SEC,38,"[7, 0, 7, 21, 3, 0]"
-400869643,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,38,"[3, 21, 7, 7]",Indiana,Big Ten,17,"[3, 7, 7, 0]"
-400868914,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,0,Wallace Wade Stadium,Duke,ACC,13,"[7, 6, 0, 0]",Army,FBS Independents,6,"[0, 6, 0, 0]"
-400869459,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,3,"[0, 3, 0, 0]",Virginia Tech,ACC,34,"[6, 7, 14, 7]"
-400868927,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,0,Spartan Stadium,Michigan State,Big Ten,14,"[7, 0, 0, 7]",BYU,FBS Independents,31,"[0, 3, 7, 21]"
-400869213,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,35,"[7, 7, 14, 7]",Air Force,Mountain West,26,"[0, 6, 7, 13]"
-400869299,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,24,"[3, 14, 0, 7]",Ball State,Mid-American,21,"[7, 0, 7, 7]"
-400869301,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,20,"[0, 3, 3, 14]",Kent State,Mid-American,44,"[10, 10, 7, 17]"
-400869590,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,38,"[7, 7, 7, 17]",Iowa State,Big 12,31,"[3, 14, 14, 0]"
-400869667,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,31,"[3, 13, 7, 8, 0]",Purdue,Big Ten,34,"[7, 14, 3, 7, 3]"
-400869823,2016,6,regular,2016-10-08T19:30:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,41,"[0, 24, 17, 0]",Texas State,Sun Belt,21,"[14, 0, 7, 0]"
-400869020,2016,6,regular,2016-10-08T20:00:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,20,"[7, 10, 0, 3]",Vanderbilt,SEC,13,"[3, 0, 7, 3]"
-400869132,2016,6,regular,2016-10-08T20:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,21,"[7, 7, 0, 7]",Colorado,Pac-12,17,"[0, 0, 7, 10]"
-400869217,2016,6,regular,2016-10-08T20:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,17,"[3, 7, 7, 0]",Hawai'i,Mountain West,34,"[3, 21, 0, 10]"
-400869303,2016,6,regular,2016-10-08T22:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,45,"[14, 7, 10, 14]",Northern Illinois,Mid-American,30,"[0, 17, 6, 7]"
-400869380,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,38,"[7, 7, 14, 10]",Marshall,Conference USA,21,"[7, 0, 14, 0]"
-400869018,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,30,"[7, 10, 7, 6]",Alabama,SEC,49,"[14, 21, 7, 7]"
-400869216,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,27,"[7, 14, 0, 6]",Fresno State,Mountain West,22,"[6, 0, 7, 9]"
-400869636,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,Big Ten,0,"[0, 0, 0, 0]",Michigan,Big Ten,78,"[14, 29, 14, 21]"
-400869460,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,28,"[0, 14, 0, 14]",Syracuse,ACC,9,"[2, 7, 0, 0]"
-400869607,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,44,"[14, 17, 0, 13]",Texas Tech,Big 12,38,"[14, 14, 3, 7]"
-400869824,2016,6,regular,2016-10-08T23:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,31,"[0, 21, 3, 7]",Idaho,Sun Belt,34,"[16, 8, 7, 3]"
-400869133,2016,6,regular,2016-10-08T23:30:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,21,"[0, 7, 14, 0]",Washington,Pac-12,70,"[21, 14, 21, 14]"
-400869722,2016,6,regular,2016-10-09T00:00:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,19,"[3, 10, 0, 6]",Florida State,ACC,20,"[0, 3, 14, 3]"
-400869378,2016,6,regular,2016-10-09T00:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,21,"[7, 0, 7, 7]",Florida International,Conference USA,35,"[3, 10, 15, 7]"
-400869134,2016,6,regular,2016-10-09T01:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,47,"[10, 7, 17, 7, 6]",California,Pac-12,44,"[0, 10, 7, 24, 3]"
-400869215,2016,6,regular,2016-10-09T02:00:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,31,"[10, 0, 14, 7]",Utah State,Mountain West,24,"[14, 10, 0, 0]"
-400869130,2016,6,regular,2016-10-09T02:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,36,"[3, 9, 17, 7]",Arizona,Pac-12,23,"[7, 7, 0, 9]"
-400869131,2016,6,regular,2016-10-09T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,23,"[3, 0, 17, 3]",UCLA,Pac-12,20,"[0, 3, 10, 7]"
-400869135,2016,6,regular,2016-10-09T02:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,16,"[0, 3, 7, 6]",Washington State,Pac-12,42,"[7, 7, 14, 14]"
-400869218,2016,6,regular,2016-10-09T02:30:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,26,"[10, 3, 7, 6]",UNLV,Mountain West,7,"[0, 7, 0, 0]"
-400869377,2016,6,regular,2016-10-09T16:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,23,"[3, 14, 0, 6]",Charlotte,Conference USA,28,"[7, 14, 7, 0]"
-400869022,2016,6,regular,2016-10-09T18:30:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,14,"[0, 0, 7, 7]",Georgia,SEC,28,"[7, 7, 0, 14]"
-400869825,2016,7,regular,2016-10-13T00:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,0,"[0, 0, 0, 0]",App State,Sun Belt,24,"[10, 14, 0, 0]"
-400869461,2016,7,regular,2016-10-14T23:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,24,"[7, 3, 7, 7]",Duke,ACC,14,"[7, 0, 0, 7]"
-400869538,2016,7,regular,2016-10-15T00:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,14,"[0, 7, 0, 7]",Memphis,American Athletic,24,"[3, 10, 3, 8]"
-400869221,2016,7,regular,2016-10-15T02:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,3,"[0, 0, 3, 0]",San Diego State,Mountain West,17,"[3, 7, 7, 0]"
-400868928,2016,7,regular,2016-10-15T02:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,28,"[7, 0, 0, 7, 7, 7]",Mississippi State,SEC,21,"[7, 7, 0, 0, 7, 0]"
-400868915,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,62,"[14, 21, 14, 13]",Lafayette,Patriot,7,"[0, 7, 0, 0]"
-400869608,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,38,"[14, 10, 7, 7]",Kansas State,Big 12,17,"[0, 10, 0, 7]"
-400869627,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,17,"[7, 0, 3, 7]",West Virginia,Big 12,48,"[10, 14, 3, 21]"
-400869462,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,24,"[3, 7, 7, 0, 7]",NC State,ACC,17,"[0, 3, 7, 7, 0]"
-400869673,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,35,"[0, 7, 7, 21]",Iowa,Big Ten,49,"[21, 14, 7, 7]"
-400869671,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,10,"[0, 0, 0, 10]",Minnesota,Big Ten,31,"[0, 14, 3, 14]"
-400869637,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,Big Ten,7,"[0, 0, 0, 7]",Illinois,Big Ten,24,"[0, 7, 10, 7]"
-400869026,2016,7,regular,2016-10-15T16:00:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,16,"[3, 3, 7, 3]",Vanderbilt,SEC,17,"[7, 0, 3, 7]"
-400869464,2016,7,regular,2016-10-15T16:30:00.000Z,1,0,0,Bobby Dodd Stadium,Georgia Tech,ACC,35,"[21, 0, 0, 14]",Georgia Southern,Sun Belt,24,"[7, 3, 0, 14]"
-400869465,2016,7,regular,2016-10-15T16:30:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,31,"[21, 7, 0, 3]",Pittsburgh,ACC,45,"[14, 21, 0, 10]"
-400869308,2016,7,regular,2016-10-15T18:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,20,"[0, 3, 7, 10]",Eastern Michigan,Mid-American,27,"[3, 0, 10, 14]"
-400869384,2016,7,regular,2016-10-15T18:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,43,"[3, 17, 0, 10, 7, 6]",Western Kentucky,Conference USA,44,"[3, 17, 7, 3, 7, 7]"
-400869309,2016,7,regular,2016-10-15T18:30:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,18,"[0, 3, 9, 6]",Kent State,Mid-American,14,"[0, 7, 7, 0]"
-400869028,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,10,"[0, 7, 3, 0]",Alabama,SEC,49,"[14, 7, 14, 14]"
-400869219,2016,7,regular,2016-10-15T19:30:00.000Z,1,1,1,Cotton Bowl,Air Force,Mountain West,40,"[10, 17, 7, 6]",New Mexico,Mountain West,45,"[14, 21, 10, 0]"
-400869136,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,14,"[7, 0, 0, 7]",USC,Pac-12,48,"[14, 20, 7, 7]"
-400869827,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,31,"[3, 3, 11, 14]",Georgia State,Sun Belt,21,"[0, 0, 14, 7]"
-400869670,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,22,"[0, 8, 7, 7]",Nebraska,Big Ten,27,"[17, 0, 0, 10]"
-400868880,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,49,"[21, 21, 7, 0]",Kansas,Big 12,7,"[0, 0, 7, 0]"
-400869672,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,40,"[14, 3, 14, 9]",Northwestern,Big Ten,54,"[7, 12, 21, 14]"
-400869307,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,28,"[0, 7, 7, 7, 0, 7, 0]",Central Michigan,Mid-American,34,"[0, 14, 0, 7, 0, 7, 6]"
-400869463,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,17,"[3, 7, 7, 0]",Wake Forest,ACC,6,"[0, 3, 3, 0]"
-400869306,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,42,"[7, 7, 13, 15]",Bowling Green,Mid-American,35,"[7, 0, 7, 21]"
-400869723,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,13,"[0, 3, 7, 3]",North Carolina,ACC,20,"[10, 10, 0, 0]"
-400869305,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,21,"[7, 7, 0, 7]",Ball State,Mid-American,31,"[7, 0, 14, 10]"
-400868963,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,0,Gillette Stadium,Massachusetts,FBS Independents,28,"[7, 7, 7, 7]",Louisiana Tech,Conference USA,56,"[7, 21, 14, 14]"
-400869310,2016,7,regular,2016-10-15T19:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,0,"[0, 0, 0, 0]",Western Michigan,Mid-American,41,"[14, 13, 7, 7]"
-400869466,2016,7,regular,2016-10-15T19:45:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,31,"[7, 10, 0, 14]",Virginia Tech,ACC,17,"[3, 0, 6, 8]"
-400869025,2016,7,regular,2016-10-15T20:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,40,"[0, 20, 6, 14]",Missouri,SEC,14,"[0, 0, 7, 7]"
-400869139,2016,7,regular,2016-10-15T20:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,14,"[0, 0, 7, 7]",Utah,Pac-12,19,"[9, 3, 0, 7]"
-400869828,2016,7,regular,2016-10-15T21:00:00.000Z,1,0,1,Kibbie Dome,Idaho,Sun Belt,55,"[7, 20, 21, 7]",New Mexico State,Sun Belt,23,"[13, 3, 0, 7]"
-400869382,2016,7,regular,2016-10-15T22:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,Conference USA,26,"[0, 10, 7, 9]",Florida International,Conference USA,27,"[7, 3, 3, 14]"
-400869024,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,34,"[14, 6, 7, 7]",Ole Miss,SEC,30,"[6, 14, 0, 10]"
-400869829,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,40,"[10, 23, 7, 0]",Texas State,Sun Belt,34,"[14, 0, 7, 13]"
-400869541,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,TDECU Stadium,Houston,American Athletic,38,"[10, 7, 7, 14]",Tulsa,American Athletic,31,"[3, 14, 0, 14]"
-400869540,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,42,"[7, 7, 7, 21]",UConn,American Athletic,27,"[3, 0, 14, 10]"
-400869591,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,27,"[0, 3, 21, 3]",Iowa State,Big 12,6,"[6, 0, 0, 0]"
-400869826,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,17,"[0, 14, 3, 0]",South Alabama,Sun Belt,7,"[0, 0, 0, 7]"
-400869383,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,27,"[10, 6, 3, 8]",Florida Atlantic,Conference USA,21,"[14, 7, 0, 0]"
-400869385,2016,7,regular,2016-10-15T23:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,13,"[6, 0, 7, 0]",UTSA,Conference USA,14,"[7, 7, 0, 0]"
-400869539,2016,7,regular,2016-10-15T23:30:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,25,"[11, 14, 0, 0]",Temple,American Athletic,26,"[7, 7, 6, 6]"
-400869027,2016,7,regular,2016-10-15T23:30:00.000Z,1,0,0,Tiger Stadium (LA),LSU,SEC,45,"[7, 3, 28, 7]",Southern Miss,Conference USA,10,"[7, 3, 0, 0]"
-400868952,2016,7,regular,2016-10-15T23:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,10,"[7, 3, 0, 0]",Stanford,Pac-12,17,"[0, 0, 9, 8]"
-400869137,2016,7,regular,2016-10-16T00:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,40,"[7, 16, 10, 7]",Arizona State,Pac-12,16,"[7, 3, 3, 3]"
-400869644,2016,7,regular,2016-10-16T00:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,23,"[10, 6, 0, 7, 0]",Ohio State,Big Ten,30,"[3, 3, 7, 10, 7]"
-400869220,2016,7,regular,2016-10-16T02:15:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,28,"[0, 7, 14, 7]",Colorado State,Mountain West,23,"[3, 0, 0, 20]"
-400869138,2016,7,regular,2016-10-16T02:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,27,"[3, 7, 14, 3]",UCLA,Pac-12,21,"[0, 0, 7, 14]"
-400869223,2016,7,regular,2016-10-16T02:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,14,"[0, 7, 0, 7]",Nevada,Mountain West,10,"[0, 0, 3, 7]"
-400869222,2016,7,regular,2016-10-16T03:59:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,38,"[7, 14, 3, 14]",UNLV,Mountain West,41,"[7, 14, 3, 17]"
-400869467,2016,8,regular,2016-10-20T23:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,37,"[3, 13, 14, 7]",Miami,ACC,16,"[3, 6, 7, 0]"
-400869830,2016,8,regular,2016-10-20T23:30:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,21,"[14, 7, 0, 0]",Troy,Sun Belt,28,"[7, 6, 0, 15]"
-400869224,2016,8,regular,2016-10-21T02:15:00.000Z,1,0,0,Albertsons Stadium,Boise State,Mountain West,28,"[14, 7, 0, 7]",BYU,FBS Independents,27,"[0, 17, 7, 3]"
-400869542,2016,8,regular,2016-10-21T23:00:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,46,"[3, 17, 14, 12]",South Florida,American Athletic,30,"[7, 6, 10, 7]"
-400869140,2016,8,regular,2016-10-22T02:30:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,52,"[14, 17, 3, 8, 7, 3]",Oregon,Pac-12,49,"[0, 14, 14, 14, 7, 0]"
-400869230,2016,8,regular,2016-10-22T02:30:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,42,"[7, 14, 21, 0]",San José State,Mountain West,3,"[0, 3, 0, 0]"
-400868916,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,18,"[7, 3, 8, 0]",North Texas,Conference USA,35,"[14, 0, 14, 7]"
-400869674,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,9,"[0, 6, 0, 3]",Wisconsin,Big Ten,17,"[0, 7, 7, 3]"
-400869469,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,54,"[17, 27, 0, 10]",NC State,ACC,13,"[0, 0, 13, 0]"
-400869600,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,20,"[7, 6, 7, 0]",Oklahoma State,Big 12,44,"[7, 10, 17, 10]"
-400869543,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,16,"[6, 10, 0, 0]",UCF,American Athletic,24,"[0, 14, 7, 3]"
-400869316,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,26,"[10, 7, 6, 3]",Miami (OH),Mid-American,40,"[7, 12, 7, 14]"
-400869313,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,31,"[3, 0, 14, 14]",Central Michigan,Mid-American,17,"[0, 0, 10, 7]"
-400868964,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,34,"[14, 13, 7, 0]",Massachusetts,FBS Independents,28,"[0, 14, 0, 14]"
-400869678,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,24,"[14, 10, 0, 0]",Indiana,Big Ten,14,"[3, 0, 9, 2]"
-400869638,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,34,"[21, 0, 10, 3]",Rutgers,Big Ten,32,"[3, 7, 13, 9]"
-400869609,2016,8,regular,2016-10-22T16:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,24,"[7, 14, 3, 0]",Texas,Big 12,21,"[0, 7, 7, 7]"
-400869468,2016,8,regular,2016-10-22T16:30:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,20,"[3, 7, 7, 3]",Syracuse,ACC,28,"[7, 7, 7, 7]"
-400869315,2016,8,regular,2016-10-22T17:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,10,"[0, 3, 7, 0]",Ohio,Mid-American,14,"[7, 7, 0, 0]"
-400869225,2016,8,regular,2016-10-22T18:00:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,27,"[7, 0, 6, 7, 7, 0]",Hawai'i,Mountain West,34,"[0, 10, 3, 7, 7, 7]"
-400869143,2016,8,regular,2016-10-22T19:00:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,5,"[3, 0, 0, 2]",Colorado,Pac-12,10,"[0, 7, 0, 3]"
-400869470,2016,8,regular,2016-10-22T19:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,14,"[0, 7, 0, 7]",North Carolina,ACC,35,"[7, 7, 14, 7]"
-400869311,2016,8,regular,2016-10-22T19:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,25,"[7, 10, 0, 8]",Akron,Mid-American,35,"[0, 7, 14, 14]"
-400869677,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,27,"[10, 0, 7, 10]",Purdue,Big Ten,14,"[7, 7, 0, 0]"
-400869546,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,42,"[14, 7, 14, 7]",Memphis,American Athletic,28,"[14, 0, 7, 7]"
-400869314,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,45,"[7, 17, 14, 7]",Eastern Michigan,Mid-American,31,"[7, 10, 7, 7]"
-400869628,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,34,"[14, 7, 10, 3]",TCU,Big 12,10,"[3, 7, 0, 0]"
-400869389,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,0,Rice Stadium,Rice,Conference USA,65,"[14, 31, 13, 7]",Prairie View A&M,SWAC,44,"[7, 7, 16, 14]"
-400869676,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,41,"[21, 10, 3, 7]",Illinois,Big Ten,8,"[0, 0, 0, 8]"
-400869029,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,33,"[6, 7, 13, 7]",Texas A&M,SEC,14,"[0, 7, 7, 0]"
-400869833,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,0,Georgia Dome,Georgia State,Sun Belt,31,"[7, 3, 14, 7]",UT Martin,OVC,6,"[0, 3, 0, 3]"
-400869312,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,44,"[10, 20, 7, 7]",Buffalo,Mid-American,7,"[0, 7, 0, 0]"
-400869831,2016,8,regular,2016-10-22T19:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,37,"[10, 0, 13, 14]",Idaho,Sun Belt,19,"[0, 6, 3, 10]"
-400869547,2016,8,regular,2016-10-22T19:45:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,50,"[14, 17, 9, 10]",Tulane,American Athletic,27,"[7, 0, 13, 7]"
-400869142,2016,8,regular,2016-10-22T20:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,45,"[21, 0, 14, 10]",Utah,Pac-12,52,"[14, 13, 18, 7]"
-400869033,2016,8,regular,2016-10-22T20:00:00.000Z,1,0,0,Memorial Stadium,Missouri,SEC,45,"[14, 14, 7, 10]",Middle Tennessee,Conference USA,51,"[13, 21, 7, 10]"
-400869386,2016,8,regular,2016-10-22T21:30:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,24,"[14, 10, 0, 0]",Charlotte,Conference USA,27,"[10, 7, 3, 7]"
-400869226,2016,8,regular,2016-10-22T21:30:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,23,"[0, 0, 10, 13]",Colorado State,Mountain West,42,"[14, 21, 0, 7]"
-400869030,2016,8,regular,2016-10-22T22:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,56,"[21, 7, 14, 14]",Arkansas,SEC,3,"[0, 3, 0, 0]"
-400869144,2016,8,regular,2016-10-22T22:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,41,"[21, 10, 10, 0]",Oregon State,Pac-12,17,"[0, 0, 10, 7]"
-400869390,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,49,"[14, 7, 7, 0, 3, 7, 8, 0, 3]",UTEP,Conference USA,52,"[7, 7, 14, 0, 3, 7, 8, 0, 6]"
-400869545,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,38,"[7, 21, 0, 10]",Houston,American Athletic,16,"[0, 7, 7, 2]"
-400869387,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,24,"[3, 7, 7, 7]",Louisiana Tech,Conference USA,44,"[10, 17, 7, 10]"
-400869388,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,59,"[21, 31, 0, 7]",Old Dominion,Conference USA,24,"[0, 14, 10, 0]"
-400869544,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,31,"[7, 7, 10, 7]",East Carolina,American Athletic,19,"[3, 0, 10, 6]"
-400869834,2016,8,regular,2016-10-22T23:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,3,"[3, 0, 0, 0]",Louisiana,Sun Belt,27,"[3, 10, 7, 7]"
-400869034,2016,8,regular,2016-10-22T23:30:00.000Z,1,0,0,FirstBank Stadium,Vanderbilt,SEC,35,"[7, 14, 7, 7]",Tennessee State,OVC,17,"[14, 3, 0, 0]"
-400869031,2016,8,regular,2016-10-22T23:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,40,"[0, 6, 21, 13]",Mississippi State,SEC,38,"[0, 14, 10, 14]"
-400869675,2016,8,regular,2016-10-22T23:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,28,"[8, 6, 0, 14]",Michigan State,Big Ten,17,"[0, 14, 3, 0]"
-400869645,2016,8,regular,2016-10-23T00:00:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,24,"[0, 7, 0, 17]",Ohio State,Big Ten,21,"[0, 12, 9, 0]"
-400869616,2016,8,regular,2016-10-23T00:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,59,"[10, 14, 14, 21]",Oklahoma,Big 12,66,"[13, 17, 21, 15]"
-400869832,2016,8,regular,2016-10-23T00:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Sun Belt,19,"[0, 9, 3, 7]",Georgia Southern,Sun Belt,22,"[3, 3, 3, 13]"
-400869227,2016,8,regular,2016-10-23T01:00:00.000Z,1,0,0,University Stadium (NM),New Mexico,Mountain West,59,"[28, 7, 17, 7]",UL Monroe,Sun Belt,17,"[0, 3, 0, 14]"
-400869032,2016,8,regular,2016-10-23T01:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,38,"[7, 14, 10, 7]",Ole Miss,SEC,21,"[10, 11, 0, 0]"
-400869141,2016,8,regular,2016-10-23T02:00:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,32,"[7, 7, 7, 11]",Washington State,Pac-12,37,"[0, 17, 14, 6]"
-400869229,2016,8,regular,2016-10-23T02:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,34,"[0, 13, 14, 7]",Wyoming,Mountain West,42,"[7, 14, 14, 7]"
-400869228,2016,8,regular,2016-10-23T02:30:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,38,"[7, 10, 7, 14]",Fresno State,Mountain West,20,"[7, 7, 3, 3]"
-400869471,2016,9,regular,2016-10-27T23:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,36,"[0, 14, 7, 15]",Virginia Tech,ACC,39,"[6, 10, 13, 10]"
-400869835,2016,9,regular,2016-10-27T23:30:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,10,"[10, 0, 0, 0]",App State,Sun Belt,34,"[0, 10, 10, 14]"
-400869317,2016,9,regular,2016-10-27T23:30:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,41,"[3, 17, 0, 21]",Akron,Mid-American,20,"[3, 7, 3, 7]"
-400869318,2016,9,regular,2016-10-27T23:30:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,26,"[0, 6, 14, 6]",Ohio,Mid-American,31,"[0, 14, 10, 7]"
-400869145,2016,9,regular,2016-10-28T02:30:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,45,"[14, 14, 14, 3]",California,Pac-12,24,"[0, 10, 7, 7]"
-400869548,2016,9,regular,2016-10-28T23:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,52,"[28, 14, 3, 7]",Navy,American Athletic,45,"[0, 14, 7, 24]"
-400869234,2016,9,regular,2016-10-29T00:00:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,13,"[7, 0, 0, 6]",San Diego State,Mountain West,40,"[10, 10, 3, 17]"
-400869231,2016,9,regular,2016-10-29T02:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,21,"[7, 7, 7, 0]",Air Force,Mountain West,31,"[0, 7, 10, 14]"
-400869551,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,41,"[7, 7, 17, 10]",UConn,American Athletic,3,"[0, 3, 0, 0]"
-400869549,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,TDECU Stadium,Houston,American Athletic,31,"[0, 3, 14, 14]",UCF,American Athletic,24,"[7, 14, 3, 0]"
-400869475,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,25,"[10, 0, 7, 8]",Louisville,ACC,32,"[7, 0, 7, 18]"
-400869681,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,23,"[7, 3, 0, 13]",Michigan,Big Ten,32,"[7, 20, 0, 5]"
-400869592,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,26,"[3, 0, 7, 16]",Kansas State,Big 12,31,"[3, 14, 14, 0]"
-400869038,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,21,"[0, 7, 0, 14]",Kentucky,SEC,35,"[7, 14, 7, 7]"
-400869319,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,24,"[0, 10, 14, 0]",Kent State,Mid-American,27,"[3, 7, 7, 10]"
-400869474,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,38,"[14, 14, 3, 7]",Duke,ACC,35,"[0, 7, 21, 7]"
-400869621,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,37,"[6, 14, 7, 10]",West Virginia,Big 12,20,"[3, 7, 0, 10]"
-400869682,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,24,"[7, 10, 7, 0]",Penn State,Big Ten,62,"[7, 10, 24, 21]"
-400869679,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,17,"[7, 0, 7, 3]",Minnesota,Big Ten,40,"[14, 0, 7, 19]"
-400868965,2016,9,regular,2016-10-29T16:00:00.000Z,1,0,0,Warren McGuirk Alumni Stadium,Massachusetts,FBS Independents,34,"[14, 13, 7, 0]",Wagner,NEC,10,"[0, 0, 3, 7]"
-400869472,2016,9,regular,2016-10-29T16:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,14,"[0, 7, 7, 0]",Boston College,ACC,21,"[0, 10, 3, 8]"
-400868953,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,30,"[17, 3, 0, 10]",Miami,ACC,27,"[0, 7, 10, 10]"
-400869680,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,42,"[13, 3, 13, 13]",Maryland,Big Ten,36,"[7, 14, 3, 12]"
-400869629,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,24,"[7, 3, 0, 7, 7, 0]",Texas Tech,Big 12,27,"[0, 10, 0, 7, 7, 3]"
-400869550,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,34,"[10, 7, 3, 14]",Cincinnati,American Athletic,13,"[0, 13, 0, 0]"
-400868917,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,0,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,13,"[0, 7, 3, 3]",Army,FBS Independents,21,"[7, 0, 0, 14]"
-400869037,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,0,Davis Wade Stadium,Mississippi State,SEC,56,"[21, 7, 21, 7]",Samford,Southern,41,"[13, 7, 13, 8]"
-400869392,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,3,"[0, 3, 0, 0]",Western Kentucky,Conference USA,52,"[14, 10, 14, 14]"
-400869717,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,15,"[0, 3, 0, 12]",Miami (OH),Mid-American,28,"[14, 0, 7, 7]"
-400869148,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,24,"[0, 10, 7, 7]",Washington,Pac-12,31,"[7, 7, 7, 10]"
-400869646,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,24,"[10, 7, 0, 7]",Northwestern,Big Ten,20,"[0, 10, 7, 3]"
-400868881,2016,9,regular,2016-10-29T19:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,35,"[14, 9, 3, 9]",Baylor,Big 12,34,"[14, 7, 10, 3]"
-400869035,2016,9,regular,2016-10-29T19:30:00.000Z,1,1,1,EverBank Stadium,Georgia,SEC,10,"[3, 7, 0, 0]",Florida,SEC,24,"[7, 7, 7, 3]"
-400869553,2016,9,regular,2016-10-29T20:00:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,31,"[7, 3, 14, 7]",SMU,American Athletic,35,"[14, 7, 0, 14]"
-400869147,2016,9,regular,2016-10-29T21:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,54,"[17, 13, 3, 21]",Arizona State,Pac-12,35,"[14, 0, 8, 13]"
-400869837,2016,9,regular,2016-10-29T21:00:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,13,"[0, 3, 0, 10]",Georgia State,Sun Belt,10,"[3, 0, 7, 0]"
-400869683,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,23,"[7, 3, 7, 0, 6]",Nebraska,Big Ten,17,"[0, 7, 0, 10, 0]"
-400869836,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,51,"[14, 28, 9, 0]",UL Monroe,Sun Belt,10,"[0, 3, 7, 0]"
-400869394,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,24,"[7, 3, 0, 14]",Marshall,Conference USA,14,"[0, 7, 0, 7]"
-400869232,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,30,"[0, 17, 0, 13]",Boise State,Mountain West,28,"[7, 14, 0, 7]"
-400869601,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,56,"[7, 21, 28, 0]",Kansas,Big 12,3,"[3, 0, 0, 0]"
-400869391,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,35,"[14, 7, 0, 14]",Middle Tennessee,Conference USA,42,"[21, 7, 0, 14]"
-400869393,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,61,"[28, 13, 13, 7]",Rice,Conference USA,16,"[0, 0, 9, 7]"
-400869395,2016,9,regular,2016-10-29T23:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,31,"[7, 7, 10, 7]",North Texas,Conference USA,17,"[0, 0, 7, 10]"
-400869039,2016,9,regular,2016-10-29T23:15:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,24,"[7, 7, 3, 7]",Tennessee,SEC,21,"[7, 0, 7, 7]"
-400869036,2016,9,regular,2016-10-29T23:15:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,29,"[13, 9, 7, 0]",Auburn,SEC,40,"[10, 10, 7, 13]"
-400869040,2016,9,regular,2016-10-29T23:30:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,52,"[14, 10, 21, 7]",New Mexico State,Sun Belt,10,"[0, 3, 0, 7]"
-400869396,2016,9,regular,2016-10-30T00:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,21,"[0, 7, 6, 8]",Old Dominion,Conference USA,31,"[10, 0, 7, 14]"
-400869552,2016,9,regular,2016-10-30T00:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,30,"[7, 17, 6, 0]",Tulsa,American Athletic,59,"[14, 21, 10, 14]"
-400869473,2016,9,regular,2016-10-30T00:00:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,34,"[0, 14, 14, 6]",Clemson,ACC,37,"[14, 3, 3, 17]"
-400869235,2016,9,regular,2016-10-30T02:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,30,"[10, 17, 3, 0]",UNLV,Mountain West,24,"[7, 3, 7, 7]"
-400869149,2016,9,regular,2016-10-30T02:45:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,31,"[14, 10, 0, 7]",Washington State,Pac-12,35,"[0, 6, 22, 7]"
-400869146,2016,9,regular,2016-10-30T03:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,10,"[0, 7, 3, 0]",Stanford,Pac-12,34,"[0, 17, 10, 7]"
-400869233,2016,9,regular,2016-10-30T03:59:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,21,"[0, 14, 0, 7]",New Mexico,Mountain West,28,"[14, 0, 7, 7]"
-400869321,2016,10,regular,2016-11-02T00:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,20,"[7, 3, 3, 7]",Western Michigan,Mid-American,52,"[21, 7, 14, 10]"
-400869320,2016,10,regular,2016-11-02T00:00:00.000Z,1,0,1,Huskie Stadium,Northern Illinois,Mid-American,45,"[14, 10, 14, 7]",Bowling Green,Mid-American,20,"[7, 6, 7, 0]"
-400869322,2016,10,regular,2016-11-02T23:30:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,17,"[10, 0, 7, 0]",Toledo,Mid-American,48,"[3, 17, 14, 14]"
-400869323,2016,10,regular,2016-11-03T22:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,34,"[10, 17, 0, 7]",Buffalo,Mid-American,10,"[0, 10, 0, 0]"
-400869838,2016,10,regular,2016-11-03T23:30:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,16,"[0, 3, 7, 6]",Arkansas State,Sun Belt,31,"[0, 10, 7, 14]"
-400869593,2016,10,regular,2016-11-03T23:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,24,"[3, 14, 0, 7]",Oklahoma,Big 12,34,"[14, 14, 3, 3]"
-400869150,2016,10,regular,2016-11-04T01:00:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,20,"[7, 0, 3, 10]",UCLA,Pac-12,10,"[7, 3, 0, 0]"
-400869324,2016,10,regular,2016-11-04T22:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,37,"[13, 7, 10, 7]",Central Michigan,Mid-American,17,"[7, 10, 0, 0]"
-400869554,2016,10,regular,2016-11-04T23:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,0,"[0, 0, 0, 0]",Temple,American Athletic,21,"[21, 0, 0, 0]"
-400869236,2016,10,regular,2016-11-05T02:15:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,45,"[7, 17, 7, 14]",San José State,Mountain West,31,"[6, 10, 0, 15]"
-400868954,2016,10,regular,2016-11-05T15:30:00.000Z,1,1,0,EverBank Stadium,Navy,American Athletic,28,"[7, 7, 7, 7]",Notre Dame,FBS Independents,27,"[10, 7, 7, 3]"
-400869684,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,31,"[0, 7, 10, 14]",Michigan State,Big Ten,27,"[3, 3, 11, 10]"
-400869476,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,7,"[0, 0, 7, 0]",Louisville,ACC,52,"[21, 17, 14, 0]"
-400869046,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,35,"[14, 14, 0, 7]",Texas A&M,SEC,28,"[7, 7, 0, 14]"
-400869639,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,Big Ten,27,"[10, 7, 7, 3]",Indiana,Big Ten,33,"[13, 0, 13, 7]"
-400869630,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,Jones AT&T Stadium,Texas Tech,Big 12,37,"[16, 7, 7, 7]",Texas,Big 12,45,"[14, 10, 14, 7]"
-400869045,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,0,Vaught-Hemingway Stadium,Ole Miss,SEC,37,"[3, 28, 3, 3]",Georgia Southern,Sun Belt,27,"[14, 7, 3, 3]"
-400868918,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,12,"[0, 6, 6, 0]",Air Force,Mountain West,31,"[0, 10, 14, 7]"
-400869042,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,Jordan-Hare Stadium,Auburn,SEC,23,"[7, 3, 10, 3]",Vanderbilt,SEC,16,"[3, 10, 0, 3]"
-400869687,2016,10,regular,2016-11-05T16:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,7,"[0, 7, 0, 0]",Wisconsin,Big Ten,21,"[0, 10, 3, 8]"
-400869480,2016,10,regular,2016-11-05T16:30:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,48,"[17, 10, 14, 7]",Georgia Tech,ACC,20,"[7, 10, 3, 0]"
-400869481,2016,10,regular,2016-11-05T16:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,51,"[17, 10, 7, 17]",Pittsburgh,ACC,28,"[7, 14, 0, 7]"
-400869403,2016,10,regular,2016-11-05T18:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,25,"[7, 3, 7, 8]",UTSA,Conference USA,45,"[14, 14, 14, 3]"
-400869482,2016,10,regular,2016-11-05T19:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,27,"[7, 10, 0, 10]",Virginia,ACC,20,"[6, 0, 14, 0]"
-400869041,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,31,"[14, 7, 0, 10]",Florida,SEC,10,"[7, 0, 0, 3]"
-400869237,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,37,"[10, 13, 14, 0]",Fresno State,Mountain West,0,"[0, 0, 0, 0]"
-400869153,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Stanford Stadium,Stanford,Pac-12,26,"[10, 3, 10, 3]",Oregon State,Pac-12,15,"[0, 7, 0, 8]"
-400868966,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,0,Veterans Memorial Stadium (AL),Troy,Sun Belt,52,"[21, 7, 10, 14]",Massachusetts,FBS Independents,31,"[14, 3, 7, 7]"
-400868930,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,0,Nippert Stadium,Cincinnati,American Athletic,3,"[3, 0, 0, 0]",BYU,FBS Independents,20,"[3, 7, 7, 3]"
-400869477,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,54,"[10, 20, 14, 10]",Syracuse,ACC,0,"[0, 0, 0, 0]"
-400869685,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,59,"[14, 21, 10, 14]",Maryland,Big Ten,3,"[0, 0, 0, 3]"
-400869397,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,27,"[14, 0, 0, 13]",Charlotte,Conference USA,38,"[7, 21, 10, 0]"
-400868882,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,22,"[7, 7, 0, 8]",TCU,Big 12,62,"[10, 28, 10, 14]"
-400869610,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,37,"[13, 3, 14, 7]",Oklahoma State,Big 12,43,"[7, 14, 7, 15]"
-400869399,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,25,"[7, 7, 3, 8]",Florida Atlantic,Conference USA,42,"[14, 7, 7, 14]"
-400869686,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,44,"[10, 13, 7, 14]",Purdue,Big Ten,31,"[14, 14, 0, 3]"
-400869839,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,35,"[7, 21, 7, 0]",Texas State,Sun Belt,10,"[3, 0, 7, 0]"
-400869478,2016,10,regular,2016-11-05T19:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,21,"[7, 0, 7, 7]",Virginia Tech,ACC,24,"[7, 14, 0, 3]"
-400869556,2016,10,regular,2016-11-05T20:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,7,"[7, 0, 0, 0]",Memphis,American Athletic,51,"[21, 17, 13, 0]"
-400869151,2016,10,regular,2016-11-05T20:00:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,69,"[24, 14, 14, 17]",Arizona,Pac-12,7,"[0, 7, 0, 0]"
-400869048,2016,10,regular,2016-11-05T20:00:00.000Z,1,0,0,Neyland Stadium,Tennessee,SEC,55,"[21, 17, 7, 10]",Tennessee Tech,OVC,0,"[0, 0, 0, 0]"
-400869047,2016,10,regular,2016-11-05T20:00:00.000Z,1,0,1,Williams-Brice Stadium,South Carolina,SEC,31,"[7, 14, 7, 3]",Missouri,SEC,21,"[0, 14, 7, 0]"
-400869841,2016,10,regular,2016-11-05T21:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,42,"[7, 7, 7, 14, 7]",South Alabama,Sun Belt,35,"[7, 7, 14, 7, 0]"
-400921256,2016,10,regular,2016-11-05T21:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,37,"[0, 7, 13, 17]",Tulane,American Athletic,6,"[6, 0, 0, 0]"
-400869840,2016,10,regular,2016-11-05T21:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,13,"[3, 10, 0, 0]",Idaho,Sun Belt,23,"[10, 7, 3, 3]"
-400869398,2016,10,regular,2016-11-05T21:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,49,"[14, 21, 14, 0]",Florida International,Conference USA,21,"[7, 0, 0, 14]"
-400869400,2016,10,regular,2016-11-05T21:30:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,24,"[7, 14, 3, 0]",Louisiana Tech,Conference USA,45,"[14, 17, 7, 7]"
-400869152,2016,10,regular,2016-11-05T23:00:00.000Z,1,0,1,Los Angeles Memorial Coliseum,USC,Pac-12,45,"[17, 7, 14, 7]",Oregon,Pac-12,20,"[6, 0, 7, 7]"
-400869401,2016,10,regular,2016-11-05T23:00:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Conference USA,38,"[14, 7, 10, 7]",Marshall,Conference USA,14,"[7, 0, 0, 7]"
-400869602,2016,10,regular,2016-11-05T23:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,48,"[10, 21, 14, 3]",Kansas,Big 12,21,"[0, 0, 14, 7]"
-400869479,2016,10,regular,2016-11-05T23:00:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,20,"[7, 6, 7, 0]",Florida State,ACC,24,"[0, 10, 7, 7]"
-400869240,2016,10,regular,2016-11-05T23:00:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,55,"[14, 13, 14, 14]",Hawai'i,Mountain West,0,"[0, 0, 0, 0]"
-400869043,2016,10,regular,2016-11-05T23:30:00.000Z,1,0,1,Kroger Field,Kentucky,SEC,24,"[7, 7, 7, 3]",Georgia,SEC,27,"[7, 6, 3, 11]"
-400869688,2016,10,regular,2016-11-05T23:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,41,"[7, 17, 3, 14]",Iowa,Big Ten,14,"[0, 7, 0, 7]"
-400869555,2016,10,regular,2016-11-06T00:00:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,45,"[14, 10, 14, 7]",East Carolina,American Athletic,24,"[7, 0, 10, 7]"
-400869044,2016,10,regular,2016-11-06T00:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,0,"[0, 0, 0, 0]",Alabama,SEC,10,"[0, 0, 0, 10]"
-400869647,2016,10,regular,2016-11-06T00:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,62,"[14, 17, 24, 7]",Nebraska,Big Ten,3,"[3, 0, 0, 0]"
-400869402,2016,10,regular,2016-11-06T00:00:00.000Z,1,0,0,Sun Bowl,UTEP,Conference USA,42,"[14, 14, 7, 7]",Houston Christian,Southland,10,"[0, 3, 7, 0]"
-400869239,2016,10,regular,2016-11-06T02:15:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,52,"[14, 21, 7, 10]",Utah State,Mountain West,28,"[0, 7, 21, 0]"
-400869238,2016,10,regular,2016-11-06T02:15:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,35,"[7, 7, 14, 7]",Nevada,Mountain West,26,"[0, 14, 0, 12]"
-400869154,2016,10,regular,2016-11-06T02:30:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,27,"[13, 7, 0, 7]",Washington,Pac-12,66,"[21, 14, 21, 10]"
-400869325,2016,11,regular,2016-11-09T00:00:00.000Z,1,0,1,Scheumann Stadium,Ball State,Mid-American,41,"[21, 7, 0, 13]",Eastern Michigan,Mid-American,48,"[3, 16, 14, 15]"
-400869326,2016,11,regular,2016-11-09T00:30:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,21,"[14, 0, 0, 7]",Western Michigan,Mid-American,37,"[3, 10, 8, 16]"
-400869328,2016,11,regular,2016-11-10T01:00:00.000Z,1,1,1,Guaranteed Rate Field,Northern Illinois,Mid-American,24,"[7, 7, 7, 3]",Toledo,Mid-American,31,"[0, 3, 14, 14]"
-400869327,2016,11,regular,2016-11-10T01:00:00.000Z,1,0,1,InfoCision Stadium,Akron,Mid-American,28,"[0, 10, 10, 8]",Bowling Green,Mid-American,38,"[7, 14, 7, 10]"
-400869844,2016,11,regular,2016-11-11T00:30:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,26,"[3, 10, 0, 13]",Louisiana,Sun Belt,33,"[7, 14, 10, 2]"
-400869483,2016,11,regular,2016-11-11T00:30:00.000Z,1,0,1,Wallace Wade Stadium,Duke,ACC,28,"[0, 21, 7, 0]",North Carolina,ACC,27,"[14, 7, 6, 0]"
-400869155,2016,11,regular,2016-11-11T02:30:00.000Z,1,0,1,Mountain America Stadium,Arizona State,Pac-12,26,"[13, 7, 6, 0]",Utah,Pac-12,49,"[0, 21, 7, 21]"
-400869484,2016,11,regular,2016-11-12T00:30:00.000Z,1,0,1,Doak Campbell Stadium,Florida State,ACC,45,"[14, 7, 14, 10]",Boston College,ACC,7,"[0, 0, 0, 7]"
-400869692,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,17,"[10, 0, 7, 0]",Northwestern,Big Ten,45,"[7, 7, 21, 10]"
-400869631,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,20,"[3, 10, 7, 0]",West Virginia,Big 12,24,"[10, 7, 7, 0]"
-400869051,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Ben Hill Griffin Stadium,Florida,SEC,20,"[7, 7, 6, 0]",South Carolina,SEC,7,"[0, 0, 0, 7]"
-400869054,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,49,"[14, 7, 14, 14]",Kentucky,SEC,36,"[10, 3, 3, 20]"
-400868883,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,45,"[14, 7, 14, 10]",Baylor,Big 12,24,"[0, 10, 7, 7]"
-400869557,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,24,"[10, 0, 7, 7]",Cincinnati,American Athletic,3,"[0, 3, 0, 0]"
-400869689,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,31,"[0, 14, 10, 7]",Penn State,Big Ten,45,"[7, 7, 7, 24]"
-400869558,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,31,"[7, 17, 0, 7]",SMU,American Athletic,55,"[10, 28, 10, 7]"
-400869049,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,51,"[10, 20, 14, 7]",Mississippi State,SEC,3,"[0, 0, 3, 0]"
-400869561,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,42,"[14, 14, 0, 14]",Tulsa,American Athletic,40,"[10, 10, 7, 13]"
-400869594,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,24,"[7, 7, 10, 0]",Iowa State,Big 12,31,"[3, 7, 12, 9]"
-400869640,2016,11,regular,2016-11-12T17:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,49,"[21, 14, 14, 0]",Rutgers,Big Ten,0,"[0, 0, 0, 0]"
-400869488,2016,11,regular,2016-11-12T17:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,20,"[7, 3, 10, 0]",NC State,ACC,35,"[0, 14, 14, 7]"
-400869329,2016,11,regular,2016-11-12T18:00:00.000Z,1,0,1,UB Stadium,Buffalo,Mid-American,24,"[0, 7, 3, 14]",Miami (OH),Mid-American,35,"[13, 7, 12, 3]"
-400869404,2016,11,regular,2016-11-12T19:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,Conference USA,21,"[7, 14, 0, 0]",Rice,Conference USA,22,"[0, 10, 6, 6]"
-400869724,2016,11,regular,2016-11-12T19:00:00.000Z,1,0,1,Scott Stadium,Virginia,ACC,14,"[7, 7, 0, 0]",Miami,ACC,34,"[7, 10, 10, 7]"
-400869845,2016,11,regular,2016-11-12T19:00:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,23,"[0, 7, 13, 3]",UL Monroe,Sun Belt,37,"[2, 7, 21, 7]"
-400868931,2016,11,regular,2016-11-12T20:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,37,"[14, 17, 0, 6]",Southern Utah,Big Sky,7,"[0, 7, 0, 0]"
-400869843,2016,11,regular,2016-11-12T20:00:00.000Z,1,0,1,Centennial Bank Stadium,Arkansas State,Sun Belt,41,"[13, 14, 14, 0]",New Mexico State,Sun Belt,22,"[3, 3, 9, 7]"
-400869485,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,"Memorial Stadium (Clemson, SC)",Clemson,ACC,42,"[14, 14, 14, 0]",Pittsburgh,ACC,43,"[14, 13, 7, 9]"
-400869486,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,20,"[0, 0, 7, 13]",Georgia Tech,ACC,30,"[6, 14, 0, 10]"
-400869622,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Boone Pickens Stadium,Oklahoma State,Big 12,45,"[21, 7, 17, 0]",Texas Tech,Big 12,44,"[7, 21, 7, 9]"
-400869052,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Sanford Stadium,Georgia,SEC,13,"[0, 0, 7, 6]",Auburn,SEC,7,"[7, 0, 0, 0]"
-400869693,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,48,"[21, 10, 3, 14]",Illinois,Big Ten,3,"[3, 0, 0, 0]"
-400869648,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,3,"[3, 0, 0, 0]",Ohio State,Big Ten,62,"[21, 24, 10, 7]"
-400869842,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,28,"[14, 0, 7, 7]",App State,Sun Belt,24,"[0, 14, 3, 7]"
-400869406,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Joe Aillet Stadium,Louisiana Tech,Conference USA,63,"[14, 21, 7, 21]",UTSA,Conference USA,35,"[7, 7, 0, 21]"
-400869244,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,69,"[10, 20, 7, 15, 7, 7, 3]",Wyoming,Mountain West,66,"[3, 21, 7, 21, 7, 7, 0]"
-400869053,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,26,"[6, 13, 0, 7]",Vanderbilt,SEC,17,"[0, 10, 7, 0]"
-400868919,2016,11,regular,2016-11-12T20:30:00.000Z,1,1,0,Alamodome,Notre Dame,FBS Independents,44,"[21, 17, 6, 0]",Army,FBS Independents,6,"[0, 6, 0, 0]"
-400869408,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,45,"[17, 14, 14, 0]",North Texas,Conference USA,7,"[0, 0, 7, 0]"
-400869409,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Conference USA,51,"[21, 14, 7, 9]",Southern Miss,Conference USA,35,"[0, 7, 14, 14]"
-400869560,2016,11,regular,2016-11-12T20:30:00.000Z,1,0,1,TDECU Stadium,Houston,American Athletic,30,"[14, 14, 0, 2]",Tulane,American Athletic,18,"[7, 3, 0, 8]"
-400869159,2016,11,regular,2016-11-12T21:00:00.000Z,1,0,1,Autzen Stadium,Oregon,Pac-12,27,"[6, 7, 0, 14]",Stanford,Pac-12,52,"[21, 17, 14, 0]"
-400869846,2016,11,regular,2016-11-12T21:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,14,"[14, 0, 0, 0]",Idaho,Sun Belt,47,"[14, 17, 9, 7]"
-400869405,2016,11,regular,2016-11-12T23:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,35,"[7, 10, 3, 15]",UTEP,Conference USA,31,"[7, 10, 7, 7]"
-400869242,2016,11,regular,2016-11-13T00:00:00.000Z,1,0,1,Aloha Stadium,Hawai'i,Mountain West,16,"[0, 3, 3, 10]",Boise State,Mountain West,52,"[14, 21, 10, 7]"
-400869487,2016,11,regular,2016-11-13T00:00:00.000Z,1,0,1,L&N Federal Credit Union Stadium,Louisville,ACC,44,"[0, 3, 7, 34]",Wake Forest,ACC,12,"[6, 6, 0, 0]"
-400869559,2016,11,regular,2016-11-13T00:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,42,"[3, 14, 14, 11]",South Florida,American Athletic,49,"[14, 7, 14, 14]"
-400869050,2016,11,regular,2016-11-13T00:00:00.000Z,1,0,1,Razorback Stadium,Arkansas,SEC,10,"[0, 7, 3, 0]",LSU,SEC,38,"[7, 14, 7, 10]"
-400869407,2016,11,regular,2016-11-13T00:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,42,"[7, 7, 7, 21]",Middle Tennessee,Conference USA,17,"[10, 7, 0, 0]"
-400869157,2016,11,regular,2016-11-13T00:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,13,"[3, 3, 7, 0]",USC,Pac-12,26,"[3, 14, 0, 9]"
-400869691,2016,11,regular,2016-11-13T00:30:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,24,"[3, 7, 7, 7]",Minnesota,Big Ten,17,"[7, 10, 0, 0]"
-400869055,2016,11,regular,2016-11-13T00:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,28,"[7, 14, 0, 7]",Ole Miss,SEC,29,"[3, 3, 0, 23]"
-400869690,2016,11,regular,2016-11-13T01:00:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,14,"[0, 8, 3, 3]",Michigan,Big Ten,13,"[3, 7, 0, 3]"
-400869158,2016,11,regular,2016-11-13T02:00:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,38,"[21, 3, 7, 7]",Oregon State,Pac-12,24,"[7, 7, 10, 0]"
-400869156,2016,11,regular,2016-11-13T03:00:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,24,"[0, 10, 0, 14]",Colorado,Pac-12,49,"[7, 21, 14, 7]"
-400869243,2016,11,regular,2016-11-13T03:15:00.000Z,1,0,1,Maverik Stadium,Utah State,Mountain West,21,"[14, 0, 7, 0]",New Mexico,Mountain West,24,"[0, 6, 15, 3]"
-400869241,2016,11,regular,2016-11-13T03:15:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,49,"[7, 21, 14, 7]",Colorado State,Mountain West,46,"[14, 10, 14, 8]"
-400869245,2016,11,regular,2016-11-13T03:30:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,16,"[7, 0, 2, 7]",San Diego State,Mountain West,46,"[10, 16, 13, 7]"
-400869160,2016,11,regular,2016-11-13T03:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,56,"[14, 14, 7, 21]",California,Pac-12,21,"[0, 7, 7, 7]"
-400869330,2016,12,regular,2016-11-16T00:00:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,42,"[7, 14, 7, 14]",Kent State,Mid-American,7,"[0, 7, 0, 0]"
-400869331,2016,12,regular,2016-11-16T00:00:00.000Z,1,0,1,Kelly/Shorts Stadium,Central Michigan,Mid-American,27,"[3, 14, 3, 7]",Ohio,Mid-American,20,"[0, 3, 10, 7]"
-400869332,2016,12,regular,2016-11-17T00:00:00.000Z,1,0,1,Glass Bowl,Toledo,Mid-American,37,"[14, 6, 17, 0]",Ball State,Mid-American,19,"[0, 10, 3, 6]"
-400869333,2016,12,regular,2016-11-17T01:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,24,"[14, 7, 0, 3, 0]",Northern Illinois,Mid-American,31,"[0, 0, 17, 7, 7]"
-400869562,2016,12,regular,2016-11-18T01:00:00.000Z,1,0,0,TDECU Stadium,Houston,American Athletic,36,"[10, 21, 0, 5]",Louisville,ACC,10,"[0, 0, 7, 3]"
-400869847,2016,12,regular,2016-11-18T02:30:00.000Z,1,0,1,Veterans Memorial Stadium (AL),Troy,Sun Belt,3,"[3, 0, 0, 0]",Arkansas State,Sun Belt,35,"[0, 7, 21, 7]"
-400869563,2016,12,regular,2016-11-19T01:00:00.000Z,1,0,1,Nippert Stadium,Cincinnati,American Athletic,7,"[0, 0, 0, 7]",Memphis,American Athletic,34,"[13, 14, 7, 0]"
-400869246,2016,12,regular,2016-11-19T02:00:00.000Z,1,0,1,Albertsons Stadium,Boise State,Mountain West,42,"[14, 7, 14, 7]",UNLV,Mountain West,25,"[3, 7, 7, 8]"
-400868884,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,McLane Stadium,Baylor,Big 12,21,"[0, 14, 0, 7]",Kansas State,Big 12,42,"[0, 7, 21, 14]"
-400869694,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,"Memorial Stadium (Champaign, IL)",Illinois,Big Ten,0,"[0, 0, 0, 0]",Iowa,Big Ten,28,"[0, 7, 7, 14]"
-400869414,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,Rice Stadium,Rice,Conference USA,44,"[6, 28, 7, 3]",UTEP,Conference USA,24,"[3, 0, 7, 14]"
-400869649,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,Spartan Stadium,Michigan State,Big Ten,16,"[7, 3, 0, 6]",Ohio State,Big Ten,17,"[7, 3, 7, 0]"
-400869059,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,35,"[14, 7, 7, 7]",Louisiana,Sun Belt,21,"[0, 7, 0, 14]"
-400868920,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,0,Michie Stadium,Army,FBS Independents,60,"[13, 16, 10, 21]",Morgan State,MEAC,3,"[0, 3, 0, 0]"
-400869698,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,Ross-Ade Stadium,Purdue,Big Ten,20,"[3, 7, 3, 7]",Wisconsin,Big Ten,49,"[0, 35, 7, 7]"
-400869623,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,6,"[6, 0, 0, 0]",Oklahoma State,Big 12,31,"[7, 3, 14, 7]"
-400869697,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,1,"Memorial Stadium (Lincoln, NE)",Nebraska,Big Ten,28,"[14, 7, 7, 0]",Maryland,Big Ten,7,"[0, 0, 0, 7]"
-400869065,2016,12,regular,2016-11-19T17:00:00.000Z,1,0,0,Kyle Field,Texas A&M,SEC,23,"[10, 6, 7, 0]",UTSA,Conference USA,10,"[0, 7, 3, 0]"
-400869494,2016,12,regular,2016-11-19T17:30:00.000Z,1,0,1,Bobby Dodd Stadium,Georgia Tech,ACC,31,"[0, 7, 14, 10]",Virginia,ACC,17,"[0, 10, 0, 7]"
-400869495,2016,12,regular,2016-11-19T17:30:00.000Z,1,0,1,Carter-Finley Stadium,NC State,ACC,13,"[0, 3, 7, 3]",Miami,ACC,27,"[3, 0, 14, 10]"
-400922862,2016,12,regular,2016-11-19T18:00:00.000Z,1,0,1,Tiger Stadium (LA),LSU,SEC,10,"[7, 0, 0, 3]",Florida,SEC,16,"[0, 3, 7, 6]"
-400869490,2016,12,regular,2016-11-19T18:00:00.000Z,1,0,0,"Alumni Stadium (Chestnut Hill, MA)",Boston College,ACC,30,"[0, 10, 10, 10]",UConn,American Athletic,0,"[0, 0, 0, 0]"
-400869165,2016,12,regular,2016-11-19T19:00:00.000Z,1,0,1,Rice-Eccles Stadium,Utah,Pac-12,28,"[7, 0, 7, 14]",Oregon,Pac-12,30,"[3, 0, 7, 20]"
-400868932,2016,12,regular,2016-11-19T19:00:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,51,"[0, 14, 20, 17]",Massachusetts,FBS Independents,9,"[6, 3, 0, 0]"
-400869849,2016,12,regular,2016-11-19T19:00:00.000Z,1,0,1,Georgia Dome,Georgia State,Sun Belt,30,"[20, 0, 10, 0]",Georgia Southern,Sun Belt,24,"[7, 10, 0, 7]"
-400869410,2016,12,regular,2016-11-19T19:00:00.000Z,1,0,1,Jerry Richardson Stadium,Charlotte,Conference USA,31,"[0, 6, 10, 15]",Middle Tennessee,Conference USA,38,"[14, 10, 7, 7]"
-400869848,2016,12,regular,2016-11-19T19:30:00.000Z,1,0,1,Kidd Brewer Stadium,App State,Sun Belt,42,"[14, 7, 14, 7]",UL Monroe,Sun Belt,17,"[3, 7, 0, 7]"
-400869492,2016,12,regular,2016-11-19T20:00:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,56,"[14, 14, 14, 14]",Duke,ACC,14,"[7, 7, 0, 0]"
-400869566,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Yulman Stadium,Tulane,American Athletic,0,"[0, 0, 0, 0]",Temple,American Athletic,31,"[7, 3, 14, 7]"
-400869595,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,66,"[14, 31, 7, 14]",Texas Tech,Big 12,10,"[3, 0, 7, 0]"
-400869603,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Memorial Stadium,Kansas,Big 12,24,"[0, 10, 0, 11, 3]",Texas,Big 12,21,"[7, 0, 7, 7, 0]"
-400869064,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Neyland Stadium,Tennessee,SEC,63,"[7, 14, 14, 28]",Missouri,SEC,37,"[6, 14, 7, 10]"
-400869696,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Huntington Bank Stadium,Minnesota,Big Ten,29,"[6, 6, 3, 14]",Northwestern,Big Ten,12,"[0, 0, 6, 6]"
-400869493,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,JMA Wireless Dome,Syracuse,ACC,14,"[0, 7, 7, 0]",Florida State,ACC,45,"[14, 7, 21, 3]"
-400869250,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,34,"[3, 7, 10, 14]",San Diego State,Mountain West,33,"[7, 10, 7, 9]"
-400869334,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,38,"[0, 14, 10, 14]",Buffalo,Mid-American,0,"[0, 0, 0, 0]"
-400868955,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,0,Notre Dame Stadium,Notre Dame,FBS Independents,31,"[10, 14, 7, 0]",Virginia Tech,ACC,34,"[0, 14, 7, 13]"
-400869164,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,38,"[7, 7, 14, 10]",Washington State,Pac-12,24,"[14, 3, 7, 0]"
-400869496,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,0,Kenan Stadium,North Carolina,ACC,41,"[14, 17, 10, 0]",The Citadel,Southern,7,"[0, 0, 0, 7]"
-400869695,2016,12,regular,2016-11-19T20:30:00.000Z,1,0,1,Michigan Stadium,Michigan,Big Ten,20,"[0, 3, 17, 0]",Indiana,Big Ten,10,"[0, 7, 3, 0]"
-400869249,2016,12,regular,2016-11-19T21:00:00.000Z,1,0,1,Mackay Stadium,Nevada,Mountain West,38,"[3, 7, 7, 21]",Utah State,Mountain West,37,"[7, 10, 10, 10]"
-400869063,2016,12,regular,2016-11-19T21:00:00.000Z,1,0,0,Williams-Brice Stadium,South Carolina,SEC,44,"[21, 14, 3, 6]",Western Carolina,Southern,31,"[14, 3, 8, 6]"
-400922541,2016,12,regular,2016-11-19T21:00:00.000Z,1,0,1,Dowdy-Ficklen Stadium,East Carolina,American Athletic,31,"[14, 3, 14, 0]",Navy,American Athletic,66,"[7, 24, 21, 14]"
-400869060,2016,12,regular,2016-11-19T21:30:00.000Z,1,0,0,Kroger Field,Kentucky,SEC,49,"[0, 21, 21, 7]",Austin Peay,OVC,13,"[7, 6, 0, 0]"
-400869850,2016,12,regular,2016-11-19T22:20:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Sun Belt,50,"[28, 10, 3, 9]",Texas State,Sun Belt,10,"[0, 0, 3, 7]"
-400869413,2016,12,regular,2016-11-19T22:30:00.000Z,1,0,1,DATCU Stadium,North Texas,Conference USA,29,"[17, 3, 0, 9]",Southern Miss,Conference USA,23,"[0, 7, 13, 3]"
-400869166,2016,12,regular,2016-11-19T22:30:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,31,"[7, 7, 10, 7]",Stanford,Pac-12,45,"[7, 10, 14, 14]"
-400869412,2016,12,regular,2016-11-19T23:00:00.000Z,1,0,1,FAU Stadium,Florida Atlantic,Conference USA,24,"[14, 7, 3, 0]",Old Dominion,Conference USA,42,"[3, 10, 22, 7]"
-400869056,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,0,Bryant-Denny Stadium,Alabama,SEC,31,"[0, 14, 7, 10]",Chattanooga,Southern,3,"[3, 0, 0, 0]"
-400925661,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,0,Ladd Peebles Stadium,South Alabama,Sun Belt,31,"[7, 14, 0, 10]",Presbyterian,Big South,7,"[0, 0, 7, 0]"
-400869565,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,27,"[7, 7, 10, 3]",South Florida,American Athletic,35,"[14, 7, 7, 7]"
-400869411,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,1,FIU Stadium,Florida International,Conference USA,31,"[7, 7, 3, 14]",Marshall,Conference USA,14,"[7, 0, 0, 7]"
-400869251,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,13,"[0, 7, 3, 3]",Hawai'i,Mountain West,14,"[0, 7, 0, 7]"
-400869062,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,1,Davis Wade Stadium,Mississippi State,SEC,42,"[14, 0, 14, 14]",Arkansas,SEC,58,"[14, 24, 6, 14]"
-400869491,2016,12,regular,2016-11-20T00:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,13,"[0, 10, 3, 0]",Clemson,ACC,35,"[21, 7, 0, 7]"
-400869057,2016,12,regular,2016-11-20T00:30:00.000Z,1,0,0,Jordan-Hare Stadium,Auburn,SEC,55,"[14, 10, 24, 7]",Alabama A&M,SWAC,0,"[0, 0, 0, 0]"
-400869162,2016,12,regular,2016-11-20T00:30:00.000Z,1,0,1,Husky Stadium,Washington,Pac-12,44,"[3, 21, 6, 14]",Arizona State,Pac-12,18,"[0, 0, 3, 15]"
-400869617,2016,12,regular,2016-11-20T01:00:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,28,"[0, 7, 7, 14]",Oklahoma,Big 12,56,"[21, 13, 7, 15]"
-400869641,2016,12,regular,2016-11-20T01:00:00.000Z,1,0,1,High Point Solutions Stadium,Rutgers,Big Ten,0,"[0, 0, 0, 0]",Penn State,Big Ten,39,"[6, 3, 16, 14]"
-400869564,2016,12,regular,2016-11-20T01:00:00.000Z,1,0,1,FBC Mortgage Stadium,UCF,American Athletic,20,"[8, 6, 0, 6]",Tulsa,American Athletic,35,"[7, 7, 21, 0]"
-400869066,2016,12,regular,2016-11-20T01:00:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,38,"[7, 7, 17, 7]",Ole Miss,SEC,17,"[10, 0, 0, 7]"
-400869248,2016,12,regular,2016-11-20T03:15:00.000Z,1,0,1,Sonny Lubick Field at Hughes Stadium,Colorado State,Mountain West,49,"[14, 14, 21, 0]",New Mexico,Mountain West,31,"[7, 3, 7, 14]"
-400869247,2016,12,regular,2016-11-20T03:30:00.000Z,1,0,1,CEFCU Stadium,San José State,Mountain West,38,"[13, 10, 8, 7]",Air Force,Mountain West,41,"[7, 10, 14, 10]"
-400869161,2016,12,regular,2016-11-20T03:30:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,42,"[14, 7, 14, 7]",Arizona,Pac-12,17,"[0, 10, 0, 7]"
-400869163,2016,12,regular,2016-11-20T03:30:00.000Z,1,0,1,Rose Bowl,UCLA,Pac-12,14,"[7, 7, 0, 0]",USC,Pac-12,36,"[7, 16, 7, 6]"
-400869336,2016,13,regular,2016-11-23T00:00:00.000Z,1,0,1,Yager Stadium,Miami (OH),Mid-American,21,"[7, 0, 7, 7]",Ball State,Mid-American,20,"[7, 10, 3, 0]"
-400869335,2016,13,regular,2016-11-23T00:00:00.000Z,1,0,1,Peden Stadium,Ohio,Mid-American,9,"[0, 6, 0, 3]",Akron,Mid-American,3,"[0, 0, 3, 0]"
-400869337,2016,13,regular,2016-11-23T00:00:00.000Z,1,0,1,Rynearson Stadium,Eastern Michigan,Mid-American,26,"[7, 7, 6, 6]",Central Michigan,Mid-American,21,"[0, 7, 0, 14]"
-400869067,2016,13,regular,2016-11-25T00:30:00.000Z,1,0,1,Kyle Field,Texas A&M,SEC,39,"[7, 0, 10, 22]",LSU,SEC,54,"[10, 10, 14, 20]"
-400869497,2016,13,regular,2016-11-25T17:00:00.000Z,1,0,1,Kenan Stadium,North Carolina,ACC,21,"[0, 7, 0, 14]",NC State,ACC,28,"[14, 7, 7, 0]"
-400869339,2016,13,regular,2016-11-25T17:00:00.000Z,1,0,1,Dix Stadium,Kent State,Mid-American,21,"[0, 7, 7, 7]",Northern Illinois,Mid-American,31,"[7, 0, 10, 14]"
-400869568,2016,13,regular,2016-11-25T17:00:00.000Z,1,0,1,Simmons Bank Liberty Stadium,Memphis,American Athletic,48,"[21, 13, 0, 14]",Houston,American Athletic,44,"[10, 7, 10, 17]"
-400869338,2016,13,regular,2016-11-25T19:30:00.000Z,1,0,1,Doyt L. Perry Stadium,Bowling Green,Mid-American,27,"[7, 7, 6, 7]",Buffalo,Mid-American,19,"[0, 12, 0, 7]"
-400869073,2016,13,regular,2016-11-25T19:30:00.000Z,1,0,1,Memorial Stadium,Missouri,SEC,28,"[7, 0, 14, 7]",Arkansas,SEC,24,"[14, 10, 0, 0]"
-400869252,2016,13,regular,2016-11-25T20:30:00.000Z,1,0,1,Falcon Stadium,Air Force,Mountain West,27,"[7, 10, 7, 3]",Boise State,Mountain West,20,"[7, 3, 3, 7]"
-400869699,2016,13,regular,2016-11-25T20:30:00.000Z,1,0,1,Kinnick Stadium,Iowa,Big Ten,40,"[13, 7, 6, 14]",Nebraska,Big Ten,10,"[0, 3, 7, 0]"
-400869168,2016,13,regular,2016-11-25T20:30:00.000Z,1,0,1,Gesa Field,Washington State,Pac-12,17,"[3, 7, 7, 0]",Washington,Pac-12,45,"[28, 7, 0, 10]"
-400869632,2016,13,regular,2016-11-25T20:30:00.000Z,1,0,1,DKR-Texas Memorial Stadium,Texas,Big 12,9,"[3, 3, 3, 0]",TCU,Big 12,31,"[7, 0, 10, 14]"
-400869418,2016,13,regular,2016-11-25T21:00:00.000Z,1,0,1,M. M. Roberts Stadium,Southern Miss,Conference USA,39,"[10, 13, 6, 10]",Louisiana Tech,Conference USA,24,"[7, 10, 0, 7]"
-400869340,2016,13,regular,2016-11-25T22:00:00.000Z,1,0,1,Waldo Stadium,Western Michigan,Mid-American,55,"[14, 10, 21, 10]",Toledo,Mid-American,35,"[7, 7, 0, 21]"
-400868885,2016,13,regular,2016-11-25T23:00:00.000Z,1,1,1,AT&T Stadium,Texas Tech,Big 12,54,"[20, 21, 10, 3]",Baylor,Big 12,35,"[7, 14, 7, 7]"
-400869567,2016,13,regular,2016-11-26T01:30:00.000Z,1,0,1,Chapman Stadium,Tulsa,American Athletic,40,"[7, 7, 7, 13, 6]",Cincinnati,American Athletic,37,"[17, 7, 7, 3, 3]"
-400869167,2016,13,regular,2016-11-26T02:30:00.000Z,1,0,1,Arizona Stadium,Arizona,Pac-12,56,"[7, 21, 14, 14]",Arizona State,Pac-12,35,"[7, 7, 14, 7]"
-400869501,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Lane Stadium,Virginia Tech,ACC,52,"[7, 21, 24, 0]",Virginia,ACC,10,"[0, 0, 3, 7]"
-400869070,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,0,Sanford Stadium,Georgia,SEC,27,"[7, 7, 13, 0]",Georgia Tech,ACC,28,"[7, 7, 0, 14]"
-400869642,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,SECU Stadium,Maryland,Big Ten,31,"[14, 7, 7, 3]",Rutgers,Big Ten,13,"[0, 7, 6, 0]"
-400869071,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,0,L&N Federal Credit Union Stadium,Louisville,ACC,38,"[7, 17, 7, 7]",Kentucky,SEC,41,"[14, 7, 10, 10]"
-400869700,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,"Memorial Stadium (Bloomington, IN)",Indiana,Big Ten,26,"[14, 3, 0, 9]",Purdue,Big Ten,24,"[7, 9, 6, 2]"
-400869569,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Raymond James Stadium,South Florida,American Athletic,48,"[14, 10, 7, 17]",UCF,American Athletic,31,"[7, 7, 10, 7]"
-400869701,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Ryan Field,Northwestern,Big Ten,42,"[14, 7, 14, 7]",Illinois,Big Ten,21,"[0, 14, 7, 0]"
-400869852,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Cajun Field,Louisiana,Sun Belt,24,"[7, 7, 7, 3]",Arkansas State,Sun Belt,19,"[7, 0, 3, 9]"
-400869604,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Bill Snyder Family Stadium,Kansas State,Big 12,34,"[6, 14, 7, 7]",Kansas,Big 12,19,"[3, 0, 6, 10]"
-400869650,2016,13,regular,2016-11-26T17:00:00.000Z,1,0,1,Ohio Stadium,Ohio State,Big Ten,30,"[0, 7, 7, 3, 7, 6]",Michigan,Big Ten,27,"[0, 10, 7, 0, 7, 3]"
-400869500,2016,13,regular,2016-11-26T17:30:00.000Z,1,0,1,Acrisure Stadium,Pittsburgh,ACC,76,"[14, 21, 21, 20]",Syracuse,ACC,61,"[14, 7, 13, 27]"
-400869498,2016,13,regular,2016-11-26T20:00:00.000Z,1,0,1,Allegacy Federal Credit Union Stadium,Wake Forest,ACC,14,"[0, 0, 14, 0]",Boston College,ACC,17,"[10, 0, 0, 7]"
-400869416,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,S.B. Ballard Stadium,Old Dominion,Conference USA,42,"[14, 0, 14, 14]",Florida International,Conference USA,28,"[7, 7, 7, 7]"
-400869853,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Kibbie Dome,Idaho,Sun Belt,38,"[14, 10, 7, 7]",South Alabama,Sun Belt,31,"[7, 14, 7, 3]"
-400869499,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Hard Rock Stadium,Miami,ACC,40,"[10, 6, 17, 7]",Duke,ACC,21,"[7, 7, 0, 7]"
-400869072,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Vaught-Hemingway Stadium,Ole Miss,SEC,20,"[10, 10, 0, 0]",Mississippi State,SEC,55,"[13, 14, 14, 14]"
-400869572,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Gerald J. Ford Stadium,SMU,American Athletic,31,"[7, 17, 0, 7]",Navy,American Athletic,75,"[14, 14, 28, 19]"
-400869596,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Jack Trice Stadium,Iowa State,Big 12,19,"[13, 3, 3, 0]",West Virginia,Big 12,49,"[14, 7, 14, 14]"
-400868956,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,0,Los Angeles Memorial Coliseum,USC,Pac-12,45,"[10, 14, 14, 7]",Notre Dame,FBS Independents,27,"[7, 0, 14, 6]"
-400869255,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Valley Children's Stadium,Fresno State,Mountain West,14,"[0, 14, 0, 0]",San José State,Mountain West,16,"[7, 0, 6, 3]"
-400869068,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Bryant-Denny Stadium,Alabama,SEC,30,"[10, 3, 14, 3]",Auburn,SEC,12,"[3, 6, 3, 0]"
-400869703,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Camp Randall Stadium,Wisconsin,Big Ten,31,"[0, 7, 3, 21]",Minnesota,Big Ten,17,"[3, 14, 0, 0]"
-400869702,2016,13,regular,2016-11-26T20:30:00.000Z,1,0,1,Beaver Stadium,Penn State,Big Ten,45,"[0, 10, 21, 14]",Michigan State,Big Ten,12,"[6, 6, 0, 0]"
-400869171,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Reser Stadium,Oregon State,Pac-12,34,"[7, 7, 7, 13]",Oregon,Pac-12,24,"[7, 7, 10, 0]"
-400869420,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Sun Bowl,UTEP,Conference USA,52,"[10, 21, 14, 7]",North Texas,Conference USA,24,"[7, 10, 0, 7]"
-400869256,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Sam Boyd Stadium,UNLV,Mountain West,10,"[0, 10, 0, 0]",Nevada,Mountain West,45,"[10, 17, 3, 15]"
-400869854,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,7,"[0, 0, 7, 0]",Troy,Sun Belt,40,"[14, 16, 7, 3]"
-400869851,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Aggie Memorial Stadium,New Mexico State,Sun Belt,7,"[0, 7, 0, 0]",App State,Sun Belt,37,"[17, 3, 10, 7]"
-400869570,2016,13,regular,2016-11-26T21:00:00.000Z,1,0,1,Pratt & Whitney Stadium,UConn,American Athletic,13,"[0, 0, 6, 7]",Tulane,American Athletic,38,"[10, 14, 0, 14]"
-400869417,2016,13,regular,2016-11-26T22:30:00.000Z,1,0,1,"Johnny ""Red"" Floyd Stadium",Middle Tennessee,Conference USA,77,"[21, 21, 7, 28]",Florida Atlantic,Conference USA,56,"[7, 14, 14, 21]"
-400869419,2016,13,regular,2016-11-27T00:00:00.000Z,1,0,1,Joan C. Edwards Stadium,Marshall,Conference USA,6,"[0, 0, 6, 0]",Western Kentucky,Conference USA,60,"[28, 13, 9, 10]"
-400869169,2016,13,regular,2016-11-27T00:00:00.000Z,1,0,1,California Memorial Stadium,California,Pac-12,36,"[3, 9, 14, 10]",UCLA,Pac-12,10,"[0, 0, 10, 0]"
-400869415,2016,13,regular,2016-11-27T00:00:00.000Z,1,0,1,Alamodome,UTSA,Conference USA,33,"[10, 7, 3, 13]",Charlotte,Conference USA,14,"[7, 0, 0, 7]"
-400869170,2016,13,regular,2016-11-27T00:30:00.000Z,1,0,1,Folsom Field,Colorado,Pac-12,27,"[7, 6, 7, 7]",Utah,Pac-12,22,"[7, 0, 6, 9]"
-400869075,2016,13,regular,2016-11-27T00:30:00.000Z,1,0,1,FirstBank Stadium,Vanderbilt,SEC,45,"[7, 17, 7, 14]",Tennessee,SEC,34,"[14, 17, 3, 0]"
-400869571,2016,13,regular,2016-11-27T00:30:00.000Z,1,0,1,Lincoln Financial Field,Temple,American Athletic,37,"[7, 14, 6, 10]",East Carolina,American Athletic,10,"[7, 0, 0, 3]"
-400869074,2016,13,regular,2016-11-27T00:30:00.000Z,1,0,0,"Memorial Stadium (Clemson, SC)",Clemson,ACC,56,"[21, 14, 14, 7]",South Carolina,SEC,7,"[0, 0, 7, 0]"
-400869069,2016,13,regular,2016-11-27T01:00:00.000Z,1,0,0,Doak Campbell Stadium,Florida State,ACC,31,"[7, 3, 7, 14]",Florida,SEC,13,"[0, 3, 3, 7]"
-400869172,2016,13,regular,2016-11-27T01:00:00.000Z,1,0,0,Stanford Stadium,Stanford,Pac-12,41,"[13, 7, 21, 0]",Rice,Conference USA,17,"[0, 3, 7, 7]"
-400869253,2016,13,regular,2016-11-27T02:00:00.000Z,1,0,1,Qualcomm Stadium,San Diego State,Mountain West,31,"[7, 17, 0, 7]",Colorado State,Mountain West,63,"[21, 21, 14, 7]"
-400868933,2016,13,regular,2016-11-27T03:15:00.000Z,1,0,0,LaVell Edwards Stadium,BYU,FBS Independents,28,"[0, 14, 7, 7]",Utah State,Mountain West,10,"[3, 7, 0, 0]"
-400869254,2016,13,regular,2016-11-27T03:15:00.000Z,1,0,1,University Stadium (NM),New Mexico,Mountain West,56,"[21, 14, 7, 14]",Wyoming,Mountain West,35,"[0, 7, 14, 14]"
-400868967,2016,13,regular,2016-11-27T04:00:00.000Z,1,0,0,Aloha Stadium,Hawai'i,Mountain West,46,"[10, 14, 9, 13]",Massachusetts,FBS Independents,40,"[3, 10, 13, 14]"
-400926941,2016,14,regular,2016-12-03T00:00:00.000Z,1,1,1,Ford Field,Ohio,Mid-American,23,"[0, 7, 13, 3]",Western Michigan,Mid-American,29,"[6, 17, 3, 3]"
-400926942,2016,14,regular,2016-12-03T02:00:00.000Z,1,1,1,Levi's Stadium,Washington,Pac-12,41,"[7, 7, 17, 10]",Colorado,Pac-12,10,"[7, 0, 3, 0]"
-400926948,2016,14,regular,2016-12-03T17:00:00.000Z,1,0,1,Houchens Industries-L.T. Smith Stadium,Western Kentucky,Conference USA,58,"[24, 14, 10, 10]",Louisiana Tech,Conference USA,44,"[17, 10, 14, 3]"
-400869856,2016,14,regular,2016-12-03T17:00:00.000Z,1,0,1,Allen E. Paulson Stadium,Georgia Southern,Sun Belt,28,"[0, 7, 14, 7]",Troy,Sun Belt,24,"[3, 7, 7, 7]"
-400869611,2016,14,regular,2016-12-03T17:00:00.000Z,1,0,1,Amon G. Carter Stadium,TCU,Big 12,6,"[3, 3, 0, 0]",Kansas State,Big 12,30,"[3, 7, 13, 7]"
-400926947,2016,14,regular,2016-12-03T17:00:00.000Z,1,0,1,Navy-Marine Corps Memorial Stadium,Navy,American Athletic,10,"[0, 3, 7, 0]",Temple,American Athletic,34,"[14, 10, 0, 10]"
-400869618,2016,14,regular,2016-12-03T17:30:00.000Z,1,0,1,"Memorial Stadium (Norman, OK)",Oklahoma,Big 12,38,"[0, 17, 14, 7]",Oklahoma State,Big 12,20,"[3, 14, 3, 0]"
-400869859,2016,14,regular,2016-12-03T18:00:00.000Z,1,0,1,Ladd Peebles Stadium,South Alabama,Sun Belt,35,"[7, 0, 7, 21]",New Mexico State,Sun Belt,28,"[0, 7, 7, 14]"
-400869858,2016,14,regular,2016-12-03T20:00:00.000Z,1,0,1,Malone Stadium,UL Monroe,Sun Belt,3,"[3, 0, 0, 0]",Louisiana,Sun Belt,30,"[7, 17, 6, 0]"
-400868886,2016,14,regular,2016-12-03T20:30:00.000Z,1,0,1,Milan Puskar Stadium,West Virginia,Big 12,24,"[3, 7, 7, 7]",Baylor,Big 12,21,"[0, 14, 0, 7]"
-400926943,2016,14,regular,2016-12-03T21:00:00.000Z,1,1,1,Georgia Dome,Florida,SEC,16,"[9, 7, 0, 0]",Alabama,SEC,54,"[16, 17, 7, 14]"
-400869857,2016,14,regular,2016-12-03T22:00:00.000Z,1,0,1,Kibbie Dome,Idaho,Sun Belt,37,"[14, 10, 10, 3]",Georgia State,Sun Belt,12,"[6, 6, 0, 0]"
-400869855,2016,14,regular,2016-12-04T00:30:00.000Z,1,0,1,Bobcat Stadium (TX),Texas State,Sun Belt,14,"[0, 7, 7, 0]",Arkansas State,Sun Belt,36,"[6, 7, 3, 20]"
-400926949,2016,14,regular,2016-12-04T00:45:00.000Z,1,0,1,War Memorial Stadium,Wyoming,Mountain West,24,"[10, 0, 0, 14]",San Diego State,Mountain West,27,"[7, 3, 14, 3]"
-400926946,2016,14,regular,2016-12-04T01:00:00.000Z,1,1,1,Lucas Oil Stadium,Penn State,Big Ten,38,"[7, 7, 14, 10]",Wisconsin,Big Ten,31,"[14, 14, 3, 0]"
-400926944,2016,14,regular,2016-12-04T01:00:00.000Z,1,1,1,Camping World Stadium,Virginia Tech,ACC,35,"[7, 7, 7, 14]",Clemson,ACC,42,"[14, 7, 14, 7]"
-400868921,2016,15,regular,2016-12-10T20:00:00.000Z,1,1,0,M&T Bank Stadium,Army,FBS Independents,21,"[7, 7, 0, 7]",Navy,American Athletic,17,"[0, 0, 10, 7]"
+id,season,week,season_type,start_date,completed,neutral_site,conference_game,venue_id,venue,home_id,home_team,home_conference,home_points,away_id,away_team,away_conference,away_points
+400869090,2016,1,,,1,,,,ANZ Stadium,,,,,,,,
+400869421,2016,1,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869257,2016,1,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869341,2016,1,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869503,2016,1,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869502,2016,1,,,1,,,,Nippert Stadium,,,,,,,,
+400869342,2016,1,,,1,,,,FIU Stadium,,,,,,,,
+400868977,2016,1,,,1,,,,Neyland Stadium,,,,,,,,
+400869422,2016,1,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400868968,2016,1,,,1,,,,FirstBank Stadium,,,,,,,,
+400869347,2016,1,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869091,2016,1,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400869173,2016,1,,,1,,,,Maverik Stadium,,,,,,,,
+400869725,2016,1,,,1,,,,Kibbie Dome,,,,,,,,
+400869092,2016,1,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869177,2016,1,,,1,,,,University Stadium (NM),,,,,,,,
+400869174,2016,1,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869263,2016,1,,,1,,,,Rynearson Stadium,,,,,,,,
+400869423,2016,1,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869258,2016,1,,,1,,,,Georgia Dome,,,,,,,,
+400869651,2016,1,,,1,,,,Spartan Stadium,,,,,,,,
+400869259,2016,1,,,1,,,,UB Stadium,,,,,,,,
+400868910,2016,1,,,1,,,,Lincoln Financial Field,,,,,,,,
+400868876,2016,1,,,1,,,,McLane Stadium,,,,,,,,
+400869093,2016,1,,,1,,,,Sports Authority Field at Mile High,,,,,,,,
+400869265,2016,1,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869094,2016,1,,,1,,,,Stanford Stadium,,,,,,,,
+400869181,2016,1,,,1,,,,Mackay Stadium,,,,,,,,
+400869424,2016,1,,,1,,,,Aviva Stadium,,,,,,,,
+400869578,2016,1,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869509,2016,1,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400868975,2016,1,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869176,2016,1,,,1,,,,Cajun Field,,,,,,,,
+400869653,2016,1,,,1,,,,SECU Stadium,,,,,,,,
+400869180,2016,1,,,1,,,,Michigan Stadium,,,,,,,,
+400868976,2016,1,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400869267,2016,1,,,1,,,,Ryan Field,,,,,,,,
+400869260,2016,1,,,1,,,,Ohio Stadium,,,,,,,,
+400869507,2016,1,,,1,,,,NRG Stadium,,,,,,,,
+400869428,2016,1,,,1,,,,Lane Stadium,,,,,,,,
+400869426,2016,1,,,1,,,,Acrisure Stadium,,,,,,,,
+400869175,2016,1,,,1,,,,Falcon Stadium,,,,,,,,
+400869097,2016,1,,,1,,,,Husky Stadium,,,,,,,,
+400869619,2016,1,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400869427,2016,1,,,1,,,,Scott Stadium,,,,,,,,
+400869264,2016,1,,,1,,,,Peden Stadium,,,,,,,,
+400868974,2016,1,,,1,,,,Lambeau Field,,,,,,,,
+400869652,2016,1,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400868978,2016,1,,,1,,,,Kyle Field,,,,,,,,
+400869261,2016,1,,,1,,,,Beaver Stadium,,,,,,,,
+400869262,2016,1,,,1,,,,Kinnick Stadium,,,,,,,,
+400868970,2016,1,,,1,,,,Razorback Stadium,,,,,,,,
+400869096,2016,1,,,1,,,,Autzen Stadium,,,,,,,,
+400868972,2016,1,,,1,,,,Georgia Dome,,,,,,,,
+400869718,2016,1,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869505,2016,1,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869810,2016,1,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400869808,2016,1,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+400869425,2016,1,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869343,2016,1,,,1,,,,FAU Stadium,,,,,,,,
+400869266,2016,1,,,1,,,,InfoCision Stadium,,,,,,,,
+400869508,2016,1,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869345,2016,1,,,1,,,,DATCU Stadium,,,,,,,,
+400869183,2016,1,,,1,,,,Chapman Stadium,,,,,,,,
+400869809,2016,1,,,1,,,,Malone Stadium,,,,,,,,
+400869506,2016,1,,,1,,,,Raymond James Stadium,,,,,,,,
+400869344,2016,1,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+400869597,2016,1,,,1,,,,Memorial Stadium,,,,,,,,
+400869349,2016,1,,,1,,,,Alamodome,,,,,,,,
+400869504,2016,1,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400868957,2016,1,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+400868973,2016,1,,,1,,,,Kroger Field,,,,,,,,
+400869098,2016,1,,,1,,,,Gesa Field,,,,,,,,
+400869625,2016,1,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400868969,2016,1,,,1,,,,AT&T Stadium,,,,,,,,
+400869179,2016,1,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400868887,2016,1,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869348,2016,1,,,1,,,,Sun Bowl,,,,,,,,
+400869624,2016,1,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869182,2016,1,,,1,,,,Qualcomm Stadium,,,,,,,,
+400868971,2016,1,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400868922,2016,1,,,1,,,,State Farm Stadium,,,,,,,,
+400869178,2016,1,,,1,,,,War Memorial Stadium,,,,,,,,
+400869095,2016,1,,,1,,,,Mountain America Stadium,,,,,,,,
+400869346,2016,1,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400868946,2016,1,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400868979,2016,1,,,1,,,,Camping World Stadium,,,,,,,,
+400869351,2016,2,,,1,,,,FIU Stadium,,,,,,,,
+400869429,2016,2,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869510,2016,2,,,1,,,,Michigan Stadium,,,,,,,,
+400869514,2016,2,,,1,,,,TDECU Stadium,,,,,,,,
+400869511,2016,2,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400868911,2016,2,,,1,,,,Michie Stadium,,,,,,,,
+400868958,2016,2,,,1,,,,Gillette Stadium,,,,,,,,
+400869187,2016,2,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869435,2016,2,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869436,2016,2,,,1,,,,Acrisure Stadium,,,,,,,,
+400869633,2016,2,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869654,2016,2,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400868990,2016,2,,,1,,,,Kyle Field,,,,,,,,
+400869270,2016,2,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400868984,2016,2,,,1,,,,Sanford Stadium,,,,,,,,
+400869430,2016,2,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869432,2016,2,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869513,2016,2,,,1,,,,Lincoln Financial Field,,,,,,,,
+400869101,2016,2,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869626,2016,2,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400869184,2016,2,,,1,,,,Falcon Stadium,,,,,,,,
+400869277,2016,2,,,1,,,,Memorial Stadium,,,,,,,,
+400869433,2016,2,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869655,2016,2,,,1,,,,Ryan Field,,,,,,,,
+400869512,2016,2,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400869431,2016,2,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869276,2016,2,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400868983,2016,2,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+400869355,2016,2,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400868980,2016,2,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869516,2016,2,,,1,,,,Ohio Stadium,,,,,,,,
+400869268,2016,2,,,1,,,,Camp Randall Stadium,,,,,,,,
+400868947,2016,2,,,1,,,,Notre Dame Stadium,,,,,,,,
+400868877,2016,2,,,1,,,,McLane Stadium,,,,,,,,
+400868991,2016,2,,,1,,,,FirstBank Stadium,,,,,,,,
+400869185,2016,2,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400868986,2016,2,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869269,2016,2,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869190,2016,2,,,1,,,,CEFCU Stadium,,,,,,,,
+400869271,2016,2,,,1,,,,Yager Stadium,,,,,,,,
+400869105,2016,2,,,1,,,,Husky Stadium,,,,,,,,
+400869103,2016,2,,,1,,,,Folsom Field,,,,,,,,
+400869274,2016,2,,,1,,,,Dix Stadium,,,,,,,,
+400869719,2016,2,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869350,2016,2,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869353,2016,2,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869352,2016,2,,,1,,,,Joe Aillet Stadium,,,,,,,,
+400869354,2016,2,,,1,,,,DATCU Stadium,,,,,,,,
+400869356,2016,2,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400868981,2016,2,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869357,2016,2,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400869811,2016,2,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869812,2016,2,,,1,,,,Cajun Field,,,,,,,,
+400869612,2016,2,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400868987,2016,2,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869272,2016,2,,,1,,,,Glass Bowl,,,,,,,,
+400869273,2016,2,,,1,,,,Raymond James Stadium,,,,,,,,
+400869275,2016,2,,,1,,,,Waldo Stadium,,,,,,,,
+400868985,2016,2,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400868988,2016,2,,,1,,,,Memorial Stadium,,,,,,,,
+400869434,2016,2,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400868923,2016,2,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400868888,2016,2,,,1,,,,Kinnick Stadium,,,,,,,,
+400868982,2016,2,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869515,2016,2,,,1,,,,Yulman Stadium,,,,,,,,
+400868989,2016,2,,,1,,,,Bristol Motor Speedway,,,,,,,,
+400869186,2016,2,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+400869102,2016,2,,,1,,,,Rose Bowl,,,,,,,,
+400869100,2016,2,,,1,,,,Mountain America Stadium,,,,,,,,
+400869188,2016,2,,,1,,,,Valley Children's Stadium,,,,,,,,
+400869106,2016,2,,,1,,,,Albertsons Stadium,,,,,,,,
+400869104,2016,2,,,1,,,,Autzen Stadium,,,,,,,,
+400869107,2016,2,,,1,,,,Qualcomm Stadium,,,,,,,,
+400869099,2016,2,,,1,,,,Arizona Stadium,,,,,,,,
+400869189,2016,2,,,1,,,,Aloha Stadium,,,,,,,,
+400869517,2016,3,,,1,,,,Nippert Stadium,,,,,,,,
+400869361,2016,3,,,1,,,,Rice Stadium,,,,,,,,
+400869193,2016,3,,,1,,,,Maverik Stadium,,,,,,,,
+400869109,2016,3,,,1,,,,Alamodome,,,,,,,,
+400869440,2016,3,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869438,2016,3,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869657,2016,3,,,1,,,,Camp Randall Stadium,,,,,,,,
+400869000,2016,3,,,1,,,,Neyland Stadium,,,,,,,,
+400869720,2016,3,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400868889,2016,3,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869192,2016,3,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869278,2016,3,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869281,2016,3,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400869520,2016,3,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869519,2016,3,,,1,,,,Beaver Stadium,,,,,,,,
+400869656,2016,3,,,1,,,,Kinnick Stadium,,,,,,,,
+400869001,2016,3,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869444,2016,3,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869523,2016,3,,,1,,,,Chapman Stadium,,,,,,,,
+400869116,2016,3,,,1,,,,Gesa Field,,,,,,,,
+400869358,2016,3,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869279,2016,3,,,1,,,,Scheumann Stadium,,,,,,,,
+400869198,2016,3,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869195,2016,3,,,1,,,,Glass Bowl,,,,,,,,
+400869443,2016,3,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869282,2016,3,,,1,,,,Dix Stadium,,,,,,,,
+400869283,2016,3,,,1,,,,Yager Stadium,,,,,,,,
+400869437,2016,3,,,1,,,,Lane Stadium,,,,,,,,
+400869441,2016,3,,,1,,,,Kenan Stadium,,,,,,,,
+400868959,2016,3,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+400868997,2016,3,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869113,2016,3,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869111,2016,3,,,1,,,,Michigan Stadium,,,,,,,,
+400869442,2016,3,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400869197,2016,3,,,1,,,,Huskie Stadium,,,,,,,,
+400869194,2016,3,,,1,,,,War Memorial Stadium,,,,,,,,
+400868995,2016,3,,,1,,,,Kroger Field,,,,,,,,
+400868999,2016,3,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869191,2016,3,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400869284,2016,3,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400869114,2016,3,,,1,,,,Reser Stadium,,,,,,,,
+400869280,2016,3,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869813,2016,3,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+400869360,2016,3,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400869445,2016,3,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400868912,2016,3,,,1,,,,Sun Bowl,,,,,,,,
+400869362,2016,3,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400869518,2016,3,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400869521,2016,3,,,1,,,,Yulman Stadium,,,,,,,,
+400869814,2016,3,,,1,,,,Cajun Field,,,,,,,,
+400869359,2016,3,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400869522,2016,3,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400868993,2016,3,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400868996,2016,3,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400868994,2016,3,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+400868948,2016,3,,,1,,,,Notre Dame Stadium,,,,,,,,
+400868998,2016,3,,,1,,,,Memorial Stadium,,,,,,,,
+400868992,2016,3,,,1,,,,Razorback Stadium,,,,,,,,
+400869613,2016,3,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400869110,2016,3,,,1,,,,Stanford Stadium,,,,,,,,
+400869439,2016,3,,,1,,,,Ryan Field,,,,,,,,
+400869115,2016,3,,,1,,,,Husky Stadium,,,,,,,,
+400869196,2016,3,,,1,,,,Mackay Stadium,,,,,,,,
+400868924,2016,3,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400869112,2016,3,,,1,,,,CEFCU Stadium,,,,,,,,
+400869117,2016,3,,,1,,,,California Memorial Stadium,,,,,,,,
+400869108,2016,3,,,1,,,,Arizona Stadium,,,,,,,,
+400869446,2016,4,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869201,2016,4,,,1,,,,Rynearson Stadium,,,,,,,,
+400869524,2016,4,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400869118,2016,4,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400869204,2016,4,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869363,2016,4,,,1,,,,Lincoln Financial Field,,,,,,,,
+400869634,2016,4,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869448,2016,4,,,1,,,,Raymond James Stadium,,,,,,,,
+400869203,2016,4,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869002,2016,4,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869200,2016,4,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869659,2016,4,,,1,,,,Spartan Stadium,,,,,,,,
+400869005,2016,4,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869451,2016,4,,,1,,,,Lane Stadium,,,,,,,,
+400869288,2016,4,,,1,,,,Scott Stadium,,,,,,,,
+400869447,2016,4,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400869450,2016,4,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869289,2016,4,,,1,,,,Peden Stadium,,,,,,,,
+400869368,2016,4,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400869658,2016,4,,,1,,,,Michigan Stadium,,,,,,,,
+400869007,2016,4,,,1,,,,Neyland Stadium,,,,,,,,
+400868925,2016,4,,,1,,,,Northwest Stadium,,,,,,,,
+400868949,2016,4,,,1,,,,Notre Dame Stadium,,,,,,,,
+400868960,2016,4,,,1,,,,Gillette Stadium,,,,,,,,
+400869123,2016,4,,,1,,,,Reser Stadium,,,,,,,,
+400869285,2016,4,,,1,,,,InfoCision Stadium,,,,,,,,
+400869291,2016,4,,,1,,,,Nippert Stadium,,,,,,,,
+400869292,2016,4,,,1,,,,Huskie Stadium,,,,,,,,
+400869449,2016,4,,,1,,,,Kenan Stadium,,,,,,,,
+400869452,2016,4,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869006,2016,4,,,1,,,,Memorial Stadium,,,,,,,,
+400869009,2016,4,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869202,2016,4,,,1,,,,Valley Children's Stadium,,,,,,,,
+400869122,2016,4,,,1,,,,Autzen Stadium,,,,,,,,
+400869286,2016,4,,,1,,,,FAU Stadium,,,,,,,,
+400869367,2016,4,,,1,,,,Rice Stadium,,,,,,,,
+400869003,2016,4,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869816,2016,4,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400869817,2016,4,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869365,2016,4,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+400869815,2016,4,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869364,2016,4,,,1,,,,FIU Stadium,,,,,,,,
+400869290,2016,4,,,1,,,,Waldo Stadium,,,,,,,,
+400868913,2016,4,,,1,,,,UB Stadium,,,,,,,,
+400869525,2016,4,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400869605,2016,4,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869004,2016,4,,,1,,,,Kroger Field,,,,,,,,
+400869660,2016,4,,,1,,,,Ryan Field,,,,,,,,
+400868878,2016,4,,,1,,,,McLane Stadium,,,,,,,,
+400869366,2016,4,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869369,2016,4,,,1,,,,Sun Bowl,,,,,,,,
+400869287,2016,4,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869121,2016,4,,,1,,,,Rose Bowl,,,,,,,,
+400869526,2016,4,,,1,,,,Yulman Stadium,,,,,,,,
+400869008,2016,4,,,1,,,,AT&T Stadium,,,,,,,,
+400869205,2016,4,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869120,2016,4,,,1,,,,Mountain America Stadium,,,,,,,,
+400869199,2016,4,,,1,,,,Maverik Stadium,,,,,,,,
+400869119,2016,4,,,1,,,,Arizona Stadium,,,,,,,,
+400869527,2016,5,,,1,,,,TDECU Stadium,,,,,,,,
+400869598,2016,5,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400869124,2016,5,,,1,,,,Husky Stadium,,,,,,,,
+400868926,2016,5,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400869620,2016,5,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400868950,2016,5,,,1,,,,MetLife Stadium,,,,,,,,
+400869011,2016,5,,,1,,,,War Memorial Stadium (AR),,,,,,,,
+400869635,2016,5,,,1,,,,Ohio Stadium,,,,,,,,
+400868879,2016,5,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869721,2016,5,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869818,2016,5,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400869662,2016,5,,,1,,,,Kinnick Stadium,,,,,,,,
+400869530,2016,5,,,1,,,,Lincoln Financial Field,,,,,,,,
+400869528,2016,5,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869017,2016,5,,,1,,,,FirstBank Stadium,,,,,,,,
+400869454,2016,5,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869294,2016,5,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400869296,2016,5,,,1,,,,Yager Stadium,,,,,,,,
+400869127,2016,5,,,1,,,,Folsom Field,,,,,,,,
+400869295,2016,5,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400869665,2016,5,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869297,2016,5,,,1,,,,Scheumann Stadium,,,,,,,,
+400869293,2016,5,,,1,,,,Dix Stadium,,,,,,,,
+400869206,2016,5,,,1,,,,Falcon Stadium,,,,,,,,
+400869012,2016,5,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869606,2016,5,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400868961,2016,5,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+400869456,2016,5,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400869663,2016,5,,,1,,,,SECU Stadium,,,,,,,,
+400869664,2016,5,,,1,,,,Michigan Stadium,,,,,,,,
+400869013,2016,5,,,1,,,,Sanford Stadium,,,,,,,,
+400869455,2016,5,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869666,2016,5,,,1,,,,Beaver Stadium,,,,,,,,
+400869209,2016,5,,,1,,,,University Stadium (NM),,,,,,,,
+400869016,2016,5,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869819,2016,5,,,1,,,,Kibbie Dome,,,,,,,,
+400869614,2016,5,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869128,2016,5,,,1,,,,California Memorial Stadium,,,,,,,,
+400869370,2016,5,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869375,2016,5,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400869010,2016,5,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869374,2016,5,,,1,,,,DATCU Stadium,,,,,,,,
+400869298,2016,5,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869372,2016,5,,,1,,,,Joe Aillet Stadium,,,,,,,,
+400869371,2016,5,,,1,,,,FIU Stadium,,,,,,,,
+400869529,2016,5,,,1,,,,Nippert Stadium,,,,,,,,
+400869376,2016,5,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869015,2016,5,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869821,2016,5,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400869014,2016,5,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400869373,2016,5,,,1,,,,Acrisure Stadium,,,,,,,,
+400869661,2016,5,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869212,2016,5,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869820,2016,5,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+400869453,2016,5,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869126,2016,5,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869129,2016,5,,,1,,,,Gesa Field,,,,,,,,
+400869208,2016,5,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400869207,2016,5,,,1,,,,Albertsons Stadium,,,,,,,,
+400869125,2016,5,,,1,,,,Rose Bowl,,,,,,,,
+400869210,2016,5,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869211,2016,5,,,1,,,,Aloha Stadium,,,,,,,,
+400869822,2016,6,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869531,2016,6,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869379,2016,6,,,1,,,,Joe Aillet Stadium,,,,,,,,
+400869457,2016,6,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400868962,2016,6,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400869533,2016,6,,,1,,,,Chapman Stadium,,,,,,,,
+400869214,2016,6,,,1,,,,University Stadium (NM),,,,,,,,
+400869534,2016,6,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869381,2016,6,,,1,,,,Alamodome,,,,,,,,
+400869599,2016,6,,,1,,,,Memorial Stadium,,,,,,,,
+400869668,2016,6,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869669,2016,6,,,1,,,,Beaver Stadium,,,,,,,,
+400869535,2016,6,,,1,,,,Raymond James Stadium,,,,,,,,
+400869615,2016,6,,,1,,,,Cotton Bowl,,,,,,,,
+400868951,2016,6,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400869021,2016,6,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869458,2016,6,,,1,,,,Acrisure Stadium,,,,,,,,
+400869300,2016,6,,,1,,,,Peden Stadium,,,,,,,,
+400869302,2016,6,,,1,,,,InfoCision Stadium,,,,,,,,
+400869536,2016,6,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400869304,2016,6,,,1,,,,Rynearson Stadium,,,,,,,,
+400869023,2016,6,,,1,,,,Kyle Field,,,,,,,,
+400869643,2016,6,,,1,,,,Ohio Stadium,,,,,,,,
+400868914,2016,6,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869459,2016,6,,,1,,,,Kenan Stadium,,,,,,,,
+400868927,2016,6,,,1,,,,Spartan Stadium,,,,,,,,
+400869213,2016,6,,,1,,,,War Memorial Stadium,,,,,,,,
+400869299,2016,6,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869301,2016,6,,,1,,,,UB Stadium,,,,,,,,
+400869590,2016,6,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400869667,2016,6,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400869823,2016,6,,,1,,,,Georgia Dome,,,,,,,,
+400869020,2016,6,,,1,,,,Kroger Field,,,,,,,,
+400869132,2016,6,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869217,2016,6,,,1,,,,CEFCU Stadium,,,,,,,,
+400869303,2016,6,,,1,,,,Waldo Stadium,,,,,,,,
+400869380,2016,6,,,1,,,,DATCU Stadium,,,,,,,,
+400869018,2016,6,,,1,,,,Razorback Stadium,,,,,,,,
+400869216,2016,6,,,1,,,,Mackay Stadium,,,,,,,,
+400869636,2016,6,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869460,2016,6,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869607,2016,6,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869824,2016,6,,,1,,,,Malone Stadium,,,,,,,,
+400869133,2016,6,,,1,,,,Autzen Stadium,,,,,,,,
+400869722,2016,6,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869378,2016,6,,,1,,,,Sun Bowl,,,,,,,,
+400869134,2016,6,,,1,,,,Reser Stadium,,,,,,,,
+400869215,2016,6,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400869130,2016,6,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400869131,2016,6,,,1,,,,Mountain America Stadium,,,,,,,,
+400869135,2016,6,,,1,,,,Stanford Stadium,,,,,,,,
+400869218,2016,6,,,1,,,,Qualcomm Stadium,,,,,,,,
+400869377,2016,6,,,1,,,,FAU Stadium,,,,,,,,
+400869022,2016,6,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869825,2016,7,,,1,,,,Cajun Field,,,,,,,,
+400869461,2016,7,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869538,2016,7,,,1,,,,Yulman Stadium,,,,,,,,
+400869221,2016,7,,,1,,,,Valley Children's Stadium,,,,,,,,
+400868928,2016,7,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400868915,2016,7,,,1,,,,Michie Stadium,,,,,,,,
+400869608,2016,7,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400869627,2016,7,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400869462,2016,7,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869673,2016,7,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869671,2016,7,,,1,,,,SECU Stadium,,,,,,,,
+400869637,2016,7,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869026,2016,7,,,1,,,,Sanford Stadium,,,,,,,,
+400869464,2016,7,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869465,2016,7,,,1,,,,Scott Stadium,,,,,,,,
+400869308,2016,7,,,1,,,,Peden Stadium,,,,,,,,
+400869384,2016,7,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+400869309,2016,7,,,1,,,,Yager Stadium,,,,,,,,
+400869028,2016,7,,,1,,,,Neyland Stadium,,,,,,,,
+400869219,2016,7,,,1,,,,Cotton Bowl,,,,,,,,
+400869136,2016,7,,,1,,,,Arizona Stadium,,,,,,,,
+400869827,2016,7,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400869670,2016,7,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400868880,2016,7,,,1,,,,McLane Stadium,,,,,,,,
+400869672,2016,7,,,1,,,,Spartan Stadium,,,,,,,,
+400869307,2016,7,,,1,,,,Huskie Stadium,,,,,,,,
+400869463,2016,7,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869306,2016,7,,,1,,,,Glass Bowl,,,,,,,,
+400869723,2016,7,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869305,2016,7,,,1,,,,UB Stadium,,,,,,,,
+400868963,2016,7,,,1,,,,Gillette Stadium,,,,,,,,
+400869310,2016,7,,,1,,,,InfoCision Stadium,,,,,,,,
+400869466,2016,7,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869025,2016,7,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+400869139,2016,7,,,1,,,,Reser Stadium,,,,,,,,
+400869828,2016,7,,,1,,,,Kibbie Dome,,,,,,,,
+400869382,2016,7,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869024,2016,7,,,1,,,,Razorback Stadium,,,,,,,,
+400869829,2016,7,,,1,,,,Malone Stadium,,,,,,,,
+400869541,2016,7,,,1,,,,TDECU Stadium,,,,,,,,
+400869540,2016,7,,,1,,,,Raymond James Stadium,,,,,,,,
+400869591,2016,7,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400869826,2016,7,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869383,2016,7,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869385,2016,7,,,1,,,,Rice Stadium,,,,,,,,
+400869539,2016,7,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400869027,2016,7,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400868952,2016,7,,,1,,,,Notre Dame Stadium,,,,,,,,
+400869137,2016,7,,,1,,,,Folsom Field,,,,,,,,
+400869644,2016,7,,,1,,,,Camp Randall Stadium,,,,,,,,
+400869220,2016,7,,,1,,,,Albertsons Stadium,,,,,,,,
+400869138,2016,7,,,1,,,,Gesa Field,,,,,,,,
+400869223,2016,7,,,1,,,,CEFCU Stadium,,,,,,,,
+400869222,2016,7,,,1,,,,Aloha Stadium,,,,,,,,
+400869467,2016,8,,,1,,,,Lane Stadium,,,,,,,,
+400869830,2016,8,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869224,2016,8,,,1,,,,Albertsons Stadium,,,,,,,,
+400869542,2016,8,,,1,,,,Lincoln Financial Field,,,,,,,,
+400869140,2016,8,,,1,,,,California Memorial Stadium,,,,,,,,
+400869230,2016,8,,,1,,,,Qualcomm Stadium,,,,,,,,
+400868916,2016,8,,,1,,,,Michie Stadium,,,,,,,,
+400869674,2016,8,,,1,,,,Kinnick Stadium,,,,,,,,
+400869469,2016,8,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869600,2016,8,,,1,,,,Memorial Stadium,,,,,,,,
+400869543,2016,8,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869316,2016,8,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400869313,2016,8,,,1,,,,Glass Bowl,,,,,,,,
+400868964,2016,8,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869678,2016,8,,,1,,,,Ryan Field,,,,,,,,
+400869638,2016,8,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869609,2016,8,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869468,2016,8,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400869315,2016,8,,,1,,,,Dix Stadium,,,,,,,,
+400869225,2016,8,,,1,,,,Falcon Stadium,,,,,,,,
+400869143,2016,8,,,1,,,,Stanford Stadium,,,,,,,,
+400869470,2016,8,,,1,,,,Scott Stadium,,,,,,,,
+400869311,2016,8,,,1,,,,Scheumann Stadium,,,,,,,,
+400869677,2016,8,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869546,2016,8,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400869314,2016,8,,,1,,,,Waldo Stadium,,,,,,,,
+400869628,2016,8,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400869389,2016,8,,,1,,,,Rice Stadium,,,,,,,,
+400869676,2016,8,,,1,,,,Michigan Stadium,,,,,,,,
+400869029,2016,8,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869833,2016,8,,,1,,,,Georgia Dome,,,,,,,,
+400869312,2016,8,,,1,,,,Huskie Stadium,,,,,,,,
+400869831,2016,8,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400869547,2016,8,,,1,,,,Chapman Stadium,,,,,,,,
+400869142,2016,8,,,1,,,,Rose Bowl,,,,,,,,
+400869033,2016,8,,,1,,,,Memorial Stadium,,,,,,,,
+400869386,2016,8,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869226,2016,8,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869030,2016,8,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869144,2016,8,,,1,,,,Husky Stadium,,,,,,,,
+400869390,2016,8,,,1,,,,Alamodome,,,,,,,,
+400869545,2016,8,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400869387,2016,8,,,1,,,,FIU Stadium,,,,,,,,
+400869388,2016,8,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869544,2016,8,,,1,,,,Nippert Stadium,,,,,,,,
+400869834,2016,8,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400869034,2016,8,,,1,,,,FirstBank Stadium,,,,,,,,
+400869031,2016,8,,,1,,,,Kroger Field,,,,,,,,
+400869675,2016,8,,,1,,,,SECU Stadium,,,,,,,,
+400869645,2016,8,,,1,,,,Beaver Stadium,,,,,,,,
+400869616,2016,8,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400869832,2016,8,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+400869227,2016,8,,,1,,,,University Stadium (NM),,,,,,,,
+400869032,2016,8,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400869141,2016,8,,,1,,,,Mountain America Stadium,,,,,,,,
+400869229,2016,8,,,1,,,,Mackay Stadium,,,,,,,,
+400869228,2016,8,,,1,,,,Maverik Stadium,,,,,,,,
+400869471,2016,9,,,1,,,,Acrisure Stadium,,,,,,,,
+400869835,2016,9,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+400869317,2016,9,,,1,,,,UB Stadium,,,,,,,,
+400869318,2016,9,,,1,,,,Glass Bowl,,,,,,,,
+400869145,2016,9,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869548,2016,9,,,1,,,,Raymond James Stadium,,,,,,,,
+400869234,2016,9,,,1,,,,Maverik Stadium,,,,,,,,
+400869231,2016,9,,,1,,,,Valley Children's Stadium,,,,,,,,
+400869551,2016,9,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869549,2016,9,,,1,,,,TDECU Stadium,,,,,,,,
+400869475,2016,9,,,1,,,,Scott Stadium,,,,,,,,
+400869681,2016,9,,,1,,,,Spartan Stadium,,,,,,,,
+400869592,2016,9,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869038,2016,9,,,1,,,,Memorial Stadium,,,,,,,,
+400869319,2016,9,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869474,2016,9,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869621,2016,9,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400869682,2016,9,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869679,2016,9,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400868965,2016,9,,,1,,,,Warren McGuirk Alumni Stadium,,,,,,,,
+400869472,2016,9,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400868953,2016,9,,,1,,,,Notre Dame Stadium,,,,,,,,
+400869680,2016,9,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869629,2016,9,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869550,2016,9,,,1,,,,Lincoln Financial Field,,,,,,,,
+400868917,2016,9,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869037,2016,9,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869392,2016,9,,,1,,,,FAU Stadium,,,,,,,,
+400869717,2016,9,,,1,,,,Rynearson Stadium,,,,,,,,
+400869148,2016,9,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400869646,2016,9,,,1,,,,Ohio Stadium,,,,,,,,
+400868881,2016,9,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400869035,2016,9,,,1,,,,EverBank Stadium,,,,,,,,
+400869553,2016,9,,,1,,,,Yulman Stadium,,,,,,,,
+400869147,2016,9,,,1,,,,Autzen Stadium,,,,,,,,
+400869837,2016,9,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869683,2016,9,,,1,,,,Camp Randall Stadium,,,,,,,,
+400869836,2016,9,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869394,2016,9,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400869232,2016,9,,,1,,,,War Memorial Stadium,,,,,,,,
+400869601,2016,9,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400869391,2016,9,,,1,,,,FIU Stadium,,,,,,,,
+400869393,2016,9,,,1,,,,Joe Aillet Stadium,,,,,,,,
+400869395,2016,9,,,1,,,,Alamodome,,,,,,,,
+400869039,2016,9,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869036,2016,9,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869040,2016,9,,,1,,,,Kyle Field,,,,,,,,
+400869396,2016,9,,,1,,,,Sun Bowl,,,,,,,,
+400869552,2016,9,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869473,2016,9,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869235,2016,9,,,1,,,,CEFCU Stadium,,,,,,,,
+400869149,2016,9,,,1,,,,Reser Stadium,,,,,,,,
+400869146,2016,9,,,1,,,,Arizona Stadium,,,,,,,,
+400869233,2016,9,,,1,,,,Aloha Stadium,,,,,,,,
+400869321,2016,10,,,1,,,,Scheumann Stadium,,,,,,,,
+400869320,2016,10,,,1,,,,Huskie Stadium,,,,,,,,
+400869322,2016,10,,,1,,,,InfoCision Stadium,,,,,,,,
+400869323,2016,10,,,1,,,,Peden Stadium,,,,,,,,
+400869838,2016,10,,,1,,,,Georgia Dome,,,,,,,,
+400869593,2016,10,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869150,2016,10,,,1,,,,Folsom Field,,,,,,,,
+400869324,2016,10,,,1,,,,Yager Stadium,,,,,,,,
+400869554,2016,10,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869236,2016,10,,,1,,,,Albertsons Stadium,,,,,,,,
+400868954,2016,10,,,1,,,,EverBank Stadium,,,,,,,,
+400869684,2016,10,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400869476,2016,10,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400869046,2016,10,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869639,2016,10,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869630,2016,10,,,1,,,,Jones AT&T Stadium,,,,,,,,
+400869045,2016,10,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400868918,2016,10,,,1,,,,Michie Stadium,,,,,,,,
+400869042,2016,10,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869687,2016,10,,,1,,,,Ryan Field,,,,,,,,
+400869480,2016,10,,,1,,,,Kenan Stadium,,,,,,,,
+400869481,2016,10,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869403,2016,10,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+400869482,2016,10,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869041,2016,10,,,1,,,,Razorback Stadium,,,,,,,,
+400869237,2016,10,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400869153,2016,10,,,1,,,,Stanford Stadium,,,,,,,,
+400868966,2016,10,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400868930,2016,10,,,1,,,,Nippert Stadium,,,,,,,,
+400869477,2016,10,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869685,2016,10,,,1,,,,Michigan Stadium,,,,,,,,
+400869397,2016,10,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400868882,2016,10,,,1,,,,McLane Stadium,,,,,,,,
+400869610,2016,10,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869399,2016,10,,,1,,,,Rice Stadium,,,,,,,,
+400869686,2016,10,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869839,2016,10,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400869478,2016,10,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869556,2016,10,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400869151,2016,10,,,1,,,,Gesa Field,,,,,,,,
+400869048,2016,10,,,1,,,,Neyland Stadium,,,,,,,,
+400869047,2016,10,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400869841,2016,10,,,1,,,,Malone Stadium,,,,,,,,
+400921256,2016,10,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400869840,2016,10,,,1,,,,Cajun Field,,,,,,,,
+400869398,2016,10,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869400,2016,10,,,1,,,,DATCU Stadium,,,,,,,,
+400869152,2016,10,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869401,2016,10,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400869602,2016,10,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400869479,2016,10,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400869240,2016,10,,,1,,,,Qualcomm Stadium,,,,,,,,
+400869043,2016,10,,,1,,,,Kroger Field,,,,,,,,
+400869688,2016,10,,,1,,,,Beaver Stadium,,,,,,,,
+400869555,2016,10,,,1,,,,Chapman Stadium,,,,,,,,
+400869044,2016,10,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400869647,2016,10,,,1,,,,Ohio Stadium,,,,,,,,
+400869402,2016,10,,,1,,,,Sun Bowl,,,,,,,,
+400869239,2016,10,,,1,,,,War Memorial Stadium,,,,,,,,
+400869238,2016,10,,,1,,,,University Stadium (NM),,,,,,,,
+400869154,2016,10,,,1,,,,California Memorial Stadium,,,,,,,,
+400869325,2016,11,,,1,,,,Scheumann Stadium,,,,,,,,
+400869326,2016,11,,,1,,,,Dix Stadium,,,,,,,,
+400869328,2016,11,,,1,,,,Guaranteed Rate Field,,,,,,,,
+400869327,2016,11,,,1,,,,InfoCision Stadium,,,,,,,,
+400869844,2016,11,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+400869483,2016,11,,,1,,,,Wallace Wade Stadium,,,,,,,,
+400869155,2016,11,,,1,,,,Mountain America Stadium,,,,,,,,
+400869484,2016,11,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869692,2016,11,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869631,2016,11,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400869051,2016,11,,,1,,,,Ben Hill Griffin Stadium,,,,,,,,
+400869054,2016,11,,,1,,,,Neyland Stadium,,,,,,,,
+400868883,2016,11,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400869557,2016,11,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400869689,2016,11,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869558,2016,11,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869049,2016,11,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869561,2016,11,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400869594,2016,11,,,1,,,,Memorial Stadium,,,,,,,,
+400869640,2016,11,,,1,,,,Spartan Stadium,,,,,,,,
+400869488,2016,11,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869329,2016,11,,,1,,,,UB Stadium,,,,,,,,
+400869404,2016,11,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869724,2016,11,,,1,,,,Scott Stadium,,,,,,,,
+400869845,2016,11,,,1,,,,Georgia Dome,,,,,,,,
+400868931,2016,11,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400869843,2016,11,,,1,,,,Centennial Bank Stadium,,,,,,,,
+400869485,2016,11,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869486,2016,11,,,1,,,,Lane Stadium,,,,,,,,
+400869622,2016,11,,,1,,,,Boone Pickens Stadium,,,,,,,,
+400869052,2016,11,,,1,,,,Sanford Stadium,,,,,,,,
+400869693,2016,11,,,1,,,,Camp Randall Stadium,,,,,,,,
+400869648,2016,11,,,1,,,,SECU Stadium,,,,,,,,
+400869842,2016,11,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400869406,2016,11,,,1,,,,Joe Aillet Stadium,,,,,,,,
+400869244,2016,11,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869053,2016,11,,,1,,,,Memorial Stadium,,,,,,,,
+400868919,2016,11,,,1,,,,Alamodome,,,,,,,,
+400869408,2016,11,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869409,2016,11,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400869560,2016,11,,,1,,,,TDECU Stadium,,,,,,,,
+400869159,2016,11,,,1,,,,Autzen Stadium,,,,,,,,
+400869846,2016,11,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400869405,2016,11,,,1,,,,FAU Stadium,,,,,,,,
+400869242,2016,11,,,1,,,,Aloha Stadium,,,,,,,,
+400869487,2016,11,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869559,2016,11,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869050,2016,11,,,1,,,,Razorback Stadium,,,,,,,,
+400869407,2016,11,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869157,2016,11,,,1,,,,Husky Stadium,,,,,,,,
+400869691,2016,11,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869055,2016,11,,,1,,,,Kyle Field,,,,,,,,
+400869690,2016,11,,,1,,,,Kinnick Stadium,,,,,,,,
+400869158,2016,11,,,1,,,,Rose Bowl,,,,,,,,
+400869156,2016,11,,,1,,,,Arizona Stadium,,,,,,,,
+400869243,2016,11,,,1,,,,Maverik Stadium,,,,,,,,
+400869241,2016,11,,,1,,,,Falcon Stadium,,,,,,,,
+400869245,2016,11,,,1,,,,Mackay Stadium,,,,,,,,
+400869160,2016,11,,,1,,,,Gesa Field,,,,,,,,
+400869330,2016,12,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400869331,2016,12,,,1,,,,Kelly/Shorts Stadium,,,,,,,,
+400869332,2016,12,,,1,,,,Glass Bowl,,,,,,,,
+400869333,2016,12,,,1,,,,Rynearson Stadium,,,,,,,,
+400869562,2016,12,,,1,,,,TDECU Stadium,,,,,,,,
+400869847,2016,12,,,1,,,,Veterans Memorial Stadium (AL),,,,,,,,
+400869563,2016,12,,,1,,,,Nippert Stadium,,,,,,,,
+400869246,2016,12,,,1,,,,Albertsons Stadium,,,,,,,,
+400868884,2016,12,,,1,,,,McLane Stadium,,,,,,,,
+400869694,2016,12,,,1,,,,"Memorial Stadium (Champaign, IL)",,,,,,,,
+400869414,2016,12,,,1,,,,Rice Stadium,,,,,,,,
+400869649,2016,12,,,1,,,,Spartan Stadium,,,,,,,,
+400869059,2016,12,,,1,,,,Sanford Stadium,,,,,,,,
+400868920,2016,12,,,1,,,,Michie Stadium,,,,,,,,
+400869698,2016,12,,,1,,,,Ross-Ade Stadium,,,,,,,,
+400869623,2016,12,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400869697,2016,12,,,1,,,,"Memorial Stadium (Lincoln, NE)",,,,,,,,
+400869065,2016,12,,,1,,,,Kyle Field,,,,,,,,
+400869494,2016,12,,,1,,,,Bobby Dodd Stadium,,,,,,,,
+400869495,2016,12,,,1,,,,Carter-Finley Stadium,,,,,,,,
+400922862,2016,12,,,1,,,,Tiger Stadium (LA),,,,,,,,
+400869490,2016,12,,,1,,,,"Alumni Stadium (Chestnut Hill, MA)",,,,,,,,
+400869165,2016,12,,,1,,,,Rice-Eccles Stadium,,,,,,,,
+400868932,2016,12,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400869849,2016,12,,,1,,,,Georgia Dome,,,,,,,,
+400869410,2016,12,,,1,,,,Jerry Richardson Stadium,,,,,,,,
+400869848,2016,12,,,1,,,,Kidd Brewer Stadium,,,,,,,,
+400869492,2016,12,,,1,,,,Acrisure Stadium,,,,,,,,
+400869566,2016,12,,,1,,,,Yulman Stadium,,,,,,,,
+400869595,2016,12,,,1,,,,Jack Trice Stadium,,,,,,,,
+400869603,2016,12,,,1,,,,Memorial Stadium,,,,,,,,
+400869064,2016,12,,,1,,,,Neyland Stadium,,,,,,,,
+400869696,2016,12,,,1,,,,Huntington Bank Stadium,,,,,,,,
+400869493,2016,12,,,1,,,,JMA Wireless Dome,,,,,,,,
+400869250,2016,12,,,1,,,,War Memorial Stadium,,,,,,,,
+400869334,2016,12,,,1,,,,Waldo Stadium,,,,,,,,
+400868955,2016,12,,,1,,,,Notre Dame Stadium,,,,,,,,
+400869164,2016,12,,,1,,,,Folsom Field,,,,,,,,
+400869496,2016,12,,,1,,,,Kenan Stadium,,,,,,,,
+400869695,2016,12,,,1,,,,Michigan Stadium,,,,,,,,
+400869249,2016,12,,,1,,,,Mackay Stadium,,,,,,,,
+400869063,2016,12,,,1,,,,Williams-Brice Stadium,,,,,,,,
+400922541,2016,12,,,1,,,,Dowdy-Ficklen Stadium,,,,,,,,
+400869060,2016,12,,,1,,,,Kroger Field,,,,,,,,
+400869850,2016,12,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+400869413,2016,12,,,1,,,,DATCU Stadium,,,,,,,,
+400869166,2016,12,,,1,,,,California Memorial Stadium,,,,,,,,
+400869412,2016,12,,,1,,,,FAU Stadium,,,,,,,,
+400869056,2016,12,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400925661,2016,12,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869565,2016,12,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400869411,2016,12,,,1,,,,FIU Stadium,,,,,,,,
+400869251,2016,12,,,1,,,,Valley Children's Stadium,,,,,,,,
+400869062,2016,12,,,1,,,,Davis Wade Stadium,,,,,,,,
+400869491,2016,12,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869057,2016,12,,,1,,,,Jordan-Hare Stadium,,,,,,,,
+400869162,2016,12,,,1,,,,Husky Stadium,,,,,,,,
+400869617,2016,12,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400869641,2016,12,,,1,,,,High Point Solutions Stadium,,,,,,,,
+400869564,2016,12,,,1,,,,FBC Mortgage Stadium,,,,,,,,
+400869066,2016,12,,,1,,,,FirstBank Stadium,,,,,,,,
+400869248,2016,12,,,1,,,,Sonny Lubick Field at Hughes Stadium,,,,,,,,
+400869247,2016,12,,,1,,,,CEFCU Stadium,,,,,,,,
+400869161,2016,12,,,1,,,,Reser Stadium,,,,,,,,
+400869163,2016,12,,,1,,,,Rose Bowl,,,,,,,,
+400869336,2016,13,,,1,,,,Yager Stadium,,,,,,,,
+400869335,2016,13,,,1,,,,Peden Stadium,,,,,,,,
+400869337,2016,13,,,1,,,,Rynearson Stadium,,,,,,,,
+400869067,2016,13,,,1,,,,Kyle Field,,,,,,,,
+400869497,2016,13,,,1,,,,Kenan Stadium,,,,,,,,
+400869339,2016,13,,,1,,,,Dix Stadium,,,,,,,,
+400869568,2016,13,,,1,,,,Simmons Bank Liberty Stadium,,,,,,,,
+400869338,2016,13,,,1,,,,Doyt L. Perry Stadium,,,,,,,,
+400869073,2016,13,,,1,,,,Memorial Stadium,,,,,,,,
+400869252,2016,13,,,1,,,,Falcon Stadium,,,,,,,,
+400869699,2016,13,,,1,,,,Kinnick Stadium,,,,,,,,
+400869168,2016,13,,,1,,,,Gesa Field,,,,,,,,
+400869632,2016,13,,,1,,,,DKR-Texas Memorial Stadium,,,,,,,,
+400869418,2016,13,,,1,,,,M. M. Roberts Stadium,,,,,,,,
+400869340,2016,13,,,1,,,,Waldo Stadium,,,,,,,,
+400868885,2016,13,,,1,,,,AT&T Stadium,,,,,,,,
+400869567,2016,13,,,1,,,,Chapman Stadium,,,,,,,,
+400869167,2016,13,,,1,,,,Arizona Stadium,,,,,,,,
+400869501,2016,13,,,1,,,,Lane Stadium,,,,,,,,
+400869070,2016,13,,,1,,,,Sanford Stadium,,,,,,,,
+400869642,2016,13,,,1,,,,SECU Stadium,,,,,,,,
+400869071,2016,13,,,1,,,,L&N Federal Credit Union Stadium,,,,,,,,
+400869700,2016,13,,,1,,,,"Memorial Stadium (Bloomington, IN)",,,,,,,,
+400869569,2016,13,,,1,,,,Raymond James Stadium,,,,,,,,
+400869701,2016,13,,,1,,,,Ryan Field,,,,,,,,
+400869852,2016,13,,,1,,,,Cajun Field,,,,,,,,
+400869604,2016,13,,,1,,,,Bill Snyder Family Stadium,,,,,,,,
+400869650,2016,13,,,1,,,,Ohio Stadium,,,,,,,,
+400869500,2016,13,,,1,,,,Acrisure Stadium,,,,,,,,
+400869498,2016,13,,,1,,,,Allegacy Federal Credit Union Stadium,,,,,,,,
+400869416,2016,13,,,1,,,,S.B. Ballard Stadium,,,,,,,,
+400869853,2016,13,,,1,,,,Kibbie Dome,,,,,,,,
+400869499,2016,13,,,1,,,,Hard Rock Stadium,,,,,,,,
+400869072,2016,13,,,1,,,,Vaught-Hemingway Stadium,,,,,,,,
+400869572,2016,13,,,1,,,,Gerald J. Ford Stadium,,,,,,,,
+400869596,2016,13,,,1,,,,Jack Trice Stadium,,,,,,,,
+400868956,2016,13,,,1,,,,Los Angeles Memorial Coliseum,,,,,,,,
+400869255,2016,13,,,1,,,,Valley Children's Stadium,,,,,,,,
+400869068,2016,13,,,1,,,,Bryant-Denny Stadium,,,,,,,,
+400869703,2016,13,,,1,,,,Camp Randall Stadium,,,,,,,,
+400869702,2016,13,,,1,,,,Beaver Stadium,,,,,,,,
+400869171,2016,13,,,1,,,,Reser Stadium,,,,,,,,
+400869420,2016,13,,,1,,,,Sun Bowl,,,,,,,,
+400869256,2016,13,,,1,,,,Sam Boyd Stadium,,,,,,,,
+400869854,2016,13,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400869851,2016,13,,,1,,,,Aggie Memorial Stadium,,,,,,,,
+400869570,2016,13,,,1,,,,Pratt & Whitney Stadium,,,,,,,,
+400869417,2016,13,,,1,,,,"Johnny ""Red"" Floyd Stadium",,,,,,,,
+400869419,2016,13,,,1,,,,Joan C. Edwards Stadium,,,,,,,,
+400869169,2016,13,,,1,,,,California Memorial Stadium,,,,,,,,
+400869415,2016,13,,,1,,,,Alamodome,,,,,,,,
+400869170,2016,13,,,1,,,,Folsom Field,,,,,,,,
+400869075,2016,13,,,1,,,,FirstBank Stadium,,,,,,,,
+400869571,2016,13,,,1,,,,Lincoln Financial Field,,,,,,,,
+400869074,2016,13,,,1,,,,"Memorial Stadium (Clemson, SC)",,,,,,,,
+400869069,2016,13,,,1,,,,Doak Campbell Stadium,,,,,,,,
+400869172,2016,13,,,1,,,,Stanford Stadium,,,,,,,,
+400869253,2016,13,,,1,,,,Qualcomm Stadium,,,,,,,,
+400868933,2016,13,,,1,,,,LaVell Edwards Stadium,,,,,,,,
+400869254,2016,13,,,1,,,,University Stadium (NM),,,,,,,,
+400868967,2016,13,,,1,,,,Aloha Stadium,,,,,,,,
+400926941,2016,14,,,1,,,,Ford Field,,,,,,,,
+400926942,2016,14,,,1,,,,Levi's Stadium,,,,,,,,
+400926948,2016,14,,,1,,,,Houchens Industries-L.T. Smith Stadium,,,,,,,,
+400869856,2016,14,,,1,,,,Allen E. Paulson Stadium,,,,,,,,
+400869611,2016,14,,,1,,,,Amon G. Carter Stadium,,,,,,,,
+400926947,2016,14,,,1,,,,Navy-Marine Corps Memorial Stadium,,,,,,,,
+400869618,2016,14,,,1,,,,"Memorial Stadium (Norman, OK)",,,,,,,,
+400869859,2016,14,,,1,,,,Ladd Peebles Stadium,,,,,,,,
+400869858,2016,14,,,1,,,,Malone Stadium,,,,,,,,
+400868886,2016,14,,,1,,,,Milan Puskar Stadium,,,,,,,,
+400926943,2016,14,,,1,,,,Georgia Dome,,,,,,,,
+400869857,2016,14,,,1,,,,Kibbie Dome,,,,,,,,
+400869855,2016,14,,,1,,,,Bobcat Stadium (TX),,,,,,,,
+400926949,2016,14,,,1,,,,War Memorial Stadium,,,,,,,,
+400926946,2016,14,,,1,,,,Lucas Oil Stadium,,,,,,,,
+400926944,2016,14,,,1,,,,Camping World Stadium,,,,,,,,
+400868921,2016,15,,,1,,,,M&T Bank Stadium,,,,,,,,
