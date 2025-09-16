@@ -2,11 +2,10 @@
 """
 compile_team_stats.py
 
-Robust compiler for weekly advanced team stats:
-- Logs matched weekly files
-- Flattens 'offense'/'defense' JSON-ish columns when present
-- Aligns column order to last year's file by INTERSECTION (no dropping)
-- Writes data/weekly_advanced_stats_<YEAR>.csv
+- Reads weekly advanced stats CSVs for YEAR
+- Flattens 'offense'/'defense' if still nested
+- Leaves already flat 'off_*' / 'def_*' columns alone
+- Aligns schema to last year's file so 2025 looks like 2024
 """
 
 import os
@@ -15,8 +14,6 @@ import json
 import ast
 import re
 import pandas as pd
-
-pd.options.mode.copy_on_write = True
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 YEAR = os.environ.get("YEAR", "2025")
@@ -38,12 +35,10 @@ def parse_jsonish(x):
         return x
     if isinstance(x, str):
         t = x.strip()
-        # Try JSON first
         try:
             return json.loads(t)
         except Exception:
             pass
-        # Then Python dict literal
         try:
             return ast.literal_eval(t)
         except Exception:
@@ -64,13 +59,11 @@ def flatten_one_level(d: dict, prefix: str = "") -> dict:
 def flatten_col(df: pd.DataFrame, col: str, prefix: str) -> pd.DataFrame:
     if col not in df.columns:
         return df
-    expanded = df[col].apply(parse_jsonish).apply(lambda d: flatten_one_level(d))
-    # Only expand if we actually got something
+    expanded = df[col].apply(parse_jsonish).apply(flatten_one_level)
     if expanded.apply(bool).any():
         expanded = pd.json_normalize(expanded).add_prefix(prefix)
         df = pd.concat([df.drop(columns=[col]), expanded], axis=1)
     else:
-        # Keep things simple—just drop the empty blob column
         df = df.drop(columns=[col])
     return df
 
@@ -81,89 +74,54 @@ def load_ref_cols():
 
 def order_like_reference(df: pd.DataFrame, ref_cols: list) -> pd.DataFrame:
     if not ref_cols:
-        # Put 'week' first if present
+        # Put week first if present
         cols = list(df.columns)
         if "week" in cols:
             cols = ["week"] + [c for c in cols if c != "week"]
             df = df[cols]
         return df
-    # Keep only the intersection in ref order, then append any extras
     inter = [c for c in ref_cols if c in df.columns]
     extras = [c for c in df.columns if c not in inter]
-    cols = inter + extras
-    return df[cols]
+    return df[inter + extras]
 
 def compile_weekly_stats():
-    pattern = os.path.join(DATA_DIR, "advanced_stats_week_*.csv")
-    all_files = sorted(glob.glob(pattern))
-    print(f"[info] YEAR={YEAR}")
-    print(f"[info] Searching for weekly files: {pattern}")
-    print(f"[info] Found {len(all_files)} files:")
-    for f in all_files:
-        print(f"  - {os.path.basename(f)}")
-
+    all_files = sorted(glob.glob(os.path.join(DATA_DIR, "advanced_stats_week_*.csv")))
     if not all_files:
-        print("[warn] No weekly files found. Nothing to compile.")
-        # Write an empty file with just headers from reference if we have it (optional)
-        if os.path.exists(REF_PATH):
-            pd.read_csv(REF_PATH, nrows=0).to_csv(OUTPUT_FILE, index=False)
-            print(f"[info] Wrote empty header-only file based on {REF_YEAR}: {OUTPUT_FILE}")
+        print(f"[warn] No weekly files found for {YEAR}.")
         return
 
     ref_cols = load_ref_cols()
     df_list = []
 
     for f in all_files:
-        # extract week (advanced_stats_week_03.csv -> 3)
         fname = os.path.basename(f)
-        try:
-            week = int(fname.split("_")[-1].replace(".csv", ""))
-        except Exception:
-            print(f"[warn] Could not parse week from filename: {fname}. Skipping.")
-            continue
+        week = int(fname.split("_")[-1].replace(".csv", ""))
 
-        try:
-            # engine='python' for safety with odd quoting; low_memory=False to avoid dtype issues
-            df = pd.read_csv(f, low_memory=False, engine="python")
-        except Exception as e:
-            print(f"[warn] Failed to read {fname}: {e}. Skipping.")
-            continue
+        df = pd.read_csv(f, low_memory=False)
 
         if df.empty:
-            print(f"[warn] {fname} has 0 rows. Skipping.")
             continue
 
-        # Flatten JSON-ish unit columns if present (case-insensitive fallback)
-        cols_lower = {c.lower(): c for c in df.columns}
-        for raw, pref in (("offense", "offense_"), ("defense", "defense_")):
-            actual = cols_lower.get(raw, cols_lower.get(raw.capitalize()))
-            if actual:
-                df = flatten_col(df, actual, pref)
+        # Only flatten if off_/def_ aren’t already present
+        has_off_flat = any(c.startswith("off_") for c in df.columns)
+        has_def_flat = any(c.startswith("def_") for c in df.columns)
+        if not has_off_flat:
+            df = flatten_col(df, "offense", "off_")
+        if not has_def_flat:
+            df = flatten_col(df, "defense", "def_")
 
-        # Insert week as first column
         if "week" in df.columns:
             df.drop(columns=["week"], inplace=True)
         df.insert(0, "week", week)
 
+        df = order_like_reference(df, ref_cols)
         df_list.append(df)
 
     if not df_list:
-        print("[error] All weekly files were empty or unreadable. No output written.")
+        print(f"[warn] All weekly files empty for {YEAR}. No output written.")
         return
 
     combined = pd.concat(df_list, ignore_index=True)
-
-    # Order columns to resemble last year's file (intersection first), but keep everything
-    combined = order_like_reference(combined, ref_cols)
-
-    # Best-effort numeric cast (skip obvious IDs/text)
-    non_numeric_like = {"week", "team", "teamid", "team_id", "opponent", "opponent_id",
-                        "conference", "home_conference", "away_conference",
-                        "season", "season_type", "team_name", "opponent_name"}
-    for c in combined.columns:
-        if c not in non_numeric_like:
-            combined[c] = pd.to_numeric(combined[c], errors="ignore")
-
     combined.to_csv(OUTPUT_FILE, index=False)
     print(f"[ok] Compiled {len(df_list)} weeks ({combined.shape[0]} rows) → {OUTPUT_FILE}")
 
