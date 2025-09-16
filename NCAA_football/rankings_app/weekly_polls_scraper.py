@@ -24,7 +24,7 @@ HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 def fetch_week(week):
     """Fetch poll data for a given week."""
-    url = f"https://api.collegefootballdata.com/rankings?year={YEAR}&week={week}&seasonType={SEASON_TYPE}"
+    url = f"https://api.collegefootballdata.com/rankings?year={YEAR}&week={week}&seasontype={SEASON_TYPE}"
     resp = requests.get(url, headers=HEADERS)
     if resp.status_code != 200:
         print(f"❌ Week {week}: API error {resp.status_code}")

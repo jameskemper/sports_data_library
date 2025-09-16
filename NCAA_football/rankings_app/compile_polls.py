@@ -41,7 +41,7 @@ def compile_all():
         raw = load_json(fname)
 
         season = raw.get("season", YEAR)
-        season_type = raw.get("seasonType", "regular")
+        season_type = raw.get("seasontype", "regular")
         week_num = raw.get("week", week)
 
         polls = raw.get("polls", [])
@@ -55,7 +55,7 @@ def compile_all():
                 rows.append({
                     "season": season,
                     "week": week_num,
-                    "seasonType": season_type,
+                    "seasontype": season_type,
                     "poll": poll_name,
                     "rank": ranking.get("rank"),
                     "team": ranking.get("school"),
@@ -74,7 +74,7 @@ def main():
 
     # enforce consistent column order
     cols = [
-        "season", "week", "seasonType", "poll",
+        "season", "week", "seasontype", "poll",
         "rank", "team", "conference", "firstPlaceVotes", "points"
     ]
     df = df[cols]
