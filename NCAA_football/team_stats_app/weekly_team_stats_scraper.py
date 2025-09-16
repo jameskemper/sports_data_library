@@ -3,9 +3,11 @@
 weekly_team_stats_scraper.py
 
 Fetches advanced team stats from the CFBD API for all weeks played
-up to the current week of the season. Cleans the nested offense/defense
-stats into flat columns and saves each week into:
+up to the current week of the season. Saves each week into:
 data/weeks_<YEAR>/advanced_stats_week_##.csv
+
+⚠️ Keeps 'offense' and 'defense' as JSON (not flattened),
+so the compiler can handle flattening consistently across years.
 """
 
 import os
@@ -29,7 +31,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 
 def fetch_week_stats(year: int, week: int):
-    """Fetch and flatten advanced team stats for a specific week."""
+    """Fetch advanced team stats for a specific week (unflattened)."""
     url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
     resp = requests.get(url, headers=HEADERS)
     resp.raise_for_status()
@@ -38,19 +40,8 @@ def fetch_week_stats(year: int, week: int):
         print(f"No data returned for week {week}")
         return None
 
-    flat_rows = []
-    for row in data:
-        base = {k: v for k, v in row.items() if k not in ["offense", "defense"]}
-        offense = row.get("offense", {}) or {}
-        defense = row.get("defense", {}) or {}
-        flat_row = {
-            **base,
-            **{f"off_{k}": v for k, v in offense.items()},
-            **{f"def_{k}": v for k, v in defense.items()},
-        }
-        flat_rows.append(flat_row)
-
-    return pd.DataFrame(flat_rows)
+    # Return as-is (JSON in offense/defense)
+    return pd.DataFrame(data)
 
 
 def get_current_week(year: int):
