@@ -4,7 +4,7 @@ compile_team_stats.py
 
 - Reads weekly advanced stats CSVs for YEAR
 - Flattens 'offense' and 'defense' JSON into off_* / def_* columns
-- Aligns schema to last year's file (so outputs match across years)
+- Matches exactly the schema of last year's file (2024 by default)
 - Writes data/weekly_advanced_stats_<YEAR>.csv
 """
 
@@ -47,18 +47,27 @@ def flatten_col(df: pd.DataFrame, col: str, prefix: str) -> pd.DataFrame:
     return df
 
 
-def load_ref_cols():
+def load_ref_schema():
+    """Load reference column order and dtypes from previous year."""
     if os.path.exists(REF_PATH):
-        return list(pd.read_csv(REF_PATH, nrows=0).columns)
-    return []
+        ref = pd.read_csv(REF_PATH, nrows=100)  # sample for dtypes
+        return list(ref.columns), ref.dtypes.to_dict()
+    return [], {}
 
 
-def order_like_reference(df: pd.DataFrame, ref_cols: list) -> pd.DataFrame:
-    if not ref_cols:
-        return df
-    inter = [c for c in ref_cols if c in df.columns]
-    extras = [c for c in df.columns if c not in inter]
-    return df[inter + extras]
+def enforce_schema(df: pd.DataFrame, ref_cols: list, ref_dtypes: dict) -> pd.DataFrame:
+    """Restrict df to ref_cols and coerce types."""
+    # Keep only reference columns
+    df = df[[c for c in ref_cols if c in df.columns]].copy()
+
+    # Enforce dtypes
+    for col, dtype in ref_dtypes.items():
+        if col in df.columns:
+            if "float" in str(dtype) or "int" in str(dtype):
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+            else:
+                df[col] = df[col].astype(str)
+    return df
 
 
 def compile_weekly_stats():
@@ -67,7 +76,11 @@ def compile_weekly_stats():
         print(f"[warn] No weekly files found for {YEAR}.")
         return
 
-    ref_cols = load_ref_cols()
+    ref_cols, ref_dtypes = load_ref_schema()
+    if not ref_cols:
+        print(f"[error] No reference schema found at {REF_PATH}")
+        return
+
     df_list = []
 
     for f in all_files:
@@ -82,11 +95,14 @@ def compile_weekly_stats():
         df = flatten_col(df, "offense", "off_")
         df = flatten_col(df, "defense", "def_")
 
+        # Insert correct week column
         if "week" in df.columns:
             df.drop(columns=["week"], inplace=True)
         df.insert(0, "week", week)
 
-        df = order_like_reference(df, ref_cols)
+        # Enforce schema against reference
+        df = enforce_schema(df, ref_cols, ref_dtypes)
+
         df_list.append(df)
 
     if not df_list:
@@ -94,6 +110,8 @@ def compile_weekly_stats():
         return
 
     combined = pd.concat(df_list, ignore_index=True)
+    combined = enforce_schema(combined, ref_cols, ref_dtypes)
+
     combined.to_csv(OUTPUT_FILE, index=False)
     print(f"[ok] Compiled {len(df_list)} weeks ({combined.shape[0]} rows) → {OUTPUT_FILE}")
 
