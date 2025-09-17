@@ -1,18 +1,19 @@
 name: NCAAF Team Stats app
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:    # manual trigger
   schedule:
-    - cron: "0 15 * 9-1 1"  # Example: runs daily at 15:00 UTC from Sept–Jan (adjust as needed)
+    - cron: "0 15 * 9-1 1"
 
 jobs:
-  compile:
+  compile-team-stats:
+    name: Compile weekly stats
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # get full history so push works
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
