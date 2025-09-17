@@ -1,65 +1,42 @@
 name: NCAAF Team Stats app
 
 on:
-  schedule:
-    # Every day at 12:00 UTC, August–December and January
-    - cron: '0 12 * 8-12,1 *'
   workflow_dispatch:
-
-
-permissions:
-  contents: write
-
-env:
-  YEAR: '2025'
+  schedule:
+    - cron: "0 15 * 9-1 1"  # Example: adjust to your schedule (daily at 15:00 UTC during season)
 
 jobs:
-  team-stats:
+  compile:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true
-          fetch-depth: 0
+          fetch-depth: 0   # important for git pull/rebase
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas
+          pip install pandas
 
-      - name: Run weekly team stats scraper
+      - name: Run compiler
         env:
-          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: |
-          cd NCAA_football/team_stats_app
-          python weekly_team_stats_scraper.py
-
-      - name: Compile team stats into CSV
+          YEAR: 2025
         run: |
           cd NCAA_football/team_stats_app
           python compile_team_stats.py
 
-      - name: Commit & push updated data
+      - name: Commit and push changes
         run: |
+          cd NCAA_football/team_stats_app
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          cd NCAA_football/team_stats_app
-
-          if compgen -G "data/weeks_${{ env.YEAR }}/*.csv" > /dev/null; then
-            git add data/weeks_${{ env.YEAR }}/*.csv
-          fi
-
-          if [ -f "data/weekly_advanced_stats_${{ env.YEAR }}.csv" ]; then
-            git add data/weekly_advanced_stats_${{ env.YEAR }}.csv
-          fi
-
-          git diff --cached --quiet || \
-            (git commit -m "Automated update: team stats for ${{ env.YEAR }} [skip ci]" && git push origin HEAD)
-
+          git add data/weekly_advanced_stats_2025.csv
+          git commit -m "Automated update: team stats for 2025 [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin master
+          git push origin master
