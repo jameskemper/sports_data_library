@@ -3,7 +3,7 @@ name: NCAAF Team Stats app
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * 9-1 1"  # Example: adjust to your schedule (daily at 15:00 UTC during season)
+    - cron: "0 15 * 9-1 1"  # Example: runs daily at 15:00 UTC from Sept–Jan (adjust as needed)
 
 jobs:
   compile:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # important for git pull/rebase
+          fetch-depth: 0   # get full history so push works
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,12 +31,11 @@ jobs:
           cd NCAA_football/team_stats_app
           python compile_team_stats.py
 
-      - name: Commit and push changes
+      - name: Commit and force push changes
         run: |
           cd NCAA_football/team_stats_app
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/weekly_advanced_stats_2025.csv
           git commit -m "Automated update: team stats for 2025 [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin master
-          git push origin master
+          git push origin master --force
