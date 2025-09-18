@@ -1,9 +1,13 @@
-name: NCAA Team Stats (2025)
+name: NCAAF Team Stats app
 
 on:
-  workflow_dispatch:    # manual trigger
+  workflow_dispatch:        # enable manual trigger
   schedule:
-    - cron: "0 15 * 9-1 1"
+    - cron: "0 15 * 9-12 *" # daily 15:00 UTC, Sept–Dec
+    - cron: "0 15 * 1 *"    # daily 15:00 UTC, January
+
+permissions:
+  contents: write
 
 jobs:
   compile-team-stats:
@@ -11,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -28,13 +32,12 @@ jobs:
       - name: Run compiler
         env:
           YEAR: 2025
-        run: |
-          cd NCAA_football/team_stats_app
-          python compile_team_stats.py
+        working-directory: NCAA_football/team_stats_app
+        run: python compile_team_stats.py
 
       - name: Commit and force push changes
+        working-directory: NCAA_football/team_stats_app
         run: |
-          cd NCAA_football/team_stats_app
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/weekly_advanced_stats_2025.csv
