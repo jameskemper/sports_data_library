@@ -1,4 +1,4 @@
-season,week,seasontype,poll,rank,team,conference,firstplacevotes,points
+season,week,seasontype,poll,rank,team,conference,firstPlaceVotes,points
 2025,1,regular,AFCA Division II Coaches Poll,1,Ferris State,GLIAC,30,773
 2025,1,regular,AFCA Division II Coaches Poll,2,Harding University,Great American,0,734
 2025,1,regular,AFCA Division II Coaches Poll,3,Grand Valley State University,GLIAC,0,669
@@ -350,6 +350,56 @@ season,week,seasontype,poll,rank,team,conference,firstplacevotes,points
 2025,3,regular,FCS Coaches Poll,23,Austin Peay,UAC,0,73
 2025,3,regular,FCS Coaches Poll,24,New Hampshire,CAA,0,72
 2025,3,regular,FCS Coaches Poll,25,Youngstown State,MVFC,0,56
+2025,4,regular,AFCA Division II Coaches Poll,1,Ferris State,GLIAC,31,775
+2025,4,regular,AFCA Division II Coaches Poll,2,Harding University,Great American,0,719
+2025,4,regular,AFCA Division II Coaches Poll,3,West Florida,Gulf South,0,688
+2025,4,regular,AFCA Division II Coaches Poll,4,Slippery Rock,Pennsylvania State Athletic,0,669
+2025,4,regular,AFCA Division II Coaches Poll,5,Kutztown University,Pennsylvania State Athletic,0,648
+2025,4,regular,AFCA Division II Coaches Poll,6,Angelo State,Lone Star,0,622
+2025,4,regular,AFCA Division II Coaches Poll,7,Western Colorado,Rocky Mountain,0,569
+2025,4,regular,AFCA Division II Coaches Poll,8,PennWest California,Pennsylvania State Athletic,0,501
+2025,4,regular,AFCA Division II Coaches Poll,9,Augustana University (SD),Northern Sun,0,487
+2025,4,regular,AFCA Division II Coaches Poll,10,Grand Valley State University,GLIAC,0,477
+2025,4,regular,AFCA Division II Coaches Poll,11,UT Permian Basin,Lone Star,0,474
+2025,4,regular,AFCA Division II Coaches Poll,12,CSU Pueblo,Rocky Mountain,0,391
+2025,4,regular,AFCA Division II Coaches Poll,13,West Alabama,Gulf South,0,375
+2025,4,regular,AFCA Division II Coaches Poll,14,Minnesota State Mankato,Northern Sun,0,352
+2025,4,regular,AFCA Division II Coaches Poll,15,Central Oklahoma,Mid America,0,347
+2025,4,regular,AFCA Division II Coaches Poll,16,Minnesota Duluth,Northern Sun,0,299
+2025,4,regular,AFCA Division II Coaches Poll,17,Central Washington,Lone Star,0,263
+2025,4,regular,AFCA Division II Coaches Poll,18,Pittsburg St,Mid America,0,221
+2025,4,regular,AFCA Division II Coaches Poll,19,Lenoir-Rhyne,South Atlantic,0,205
+2025,4,regular,AFCA Division II Coaches Poll,20,Valdosta State,Gulf South,0,161
+2025,4,regular,AFCA Division II Coaches Poll,21,Johnson C Smith,CIAA,0,103
+2025,4,regular,AFCA Division II Coaches Poll,22,Virginia Union,CIAA,0,101
+2025,4,regular,AFCA Division II Coaches Poll,23,Wingate,South Atlantic,0,89
+2025,4,regular,AFCA Division II Coaches Poll,24,Michigan Tech,GLIAC,0,83
+2025,4,regular,AFCA Division II Coaches Poll,25,Sioux Falls,Northern Sun,0,76
+2025,4,regular,AFCA Division III Coaches Poll,1,North Central College,CCIW,52,1300
+2025,4,regular,AFCA Division III Coaches Poll,2,University of Mount Union,Ohio,0,1248
+2025,4,regular,AFCA Division III Coaches Poll,3,Johns Hopkins University,Centennial,0,1173
+2025,4,regular,AFCA Division III Coaches Poll,4,Saint John's (MN),Minnesota,0,1103
+2025,4,regular,AFCA Division III Coaches Poll,5,Susquehanna,Landmark Conference,0,1065
+2025,4,regular,AFCA Division III Coaches Poll,6,Salisbury,New Jersey,0,968
+2025,4,regular,AFCA Division III Coaches Poll,7,Hardin-Simmons,American Southwest,0,959
+2025,4,regular,AFCA Division III Coaches Poll,8,Wisconsin-Lacrosse,Wisconsin,0,921
+2025,4,regular,AFCA Division III Coaches Poll,9,Mary Hardin-Baylor,American Southwest,0,891
+2025,4,regular,AFCA Division III Coaches Poll,10,Wisconsin-Platteville,Wisconsin,0,822
+2025,4,regular,AFCA Division III Coaches Poll,11,Wartburg,American Rivers,0,810
+2025,4,regular,AFCA Division III Coaches Poll,12,Bethel (MN),Minnesota,0,731
+2025,4,regular,AFCA Division III Coaches Poll,13,Wisconsin-River Falls,Wisconsin,0,662
+2025,4,regular,AFCA Division III Coaches Poll,14,Depauw,North Coast,0,651
+2025,4,regular,AFCA Division III Coaches Poll,15,Hope College,Michigan,0,558
+2025,4,regular,AFCA Division III Coaches Poll,16,Wisconsin-Whitewater,Wisconsin,0,536
+2025,4,regular,AFCA Division III Coaches Poll,17,Grove City College,Presidents',0,302
+2025,4,regular,AFCA Division III Coaches Poll,18,Wheaton,CCIW,0,270
+2025,4,regular,AFCA Division III Coaches Poll,19,Trinity University TX,Southern Athletic,0,249
+2025,4,regular,AFCA Division III Coaches Poll,20,Carnegie Mellon,Presidents',0,248
+2025,4,regular,AFCA Division III Coaches Poll,21,Wisconsin-Oshkosh,Wisconsin,0,230
+2025,4,regular,AFCA Division III Coaches Poll,22,Berry College,Southern Athletic,0,205
+2025,4,regular,AFCA Division III Coaches Poll,23,John Carroll University,Ohio,0,155
+2025,4,regular,AFCA Division III Coaches Poll,24,Cortland,Empire 8,0,154
+2025,4,regular,AFCA Division III Coaches Poll,25,Central College,American Rivers,0,128
 2025,4,regular,AP Top 25,1,Ohio State,Big Ten,55,1631
 2025,4,regular,AP Top 25,2,Penn State,Big Ten,5,1490
 2025,4,regular,AP Top 25,3,LSU,SEC,2,1470
@@ -425,3 +475,78 @@ season,week,seasontype,poll,rank,team,conference,firstplacevotes,points
 2025,4,regular,FCS Coaches Poll,23,New Hampshire,CAA,0,88
 2025,4,regular,FCS Coaches Poll,24,Youngstown State,MVFC,0,80
 2025,4,regular,FCS Coaches Poll,25,Mercer,Southern,0,78
+2025,5,regular,AP Top 25,1,Ohio State,Big Ten,52,1629
+2025,5,regular,AP Top 25,2,Miami,ACC,7,1479
+2025,5,regular,AP Top 25,3,Penn State,Big Ten,5,1460
+2025,5,regular,AP Top 25,4,LSU,SEC,0,1433
+2025,5,regular,AP Top 25,5,Georgia,SEC,0,1420
+2025,5,regular,AP Top 25,6,Oregon,Big Ten,1,1404
+2025,5,regular,AP Top 25,7,Oklahoma,SEC,1,1194
+2025,5,regular,AP Top 25,8,Florida State,ACC,0,1183
+2025,5,regular,AP Top 25,9,Texas A&M,SEC,0,1072
+2025,5,regular,AP Top 25,10,Texas,SEC,0,1057
+2025,5,regular,AP Top 25,11,Indiana,Big Ten,0,990
+2025,5,regular,AP Top 25,12,Texas Tech,Big 12,0,890
+2025,5,regular,AP Top 25,13,Ole Miss,SEC,0,843
+2025,5,regular,AP Top 25,14,Iowa State,Big 12,0,779
+2025,5,regular,AP Top 25,15,Tennessee,SEC,0,635
+2025,5,regular,AP Top 25,16,Georgia Tech,ACC,0,598
+2025,5,regular,AP Top 25,17,Alabama,SEC,0,595
+2025,5,regular,AP Top 25,18,Vanderbilt,SEC,0,546
+2025,5,regular,AP Top 25,19,Michigan,Big Ten,0,458
+2025,5,regular,AP Top 25,20,Missouri,SEC,0,452
+2025,5,regular,AP Top 25,21,USC,Big Ten,0,264
+2025,5,regular,AP Top 25,22,Notre Dame,FBS Independents,0,219
+2025,5,regular,AP Top 25,23,Illinois,Big Ten,0,145
+2025,5,regular,AP Top 25,24,TCU,Big 12,0,138
+2025,5,regular,AP Top 25,25,BYU,Big 12,0,131
+2025,5,regular,Coaches Poll,1,Ohio State,Big Ten,61,1667
+2025,5,regular,Coaches Poll,2,Penn State,Big Ten,3,1552
+2025,5,regular,Coaches Poll,3,Georgia,SEC,1,1497
+2025,5,regular,Coaches Poll,4,LSU,SEC,0,1458
+2025,5,regular,Coaches Poll,5,Oregon,Big Ten,1,1442
+2025,5,regular,Coaches Poll,6,Miami,ACC,1,1399
+2025,5,regular,Coaches Poll,7,Texas,SEC,0,1209
+2025,5,regular,Coaches Poll,8,Florida State,ACC,0,1100
+2025,5,regular,Coaches Poll,9,Texas A&M,SEC,0,1043
+2025,5,regular,Coaches Poll,10,Oklahoma,SEC,0,1024
+2025,5,regular,Coaches Poll,11,Ole Miss,SEC,0,996
+2025,5,regular,Coaches Poll,12,Indiana,Big Ten,0,915
+2025,5,regular,Coaches Poll,13,Iowa State,Big 12,0,870
+2025,5,regular,Coaches Poll,14,Texas Tech,Big 12,0,807
+2025,5,regular,Coaches Poll,15,Tennessee,SEC,0,715
+2025,5,regular,Coaches Poll,16,Alabama,SEC,0,649
+2025,5,regular,Coaches Poll,17,Georgia Tech,ACC,0,558
+2025,5,regular,Coaches Poll,18,Michigan,Big Ten,0,469
+2025,5,regular,Coaches Poll,19,Missouri,SEC,0,433
+2025,5,regular,Coaches Poll,20,Vanderbilt,SEC,0,417
+2025,5,regular,Coaches Poll,21,Notre Dame,FBS Independents,0,261
+2025,5,regular,Coaches Poll,22,USC,Big Ten,0,249
+2025,5,regular,Coaches Poll,23,Illinois,Big Ten,0,214
+2025,5,regular,Coaches Poll,24,BYU,Big 12,0,185
+2025,5,regular,Coaches Poll,25,TCU,Big 12,0,112
+2025,5,regular,FCS Coaches Poll,1,North Dakota State,MVFC,25,649
+2025,5,regular,FCS Coaches Poll,2,South Dakota State,MVFC,1,622
+2025,5,regular,FCS Coaches Poll,3,Tarleton State,UAC,0,598
+2025,5,regular,FCS Coaches Poll,4,Montana,Big Sky,0,552
+2025,5,regular,FCS Coaches Poll,5,Illinois State,MVFC,0,546
+2025,5,regular,FCS Coaches Poll,6,Montana State,Big Sky,0,525
+2025,5,regular,FCS Coaches Poll,7,Rhode Island,CAA,0,492
+2025,5,regular,FCS Coaches Poll,8,UC Davis,Big Sky,0,418
+2025,5,regular,FCS Coaches Poll,9,Lehigh,Patriot,0,402
+2025,5,regular,FCS Coaches Poll,10,Idaho,Big Sky,0,381
+2025,5,regular,FCS Coaches Poll,11,Tennessee Tech,Big South-OVC,0,370
+2025,5,regular,FCS Coaches Poll,12,Southern Illinois,MVFC,0,363
+2025,5,regular,FCS Coaches Poll,13,Abilene Christian,UAC,0,308
+2025,5,regular,FCS Coaches Poll,14,Monmouth,CAA,0,296
+2025,5,regular,FCS Coaches Poll,15,North Dakota,MVFC,0,267
+2025,5,regular,FCS Coaches Poll,15,Northern Arizona,Big Sky,0,267
+2025,5,regular,FCS Coaches Poll,17,Jackson State,SWAC,0,235
+2025,5,regular,FCS Coaches Poll,18,South Dakota,MVFC,0,173
+2025,5,regular,FCS Coaches Poll,19,Youngstown State,MVFC,0,149
+2025,5,regular,FCS Coaches Poll,20,West Georgia,UAC,0,142
+2025,5,regular,FCS Coaches Poll,21,Sacramento State,Big Sky,0,128
+2025,5,regular,FCS Coaches Poll,22,Villanova,CAA,0,118
+2025,5,regular,FCS Coaches Poll,23,Mercer,Southern,0,82
+2025,5,regular,FCS Coaches Poll,24,Incarnate Word,Southland,0,61
+2025,5,regular,FCS Coaches Poll,25,Austin Peay,UAC,0,52
