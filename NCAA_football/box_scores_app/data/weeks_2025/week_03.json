@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 3,
     "season_type": "regular",
-    "fetched_at": "2025-09-23T12:47:06+00:00",
+    "fetched_at": "2025-09-24T12:48:05+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=3&seasonType=regular"
   },
   "data": [
@@ -1025,7 +1025,7 @@
         10,
         3
       ],
-      "homePostgameWinProbability": 0.9940246939659119,
+      "homePostgameWinProbability": 0.9928979873657227,
       "homePregameElo": 1514,
       "homePostgameElo": 1514,
       "awayId": 2729,
@@ -1039,7 +1039,7 @@
         7,
         2
       ],
-      "awayPostgameWinProbability": 0.005975306034088135,
+      "awayPostgameWinProbability": 0.007102012634277344,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 2.9915828835043174,
@@ -1117,7 +1117,7 @@
       ],
       "homePostgameWinProbability": 0.8911544680595398,
       "homePregameElo": 1920,
-      "homePostgameElo": 1948,
+      "homePostgameElo": 1959,
       "awayId": 275,
       "awayTeam": "Wisconsin",
       "awayClassification": "fbs",
@@ -1131,7 +1131,7 @@
       ],
       "awayPostgameWinProbability": 0.1088455319404602,
       "awayPregameElo": 1619,
-      "awayPostgameElo": 1591,
+      "awayPostgameElo": 1580,
       "excitementIndex": 3.036218096573123,
       "highlights": "",
       "notes": null
@@ -10309,7 +10309,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": 0.979390561580658,
+      "homePostgameWinProbability": 1,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 101784,
@@ -10323,10 +10323,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.02060943841934204,
+      "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 3.3418513877652374,
       "highlights": "",
       "notes": null
     },
@@ -12250,9 +12250,9 @@
         7,
         9
       ],
-      "homePostgameWinProbability": 0.06095157936215401,
+      "homePostgameWinProbability": 0.3599589765071869,
       "homePregameElo": 2166,
-      "homePostgameElo": 2141,
+      "homePostgameElo": 2149,
       "awayId": 245,
       "awayTeam": "Texas A&M",
       "awayClassification": "fbs",
@@ -12264,10 +12264,10 @@
         3,
         10
       ],
-      "awayPostgameWinProbability": 0.939048420637846,
+      "awayPostgameWinProbability": 0.6400410234928131,
       "awayPregameElo": 1724,
-      "awayPostgameElo": 1749,
-      "excitementIndex": 8.042479756639608,
+      "awayPostgameElo": 1741,
+      "excitementIndex": 8.103345635698446,
       "highlights": "",
       "notes": null
     },
@@ -12557,7 +12557,7 @@
       ],
       "homePostgameWinProbability": 0.0009106388315558434,
       "homePregameElo": 1377,
-      "homePostgameElo": 1339,
+      "homePostgameElo": 1321,
       "awayId": 254,
       "awayTeam": "Utah",
       "awayClassification": "fbs",
@@ -12571,7 +12571,7 @@
       ],
       "awayPostgameWinProbability": 0.9990893611684442,
       "awayPregameElo": 1630,
-      "awayPostgameElo": 1668,
+      "awayPostgameElo": 1686,
       "excitementIndex": 3.6670493757129026,
       "highlights": "",
       "notes": null

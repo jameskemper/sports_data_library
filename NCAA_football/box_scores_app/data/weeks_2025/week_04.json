@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 4,
     "season_type": "regular",
-    "fetched_at": "2025-09-23T12:47:06+00:00",
+    "fetched_at": "2025-09-24T12:48:05+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=4&seasonType=regular"
   },
   "data": [
@@ -1565,9 +1565,9 @@
         14,
         0
       ],
-      "homePostgameWinProbability": 0.03476617485284805,
+      "homePostgameWinProbability": 0.07785177230834961,
       "homePregameElo": 1422,
-      "homePostgameElo": 1430,
+      "homePostgameElo": 1423,
       "awayId": 2439,
       "awayTeam": "UNLV",
       "awayClassification": "fbs",
@@ -1579,9 +1579,9 @@
         14,
         17
       ],
-      "awayPostgameWinProbability": 0.965233825147152,
+      "awayPostgameWinProbability": 0.9221482276916504,
       "awayPregameElo": 1630,
-      "awayPostgameElo": 1622,
+      "awayPostgameElo": 1629,
       "excitementIndex": 6.068854680783486,
       "highlights": "",
       "notes": null
@@ -8706,7 +8706,7 @@
         13,
         7
       ],
-      "homePostgameWinProbability": 0.9459971785545349,
+      "homePostgameWinProbability": 0.9879471659660339,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2127,
@@ -8720,7 +8720,7 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": 0.05400282144546509,
+      "awayPostgameWinProbability": 0.012052834033966064,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 4.013430680127589,
@@ -12889,7 +12889,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": 0.2753484547138214,
+      "homePostgameWinProbability": 0.7569423913955688,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2046,
@@ -12903,10 +12903,10 @@
         7,
         21
       ],
-      "awayPostgameWinProbability": 0.7246515452861786,
+      "awayPostgameWinProbability": 0.24305760860443115,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.543605398537511,
+      "excitementIndex": 3.7862755030419617,
       "highlights": "",
       "notes": null
     },
