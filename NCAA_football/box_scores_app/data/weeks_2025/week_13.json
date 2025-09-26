@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 13,
     "season_type": "regular",
-    "fetched_at": "2025-09-25T12:49:55+00:00",
+    "fetched_at": "2025-09-26T12:48:23+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=13&seasonType=regular"
   },
   "data": [
@@ -1086,7 +1086,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1482,
+      "awayPregameElo": 1538,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -1987,7 +1987,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1599,
+      "homePregameElo": 1543,
       "homePostgameElo": null,
       "awayId": 202,
       "awayTeam": "Tulsa",
