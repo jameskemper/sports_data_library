@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 14,
     "season_type": "regular",
-    "fetched_at": "2025-09-30T12:50:28+00:00",
+    "fetched_at": "2025-10-01T12:50:21+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=14&seasonType=regular"
   },
   "data": [
@@ -1077,7 +1077,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1508,
+      "homePregameElo": 1504,
       "homePostgameElo": null,
       "awayId": 290,
       "awayTeam": "Georgia Southern",
@@ -1147,7 +1147,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1367,
+      "homePregameElo": 1371,
       "homePostgameElo": null,
       "awayId": 2433,
       "awayTeam": "UL Monroe",

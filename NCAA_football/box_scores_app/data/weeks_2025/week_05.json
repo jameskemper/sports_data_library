@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 5,
     "season_type": "regular",
-    "fetched_at": "2025-09-30T12:50:26+00:00",
+    "fetched_at": "2025-10-01T12:50:19+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=5&seasonType=regular"
   },
   "data": [
@@ -11385,7 +11385,7 @@
       ],
       "homePostgameWinProbability": 0.032249175012111664,
       "homePregameElo": 1364,
-      "homePostgameElo": 1367,
+      "homePostgameElo": 1371,
       "awayId": 276,
       "awayTeam": "Marshall",
       "awayClassification": "fbs",
@@ -11401,8 +11401,8 @@
       ],
       "awayPostgameWinProbability": 0.9677508249878883,
       "awayPregameElo": 1511,
-      "awayPostgameElo": 1508,
-      "excitementIndex": 6.932025501082778,
+      "awayPostgameElo": 1504,
+      "excitementIndex": 7.244884201835037,
       "highlights": "",
       "notes": null
     },

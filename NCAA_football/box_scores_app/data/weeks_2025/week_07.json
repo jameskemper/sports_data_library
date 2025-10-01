@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 7,
     "season_type": "regular",
-    "fetched_at": "2025-09-30T12:50:26+00:00",
+    "fetched_at": "2025-10-01T12:50:20+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=7&seasonType=regular"
   },
   "data": [
@@ -1401,7 +1401,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1367,
+      "awayPregameElo": 1371,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -7412,7 +7412,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1508,
+      "homePregameElo": 1504,
       "homePostgameElo": null,
       "awayId": 295,
       "awayTeam": "Old Dominion",
