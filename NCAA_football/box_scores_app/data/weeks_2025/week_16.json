@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 16,
     "season_type": "regular",
-    "fetched_at": "2025-10-04T12:41:12+00:00",
+    "fetched_at": "2025-10-05T12:41:26+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=16&seasonType=regular"
   },
   "data": [
@@ -27,7 +27,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1547,
+      "homePregameElo": 1543,
       "homePostgameElo": null,
       "awayId": 349,
       "awayTeam": "Army",
@@ -36,7 +36,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1533,
+      "awayPregameElo": 1568,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
