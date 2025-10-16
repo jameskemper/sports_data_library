@@ -1953,8 +1953,8 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401757282,2025,8,regular,2025-10-14T23:00:00.000Z,True,False,True,3992.0,Williams Stadium (VA),2335,Liberty,Conference USA,30.0,166,New Mexico State,Conference USA,27.0
 401761628,2025,8,regular,2025-10-14T23:30:00.000Z,True,False,True,6526.0,Hancock Whitney Stadium,6,South Alabama,Sun Belt,14.0,2032,Arkansas State,Sun Belt,15.0
 401757281,2025,8,regular,2025-10-15T00:00:00.000Z,True,False,True,3796.0,Houchens Industries-L.T. Smith Stadium,98,Western Kentucky,Conference USA,6.0,2229,Florida International,Conference USA,25.0
-401757284,2025,8,regular,2025-10-15T23:00:00.000Z,False,True,True,3631.0,BBVA Compass Stadium,2534,Sam Houston,Conference USA,,2638,UTEP,Conference USA,
-401757283,2025,8,regular,2025-10-15T23:00:00.000Z,False,False,True,3662.0,AmFirst Stadium,55,Jacksonville State,Conference USA,,48,Delaware,Conference USA,
+401757284,2025,8,regular,2025-10-15T23:00:00.000Z,True,True,True,3631.0,BBVA Compass Stadium,2534,Sam Houston,Conference USA,17.0,2638,UTEP,Conference USA,35.0
+401757283,2025,8,regular,2025-10-15T23:00:00.000Z,True,False,True,3662.0,AmFirst Stadium,55,Jacksonville State,Conference USA,38.0,48,Delaware,Conference USA,25.0
 401773395,2025,8,regular,2025-10-16T23:00:00.000Z,False,False,True,3934.0,Southern Nazarene University Football Stadium,200,Southern Nazarene,Great American,,2927,Southwestern Oklahoma State,Great American,
 401774125,2025,8,regular,2025-10-16T23:00:00.000Z,False,False,True,6100.0,Cutler Field,354,Olivet College,Michigan,,2651,Trine University,Michigan,
 401762486,2025,8,regular,2025-10-16T23:30:00.000Z,False,False,True,3699.0,Dowdy-Ficklen Stadium,151,East Carolina,American Athletic,,202,Tulsa,American Athletic,
@@ -3454,8 +3454,8 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401767296,2025,12,regular,2025-11-16T01:30:00.000Z,False,False,True,3706.0,Eccles Coliseum,253,Southern Utah,UAC,,2110,Central Arkansas,UAC,
 401767096,2025,12,regular,2025-11-16T02:00:00.000Z,False,False,True,3757.0,Hornet Stadium,16,Sacramento State,Big Sky,,70,Idaho,Big Sky,
 401752953,2025,12,regular,2025-11-16T03:00:00.000Z,False,False,False,3820.0,Gesa Field,265,Washington State,Pac-12,,2348,Louisiana Tech,Conference USA,
-401767111,2025,12,regular,2025-11-16T03:15:00.000Z,False,False,True,3643.0,Bobcat Stadium,147,Montana State,Big Sky,,302,UC Davis,Big Sky,
 401760410,2025,12,regular,2025-11-16T03:30:00.000Z,False,False,True,7311.0,Snapdragon Stadium,21,San Diego State,Mountain West,,68,Boise State,Mountain West,
+401767111,2025,12,regular,2025-11-16T03:30:00.000Z,False,False,True,3643.0,Bobcat Stadium,147,Montana State,Big Sky,,302,UC Davis,Big Sky,
 401762863,2025,13,regular,2025-11-19T00:00:00.000Z,False,False,True,3876.0,Peden Stadium,195,Ohio,Mid-American,,113,Massachusetts,Mid-American,
 401762862,2025,13,regular,2025-11-19T00:00:00.000Z,False,False,True,3700.0,Doyt L. Perry Stadium,189,Bowling Green,Mid-American,,2006,Akron,Mid-American,
 401762864,2025,13,regular,2025-11-19T00:00:00.000Z,False,False,True,3764.0,Huskie Stadium,2459,Northern Illinois,Mid-American,,2711,Western Michigan,Mid-American,

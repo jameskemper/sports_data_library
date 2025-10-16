@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 9,
     "season_type": "regular",
-    "fetched_at": "2025-10-15T12:51:18+00:00",
+    "fetched_at": "2025-10-16T12:50:49+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=9&seasonType=regular"
   },
   "data": [
@@ -97,7 +97,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1491,
+      "homePregameElo": 1470,
       "homePostgameElo": null,
       "awayId": 2393,
       "awayTeam": "Middle Tennessee",
