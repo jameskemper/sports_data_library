@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 12,
     "season_type": "regular",
-    "fetched_at": "2025-10-16T12:50:51+00:00",
+    "fetched_at": "2025-10-17T12:49:25+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=12&seasonType=regular"
   },
   "data": [
@@ -1952,7 +1952,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1540,
+      "homePregameElo": 1545,
       "homePostgameElo": null,
       "awayId": 235,
       "awayTeam": "Memphis",
@@ -1987,7 +1987,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1045,
+      "homePregameElo": 1040,
       "homePostgameElo": null,
       "awayId": 204,
       "awayTeam": "Oregon State",

@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 11,
     "season_type": "regular",
-    "fetched_at": "2025-10-16T12:50:50+00:00",
+    "fetched_at": "2025-10-17T12:49:25+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=11&seasonType=regular"
   },
   "data": [
@@ -1191,7 +1191,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1045,
+      "awayPregameElo": 1040,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -1672,7 +1672,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1540,
+      "homePregameElo": 1545,
       "homePostgameElo": null,
       "awayId": 2429,
       "awayTeam": "Charlotte",
