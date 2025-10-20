@@ -414,6 +414,211 @@
       ]
     },
     {
+      "poll": "AFCA Division II Coaches Poll",
+      "ranks": [
+        {
+          "rank": 1,
+          "teamId": 2222,
+          "school": "Ferris State",
+          "conference": "GLIAC",
+          "firstPlaceVotes": 31,
+          "points": 775
+        },
+        {
+          "rank": 2,
+          "teamId": 2264,
+          "school": "Harding University",
+          "conference": "Great American",
+          "firstPlaceVotes": 0,
+          "points": 744
+        },
+        {
+          "rank": 3,
+          "teamId": 110242,
+          "school": "West Florida",
+          "conference": "Gulf South",
+          "firstPlaceVotes": 0,
+          "points": 707
+        },
+        {
+          "rank": 4,
+          "teamId": 2315,
+          "school": "Kutztown University",
+          "conference": "Pennsylvania State Athletic",
+          "firstPlaceVotes": 0,
+          "points": 685
+        },
+        {
+          "rank": 5,
+          "teamId": 2714,
+          "school": "Western Colorado",
+          "conference": "Rocky Mountain",
+          "firstPlaceVotes": 0,
+          "points": 611
+        },
+        {
+          "rank": 6,
+          "teamId": 2043,
+          "school": "Augustana University (SD)",
+          "conference": "Northern Sun",
+          "firstPlaceVotes": 0,
+          "points": 603
+        },
+        {
+          "rank": 7,
+          "teamId": 125,
+          "school": "Grand Valley State University",
+          "conference": "GLIAC",
+          "firstPlaceVotes": 0,
+          "points": 575
+        },
+        {
+          "rank": 8,
+          "teamId": 2695,
+          "school": "West Alabama",
+          "conference": "Gulf South",
+          "firstPlaceVotes": 0,
+          "points": 525
+        },
+        {
+          "rank": 9,
+          "teamId": 2570,
+          "school": "CSU Pueblo",
+          "conference": "Rocky Mountain",
+          "firstPlaceVotes": 0,
+          "points": 520
+        },
+        {
+          "rank": 10,
+          "teamId": 2120,
+          "school": "Central Washington",
+          "conference": "Lone Star",
+          "firstPlaceVotes": 0,
+          "points": 510
+        },
+        {
+          "rank": 11,
+          "teamId": 2364,
+          "school": "Minnesota State Mankato",
+          "conference": "Northern Sun",
+          "firstPlaceVotes": 0,
+          "points": 435
+        },
+        {
+          "rank": 12,
+          "teamId": 90,
+          "school": "Pittsburg St",
+          "conference": "Mid America",
+          "firstPlaceVotes": 0,
+          "points": 409
+        },
+        {
+          "rank": 13,
+          "teamId": 110243,
+          "school": "UT Permian Basin",
+          "conference": "Lone Star",
+          "firstPlaceVotes": 0,
+          "points": 396
+        },
+        {
+          "rank": 14,
+          "teamId": 2676,
+          "school": "Virginia Union",
+          "conference": "CIAA",
+          "firstPlaceVotes": 0,
+          "points": 342
+        },
+        {
+          "rank": 15,
+          "teamId": 2292,
+          "school": "Indianapolis",
+          "conference": "Great Lakes",
+          "firstPlaceVotes": 0,
+          "points": 318
+        },
+        {
+          "rank": 16,
+          "teamId": 134,
+          "school": "Minnesota Duluth",
+          "conference": "Northern Sun",
+          "firstPlaceVotes": 0,
+          "points": 305
+        },
+        {
+          "rank": 16,
+          "teamId": 2224,
+          "school": "Findlay",
+          "conference": "Great Midwest Athletic",
+          "firstPlaceVotes": 0,
+          "points": 305
+        },
+        {
+          "rank": 18,
+          "teamId": 2170,
+          "school": "Delta State",
+          "conference": "Gulf South",
+          "firstPlaceVotes": 0,
+          "points": 238
+        },
+        {
+          "rank": 19,
+          "teamId": 138,
+          "school": "Northwest Missouri St",
+          "conference": "Mid America",
+          "firstPlaceVotes": 0,
+          "points": 219
+        },
+        {
+          "rank": 20,
+          "teamId": 2882,
+          "school": "UNC Pembroke",
+          "conference": "Carolinas",
+          "firstPlaceVotes": 0,
+          "points": 176
+        },
+        {
+          "rank": 21,
+          "teamId": 2025,
+          "school": "Angelo State",
+          "conference": "Lone Star",
+          "firstPlaceVotes": 0,
+          "points": 151
+        },
+        {
+          "rank": 22,
+          "teamId": 308,
+          "school": "Ashland",
+          "conference": "Great Midwest Athletic",
+          "firstPlaceVotes": 0,
+          "points": 122
+        },
+        {
+          "rank": 23,
+          "teamId": 2304,
+          "school": "Johnson C Smith",
+          "conference": "CIAA",
+          "firstPlaceVotes": 0,
+          "points": 90
+        },
+        {
+          "rank": 24,
+          "teamId": 490,
+          "school": "Benedict College",
+          "conference": "SIAC",
+          "firstPlaceVotes": 0,
+          "points": 77
+        },
+        {
+          "rank": 25,
+          "teamId": 215,
+          "school": "Slippery Rock",
+          "conference": "Pennsylvania State Athletic",
+          "firstPlaceVotes": 0,
+          "points": 54
+        }
+      ]
+    },
+    {
       "poll": "AP Top 25",
       "ranks": [
         {
@@ -615,6 +820,211 @@
           "conference": "Big Ten",
           "firstPlaceVotes": 0,
           "points": 149
+        }
+      ]
+    },
+    {
+      "poll": "AFCA Division III Coaches Poll",
+      "ranks": [
+        {
+          "rank": 1,
+          "teamId": 3071,
+          "school": "North Central College",
+          "conference": "CCIW",
+          "firstPlaceVotes": 52,
+          "points": 1300
+        },
+        {
+          "rank": 2,
+          "teamId": 426,
+          "school": "University of Mount Union",
+          "conference": "Ohio",
+          "firstPlaceVotes": 0,
+          "points": 1247
+        },
+        {
+          "rank": 3,
+          "teamId": 118,
+          "school": "Johns Hopkins University",
+          "conference": "Centennial",
+          "firstPlaceVotes": 0,
+          "points": 1163
+        },
+        {
+          "rank": 4,
+          "teamId": 2740,
+          "school": "Wisconsin-Lacrosse",
+          "conference": "Wisconsin",
+          "firstPlaceVotes": 0,
+          "points": 1143
+        },
+        {
+          "rank": 5,
+          "teamId": 2532,
+          "school": "Salisbury",
+          "conference": "New Jersey",
+          "firstPlaceVotes": 0,
+          "points": 1056
+        },
+        {
+          "rank": 6,
+          "teamId": 2810,
+          "school": "Hardin-Simmons",
+          "conference": "American Southwest",
+          "firstPlaceVotes": 0,
+          "points": 1043
+        },
+        {
+          "rank": 7,
+          "teamId": 2802,
+          "school": "Bethel (MN)",
+          "conference": "Minnesota",
+          "firstPlaceVotes": 0,
+          "points": 995
+        },
+        {
+          "rank": 8,
+          "teamId": 2685,
+          "school": "Wartburg",
+          "conference": "American Rivers",
+          "firstPlaceVotes": 0,
+          "points": 928
+        },
+        {
+          "rank": 9,
+          "teamId": 83,
+          "school": "Depauw",
+          "conference": "North Coast",
+          "firstPlaceVotes": 0,
+          "points": 854
+        },
+        {
+          "rank": 10,
+          "teamId": 2745,
+          "school": "Wisconsin-Whitewater",
+          "conference": "Wisconsin",
+          "firstPlaceVotes": 0,
+          "points": 798
+        },
+        {
+          "rank": 11,
+          "teamId": 2600,
+          "school": "Saint John's (MN)",
+          "conference": "Minnesota",
+          "firstPlaceVotes": 0,
+          "points": 765
+        },
+        {
+          "rank": 12,
+          "teamId": 2723,
+          "school": "Wisconsin-River Falls",
+          "conference": "Wisconsin",
+          "firstPlaceVotes": 0,
+          "points": 726
+        },
+        {
+          "rank": 13,
+          "teamId": 2964,
+          "school": "Central College",
+          "conference": "American Rivers",
+          "firstPlaceVotes": 0,
+          "points": 642
+        },
+        {
+          "rank": 14,
+          "teamId": 272,
+          "school": "Wisconsin-Platteville",
+          "conference": "Wisconsin",
+          "firstPlaceVotes": 0,
+          "points": 590
+        },
+        {
+          "rank": 15,
+          "teamId": 2302,
+          "school": "John Carroll University",
+          "conference": "Ohio",
+          "firstPlaceVotes": 0,
+          "points": 556
+        },
+        {
+          "rank": 16,
+          "teamId": 3112,
+          "school": "Christopher Newport",
+          "conference": "New Jersey",
+          "firstPlaceVotes": 0,
+          "points": 441
+        },
+        {
+          "rank": 17,
+          "teamId": 2782,
+          "school": "Cortland",
+          "conference": "Empire 8",
+          "firstPlaceVotes": 0,
+          "points": 391
+        },
+        {
+          "rank": 18,
+          "teamId": 2812,
+          "school": "Hope College",
+          "conference": "Michigan",
+          "firstPlaceVotes": 0,
+          "points": 378
+        },
+        {
+          "rank": 19,
+          "teamId": 2102,
+          "school": "Carnegie Mellon",
+          "conference": "Presidents'",
+          "firstPlaceVotes": 0,
+          "points": 332
+        },
+        {
+          "rank": 20,
+          "teamId": 2516,
+          "school": "Randolph-Macon",
+          "conference": "Old Dominion",
+          "firstPlaceVotes": 0,
+          "points": 242
+        },
+        {
+          "rank": 21,
+          "teamId": 2757,
+          "school": "Berry College",
+          "conference": "Southern Athletic",
+          "firstPlaceVotes": 0,
+          "points": 233
+        },
+        {
+          "rank": 22,
+          "teamId": 396,
+          "school": "Wheaton",
+          "conference": "CCIW",
+          "firstPlaceVotes": 0,
+          "points": 224
+        },
+        {
+          "rank": 23,
+          "teamId": 386,
+          "school": "Trinity University TX",
+          "conference": "Southern Athletic",
+          "firstPlaceVotes": 0,
+          "points": 163
+        },
+        {
+          "rank": 24,
+          "teamId": 271,
+          "school": "Wisconsin-Oshkosh",
+          "conference": "Wisconsin",
+          "firstPlaceVotes": 0,
+          "points": 147
+        },
+        {
+          "rank": 25,
+          "teamId": 2373,
+          "school": "Maryville College (TN)",
+          "conference": "USA South",
+          "firstPlaceVotes": 0,
+          "points": 127
         }
       ]
     }
