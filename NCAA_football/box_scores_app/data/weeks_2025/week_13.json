@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 13,
     "season_type": "regular",
-    "fetched_at": "2025-10-23T12:51:40+00:00",
+    "fetched_at": "2025-10-24T12:51:11+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=13&seasonType=regular"
   },
   "data": [
@@ -972,7 +972,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1410,
+      "homePregameElo": 1414,
       "homePostgameElo": null,
       "awayId": 2572,
       "awayTeam": "Southern Miss",
@@ -1051,7 +1051,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1097,
+      "awayPregameElo": 1093,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",

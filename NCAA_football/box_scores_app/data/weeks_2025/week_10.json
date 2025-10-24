@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 10,
     "season_type": "regular",
-    "fetched_at": "2025-10-23T12:51:39+00:00",
+    "fetched_at": "2025-10-24T12:51:10+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=10&seasonType=regular"
   },
   "data": [
@@ -8462,7 +8462,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1410,
+      "homePregameElo": 1414,
       "homePostgameElo": null,
       "awayId": 309,
       "awayTeam": "Louisiana",
