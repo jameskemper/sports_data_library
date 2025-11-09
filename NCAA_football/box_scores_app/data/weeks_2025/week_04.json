@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 4,
     "season_type": "regular",
-    "fetched_at": "2025-09-26T12:48:20+00:00",
+    "fetched_at": "2025-11-09T12:43:23+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=4&seasonType=regular"
   },
   "data": [
@@ -1567,7 +1567,7 @@
       ],
       "homePostgameWinProbability": 0.07785177230834961,
       "homePregameElo": 1422,
-      "homePostgameElo": 1423,
+      "homePostgameElo": 1430,
       "awayId": 2439,
       "awayTeam": "UNLV",
       "awayClassification": "fbs",
@@ -1581,7 +1581,7 @@
       ],
       "awayPostgameWinProbability": 0.9221482276916504,
       "awayPregameElo": 1630,
-      "awayPostgameElo": 1629,
+      "awayPostgameElo": 1622,
       "excitementIndex": 6.068854680783486,
       "highlights": "",
       "notes": null
@@ -3361,7 +3361,7 @@
       "homeId": 2843,
       "homeTeam": "Western Connecticut St",
       "homeClassification": "iii",
-      "homeConference": "MSCAC",
+      "homeConference": "Landmark Conference",
       "homePoints": 55,
       "homeLineScores": [
         14,
