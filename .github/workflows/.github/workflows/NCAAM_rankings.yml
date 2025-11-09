@@ -1,16 +1,16 @@
-name: Update NCAA Basketball Schedule
+name: Update NCAA Basketball 2026 Rankings
 
 on:
   schedule:
-    # Run every day at 10am CST (16:00 UTC)
-    - cron: '0 16 * * *'
-  workflow_dispatch:  # allows manual trigger
+    # Run every Monday at 9am CST (15:00 UTC)
+    - cron: '0 15 * * 1'
+  workflow_dispatch:
 
 permissions:
-  contents: write  # <-- this line grants push access
+  contents: write
 
 jobs:
-  update-schedule:
+  update-rankings:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,18 +27,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas requests
 
-      - name: Run schedule fetch script
+      - name: Run 2026 rankings fetch
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
         run: |
-          python NCAA_basketball/schedule/fetch_schedule.py
+          python NCAA_basketball/rankings/fetch_rankings.py
 
-      - name: Commit and push changes
+      - name: Commit and push updated 2026.csv
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- this gives the bot permission
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add NCAA_basketball/schedule/2025.csv
-          git commit -m "Automated schedule update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git add NCAA_basketball/rankings/2026.csv
+          git commit -m "Automated 2026 rankings update $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
