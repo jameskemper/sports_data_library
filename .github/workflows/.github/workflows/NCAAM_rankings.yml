@@ -31,7 +31,7 @@ jobs:
         env:
           CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
         run: |
-          python NCAA_basketball/rankings/fetch_rankings_2026.py
+          python NCAA_basketball/rankings/fetch_rankings.py
 
       - name: Commit and push updated 2026.csv
         env:
