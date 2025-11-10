@@ -2871,21 +2871,21 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401774049,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5125.0,Stadium Red Field,2782,Cortland,Empire 8,44.0,2781,Brockport,Empire 8,14.0
 401767747,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3624.0,Arute Field,2115,Central Connecticut,NEC,40.0,284,Stonehill,NEC,10.0
 401756945,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3784.0,Jones AT&T Stadium,2641,Texas Tech,Big 12,29.0,252,BYU,Big 12,7.0
-401777773,2025,11,regular,2025-11-08T17:00:00.000Z,True,True,False,,,131108,New England College,,,452,Endicott College,Commonwealth Coast,63.0
+401777773,2025,11,regular,2025-11-08T17:00:00.000Z,True,True,False,,,131108,New England College,,0.0,452,Endicott College,Commonwealth Coast,63.0
 401767766,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3777.0,Joe Walton Stadium,2523,Robert Morris,NEC,20.0,2681,Wagner,NEC,24.0
 401767755,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6043.0,Bethpage Federal Credit Union Stadium,2341,Long Island University,NEC,29.0,2184,Duquesne,NEC,11.0
 401767676,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3656.0,Brown Stadium,225,Brown,Ivy,22.0,43,Yale,Ivy,34.0
 401767662,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,3668.0,Campus Field,2529,Sacred Heart,FCS Independents,56.0,2355,Virginia University Of Lynchburg,,10.0
-401767316,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3788.0,Kenneth P. LaValle Stadium,2619,Stony Brook,CAA,31.0,2448,North Carolina A&T,CAA,12.0
+401767316,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3788.0,Kenneth P. LaValle Stadium,2619,Stony Brook,CAA,38.0,2448,North Carolina A&T,CAA,12.0
 401767262,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5389.0,Kessler Stadium,2405,Monmouth,CAA,13.0,160,New Hampshire,CAA,34.0
 401767731,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3741.0,Goodman Stadium,2329,Lehigh,Patriot,38.0,107,Holy Cross,Patriot,3.0
 401767769,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3694.0,DeGol Field,2598,St. Francis (PA),NEC,15.0,2385,Mercyhurst,NEC,16.0
 401774307,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5637.0,Vendetti Field,2884,Nichols College,Commonwealth Coast,19.0,2280,Husson,Commonwealth Coast,63.0
 401766734,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6141.0,Corwin Stadium,336,Wesleyan University (CT),NESCAC,31.0,2977,Trinity (CT),NESCAC,28.0
-401766735,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,3733.0,Garcelon Field,121,Bates,NESCAC,,348,Hamilton,NESCAC,
-401774070,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,False,5814.0,Gesling Stadium,2102,Carnegie Mellon,Presidents',,2234,Franklin & Marshall,Centennial,
-401774080,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5124.0,Homewood Field,118,Johns Hopkins University,Centennial,42.0,2700,McDaniel College,Centennial,
-401774089,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,5902.0,Knox Stadium,246,Juniata College,Landmark Conference,,323,Moravian,Landmark Conference,
+401766735,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3733.0,Garcelon Field,121,Bates,NESCAC,21.0,348,Hamilton,NESCAC,24.0
+401774070,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,5814.0,Gesling Stadium,2102,Carnegie Mellon,Presidents',24.0,2234,Franklin & Marshall,Centennial,31.0
+401774080,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5124.0,Homewood Field,118,Johns Hopkins University,Centennial,42.0,2700,McDaniel College,Centennial,0.0
+401774089,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5902.0,Knox Stadium,246,Juniata College,Landmark Conference,13.0,323,Moravian,Landmark Conference,38.0
 401774097,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6124.0,Amos Alonzo Stagg Field (PA),216,Susquehanna,Landmark Conference,26.0,398,Wilkes,Landmark Conference,3.0
 401774119,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3717.0,Edwin Fauver Stadium,184,University of Rochester (NY),Liberty League,10.0,237,Union (NY),Liberty League,14.0
 401774145,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,6142.0,Westside Athletic Complex,2843,Western Connecticut St,Landmark Conference,52.0,2108,Catholic,Landmark Conference,19.0
@@ -2902,9 +2902,9 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401773502,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3769.0,Jack Britt Memorial Stadium,437,Lake Erie,Great Midwest Athletic,27.0,2316,Kentucky Wesleyan,Great Midwest Athletic,9.0
 401773460,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5934.0,Farmers Insurance Athletic Complex,110254,Davenport,GLIAC,45.0,128,Northern Michigan,GLIAC,47.0
 401773311,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,7512.0,St. Francis High School,125974,Hilbert College,Empire 8,6.0,174,Hobart College,Liberty League,63.0
-401773294,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,False,3819.0,Bowditch Field,2967,Framingham State,MSCAC,,110438,Dean College,MSCAC,
+401773294,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,3819.0,Bowditch Field,2967,Framingham State,MSCAC,31.0,110438,Dean College,MSCAC,6.0
 401773249,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3718.0,Tom Benson Hall of Fame Stadium,2682,Walsh,Great Midwest Athletic,20.0,2273,Hillsdale,Great Midwest Athletic,23.0
-401766736,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,5792.0,Pratt Field at Lehrman Stadium,7,Amherst,NESCAC,,2731,Williams,NESCAC,
+401766736,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5792.0,Pratt Field at Lehrman Stadium,7,Amherst,NESCAC,14.0,2731,Williams,NESCAC,13.0
 401752893,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3632.0,Beaver Stadium,213,Penn State,Big Ten,24.0,84,Indiana,Big Ten,27.0
 401754584,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3615.0,"Alumni Stadium (Chestnut Hill, MA)",103,Boston College,ACC,13.0,2567,SMU,ACC,45.0
 401767535,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3720.0,Finley Stadium,236,Chattanooga,Southern,45.0,231,Furman,Southern,28.0
@@ -2913,40 +2913,40 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401761647,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3625.0,Centennial Bank Stadium,2032,Arkansas State,Sun Belt,21.0,2572,Southern Miss,Sun Belt,27.0
 401774154,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6095.0,Sabine Field at Haynes Family Stadium,2467,Norwich,NEWMAC,10.0,2776,Salve Regina,NEWMAC,38.0
 401774225,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6092.0,Bishop Stadium,286,North Carolina Wesleyan,USA South,29.0,2256,Greensboro College,USA South,38.0
-401776785,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,6100.0,Cutler Field,354,Olivet College,Michigan,,2790,Albion,Michigan,
+401776785,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6100.0,Cutler Field,354,Olivet College,Michigan,42.0,2790,Albion,Michigan,58.0
 401776975,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,False,5929.0,Ritchie Field,274,Maine Maritime,Commonwealth Coast,7.0,2702,Western New England,Commonwealth Coast,70.0
-401776982,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,5830.0,Walter M. Katz Field,40,Curry College,Commonwealth Coast,,111675,Biddeford,Commonwealth Coast,
-401777009,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3690.0,Charles L. Currier Memorial Field,2972,Plymouth State,MSCAC,27.0,114,Fitchburg State,MSCAC,
+401776982,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5830.0,Walter M. Katz Field,40,Curry College,Commonwealth Coast,47.0,111675,Biddeford,Commonwealth Coast,30.0
+401777009,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3690.0,Charles L. Currier Memorial Field,2972,Plymouth State,MSCAC,27.0,114,Fitchburg State,MSCAC,0.0
 401777133,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6096.0,Austin E. Knowlton Athletics Complex,391,Oberlin,North Coast,13.0,89,Wabash College,North Coast,42.0
 401783337,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5127.0,Gene L. Shirk Stadium,2015,Albright,Mid Atlantic,7.0,471,Stevenson,Mid Atlantic,17.0
-401783365,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,5997.0,Brooks Stadium (NY),2383,Merchant Marine Academy,NEWMAC,,2749,Worcester Polytechnic Institute,NEWMAC,
+401783365,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5997.0,Brooks Stadium (NY),2383,Merchant Marine Academy,NEWMAC,34.0,2749,Worcester Polytechnic Institute,NEWMAC,14.0
 401783909,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,6119.0,Stagg Field,81,Springfield,NEWMAC,30.0,2557,Coast Guard,NEWMAC,10.0
 401786379,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5939.0,Cressy Field,379,UMass Dartmouth,MSCAC,33.0,2909,Westfield State,MSCAC,13.0
-401786485,2025,11,regular,2025-11-08T17:00:00.000Z,False,False,True,5940.0,Clean Harbors Stadium,110,Mass Maritime,MSCAC,,402,Worcester St,MSCAC,
+401786485,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,5940.0,Clean Harbors Stadium,110,Mass Maritime,MSCAC,10.0,402,Worcester St,MSCAC,17.0
 401804602,2025,11,regular,2025-11-08T17:00:00.000Z,True,False,True,3889.0,Reinhart Field,2951,SUNY Maritime,NEWMAC,27.0,109,MIT,NEWMAC,30.0
 401769849,2025,11,regular,2025-11-08T17:30:00.000Z,True,False,True,3721.0,Fisher Field,322,Lafayette,Patriot,59.0,2142,Colgate,Patriot,42.0
 401766733,2025,11,regular,2025-11-08T17:30:00.000Z,True,False,True,6079.0,Alumni Stadium (VT),2394,Middlebury,NESCAC,33.0,112,Tufts,NESCAC,30.0
 401783352,2025,11,regular,2025-11-08T17:35:00.000Z,True,False,True,7513.0,O'Hara Field,127954,Eastern University,Mid Atlantic,28.0,2221,FDU-Florham,Mid Atlantic,7.0
-401766727,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5908.0,Harley Knosher Bowl,255,Knox College,Midwest,,262,Lake Forest College,Midwest,63.0
+401766727,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5908.0,Harley Knosher Bowl,255,Knox College,Midwest,0.0,262,Lake Forest College,Midwest,63.0
 401773056,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3808.0,Lincoln University Stadium,2339,Lincoln (PA),CIAA,17.0,2075,Bowie State,CIAA,28.0
-401773071,2025,11,regular,2025-11-08T18:00:00.000Z,False,False,True,6032.0,Hovey Field,2676,Virginia Union,CIAA,,330,Virginia St,CIAA,
+401773071,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6032.0,Hovey Field,2676,Virginia Union,CIAA,14.0,330,Virginia St,CIAA,3.0
 401773085,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3813.0,"Luther ""Nick"" Jeralds Stadium",2220,Fayetteville State,CIAA,31.0,2736,Winston-Salem,CIAA,21.0
 401773092,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6041.0,Irwin Belk Complex,2304,Johnson C Smith,CIAA,26.0,2940,Livingstone,CIAA,21.0
-401777093,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,6146.0,Memorial Field (PA),2849,Westminster (PA),Presidents',76.0,2274,Hiram College,Presidents',
+401777093,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,6146.0,Memorial Field (PA),2849,Westminster (PA),Presidents',76.0,2274,Hiram College,Presidents',0.0
 401773665,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3667.0,Callaghan Stadium,2148,Concord University,Mountain East,17.0,2986,Fairmont State,Mountain East,31.0
 401752897,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3907.0,Ross-Ade Stadium,2509,Purdue,Big Ten,10.0,194,Ohio State,Big Ten,34.0
 401777999,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5851.0,Shirk Field at Musselman Stadium,2248,Gettysburg,Centennial,27.0,2422,Muhlenberg,Centennial,59.0
-401767669,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,150.0,Jack Coffey Field,2230,Fordham,Patriot,12.0,2083,Bucknell,Patriot,37.0
+401767669,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,150.0,Jack Coffey Field,2230,Fordham,Patriot,19.0,2083,Bucknell,Patriot,37.0
 401783355,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,4855.0,Leslie C. Quick Jr. Stadium,2725,Widener,Mid Atlantic,40.0,247,Kings College (PA),Mid Atlantic,24.0
 401757299,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3992.0,Williams Stadium (VA),2335,Liberty,Conference USA,17.0,2623,Missouri State,Conference USA,21.0
 401783820,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6108.0,Crain Field,2519,Rhodes College,Southern Athletic,22.0,2588,Southwestern University,Southern Athletic,35.0
 401767609,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3897.0,Richardson Stadium,2166,Davidson,Pioneer,14.0,2506,Presbyterian,Pioneer,13.0
 401773103,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,5840.0,Fred Selfe Stadium at Nicewonder Field,2213,Emory & Henry College,South Atlantic,55.0,2551,Shaw,CIAA,7.0
-401773121,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,5220.0,Garrison Stadium,2804,Chowan,Carolinas,37.0,366,Ferrum,Carolinas,34.0
+401773121,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,5220.0,Garrison Stadium,2804,Chowan,Carolinas,37.0,366,Ferrum,Carolinas,40.0
 401773178,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5923.0,Legacy Field in Carlson Stadium,67,Luther,American Rivers,20.0,49,Dubuque,American Rivers,27.0
 401773214,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3770.0,Jack Miller Stadium,308,Ashland,Great Midwest Athletic,3.0,2224,Findlay,Great Midwest Athletic,14.0
 401773274,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,3877.0,Pioneer Stadium,3162,Alfred State,Empire 8,35.0,365,Alfred University,Empire 8,28.0
-401773414,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6045.0,Dwight T. Reed Stadium,2876,Lincoln (MO),Great Lakes,,2402,Missouri S&T,Great Lakes,59.0
+401773414,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6045.0,Dwight T. Reed Stadium,2876,Lincoln (MO),Great Lakes,0.0,2402,Missouri S&T,Great Lakes,59.0
 401773421,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,6062.0,Gable Field at Doc Wadley Stadium,196,Northeastern State,Independent DII,44.0,2816,McKendree,Great Lakes,10.0
 401773493,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3885.0,Harvey Randall Wickes Memorial Stadium,129,Saginaw Valley State,GLIAC,45.0,2222,Ferris State,GLIAC,51.0
 401773655,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5121.0,University of Charleston Stadium,2128,University Of Charleston (WV),Mountain East,45.0,2699,West Liberty,Mountain East,28.0
@@ -2957,13 +2957,13 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401773855,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3760.0,Hubert Jack Stadium,209,Lock Haven University,Pennsylvania State Athletic,19.0,2974,Shepherd,Pennsylvania State Athletic,35.0
 401773870,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,4429.0,Seth Grove Stadium,2559,Shippensburg,Pennsylvania State Athletic,43.0,223,West Chester,Pennsylvania State Athletic,14.0
 401773942,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3926.0,Setzler Field,2444,Newberry,South Atlantic,28.0,2105,Carson-Newman College,South Atlantic,21.0
-401773968,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6046.0,Meares Stadium,2369,Mars Hill,South Atlantic,59.0,2842,UVA Wise,South Atlantic,19.0
+401773968,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6046.0,Meares Stadium,2369,Mars Hill,South Atlantic,60.0,2842,UVA Wise,South Atlantic,19.0
 401774043,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6087.0,Drake Field (NY),3110,SUNY Morrisville,Empire 8,7.0,374,St John Fisher University,Empire 8,21.0
 401774060,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3675.0,Charles A. Gaetano Stadium,390,Utica,Empire 8,64.0,173,Hartwick,Empire 8,7.0
 401783901,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6128.0,Alumni Stadium (PA),2644,Thiel,Presidents',12.0,2062,Bethany (WV),Presidents',17.0
 401774128,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5787.0,Docking Stadium,2003,Adrian,Michigan,44.0,2651,Trine University,Michigan,21.0
 401777287,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,6140.0,John F. Wiley Stadium,2845,Waynesburg,Presidents',35.0,2614,Saint Vincent,Presidents',24.0
-401767632,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,36.0,Leonidoff Field,2368,Marist,Pioneer,41.0,56,Stetson,Pioneer,7.0
+401767632,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,36.0,Leonidoff Field,2368,Marist,Pioneer,41.0,56,Stetson,Pioneer,13.0
 401773689,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5887.0,I.L. & Sue Morris Stadium,2249,Glenville State,Mountain East,35.0,112335,Wheeling,Mountain East,38.0
 401767703,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3826.0,Memorial Field,159,Dartmouth,Ivy,20.0,163,Princeton,Ivy,17.0
 401774233,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5998.0,Monarch Stadium,291,Methodist,USA South,20.0,2913,Brevard College,USA South,47.0
@@ -2988,14 +2988,14 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401774383,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5115.0,McCully Stadium,396,Wheaton,CCIW,61.0,74,Millikin,CCIW,14.0
 401767694,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3730.0,Franklin Field,219,Pennsylvania,Ivy,17.0,172,Cornell,Ivy,39.0
 401777280,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5849.0,Reeves Field (PA),2242,Geneva,Presidents',7.0,2686,Washington & Jefferson,Presidents',49.0
-401774388,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5839.0,Langhorst Field,72,Elmhurst,CCIW,,3071,North Central College,CCIW,58.0
+401774388,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5839.0,Langhorst Field,72,Elmhurst,CCIW,0.0,3071,North Central College,CCIW,58.0
 401774390,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5897.0,Francis Field (MO),143,Washington University (St. Louis),CCIW,42.0,75,North Park,CCIW,14.0
 401776734,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5795.0,Edor Nelson Field,124,Augsburg,Minnesota,10.0,2968,Gustavus Adolphus,Minnesota,31.0
 401777974,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5868.0,Ronald J. Abdow Field,2022,American International,Northeast 10,21.0,2487,Pace,Northeast 10,9.0
 401776742,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,5117.0,Clemens Stadium,2600,Saint John's (MN),Minnesota,70.0,375,St. Scholastica,Minnesota,21.0
-401767199,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3858.0,O'Brien Stadium,2197,Eastern Illinois,Big South-OVC,3.0,2635,Tennessee Tech,Big South-OVC,21.0
+401767199,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3858.0,O'Brien Stadium,2197,Eastern Illinois,Big South-OVC,9.0,2635,Tennessee Tech,Big South-OVC,21.0
 401767724,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,False,3847.0,Cooper Field,46,Georgetown,Patriot,24.0,257,Richmond,Patriot,31.0
-401777083,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3640.0,Blackstock Stadium,83,Depauw,North Coast,59.0,2748,Wooster,North Coast,
+401777083,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3640.0,Blackstock Stadium,83,Depauw,North Coast,59.0,2748,Wooster,North Coast,0.0
 401767137,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,4419.0,Bob Ford Field,399,UAlbany,CAA,24.0,2803,Bryant,CAA,27.0
 401767186,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3620.0,Armstrong Stadium,2261,Hampton,CAA,7.0,311,Maine,CAA,35.0
 401777555,2025,11,regular,2025-11-08T18:00:00.000Z,True,False,True,3638.0,MDU Resources Community Bowl,559,University of Mary,Northern Sun,29.0,2851,Winona State,Northern Sun,36.0
@@ -3017,7 +3017,7 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401767206,2025,11,regular,2025-11-08T18:30:00.000Z,True,False,True,3710.0,Ernest W. Spangler Stadium,2241,Gardner-Webb,Big South-OVC,27.0,2546,Southeast Missouri State,Big South-OVC,24.0
 401774426,2025,11,regular,2025-11-08T18:30:00.000Z,True,False,True,6088.0,Schueler Field,2419,Mount St. Joseph,Heartland,48.0,2362,Manchester,Heartland,20.0
 401767396,2025,11,regular,2025-11-08T18:30:00.000Z,True,False,True,3864.0,Oliver C. Dawson Stadium,2569,South Carolina State,MEAC,42.0,47,Howard,MEAC,12.0
-401777205,2025,11,regular,2025-11-08T18:30:00.000Z,False,False,True,5931.0,Don Drumm Stadium,317,Marietta,Ohio,,426,University of Mount Union,Ohio,
+401777205,2025,11,regular,2025-11-08T18:30:00.000Z,True,False,True,5931.0,Don Drumm Stadium,317,Marietta,Ohio,19.0,426,University of Mount Union,Ohio,30.0
 401767177,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3894.0,Rhodes Stadium,2210,Elon,CAA,20.0,227,Rhode Island,CAA,34.0
 401773264,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5838.0,Ornelas Stadium,2194,East Texas Baptist University,American Southwest,27.0,2758,Howard Payne,American Southwest,34.0
 401773359,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5113.0,Ruggles Field at Carpenter-Haygood Stadium,2271,Henderson State,Great American,45.0,2191,East Central (OK),Great American,35.0
@@ -3032,10 +3032,10 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401762502,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3895.0,Rice Stadium,242,Rice,American Athletic,24.0,5,UAB,American Athletic,17.0
 401774364,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5859.0,Tucci Stadium,306,Illinois Wesleyan,CCIW,14.0,32,Carroll University (WI),CCIW,34.0
 401774180,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5120.0,J.J. Keller Field at Titan Stadium,271,Wisconsin-Oshkosh,Wisconsin,41.0,2743,Wisconsin-Stevens Pt,Wisconsin,15.0
-401774216,2025,11,regular,2025-11-08T19:00:00.000Z,False,False,True,3915.0,Charles Lee Field at Samford Stadium,2938,Huntingdon College (AL),USA South,,2896,Southern Virginia,USA South,
+401774216,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3915.0,Charles Lee Field at Samford Stadium,2938,Huntingdon College (AL),USA South,44.0,2896,Southern Virginia,USA South,21.0
 401774279,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3877.0,Pioneer Stadium,101161,LYONCOLL,Southern Collegiate Athletic,10.0,2639,Texas Lutheran,Southern Collegiate Athletic,54.0
-401774285,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3823.0,Hardee-McGee Field,2553,Sewanee,Southern Athletic,,2121,Centre College Kentucky,Southern Athletic,28.0
-401774437,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6111.0,Cook Stadium,86,Rose-Hulman,Heartland,38.0,2023,Anderson (IN),Heartland,
+401774285,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3823.0,Hardee-McGee Field,2553,Sewanee,Southern Athletic,0.0,2121,Centre College Kentucky,Southern Athletic,28.0
+401774437,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6111.0,Cook Stadium,86,Rose-Hulman,Heartland,38.0,2023,Anderson (IN),Heartland,0.0
 401774466,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6132.0,Trinity University Stadium,386,Trinity University TX,Southern Athletic,42.0,2398,Millsaps,Southern Athletic,24.0
 401776773,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5804.0,Royal Stadium,2802,Bethel (MN),Minnesota,49.0,2101,Carleton,Minnesota,7.0
 401777017,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5797.0,Vago Field,2044,Aurora,NACC,37.0,2832,St. Norbert,NACC,14.0
@@ -3048,25 +3048,25 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401773780,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6072.0,Schwan Regional Event Center,2587,Southwest Minnesota State,Northern Sun,14.0,3066,Concordia University St Paul,Northern Sun,19.0
 401773792,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6070.0,Bob Young Field,2894,Sioux Falls,Northern Sun,13.0,2844,Wayne State (NE),Northern Sun,42.0
 401773808,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,4435.0,Robert B. Redman Stadium,2071,Bloomsburg,Pennsylvania State Athletic,27.0,2315,Kutztown University,Pennsylvania State Athletic,35.0
-401773878,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5866.0,Rex Stadium,2001,Adams State,Rocky Mountain,,2069,Black Hills State,Rocky Mountain,59.0
+401773878,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5866.0,Rex Stadium,2001,Adams State,Rocky Mountain,0.0,2069,Black Hills State,Rocky Mountain,59.0
 401773898,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5883.0,Marv Kay Stadium at Campbell Field,2146,Colorado School Of Mines,Rocky Mountain,34.0,2570,CSU Pueblo,Rocky Mountain,41.0
 401773965,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6078.0,Pioneer Field (TN),2839,Greeneville,South Atlantic,10.0,351,Wingate,South Atlantic,56.0
-401773979,2025,11,regular,2025-11-08T19:00:00.000Z,True,True,True,4110.0,A.J. McClung Stadium,2232,Fort Valley State,SIAC,48.0,2013,Albany State GA,SIAC,3.0
+401773979,2025,11,regular,2025-11-08T19:00:00.000Z,True,True,True,4110.0,A.J. McClung Stadium,2232,Fort Valley State,SIAC,3.0,2013,Albany State GA,SIAC,48.0
 401773986,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6217.0,W.C. Hawkins Stadium,2019,Allen,SIAC,53.0,2206,Edward Waters,SIAC,30.0
 401766728,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,6084.0,April Zorn Memorial Stadium,2919,Monmouth (IL),Midwest,58.0,2891,Ripon,Midwest,3.0
 401766729,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5861.0,Rosenbloom Field,65,Grinnell,Midwest,63.0,268,Lawrence University,Midwest,6.0
-401766730,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3945.0,Strong Stadium,266,Beloit,Midwest,,80,Chicago,Midwest,40.0
+401766730,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3945.0,Strong Stadium,266,Beloit,Midwest,0.0,80,Chicago,Midwest,40.0
 401773645,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,4724.0,Audrey J. Walton Stadium at Vernon Kennedy Field,2118,Central Missouri,Mid America,35.0,90,Pittsburg St,Mid America,48.0
-401831243,2025,11,regular,2025-11-08T19:00:00.000Z,False,False,False,3957.0,Tiger Stadium (AL),2695,West Alabama,Gulf South,,124179,Lincoln (CA),Independent DII,
-401767548,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,844.0,Stambaugh Stadium,2754,Youngstown State,MVFC,48.0,79,Southern Illinois,MVFC,30.0
+401831243,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,False,3957.0,Tiger Stadium (AL),2695,West Alabama,Gulf South,0.0,124179,Lincoln (CA),Independent DII,0.0
+401767548,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,844.0,Stambaugh Stadium,2754,Youngstown State,MVFC,48.0,79,Southern Illinois,MVFC,38.0
 401767507,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3605.0,Alerus Center,155,North Dakota,MVFC,10.0,2449,North Dakota State,MVFC,15.0
 401767409,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3862.0,O'Kelly-Riddick Stadium,2428,North Carolina Central,MEAC,31.0,2450,Norfolk State,MEAC,28.0
 401767214,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3746.0,Hanson Field,2710,Western Illinois,Big South-OVC,24.0,2815,Lindenwood,Big South-OVC,21.0
 401767480,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3963.0,Harry Turpin Stadium,2466,Northwestern State,Southland,3.0,2916,Incarnate Word,Southland,38.0
 401767500,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3967.0,UNI-Dome,2460,Northern Iowa,MVFC,31.0,93,Murray State,MVFC,14.0
-401767146,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3629.0,Barker-Lane Stadium,2097,Campbell,CAA,27.0,2729,William & Mary,CAA,24.0
+401767146,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3629.0,Barker-Lane Stadium,2097,Campbell,CAA,27.0,2729,William & Mary,CAA,30.0
 401767229,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3748.0,Graham Stadium,2630,UT Martin,Big South-OVC,26.0,2634,Tennessee State,Big South-OVC,7.0
-401766731,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5828.0,Van Metre Field at Ash Park,2155,Cornell College (IA),Midwest,,2286,Illinois College,Midwest,24.0
+401766731,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5828.0,Van Metre Field at Ash Park,2155,Cornell College (IA),Midwest,0.0,2286,Illinois College,Midwest,24.0
 401773042,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,3635.0,Bill Buxton Stadium,2564,Simpson College (IA),American Rivers,10.0,2964,Central College,American Rivers,35.0
 401773163,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5809.0,J. Leslie Rollins Stadium,63,Buena Vista,American Rivers,34.0,6845,Nebraska Wesleyan,American Rivers,21.0
 401773171,2025,11,regular,2025-11-08T19:00:00.000Z,True,False,True,5823.0,Clark Field,2141,Coe College,American Rivers,63.0,263,Loras College,American Rivers,7.0
@@ -3081,7 +3081,7 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401773389,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,6073.0,Milam Stadium,2927,Southwestern Oklahoma State,Great American,38.0,2888,Ouachita Baptist,Great American,42.0
 401773368,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3934.0,Southern Nazarene University Football Stadium,200,Southern Nazarene,Great American,14.0,2264,Harding University,Great American,52.0
 401773350,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,4763.0,Ranger Field,2823,Northwestern Oklahoma State,Great American,40.0,2028,Arkansas-Monticello,Great American,7.0
-401774021,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,6044.0,Lane Field,2323,Lane College,SIAC,,2310,Kentucky State,SIAC,55.0
+401774021,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,6044.0,Lane Field,2323,Lane College,SIAC,0.0,2310,Kentucky State,SIAC,55.0
 401774187,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,5911.0,Ralph E. Davis Pioneer Stadium,272,Wisconsin-Platteville,Wisconsin,24.0,2744,Wisconsin-Stout,Wisconsin,23.0
 401777225,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,5892.0,Armfield Athletic Center,2258,Guilford College,Old Dominion,21.0,2047,Averett,Old Dominion,27.0
 401757295,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3695.0,Delaware Stadium,48,Delaware,Conference USA,25.0,2348,Louisiana Tech,Conference USA,24.0
@@ -3094,7 +3094,7 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401773340,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,6064.0,Crain Family Stadium,319,Oklahoma Baptist,Great American,25.0,2033,Arkansas Tech,Great American,38.0
 401762504,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3699.0,Dowdy-Ficklen Stadium,151,East Carolina,American Athletic,48.0,2429,Charlotte,American Athletic,22.0
 401757297,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3946.0,Sun Bowl,2638,UTEP,Conference USA,27.0,55,Jacksonville State,Conference USA,30.0
-401762505,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3715.0,FAU Stadium,2226,Florida Atlantic,American Athletic,,202,Tulsa,American Athletic,
+401762505,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3715.0,FAU Stadium,2226,Florida Atlantic,American Athletic,40.0,202,Tulsa,American Athletic,21.0
 401767110,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3643.0,Bobcat Stadium,147,Montana State,Big Sky,66.0,2692,Weber State,Big Sky,14.0
 401767365,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,4582.0,Hornet Stadium,2011,Alabama State,SWAC,42.0,2640,Texas Southern,SWAC,24.0
 401757296,2025,11,regular,2025-11-08T20:00:00.000Z,True,False,True,3725.0,"Johnny ""Red"" Floyd Stadium",2393,Middle Tennessee,Conference USA,30.0,2229,Florida International,Conference USA,56.0
@@ -3116,12 +3116,12 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401767487,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,3882.0,Provost Umphrey Stadium,2320,Lamar,Southland,14.0,2545,SE Louisiana,Southland,12.0
 401767376,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,3771.0,Jack Spinks Stadium,2016,Alcorn State,SWAC,35.0,2582,Southern,SWAC,17.0
 401767289,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,4133.0,Braly Municipal Stadium,2453,North Alabama,UAC,17.0,2698,West Georgia,UAC,24.0
-401773284,2025,11,regular,2025-11-08T21:00:00.000Z,False,False,False,5808.0,Edward C. Swenson Athletic Complex,18,Bridgewater State,MSCAC,,15,Anna Maria College,MSCAC,
+401773284,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,False,5808.0,Edward C. Swenson Athletic Complex,18,Bridgewater State,MSCAC,41.0,15,Anna Maria College,MSCAC,35.0
 401773447,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,6077.0,Stokes Stadium,2654,Truman State,Great Lakes,35.0,2911,William Jewell,Great Lakes,17.0
 401777165,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,5920.0,Griswold Stadium,2333,Lewis & Clark College,Northwest,36.0,2486,Pacific Lutheran,Northwest,46.0
-401777174,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,6149.0,McCulloch Stadium,2930,Willamette,Northwest,,2721,Whitworth,Northwest,29.0
+401777174,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,6149.0,McCulloch Stadium,2930,Willamette,Northwest,0.0,2721,Whitworth,Northwest,29.0
 401761645,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,3654.0,Brooks Stadium (SC),324,Coastal Carolina,Sun Belt,40.0,2247,Georgia State,Sun Belt,27.0
-401774259,2025,11,regular,2025-11-08T21:00:00.000Z,False,False,True,6106.0,Ted Runner Stadium,29,Redlands,So. Cal.,,17,Claremont-Mudd-Scripps College,So. Cal.,
+401774259,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,6106.0,Ted Runner Stadium,29,Redlands,So. Cal.,14.0,17,Claremont-Mudd-Scripps College,So. Cal.,28.0
 401752764,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,3973.0,FirstBank Stadium,238,Vanderbilt,SEC,45.0,2,Auburn,SEC,38.0
 401767542,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,1905.0,DakotaDome,233,South Dakota,MVFC,24.0,2571,South Dakota State,MVFC,17.0
 401767254,2025,11,regular,2025-11-08T21:00:00.000Z,True,False,True,3742.0,Governors Stadium,2046,Austin Peay,UAC,41.0,2110,Central Arkansas,UAC,38.0
@@ -3130,21 +3130,21 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401777145,2025,11,regular,2025-11-08T21:30:00.000Z,True,False,True,5850.0,Stoffer Family Stadium,415,NEWBERG,Northwest,27.0,205,Pacific (OR),Northwest,21.0
 401752899,2025,11,regular,2025-11-08T21:30:00.000Z,True,False,True,347.0,Camp Randall Stadium,275,Wisconsin,Big Ten,13.0,264,Washington,Big Ten,10.0
 401754588,2025,11,regular,2025-11-08T21:30:00.000Z,True,False,True,3787.0,Kenan Stadium,153,North Carolina,ACC,20.0,24,Stanford,ACC,15.0
-401776798,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,3755.0,Ray and Sue Smith Stadium,2812,Hope College,Michigan,52.0,129738,Calvin University,Michigan,
+401776798,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,3755.0,Ray and Sue Smith Stadium,2812,Hope College,Michigan,52.0,129738,Calvin University,Michigan,0.0
 401773140,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,4015.0,Barron Stadium,2560,Shorter,Carolinas,33.0,2822,North Greenville,Carolinas,35.0
 401761648,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,3666.0,Cajun Field,309,Louisiana,Sun Belt,42.0,326,Texas State,Sun Belt,39.0
 401767465,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,4762.0,Memorial Stadium (Commerce TX),2837,East Texas A&M,Southland,20.0,2377,McNeese,Southland,35.0
 401773112,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,False,7075.0,Electric Supply Company Field,122666,Wilson,Carolinas,37.0,101784,ERSKINE,Carolinas,7.0
 401774325,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,6085.0,Sprague Field,2818,Montclair State,New Jersey,30.0,2442,College Of New Jersey,New Jersey,27.0
 401767129,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,4765.0,Hillsboro Stadium,2502,Portland State,Big Sky,24.0,16,Sacramento State,Big Sky,52.0
-401766732,2025,11,regular,2025-11-08T22:00:00.000Z,False,False,True,5689.0,Seaverns Field At Harold Alfond Stadium,33,Colby College,NESCAC,,340,Bowdoin,NESCAC,
+401766732,2025,11,regular,2025-11-08T22:00:00.000Z,True,False,True,5689.0,Seaverns Field At Harold Alfond Stadium,33,Colby College,NESCAC,16.0,340,Bowdoin,NESCAC,6.0
 401760406,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,3935.0,CEFCU Stadium,23,San José State,Mountain West,16.0,2005,Air Force,Mountain West,26.0
 401773925,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,5122.0,Shuford Stadium,2107,Catawba,South Atlantic,44.0,129469,Anderson (Sc),South Atlantic,20.0
 401767077,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,1930.0,Holt Arena,304,Idaho State,Big Sky,27.0,13,Cal Poly,Big Sky,17.0
 401773999,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,5881.0,CAU Panther Stadium,2805,Clark Atlanta,SIAC,48.0,60,Morehouse College,SIAC,45.0
 401777247,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,False,6116.0,Shentel Stadium,2828,Shenandoah,Old Dominion,52.0,417,Gallaudet,Old Dominion,14.0
 401767518,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,False,6006.0,Robert and Janet Vackar Stadium,292,UT Rio Grande Valley,Southland,28.0,2447,Nicholls,Southland,21.0
-401774312,2025,11,regular,2025-11-08T23:00:00.000Z,False,False,True,3879.0,TowneBank Stadium,3112,Christopher Newport,New Jersey,,2532,Salisbury,New Jersey,
+401774312,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,3879.0,TowneBank Stadium,3112,Christopher Newport,New Jersey,45.0,2532,Salisbury,New Jersey,42.0
 401767117,2025,11,regular,2025-11-08T23:00:00.000Z,True,False,True,2023.0,Walkup Skydome,2464,Northern Arizona,Big Sky,49.0,2458,Northern Colorado,Big Sky,10.0
 401773859,2025,11,regular,2025-11-08T23:05:00.000Z,True,False,True,4439.0,Eiler-Martin Stadium,2188,East Stroudsburg University,Pennsylvania State Athletic,45.0,210,Millersville,Pennsylvania State Athletic,21.0
 401754585,2025,11,regular,2025-11-09T00:00:00.000Z,True,False,True,3873.0,L&N Federal Credit Union Stadium,97,Louisville,ACC,26.0,25,California,ACC,29.0
