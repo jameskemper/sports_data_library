@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 11,
     "season_type": "regular",
-    "fetched_at": "2025-11-10T12:52:23+00:00",
+    "fetched_at": "2025-11-11T12:50:40+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=11&seasonType=regular"
   },
   "data": [
@@ -13931,7 +13931,7 @@
       ],
       "homePostgameWinProbability": 0.9866335391998291,
       "homePregameElo": 1359,
-      "homePostgameElo": 1480,
+      "homePostgameElo": 1459,
       "awayId": 21,
       "awayTeam": "San Diego State",
       "awayClassification": "fbs",
@@ -13945,7 +13945,7 @@
       ],
       "awayPostgameWinProbability": 0.013366460800170898,
       "awayPregameElo": 1601,
-      "awayPostgameElo": 1480,
+      "awayPostgameElo": 1501,
       "excitementIndex": 4.130753475832267,
       "highlights": "",
       "notes": null

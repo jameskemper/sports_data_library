@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 14,
     "season_type": "regular",
-    "fetched_at": "2025-11-10T12:52:24+00:00",
+    "fetched_at": "2025-11-11T12:50:41+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=14&seasonType=regular"
   },
   "data": [
@@ -421,7 +421,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1480,
+      "awayPregameElo": 1501,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -2442,7 +2442,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1480,
+      "homePregameElo": 1459,
       "homePostgameElo": null,
       "awayId": 2751,
       "awayTeam": "Wyoming",
