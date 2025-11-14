@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 11,
     "season_type": "regular",
-    "fetched_at": "2025-11-13T12:52:51+00:00",
+    "fetched_at": "2025-11-14T12:50:37+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=11&seasonType=regular"
   },
   "data": [
@@ -258,7 +258,7 @@
       ],
       "homePostgameWinProbability": 0.9891061782836914,
       "homePregameElo": 1662,
-      "homePostgameElo": 1736,
+      "homePostgameElo": 1734,
       "awayId": 2636,
       "awayTeam": "UTSA",
       "awayClassification": "fbs",
@@ -272,7 +272,7 @@
       ],
       "awayPostgameWinProbability": 0.010893821716308594,
       "awayPregameElo": 1537,
-      "awayPostgameElo": 1463,
+      "awayPostgameElo": 1465,
       "excitementIndex": 3.5523773833316556,
       "highlights": "",
       "notes": null
@@ -13931,7 +13931,7 @@
       ],
       "homePostgameWinProbability": 0.9866335391998291,
       "homePregameElo": 1359,
-      "homePostgameElo": 1459,
+      "homePostgameElo": 1480,
       "awayId": 21,
       "awayTeam": "San Diego State",
       "awayClassification": "fbs",
@@ -13945,7 +13945,7 @@
       ],
       "awayPostgameWinProbability": 0.013366460800170898,
       "awayPregameElo": 1601,
-      "awayPostgameElo": 1501,
+      "awayPostgameElo": 1480,
       "excitementIndex": 4.130753475832267,
       "highlights": "",
       "notes": null
