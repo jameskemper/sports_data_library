@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 14,
     "season_type": "regular",
-    "fetched_at": "2025-11-20T12:51:03+00:00",
+    "fetched_at": "2025-11-21T12:50:13+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=14&seasonType=regular"
   },
   "data": [
@@ -1576,7 +1576,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1306,
+      "awayPregameElo": 1299,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -1637,7 +1637,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1350,
+      "homePregameElo": 1357,
       "homePostgameElo": null,
       "awayId": 2433,
       "awayTeam": "UL Monroe",
