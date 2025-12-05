@@ -1,0 +1,417 @@
+{
+  "season": 2025,
+  "seasonType": "regular",
+  "week": 15,
+  "polls": [
+    {
+      "poll": "Coaches Poll",
+      "ranks": [
+        {
+          "rank": 1,
+          "teamId": 194,
+          "school": "Ohio State",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 63,
+          "points": 1575
+        },
+        {
+          "rank": 2,
+          "teamId": 84,
+          "school": "Indiana",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 1510
+        },
+        {
+          "rank": 3,
+          "teamId": 61,
+          "school": "Georgia",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1438
+        },
+        {
+          "rank": 4,
+          "teamId": 2483,
+          "school": "Oregon",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 1353
+        },
+        {
+          "rank": 5,
+          "teamId": 145,
+          "school": "Ole Miss",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1306
+        },
+        {
+          "rank": 6,
+          "teamId": 2641,
+          "school": "Texas Tech",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 1266
+        },
+        {
+          "rank": 7,
+          "teamId": 245,
+          "school": "Texas A&M",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1178
+        },
+        {
+          "rank": 8,
+          "teamId": 201,
+          "school": "Oklahoma",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1106
+        },
+        {
+          "rank": 9,
+          "teamId": 87,
+          "school": "Notre Dame",
+          "conference": "FBS Independents",
+          "firstPlaceVotes": 0,
+          "points": 1061
+        },
+        {
+          "rank": 10,
+          "teamId": 333,
+          "school": "Alabama",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1019
+        },
+        {
+          "rank": 11,
+          "teamId": 252,
+          "school": "BYU",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 942
+        },
+        {
+          "rank": 12,
+          "teamId": 238,
+          "school": "Vanderbilt",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 855
+        },
+        {
+          "rank": 13,
+          "teamId": 2390,
+          "school": "Miami",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 844
+        },
+        {
+          "rank": 14,
+          "teamId": 251,
+          "school": "Texas",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 753
+        },
+        {
+          "rank": 15,
+          "teamId": 254,
+          "school": "Utah",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 750
+        },
+        {
+          "rank": 16,
+          "teamId": 258,
+          "school": "Virginia",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 613
+        },
+        {
+          "rank": 17,
+          "teamId": 30,
+          "school": "USC",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 505
+        },
+        {
+          "rank": 18,
+          "teamId": 130,
+          "school": "Michigan",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 427
+        },
+        {
+          "rank": 19,
+          "teamId": 256,
+          "school": "James Madison",
+          "conference": "Sun Belt",
+          "firstPlaceVotes": 0,
+          "points": 356
+        },
+        {
+          "rank": 20,
+          "teamId": 249,
+          "school": "North Texas",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 345
+        },
+        {
+          "rank": 21,
+          "teamId": 2655,
+          "school": "Tulane",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 300
+        },
+        {
+          "rank": 22,
+          "teamId": 12,
+          "school": "Arizona",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 223
+        },
+        {
+          "rank": 23,
+          "teamId": 59,
+          "school": "Georgia Tech",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 170
+        },
+        {
+          "rank": 24,
+          "teamId": 2633,
+          "school": "Tennessee",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 135
+        },
+        {
+          "rank": 25,
+          "teamId": 2426,
+          "school": "Navy",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 107
+        }
+      ]
+    },
+    {
+      "poll": "AP Top 25",
+      "ranks": [
+        {
+          "rank": 1,
+          "teamId": 194,
+          "school": "Ohio State",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 61,
+          "points": 1645
+        },
+        {
+          "rank": 2,
+          "teamId": 84,
+          "school": "Indiana",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 5,
+          "points": 1589
+        },
+        {
+          "rank": 3,
+          "teamId": 61,
+          "school": "Georgia",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1504
+        },
+        {
+          "rank": 4,
+          "teamId": 2483,
+          "school": "Oregon",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 1396
+        },
+        {
+          "rank": 5,
+          "teamId": 2641,
+          "school": "Texas Tech",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 1366
+        },
+        {
+          "rank": 6,
+          "teamId": 145,
+          "school": "Ole Miss",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1350
+        },
+        {
+          "rank": 7,
+          "teamId": 245,
+          "school": "Texas A&M",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1282
+        },
+        {
+          "rank": 8,
+          "teamId": 201,
+          "school": "Oklahoma",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1140
+        },
+        {
+          "rank": 9,
+          "teamId": 87,
+          "school": "Notre Dame",
+          "conference": "FBS Independents",
+          "firstPlaceVotes": 0,
+          "points": 1100
+        },
+        {
+          "rank": 10,
+          "teamId": 333,
+          "school": "Alabama",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 1053
+        },
+        {
+          "rank": 11,
+          "teamId": 252,
+          "school": "BYU",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 982
+        },
+        {
+          "rank": 12,
+          "teamId": 2390,
+          "school": "Miami",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 898
+        },
+        {
+          "rank": 13,
+          "teamId": 238,
+          "school": "Vanderbilt",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 871
+        },
+        {
+          "rank": 14,
+          "teamId": 251,
+          "school": "Texas",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 861
+        },
+        {
+          "rank": 15,
+          "teamId": 254,
+          "school": "Utah",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 739
+        },
+        {
+          "rank": 16,
+          "teamId": 258,
+          "school": "Virginia",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 637
+        },
+        {
+          "rank": 17,
+          "teamId": 30,
+          "school": "USC",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 566
+        },
+        {
+          "rank": 18,
+          "teamId": 130,
+          "school": "Michigan",
+          "conference": "Big Ten",
+          "firstPlaceVotes": 0,
+          "points": 441
+        },
+        {
+          "rank": 19,
+          "teamId": 256,
+          "school": "James Madison",
+          "conference": "Sun Belt",
+          "firstPlaceVotes": 0,
+          "points": 417
+        },
+        {
+          "rank": 20,
+          "teamId": 249,
+          "school": "North Texas",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 402
+        },
+        {
+          "rank": 21,
+          "teamId": 2655,
+          "school": "Tulane",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 373
+        },
+        {
+          "rank": 22,
+          "teamId": 12,
+          "school": "Arizona",
+          "conference": "Big 12",
+          "firstPlaceVotes": 0,
+          "points": 257
+        },
+        {
+          "rank": 23,
+          "teamId": 2426,
+          "school": "Navy",
+          "conference": "American Athletic",
+          "firstPlaceVotes": 0,
+          "points": 146
+        },
+        {
+          "rank": 24,
+          "teamId": 59,
+          "school": "Georgia Tech",
+          "conference": "ACC",
+          "firstPlaceVotes": 0,
+          "points": 90
+        },
+        {
+          "rank": 25,
+          "teamId": 142,
+          "school": "Missouri",
+          "conference": "SEC",
+          "firstPlaceVotes": 0,
+          "points": 73
+        }
+      ]
+    }
+  ]
+}

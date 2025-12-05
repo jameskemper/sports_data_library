@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 2,
     "season_type": "regular",
-    "fetched_at": "2025-11-10T12:52:20+00:00",
+    "fetched_at": "2025-12-05T12:52:06+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=2&seasonType=regular"
   },
   "data": [
@@ -12670,7 +12670,7 @@
         14,
         14
       ],
-      "homePostgameWinProbability": 0.938714861869812,
+      "homePostgameWinProbability": 0.9896509051322937,
       "homePregameElo": 1841,
       "homePostgameElo": 1895,
       "awayId": 290,
@@ -12684,10 +12684,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.06128513813018799,
+      "awayPostgameWinProbability": 0.010349094867706299,
       "awayPregameElo": 1382,
       "awayPostgameElo": 1328,
-      "excitementIndex": 6.97962486743926,
+      "excitementIndex": 4.561627952727972,
       "highlights": "",
       "notes": null
     },
