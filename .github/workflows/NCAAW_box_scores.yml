@@ -1,9 +1,8 @@
-name: NCAAW Box Score Scraper
+name: NCAAW Box Score app
 
 on:
   schedule:
-    # Runs daily at 12:00 UTC (~6am Central)
-    - cron: "0 12 * * *"
+    - cron: "0 12 * * *"   # ~6am Central
   workflow_dispatch:
 
 jobs:
@@ -11,41 +10,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ---------------------------------------------
-      # Checkout repo (disable default credentials)
-      # ---------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
 
-      # ---------------------------------------------
-      # Set up Python
-      # ---------------------------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # ---------------------------------------------
-      # Install dependencies
-      # ---------------------------------------------
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests pandas
 
-      # ---------------------------------------------
-      # Run scraper (yesterday only)
-      # ---------------------------------------------
+      # ---------------------------
+      # Scrape yesterday's games
+      # ---------------------------
       - name: Run NCAAW box score scraper
         run: |
           python NCAAW_basketball/box_scores/box_score_scraper.py
 
-      # ---------------------------------------------
-      # Commit and push using PAT
-      # ---------------------------------------------
+      # ---------------------------
+      # Compile season CSV
+      # ---------------------------
+      - name: Compile NCAAW season CSV
+        run: |
+          python NCAAW_basketball/box_scores/compile_2025.py
+
+      # ---------------------------
+      # Commit & push using PAT
+      # ---------------------------
       - name: Commit and push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -58,6 +55,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new data to commit."
           else
-            git commit -m "Daily NCAAW box score scrape"
+            git commit -m "Daily NCAAW box score scrape + compile"
             git push https://x-access-token:${GH_PAT}@github.com/jameskemper/sports_data_library.git HEAD:master
           fi
