@@ -4,12 +4,24 @@ import pandas as pd
 from datetime import datetime
 
 # =====================================================
-# PATHS
+# REPO-RELATIVE PATHS
 # =====================================================
-RAW_DIR = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores\2025"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 
-# NOTE: compiled CSV goes ONE LEVEL UP
-OUTPUT_CSV = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores\2025.csv"
+RAW_DIR = os.path.join(
+    REPO_ROOT,
+    "NCAAW_basketball",
+    "box_scores",
+    "2025"
+)
+
+OUTPUT_CSV = os.path.join(
+    REPO_ROOT,
+    "NCAAW_basketball",
+    "box_scores",
+    "2025.csv"
+)
 
 # =====================================================
 # HELPERS
@@ -40,16 +52,13 @@ def main():
         game_date = date_from_filename(fname)
         season = season_from_date(game_date)
 
-        fpath = os.path.join(RAW_DIR, fname)
-        print(f"Processing {fname}")
-
-        with open(fpath, "r", encoding="utf-8") as f:
+        with open(os.path.join(RAW_DIR, fname), "r", encoding="utf-8") as f:
             for line in f:
                 obj = json.loads(line)
                 box = obj["boxscore"]
                 gid = obj["game_id"]
 
-                # Build team lookup from `teams`
+                # Build team lookup
                 team_lookup = {
                     str(t["teamId"]): {
                         "team": t.get("nameShort"),
@@ -97,8 +106,8 @@ def main():
             [c for c in df.columns if c not in front]]
 
     df.to_csv(OUTPUT_CSV, index=False)
-    print(f"\nSaved compiled CSV → {OUTPUT_CSV}")
-    print(f"Total rows: {len(df):,}")
+    print(f"Saved compiled CSV → {OUTPUT_CSV}")
+    print(f"Rows: {len(df):,}")
 
 if __name__ == "__main__":
     main()
