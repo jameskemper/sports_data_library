@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 16,
     "season_type": "regular",
-    "fetched_at": "2025-12-15T12:57:18+00:00",
+    "fetched_at": "2025-12-16T12:55:43+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=16&seasonType=regular"
   },
   "data": [
@@ -76,7 +76,7 @@
         7,
         0
       ],
-      "homePostgameWinProbability": 0.1738208830356598,
+      "homePostgameWinProbability": 0.0338524766266346,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 222,
@@ -90,10 +90,10 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": 0.8261791169643402,
+      "awayPostgameWinProbability": 0.9661475233733654,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.199782165604796,
+      "excitementIndex": 5.5209638499956375,
       "highlights": "",
       "notes": "FCS Championship - Quarterfinals"
     },
@@ -115,7 +115,12 @@
       "homeClassification": "ii",
       "homeConference": "GLIAC",
       "homePoints": 49,
-      "homeLineScores": null,
+      "homeLineScores": [
+        21,
+        14,
+        14,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -124,7 +129,12 @@
       "awayClassification": "ii",
       "awayConference": "South Atlantic",
       "awayPoints": 17,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        10,
+        0,
+        0
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -149,8 +159,13 @@
       "homeTeam": "John Carroll University",
       "homeClassification": "iii",
       "homeConference": "Ohio",
-      "homePoints": 13,
-      "homeLineScores": null,
+      "homePoints": 21,
+      "homeLineScores": [
+        0,
+        14,
+        0,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -158,8 +173,13 @@
       "awayTeam": "Berry College",
       "awayClassification": "iii",
       "awayConference": "Southern Athletic",
-      "awayPoints": 21,
-      "awayLineScores": null,
+      "awayPoints": 13,
+      "awayLineScores": [
+        0,
+        0,
+        0,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -184,8 +204,13 @@
       "homeTeam": "Susquehanna",
       "homeClassification": "iii",
       "homeConference": "Landmark Conference",
-      "homePoints": 40,
-      "homeLineScores": null,
+      "homePoints": 10,
+      "homeLineScores": [
+        3,
+        0,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -193,8 +218,13 @@
       "awayTeam": "Johns Hopkins University",
       "awayClassification": "iii",
       "awayConference": "Centennial",
-      "awayPoints": 10,
-      "awayLineScores": null,
+      "awayPoints": 40,
+      "awayLineScores": [
+        7,
+        13,
+        7,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -220,7 +250,12 @@
       "homeClassification": "iii",
       "homeConference": "CCIW",
       "homePoints": 35,
-      "homeLineScores": null,
+      "homeLineScores": [
+        7,
+        7,
+        14,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -229,7 +264,12 @@
       "awayClassification": "iii",
       "awayConference": "Minnesota",
       "awayPoints": 21,
-      "awayLineScores": null,
+      "awayLineScores": [
+        0,
+        7,
+        0,
+        14
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -300,7 +340,12 @@
       "homeClassification": "iii",
       "homeConference": "CCIW",
       "homePoints": 21,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        7,
+        7
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -309,7 +354,12 @@
       "awayClassification": "iii",
       "awayConference": "Wisconsin",
       "awayPoints": 46,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        13,
+        13,
+        13
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -335,7 +385,12 @@
       "homeClassification": "ii",
       "homeConference": "Pennsylvania State Athletic",
       "homePoints": 27,
-      "homeLineScores": null,
+      "homeLineScores": [
+        0,
+        7,
+        6,
+        14
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -344,7 +399,12 @@
       "awayClassification": "ii",
       "awayConference": "Great American",
       "awayPoints": 49,
-      "awayLineScores": null,
+      "awayLineScores": [
+        7,
+        14,
+        21,
+        7
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
@@ -393,7 +453,7 @@
       "awayPostgameWinProbability": 0.024834096431732178,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.2474169134728963,
+      "excitementIndex": 3.226368761080136,
       "highlights": "",
       "notes": "FCS Championship - Quarterfinals"
     },
@@ -421,7 +481,7 @@
         0,
         14
       ],
-      "homePostgameWinProbability": 0.23246817290782928,
+      "homePostgameWinProbability": 0.19297711551189423,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2287,
@@ -435,7 +495,7 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": 0.7675318270921707,
+      "awayPostgameWinProbability": 0.8070228844881058,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 4.763970140219479,
