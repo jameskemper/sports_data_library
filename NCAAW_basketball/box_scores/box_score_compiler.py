@@ -3,9 +3,17 @@ import json
 import pandas as pd
 from datetime import datetime
 
-RAW_DIR = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores"
-OUTPUT_CSV = os.path.join(RAW_DIR, "2025.csv")
+# =====================================================
+# PATHS
+# =====================================================
+RAW_DIR = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores\2025"
 
+# NOTE: compiled CSV goes ONE LEVEL UP
+OUTPUT_CSV = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores\2025.csv"
+
+# =====================================================
+# HELPERS
+# =====================================================
 def flatten_prefixed(d, prefix):
     if not isinstance(d, dict):
         return {}
@@ -19,21 +27,29 @@ def season_from_date(date_str):
     d = datetime.strptime(date_str, "%Y-%m-%d")
     return d.year + 1 if d.month >= 7 else d.year
 
+# =====================================================
+# MAIN
+# =====================================================
 def main():
     rows = []
     files = sorted(f for f in os.listdir(RAW_DIR) if f.endswith("_raw.jsonl"))
+
+    print(f"Found {len(files)} raw JSONL files")
 
     for fname in files:
         game_date = date_from_filename(fname)
         season = season_from_date(game_date)
 
-        with open(os.path.join(RAW_DIR, fname), "r", encoding="utf-8") as f:
+        fpath = os.path.join(RAW_DIR, fname)
+        print(f"Processing {fname}")
+
+        with open(fpath, "r", encoding="utf-8") as f:
             for line in f:
                 obj = json.loads(line)
                 box = obj["boxscore"]
                 gid = obj["game_id"]
 
-                # --- BUILD TEAM LOOKUP (THIS IS THE KEY FIX) ---
+                # Build team lookup from `teams`
                 team_lookup = {
                     str(t["teamId"]): {
                         "team": t.get("nameShort"),
@@ -81,7 +97,8 @@ def main():
             [c for c in df.columns if c not in front]]
 
     df.to_csv(OUTPUT_CSV, index=False)
-    print(f"Saved → {OUTPUT_CSV} ({len(df):,} rows)")
+    print(f"\nSaved compiled CSV → {OUTPUT_CSV}")
+    print(f"Total rows: {len(df):,}")
 
 if __name__ == "__main__":
     main()
