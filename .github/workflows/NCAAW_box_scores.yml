@@ -1,0 +1,46 @@
+name: Daily NCAAW Box Score Scraper
+
+on:
+  schedule:
+    # Runs daily at 10:00 UTC (≈ 4am Central)
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run NCAAW box score scraper
+        run: |
+          python NCAAW_basketball/box_scores/box_score_scraper.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if there are changes
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add NCAAW_basketball/box_scores
+            git commit -m "Daily NCAAW box score scrape"
+            git push
+          else
+            echo "No new data to commit."
+          fi
