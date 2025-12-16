@@ -5,23 +5,33 @@ import time
 import requests
 from datetime import datetime, timedelta
 
-# =====================================================
-# CONFIGURATION
-# =====================================================
-START_DATE = datetime(2025, 11, 1)
-END_DATE   = datetime(2025, 12, 14)
 
-SPORT      = "basketball-women"
-DIVISION   = "d1"
-CONF_SLUG  = "all-conf"
-BASE_URL   = "https://ncaa-api.henrygd.me"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
 
-OUT_DIR = r"C:\Users\jkemper\OneDrive - Texas Tech University\Git\sports_data_library\NCAAW_basketball\box_scores\2025"
+OUT_DIR = os.path.join(
+    REPO_ROOT,
+    "NCAAW_basketball",
+    "box_scores",
+    "2025"
+)
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# Networking discipline (CRITICAL)
-REQUEST_TIMEOUT = 20      # seconds — prevents hangs
-SLEEP_SECONDS   = 0.30    # conservative for large slates
+# =====================================================
+# SCRAPE DATE (YESTERDAY)
+# =====================================================
+SCRAPE_DATE = datetime.utcnow() - timedelta(days=1)
+
+# =====================================================
+# API CONFIG
+# =====================================================
+SPORT     = "basketball-women"
+DIVISION  = "d1"
+CONF_SLUG = "all-conf"
+BASE_URL  = "https://ncaa-api.henrygd.me"
+
+REQUEST_TIMEOUT = 20
+SLEEP_SECONDS   = 0.30
 
 GAME_ID_RE = re.compile(r"/game/(\d+)")
 
@@ -53,15 +63,14 @@ def extract_game_ids(scoreboard_json: dict) -> list[str]:
     return sorted(set(ids))
 
 # =====================================================
-# PER-DATE SCRAPER
+# SCRAPE SINGLE DATE
 # =====================================================
 def scrape_date(d: datetime):
     date_tag = d.strftime("%m%d%Y")
     out_path = os.path.join(OUT_DIR, f"{date_tag}_raw.jsonl")
 
-    # Skip already-scraped dates
     if os.path.exists(out_path):
-        print(f"[SKIP] {d:%Y-%m-%d} → file already exists")
+        print(f"[SKIP] {d:%Y-%m-%d} already exists")
         return
 
     sb_url = scoreboard_url(d)
@@ -71,29 +80,23 @@ def scrape_date(d: datetime):
     try:
         sb = get_json(sb_url)
     except requests.RequestException as e:
-        print(f"  Scoreboard fetch failed: {e}")
+        print(f"Scoreboard fetch failed: {e}")
         return
 
     game_ids = extract_game_ids(sb)
     n_games = len(game_ids)
-    print(f"  Found {n_games} games")
+    print(f"Found {n_games} games")
 
-    # Skip empty days entirely
     if n_games == 0:
-        print("  No games — skipping file creation.")
+        print("No games — skipping.")
         return
-
-    saved = 0
 
     with open(out_path, "w", encoding="utf-8") as f:
         for i, gid in enumerate(game_ids, 1):
             try:
                 box = get_json(boxscore_url(gid))
-            except requests.Timeout:
-                print(f"  [{i}/{n_games}] TIMEOUT → game {gid} skipped")
-                continue
             except requests.RequestException as e:
-                print(f"  [{i}/{n_games}] ERROR → game {gid}: {e}")
+                print(f"[{i}/{n_games}] ERROR {gid}: {e}")
                 continue
 
             f.write(json.dumps(
@@ -101,27 +104,20 @@ def scrape_date(d: datetime):
                 ensure_ascii=False
             ) + "\n")
 
-            saved += 1
-
-            # Heartbeat for large slates
             if i % 10 == 0 or i == n_games:
-                print(f"  Progress: {i}/{n_games}")
+                print(f"Progress: {i}/{n_games}")
 
             time.sleep(SLEEP_SECONDS)
 
-    print(f"  Saved {saved}/{n_games} boxscores → {out_path}")
+    print(f"Saved → {out_path}")
 
 # =====================================================
-# MAIN LOOP
+# MAIN
 # =====================================================
 def main():
-    d = START_DATE
-    while d <= END_DATE:
-        scrape_date(d)
-        time.sleep(SLEEP_SECONDS)
-        d += timedelta(days=1)
-
-    print("\nDone.")
+    print(f"Running GitHub scrape for {SCRAPE_DATE:%Y-%m-%d}")
+    scrape_date(SCRAPE_DATE)
+    print("Done.")
 
 if __name__ == "__main__":
     main()
