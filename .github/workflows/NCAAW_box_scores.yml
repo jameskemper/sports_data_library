@@ -38,7 +38,8 @@ jobs:
       # ---------------------------
       - name: Compile NCAAW season CSV
         run: |
-          python NCAAW_basketball/box_scores/compile_2025.py
+          python NCAAW_basketball/box_scores/box_score_compiler.py
+
 
       # ---------------------------
       # Commit & push using PAT
