@@ -1,0 +1,61 @@
+name: NCAAW Box Score app
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # ~6am Central
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      # ---------------------------
+      # Scrape yesterday's games
+      # ---------------------------
+      - name: Run NCAAW box score scraper
+        run: |
+          python NCAAW_basketball/box_scores/box_score_scraper.py
+
+      # ---------------------------
+      # Compile season CSV
+      # ---------------------------
+      - name: Compile NCAAW season CSV
+        run: |
+          python NCAAW_basketball/box_scores/box_score_compiler.py
+
+
+      # ---------------------------
+      # Commit & push using PAT
+      # ---------------------------
+      - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add NCAAW_basketball/box_scores
+
+          if git diff --cached --quiet; then
+            echo "No new data to commit."
+          else
+            git commit -m "Daily NCAAW box score scrape + compile"
+            git push https://x-access-token:${GH_PAT}@github.com/jameskemper/sports_data_library.git HEAD:master
+          fi

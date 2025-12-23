@@ -5,9 +5,11 @@ import time
 import requests
 from datetime import datetime, timedelta
 
-
+# =====================================================
+# REPO-RELATIVE PATHS (FIXED)
+# =====================================================
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 
 OUT_DIR = os.path.join(
     REPO_ROOT,
@@ -18,9 +20,10 @@ OUT_DIR = os.path.join(
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # =====================================================
-# SCRAPE DATE (YESTERDAY)
+# SCRAPE DATE (YESTERDAY, US-SAFE)
 # =====================================================
-SCRAPE_DATE = datetime.utcnow() - timedelta(days=1)
+# Use local date on runner, not UTC
+SCRAPE_DATE = datetime.now() - timedelta(days=1)
 
 # =====================================================
 # API CONFIG
@@ -88,7 +91,7 @@ def scrape_date(d: datetime):
     print(f"Found {n_games} games")
 
     if n_games == 0:
-        print("No games — skipping.")
+        print("No games — skipping file creation.")
         return
 
     with open(out_path, "w", encoding="utf-8") as f:
