@@ -24,7 +24,7 @@ headers = {
 def fetch_games(start_date, end_date):
     """Fetch games between two dates (inclusive)."""
     params = {
-        "season": 2026,
+        "season": 2025,
         "startDateRange": start_date.isoformat(),
         "endDateRange": end_date.isoformat()
     }
@@ -107,8 +107,8 @@ def save_to_csv(df, output_path):
 def main():
     print("Starting NCAA Basketball Schedule Fetch")
     
-    start_of_season = datetime(2025, 11, 1)
-    end_of_season = datetime(2026, 4, 15)
+    start_of_season = datetime(2024, 11, 1)
+    end_of_season = datetime(2025, 4, 15)
     delta = timedelta(days=30)
     
     all_games = []
@@ -142,7 +142,7 @@ def main():
     df = df[column_order]
     
     # Save to repo path
-    output_path = "NCAA_basketball/schedule/2026.csv"
+    output_path = "NCAA_basketball/schedule/2025.csv"
     save_to_csv(df, output_path)
     
     print("\n✅ Done! Schedule data updated successfully.")
