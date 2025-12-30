@@ -39,6 +39,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add NCAA_basketball/schedule/2025.csv
+          git add NCAA_basketball/schedule/2026.csv          
           git commit -m "Automated schedule update $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
