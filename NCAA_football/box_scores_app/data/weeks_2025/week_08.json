@@ -3,7 +3,7 @@
     "year": 2025,
     "week": 8,
     "season_type": "regular",
-    "fetched_at": "2026-01-22T13:01:25+00:00",
+    "fetched_at": "2026-01-23T12:58:45+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2025&week=8&seasonType=regular"
   },
   "data": [
@@ -3137,12 +3137,12 @@
       "homeTeam": "Pace",
       "homeClassification": "ii",
       "homeConference": "Northeast 10",
-      "homePoints": 35,
+      "homePoints": 34,
       "homeLineScores": [
-        0,
+        21,
+        6,
         7,
-        14,
-        14
+        0
       ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
@@ -3151,12 +3151,12 @@
       "awayTeam": "Southern Connecticut State",
       "awayClassification": "ii",
       "awayConference": "Northeast 10",
-      "awayPoints": 34,
+      "awayPoints": 35,
       "awayLineScores": [
-        21,
-        6,
+        0,
         7,
-        0
+        14,
+        14
       ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
