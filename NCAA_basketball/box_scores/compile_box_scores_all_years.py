@@ -7,7 +7,8 @@ import os
 start_year = 2010
 end_year = 2026
 
-BASE_URL = "https://raw.githubusercontent.com/jameskemper/sports_data_library/refs/heads/master/NCAA_basketball/box_scores/"
+# Use local directory path instead of GitHub URL
+INPUT_PATH = "NCAA_basketball/box_scores/"
 OUTPUT_PATH = "NCAA_basketball/box_scores/box_scores_all.csv"
 
 # --------------------------
@@ -17,12 +18,21 @@ def main():
     all_dfs = []
 
     for year in range(start_year, end_year + 1):
-        url = f"{BASE_URL}{year}.csv"
-        print(f"Loading {url} ...")
+        filepath = f"{INPUT_PATH}{year}.csv"
+        print(f"Loading {filepath} ...")
 
         try:
-            df = pd.read_csv(url)
-            df["season"] = year  # ensure season column exists
+            # Check if file exists
+            if not os.path.exists(filepath):
+                print(f"  File not found: {filepath}")
+                continue
+                
+            df = pd.read_csv(filepath)
+            
+            # Add season column if it doesn't exist
+            if "season" not in df.columns:
+                df["season"] = year
+            
             all_dfs.append(df)
             print(f"  → Loaded {len(df):,} rows")
         except Exception as e:
@@ -35,9 +45,17 @@ def main():
     combined_df = pd.concat(all_dfs, ignore_index=True)
     print(f"\nTotal combined rows: {len(combined_df):,}")
 
+    # Remove duplicates
+    initial_count = len(combined_df)
     combined_df.drop_duplicates(inplace=True)
+    duplicates_removed = initial_count - len(combined_df)
+    print(f"Removed {duplicates_removed:,} duplicate rows")
+    print(f"Final row count: {len(combined_df):,}")
 
+    # Create output directory if it doesn't exist
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    
+    # Save to CSV
     combined_df.to_csv(OUTPUT_PATH, index=False)
     print(f"\nSaved compiled box scores to: {OUTPUT_PATH}")
 
