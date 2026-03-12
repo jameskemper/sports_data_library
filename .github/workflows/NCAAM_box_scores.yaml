@@ -2,8 +2,7 @@ name: Update NCAA Basketball 2026 Box Scores
 
 on:
   schedule:
-    # Run daily at 9 AM CST (15:00 UTC)
-    - cron: '0 15 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
