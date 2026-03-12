@@ -2,8 +2,7 @@ name: Compile NCAA Basketball Box Scores (All Years)
 
 on:
   schedule:
-    # Run every Monday at 10 AM CST (16:00 UTC)
-    - cron: '0 16 * * 1'
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 permissions:
