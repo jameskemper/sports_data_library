@@ -2,8 +2,7 @@ name: Update NCAA Basketball Schedule
 
 on:
   schedule:
-    # Run every day at 10am CST (16:00 UTC)
-    - cron: '0 16 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:  # allows manual trigger
 
 permissions:
