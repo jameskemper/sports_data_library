@@ -4,17 +4,22 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 ## Current Data Collections
 
+#PROFESSIONAL
+
+- [NFL](https://github.com/jameskemper/sports_data_library/tree/master/NFL)
+
+- [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA) 
+
+#COLLEGE
+
 - [NCAA Football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)  
-  Data for NCAA football games, box scores, team performance, and player statistics.  
-  **Source:** [CollegeFootballData](https://collegefootballdata.com)
 
 - [NCAA Men's basketball](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_basketball)
 
 - [NCAA Women's basketball](https://github.com/jameskemper/sports_data_library/tree/master/NCAAW_basketball)
 
-
-- [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA)  
-  Includes game box scores, player stats, and season aggregates compiled from ESPN.
+ 
+  
 
 ## Data Notes
 
