@@ -4,13 +4,13 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 ## Current Data Collections
 
-# PROFESSIONAL
+### PROFESSIONAL
 
 - [NFL](https://github.com/jameskemper/sports_data_library/tree/master/NFL)
 
 - [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA) 
 
-# COLLEGE
+### COLLEGE
 
 - [NCAA Football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)  
 
