@@ -25,10 +25,6 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 - More datasets and sports will be added over time as research evolves.
 - Data is compiled from a mix of public APIs, carefully scraped records, and manual historical curation.
-- Each subfolder may include its own README detailing:
-  - file structures
-  - variable definitions
-  - data provenance and collection methods
 
 ## Citation and Use
 
