@@ -1,316 +1,188 @@
 """
-NFL Box Score Scraper - Enhanced Version with Team Stats
-Scrapes detailed game results and team statistics from ESPN's API, organized by week
-GitHub Actions Compatible Version
+NFL Box Score Scraper
+Scrapes team-level game stats from ESPN's API, organized by week.
+GitHub Actions compatible.
 """
 
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
 import os
 import time
 from datetime import datetime
 
 
-class NFLEnhancedBoxScoreScraper:
-    def __init__(self, season, output_dir):
-        """
-        Initialize the scraper
-        
-        Args:
-            season (int): NFL season year (e.g., 2025)
-            output_dir (str): Directory to save CSV files
-        """
+def get_nfl_season_year() -> int:
+    """
+    Auto-detect the current NFL season year.
+    The NFL season starts in September, so:
+      - Jan-Feb of year Y   -> season Y-1 (playoffs still running)
+      - Mar-Aug of year Y   -> season Y-1 (offseason)
+      - Sep-Dec of year Y   -> season Y
+    """
+    now = datetime.now()
+    return now.year if now.month >= 9 else now.year - 1
+
+
+class NFLBoxScoreScraper:
+    def __init__(self, season: int, output_dir: str):
         self.season = season
         self.output_dir = output_dir
         self.base_url = "https://site.api.espn.com"
-        
-        # Create output directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
-        
-        print(f"NFL Enhanced Box Score Scraper initialized for {season} season")
+        print(f"NFL Box Score Scraper — {season} season")
         print(f"Output directory: {output_dir}\n")
-    
-    def get_game_ids_for_week(self, week):
+
+    def get_game_ids_for_week(self, week: int, season_type: int = 2) -> list:
         """
-        Get all game IDs for a specific week
-        
-        Args:
-            week (int): Week number
-            
-        Returns:
-            list: List of game IDs
+        season_type: 2 = regular season, 3 = playoffs
         """
-        url = f"{self.base_url}/apis/site/v2/sports/football/nfl/scoreboard?week={week}&seasontype=2&dates={self.season}"
-        
+        url = (
+            f"{self.base_url}/apis/site/v2/sports/football/nfl/scoreboard"
+            f"?week={week}&seasontype={season_type}&dates={self.season}"
+        )
         try:
-            response = requests.get(url)
-            response.raise_for_status()
-            time.sleep(2)
-            
-            data = response.json()
-            game_ids = []
-            
-            if 'events' in data:
-                for event in data['events']:
-                    game_ids.append(event['id'])
-            
-            return game_ids
-            
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            time.sleep(1)
+            data = resp.json()
+            return [event["id"] for event in data.get("events", [])]
         except Exception as e:
-            print(f"Error getting game IDs for week {week}: {e}")
+            print(f"  Error getting game IDs for week {week}: {e}")
             return []
-    
-    def get_game_details(self, game_id, week):
-        """
-        Get detailed statistics for a single game
-        
-        Args:
-            game_id (str): ESPN game ID
-            week (int): Week number
-            
-        Returns:
-            dict: Dictionary with comprehensive game data
-        """
-        url = f"{self.base_url}/apis/site/v2/sports/football/nfl/summary?event={game_id}"
-        
+
+    def get_game_details(self, game_id: str, week: int) -> dict | None:
+        url = (
+            f"{self.base_url}/apis/site/v2/sports/football/nfl/summary"
+            f"?event={game_id}"
+        )
         try:
-            response = requests.get(url)
-            response.raise_for_status()
-            time.sleep(2)  # Be respectful to the server
-            
-            data = response.json()
-            
-            # Initialize game data
-            game_data = {
-                'week': week,
-                'season': self.season,
-                'game_id': game_id
-            }
-            
-            # Get basic game info
-            if 'header' in data and 'competitions' in data['header']:
-                competition = data['header']['competitions'][0]
-                
-                # Get date
-                game_data['date'] = competition.get('date', '')
-                
-                # Get teams and scores
-                competitors = competition.get('competitors', [])
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            time.sleep(1)
+            data = resp.json()
+
+            game = {"week": week, "season": self.season, "game_id": game_id}
+
+            # Basic info
+            if "header" in data and "competitions" in data["header"]:
+                comp = data["header"]["competitions"][0]
+                game["date"] = comp.get("date", "")
+                game["status"] = comp.get("status", {}).get("type", {}).get("description", "")
+
+                competitors = comp.get("competitors", [])
                 if len(competitors) >= 2:
-                    away_team = competitors[1] if competitors[1]['homeAway'] == 'away' else competitors[0]
-                    home_team = competitors[0] if competitors[0]['homeAway'] == 'home' else competitors[1]
-                    
-                    game_data['away_team'] = away_team['team']['displayName']
-                    game_data['away_team_abbr'] = away_team['team']['abbreviation']
-                    game_data['away_score'] = int(away_team['score'])
-                    
-                    game_data['home_team'] = home_team['team']['displayName']
-                    game_data['home_team_abbr'] = home_team['team']['abbreviation']
-                    game_data['home_score'] = int(home_team['score'])
-                    
-                    # Winner
-                    if game_data['away_score'] > game_data['home_score']:
-                        game_data['winner'] = game_data['away_team']
-                    elif game_data['home_score'] > game_data['away_score']:
-                        game_data['winner'] = game_data['home_team']
+                    home = next((c for c in competitors if c["homeAway"] == "home"), competitors[0])
+                    away = next((c for c in competitors if c["homeAway"] == "away"), competitors[1])
+
+                    game.update({
+                        "away_team":      away["team"]["displayName"],
+                        "away_team_abbr": away["team"]["abbreviation"],
+                        "away_score":     int(away.get("score", 0)),
+                        "home_team":      home["team"]["displayName"],
+                        "home_team_abbr": home["team"]["abbreviation"],
+                        "home_score":     int(home.get("score", 0)),
+                    })
+                    game["point_differential"] = abs(game["away_score"] - game["home_score"])
+                    if game["away_score"] > game["home_score"]:
+                        game["winner"] = game["away_team"]
+                    elif game["home_score"] > game["away_score"]:
+                        game["winner"] = game["home_team"]
                     else:
-                        game_data['winner'] = 'TIE'
-                    
-                    game_data['point_differential'] = abs(game_data['away_score'] - game_data['home_score'])
-                
-                # Get status
-                game_data['status'] = competition.get('status', {}).get('type', {}).get('description', '')
-            
-            # Get team statistics from boxscore
-            if 'boxscore' in data and 'teams' in data['boxscore']:
-                teams = data['boxscore']['teams']
-                
-                for team_data in teams:
-                    team_name = team_data['team']['displayName']
-                    prefix = 'away_' if team_name == game_data.get('away_team') else 'home_'
-                    
-                    # Extract statistics
-                    if 'statistics' in team_data:
-                        for stat in team_data['statistics']:
-                            stat_name = stat.get('name', '')
-                            stat_value = stat.get('displayValue', '')
-                            
-                            # Handle special formats that need to be split
-                            if stat_name == 'totalPenaltiesYards':
-                                # Split "7-64" into penalties (7) and penalty yards (64)
-                                if '-' in stat_value:
-                                    parts = stat_value.split('-')
-                                    game_data[f"{prefix}penalties"] = parts[0]
-                                    game_data[f"{prefix}penaltyYards"] = parts[1]
-                                else:
-                                    game_data[f"{prefix}penalties"] = stat_value
-                                    game_data[f"{prefix}penaltyYards"] = ''
-                            
-                            elif stat_name == 'completionAttempts':
-                                # Split "26/41" into completions (26) and attempts (41)
-                                if '/' in stat_value:
-                                    parts = stat_value.split('/')
-                                    game_data[f"{prefix}completions"] = parts[0]
-                                    game_data[f"{prefix}passAttempts"] = parts[1]
-                                else:
-                                    game_data[f"{prefix}completions"] = stat_value
-                                    game_data[f"{prefix}passAttempts"] = ''
-                            
-                            elif stat_name == 'thirdDownEff':
-                                # Split "7-14" into third down conversions (7) and attempts (14)
-                                if '-' in stat_value:
-                                    parts = stat_value.split('-')
-                                    game_data[f"{prefix}thirdDownConversions"] = parts[0]
-                                    game_data[f"{prefix}thirdDownAttempts"] = parts[1]
-                                else:
-                                    game_data[f"{prefix}thirdDownConversions"] = stat_value
-                                    game_data[f"{prefix}thirdDownAttempts"] = ''
-                            
-                            elif stat_name == 'fourthDownEff':
-                                # Split "1-2" into fourth down conversions (1) and attempts (2)
-                                if '-' in stat_value:
-                                    parts = stat_value.split('-')
-                                    game_data[f"{prefix}fourthDownConversions"] = parts[0]
-                                    game_data[f"{prefix}fourthDownAttempts"] = parts[1]
-                                else:
-                                    game_data[f"{prefix}fourthDownConversions"] = stat_value
-                                    game_data[f"{prefix}fourthDownAttempts"] = ''
-                            
-                            elif stat_name == 'sacksYardsLost':
-                                # Split "2-10" into sacks (2) and sack yards lost (10)
-                                if '-' in stat_value:
-                                    parts = stat_value.split('-')
-                                    game_data[f"{prefix}sacks"] = parts[0]
-                                    game_data[f"{prefix}sackYardsLost"] = parts[1]
-                                else:
-                                    game_data[f"{prefix}sacks"] = stat_value
-                                    game_data[f"{prefix}sackYardsLost"] = ''
-                            
+                        game["winner"] = "TIE"
+
+            # Team stats
+            if "boxscore" in data and "teams" in data["boxscore"]:
+                for team_data in data["boxscore"]["teams"]:
+                    team_name = team_data["team"]["displayName"]
+                    prefix = "away_" if team_name == game.get("away_team") else "home_"
+
+                    for stat in team_data.get("statistics", []):
+                        name = stat.get("name", "")
+                        val  = stat.get("displayValue", "")
+
+                        # Split composite stats
+                        split_map = {
+                            "totalPenaltiesYards":  (f"{prefix}penalties",          f"{prefix}penaltyYards",         "-"),
+                            "completionAttempts":   (f"{prefix}completions",         f"{prefix}passAttempts",          "/"),
+                            "thirdDownEff":         (f"{prefix}thirdDownConversions", f"{prefix}thirdDownAttempts",    "-"),
+                            "fourthDownEff":        (f"{prefix}fourthDownConversions",f"{prefix}fourthDownAttempts",   "-"),
+                            "sacksYardsLost":       (f"{prefix}sacks",               f"{prefix}sackYardsLost",         "-"),
+                        }
+                        if name in split_map:
+                            k1, k2, sep = split_map[name]
+                            if sep in val:
+                                parts = val.split(sep, 1)
+                                game[k1], game[k2] = parts[0], parts[1]
                             else:
-                                # For all other stats, keep as-is
-                                column_name = f"{prefix}{stat_name}"
-                                game_data[column_name] = stat_value
-            
-            # Get additional game details
-            if 'gameInfo' in data:
-                game_info = data['gameInfo']
-                game_data['attendance'] = game_info.get('attendance', '')
-                
-                if 'venue' in game_info:
-                    game_data['venue'] = game_info['venue'].get('fullName', '')
-                    game_data['venue_city'] = game_info['venue'].get('address', {}).get('city', '')
-                    game_data['venue_state'] = game_info['venue'].get('address', {}).get('state', '')
-            
-            return game_data
-            
+                                game[k1] = val
+                        else:
+                            game[f"{prefix}{name}"] = val
+
+            # Venue / attendance
+            if "gameInfo" in data:
+                gi = data["gameInfo"]
+                game["attendance"] = gi.get("attendance", "")
+                venue = gi.get("venue", {})
+                game["venue"]       = venue.get("fullName", "")
+                game["venue_city"]  = venue.get("address", {}).get("city", "")
+                game["venue_state"] = venue.get("address", {}).get("state", "")
+
+            return game
+
         except Exception as e:
-            print(f"  Error getting details for game {game_id}: {e}")
+            print(f"  Error fetching game {game_id}: {e}")
             return None
-    
-    def scrape_week_with_stats(self, week):
-        """
-        Scrape all games for a week with detailed statistics
-        
-        Args:
-            week (int): Week number
-            
-        Returns:
-            pd.DataFrame: DataFrame with comprehensive game data
-        """
-        print(f"Scraping Week {week} with detailed stats...")
-        
-        # Get all game IDs for the week
-        game_ids = self.get_game_ids_for_week(week)
-        
+
+    def scrape_week(self, week: int, season_type: int = 2) -> pd.DataFrame:
+        label = "playoffs" if season_type == 3 else f"week {week}"
+        print(f"Scraping {label}...")
+        game_ids = self.get_game_ids_for_week(week, season_type)
         if not game_ids:
-            print(f"  No games found for Week {week}")
+            print(f"  No games found for {label}")
             return pd.DataFrame()
-        
         print(f"  Found {len(game_ids)} games")
-        
-        # Get detailed data for each game
-        games_data = []
-        for i, game_id in enumerate(game_ids, 1):
-            print(f"  Fetching game {i}/{len(game_ids)} (ID: {game_id})...")
-            game_data = self.get_game_details(game_id, week)
-            if game_data:
-                games_data.append(game_data)
-        
-        if games_data:
-            df = pd.DataFrame(games_data)
-            print(f"  Successfully scraped {len(games_data)} games\n")
-            return df
-        else:
-            print(f"  No data collected for Week {week}\n")
-            return pd.DataFrame()
-    
-    def save_week_data(self, df, week):
-        """
-        Save week data to CSV
-        
-        Args:
-            df (pd.DataFrame): DataFrame with week data
-            week (int): Week number
-        """
+        rows = [self.get_game_details(gid, week) for gid in game_ids]
+        rows = [r for r in rows if r]
+        df = pd.DataFrame(rows)
+        print(f"  Scraped {len(df)} games\n")
+        return df
+
+    def save_week(self, df: pd.DataFrame, week: int):
         if df.empty:
-            print(f"  No data to save for Week {week}")
             return
-        
-        filename = os.path.join(self.output_dir, f'week_{week}.csv')
-        df.to_csv(filename, index=False)
-        print(f"Saved: {filename} ({len(df)} games, {len(df.columns)} columns)\n")
-    
-    def scrape_all_weeks(self, start_week=1, end_week=18):
-        """
-        Scrape all weeks in the specified range
-        
-        Args:
-            start_week (int): First week to scrape
-            end_week (int): Last week to scrape
-        """
-        print(f"Starting enhanced scrape for {self.season} NFL season")
-        print(f"Weeks {start_week} to {end_week}")
-        print(f"=" * 60 + "\n")
-        
+        path = os.path.join(self.output_dir, f"week_{week}.csv")
+        df.to_csv(path, index=False)
+        print(f"Saved: {path} ({len(df)} games)")
+
+    def scrape_season(self, start_week: int = 1, end_week: int = 18,
+                      include_playoffs: bool = True):
+        print(f"Scraping {self.season} NFL season (weeks {start_week}-{end_week})\n{'='*50}\n")
         for week in range(start_week, end_week + 1):
-            df = self.scrape_week_with_stats(week)
-            
+            df = self.scrape_week(week, season_type=2)
             if not df.empty:
-                self.save_week_data(df, week)
-            else:
-                print(f"Skipping Week {week} - no data available\n")
-        
-        print("=" * 60)
-        print(f"Scraping complete! Data saved to: {self.output_dir}")
-        print("\nYour CSV files now include:")
-        print("  - Basic game info (teams, scores, date, venue)")
-        print("  - Team statistics (for both teams)")
-        print("  - Attendance and venue details")
+                self.save_week(df, week)
+
+        if include_playoffs:
+            # Playoffs: Wild Card=1, Divisional=2, Conference=3, Super Bowl=5
+            # ESPN uses season_type=3 with week numbers 1-5
+            print("\nScraping playoffs...\n" + "="*50)
+            playoff_weeks = {1: "Wild Card", 2: "Divisional", 3: "Conference", 5: "Super Bowl"}
+            for pweek, label in playoff_weeks.items():
+                df = self.scrape_week(pweek, season_type=3)
+                if not df.empty:
+                    # Save as week_19, 20, 21, 22 for consistency
+                    save_week = 18 + pweek if pweek < 5 else 22
+                    self.save_week(df, save_week)
+
+        print(f"\n{'='*50}\nDone. Data saved to: {self.output_dir}")
 
 
 if __name__ == "__main__":
-    # Configuration
-    SEASON = 2025  # Current season
-    
-    # Get output directory from environment variable or use default
-    OUTPUT_DIR = os.environ.get('OUTPUT_DIR', 'NFL/box_scores/2025')
-    
-    # Get week range from environment variables or use defaults
-    START_WEEK = int(os.environ.get('START_WEEK', 1))
-    END_WEEK = int(os.environ.get('END_WEEK', 22))
-    
-    print("=" * 60)
-    print("NFL ENHANCED BOX SCORE SCRAPER")
-    print("=" * 60)
-    print("\nThis version includes detailed team statistics!")
-    print("Stats include: passing yards, rushing yards, turnovers,")
-    print("time of possession, and much more.\n")
-    
-    # Create scraper and run
-    scraper = NFLEnhancedBoxScoreScraper(SEASON, OUTPUT_DIR)
-    scraper.scrape_all_weeks(START_WEEK, END_WEEK)
-    
-    print("\n" + "=" * 60)
-    print("DONE! Data saved to repository.")
-    print("=" * 60)
+    SEASON     = int(os.environ.get("NFL_SEASON",    get_nfl_season_year()))
+    OUTPUT_DIR = os.environ.get("OUTPUT_DIR",        f"NFL/box_scores/{SEASON}")
+    START_WEEK = int(os.environ.get("START_WEEK",    1))
+    END_WEEK   = int(os.environ.get("END_WEEK",      18))
+    PLAYOFFS   = os.environ.get("INCLUDE_PLAYOFFS",  "true").lower() == "true"
+
+    scraper = NFLBoxScoreScraper(SEASON, OUTPUT_DIR)
+    scraper.scrape_season(START_WEEK, END_WEEK, include_playoffs=PLAYOFFS)
