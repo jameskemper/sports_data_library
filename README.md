@@ -8,6 +8,8 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 - [NFL](https://github.com/jameskemper/sports_data_library/tree/master/NFL)
 
+- [NBA](https://github.com/jameskemper/sports_data_library/tree/master/NBA)
+
 - [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA) 
 
 ### COLLEGE
