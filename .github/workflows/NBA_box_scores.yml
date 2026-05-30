@@ -29,14 +29,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas nba_api
 
-      - name: Fetch current season box scores
+      # ---------------------------
+      # Team box scores
+      # ---------------------------
+      - name: Fetch current season team box scores
         run: |
           python NBA/box_scores/fetch_box_scores.py
 
-      - name: Compile all seasons
+      - name: Compile all team seasons
         run: |
           python NBA/box_scores/compile_box_scores_all_years.py
 
+      # ---------------------------
+      # Player box scores
+      # ---------------------------
+      - name: Fetch current season player box scores
+        run: |
+          python NBA/player_box_scores/fetch_player_box_scores.py
+
+      - name: Compile all player seasons
+        run: |
+          python NBA/player_box_scores/compile_player_box_scores_all_years.py
+
+      # ---------------------------
+      # Commit & push
+      # ---------------------------
       - name: Commit and push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -44,7 +61,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add NBA/box_scores
+          git add NBA/box_scores NBA/player_box_scores
 
           if git diff --cached --quiet; then
             echo "No new data to commit."
