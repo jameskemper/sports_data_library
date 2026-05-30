@@ -1,40 +1,40 @@
 import pandas as pd
 import os
 import glob
+from datetime import datetime
 
 # -------------------------------
-# Paths
+# Auto-detect current WNBA season year
 # -------------------------------
-script_dir = os.path.dirname(os.path.abspath(__file__))
+def get_season_year() -> int:
+    return datetime.now().year
 
-# Folder with all your daily files
-data_path = os.path.join(script_dir, "data", "2025")
-
-# Master file will be saved here
-output_file = os.path.join(script_dir, "data", "boxscores_2025.csv")
+season_year = get_season_year()
+script_dir  = os.path.dirname(os.path.abspath(__file__))
+data_path   = os.path.join(script_dir, "data", str(season_year))
+output_file = os.path.join(script_dir, "data", f"boxscores_{season_year}.csv")
 
 # -------------------------------
-# Load all CSV files
+# Load all daily CSVs for this season
 # -------------------------------
-files = glob.glob(os.path.join(data_path, "*.csv"))
-print(f"📂 Found {len(files)} CSV files to combine.")
+files = sorted(glob.glob(os.path.join(data_path, "*.csv")))
+print(f"Found {len(files)} daily files for season {season_year}.")
 
 all_dfs = []
-for f in sorted(files):
-    print(f"➕ Loading {os.path.basename(f)}...")
+for f in files:
+    print(f"Loading {os.path.basename(f)}...")
     try:
-        df = pd.read_csv(f)
-        all_dfs.append(df)
+        all_dfs.append(pd.read_csv(f))
     except Exception as e:
-        print(f"⚠️ Failed to load {f}: {e}")
+        print(f"Failed to load {f}: {e}")
 
 # -------------------------------
-# Combine into master DataFrame
+# Combine and save
 # -------------------------------
 if all_dfs:
     master_df = pd.concat(all_dfs, ignore_index=True)
     master_df.drop_duplicates(inplace=True)
     master_df.to_csv(output_file, index=False)
-    print(f"✅ Master dataset saved to {output_file} with {len(master_df)} rows.")
+    print(f"Saved {len(master_df)} rows to {output_file}")
 else:
-    print(f"⚠️ No data combined. Check if CSVs exist in {data_path}")
+    print(f"No data found in {data_path}")

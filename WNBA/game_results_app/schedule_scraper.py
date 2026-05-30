@@ -4,62 +4,68 @@ import os
 from datetime import datetime, timedelta
 
 # -------------------------------
-# Paths
+# Auto-detect current WNBA season year and date range
+# WNBA season runs approximately May 1 - October 31
 # -------------------------------
-script_dir = os.path.dirname(os.path.abspath(__file__))
-save_path = os.path.join(script_dir, "data")
+now         = datetime.now()
+season_year = now.year
+start_date  = datetime(season_year, 5, 1)
+end_date    = datetime(season_year, 10, 31)
+
+script_dir  = os.path.dirname(os.path.abspath(__file__))
+save_path   = os.path.join(script_dir, "data")
 os.makedirs(save_path, exist_ok=True)
-output_file = os.path.join(save_path, "schedule_2025.csv")
+output_file = os.path.join(save_path, f"schedule_{season_year}.csv")
+
+print(f"Fetching WNBA {season_year} schedule ({start_date.date()} to {end_date.date()})...")
 
 # -------------------------------
 # Loop through season dates
 # -------------------------------
-start_date = datetime(2025, 5, 16)
-end_date = datetime(2025, 10, 30)
-delta = timedelta(days=1)
-
 all_games = []
+current   = start_date
+delta     = timedelta(days=1)
 
-while start_date <= end_date:
-    date_str = start_date.strftime("%Y%m%d")
-    print(f"📅 Processing {date_str}...")
+while current <= end_date:
+    date_str = current.strftime("%Y%m%d")
 
-    # Get ESPN scoreboard
-    scoreboard_url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates={date_str}"
+    scoreboard_url = (
+        f"https://site.api.espn.com/apis/site/v2/sports/basketball/wnba"
+        f"/scoreboard?dates={date_str}"
+    )
     try:
         resp = requests.get(scoreboard_url, timeout=30)
         resp.raise_for_status()
         scoreboard = resp.json()
     except Exception as e:
-        print(f"⚠️ Failed to fetch scoreboard for {date_str}: {e}")
-        start_date += delta
+        print(f"Failed to fetch {date_str}: {e}")
+        current += delta
         continue
 
-    # Extract scheduled games
-    games = scoreboard.get('events', [])
-    for game in games:
+    for game in scoreboard.get("events", []):
         try:
-            competition = game['competitions'][0]
-            competitors = competition['competitors']
-            home = next(team for team in competitors if team['homeAway'] == 'home')
-            away = next(team for team in competitors if team['homeAway'] == 'away')
+            competition = game["competitions"][0]
+            competitors = competition["competitors"]
+            home = next(t for t in competitors if t["homeAway"] == "home")
+            away = next(t for t in competitors if t["homeAway"] == "away")
             all_games.append({
-                'Date': start_date.strftime("%Y-%m-%d"),
-                'HomeTeam': home['team']['shortDisplayName'],
-                'AwayTeam': away['team']['shortDisplayName'],
+                "Date":     current.strftime("%Y-%m-%d"),
+                "Season":   season_year,
+                "HomeTeam": home["team"]["shortDisplayName"],
+                "AwayTeam": away["team"]["shortDisplayName"],
             })
         except Exception as e:
-            print(f"⚠️ Could not parse a game on {date_str}: {e}")
+            print(f"Could not parse game on {date_str}: {e}")
 
-    start_date += delta
+    current += delta
 
 # -------------------------------
-# Save to master CSV
+# Save
 # -------------------------------
 if all_games:
     df = pd.DataFrame(all_games)
     df.drop_duplicates(inplace=True)
     df.to_csv(output_file, index=False)
-    print(f"✅ Full season schedule saved to {output_file} with {len(df)} games.")
+    print(f"Saved {len(df)} scheduled games to {output_file}")
 else:
-    print("⚠️ No games data collected.")
+    print("No games found.")
