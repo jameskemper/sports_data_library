@@ -12,6 +12,8 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 - [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA) 
 
+- [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/World_Cup)
+
 ### COLLEGE
 
 - [NCAA Football](https://github.com/jameskemper/sports_data_library/tree/master/NCAA_football)  
