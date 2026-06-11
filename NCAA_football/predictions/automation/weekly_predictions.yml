@@ -1,0 +1,67 @@
+# GitHub Actions workflow for the NCAAF Bayesian spread model.
+#
+# WHERE THIS GOES:
+#   Move this file to  <repo-root>/.github/workflows/weekly_predictions.yml
+#   (i.e. .github/workflows/ at the top of the git repository, NOT inside
+#   predictions/automation/). It is kept here only as a template because the
+#   working folder is the NCAA_football subdirectory.
+#
+# WHAT IT DOES (during the season):
+#   - Tue 06:00 UTC: ingest the weekend's completed games -> update the
+#     posterior and refresh season accuracy (update_results.py).
+#   - Wed 12:00 UTC: publish predictions for the upcoming week (predict_week.py).
+#   - Commits the refreshed CSVs / model_state back to the repo.
+#
+# ASSUMPTIONS:
+#   - The data scrapers (schedule, elo, box scores, stats, rankings) have
+#     already refreshed the CSVs for the current week. If those run in this
+#     same repo, add their steps before the predict/update steps below.
+
+name: NCAAF weekly predictions
+
+on:
+  schedule:
+    - cron: "0 6 * * 2"    # Tuesday 06:00 UTC  -> update results
+    - cron: "0 12 * * 3"   # Wednesday 12:00 UTC -> predict next week
+  workflow_dispatch:        # allow manual runs
+    inputs:
+      mode:
+        description: "predict | update"
+        default: "predict"
+
+permissions:
+  contents: write
+
+jobs:
+  run-model:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: NCAA_football/predictions   # adjust if repo layout differs
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # OPTIONAL: refresh raw data here (run your scrapers) before predicting.
+
+      - name: Update posterior from completed games
+        if: github.event.schedule == '0 6 * * 2' || github.event.inputs.mode == 'update'
+        run: python update_results.py
+
+      - name: Predict upcoming week
+        if: github.event.schedule == '0 12 * * 3' || github.event.inputs.mode == 'predict' || github.event_name == 'schedule'
+        run: python predict_week.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "ncaaf-model-bot"
+          git config user.email "actions@github.com"
+          git add predictions/ accuracy/ model_state/
+          git commit -m "Automated model run ($(date -u +%Y-%m-%dT%H:%MZ))" || echo "nothing to commit"
+          git push

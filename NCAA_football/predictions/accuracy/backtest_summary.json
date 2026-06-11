@@ -1,0 +1,21 @@
+{
+  "games": 7874,
+  "spread_MAE": 10.233746661976966,
+  "spread_RMSE": 12.640951115720311,
+  "SU_accuracy": 0.7922275844551689,
+  "brier": 0.1409667070383629,
+  "log_loss": 0.4333411963037198,
+  "coefficients_standardized": {
+    "intercept": 4.628998329908204,
+    "elo_diff": 19.668432979483654,
+    "off_ppa_diff": -0.8135891889561119,
+    "def_ppa_diff": -1.1526738125318023,
+    "off_success_diff": 0.5034364096366719,
+    "def_success_diff": 0.8724201575762373,
+    "off_expl_diff": 0.3004979620317076,
+    "ap_rank_diff": -2.1623086992510787,
+    "home_field": 0.2310129641278924,
+    "conference_game": -0.6256243152098054
+  },
+  "residual_sigma_pts": 12.56263068691945
+}
