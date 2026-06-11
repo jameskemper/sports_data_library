@@ -12,7 +12,7 @@ Welcome to my **Sports Data Library** — a centralized, organized collection of
 
 - [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/WNBA) 
 
-- [WNBA](https://github.com/jameskemper/sports_data_library/tree/master/World_Cup)
+- [World Cup](https://github.com/jameskemper/sports_data_library/tree/master/World_Cup)
 
 ### COLLEGE
 
