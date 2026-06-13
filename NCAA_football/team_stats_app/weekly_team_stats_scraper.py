@@ -72,14 +72,13 @@ def main():
 
     for week in range(1, current_week + 1):
         out_path = os.path.join(DATA_DIR, f"advanced_stats_week_{week:02d}.csv")
-        if os.path.exists(out_path):
-            print(f"Week {week} already exists, skipping.")
-            continue
-
+        # Always re-fetch: each call is cumulative season-to-date through `week`,
+        # and re-fetching self-heals any stale/duplicate snapshots. (The old
+        # skip-if-exists guard meant bad files were never corrected.)
         df = fetch_week_stats(YEAR, week)
         if df is not None:
             df.to_csv(out_path, index=False)
-            print(f"Saved to {out_path}")
+            print(f"Saved week {week} -> {out_path}")
 
 
 if __name__ == "__main__":
