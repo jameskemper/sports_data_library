@@ -20,9 +20,11 @@ Outputs:
     model_state/model_current.json        updated posterior
     model_state/model_after_{S}wk{W}.json snapshot
     accuracy/season_accuracy_live.csv     running accuracy for the live season
+    predictions/predictions_history.csv   all seasons' predictions in one file
 """
 
 import os
+import glob
 import argparse
 import numpy as np
 import pandas as pd
@@ -64,6 +66,32 @@ def update_results(season, week, state_path=None, fbs_only=True):
           f"({before} -> {model.n_obs}); sigma~{np.sqrt(model.sigma2_hat):.1f} pts")
 
     _refresh_accuracy(season)
+    compile_history()
+
+
+def compile_history():
+    """Concatenate every per-season predictions_<YEAR>.csv into one combined
+    predictions_history.csv (sorted by season, week, home team)."""
+    pattern = os.path.join(C.PRED_DIR, "predictions_[0-9][0-9][0-9][0-9].csv")
+    files = sorted(glob.glob(pattern))
+    if not files:
+        print("No per-season prediction files to compile.")
+        return
+    frames = []
+    for f in files:
+        try:
+            frames.append(pd.read_csv(f))
+        except Exception as e:
+            print(f"  ! skipped {os.path.basename(f)}: {e}")
+    if not frames:
+        return
+    hist = pd.concat(frames, ignore_index=True)
+    sort_cols = [c for c in ("season", "week", "home_team") if c in hist.columns]
+    if sort_cols:
+        hist = hist.sort_values(sort_cols).reset_index(drop=True)
+    out = os.path.join(C.PRED_DIR, "predictions_history.csv")
+    hist.to_csv(out, index=False)
+    print(f"Compiled {len(files)} seasons -> {out} ({len(hist)} rows)")
 
 
 def _refresh_accuracy(season):
@@ -118,16 +146,21 @@ if __name__ == "__main__":
     ap.add_argument("--season", type=int, default=None)
     ap.add_argument("--week", type=int, default=None)
     ap.add_argument("--state", type=str, default=None)
+    ap.add_argument("--compile-history", action="store_true",
+                    help="only rebuild predictions_history.csv, then exit")
     args = ap.parse_args()
 
-    season = args.season
-    if season is None:
-        seasons = [int(fn.split("_")[-1].split(".")[0])
-                   for fn in os.listdir(F.BOX_SCORES)
-                   if fn.startswith("box_scores_") and fn.endswith(".csv")]
-        season = max(seasons)
-    week = args.week or _latest_completed_week(season)
-    if week is None:
-        print("No completed week found.")
+    if args.compile_history:
+        compile_history()
     else:
-        update_results(season, week, state_path=args.state)
+        season = args.season
+        if season is None:
+            seasons = [int(fn.split("_")[-1].split(".")[0])
+                       for fn in os.listdir(F.BOX_SCORES)
+                       if fn.startswith("box_scores_") and fn.endswith(".csv")]
+            season = max(seasons)
+        week = args.week or _latest_completed_week(season)
+        if week is None:
+            print("No completed week found.")
+        else:
+            update_results(season, week, state_path=args.state)
