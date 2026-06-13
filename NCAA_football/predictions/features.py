@@ -110,34 +110,84 @@ def _elo_lookup(season: int):
 
 
 @lru_cache(maxsize=64)
+def _is_cumulative(season: int) -> bool:
+    """Detect the storage format of a season's weekly advanced stats.
+
+    Two formats exist in the library:
+      - per-week (2010-2024): each week row holds that week's stats, so a volume
+        column like off_plays fluctuates week to week.
+      - cumulative season-to-date (2025+, via the endWeek scraper): off_plays is
+        non-decreasing across weeks.
+
+    We sniff a volume column (off_plays / off_drives) for monotonic
+    non-decrease across most teams.
+    """
+    df = _load_stats(season)
+    if df.empty:
+        return False
+    vol = next((c for c in ("off_plays", "off_drives") if c in df.columns), None)
+    if vol is None:
+        return False
+    mono = total = 0
+    for _, sub in df.sort_values("week").groupby("team"):
+        v = sub[vol].to_numpy(dtype=float)
+        if len(v) < 3:
+            continue
+        total += 1
+        # allow tiny numeric noise
+        if np.all(np.diff(v) >= -1e-6):
+            mono += 1
+    return total > 0 and (mono / total) >= 0.7
+
+
+@lru_cache(maxsize=64)
 def _stats_cumlookup(season: int):
-    """{team: (weeks_sorted, cum_mean_matrix)} where cum_mean_matrix[i] is the
-    mean of each _STAT_KEY over weeks[0..i]. Query for 'weeks < W' takes the
-    row at the largest week strictly below W."""
+    """{team: (weeks_sorted, value_matrix, keys)} where value_matrix[i] is the
+    season-to-date value of each _STAT_KEY entering the week AFTER weeks[i].
+    Query for 'weeks < W' takes the row at the largest week strictly below W.
+
+    For per-week data we accumulate a running mean ourselves; for cumulative
+    data each row is already season-to-date and is used directly.
+    """
     df = _load_stats(season)
     out = {}
     if df.empty:
         return out
     keys = [k for k in _STAT_KEYS if k in df.columns]
+    cumulative = _is_cumulative(season)
     for team, sub in df.sort_values("week").groupby("team"):
         sub = sub.dropna(subset=keys, how="all")
         weeks = sub["week"].to_numpy()
         vals = sub[keys].to_numpy(dtype=float)
         if len(weeks) == 0:
             continue
-        csum = np.cumsum(np.nan_to_num(vals), axis=0)
-        cnt = np.arange(1, len(weeks) + 1).reshape(-1, 1)
-        cummean = csum / cnt
-        out[team] = (weeks, cummean, keys)
+        if cumulative:
+            matrix = vals                      # already season-to-date
+        else:
+            csum = np.cumsum(np.nan_to_num(vals), axis=0)
+            cnt = np.arange(1, len(weeks) + 1).reshape(-1, 1)
+            matrix = csum / cnt                # running mean
+        out[team] = (weeks, matrix, keys)
     return out
 
 
 @lru_cache(maxsize=64)
 def _prev_season_stat_means(season: int):
+    """Season-level summary per team, used as the week-1 prior for season+1.
+
+    Per-week season -> mean across weeks. Cumulative season -> the final
+    (max-week) row, which already is the full-season-to-date figure.
+    """
     df = _load_stats(season)
     if df.empty:
         return {}
     keys = [k for k in _STAT_KEYS if k in df.columns]
+    if _is_cumulative(season):
+        out = {}
+        for team, sub in df.sort_values("week").groupby("team"):
+            row = sub.iloc[-1][keys].to_numpy(dtype=float)
+            out[team] = dict(zip(keys, row))
+        return out
     g = df.groupby("team")[keys].mean()
     return {t: dict(zip(keys, row.to_numpy())) for t, row in g.iterrows()}
 

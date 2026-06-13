@@ -31,8 +31,14 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 
 def fetch_week_stats(year: int, week: int):
-    """Fetch advanced team stats for a specific week (unflattened)."""
-    url = f"{BASE_URL}?year={year}&week={week}&seasonType={SEASON_TYPE}"
+    """Fetch advanced team stats accumulated THROUGH `week` (season-to-date).
+
+    NOTE: /stats/season/advanced ignores a plain `week` filter and always
+    returns full-season stats. The parameter it honors is `endWeek`, which
+    returns cumulative stats for games played through that week. So each
+    weekly file is a distinct, leakage-safe season-to-date snapshot.
+    """
+    url = f"{BASE_URL}?year={year}&endWeek={week}&seasonType={SEASON_TYPE}"
     resp = requests.get(url, headers=HEADERS)
     resp.raise_for_status()
     data = resp.json()
