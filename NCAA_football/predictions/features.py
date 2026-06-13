@@ -73,7 +73,13 @@ def _load_stats(season: int) -> pd.DataFrame:
     if not os.path.exists(path):
         return pd.DataFrame()
     df = pd.read_csv(path)
-    return df.loc[:, ~df.columns.duplicated()]
+    df = df.loc[:, ~df.columns.duplicated()]
+    # Drop stray rows with no week (occasional malformed source rows) and make
+    # week a clean integer so sorting/bisecting is well-defined.
+    if "week" in df.columns:
+        df = df[df["week"].notna()].copy()
+        df["week"] = df["week"].astype(int)
+    return df
 
 
 @lru_cache(maxsize=64)

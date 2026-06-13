@@ -1,21 +1,21 @@
 {
   "games": 7874,
-  "spread_MAE": 10.233746661976966,
-  "spread_RMSE": 12.640951115720311,
-  "SU_accuracy": 0.7922275844551689,
-  "brier": 0.1409667070383629,
-  "log_loss": 0.4333411963037198,
+  "spread_MAE": 10.215074212567446,
+  "spread_RMSE": 12.618374733154585,
+  "SU_accuracy": 0.7929895859791719,
+  "brier": 0.14083250938120198,
+  "log_loss": 0.43294101501058696,
   "coefficients_standardized": {
-    "intercept": 4.628998329908204,
-    "elo_diff": 19.668432979483654,
-    "off_ppa_diff": -0.8135891889561119,
-    "def_ppa_diff": -1.1526738125318023,
-    "off_success_diff": 0.5034364096366719,
-    "def_success_diff": 0.8724201575762373,
-    "off_expl_diff": 0.3004979620317076,
-    "ap_rank_diff": -2.1623086992510787,
-    "home_field": 0.2310129641278924,
-    "conference_game": -0.6256243152098054
+    "intercept": 4.608301939039497,
+    "elo_diff": 20.083399079340182,
+    "off_ppa_diff": -1.1413045022372474,
+    "def_ppa_diff": -1.6242437195200408,
+    "off_success_diff": 0.6615614937920632,
+    "def_success_diff": 1.1017650528739764,
+    "off_expl_diff": 0.29936934113998376,
+    "ap_rank_diff": -2.140930281430192,
+    "home_field": 0.2473646658643043,
+    "conference_game": -0.5812437010107575
   },
-  "residual_sigma_pts": 12.56263068691945
+  "residual_sigma_pts": 12.51568571433185
 }
