@@ -9,9 +9,13 @@ on:
 permissions:
   contents: write
 
+env:
+  YEAR: "2025"
+  CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+
 jobs:
-  compile-team-stats:
-    name: Compile weekly stats
+  team-stats:
+    name: Scrape and compile weekly stats
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -27,19 +31,40 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas
+          pip install requests pandas
 
-      - name: Run compiler
-        env:
-          YEAR: 2025
+      # 🔹 Fetch weekly advanced stats from the CFBD API (this was the missing
+      #    step — the workflow previously only compiled existing files, so no
+      #    new weeks were ever pulled after week 4 of 2025).
+      - name: Scrape weekly advanced stats
+        working-directory: NCAA_football/team_stats_app
+        run: python weekly_team_stats_scraper.py
+
+      - name: Inspect weekly outputs
+        working-directory: NCAA_football/team_stats_app
+        run: ls -lah "data/weeks_${YEAR}" || true
+
+      # 🔹 Compile the weekly files into the season CSV.
+      - name: Compile season file
         working-directory: NCAA_football/team_stats_app
         run: python compile_team_stats.py
 
-      - name: Commit and force push changes
+      - name: Commit and push changes
         working-directory: NCAA_football/team_stats_app
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/weekly_advanced_stats_2025.csv
-          git commit -m "Automated update: team stats for 2025 [skip ci]" || echo "No changes to commit"
-          git push origin master --force
+
+          # Stage the fetched weekly files and the compiled season CSV.
+          if compgen -G "data/weeks_${YEAR}/*.csv" > /dev/null; then
+            git add data/weeks_${YEAR}/*.csv
+          fi
+          if [ -f "data/weekly_advanced_stats_${YEAR}.csv" ]; then
+            git add data/weekly_advanced_stats_${YEAR}.csv
+          fi
+
+          git diff --cached --quiet || (
+            git commit -m "Automated update: team stats for ${YEAR} [skip ci]" &&
+            git pull --rebase origin master &&
+            git push origin HEAD:master
+          )
