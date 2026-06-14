@@ -12,7 +12,7 @@ import requests
 
 # Config
 API_KEY = os.environ["CFBD_API_KEY"]
-YEAR = 2025
+YEAR = int(os.getenv("YEAR", 2025))
 SEASON_TYPE = "regular"
 LAST_WEEK = 20  # adjust if season has fewer/more weeks
 

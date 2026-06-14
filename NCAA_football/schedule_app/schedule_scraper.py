@@ -10,7 +10,7 @@ import requests
 import pandas as pd
 
 API_KEY = os.environ["CFBD_API_KEY"]
-YEAR = 2025
+YEAR = int(os.getenv("YEAR", 2025))
 
 BASE_URL = "https://api.collegefootballdata.com/games"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}

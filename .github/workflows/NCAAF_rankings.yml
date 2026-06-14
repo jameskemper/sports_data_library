@@ -3,6 +3,9 @@ name: NCAAF Rankings app
 permissions:
   contents: write   # allow workflow to push back to repo
 
+env:
+  YEAR: "2026"
+
 on:
   schedule:
     # Every Monday at 10:00 AM CST (16:00 UTC), Sep–Jan
@@ -33,12 +36,10 @@ jobs:
       - name: Run weekly poll scraper
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-          YEAR: 2025
+          YEAR: "2026"
         run: python NCAA_football/rankings_app/weekly_polls_scraper.py
 
       - name: Compile polls
-        env:
-          YEAR: 2025
         run: python NCAA_football/rankings_app/compile_polls.py
 
       - name: Commit and push if changes

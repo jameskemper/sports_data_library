@@ -10,6 +10,9 @@ on:
 permissions:
   contents: write
 
+env:
+  YEAR: "2026"
+
 jobs:
   update-elo:
     runs-on: ubuntu-latest
@@ -45,5 +48,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add NCAA_football/elo_ratings_app/data/
-          git commit -m "Update 2025 ELO data [skip ci]" || echo "No changes to commit"
+          git commit -m "Update ${YEAR} ELO data [skip ci]" || echo "No changes to commit"
           git push origin master

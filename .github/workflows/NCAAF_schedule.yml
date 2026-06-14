@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 env:
-  YEAR: '2025'
+  YEAR: '2026'
 
 jobs:
   compile-schedule:
