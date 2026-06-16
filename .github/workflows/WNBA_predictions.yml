@@ -1,0 +1,77 @@
+name: WNBA Predictions app
+
+# Bayesian win-probability / point-spread model for the WNBA.
+#
+# It does NOT scrape anything itself — it consumes the CSVs that WNBA_apps.yml
+# has already fetched and committed (game_results_<season>.csv and
+# schedule_<season>.csv). Each daily run, after the data workflow:
+#   1. update  : grade yesterday's finals, assimilate them into the posterior
+#                (online Bayesian learning), refresh the accuracy CSVs.
+#   2. predict : write today's slate -> predictions/<season>/MM_DD_YYYY.csv.
+#
+# Scheduled an hour after WNBA_apps.yml's 12:00 UTC run so inputs are fresh.
+# Runs May–October (WNBA season); the steps no-op safely out of season.
+
+on:
+  schedule:
+    - cron: "0 13 * 5-10 *"   # daily 13:00 UTC, May–Oct
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "predict | update | backfill"
+        default: "both"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wnba-predictions
+  cancel-in-progress: false
+
+jobs:
+  run-model:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: WNBA/predictions
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Rebuild full history (manual backfill only)
+        if: github.event.inputs.mode == 'backfill'
+        run: python run_pipeline.py --mode backfill
+
+      - name: Update posterior from completed games
+        if: github.event.inputs.mode == 'update' || github.event.inputs.mode == 'both' || github.event_name == 'schedule'
+        run: python run_pipeline.py --mode update
+
+      - name: Predict today's slate
+        if: github.event.inputs.mode == 'predict' || github.event.inputs.mode == 'both' || github.event_name == 'schedule'
+        run: python run_pipeline.py --mode predict
+
+      - name: Commit and push results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_SDL_PAT }}@github.com/jameskemper/sports_data_library.git
+          git add WNBA/predictions/predictions WNBA/predictions/accuracy WNBA/predictions/model_state
+          git diff --cached --quiet || (
+            git commit -m "WNBA predictions: automated run $(date +'%Y-%m-%d') [skip ci]" &&
+            git pull --rebase origin master &&
+            git push origin HEAD:master
+          )
