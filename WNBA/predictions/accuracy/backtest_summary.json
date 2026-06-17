@@ -8,111 +8,100 @@
   ],
   "season_discount": 0.8,
   "overall": {
-    "n": 413,
-    "accuracy": 0.6464891041162227,
-    "brier": 0.22402449646639483,
-    "log_loss": 0.6387844297024752,
-    "spread_mae": 10.827976076730444,
-    "spread_rmse": 13.68481341134234
+    "n": 422,
+    "accuracy": 0.6872037914691943,
+    "brier": 0.21882059078954155,
+    "log_loss": 0.6277873018865903,
+    "spread_mae": 10.772401660574447,
+    "spread_rmse": 13.762610668731938
   },
   "by_season": {
     "2025": {
       "n": 311,
-      "accuracy": 0.6591639871382636,
-      "brier": 0.21908266775029592,
-      "log_loss": 0.626769322877899,
-      "spread_mae": 10.809466616399051,
-      "spread_rmse": 13.756797250048843
+      "accuracy": 0.6977491961414791,
+      "brier": 0.215179333672381,
+      "log_loss": 0.6191244325552411,
+      "spread_mae": 10.703438227047753,
+      "spread_rmse": 13.792890886074147
     },
     "2026": {
-      "n": 102,
-      "accuracy": 0.6078431372549019,
-      "brier": 0.23909222912038267,
-      "log_loss": 0.6754187260009374,
-      "spread_mae": 10.884411784211455,
-      "spread_rmse": 13.46295768664731
+      "n": 111,
+      "accuracy": 0.6576576576576577,
+      "brier": 0.22902267154122558,
+      "log_loss": 0.6520589447879379,
+      "spread_mae": 10.965623532887978,
+      "spread_rmse": 13.67741447083144
     }
   },
-  "baseline_home_team_accuracy": 0.5375,
+  "baseline_home_team_accuracy": 0.5403,
   "calibration": [
-    {
-      "bin_lo": 0.0,
-      "bin_hi": 0.1,
-      "n": 2,
-      "pred_mean": 0.0835,
-      "actual_rate": 0.0
-    },
     {
       "bin_lo": 0.1,
       "bin_hi": 0.2,
-      "n": 6,
-      "pred_mean": 0.1807,
-      "actual_rate": 0.6667
+      "n": 5,
+      "pred_mean": 0.1482,
+      "actual_rate": 0.0
     },
     {
       "bin_lo": 0.2,
       "bin_hi": 0.3,
-      "n": 34,
+      "n": 36,
       "pred_mean": 0.2582,
-      "actual_rate": 0.2647
+      "actual_rate": 0.3889
     },
     {
       "bin_lo": 0.3,
       "bin_hi": 0.4,
-      "n": 47,
-      "pred_mean": 0.3534,
-      "actual_rate": 0.2766
+      "n": 66,
+      "pred_mean": 0.3614,
+      "actual_rate": 0.2879
     },
     {
       "bin_lo": 0.4,
       "bin_hi": 0.5,
-      "n": 72,
-      "pred_mean": 0.4484,
-      "actual_rate": 0.4444
+      "n": 63,
+      "pred_mean": 0.4549,
+      "actual_rate": 0.3333
     },
     {
       "bin_lo": 0.5,
       "bin_hi": 0.6,
-      "n": 83,
-      "pred_mean": 0.548,
-      "actual_rate": 0.5422
+      "n": 80,
+      "pred_mean": 0.546,
+      "actual_rate": 0.6875
     },
     {
       "bin_lo": 0.6,
       "bin_hi": 0.7,
-      "n": 76,
-      "pred_mean": 0.6455,
-      "actual_rate": 0.6711
+      "n": 78,
+      "pred_mean": 0.656,
+      "actual_rate": 0.6282
     },
     {
       "bin_lo": 0.7,
       "bin_hi": 0.8,
-      "n": 65,
-      "pred_mean": 0.75,
-      "actual_rate": 0.6769
+      "n": 63,
+      "pred_mean": 0.7517,
+      "actual_rate": 0.6984
     },
     {
       "bin_lo": 0.8,
       "bin_hi": 0.9,
-      "n": 24,
-      "pred_mean": 0.8377,
-      "actual_rate": 0.8333
+      "n": 27,
+      "pred_mean": 0.8375,
+      "actual_rate": 0.8148
     },
     {
       "bin_lo": 0.9,
       "bin_hi": 1.0,
       "n": 4,
-      "pred_mean": 0.9307,
+      "pred_mean": 0.9131,
       "actual_rate": 1.0
     }
   ],
   "coefficients_final": {
-    "intercept": 1.7532729325464562,
-    "net_diff": 1.3673406096958085,
-    "off_diff": 1.0707220236897441,
-    "def_diff": 1.018152693454226,
-    "winpct_diff": 2.93009993351459,
-    "form_diff": 0.19299047993993731,
-    "rest_diff": 0.38996539518099455
+    "intercept": 1.8276683995567033,
+    "elo_diff": 5.60627088456999,
+    "rest_diff": 0.4482931242644781
   }
 }

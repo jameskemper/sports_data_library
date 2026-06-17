@@ -76,9 +76,12 @@ def _refresh_accuracy(history):
         "cumulative_brier": overall["brier"],
         "cumulative_spread_mae": overall["spread_mae"],
     }])
-    if os.path.exists(C.RUNNING_ACC_CSV):
-        prev = pd.read_csv(C.RUNNING_ACC_CSV)
-        snap = pd.concat([prev, snap], ignore_index=True)
+    if os.path.exists(C.RUNNING_ACC_CSV) and os.path.getsize(C.RUNNING_ACC_CSV) > 0:
+        try:
+            prev = pd.read_csv(C.RUNNING_ACC_CSV)
+            snap = pd.concat([prev, snap], ignore_index=True)
+        except Exception:
+            pass
     snap.to_csv(C.RUNNING_ACC_CSV, index=False)
 
 

@@ -103,7 +103,7 @@ def backfill():
     hist = pd.DataFrame(history_rows)[HISTORY_COLS]
     hist.to_csv(C.HISTORY_CSV, index=False)
     if os.path.exists(C.RUNNING_ACC_CSV):
-        os.remove(C.RUNNING_ACC_CSV)
+        open(C.RUNNING_ACC_CSV, "w").close()  # truncate (remove blocked on OneDrive)
     hk = hist.copy()
     hk["key"] = hk["date"].astype(str) + "|" + hk["home_team"] + "|" + hk["away_team"]
     _refresh_accuracy(hk)

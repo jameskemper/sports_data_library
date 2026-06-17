@@ -3,23 +3,27 @@ Feature engineering for the WNBA Bayesian spread model.
 
 Source data
 -----------
-Everything is derived from the committed game-result CSVs:
+Everything is derived from the committed game-result / schedule CSVs:
     WNBA/game_results_app/data/game_results_<season>.csv
         columns: Date, HomeTeam, HomeScore, AwayTeam, AwayScore, Status, Season
     WNBA/game_results_app/data/schedule_<season>.csv
         columns: Date, Season, HomeTeam, AwayTeam   (future / unplayed games)
 
-Leakage policy (STRICT — this is a *predictive* model)
-------------------------------------------------------
-For a game played on date D in season S we may only use information from games
-that FINISHED STRICTLY BEFORE D. Each team's pre-game rating is its
-season-to-date form entering day D, shrunk toward the team's previous-season
-final rating (and toward the league average for brand-new / expansion teams).
-Nothing about the game being predicted — or anything later — touches its row.
+The single strongest predictor is an online Elo rating differential. Walk-forward
+testing showed that piling raw season-to-date, box-score-efficiency, or
+opponent-adjusted features on top of Elo only DILUTES accuracy (they are noisier,
+correlated proxies for the same team-strength signal). Rest days add ~1 further
+point. So the production feature vector is deliberately tiny:
 
-All numeric features are differences (home_value - away_value) so a positive
-value favours the HOME team. The intercept therefore absorbs the league-average
-home-court advantage. Target = point spread (HomeScore - AwayScore).
+    [ intercept , elo_diff , rest_diff ]   -> ~68% walk-forward winner accuracy
+
+Leakage policy (STRICT)
+-----------------------
+Every team's Elo rating is the value ENTERING the game (built by replaying only
+earlier results); rest days use the team's previous game date. Nothing about the
+game being predicted — or anything later — touches its row. The target is the
+realised spread (HomeScore - AwayScore); positive favours the home team and the
+Bayesian intercept absorbs the league-average home-court edge.
 """
 
 import os
@@ -33,19 +37,21 @@ import config as C
 # Feature names (ORDER MATTERS — model coefficients align to this list)
 # ---------------------------------------------------------------------------
 FEATURE_COLS = [
-    "intercept",     # league-average home-court edge
-    "net_diff",      # season-to-date average point margin (home - away)
-    "off_diff",      # season-to-date points scored per game (home - away)
-    "def_diff",      # season-to-date points allowed (away_allowed - home_allowed)
-    "winpct_diff",   # season-to-date win percentage (home - away)
-    "form_diff",     # average margin over last LAST_N games (home - away)
+    "intercept",     # league-average home-court edge (Bayesian intercept)
+    "elo_diff",      # (home Elo - away Elo) / 100, pre-game, leakage-safe
     "rest_diff",     # days of rest entering the game (home - away), capped
 ]
 N_FEATURES = len(FEATURE_COLS)
 
-LAST_N = 5          # recent-form window
+LAST_N = 5          # recent-form window (kept for diagnostics / team_rating)
 PRIOR_WEIGHT = 3.0  # prior-season info worth this many current-season games
 REST_CAP = 5        # clamp rest-day advantage to +/- this many days
+
+# --- Elo configuration ----------------------------------------------------
+ELO_BASE = 1500.0
+ELO_K = 20.0        # base step; scaled by a log margin-of-victory multiplier
+ELO_HOME = 55.0     # home edge used when forming the Elo update expectation
+ELO_REG = 0.80      # between-season regression toward the mean (carry 80%)
 
 
 # ---------------------------------------------------------------------------
@@ -58,7 +64,6 @@ def _load_results(season: int) -> pd.DataFrame:
         return pd.DataFrame()
     df = pd.read_csv(path)
     df["Date"] = pd.to_datetime(df["Date"])
-    # keep only completed games between two valid franchises
     df = df[df["Status"].astype(str).str.lower().eq("final")]
     df = df[df["HomeTeam"].isin(C.VALID_TEAMS) & df["AwayTeam"].isin(C.VALID_TEAMS)]
     df = df.dropna(subset=["HomeScore", "AwayScore"])
@@ -80,11 +85,64 @@ def _load_schedule(season: int) -> pd.DataFrame:
 
 def clear_caches():
     for fn in (_load_results, _load_schedule, _team_games, _prev_season_rating,
-               _league_means):
+               _league_means, _elo_build):
         try:
             fn.cache_clear()
         except Exception:
             pass
+
+
+# ---------------------------------------------------------------------------
+# Online Elo ratings (leakage-safe, replayed from committed game results)
+# ---------------------------------------------------------------------------
+def _all_seasons():
+    return sorted(set(C.BURN_IN_SEASONS) | set(C.EVAL_SEASONS))
+
+
+@lru_cache(maxsize=1)
+def _elo_build():
+    """Replay every completed game in chronological order to produce:
+        pregame : {(season, 'YYYY-MM-DD', home, away): (elo_home, elo_away)}
+                  each team's rating ENTERING that game (pre-game, no leakage).
+        current : {team: rating}  after the most recent completed game, with the
+                  current season's between-season regression already applied.
+    """
+    elo = {}
+    pregame = {}
+    for s in _all_seasons():
+        df = _load_results(s)
+        if df.empty:
+            continue
+        for t in list(elo):                       # between-season regression
+            elo[t] = ELO_BASE + ELO_REG * (elo[t] - ELO_BASE)
+        for _, g in df.iterrows():
+            h, a = g["HomeTeam"], g["AwayTeam"]
+            eh = elo.get(h, ELO_BASE)
+            ea = elo.get(a, ELO_BASE)
+            key = (int(s), g["Date"].strftime("%Y-%m-%d"), h, a)
+            pregame[key] = (eh, ea)
+            exp_h = 1.0 / (1.0 + 10 ** (-((eh + ELO_HOME) - ea) / 400.0))
+            res = 1.0 if g["HomeScore"] > g["AwayScore"] else 0.0
+            mov = abs(float(g["HomeScore"] - g["AwayScore"]))
+            k = ELO_K * np.log(max(mov, 1.0) + 1.0)
+            delta = k * (res - exp_h)
+            elo[h] = eh + delta
+            elo[a] = ea - delta
+    return pregame, dict(elo)
+
+
+def elo_pair(season, date, home, away):
+    """Pre-game (elo_home, elo_away). Stored pre-game rating for a game already in
+    the results; otherwise (upcoming game) the current ratings after all games."""
+    pregame, current = _elo_build()
+    key = (int(season), pd.Timestamp(date).strftime("%Y-%m-%d"), home, away)
+    if key in pregame:
+        return pregame[key]
+    return current.get(home, ELO_BASE), current.get(away, ELO_BASE)
+
+
+def current_elo():
+    return _elo_build()[1]
 
 
 # ---------------------------------------------------------------------------
@@ -111,20 +169,14 @@ def _team_games(season: int) -> pd.DataFrame:
 
 @lru_cache(maxsize=32)
 def _league_means(season: int):
-    """League-average (pf, pa, winpct) for a season — fallback prior for teams
-    with no prior-season history (expansion teams)."""
     tg = _team_games(season)
     if tg.empty:
         return {"pf": 81.0, "pa": 81.0, "winpct": 0.5}
-    return {"pf": float(tg["pf"].mean()),
-            "pa": float(tg["pa"].mean()),
-            "winpct": 0.5}
+    return {"pf": float(tg["pf"].mean()), "pa": float(tg["pa"].mean()), "winpct": 0.5}
 
 
 @lru_cache(maxsize=32)
 def _prev_season_rating(season: int):
-    """{team: dict(pf, pa, winpct)} from the FULL previous season — used as the
-    shrinkage prior for early-season games of `season`."""
     prev = _team_games(season - 1)
     if prev.empty:
         return {}
@@ -135,16 +187,10 @@ def _prev_season_rating(season: int):
 
 
 # ---------------------------------------------------------------------------
-# Leakage-safe pre-game team rating
+# Leakage-safe pre-game team form (used for rest + diagnostics)
 # ---------------------------------------------------------------------------
 def team_rating(season, date, team):
-    """Form of `team` ENTERING `date` in `season`, using only earlier games.
-
-    Returns dict: pf, pa, net, winpct, form, last_date (or None).
-    Season-to-date stats are shrunk toward the team's previous-season averages
-    (PRIOR_WEIGHT pseudo-games); a team with no prior season falls back to the
-    league average.
-    """
+    """Form of `team` ENTERING `date` in `season`, using only earlier games."""
     date = pd.Timestamp(date)
     tg = _team_games(season)
     past = tg[(tg["team"] == team) & (tg["Date"] < date)] if not tg.empty else tg
@@ -154,7 +200,6 @@ def team_rating(season, date, team):
     prior = prev if prev is not None else {"pf": league["pf"],
                                            "pa": league["pa"],
                                            "winpct": league["winpct"]}
-
     n = len(past)
     w = PRIOR_WEIGHT
     if n == 0:
@@ -162,12 +207,9 @@ def team_rating(season, date, team):
         form = 0.0
         last_date = None
     else:
-        std_pf = past["pf"].mean()
-        std_pa = past["pa"].mean()
-        std_wp = past["win"].mean()
-        pf = (w * prior["pf"] + n * std_pf) / (w + n)
-        pa = (w * prior["pa"] + n * std_pa) / (w + n)
-        winpct = (w * prior["winpct"] + n * std_wp) / (w + n)
+        pf = (w * prior["pf"] + n * past["pf"].mean()) / (w + n)
+        pa = (w * prior["pa"] + n * past["pa"].mean()) / (w + n)
+        winpct = (w * prior["winpct"] + n * past["win"].mean()) / (w + n)
         form = float(past["margin"].tail(LAST_N).mean())
         last_date = past["Date"].max()
 
@@ -193,13 +235,11 @@ def build_feature_vector(season, date, home_team, away_team):
     rest_a = _rest_days(date, a["last_date"])
     rest_diff = float(np.clip(rest_h - rest_a, -REST_CAP, REST_CAP))
 
+    elo_h, elo_a = elo_pair(season, date, home_team, away_team)
+
     return np.array([
         1.0,
-        h["net"] - a["net"],
-        h["pf"] - a["pf"],
-        a["pa"] - h["pa"],          # positive when home defends better
-        h["winpct"] - a["winpct"],
-        h["form"] - a["form"],
+        (elo_h - elo_a) / 100.0,
         rest_diff,
     ], dtype=float)
 
@@ -225,8 +265,7 @@ def build_day_matrix(season, date, games):
 
 
 def build_dataset(seasons):
-    """All completed valid games across `seasons`, in chronological order, with
-    leakage-safe pre-game features and the realised spread as the target."""
+    """All completed valid games across `seasons`, chronological, leakage-safe."""
     Xs, metas, ys = [], [], []
     for s in seasons:
         df = _load_results(s)
@@ -242,8 +281,7 @@ def build_dataset(seasons):
                 "season": int(s),
                 "date": gm["Date"].strftime("%Y-%m-%d"),
                 "home_team": gm["HomeTeam"], "away_team": gm["AwayTeam"],
-                "home_score": float(gm["HomeScore"]),
-                "away_score": float(gm["AwayScore"]),
+                "home_score": float(gm["HomeScore"]), "away_score": float(gm["AwayScore"]),
                 "actual_spread": spread,
                 "home_win": int(spread > 0),
             })

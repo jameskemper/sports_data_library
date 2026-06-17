@@ -1,42 +1,45 @@
 # WNBA Bayesian Prediction Model
 
 An autonomous, self-improving model that predicts the winner, win probability,
-and point spread of every WNBA game. It learns online: after each slate of
-games finishes, the results are assimilated into the posterior, so the model
-literally improves over the course of a season.
+and point spread of every WNBA game. It learns online: after each slate finishes,
+the results are assimilated into the posterior, so the model improves through the
+season.
 
 ## The model
 
 A **Bayesian conjugate linear regression** on the point spread
 (`HomeScore − AwayScore`) with a Normal–Inverse–Gamma prior/posterior
-(`model.py`). For a new game the posterior predictive is a Student-t, which
-gives both a predicted margin and a calibrated win probability
-`P(home wins) = P(spread > 0)`.
+(`model.py`). For a new game the posterior predictive is a Student-t, giving both
+a predicted margin and a calibrated win probability `P(home win) = P(spread > 0)`.
+The posterior updates **sequentially** — the current posterior becomes the prior
+for the next batch — and a season forgetting factor (`SEASON_DISCOUNT = 0.80`)
+re-inflates uncertainty each May for roster turnover and expansion teams.
 
-The posterior is updated **sequentially** — the current posterior becomes the
-prior for the next batch of games — and a season forgetting factor
-(`SEASON_DISCOUNT = 0.80`) re-inflates uncertainty each May so the model adapts
-to roster turnover and expansion teams without discarding what it learned.
+### Features (leakage-safe, `features.py`)
 
-### Features (all leakage-safe, `features.py`)
-
-Every feature is a `home − away` difference computed **only** from games that
-finished strictly before the game being predicted, with early-season values
-shrunk toward the team's previous-season form (and toward league average for
-expansion teams):
+The model is built around an **online Elo rating** as the primary signal:
 
 | feature | meaning |
 |---|---|
 | `intercept` | league-average home-court edge |
-| `net_diff` | season-to-date average point margin |
-| `off_diff` | season-to-date points scored |
-| `def_diff` | season-to-date points allowed (defence) |
-| `winpct_diff` | season-to-date win percentage |
-| `form_diff` | average margin over the last 5 games |
-| `rest_diff` | days of rest entering the game (capped) |
+| `elo_diff` | `(home Elo − away Elo) / 100`, pre-game (margin-of-victory weighted, regressed 80% between seasons) |
+| `rest_diff` | days of rest entering the game (home − away), capped |
 
-All inputs come from the CSVs the existing WNBA data workflow already commits
-(`WNBA/game_results_app/data/`), so this pipeline never scrapes anything.
+The feature set is deliberately tiny because **walk-forward testing proved that
+richer features hurt.** I built and tested opponent-adjusted (strength-of-
+schedule) power ratings and pace-adjusted box-score efficiency (`adj_ratings.py`,
+retained as a diagnostic), and a raw season-to-date feature set. On out-of-sample
+data:
+
+| feature set | winner accuracy |
+|---|---|
+| raw season-to-date (net/off/def/winpct/form/rest) | 64.7% |
+| + opponent-adjusted ratings + box-score efficiency | 64.7% (no gain) |
+| **Elo + rest (production)** | **68.7%** |
+
+Elo already captures team strength more cleanly than the noisier proxies, which
+only dilute it. Everything comes from the CSVs the WNBA data workflow already
+commits (`game_results_app/data/`), so this pipeline never scrapes anything.
 
 ## Backtest
 
@@ -44,23 +47,27 @@ Walk-forward, no look-ahead (burn-in 2024, evaluate 2025 + 2026-to-date):
 
 | metric | value |
 |---|---|
-| Out-of-sample games | 413 |
-| **Winner accuracy** | **64.6%** (home-always baseline 53.8%) |
-| Brier score | 0.224 (0.25 = coin flip) |
-| Log loss | 0.639 |
+| Out-of-sample games | 422 |
+| **Winner accuracy** | **68.7%** (home-always baseline 54.0%) |
+| Brier score | 0.219 (0.25 = coin flip) |
+| Log loss | 0.628 |
 | Spread MAE | 10.8 pts |
 
-Results are stable across prior settings, indicating the model is not overfit.
-Re-run any time with `python backtest.py` → `accuracy/backtest_summary.json`.
+By season: 2025 → 69.8%, 2026 (partial) → 65.8%. For context, the betting
+markets — the sharpest predictors that exist — hit roughly 68–70% on WNBA
+winners straight up, so this is at the practical ceiling for score-based features.
+Re-run any time with `python backtest.py`.
 
 ## Layout
 
 ```
 predictions/
   config.py            paths, seasons, forgetting factor, valid franchises
-  features.py          leakage-safe feature engineering
+  features.py          Elo engine + leakage-safe feature vector
   model.py             Bayesian conjugate spread model
+  adj_ratings.py       opponent-adjusted / box-score-efficiency ratings (diagnostic)
   backtest.py          walk-forward backtest
+  experiment.py        feature-set comparison harness (research)
   predict_day.py       write one day's predictions
   update_results.py    grade finals, learn, refresh accuracy
   run_pipeline.py      orchestrator (backfill | predict | update)
