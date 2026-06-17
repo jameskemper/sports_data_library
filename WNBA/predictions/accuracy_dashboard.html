@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WNBA Model — Accuracy Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root{
+    --bg:#fafaf7; --surface:#ffffff; --ink:#1c1c1a; --muted:#5f5e5a;
+    --line:#e6e5df; --blue:#378ADD; --teal:#1d9e75; --tealdark:#0f6e56;
+    --amber:#ba7517; --green:#3b6d11; --red:#a32d2d;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#1a1a18; --surface:#242421; --ink:#f1efe8; --muted:#b4b2a9; --line:#33332f; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       line-height:1.5;padding:24px;}
+  .wrap{max-width:920px;margin:0 auto;}
+  header{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:6px;}
+  h1{font-size:22px;font-weight:600;margin:0;}
+  .sub{font-size:13px;color:var(--muted);}
+  button{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);
+         border:1px solid var(--line);border-radius:8px;padding:8px 14px;cursor:pointer;}
+  button:hover{border-color:var(--muted);}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:20px 0;}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;}
+  .card .lab{font-size:12px;color:var(--muted);margin-bottom:6px;}
+  .card .val{font-size:26px;font-weight:600;}
+  .card .val.pos{color:var(--green);}
+  section{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:18px;}
+  h2{font-size:16px;font-weight:600;margin:0 0 2px;}
+  .hint{font-size:13px;color:var(--muted);margin:0 0 14px;}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;font-size:12px;color:var(--muted);margin-bottom:10px;}
+  .legend span{display:flex;align-items:center;gap:6px;}
+  .sw{width:11px;height:11px;border-radius:3px;display:inline-block;}
+  .dash{width:16px;border-top:2px dashed var(--muted);display:inline-block;}
+  .chartbox{position:relative;width:100%;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);}
+  th{color:var(--muted);font-weight:500;}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;}
+  .bar{height:8px;border-radius:4px;background:var(--blue);}
+  #status{font-size:13px;color:var(--muted);padding:8px 0;}
+  .err{color:var(--red);}
+  footer{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;}
+  a{color:var(--blue);text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>WNBA Bayesian model — accuracy</h1>
+      <div class="sub" id="updated">Loading live data…</div>
+    </div>
+    <button id="refresh">Refresh data</button>
+  </header>
+
+  <div id="status">Fetching predictions_history.csv …</div>
+
+  <div id="content" style="display:none">
+    <div class="cards" id="cards"></div>
+
+    <section>
+      <h2>Calibration — predicted vs actual home-win rate</h2>
+      <p class="hint">Dots on the dashed line are perfectly calibrated: when the model says X%, the home team really wins X% of the time. Dot size = games in that band.</p>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--teal);border-radius:50%"></span>Model bins</span>
+        <span><span class="dash"></span>Perfect calibration</span>
+      </div>
+      <div class="chartbox" style="height:320px"><canvas id="cal"></canvas></div>
+    </section>
+
+    <section>
+      <h2>Cumulative accuracy over time</h2>
+      <p class="hint">Running winner accuracy across every graded game, in chronological order.</p>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--blue)"></span>Cumulative accuracy</span>
+        <span><span class="dash"></span>Home-always baseline</span>
+        <span><span class="dash" style="border-top-color:var(--amber)"></span>Season boundary</span>
+      </div>
+      <div class="chartbox" style="height:300px"><canvas id="run"></canvas></div>
+    </section>
+
+    <section>
+      <h2>Accuracy by confidence</h2>
+      <p class="hint">How often the model is right when it commits at different confidence levels.</p>
+      <table id="conftbl"><thead><tr>
+        <th>Confidence in pick</th><th class="num">Games</th><th class="num">Accuracy</th><th style="width:34%"></th>
+      </tr></thead><tbody></tbody></table>
+    </section>
+
+    <section>
+      <h2>By season</h2>
+      <table id="seasontbl"><thead><tr>
+        <th>Season</th><th class="num">Games</th><th class="num">Accuracy</th><th class="num">Brier</th><th class="num">Spread MAE</th>
+      </tr></thead><tbody></tbody></table>
+    </section>
+  </div>
+
+  <footer>
+    Source: <a id="srclink" href="#">predictions_history.csv</a> · computed in your browser · refreshes on load
+  </footer>
+</div>
+
+<script>
+const RAW_URL = "https://raw.githubusercontent.com/jameskemper/sports_data_library/master/WNBA/predictions/accuracy/predictions_history.csv";
+const FALLBACK_URL = "https://cdn.jsdelivr.net/gh/jameskemper/sports_data_library@master/WNBA/predictions/accuracy/predictions_history.csv";
+document.getElementById('srclink').href = RAW_URL;
+let calChart, runChart;
+
+function parseCSV(text){
+  const lines = text.trim().split(/\r?\n/);
+  const head = lines[0].split(',');
+  const idx = {}; head.forEach((h,i)=>idx[h.trim()]=i);
+  const rows = [];
+  for(let i=1;i<lines.length;i++){
+    if(!lines[i]) continue;
+    const c = lines[i].split(',');
+    rows.push({
+      date: c[idx.date],
+      season: +c[idx.season],
+      home: c[idx.home_team], away: c[idx.away_team],
+      p: +c[idx.win_prob_home],
+      y: +c[idx.home_win],
+      pred_spread: +c[idx.pred_spread],
+      actual_spread: +c[idx.actual_spread],
+      correct: +c[idx.correct],
+    });
+  }
+  return rows;
+}
+
+function fmtPct(x,d=1){return (x*100).toFixed(d)+'%';}
+
+function compute(rows){
+  rows.sort((a,b)=> a.date<b.date?-1:a.date>b.date?1:0);
+  const n = rows.length;
+  const acc = rows.reduce((s,r)=>s+r.correct,0)/n;
+  const base = rows.reduce((s,r)=>s+r.y,0)/n;
+  const brier = rows.reduce((s,r)=>s+(r.p-r.y)**2,0)/n;
+  const eps=1e-12;
+  const ll = -rows.reduce((s,r)=>s+(r.y*Math.log(r.p+eps)+(1-r.y)*Math.log(1-r.p+eps)),0)/n;
+  const mae = rows.reduce((s,r)=>s+Math.abs(r.pred_spread-r.actual_spread),0)/n;
+
+  // calibration deciles
+  const bins=[...Array(10)].map(()=>({sp:0,sy:0,n:0}));
+  rows.forEach(r=>{let b=Math.min(9,Math.max(0,Math.floor(r.p*10)));bins[b].sp+=r.p;bins[b].sy+=r.y;bins[b].n++;});
+  const cal=bins.filter(b=>b.n>0).map(b=>({x:b.sp/b.n,y:b.sy/b.n,n:b.n}));
+
+  // cumulative
+  let c=0; const cum=rows.map((r,i)=>{c+=r.correct;return {x:i+1,y:c/(i+1)};});
+
+  // season boundaries (x index where season changes)
+  const bounds=[];
+  for(let i=1;i<rows.length;i++) if(rows[i].season!==rows[i-1].season) bounds.push({x:i+1,season:rows[i].season});
+
+  // confidence buckets
+  const cuts=[[0.5,0.6],[0.6,0.7],[0.7,0.8],[0.8,1.0001]];
+  const conf=cuts.map(([lo,hi])=>{
+    const sub=rows.filter(r=>{const cf=Math.max(r.p,1-r.p);return cf>=lo&&cf<hi;});
+    return {lo,hi:Math.min(hi,1),n:sub.length,acc:sub.length?sub.reduce((s,r)=>s+r.correct,0)/sub.length:null};
+  });
+
+  // by season
+  const seasons={};
+  rows.forEach(r=>{(seasons[r.season]=seasons[r.season]||[]).push(r);});
+  const bySeason=Object.keys(seasons).sort().map(s=>{
+    const a=seasons[s];
+    return {season:s,n:a.length,
+      acc:a.reduce((x,r)=>x+r.correct,0)/a.length,
+      brier:a.reduce((x,r)=>x+(r.p-r.y)**2,0)/a.length,
+      mae:a.reduce((x,r)=>x+Math.abs(r.pred_spread-r.actual_spread),0)/a.length};
+  });
+
+  return {n,acc,base,brier,ll,mae,cal,cum,bounds,conf,bySeason,lastDate:rows[n-1].date};
+}
+
+function render(d){
+  document.getElementById('cards').innerHTML = [
+    ['Winner accuracy', fmtPct(d.acc), ''],
+    ['vs home-always', '+'+((d.acc-d.base)*100).toFixed(1)+' pts', 'pos'],
+    ['Brier score', d.brier.toFixed(3), ''],
+    ['Spread MAE', d.mae.toFixed(1)+' pts', ''],
+    ['Games graded', d.n.toLocaleString(), ''],
+  ].map(([l,v,cls])=>`<div class="card"><div class="lab">${l}</div><div class="val ${cls}">${v}</div></div>`).join('');
+
+  document.querySelector('#conftbl tbody').innerHTML = d.conf.map(b=>{
+    const w = b.acc==null?0:Math.round(b.acc*100);
+    return `<tr><td>${Math.round(b.lo*100)}–${Math.round(b.hi*100)}%</td>
+      <td class="num">${b.n}</td>
+      <td class="num">${b.acc==null?'—':fmtPct(b.acc,0)}</td>
+      <td><div class="bar" style="width:${w}%"></div></td></tr>`;
+  }).join('');
+
+  document.querySelector('#seasontbl tbody').innerHTML = d.bySeason.map(s=>
+    `<tr><td>${s.season}</td><td class="num">${s.n}</td><td class="num">${fmtPct(s.acc)}</td>
+     <td class="num">${s.brier.toFixed(3)}</td><td class="num">${s.mae.toFixed(1)}</td></tr>`).join('');
+
+  const calR = d.cal.map(b=>Math.max(3,Math.sqrt(b.n)*1.1));
+  if(calChart) calChart.destroy();
+  calChart = new Chart(document.getElementById('cal'),{
+    data:{datasets:[
+      {type:'line',data:[{x:0,y:0},{x:1,y:1}],borderColor:'#888780',borderDash:[6,5],borderWidth:1.5,pointRadius:0},
+      {type:'scatter',data:d.cal,backgroundColor:'rgba(29,158,117,0.65)',borderColor:'#0f6e56',borderWidth:1,pointRadius:calR}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>'predicted '+(c.parsed.x*100).toFixed(0)+'% → actual '+(c.parsed.y*100).toFixed(0)+'%'}}},
+      scales:{x:{min:0,max:1,title:{display:true,text:'predicted home-win probability'},ticks:{callback:v=>(v*100).toFixed(0)+'%'}},
+              y:{min:0,max:1,title:{display:true,text:'actual home-win rate'},ticks:{callback:v=>(v*100).toFixed(0)+'%'}}}}
+  });
+
+  const ds=[
+    {type:'line',data:d.cum,borderColor:'#378ADD',backgroundColor:'rgba(55,138,221,0.08)',borderWidth:2,pointRadius:0,fill:true,tension:0.1},
+    {type:'line',data:[{x:1,y:d.base},{x:d.n,y:d.base}],borderColor:'#888780',borderDash:[6,5],borderWidth:1.5,pointRadius:0}
+  ];
+  d.bounds.forEach(b=>ds.push({type:'line',data:[{x:b.x,y:0.45},{x:b.x,y:0.82}],borderColor:'#ba7517',borderDash:[4,4],borderWidth:1.5,pointRadius:0}));
+  if(runChart) runChart.destroy();
+  runChart = new Chart(document.getElementById('run'),{
+    data:{datasets:ds},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
+      tooltip:{filter:c=>c.datasetIndex===0,callbacks:{title:c=>'game '+c[0].parsed.x,label:c=>(c.parsed.y*100).toFixed(1)+'% accuracy'}}},
+      scales:{x:{type:'linear',min:1,max:d.n,title:{display:true,text:'games (chronological)'}},
+              y:{min:0.45,max:0.82,title:{display:true,text:'cumulative accuracy'},ticks:{callback:v=>(v*100).toFixed(0)+'%'}}}}
+  });
+
+  document.getElementById('updated').textContent =
+    `${d.n} games · latest ${d.lastDate} · loaded ${new Date().toLocaleString()}`;
+}
+
+async function load(){
+  const status=document.getElementById('status');
+  const content=document.getElementById('content');
+  status.textContent='Fetching predictions_history.csv …';
+  status.className='';
+  const urls=[RAW_URL+'?t='+Date.now(), FALLBACK_URL+'?t='+Date.now()];
+  let lastErr;
+  for(const u of urls){
+    try{
+      const res=await fetch(u,{cache:'no-store'});
+      if(!res.ok) throw new Error('HTTP '+res.status);
+      const rows=parseCSV(await res.text());
+      if(!rows.length) throw new Error('no rows parsed');
+      render(compute(rows));
+      status.style.display='none';
+      content.style.display='block';
+      return;
+    }catch(e){ lastErr=e; }
+  }
+  status.className='err';
+  status.textContent='Could not load data: '+(lastErr&&lastErr.message)+
+    '. If this is a CORS error, serve the dashboard over http(s) (not a file:// path).';
+}
+document.getElementById('refresh').addEventListener('click',load);
+load();
+</script>
+</body>
+</html>
