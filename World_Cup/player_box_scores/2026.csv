@@ -1065,12 +1065,12 @@ gameId,date,season,stage,teamId,team,isHome,opponentId,opponent,playerId,player,
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,341627,Jonas Adjetey,4,CD-R,True,False,False,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,2.0,0.0
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,264484,Gideon Mensah,14,LB,True,False,False,3,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,309638,Marvin Senaya,26,RB,True,False,False,2,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
-760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,266057,Elisha Owusu,15,CM-L,True,False,True,8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
-760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,387659,Caleb Yirenkyi,3,CM-R,True,False,False,4,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,1.0,1.0,2.0,0.0
-760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,273292,Antoine Semenyo,11,LM,True,False,False,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,1.0
-760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,333310,Ernest Nuamah,24,RM,True,False,True,7,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,266057,Elisha Owusu,15,CM,True,False,True,4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,303115,Kamaldeen Sulemana,22,LM,True,False,True,8,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,387659,Caleb Yirenkyi,3,RM,True,False,False,7,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,1.0,1.0,2.0,0.0
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,123518,Jordan Ayew,9,F,True,False,True,9,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
-760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,303115,Kamaldeen Sulemana,22,RCF,True,False,True,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,273292,Antoine Semenyo,11,LF,True,False,False,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,1.0
+760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,333310,Ernest Nuamah,24,RF,True,False,True,10,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,305669,Alidu Seidu,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,280808,Joseph Anang,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
 760434,2026-06-17,2026,group-stage,4469,Ghana,True,2659,Panama,357205,Kojo Peprah Oppong,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1240,3 +1240,52 @@ gameId,date,season,stage,teamId,team,isHome,opponentId,opponent,playerId,player,
 760436,2026-06-18,2026,group-stage,2570,Uzbekistan,True,208,Colombia,362333,Sherzod Esanov,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760436,2026-06-18,2026,group-stage,2570,Uzbekistan,True,208,Colombia,354940,Ruslanbek Jiyanov,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760436,2026-06-18,2026,group-stage,2570,Uzbekistan,True,208,Colombia,308612,Abduvohid Nematov,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,277313,Matej Kovár,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,322510,Robin Hranác,4,CD,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,151714,Ladislav Krejcí,7,CD-L,True,False,False,4,1.0,3.0,1.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,4.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,280885,Tomás Holes,3,CD-R,True,False,False,6,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,249525,Michal Sadílek,18,CM-L,True,False,True,8,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,1.0,3.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,165637,Vladimír Darida,8,CM-R,True,False,True,7,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,303726,Lukás Cerv,12,AM,True,False,True,11,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,387865,Alexandr Sojka,24,LM,True,False,True,3,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,191209,Vladimír Coufal,5,RM,True,False,False,2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,292169,Adam Hlozek,9,CF-L,True,False,True,9,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,212330,Patrik Schick,10,CF-R,True,False,False,10,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,2.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,276659,Jaroslav Zelený,20,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,343733,Mojmír Chytil,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,370744,Stepán Chaloupek,6,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,310027,Denis Visinský,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,306008,Jan Kuchta,11,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,294618,Lukás Provod,17,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,257336,Tomás Chorý,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,230666,Tomás Soucek,22,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,343937,David Doudera,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,319267,Lukás Hornícek,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,199988,Jindrich Stanek,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,403974,Hugo Sochurek,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,290116,David Zima,2,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,450,Czechia,True,467,South Africa,305545,Pavel Sulc,15,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,196230,Ronwen Williams,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,400594,Mbekezeli Mbokazi,14,CD-L,True,False,False,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,3.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,358744,Ime Okon,21,CD-R,True,False,False,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,223818,Aubrey Modiba,6,LB,True,False,False,3,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,3.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,276767,Khuliso Mudau,20,RB,True,False,False,2,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,256691,Teboho Mokoena,4,CM,True,False,False,4,1.0,2.0,3.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,1.0,1.0,2.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,304736,Jayden Adams,23,LM,True,False,True,8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,301321,Thalente Mbatha,5,RM,True,False,False,7,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,291141,Iqraam Rayners,15,F,True,False,True,9,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,2.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,288771,Oswin Appollis,7,LF,True,False,False,11,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,335450,Thapelo Maseko,12,RF,True,False,True,10,1.0,2.0,3.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,3.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,265713,Sipho Chaine,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,266125,Nkosinathi Sibisi,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,366883,Samukele Kabini,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,186121,Ricardo Goss,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,365623,Thabang Matuludi,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,313399,Tshepang Moremi,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,351372,Olwethu Makhanya,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,337134,Kamogelo Sebelebele,25,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,303312,Evidence Makgopa,17,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,2.0,0.0,2.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,390448,Khulumani Ndamane,3,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,264751,Lyle Foster,9,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,361211,Relebohile Mofokeng,10,SUB,False,True,False,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760438,2026-06-18,2026,group-stage,467,South Africa,False,450,Czechia,310593,Bradley Cross,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
