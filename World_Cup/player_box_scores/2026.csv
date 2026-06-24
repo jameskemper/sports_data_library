@@ -2057,3 +2057,418 @@ gameId,date,season,stage,teamId,team,isHome,opponentId,opponent,playerId,player,
 760452,2026-06-22,2026,group-stage,2666,New Zealand,True,2620,Egypt,228288,Michael Woud,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
 760452,2026-06-22,2026,group-stage,2666,New Zealand,True,2620,Egypt,175958,Kosta Barbarouses,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760452,2026-06-22,2026,group-stage,2666,New Zealand,True,2620,Egypt,297794,Jesse Randall,21,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,158626,Emiliano Martínez,23,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,233937,Lisandro Martínez,6,CD-L,True,False,False,6,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,96970,Cristian Romero,13,CD-R,True,False,True,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,249663,Facundo Medina,25,LB,True,False,True,3,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,164826,Nahuel Molina,26,RB,True,False,False,2,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,285450,Enzo Fernández,24,CM-L,True,False,False,8,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,249299,Alexis Mac Allister,20,CM-R,True,False,False,4,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,277208,Thiago Almada,16,LM,True,False,True,11,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,174466,Rodrigo De Paul,7,RM,True,False,True,7,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,219713,Lautaro Martínez,22,CF-L,True,False,True,9,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,45843,Lionel Messi,10,CF-R,True,False,False,10,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,4.0,2.0,7.0,1.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,167192,Gerónimo Rulli,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,320760,Valentín Barco,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,337970,Nico Paz,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,277206,Julián Álvarez,9,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,233945,Marcos Senesi,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,228262,Gonzalo Montiel,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,153115,Leandro Paredes,5,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,323838,Giuliano Simeone,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,76017,Nico González,15,SUB,False,True,False,0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,119289,Nicolás Otamendi,19,SUB,False,True,False,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,145190,Nicolás Tagliafico,3,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,228393,Exequiel Palacios,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,311743,José Manuel López,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,207343,Giovani Lo Celso,11,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,202,Argentina,True,474,Austria,177927,Juan Musso,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,195082,Alexander Schlager,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,118444,David Alaba,8,CD-L,True,False,True,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,250543,Kevin Danso,3,CD-R,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,169189,Konrad Laimer,20,LB,True,False,False,3,1.0,1.0,3.0,0.0,0.0,0.0,1.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,238906,Stefan Posch,5,RB,True,False,True,2,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,333399,Paul Wanner,24,AM,True,False,True,10,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,238886,Xaver Schlager,4,LM,True,False,False,4,1.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,305956,Nicolas Seiwald,6,RM,True,False,False,8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,146804,Michael Gregoritsch,11,F,True,False,True,9,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,173907,Marcel Sabitzer,9,AM-L,True,False,False,11,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,1.0,0.0,3.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,238296,Romano Schmid,18,AM-R,True,False,True,7,1.0,2.0,4.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,294317,Carney Chukwuemeka,17,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,289942,Michael Svoboda,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,232477,Marco Friedl,23,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,387869,Florian Wiegele,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,239574,Phillipp Mwene,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,203868,Alessandro Schöpf,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,313230,David Affengruber,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,262862,Dejan Ljubicic,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,237966,Patrick Pentz,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,219316,Philipp Lienhart,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,219304,Florian Grillitsch,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,320939,Alexander Prass,22,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,300095,Patrick Wimmer,21,SUB,False,True,False,0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,259131,Sasa Kalajdzic,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760456,2026-06-22,2026,group-stage,474,Austria,False,202,Argentina,98193,Marko Arnautovic,7,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,285998,Ahmed Basil,22,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,378605,Akam Hashim,5,CD-L,True,False,False,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,378968,Zaid Tahseen,4,CD-R,True,False,True,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,311149,Amir Al-Ammari,16,DM,True,False,True,4,1.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,345320,Merchas Doski,23,LB,True,False,False,3,1.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,244679,Hussein Ali,3,RB,True,False,False,2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,325549,Zidane Iqbal,14,CM-L,True,False,False,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,384274,Zaid Ismael,24,CM-R,True,False,True,8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,266496,Ibrahim Bayesh,8,LM,True,False,True,11,1.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,313976,Ahmed Qasim,11,RM,True,False,False,7,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,244677,Aymen Hussein,18,F,True,False,True,9,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,274173,Kevin Yakob,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,330579,Ali Al-Hamadi,9,SUB,False,True,False,0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,2.0,,0.0,0.0,0.0,0.0,3.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,326032,Marko Farji,21,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,331621,Munaf Younus,6,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,274166,Ali Yousif,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,257421,Jalal Hassan,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,244675,Rebin Sulaka,2,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,369408,Ahmed Maknazi,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,321221,Youssef Amyn,7,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,287723,Aimar Sher,20,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,371649,Mustafa Saadoon,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,307750,Ali Jasim,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,269478,Mohanad Ali,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,218597,Frans Putros,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,4375,Iraq,False,478,France,235231,Fahad Talib,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,189026,Mike Maignan,16,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,277385,William Saliba,17,CD-L,True,False,False,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,222793,Dayot Upamecano,4,CD-R,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,160115,Lucas Digne,3,LB,True,False,False,3,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,231692,Jules Koundé,5,RB,True,False,True,2,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,286831,Michael Olise,11,AM,True,False,True,10,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,2.0,0.0,0.0,3.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,176203,Adrien Rabiot,14,LM,True,False,False,4,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,285226,Manu Koné,6,RM,True,False,False,8,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,231388,Kylian Mbappé,10,F,True,False,True,9,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,3.0,2.0,8.0,1.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,328238,Bradley Barcola,12,AM-L,True,False,True,11,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,229744,Ousmane Dembélé,7,AM-R,True,False,True,7,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,1.0,2.0,1.0,4.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,345581,Warren Zaïre-Emery,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,308947,Malo Gusto,2,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,265918,Maxence Lacroix,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,298008,Rayan Cherki,24,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,336388,Désiré Doué,20,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,251634,Ibrahima Konaté,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,241187,Jean-Philippe Mateta,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,164126,Brice Samba,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,173556,N'Golo Kanté,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,265919,Aurélien Tchouaméni,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,196200,Lucas Hernández,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,344517,Robin Risser,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,217331,Marcus Thuram,9,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,329690,Maghnes Akliouche,25,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760457,2026-06-22,2026,group-stage,478,France,True,4375,Iraq,233621,Theo Hernández,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,193610,Ørjan Nyland,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,272867,Torbjørn Heggem,17,CD-L,True,False,True,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,206173,Kristoffer Ajer,3,CD-R,True,False,False,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,313361,David Møller Wolfe,5,LB,True,False,False,3,1.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,222991,Julian Ryerson,26,RB,True,False,True,2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,218998,Sander Berge,8,CM,True,False,False,4,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,212900,Fredrik Aursnes,14,LM,True,False,True,8,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,203669,Martin Ødegaard,10,RM,True,False,False,7,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,,0.0,1.0,1.0,0.0,3.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,253989,Erling Haaland,9,F,True,False,False,9,1.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,3.0,2.0,5.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,319368,Antonio Nusa,20,LF,True,False,True,11,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,188230,Alexander Sørloth,7,RF,True,False,True,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,252747,Jørgen Strand Larsen,11,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,238088,Fredrik André Bjørkan,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,205924,Patrick Berg,6,SUB,False,True,False,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,2.0,,0.0,1.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,303281,Henrik Falchener,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,366455,Sondre Langas,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,313415,Andreas Schjelderup,21,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,235789,Jens Petter Hauge,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,202686,Morten Thorsby,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,286433,Egil Selvik,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,129285,Marcus Holmgren Pedersen,16,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,304258,Sander Tangvik,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,284212,Kristian Thorstvedt,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,281736,Leo Østigard,4,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,307477,Thelo Aasgaard,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,464,Norway,True,654,Senegal,307111,Oscar Bobb,22,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,238362,Édouard Mendy,16,G,True,False,True,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,213181,Moussa Niakhaté,19,CD-L,True,False,False,6,1.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,150312,Kalidou Koulibaly,3,CD-R,True,False,True,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,359796,El Hadji Malick Diouf,25,LB,True,False,True,3,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,253992,Krépin Diatta,15,RB,True,False,False,2,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,38721,Lamine Camara,8,AM,True,False,True,10,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,255889,Pape Gueye,26,LM,True,False,True,4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,144517,Idrissa Gueye,5,RM,True,False,False,8,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,308524,Nicolas Jackson,11,F,True,False,False,9,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,1.0,1.0,0.0,3.0,2.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,169797,Sadio Mané,10,AM-L,True,False,False,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,3.0,,0.0,1.0,0.0,0.0,0.0,1.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,241012,Ismaïla Sarr,18,AM-R,True,False,False,7,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,3.0,2.0,6.0,1.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,324991,Habib Diarra,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,319161,Antoine Mendy,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,313889,Bamba Dieng,9,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,297337,Pape Matar Sarr,17,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,251614,Abdoulaye Seck,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,268796,Ismail Jakobs,14,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,355433,Mamadou Sarr,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,294228,Pathé Ciss,6,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,268641,Iliman Ndiaye,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,241029,Yehvann Diouf,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,388522,Ibrahim Mbaye,20,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,197631,Mory Diaw,23,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,409016,Bara Sapoko Ndiaye,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,364742,Assane Diao,7,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760454,2026-06-23,2026,group-stage,654,Senegal,False,464,Norway,251924,Cherif Ndiaye,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,235212,Yazeed Abulaila,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,274269,Yazan Al-Arab,5,CD,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,321503,Husam Abu Dahab,4,CD-L,True,False,True,4,1.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,317819,Abdallah Nasib,3,CD-R,True,False,False,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,295462,Noor Al-Rawabdeh,8,CM-L,True,False,False,8,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,321515,Nizar Al-Rashdan,21,CM-R,True,False,False,7,1.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,1.0,1.0,2.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,317847,Mohannad Abu Taha,20,LM,True,False,True,3,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,229021,Ehsan Haddad,23,RM,True,False,False,2,1.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,257489,Mousa Al-Tamari,10,F,True,False,True,9,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,,0.0,1.0,1.0,0.0,2.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,229023,Mahmoud Al-Mardi,13,CF-L,True,False,True,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,320908,Ali Olwan,9,CF-R,True,False,True,10,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,1.0,0.0,2.0,1.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,321484,Mohammad Abu Hasheesh,2,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,418839,Mohammad Abughoush,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,374200,Saed Al-Rosan,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,289005,Saleem Obaid,17,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,320910,Ibrahim Sadeh,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,293352,Abdallah Al-Fakhouri,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,244036,Rajaei Ayed,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,289004,Mohammed Abu Zraiq,7,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,286761,Mohammad Abualnadi,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,400062,Ali Azaizeh,24,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,392204,Odeh Fakhoury,11,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,369409,Amer Jamous,6,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,321486,Mohammad Al-Daoud,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,422263,Anas Badawi,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,2917,Jordan,True,624,Algeria,321516,Nour Bani Ateyah,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,225561,Luca Zidane,23,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,220703,Ramy Bensebaini,21,CD-L,True,False,False,6,1.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,150451,Aïssa Mandi,2,CD-R,True,False,False,5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,272512,Rayan Aït-Nouri,15,LB,True,False,True,3,1.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,364590,Rafik Belghali,17,RB,True,False,False,2,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,361212,Ibrahim Maza,22,AM,True,False,False,10,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,2.0,0.0,4.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,290517,Ramiz Zerrouki,6,LM,True,False,True,4,1.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,287078,Hicham Boudaoui,14,RM,True,False,True,8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,259743,Amine Gouiri,9,F,True,False,True,9,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,2.0,1.0,3.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,337306,Farès Chaïbi,10,AM-L,True,False,False,11,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,2.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,163940,Riyad Mahrez,7,AM-R,True,False,True,7,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,1.0,1.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,285539,Mohamed Amine Tougai,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,285547,Zineddine Belaïd,5,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,356536,Farès Ghedjemis,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,341711,Anis Hadj Moussa,11,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,299346,Oussama Benbot,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,407797,Achraf Abada,3,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,341706,Adil Boulbina,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,241116,Houssem Aouar,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,341720,Yassine Titraoui,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,306033,Jaouen Hadjam,13,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,179187,Nabil Bentaleb,19,SUB,False,True,False,0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,346186,Nadhir Benbouali,12,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,2.0,1.0,2.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,287572,Samir Chergui,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760455,2026-06-23,2026,group-stage,624,Algeria,False,2917,Jordan,324711,Melvin Mastil,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,378501,Benjamin Asare,16,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,261505,Jerome Opoku,18,CD-L,True,False,False,6,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,341627,Jonas Adjetey,4,CD-R,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,189972,Thomas Partey,5,DM,True,False,False,4,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,264484,Gideon Mensah,14,LB,True,False,False,3,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,309638,Marvin Senaya,26,RB,True,False,True,2,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,274697,Kwasi Sibo,8,CM-L,True,False,False,10,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,387659,Caleb Yirenkyi,3,CM-R,True,False,False,8,1.0,3.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,273292,Antoine Semenyo,11,LM,True,False,False,11,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,214412,Iñaki Williams,19,RM,True,False,True,7,1.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,123518,Jordan Ayew,9,F,True,False,True,9,1.0,4.0,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,280808,Joseph Anang,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,387861,Prince Adu,25,SUB,False,True,True,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,357205,Kojo Peprah Oppong,21,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,326183,Augustine Boakye,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,303115,Kamaldeen Sulemana,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,305669,Alidu Seidu,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,266057,Elisha Owusu,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,241139,Abdul Mumin,6,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,205737,Derrick Luckassen,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,174508,Baba Rahman,17,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,240495,Brandon Thomas-Asante,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,360279,Christopher Bonsu Baah,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,333310,Ernest Nuamah,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,219562,Lawrence Ati Zigi,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,4469,Ghana,False,448,England,318680,Fatawu Issahaku,7,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,159443,Jordan Pickford,1,G,True,False,False,1,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,265907,Marc Guéhi,6,CD-L,True,False,False,6,1.0,2.0,7.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,231859,Ezri Konsa,2,CD-R,True,False,False,5,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,267711,Djed Spence,25,LB,True,False,True,3,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,189007,Reece James,24,RB,True,False,False,2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,291281,Jude Bellingham,10,AM,True,False,True,10,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,1.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,238262,Declan Rice,4,LM,True,False,False,4,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,3.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,238472,Elliot Anderson,8,RM,True,False,True,8,1.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,4.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,142200,Harry Kane,9,F,True,False,False,9,1.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,3.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,268782,Anthony Gordon,18,AM-L,True,False,True,11,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,293236,Noni Madueke,20,AM-R,True,False,True,7,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,127262,Jordan Henderson,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,227784,Trevoh Chalobah,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,180639,Ivan Toney,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,265653,Morgan Rogers,17,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,251400,Eberechi Eze,21,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,298524,Jarell Quansah,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,198825,Ollie Watkins,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,157974,John Stones,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,234172,Dean Henderson,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,230945,Marcus Rashford,11,SUB,False,True,False,0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,198138,Dan Burn,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,328464,Nico O'Reilly,3,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,280555,Bukayo Saka,7,SUB,False,True,False,0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,2.0,1.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,328466,Kobbie Mainoo,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760458,2026-06-23,2026,group-stage,448,England,True,4469,Ghana,307118,James Trafford,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,191806,Orlando Mosquera,22,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,286667,José Córdoba,3,CD,True,False,False,5,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,189775,Andrés Andrade,16,CD-L,True,False,False,4,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,291014,Jiovany Ramos,13,CD-R,True,False,True,6,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,260346,César Blackman,2,LB,True,False,True,3,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,216420,Amir Murillo,23,RB,True,False,False,2,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,3.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,201919,Édgar Yoel Bárcenas,11,CM-L,True,False,True,10,1.0,2.0,1.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,285452,Carlos Harvey,14,CM-R,True,False,False,8,1.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,238763,José Luis Rodríguez,7,LM,True,False,False,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,176145,Cristian Martínez,6,RM,True,False,False,7,1.0,3.0,3.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,267996,José Fajardo,17,F,True,False,True,9,1.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,303538,César Yanis,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,219508,Adalberto Carrasquilla,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,216418,Fidel Escobar,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,116825,Aníbal Godoy,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,137355,Roderick Miller,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,102167,Alberto Quintero,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,328403,César Samudio,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,195326,Ismael Díaz,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,138183,Éric Davis,15,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,328402,Edgardo Fariña,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,124521,Luis Mejía,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,288563,Tomás Rodríguez,9,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,271294,Jorge Gutiérrez,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,155913,Cecilio Waterman,18,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,2659,Panama,True,477,Croatia,340539,Azarias Londoño,24,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,187946,Dominik Livakovic,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,255650,Marin Pongracic,3,CD-L,True,False,False,6,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,305552,Josip Sutalo,6,CD-R,True,False,False,5,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,299910,Josko Gvardiol,4,LB,True,False,True,3,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,276329,Josip Stanisic,2,RB,True,False,False,2,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,311475,Martin Baturina,16,AM,True,False,False,10,1.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,154595,Mateo Kovacic,8,LM,True,False,True,4,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,76762,Luka Modric,10,RM,True,False,True,8,1.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,277128,Petar Musa,26,F,True,False,True,9,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,103485,Ivan Perisic,14,AM-L,True,False,False,11,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,324270,Marco Pasalic,24,AM-R,True,False,True,7,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,2.0,1.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,207288,Ante Budimir,11,SUB,False,True,False,0,1.0,2.0,2.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,341494,Petar Sucic,17,SUB,False,True,False,0,1.0,2.0,0.0,0.0,0.0,1.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,206378,Nikola Vlasic,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,364962,Luka Vuskovic,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,228333,Nikola Moro,7,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,139520,Andrej Kramaric,9,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,216579,Martin Erlic,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,310883,Igor Matanovic,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,239411,Dominik Kotarski,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,189668,Mario Pasalic,15,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,194766,Duje Caleta-Car,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,238929,Kristijan Jakic,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,338232,Toni Fruk,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,306263,Luka Sucic,21,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760460,2026-06-23,2026,group-stage,477,Croatia,False,2659,Panama,277234,Ivor Pandur,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,308612,Abduvohid Nematov,12,G,True,False,False,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,5.0,4.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,326928,Abdulla Abdullaev,18,CD,True,False,False,5,1.0,2.0,1.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,195282,Rustam Ashurmatov,5,CD-L,True,False,False,4,1.0,1.0,0.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,362211,Abdukodir Khusanov,2,CD-R,True,False,False,6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,195281,Otabek Shukurov,7,CM-L,True,False,True,8,1.0,1.0,2.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,195266,Odiljon Xamrobekov,9,CM-R,True,False,True,7,1.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,321728,Sherzod Nasrullaev,13,LM,True,False,True,3,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,376370,Behruzjon Karimov,24,RM,True,False,True,2,1.0,5.0,4.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,216937,Eldor Shomurodov,14,F,True,False,False,9,1.0,2.0,2.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,1.0,1.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,317793,Abbosbek Fayzullaev,22,CF-L,True,False,True,11,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,268558,Azizjon Ganiev,19,CF-R,True,False,False,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,288949,Oston Urunov,11,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,274005,Khojiakbar Alijonov,3,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,253231,Azizbek Amonov,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,156663,Igor Sergeev,21,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,219561,Botirali Ergashev,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,354940,Ruslanbek Jiyanov,10,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,195274,Dostonbek Khamdamov,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,286596,Avazbek Ulmasaliyev,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,270461,Akmal Mozgovoy,6,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,270463,Umar Eshmurodov,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,185631,Jamshid Iskanderov,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,362329,Jakhongir Urozov,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,282145,Utkir Yusupov,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,211537,Farrukh Sayfiev,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,2570,Uzbekistan,False,482,Portugal,362333,Sherzod Esanov,23,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,238903,Diogo Costa,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,337011,Renato Veiga,13,CD-L,True,False,False,6,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,234878,Rúben Dias,3,CD-R,True,False,False,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,290591,Nuno Mendes,25,LB,True,False,False,3,1.0,3.0,4.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,176399,João Cancelo,20,RB,True,False,True,2,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,1.0,0.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,124091,Bruno Fernandes,8,AM,True,False,False,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,1.0,1.0,0.0,2.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,288897,Vitinha ,23,LM,True,False,True,4,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,355061,João Neves,15,RM,True,False,True,8,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,22774,Cristiano Ronaldo,7,F,True,False,False,9,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,5.0,2.0,7.0,2.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,276350,João Félix,11,AM-L,True,False,True,11,1.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,3.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,256115,Pedro Neto,18,AM-R,True,False,True,7,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,181278,José Sá,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,222670,Nélson Semedo,2,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,199833,Bernardo Silva,10,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,274159,Francisco Trincão,16,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,208128,Rúben Neves,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,304106,Gonçalo Inácio,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,258917,Rafael Leão,17,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,177898,Rui Silva,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,183466,Samú Costa,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,238902,Diogo Dalot,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,303785,Matheus Nunes,6,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,288896,Gonçalo Ramos,9,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,213141,Gonçalo Guedes,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,312659,Francisco Conceição,26,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760461,2026-06-23,2026,group-stage,482,Portugal,True,2570,Uzbekistan,329691,Tomás Araújo,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,185147,Camilo Vargas,12,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,227697,Jhon Lucumí,3,CD-L,True,False,False,6,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,197105,Davinson Sánchez,23,CD-R,True,False,False,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,173247,Johan Mojica,17,LB,True,False,False,3,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,146679,Daniel Muñoz,2,RB,True,False,False,2,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,1.0,2.0,1.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,197399,Jefferson Lerma,16,CM,True,False,False,4,1.0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,239566,Jhon Arias,11,LM,True,False,True,8,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,2.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,341736,Gustavo Puerta,14,RM,True,False,False,7,1.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,2.0,0.0,5.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,272722,Luis Suárez,25,F,True,False,True,9,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,257390,Luis Díaz,7,LF,True,False,False,11,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,2.0,0.0,5.0,5.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,82816,James Rodríguez,10,RF,True,False,True,10,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,197401,Deiver Machado,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,176058,Jhon Córdoba,9,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,196901,Yerry Mina,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,307756,Kevin Castaño,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,94976,Juan Portilla,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,270229,Willer Ditta,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,208700,Jorge Carrascal,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,177780,Juan Fernando Quintero,20,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,1.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,164756,Santiago Arias,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,255295,Jáminton Campaz,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,301520,Richard Ríos,6,SUB,False,True,False,0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,121842,David Ospina,1,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,330924,Andrés Gómez,26,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,166323,Álvaro Montero,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,208,Colombia,True,2850,Congo DR,336809,Cucho Hernández,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,211669,Lionel Mpasi,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,229524,Axel Tuanzebe,4,CD,True,False,False,5,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,369201,Steve Kapuadi,3,CD-L,True,False,False,4,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,174322,Chancel Mbemba,22,CD-R,True,False,False,6,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,165892,Arthur Masuaku,26,LB,True,False,True,3,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,250945,Aaron Wan-Bissaka,2,RB,True,False,False,2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,260932,Samuel Moutoussamy,8,CM,True,False,True,8,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,268986,Edo Kayembe,25,CM-L,True,False,True,11,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,345988,Ngal'ayel Mukau,6,CM-R,True,False,True,7,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,224077,Yoane Wissa,20,CF-L,True,False,False,9,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,147193,Cédric Bakambu,17,CF-R,True,False,True,10,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,204329,Joris Kayembe,12,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,319371,Matthieu Epolo,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,291750,Nathanaël Mbuku,7,SUB,False,True,False,0,1.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,291345,Gédéon Kalulu,24,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,282757,Timothy Fayulu,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,260228,Dylan Batubinsika,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,182337,Théo Bongonda,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,130545,Gaël Kakuta,11,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,352285,Brian Cipenga,9,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,175104,Aaron Tshibola,15,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,340240,Noah Sadiki,14,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,235875,Charles Pickel,18,SUB,False,True,False,0,1.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,299324,Fiston Mayele,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,232492,Meschack Elia,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760459,2026-06-24,2026,group-stage,2850,Congo DR,False,208,Colombia,231161,Simon Banza,23,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
