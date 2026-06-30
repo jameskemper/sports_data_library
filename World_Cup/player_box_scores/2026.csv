@@ -3793,7 +3793,7 @@ gameId,date,season,stage,teamId,team,isHome,opponentId,opponent,playerId,player,
 760487,2026-06-29,2026,round-of-32,627,Japan,False,205,Brazil,346208,Keisuke Goto,9,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760487,2026-06-29,2026,round-of-32,627,Japan,False,205,Brazil,256587,Takefusa Kubo,8,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760487,2026-06-29,2026,round-of-32,627,Japan,False,205,Brazil,253173,Ao Tanaka,7,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
-760489,2026-06-29,2026,round-of-32,210,Paraguay,False,481,Germany,301648,Orlando Gil,12,G,True,False,False,1,1.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,
+760489,2026-06-29,2026,round-of-32,210,Paraguay,False,481,Germany,301648,Orlando Gill,12,G,True,False,False,1,1.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,
 760489,2026-06-29,2026,round-of-32,210,Paraguay,False,481,Germany,227682,José Canale,13,CD-L,True,False,False,6,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760489,2026-06-29,2026,round-of-32,210,Paraguay,False,481,Germany,118395,Gustavo Gómez,15,CD-R,True,False,False,5,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
 760489,2026-06-29,2026,round-of-32,210,Paraguay,False,481,Germany,181657,Júnior Alonso,6,LB,True,False,True,3,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,1.0,0.0
@@ -3843,3 +3843,55 @@ gameId,date,season,stage,teamId,team,isHome,opponentId,opponent,playerId,player,
 760489,2026-06-29,2026,round-of-32,481,Germany,True,210,Paraguay,290639,Maximilian Beier,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
 760489,2026-06-29,2026,round-of-32,481,Germany,True,210,Paraguay,138213,Oliver Baumann,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
 760489,2026-06-29,2026,round-of-32,481,Germany,True,210,Paraguay,174550,Leon Goretzka,8,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,175149,Yassine Bounou,1,G,True,False,False,1,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,307870,Chadi Riad,18,CD-L,True,False,True,6,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,230963,Issa Diop,14,CD-R,True,False,False,5,1.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,239350,Noussair Mazraoui,3,LB,True,False,False,3,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,240233,Achraf Hakimi,2,RB,True,False,False,2,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,3.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,291552,Azzedine Ounahi,8,AM,True,False,True,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,323807,Neil El Aynaoui,24,LM,True,False,False,4,1.0,5.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,373927,Ayyoub Bouaddi,6,RM,True,False,True,8,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,304572,Ismael Saibari,11,F,True,False,False,9,1.0,5.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,336595,Bilal El Khannouss,23,AM-L,True,False,True,11,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,246532,Brahim Díaz,10,AM-R,True,False,True,7,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,297296,Anass Salah-Eddine,26,SUB,False,True,False,0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,314388,Amine Sbaï,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,195240,Ahmed Reda Tagnaouti,22,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,416636,Ayoube Amaimouni,21,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,378491,Samir El Mourabet,15,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,195226,Sofyan Amrabat,4,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,379012,Gessime Yassine,16,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,206232,Munir El Kajoui,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,393692,Youssef Belammari,19,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,360062,Chemsdine Talbi,7,SUB,False,True,False,0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,0.0,1.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,325024,Zakaria El Ouahdi,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,276139,Soufiane Rahimi,9,SUB,False,True,False,0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,1.0,0.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,269562,Ayoub El Kaabi,20,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,230430,Marwane Saadane,5,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,2869,Morocco,False,449,Netherlands,328300,Redouane Halhal,25,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,291609,Bart Verbruggen,1,G,True,False,False,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,157892,Virgil van Dijk,4,CD,True,False,False,5,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,159248,Nathan Aké,5,CD-L,True,False,True,4,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,282583,Jan Paul van Hecke,6,CD-R,True,False,False,6,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,219022,Frenkie de Jong,21,CM-L,True,False,True,8,1.0,3.0,3.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,274632,Ryan Gravenberch,8,CM-R,True,False,True,7,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,2.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,296512,Micky van de Ven,15,LM,True,False,True,3,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,1.0,0.0,2.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,213248,Denzel Dumfries,22,RM,True,False,False,2,1.0,4.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,1.0,1.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,282229,Brian Brobbey,19,F,True,False,True,9,1.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,1.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,249524,Cody Gakpo,11,CF-L,True,False,True,11,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,1.0,1.0,1.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,284792,Crysencio Summerville,24,CF-R,True,False,False,10,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,,0.0,1.0,0.0,0.0,0.0,1.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,146335,Marten de Roon,3,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,353951,Jorrel Hato,25,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,282186,Mats Wieffer,12,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,259481,Donyell Malen,18,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,159255,Memphis Depay,10,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,245916,Justin Kluivert,7,SUB,False,True,False,0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,177821,Mark Flekken,23,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,177042,Wout Weghorst,9,SUB,False,True,False,0,1.0,1.0,2.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,240965,Guus Til,16,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,282230,Quinten Timber,26,SUB,False,True,False,0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,264828,Lutsharel Geertruida,2,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,255344,Noa Lang,17,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,301449,Robin Roefs,13,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,261328,Tijjani Reijnders,14,SUB,False,False,False,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0
+760488,2026-06-30,2026,round-of-32,449,Netherlands,True,2869,Morocco,258968,Teun Koopmeiners,20,SUB,False,True,False,0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0
