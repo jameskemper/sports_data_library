@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "year": 2026,
+    "week": 15,
+    "season_type": "regular",
+    "fetched_at": "2026-08-01T13:37:57+00:00",
+    "source_url": "https://api.collegefootballdata.com/games?year=2026&week=15&seasonType=regular"
+  },
+  "data": [
+    {
+      "id": 401862844,
+      "season": 2026,
+      "week": 15,
+      "seasonType": "regular",
+      "startDate": "2026-12-12T20:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": false,
+      "neutralSite": true,
+      "conferenceGame": false,
+      "attendance": null,
+      "venueId": 3839,
+      "venue": "MetLife Stadium",
+      "homeId": 349,
+      "homeTeam": "Army",
+      "homeClassification": "fbs",
+      "homeConference": "American Athletic",
+      "homePoints": null,
+      "homeLineScores": null,
+      "homePostgameWinProbability": null,
+      "homePregameElo": null,
+      "homePostgameElo": null,
+      "awayId": 2426,
+      "awayTeam": "Navy",
+      "awayClassification": "fbs",
+      "awayConference": "American Athletic",
+      "awayPoints": null,
+      "awayLineScores": null,
+      "awayPostgameWinProbability": null,
+      "awayPregameElo": null,
+      "awayPostgameElo": null,
+      "excitementIndex": null,
+      "highlights": "",
+      "notes": null,
+      "playoff": null
+    }
+  ]
+}
