@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 7,
     "season_type": "regular",
-    "fetched_at": "2026-08-02T13:38:22+00:00",
+    "fetched_at": "2026-08-03T14:49:05+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=7&seasonType=regular"
   },
   "data": [
@@ -822,7 +822,7 @@
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 60,
-      "awayTeam": "Morehouse College",
+      "awayTeam": "Morehouse",
       "awayClassification": "ii",
       "awayConference": "SIAC",
       "awayPoints": null,
@@ -2910,7 +2910,7 @@
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 409,
-      "awayTeam": "Concordia-Wisconsin",
+      "awayTeam": "Concordia (WI)",
       "awayClassification": "iii",
       "awayConference": "NACC",
       "awayPoints": null,

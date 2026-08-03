@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 5,
     "season_type": "regular",
-    "fetched_at": "2026-08-02T13:38:21+00:00",
+    "fetched_at": "2026-08-03T14:49:04+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=5&seasonType=regular"
   },
   "data": [
@@ -2442,7 +2442,7 @@
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2333,
-      "awayTeam": "Lewis & Clark College",
+      "awayTeam": "Lewis & Clark",
       "awayClassification": "iii",
       "awayConference": "Northwest",
       "awayPoints": null,
