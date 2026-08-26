@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 15,
     "season_type": "regular",
-    "fetched_at": "2026-08-25T12:54:42+00:00",
+    "fetched_at": "2026-08-26T13:00:46+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=15&seasonType=regular"
   },
   "data": [
@@ -16,7 +16,7 @@
       "startTimeTBD": false,
       "completed": false,
       "neutralSite": true,
-      "conferenceGame": false,
+      "conferenceGame": true,
       "attendance": null,
       "venueId": 3839,
       "venue": "MetLife Stadium",
