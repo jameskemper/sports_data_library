@@ -1,0 +1,11 @@
+game_id,season,week,home_team,away_team,neutral_site,conference_game,completed,home_points,away_points,actual_spread,pred_spread,win_prob_home,pp_scale,pred_winner,pred_win_prob,model_n_obs,predicted_at_state
+401866408,2026,1,Eastern Michigan,Sacramento State,False,True,True,28.0,17.0,11.0,-3.11,0.4018,12.52,Sacramento State,0.5982,11395,model_current.json
+401864495,2026,1,Eastern Michigan,San José State,False,False,False,,,,0.83,0.5264,12.52,Eastern Michigan,0.5264,11395,model_current.json
+401864570,2026,1,Florida State,New Mexico State,False,False,True,34.0,17.0,17.0,20.1,0.9456,12.53,Florida State,0.9456,11395,model_current.json
+401864497,2026,1,Hawai'i,UNLV,False,True,False,,,,-4.33,0.3647,12.52,UNLV,0.6353,11395,model_current.json
+401864577,2026,1,North Dakota State,Jacksonville State,False,False,True,33.0,7.0,26.0,7.98,0.738,12.53,North Dakota State,0.738,11395,model_current.json
+401858201,2026,1,Stanford,Hawai'i,False,False,True,37.0,27.0,10.0,1.38,0.544,12.52,Stanford,0.544,11395,model_current.json
+401856766,2026,1,TCU,North Carolina,True,False,True,10.0,15.0,-5.0,12.81,0.8456,12.59,TCU,0.8456,11395,model_current.json
+401862693,2026,1,UNLV,Memphis,False,False,True,21.0,27.0,-6.0,4.88,0.6516,12.52,UNLV,0.6516,11395,model_current.json
+401864494,2026,1,USC,San José State,False,False,True,42.0,26.0,16.0,22.57,0.9641,12.53,USC,0.9641,11395,model_current.json
+401858202,2026,1,Virginia,NC State,False,True,True,34.0,8.0,26.0,9.21,0.7691,12.52,Virginia,0.7691,11395,model_current.json
