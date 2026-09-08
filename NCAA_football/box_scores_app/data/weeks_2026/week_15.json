@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 15,
     "season_type": "regular",
-    "fetched_at": "2026-09-07T17:35:50+00:00",
+    "fetched_at": "2026-09-08T16:21:39+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=15&seasonType=regular"
   },
   "data": [
@@ -36,7 +36,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": null,
+      "awayPregameElo": 1550,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
