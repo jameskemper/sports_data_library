@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 6,
     "season_type": "regular",
-    "fetched_at": "2026-09-11T16:11:46+00:00",
+    "fetched_at": "2026-09-12T15:18:59+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=6&seasonType=regular"
   },
   "data": [
@@ -828,7 +828,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1510,
+      "awayPregameElo": 1473,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
@@ -1143,7 +1143,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1666,
+      "homePregameElo": 1703,
       "homePostgameElo": null,
       "awayId": 245,
       "awayTeam": "Texas A&M",
