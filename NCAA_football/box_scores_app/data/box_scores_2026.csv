@@ -757,8 +757,8 @@ id,season,week,season_type,start_date,completed,neutral_site,conference_game,ven
 401864500,2026,2,regular,2026-09-13T02:30:00.000Z,True,False,False,3816.0,Mackay Stadium,2440,Nevada,Mountain West,7.0,147,Montana State,Big Sky,20.0
 401858445,2026,2,regular,2026-09-13T03:00:00.000Z,True,False,False,477.0,Los Angeles Memorial Coliseum,30,USC,Big Ten,49.0,309,Louisiana,Sun Belt,30.0
 401864578,2026,2,regular,2026-09-13T03:59:00.000Z,True,False,False,7220.0,Clarence T.C. Ching Athletics Complex,62,Hawai'i,Mountain West,29.0,166,New Mexico State,Conference USA,19.0
-401907580,2026,3,regular,2026-09-17T23:00:00.000Z,False,False,True,3667.0,Callaghan Stadium,2148,Concord,Mountain East,,2128,Charleston (WV),Mountain East,
-401858225,2026,3,regular,2026-09-17T23:30:00.000Z,False,False,True,3752.0,Acrisure Stadium,221,Pittsburgh,ACC,,183,Syracuse,ACC,
+401907580,2026,3,regular,2026-09-17T23:00:00.000Z,True,False,True,3667.0,Callaghan Stadium,2148,Concord,Mountain East,38.0,2128,Charleston (WV),Mountain East,41.0
+401858225,2026,3,regular,2026-09-17T23:30:00.000Z,True,False,True,3752.0,Acrisure Stadium,221,Pittsburgh,ACC,27.0,183,Syracuse,ACC,13.0
 401908593,2026,3,regular,2026-09-18T23:00:00.000Z,False,False,True,5939.0,Cressy Field,379,UMass Dartmouth,MSCAC,,2967,Framingham State,MSCAC,
 401858226,2026,3,regular,2026-09-18T23:30:00.000Z,False,False,True,3630.0,Allegacy Federal Credit Union Stadium,154,Wake Forest,ACC,,2390,Miami,ACC,
 401856811,2026,3,regular,2026-09-19T00:00:00.000Z,False,False,True,3784.0,Jones AT&T Stadium,2641,Texas Tech,Big 12,,248,Houston,Big 12,
