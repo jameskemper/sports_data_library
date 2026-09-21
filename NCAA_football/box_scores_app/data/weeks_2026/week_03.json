@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 3,
     "season_type": "regular",
-    "fetched_at": "2026-09-20T15:46:15+00:00",
+    "fetched_at": "2026-09-21T18:04:20+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=3&seasonType=regular"
   },
   "data": [
@@ -524,7 +524,7 @@
       "awayPostgameWinProbability": 0,
       "awayPregameElo": 1699,
       "awayPostgameElo": 1646,
-      "excitementIndex": 6.375917467844755,
+      "excitementIndex": 5.544088586426384,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7374,7 +7374,7 @@
       "seasonType": "regular",
       "startDate": "2026-09-19T20:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -7384,7 +7384,7 @@
       "homeTeam": "Allen",
       "homeClassification": "ii",
       "homeConference": "SIAC",
-      "homePoints": 28,
+      "homePoints": 32,
       "homeLineScores": [
         7,
         14,
@@ -7398,7 +7398,7 @@
       "awayTeam": "Albany State",
       "awayClassification": "ii",
       "awayConference": "SIAC",
-      "awayPoints": 32,
+      "awayPoints": 28,
       "awayLineScores": [
         13,
         13,
@@ -11515,7 +11515,7 @@
         3,
         7
       ],
-      "homePostgameWinProbability": 0.7765665650367737,
+      "homePostgameWinProbability": 0.9641265273094177,
       "homePregameElo": 1916,
       "homePostgameElo": 1935,
       "awayId": 2636,
@@ -11529,10 +11529,10 @@
         3,
         0
       ],
-      "awayPostgameWinProbability": 0.22343343496322632,
+      "awayPostgameWinProbability": 0.035873472690582275,
       "awayPregameElo": 1525,
       "awayPostgameElo": 1506,
-      "excitementIndex": 2.143399036943975,
+      "excitementIndex": 2.120834864199118,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -12830,7 +12830,7 @@
       "awayPostgameWinProbability": 1,
       "awayPregameElo": 1591,
       "awayPostgameElo": 1611,
-      "excitementIndex": 6.50885737813705,
+      "excitementIndex": 5.372592252759031,
       "highlights": "",
       "notes": null,
       "playoff": null
