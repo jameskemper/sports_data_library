@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 3,
     "season_type": "regular",
-    "fetched_at": "2026-09-21T18:04:20+00:00",
+    "fetched_at": "2026-09-22T16:38:42+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=3&seasonType=regular"
   },
   "data": [
@@ -4898,10 +4898,10 @@
       "homeTeam": "Augustana (IL)",
       "homeClassification": "iii",
       "homeConference": "CCIW",
-      "homePoints": 13,
+      "homePoints": 10,
       "homeLineScores": [
         3,
-        3,
+        0,
         0,
         7
       ],
@@ -7384,7 +7384,7 @@
       "homeTeam": "Allen",
       "homeClassification": "ii",
       "homeConference": "SIAC",
-      "homePoints": 32,
+      "homePoints": 28,
       "homeLineScores": [
         7,
         14,
@@ -7398,7 +7398,7 @@
       "awayTeam": "Albany State",
       "awayClassification": "ii",
       "awayConference": "SIAC",
-      "awayPoints": 28,
+      "awayPoints": 32,
       "awayLineScores": [
         13,
         13,

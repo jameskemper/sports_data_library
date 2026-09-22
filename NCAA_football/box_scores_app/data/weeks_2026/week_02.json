@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 2,
     "season_type": "regular",
-    "fetched_at": "2026-09-21T18:04:20+00:00",
+    "fetched_at": "2026-09-22T16:38:41+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=2&seasonType=regular"
   },
   "data": [
@@ -6458,7 +6458,7 @@
       "seasonType": "regular",
       "startDate": "2026-09-12T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -6468,10 +6468,10 @@
       "homeTeam": "Mayville State",
       "homeClassification": null,
       "homeConference": null,
-      "homePoints": 39,
+      "homePoints": 37,
       "homeLineScores": [
         9,
-        9,
+        7,
         14,
         7
       ],
