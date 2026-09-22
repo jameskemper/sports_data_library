@@ -36,9 +36,16 @@ import config as C
 
 def _latest_completed_week(season):
     df = F._load_box_scores(season)
-    if df.empty or "completed" not in df.columns:
+    if df.empty:
         return None
-    done = df[df["completed"].astype(bool)]
+    _, rated = F._elo_lookup(season)
+    df = df[df["home_team"].isin(rated) & df["away_team"].isin(rated)].copy()
+    if df.empty:
+        return None
+    played = df["completed"].astype(bool)
+    if {"home_points", "away_points"}.issubset(df.columns):
+        played = played | (df["home_points"].notna() & df["away_points"].notna())
+    done = df[played]
     return int(done["week"].max()) if not done.empty else None
 
 

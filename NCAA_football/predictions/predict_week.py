@@ -40,11 +40,17 @@ def _next_unplayed_week(season):
     df = F._load_box_scores(season)
     if df.empty:
         return 1
-    if "completed" in df.columns:
-        pending = df[~df["completed"].astype(bool)]
-        if not pending.empty:
-            return int(pending["week"].min())
-    return int(df["week"].max())
+    _, rated = F._elo_lookup(season)
+    df = df[df["home_team"].isin(rated) & df["away_team"].isin(rated)].copy()
+    if df.empty:
+        return 1
+    played = df["completed"].astype(bool)
+    if {"home_points", "away_points"}.issubset(df.columns):
+        played = played | (df["home_points"].notna() & df["away_points"].notna())
+    pending = df[~played]
+    if not pending.empty:
+        return int(pending["week"].min())
+    return int(df["week"].max()) + 1
 
 
 def predict_week(season, week, state_path=None, save=True, fbs_only=True):
