@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 4,
     "season_type": "regular",
-    "fetched_at": "2026-09-22T16:38:42+00:00",
+    "fetched_at": "2026-09-23T16:31:17+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=4&seasonType=regular"
   },
   "data": [
@@ -8260,7 +8260,7 @@
       "startTimeTBD": false,
       "completed": false,
       "neutralSite": false,
-      "conferenceGame": false,
+      "conferenceGame": true,
       "attendance": null,
       "venueId": 3976,
       "venue": "Mississippi Veterans Memorial Stadium",
@@ -8296,7 +8296,7 @@
       "startTimeTBD": false,
       "completed": false,
       "neutralSite": true,
-      "conferenceGame": false,
+      "conferenceGame": true,
       "attendance": null,
       "venueId": 499,
       "venue": "Cotton Bowl",
