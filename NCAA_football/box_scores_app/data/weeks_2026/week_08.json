@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 8,
     "season_type": "regular",
-    "fetched_at": "2026-09-30T17:50:25+00:00",
+    "fetched_at": "2026-10-01T18:16:13+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=8&seasonType=regular"
   },
   "data": [
@@ -603,7 +603,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1572,
+      "homePregameElo": 1550,
       "homePostgameElo": null,
       "awayId": 259,
       "awayTeam": "Virginia Tech",
@@ -2592,7 +2592,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1868,
+      "awayPregameElo": 1736,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",

@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 11,
     "season_type": "regular",
-    "fetched_at": "2026-09-30T17:50:26+00:00",
+    "fetched_at": "2026-10-01T18:16:14+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=11&seasonType=regular"
   },
   "data": [
@@ -783,7 +783,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1572,
+      "homePregameElo": 1550,
       "homePostgameElo": null,
       "awayId": 59,
       "awayTeam": "Georgia Tech",
@@ -1323,7 +1323,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1868,
+      "homePregameElo": 1736,
       "homePostgameElo": null,
       "awayId": 251,
       "awayTeam": "Texas",

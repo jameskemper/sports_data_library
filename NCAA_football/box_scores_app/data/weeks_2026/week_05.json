@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 5,
     "season_type": "regular",
-    "fetched_at": "2026-09-30T17:50:24+00:00",
+    "fetched_at": "2026-10-01T18:16:11+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=5&seasonType=regular"
   },
   "data": [
@@ -9963,7 +9963,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1572,
+      "homePregameElo": 1550,
       "homePostgameElo": null,
       "awayId": 2390,
       "awayTeam": "Miami",
@@ -10143,7 +10143,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1861,
+      "homePregameElo": 1736,
       "homePostgameElo": 1861,
       "awayId": 2377,
       "awayTeam": "McNeese",
