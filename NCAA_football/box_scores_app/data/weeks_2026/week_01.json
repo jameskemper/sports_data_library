@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 1,
     "season_type": "regular",
-    "fetched_at": "2026-10-03T16:00:16+00:00",
+    "fetched_at": "2026-10-04T16:41:21+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=1&seasonType=regular"
   },
   "data": [
@@ -18643,7 +18643,7 @@
       ],
       "homePostgameWinProbability": 0.988840639591217,
       "homePregameElo": 1616,
-      "homePostgameElo": 1736,
+      "homePostgameElo": 1745,
       "awayId": 228,
       "awayTeam": "Clemson",
       "awayClassification": "fbs",
@@ -18657,7 +18657,7 @@
       ],
       "awayPostgameWinProbability": 0.011159360408782959,
       "awayPregameElo": 1670,
-      "awayPostgameElo": 1550,
+      "awayPostgameElo": 1541,
       "excitementIndex": 2.4920462615485617,
       "highlights": "",
       "notes": null,
