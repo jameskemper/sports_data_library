@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 10,
     "season_type": "regular",
-    "fetched_at": "2026-10-06T18:09:11+00:00",
+    "fetched_at": "2026-10-07T18:42:18+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=10&seasonType=regular"
   },
   "data": [
@@ -243,7 +243,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1227,
+      "homePregameElo": 1190,
       "homePostgameElo": null,
       "awayId": 256,
       "awayTeam": "James Madison",
@@ -1575,7 +1575,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1395,
+      "homePregameElo": 1432,
       "homePostgameElo": null,
       "awayId": 2348,
       "awayTeam": "Louisiana Tech",

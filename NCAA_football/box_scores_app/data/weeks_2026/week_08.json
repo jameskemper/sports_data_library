@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 8,
     "season_type": "regular",
-    "fetched_at": "2026-10-06T18:09:09+00:00",
+    "fetched_at": "2026-10-07T18:42:17+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=8&seasonType=regular"
   },
   "data": [
@@ -1503,7 +1503,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1227,
+      "homePregameElo": 1190,
       "homePostgameElo": null,
       "awayId": 309,
       "awayTeam": "Louisiana",
@@ -1539,7 +1539,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1395,
+      "homePregameElo": 1432,
       "homePostgameElo": null,
       "awayId": 2433,
       "awayTeam": "UL Monroe",
