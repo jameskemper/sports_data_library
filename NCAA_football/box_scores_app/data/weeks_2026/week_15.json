@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 15,
     "season_type": "regular",
-    "fetched_at": "2026-10-24T15:42:50+00:00",
+    "fetched_at": "2026-10-25T15:50:39+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=15&seasonType=regular"
   },
   "data": [
@@ -27,7 +27,7 @@
       "homePoints": null,
       "homeLineScores": null,
       "homePostgameWinProbability": null,
-      "homePregameElo": 1579,
+      "homePregameElo": 1571,
       "homePostgameElo": null,
       "awayId": 2426,
       "awayTeam": "Navy",
@@ -36,7 +36,7 @@
       "awayPoints": null,
       "awayLineScores": null,
       "awayPostgameWinProbability": null,
-      "awayPregameElo": 1493,
+      "awayPregameElo": 1487,
       "awayPostgameElo": null,
       "excitementIndex": null,
       "highlights": "",
