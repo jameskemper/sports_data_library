@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 8,
     "season_type": "regular",
-    "fetched_at": "2026-10-25T15:50:36+00:00",
+    "fetched_at": "2026-10-26T18:31:08+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=8&seasonType=regular"
   },
   "data": [
@@ -403,7 +403,7 @@
         0,
         6
       ],
-      "homePostgameWinProbability": 0.14439530670642853,
+      "homePostgameWinProbability": 0.1252635270357132,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2428,
@@ -417,10 +417,10 @@
         7,
         14
       ],
-      "awayPostgameWinProbability": 0.8556046932935715,
+      "awayPostgameWinProbability": 0.8747364729642868,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.803885796829419,
+      "excitementIndex": 3.8267541151341296,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -512,7 +512,7 @@
       "awayPostgameWinProbability": 0.401276171207428,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.807527628633923,
+      "excitementIndex": 5.810309317800945,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -1049,7 +1049,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": 0.9654913544654846,
+      "homePostgameWinProbability": 0.9790789484977722,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 160,
@@ -1063,10 +1063,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.03450864553451538,
+      "awayPostgameWinProbability": 0.020921051502227783,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.167492402683952,
+      "excitementIndex": 5.1867318879477775,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -1170,7 +1170,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -1233,7 +1233,7 @@
         7,
         7
       ],
-      "homePostgameWinProbability": 0.7234523296356201,
+      "homePostgameWinProbability": 0.537865400314331,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 284,
@@ -1247,10 +1247,10 @@
         6,
         7
       ],
-      "awayPostgameWinProbability": 0.2765476703643799,
+      "awayPostgameWinProbability": 0.46213459968566895,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.070544931910373,
+      "excitementIndex": 6.083988118827028,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -1584,7 +1584,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -1768,7 +1768,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -1896,7 +1896,7 @@
       "awayPostgameWinProbability": 0.24328821897506714,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 7.003832202197949,
+      "excitementIndex": 7.0381410643068545,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -1942,7 +1942,7 @@
       "awayPostgameWinProbability": 0.9876324301585555,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.785680513072004,
+      "excitementIndex": 4.561048786328517,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -1971,7 +1971,7 @@
         14,
         7
       ],
-      "homePostgameWinProbability": 1,
+      "homePostgameWinProbability": 0.9855391383171082,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2441,
@@ -1985,10 +1985,10 @@
         6,
         8
       ],
-      "awayPostgameWinProbability": 0,
+      "awayPostgameWinProbability": 0.014460861682891846,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.2356425855017465,
+      "excitementIndex": 3.1230101661346064,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -2017,7 +2017,7 @@
         0,
         35
       ],
-      "homePostgameWinProbability": 0.9772890210151672,
+      "homePostgameWinProbability": 0.9925748705863953,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2681,
@@ -2031,10 +2031,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": 0.022710978984832764,
+      "awayPostgameWinProbability": 0.007425129413604736,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.135572040513344,
+      "excitementIndex": 5.080670083001442,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -2092,7 +2092,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2138,7 +2138,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2230,7 +2230,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T16:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2494,7 +2494,7 @@
       "awayPostgameWinProbability": 1,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.3563442188411265,
+      "excitementIndex": 4.391028996100953,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -2569,7 +2569,7 @@
         10,
         6
       ],
-      "homePostgameWinProbability": 0.3975912034511566,
+      "homePostgameWinProbability": 0.3720267415046692,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 301,
@@ -2583,10 +2583,10 @@
         7,
         15
       ],
-      "awayPostgameWinProbability": 0.6024087965488434,
+      "awayPostgameWinProbability": 0.6279732584953308,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.942989162509341,
+      "excitementIndex": 6.064143676301687,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -2644,7 +2644,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -2782,7 +2782,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3121,7 +3121,7 @@
         0,
         7
       ],
-      "homePostgameWinProbability": 0.9073951244354248,
+      "homePostgameWinProbability": 0.9167667627334595,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2296,
@@ -3135,10 +3135,10 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": 0.0926048755645752,
+      "awayPostgameWinProbability": 0.08323323726654053,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.485790285528913,
+      "excitementIndex": 6.574256337479544,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -3276,7 +3276,7 @@
       "awayPostgameWinProbability": 0.01946723461151123,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.341514957068787,
+      "excitementIndex": 2.3434716583474735,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -3322,7 +3322,7 @@
       "awayPostgameWinProbability": 1,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.832573837328271,
+      "excitementIndex": 4.787443822908715,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -3380,7 +3380,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -3535,7 +3535,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": 0.00549753662198782,
+      "homePostgameWinProbability": 0.0015070245135575533,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2086,
@@ -3549,10 +3549,10 @@
         3,
         13
       ],
-      "awayPostgameWinProbability": 0.9945024633780122,
+      "awayPostgameWinProbability": 0.9984929754864424,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.958501411887853,
+      "excitementIndex": 6.172449133795982,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -3932,7 +3932,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -4484,7 +4484,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T17:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -5530,7 +5530,7 @@
       "awayPostgameWinProbability": 0.9894413948059082,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.551498012702638,
+      "excitementIndex": 4.369559662501985,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -5576,7 +5576,7 @@
       "awayPostgameWinProbability": 0.08975011110305786,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.153604933652472,
+      "excitementIndex": 4.106850931081366,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -5990,7 +5990,7 @@
       "awayPostgameWinProbability": 0.9849334107711911,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.217430224356906,
+      "excitementIndex": 4.288240370070445,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -6893,7 +6893,7 @@
         7,
         3
       ],
-      "homePostgameWinProbability": 0.546088457107544,
+      "homePostgameWinProbability": 0.547330379486084,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2460,
@@ -6907,10 +6907,10 @@
         3,
         7
       ],
-      "awayPostgameWinProbability": 0.45391154289245605,
+      "awayPostgameWinProbability": 0.452669620513916,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.180799766634017,
+      "excitementIndex": 5.316615262520976,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7014,7 +7014,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -7140,7 +7140,7 @@
       "awayPostgameWinProbability": 0.9217231646180153,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.22538711876448,
+      "excitementIndex": 5.215912728458132,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7464,7 +7464,7 @@
       "awayPostgameWinProbability": 0.985140010714531,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.7759700329625776,
+      "excitementIndex": 3.798350141396959,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7556,7 +7556,7 @@
       "awayPostgameWinProbability": 0.005216658115386963,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.3410779684834293,
+      "excitementIndex": 3.404686614876251,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7878,7 +7878,7 @@
       "awayPostgameWinProbability": 0.9923854870721698,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.1752658107999565,
+      "excitementIndex": 4.177728346198037,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -7890,7 +7890,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -8754,7 +8754,7 @@
       "awayPostgameWinProbability": 0.05750393867492676,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.8409249813519,
+      "excitementIndex": 6.884086115046039,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -8783,7 +8783,7 @@
         10,
         0
       ],
-      "homePostgameWinProbability": 0.7429527044296265,
+      "homePostgameWinProbability": 0.8611142039299011,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2619,
@@ -8797,10 +8797,10 @@
         7,
         3
       ],
-      "awayPostgameWinProbability": 0.25704729557037354,
+      "awayPostgameWinProbability": 0.13888579607009888,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.613728115622515,
+      "excitementIndex": 5.639945576254839,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -8829,7 +8829,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": null,
+      "homePostgameWinProbability": 0.9508527517318726,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2142,
@@ -8843,10 +8843,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": null,
+      "awayPostgameWinProbability": 0.04914724826812744,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": null,
+      "excitementIndex": 4.052534067912863,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -8938,7 +8938,7 @@
       "awayPostgameWinProbability": 0.9926654053851962,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.790434764730233,
+      "excitementIndex": 3.627132140332504,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -9492,7 +9492,7 @@
       "awayPostgameWinProbability": 1,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.8065035523544175,
+      "excitementIndex": 4.6016849301176945,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -9860,7 +9860,7 @@
       "awayPostgameWinProbability": 0.16385036706924438,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.016667266403138,
+      "excitementIndex": 4.021806557689606,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -9908,7 +9908,7 @@
       "awayPostgameWinProbability": 0.8230031132698059,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.1981355182748805,
+      "excitementIndex": 6.221063003586927,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -9983,7 +9983,7 @@
         7,
         14
       ],
-      "homePostgameWinProbability": 0.9904778003692627,
+      "homePostgameWinProbability": 0.9791964292526245,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2692,
@@ -9997,10 +9997,10 @@
         0,
         6
       ],
-      "awayPostgameWinProbability": 0.009522199630737305,
+      "awayPostgameWinProbability": 0.02080357074737549,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 6.1812725243714555,
+      "excitementIndex": 5.91141046389835,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10167,7 +10167,7 @@
         8,
         14
       ],
-      "homePostgameWinProbability": 0.9810255169868469,
+      "homePostgameWinProbability": 0.9897571802139282,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 163,
@@ -10181,10 +10181,10 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.018974483013153076,
+      "awayPostgameWinProbability": 0.010242819786071777,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.3591528699752433,
+      "excitementIndex": 2.3604606188956367,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10213,7 +10213,7 @@
         7,
         3
       ],
-      "homePostgameWinProbability": 0.9506146907806396,
+      "homePostgameWinProbability": 0.9358275532722473,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2582,
@@ -10227,10 +10227,10 @@
         7,
         7
       ],
-      "awayPostgameWinProbability": 0.04938530921936035,
+      "awayPostgameWinProbability": 0.06417244672775269,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.5958567717472585,
+      "excitementIndex": 4.359537196275657,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10368,7 +10368,7 @@
       "awayPostgameWinProbability": 0.020753085613250732,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.4981180992144214,
+      "excitementIndex": 2.4960707988756763,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10397,7 +10397,7 @@
         0,
         0
       ],
-      "homePostgameWinProbability": 0.35926327109336853,
+      "homePostgameWinProbability": 0.15813493728637695,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2546,
@@ -10411,7 +10411,7 @@
         7,
         0
       ],
-      "awayPostgameWinProbability": 0.6407367289066315,
+      "awayPostgameWinProbability": 0.841865062713623,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 4.539929477215452,
@@ -10460,7 +10460,7 @@
       "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.594802214125948,
+      "excitementIndex": 2.682365251998262,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10552,7 +10552,7 @@
       "awayPostgameWinProbability": 0.043855369091033936,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.175224008964175,
+      "excitementIndex": 4.142189088271731,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10581,7 +10581,7 @@
         7,
         6
       ],
-      "homePostgameWinProbability": 0.5732203125953674,
+      "homePostgameWinProbability": 0.48166993260383606,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2447,
@@ -10595,10 +10595,10 @@
         14,
         7
       ],
-      "awayPostgameWinProbability": 0.42677968740463257,
+      "awayPostgameWinProbability": 0.5183300673961639,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 7.390765839468597,
+      "excitementIndex": 7.08261187665167,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10644,7 +10644,7 @@
       "awayPostgameWinProbability": 0.5908396542072296,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.9634323660522695,
+      "excitementIndex": 6.238813810553563,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -10811,7 +10811,7 @@
         0,
         7
       ],
-      "homePostgameWinProbability": 0,
+      "homePostgameWinProbability": 0.014699089340865612,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2127,
@@ -10825,10 +10825,10 @@
         3,
         0
       ],
-      "awayPostgameWinProbability": 1,
+      "awayPostgameWinProbability": 0.9853009106591344,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.58742243156659,
+      "excitementIndex": 3.7153967534531134,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -11106,7 +11106,7 @@
       "awayPostgameWinProbability": 0.5984547436237335,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 7.750218280995144,
+      "excitementIndex": 7.996387035080284,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -11549,7 +11549,7 @@
         14,
         7
       ],
-      "homePostgameWinProbability": 0.9990895390510559,
+      "homePostgameWinProbability": 0.9979168176651001,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2277,
@@ -11563,10 +11563,10 @@
         0,
         0
       ],
-      "awayPostgameWinProbability": 0.0009104609489440918,
+      "awayPostgameWinProbability": 0.0020831823348999023,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.4956033341658466,
+      "excitementIndex": 3.497561108328139,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -11936,7 +11936,7 @@
       "awayPostgameWinProbability": 0.0007590055465698242,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.542361057280524,
+      "excitementIndex": 3.540210879324897,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -11948,7 +11948,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T20:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -12086,7 +12086,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T21:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -12149,7 +12149,7 @@
         3,
         10
       ],
-      "homePostgameWinProbability": 0.7958802580833435,
+      "homePostgameWinProbability": 0.4974013864994049,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 253,
@@ -12163,10 +12163,10 @@
         8,
         10
       ],
-      "awayPostgameWinProbability": 0.2041197419166565,
+      "awayPostgameWinProbability": 0.5025986135005951,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.941585949710438,
+      "excitementIndex": 6.055306910966991,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -12195,7 +12195,7 @@
         8,
         7
       ],
-      "homePostgameWinProbability": 0.009552443400025368,
+      "homePostgameWinProbability": 0.00883265770971775,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 3101,
@@ -12209,10 +12209,10 @@
         7,
         16
       ],
-      "awayPostgameWinProbability": 0.9904475565999746,
+      "awayPostgameWinProbability": 0.9911673422902822,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 5.342322098795265,
+      "excitementIndex": 5.882257250028822,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -12426,7 +12426,7 @@
         3,
         3
       ],
-      "homePostgameWinProbability": 0.30960139632225037,
+      "homePostgameWinProbability": 0.3449898362159729,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 292,
@@ -12441,7 +12441,7 @@
         3,
         6
       ],
-      "awayPostgameWinProbability": 0.6903986036777496,
+      "awayPostgameWinProbability": 0.6550101637840271,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 9.17531246644559,
@@ -12565,7 +12565,7 @@
         0,
         14
       ],
-      "homePostgameWinProbability": 0.8954650163650513,
+      "homePostgameWinProbability": 0.8979084491729736,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2502,
@@ -12579,7 +12579,7 @@
         8,
         0
       ],
-      "awayPostgameWinProbability": 0.10453498363494873,
+      "awayPostgameWinProbability": 0.10209155082702637,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 2.7171833210844216,
@@ -12674,7 +12674,7 @@
       "awayPostgameWinProbability": 0,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 3.5498334189373075,
+      "excitementIndex": 3.55343914231835,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -12686,7 +12686,7 @@
       "seasonType": "regular",
       "startDate": "2026-10-24T22:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": false,
       "attendance": null,
@@ -12887,7 +12887,7 @@
         10,
         6
       ],
-      "homePostgameWinProbability": 0.9799346327781677,
+      "homePostgameWinProbability": 0.982867956161499,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2458,
@@ -12901,10 +12901,10 @@
         0,
         6
       ],
-      "awayPostgameWinProbability": 0.020065367221832275,
+      "awayPostgameWinProbability": 0.017132043838500977,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 2.3802166194318857,
+      "excitementIndex": 2.382532259882808,
       "highlights": "",
       "notes": null,
       "playoff": null
@@ -12979,7 +12979,7 @@
         14,
         0
       ],
-      "homePostgameWinProbability": 0.5137393474578857,
+      "homePostgameWinProbability": 0.49816030263900757,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2046,
@@ -12993,7 +12993,7 @@
         17,
         3
       ],
-      "awayPostgameWinProbability": 0.48626065254211426,
+      "awayPostgameWinProbability": 0.5018396973609924,
       "awayPregameElo": null,
       "awayPostgameElo": null,
       "excitementIndex": 5.796722912359509,
@@ -13071,7 +13071,7 @@
         0,
         13
       ],
-      "homePostgameWinProbability": 0.03609709069132805,
+      "homePostgameWinProbability": 0.03933507576584816,
       "homePregameElo": null,
       "homePostgameElo": null,
       "awayId": 2504,
@@ -13085,10 +13085,10 @@
         3,
         13
       ],
-      "awayPostgameWinProbability": 0.963902909308672,
+      "awayPostgameWinProbability": 0.9606649242341518,
       "awayPregameElo": null,
       "awayPostgameElo": null,
-      "excitementIndex": 4.73416247891786,
+      "excitementIndex": 4.720165249400795,
       "highlights": "",
       "notes": null,
       "playoff": null
