@@ -3,7 +3,7 @@
     "year": 2026,
     "week": 9,
     "season_type": "regular",
-    "fetched_at": "2026-11-01T17:48:06+00:00",
+    "fetched_at": "2026-11-02T21:34:10+00:00",
     "source_url": "https://api.collegefootballdata.com/games?year=2026&week=9&seasonType=regular"
   },
   "data": [
@@ -14434,7 +14434,7 @@
       "seasonType": "regular",
       "startDate": "2026-11-01T18:00:00.000Z",
       "startTimeTBD": false,
-      "completed": false,
+      "completed": true,
       "neutralSite": false,
       "conferenceGame": true,
       "attendance": null,
@@ -14444,8 +14444,13 @@
       "homeTeam": "King's",
       "homeClassification": "iii",
       "homeConference": "Mid Atlantic",
-      "homePoints": null,
-      "homeLineScores": null,
+      "homePoints": 35,
+      "homeLineScores": [
+        14,
+        14,
+        7,
+        0
+      ],
       "homePostgameWinProbability": null,
       "homePregameElo": null,
       "homePostgameElo": null,
@@ -14453,8 +14458,13 @@
       "awayTeam": "Delaware Valley",
       "awayClassification": "iii",
       "awayConference": "Mid Atlantic",
-      "awayPoints": null,
-      "awayLineScores": null,
+      "awayPoints": 61,
+      "awayLineScores": [
+        6,
+        13,
+        21,
+        21
+      ],
       "awayPostgameWinProbability": null,
       "awayPregameElo": null,
       "awayPostgameElo": null,
