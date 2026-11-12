@@ -401,3 +401,132 @@ game_id,season,week,home_team,away_team,neutral_site,conference_game,completed,h
 401858284,2026,9,Wake Forest,Virginia,False,True,False,,,,9.2,0.7692,12.49,Wake Forest,0.7692,11839,model_current.json
 401871071,2026,9,Western Kentucky,Delaware,False,True,True,21.0,35.0,-14.0,-6.9,0.2903,12.48,Delaware,0.7097,11839,model_current.json
 401866452,2026,9,Western Michigan,Bowling Green,False,True,False,,,,15.28,0.8895,12.48,Western Michigan,0.8895,11839,model_current.json
+401866453,2026,10,Akron,Ohio,False,True,True,20.0,28.0,-8.0,-28.97,0.0102,12.48,Ohio,0.9898,11895,model_current.json
+401869927,2026,10,App State,Georgia State,False,True,False,,,,-0.57,0.4816,12.47,Georgia State,0.5184,11895,model_current.json
+401856855,2026,10,Arizona,TCU,False,True,False,,,,12.74,0.8464,12.47,Arizona,0.8464,11895,model_current.json
+401856852,2026,10,Arizona State,Colorado,False,True,False,,,,14.08,0.8704,12.47,Arizona State,0.8704,11895,model_current.json
+401869936,2026,10,Arkansas State,UL Monroe,False,True,False,,,,18.43,0.9301,12.48,Arkansas State,0.9301,11895,model_current.json
+401862823,2026,10,Army,Air Force,False,False,False,,,,7.21,0.7184,12.48,Army,0.7184,11895,model_current.json
+401856738,2026,10,Auburn,Arkansas,False,True,False,,,,8.97,0.7639,12.48,Auburn,0.7639,11895,model_current.json
+401856853,2026,10,Baylor,Iowa State,False,True,False,,,,7.64,0.7297,12.48,Baylor,0.7297,11895,model_current.json
+401858289,2026,10,Boston College,Florida State,False,True,False,,,,-10.97,0.1896,12.48,Florida State,0.8104,11895,model_current.json
+401869945,2026,10,Coastal Carolina,Old Dominion,False,True,False,,,,10.59,0.8018,12.48,Coastal Carolina,0.8018,11895,model_current.json
+401860911,2026,10,Colorado State,Boise State,False,True,False,,,,-26.34,0.0175,12.48,Boise State,0.9825,11895,model_current.json
+401862818,2026,10,East Carolina,South Florida,False,True,False,,,,-9.07,0.2337,12.48,South Florida,0.7663,11895,model_current.json
+401866456,2026,10,Eastern Michigan,Central Michigan,True,True,False,,,,0.06,0.5018,12.54,Eastern Michigan,0.5018,11895,model_current.json
+401856739,2026,10,Florida,Oklahoma,False,True,False,,,,-0.41,0.487,12.48,Oklahoma,0.513,11895,model_current.json
+401862817,2026,10,Florida Atlantic,UTSA,False,True,False,,,,-15.27,0.1106,12.48,UTSA,0.8894,11895,model_current.json
+401871074,2026,10,Florida International,Missouri State,False,True,False,,,,7.33,0.7216,12.48,Florida International,0.7216,11895,model_current.json
+401869951,2026,10,Georgia Southern,Marshall,False,True,False,,,,2.18,0.5695,12.48,Georgia Southern,0.5695,11895,model_current.json
+401858287,2026,10,Georgia Tech,Louisville,False,True,False,,,,-13.4,0.1415,12.48,Louisville,0.8585,11895,model_current.json
+401856851,2026,10,Houston,Cincinnati,False,True,False,,,,6.02,0.6852,12.48,Houston,0.6852,11895,model_current.json
+401858510,2026,10,Illinois,Nebraska,False,True,False,,,,-5.93,0.3173,12.48,Nebraska,0.6827,11895,model_current.json
+401871075,2026,10,Jacksonville State,Sam Houston,False,True,False,,,,24.6,0.9756,12.48,Jacksonville State,0.9756,11895,model_current.json
+401856850,2026,10,Kansas,UCF,False,True,False,,,,12.6,0.8437,12.47,Kansas,0.8437,11895,model_current.json
+401856854,2026,10,Kansas State,Oklahoma State,False,True,False,,,,10.84,0.8076,12.48,Kansas State,0.8076,11895,model_current.json
+401871073,2026,10,Kennesaw State,Delaware,False,True,False,,,,-3.45,0.391,12.47,Delaware,0.609,11895,model_current.json
+401856740,2026,10,LSU,Alabama,False,True,False,,,,3.62,0.6141,12.47,LSU,0.6141,11895,model_current.json
+401869968,2026,10,Louisiana,South Alabama,False,True,False,,,,8.87,0.7613,12.48,Louisiana,0.7613,11895,model_current.json
+401866455,2026,10,Massachusetts,Ball State,False,True,False,,,,0.69,0.522,12.48,Massachusetts,0.522,11895,model_current.json
+401866454,2026,10,Miami (OH),Buffalo,False,True,True,31.0,34.0,-3.0,-4.59,0.3564,12.47,Buffalo,0.6436,11895,model_current.json
+401858511,2026,10,Michigan,Michigan State,False,True,False,,,,13.1,0.853,12.48,Michigan,0.853,11895,model_current.json
+401871076,2026,10,Middle Tennessee,Western Kentucky,False,True,False,,,,-4.25,0.3667,12.48,Western Kentucky,0.6333,11895,model_current.json
+401858512,2026,10,Minnesota,UCLA,False,True,False,,,,-6.47,0.3021,12.49,UCLA,0.6979,11895,model_current.json
+401856742,2026,10,Mississippi State,Vanderbilt,False,True,False,,,,-1.97,0.4372,12.48,Vanderbilt,0.5628,11895,model_current.json
+401856743,2026,10,Missouri,Texas,False,True,False,,,,-4.7,0.3533,12.48,Texas,0.6467,11895,model_current.json
+401858286,2026,10,NC State,Duke,False,True,False,,,,-9.91,0.2137,12.48,Duke,0.7863,11895,model_current.json
+401862820,2026,10,Navy,Temple,False,True,False,,,,14.43,0.8763,12.48,Navy,0.8763,11895,model_current.json
+401864533,2026,10,Nevada,New Mexico,False,True,False,,,,-8.61,0.2451,12.48,New Mexico,0.7549,11895,model_current.json
+401870795,2026,10,New Mexico State,Liberty,False,True,False,,,,-32.32,0.0048,12.49,Liberty,0.9952,11895,model_current.json
+401862821,2026,10,North Texas,Rice,False,True,False,,,,31.15,0.9937,12.48,North Texas,0.9937,11895,model_current.json
+401858513,2026,10,Northwestern,Iowa,False,True,False,,,,-8.29,0.2533,12.48,Iowa,0.7467,11895,model_current.json
+401858291,2026,10,Notre Dame,Miami,False,False,False,,,,8.37,0.7489,12.48,Notre Dame,0.7489,11895,model_current.json
+401858514,2026,10,Ohio State,Oregon,False,True,False,,,,13.42,0.8589,12.47,Ohio State,0.8589,11895,model_current.json
+401856741,2026,10,Ole Miss,Georgia,False,True,False,,,,2.45,0.5778,12.48,Ole Miss,0.5778,11895,model_current.json
+401860912,2026,10,Oregon State,Texas State,False,True,False,,,,2.31,0.5733,12.47,Oregon State,0.5733,11895,model_current.json
+401858515,2026,10,Purdue,Maryland,False,True,False,,,,9.65,0.7804,12.48,Purdue,0.7804,11895,model_current.json
+401858288,2026,10,SMU,Virginia Tech,False,True,False,,,,14.21,0.8726,12.47,SMU,0.8726,11895,model_current.json
+401866457,2026,10,Sacramento State,Toledo,False,True,False,,,,-25.0,0.0227,12.49,Toledo,0.9773,11895,model_current.json
+401864534,2026,10,San José State,Northern Illinois,False,True,False,,,,16.05,0.9008,12.48,San José State,0.9008,11895,model_current.json
+401856744,2026,10,South Carolina,Texas A&M,False,True,False,,,,3.57,0.6126,12.47,South Carolina,0.6126,11895,model_current.json
+401869964,2026,10,Southern Miss,James Madison,False,True,False,,,,-28.01,0.0125,12.48,James Madison,0.9875,11895,model_current.json
+401858285,2026,10,Syracuse,Clemson,False,True,False,,,,-11.11,0.1866,12.48,Clemson,0.8134,11895,model_current.json
+401856745,2026,10,Tennessee,Kentucky,False,True,False,,,,14.7,0.8806,12.48,Tennessee,0.8806,11895,model_current.json
+401856856,2026,10,Texas Tech,West Virginia,False,True,False,,,,23.79,0.9716,12.48,Texas Tech,0.9716,11895,model_current.json
+401871098,2026,10,Troy,Louisiana Tech,False,True,False,,,,-3.39,0.393,12.47,Louisiana Tech,0.607,11895,model_current.json
+401862822,2026,10,Tulane,Tulsa,False,True,False,,,,13.25,0.8558,12.48,Tulane,0.8558,11895,model_current.json
+401862819,2026,10,UAB,Charlotte,False,True,False,,,,18.5,0.9309,12.48,UAB,0.9309,11895,model_current.json
+401858292,2026,10,UConn,North Carolina,False,False,False,,,,2.42,0.5769,12.48,UConn,0.5769,11895,model_current.json
+401864535,2026,10,UNLV,Wyoming,False,True,False,,,,8.42,0.75,12.48,UNLV,0.75,11895,model_current.json
+401864532,2026,10,UTEP,Hawai'i,False,True,False,,,,-20.94,0.0468,12.48,Hawai'i,0.9532,11895,model_current.json
+401856849,2026,10,Utah,BYU,False,True,False,,,,13.18,0.8546,12.47,Utah,0.8546,11895,model_current.json
+401860913,2026,10,Utah State,Fresno State,False,True,False,,,,-13.2,0.1451,12.48,Fresno State,0.8549,11895,model_current.json
+401858516,2026,10,Washington,Penn State,False,True,False,,,,-1.55,0.4506,12.47,Penn State,0.5494,11895,model_current.json
+401858517,2026,10,Wisconsin,Rutgers,False,True,False,,,,14.41,0.8757,12.48,Wisconsin,0.8757,11895,model_current.json
+401864538,2026,11,Air Force,San José State,False,True,False,,,,8.62,0.7546,12.51,Air Force,0.7546,11957,model_current.json
+401866458,2026,11,Akron,Western Michigan,False,True,True,14.0,42.0,-28.0,-36.01,0.002,12.53,Western Michigan,0.998,11957,model_current.json
+401856864,2026,11,Arizona,Utah,False,True,False,,,,-0.19,0.494,12.52,Utah,0.506,11957,model_current.json
+401856882,2026,11,Arkansas,South Carolina,False,True,False,,,,-10.96,0.1905,12.5,South Carolina,0.8095,11957,model_current.json
+401856858,2026,11,BYU,Baylor,False,True,False,,,,-0.22,0.4931,12.51,Baylor,0.5069,11957,model_current.json
+401866461,2026,11,Ball State,Buffalo,False,True,False,,,,-11.72,0.1743,12.51,Buffalo,0.8257,11957,model_current.json
+401860914,2026,11,Boise State,Oregon State,False,True,False,,,,10.67,0.8033,12.5,Boise State,0.8033,11957,model_current.json
+401866459,2026,11,Bowling Green,Kent State,False,True,True,33.0,28.0,5.0,16.03,0.8999,12.51,Bowling Green,0.8999,11957,model_current.json
+401866462,2026,11,Central Michigan,Sacramento State,False,True,False,,,,14.46,0.876,12.51,Central Michigan,0.876,11957,model_current.json
+401862825,2026,11,Charlotte,East Carolina,False,True,False,,,,-18.84,0.0661,12.51,East Carolina,0.9339,11957,model_current.json
+401858297,2026,11,Clemson,Georgia Tech,False,True,False,,,,13.41,0.8581,12.5,Clemson,0.8581,11957,model_current.json
+401869937,2026,11,Coastal Carolina,Arkansas State,False,True,False,,,,-0.93,0.4704,12.5,Arkansas State,0.5296,11957,model_current.json
+401856860,2026,11,Colorado,Houston,False,True,False,,,,-14.81,0.1184,12.51,Houston,0.8816,11957,model_current.json
+401871060,2026,11,Delaware,Florida International,False,True,False,,,,5.49,0.6697,12.5,Delaware,0.6697,11957,model_current.json
+401856883,2026,11,Georgia,Missouri,False,True,False,,,,17.8,0.9225,12.51,Georgia,0.9225,11957,model_current.json
+401869952,2026,11,Georgia State,Georgia Southern,False,True,False,,,,-5.34,0.3345,12.5,Georgia Southern,0.6655,11957,model_current.json
+401864537,2026,11,Hawai'i,North Dakota State,False,True,False,,,,-8.01,0.2609,12.51,North Dakota State,0.7391,11957,model_current.json
+401858518,2026,11,Indiana,USC,False,True,False,,,,12.22,0.8356,12.51,Indiana,0.8356,11957,model_current.json
+401858519,2026,11,Iowa,Purdue,False,True,False,,,,27.05,0.9847,12.51,Iowa,0.9847,11957,model_current.json
+401856859,2026,11,Iowa State,Cincinnati,False,True,False,,,,4.58,0.6431,12.5,Iowa State,0.6431,11957,model_current.json
+401856884,2026,11,Kentucky,Florida,False,True,False,,,,-1.42,0.4547,12.51,Florida,0.5453,11957,model_current.json
+401856885,2026,11,LSU,Texas,False,True,False,,,,1.98,0.563,12.52,LSU,0.563,11957,model_current.json
+401871061,2026,11,Liberty,Middle Tennessee,False,True,False,,,,37.19,0.9985,12.52,Liberty,0.9985,11957,model_current.json
+401871099,2026,11,Louisiana Tech,Southern Miss,False,True,False,,,,18.29,0.9281,12.51,Louisiana Tech,0.9281,11957,model_current.json
+401869928,2026,11,Marshall,App State,False,True,False,,,,4.95,0.6538,12.5,Marshall,0.6538,11957,model_current.json
+401858520,2026,11,Maryland,Wisconsin,False,True,False,,,,-15.02,0.1149,12.51,Wisconsin,0.8851,11957,model_current.json
+401858296,2026,11,Miami,Duke,False,True,False,,,,7.88,0.7353,12.52,Miami,0.7353,11957,model_current.json
+401866460,2026,11,Miami (OH),Ohio,False,True,True,34.0,17.0,17.0,-0.83,0.4736,12.5,Ohio,0.5264,11957,model_current.json
+401858521,2026,11,Michigan State,Washington,False,True,False,,,,-7.47,0.2751,12.51,Washington,0.7249,11957,model_current.json
+401856886,2026,11,Mississippi State,Auburn,False,True,False,,,,-5.67,0.3251,12.51,Auburn,0.6749,11957,model_current.json
+401870796,2026,11,Missouri State,New Mexico State,False,True,False,,,,2.98,0.5942,12.5,Missouri State,0.5942,11957,model_current.json
+401858300,2026,11,NC State,Syracuse,False,True,False,,,,6.71,0.7042,12.5,NC State,0.7042,11957,model_current.json
+401864539,2026,11,New Mexico,UNLV,False,True,False,,,,13.78,0.8646,12.51,New Mexico,0.8646,11957,model_current.json
+401858298,2026,11,North Carolina,Louisville,False,True,False,,,,-8.11,0.2583,12.51,Louisville,0.7417,11957,model_current.json
+401864536,2026,11,Northern Illinois,Nevada,False,True,False,,,,-13.34,0.1432,12.51,Nevada,0.8568,11957,model_current.json
+401858294,2026,11,Notre Dame,Boston College,False,False,False,,,,37.08,0.9985,12.52,Notre Dame,0.9985,11957,model_current.json
+401858522,2026,11,Ohio State,Northwestern,False,True,False,,,,15.92,0.8984,12.51,Ohio State,0.8984,11957,model_current.json
+401856887,2026,11,Oklahoma,Ole Miss,False,True,False,,,,-8.15,0.2575,12.51,Ole Miss,0.7425,11957,model_current.json
+401856863,2026,11,Oklahoma State,Texas Tech,False,True,False,,,,-7.13,0.2844,12.51,Texas Tech,0.7156,11957,model_current.json
+401858523,2026,11,Oregon,Michigan,False,True,False,,,,12.62,0.8436,12.5,Oregon,0.8436,11957,model_current.json
+401858524,2026,11,Penn State,Minnesota,False,True,False,,,,18.73,0.9328,12.51,Penn State,0.9328,11957,model_current.json
+401858293,2026,11,Pittsburgh,Florida State,False,True,False,,,,3.78,0.6187,12.5,Pittsburgh,0.6187,11957,model_current.json
+401862828,2026,11,Rice,Tulane,False,True,False,,,,-7.24,0.2814,12.51,Tulane,0.7186,11957,model_current.json
+401858525,2026,11,Rutgers,Nebraska,False,True,False,,,,-16.07,0.0995,12.51,Nebraska,0.9005,11957,model_current.json
+401858301,2026,11,SMU,Wake Forest,False,True,False,,,,2.5,0.5793,12.51,SMU,0.5793,11957,model_current.json
+401870769,2026,11,Sam Houston,Kennesaw State,False,True,False,,,,-13.05,0.1483,12.51,Kennesaw State,0.8517,11957,model_current.json
+401860915,2026,11,San Diego State,Utah State,False,True,False,,,,-6.03,0.3148,12.51,Utah State,0.6852,11957,model_current.json
+401871100,2026,11,South Alabama,Troy,False,True,False,,,,4.61,0.6437,12.51,South Alabama,0.6437,11957,model_current.json
+401862824,2026,11,South Florida,Memphis,False,True,False,,,,-1.4,0.4553,12.5,Memphis,0.5447,11957,model_current.json
+401856862,2026,11,TCU,Kansas State,False,True,False,,,,8.83,0.7599,12.51,TCU,0.7599,11957,model_current.json
+401862829,2026,11,Temple,UAB,False,True,False,,,,-1.32,0.4581,12.51,UAB,0.5419,11957,model_current.json
+401856888,2026,11,Texas A&M,Tennessee,False,True,False,,,,-2.08,0.434,12.51,Tennessee,0.566,11957,model_current.json
+401860916,2026,11,Texas State,Fresno State,False,True,False,,,,2.06,0.5654,12.51,Texas State,0.5654,11957,model_current.json
+401866463,2026,11,Toledo,Massachusetts,False,True,False,,,,25.21,0.978,12.51,Toledo,0.978,11957,model_current.json
+401862826,2026,11,Tulsa,Florida Atlantic,False,True,False,,,,5.32,0.6647,12.51,Tulsa,0.6647,11957,model_current.json
+401856857,2026,11,UCF,Arizona State,False,True,False,,,,-1.55,0.4508,12.5,Arizona State,0.5492,11957,model_current.json
+401858526,2026,11,UCLA,Illinois,False,True,False,,,,1.6,0.5508,12.53,UCLA,0.5508,11957,model_current.json
+401861967,2026,11,UConn,James Madison,False,False,False,,,,-16.17,0.0982,12.51,James Madison,0.9018,11957,model_current.json
+401869969,2026,11,UL Monroe,Louisiana,False,True,False,,,,-20.77,0.0485,12.51,Louisiana,0.9515,11957,model_current.json
+401864540,2026,11,UTEP,Wyoming,False,True,False,,,,-17.14,0.0854,12.51,Wyoming,0.9146,11957,model_current.json
+401862827,2026,11,UTSA,North Texas,False,True,False,,,,-9.8,0.2166,12.5,North Texas,0.7834,11957,model_current.json
+401856889,2026,11,Vanderbilt,Alabama,False,True,False,,,,-15.91,0.1018,12.51,Alabama,0.8982,11957,model_current.json
+401858295,2026,11,Virginia,California,False,True,False,,,,15.52,0.8927,12.51,Virginia,0.8927,11957,model_current.json
+401858299,2026,11,Virginia Tech,Stanford,False,True,False,,,,19.16,0.9372,12.51,Virginia Tech,0.9372,11957,model_current.json
+401860917,2026,11,Washington State,Colorado State,False,True,False,,,,16.41,0.905,12.52,Washington State,0.905,11957,model_current.json
+401856861,2026,11,West Virginia,Kansas,False,True,False,,,,-7.68,0.2696,12.51,Kansas,0.7304,11957,model_current.json
+401870752,2026,11,Western Kentucky,Jacksonville State,False,True,False,,,,-12.83,0.1525,12.5,Jacksonville State,0.8475,11957,model_current.json
