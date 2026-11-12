@@ -48,5 +48,8 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add NCAA_football/elo_ratings_app/data/
-          git commit -m "Update ${YEAR} ELO data [skip ci]" || echo "No changes to commit"
-          git push origin master
+          git diff --cached --quiet || (
+            git commit -m "Update ${YEAR} ELO data [skip ci]" &&
+            git pull --rebase origin master &&
+            git push origin master
+          )
