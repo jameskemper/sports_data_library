@@ -468,10 +468,10 @@ game_id,season,week,home_team,away_team,neutral_site,conference_game,completed,h
 401856864,2026,11,Arizona,Utah,False,True,False,,,,-0.19,0.494,12.52,Utah,0.506,11957,model_current.json
 401856882,2026,11,Arkansas,South Carolina,False,True,False,,,,-10.96,0.1905,12.5,South Carolina,0.8095,11957,model_current.json
 401856858,2026,11,BYU,Baylor,False,True,False,,,,-0.22,0.4931,12.51,Baylor,0.5069,11957,model_current.json
-401866461,2026,11,Ball State,Buffalo,False,True,False,,,,-11.72,0.1743,12.51,Buffalo,0.8257,11957,model_current.json
+401866461,2026,11,Ball State,Buffalo,False,True,True,7.0,28.0,-21.0,-16.74,0.0904,12.51,Buffalo,0.9096,11957,model_current.json
 401860914,2026,11,Boise State,Oregon State,False,True,False,,,,10.67,0.8033,12.5,Boise State,0.8033,11957,model_current.json
 401866459,2026,11,Bowling Green,Kent State,False,True,True,33.0,28.0,5.0,16.03,0.8999,12.51,Bowling Green,0.8999,11957,model_current.json
-401866462,2026,11,Central Michigan,Sacramento State,False,True,False,,,,14.46,0.876,12.51,Central Michigan,0.876,11957,model_current.json
+401866462,2026,11,Central Michigan,Sacramento State,False,True,True,28.0,7.0,21.0,18.42,0.9295,12.51,Central Michigan,0.9295,11957,model_current.json
 401862825,2026,11,Charlotte,East Carolina,False,True,False,,,,-18.84,0.0661,12.51,East Carolina,0.9339,11957,model_current.json
 401858297,2026,11,Clemson,Georgia Tech,False,True,False,,,,13.41,0.8581,12.5,Clemson,0.8581,11957,model_current.json
 401869937,2026,11,Coastal Carolina,Arkansas State,False,True,False,,,,-0.93,0.4704,12.5,Arkansas State,0.5296,11957,model_current.json
@@ -516,7 +516,7 @@ game_id,season,week,home_team,away_team,neutral_site,conference_game,completed,h
 401862829,2026,11,Temple,UAB,False,True,False,,,,-1.32,0.4581,12.51,UAB,0.5419,11957,model_current.json
 401856888,2026,11,Texas A&M,Tennessee,False,True,False,,,,-2.08,0.434,12.51,Tennessee,0.566,11957,model_current.json
 401860916,2026,11,Texas State,Fresno State,False,True,False,,,,2.06,0.5654,12.51,Texas State,0.5654,11957,model_current.json
-401866463,2026,11,Toledo,Massachusetts,False,True,False,,,,25.21,0.978,12.51,Toledo,0.978,11957,model_current.json
+401866463,2026,11,Toledo,Massachusetts,False,True,True,24.0,0.0,24.0,29.18,0.9901,12.51,Toledo,0.9901,11957,model_current.json
 401862826,2026,11,Tulsa,Florida Atlantic,False,True,False,,,,5.32,0.6647,12.51,Tulsa,0.6647,11957,model_current.json
 401856857,2026,11,UCF,Arizona State,False,True,False,,,,-1.55,0.4508,12.5,Arizona State,0.5492,11957,model_current.json
 401858526,2026,11,UCLA,Illinois,False,True,False,,,,1.6,0.5508,12.53,UCLA,0.5508,11957,model_current.json
